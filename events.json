@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-11T16:53:22.42599"
+          "event-message-time-stamp": "2021-04-11T17:21:11.93132"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -224,7 +224,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-11T16:53:22.42599"
+          "event-message-time-stamp": "2021-04-11T17:21:11.93132"
         },
         "event-reference": {
           "event-identifier": "745024"
@@ -367,7 +367,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-11T16:53:22.42599"
+          "event-message-time-stamp": "2021-04-11T17:21:11.93132"
         },
         "event-reference": {
           "event-identifier": "753493"
@@ -511,7 +511,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-11T16:53:22.42599"
+          "event-message-time-stamp": "2021-04-11T17:21:11.93132"
         },
         "event-reference": {
           "event-identifier": "753497"
@@ -656,7 +656,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-11T16:53:22.42599"
+          "event-message-time-stamp": "2021-04-11T17:21:11.93132"
         },
         "event-reference": {
           "event-identifier": "757637"
@@ -734,21 +734,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Northbound at Lucky Dr (Corte Madera). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on CA-4 Eastbound west of CA-160 (Antioch). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Moderate",
-      "created": "2021-04-11T23:35Z",
-      "updated": "2021-04-11T23:53Z",
+      "created": "2021-04-12T00:03Z",
+      "updated": "2021-04-12T00:04Z",
       "areas": {
         "area": {
-          "name": "Marin",
-          "id": "5370468",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -761,8 +761,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.516535,
-          37.935152
+          -121.765745,
+          37.991606
         ]
       },
       "source_type": {
@@ -771,12 +771,160 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210411GG01679"
+        "#text": "210411GG01753"
       },
       "roads": [
         {
-          "name": "US-101 N",
-          "from": "Lucky Dr",
+          "name": "CA-4 E",
+          "from": "CA-160",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-04-12T00:03Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-04-11T17:21:11.93132"
+        },
+        "event-reference": {
+          "event-identifier": "757988"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-4 Eastbound west of CA-160 (Antioch). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-4 E",
+                  "link-from-road": "CA-160",
+                  "link-to-road": null,
+                  "link-from-city": "Antioch",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.991606",
+                    "event-location-coordinates-longitude": "-121.765745"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-04-11T17:04:44.16030",
+              "valid-period": {
+                "event-timeline-estimated-duration": "33.5"
+              },
+              "start-time": "2021-04-11T17:03:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-04-11T17:04:44.16030",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210411GG01753",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on CA-121 Northbound north of CA-116 (Unincorporated). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2021-04-12T00:12Z",
+      "updated": "2021-04-12T00:15Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.461465,
+          38.236178
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210411GG01775"
+      },
+      "roads": [
+        {
+          "name": "CA-121",
+          "from": "CA-116",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -793,21 +941,169 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-04-11T23:53Z/"
+          "2021-04-12T00:13Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-11T16:53:22.42599"
+          "event-message-time-stamp": "2021-04-11T17:21:11.93132"
         },
         "event-reference": {
-          "event-identifier": "757986"
+          "event-identifier": "757989"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-121 Northbound north of CA-116 (Unincorporated). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "CA-121",
+                  "link-from-road": "CA-116",
+                  "link-to-road": null,
+                  "link-from-city": "Unincorporated",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.236178",
+                    "event-location-coordinates-longitude": "-122.461465"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-04-11T17:15:36.87440",
+              "valid-period": {
+                "event-timeline-estimated-duration": "38.5"
+              },
+              "start-time": "2021-04-11T17:13:22.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-04-11T17:15:36.87440",
+        "ivr-article": "north of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210411GG01775",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-160 Northbound north of Antioch Bridge - Toll Plaza (Oakley). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-04-12T00:13Z",
+      "updated": "2021-04-12T00:13Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.751468,
+          38.015558
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210411GG01780"
+      },
+      "roads": [
+        {
+          "name": "CA-160 N",
+          "from": "Antioch Bridge - Toll Plaza",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-04-12T00:13Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-04-11T17:21:11.93132"
+        },
+        "event-reference": {
+          "event-identifier": "757990"
         },
         "event-status": "new",
         "details": {
@@ -828,7 +1124,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Northbound at Lucky Dr (Corte Madera). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-160 Northbound north of Antioch Bridge - Toll Plaza (Oakley). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -837,25 +1133,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Lucky Dr",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-160 N",
+                  "link-from-road": "Antioch Bridge - Toll Plaza",
                   "link-to-road": null,
-                  "link-from-city": "Corte Madera",
+                  "link-from-city": "Oakley",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.935152",
-                    "event-location-coordinates-longitude": "-122.516535"
+                    "event-location-coordinates-latitude": "38.015558",
+                    "event-location-coordinates-longitude": "-121.751468"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-04-11T16:53:21.43670",
+              "update-time": "2021-04-11T17:13:22.01530",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2021-04-11T16:53:21.00000",
+              "start-time": "2021-04-11T17:13:22.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -869,13 +1165,161 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-04-11T16:53:21.43670",
-        "ivr-article": "at",
-        "ivr-county": "Marin",
+        "ivr-lastUpdateDttm": "2021-04-11T17:13:22.01530",
+        "ivr-article": "north of",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210411GG01679",
+        "SourceEventID": "210411GG01780",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-680 Southbound south of Montague Expy (Milpitas). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-04-12T00:20Z",
+      "updated": "2021-04-12T00:20Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.882108,
+          37.41987
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210411GG01797"
+      },
+      "roads": [
+        {
+          "name": "I-680 S",
+          "from": "Montague Expy",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-04-12T00:20Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-04-11T17:21:11.93132"
+        },
+        "event-reference": {
+          "event-identifier": "757991"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-680 Southbound south of Montague Expy (Milpitas). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "Montague Expy",
+                  "link-to-road": null,
+                  "link-from-city": "Milpitas",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.41987",
+                    "event-location-coordinates-longitude": "-121.882108"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-04-11T17:20:45.46170",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-04-11T17:20:45.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-04-11T17:20:45.46170",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210411GG01797",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
