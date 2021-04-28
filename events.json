@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -224,7 +224,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
           "event-identifier": "745024"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
           "event-identifier": "756659"
@@ -492,7 +492,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
           "event-identifier": "758864"
@@ -638,7 +638,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
           "event-identifier": "763165"
@@ -723,7 +723,7 @@
       },
       "severity": "Moderate",
       "created": "2021-04-27T23:31Z",
-      "updated": "2021-04-28T00:16Z",
+      "updated": "2021-04-28T01:03Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -782,7 +782,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
           "event-identifier": "763359"
@@ -829,7 +829,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-04-27T17:16:33.95100",
+              "update-time": "2021-04-27T18:03:57.70290",
               "valid-period": {
                 "event-timeline-estimated-duration": "39.5"
               },
@@ -847,7 +847,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-04-27T17:16:33.95100",
+        "ivr-lastUpdateDttm": "2021-04-27T18:03:57.70290",
         "ivr-article": "at",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "affected",
@@ -859,14 +859,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-35 Southbound at Bear Creek Rd (Los Gatos). Lane affected. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Downed wires on CA-35 Northbound at Bear Creek Rd (Los Gatos). All lanes closed. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": [
+          "Downed wires",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Moderate",
+      "severity": "Major",
       "created": "2021-04-27T23:48Z",
-      "updated": "2021-04-28T00:47Z",
+      "updated": "2021-04-28T01:24Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -886,8 +889,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.026197,
-          37.166817
+          -122.015963,
+          37.165657
         ]
       },
       "source_type": {
@@ -900,17 +903,17 @@
       },
       "roads": [
         {
-          "name": "CA-35 S",
+          "name": "CA-35 N",
           "from": "Bear Creek Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
+          "direction": "Northbound",
+          "state": "CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -924,12 +927,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-04-28T00:47Z/"
+          "2021-04-28T01:13Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
           "event-identifier": "763366"
@@ -942,9 +945,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Downed wires"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -953,7 +961,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-35 Southbound at Bear Creek Rd (Los Gatos). Lane affected. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Downed wires on CA-35 Northbound at Bear Creek Rd (Los Gatos). All lanes closed. Expect delays."
                     }
                   }
                 }
@@ -963,24 +971,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-35 S",
+                  "link-road-designator": "CA-35 N",
                   "link-from-road": "Bear Creek Rd",
                   "link-to-road": null,
                   "link-from-city": "Los Gatos",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.166817",
-                    "event-location-coordinates-longitude": "-122.026197"
+                    "event-location-coordinates-latitude": "37.165657",
+                    "event-location-coordinates-longitude": "-122.015963"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-04-27T17:47:47.96400",
+              "update-time": "2021-04-27T18:24:44.82910",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.2"
+                "event-timeline-estimated-duration": "55.599999999999994"
               },
-              "start-time": "2021-04-27T17:47:48.00000",
+              "start-time": "2021-04-27T18:13:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -989,16 +997,17 @@
             }
           }
         },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
+        "EventImpact": "Major",
+        "RoadClosed": "true",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-04-27T17:47:47.96400",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-04-27T18:24:44.82910",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210427MY00246",
         "EventSourceName": "CHP",
@@ -1017,7 +1026,7 @@
       },
       "severity": "Severe",
       "created": "2021-04-28T00:05Z",
-      "updated": "2021-04-28T00:12Z",
+      "updated": "2021-04-28T01:07Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1076,7 +1085,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
           "event-identifier": "763374"
@@ -1128,7 +1137,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-04-27T17:12:13.59480",
+              "update-time": "2021-04-27T18:07:48.77120",
               "valid-period": {
                 "event-timeline-estimated-duration": "77.5"
               },
@@ -1146,7 +1155,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "5",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-04-27T17:12:13.59480",
+        "ivr-lastUpdateDttm": "2021-04-27T18:07:48.77120",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -1158,458 +1167,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-87 Northbound north of I-280 N (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on CA-1 Northbound at I-280 N-CA-1 N Split (Daly City). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-04-28T00:27Z",
-      "updated": "2021-04-28T00:48Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.887859,
-          37.32445
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210427GG01767"
-      },
-      "roads": [
-        {
-          "name": "CA-87 N",
-          "from": "I-280 N",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-04-28T00:48Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
-        },
-        "event-reference": {
-          "event-identifier": "763383"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-87 Northbound north of I-280 N (San Jose). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-87 N",
-                  "link-from-road": "I-280 N",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.32445",
-                    "event-location-coordinates-longitude": "-121.887859"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-04-27T17:48:52.07460",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-04-27T17:48:52.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-04-27T17:48:52.07460",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210427GG01767",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Fire on I-880 Southbound north of CA-92 W (Hayward). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Fire"
-      },
-      "severity": "Moderate",
-      "created": "2021-04-28T00:32Z",
-      "updated": "2021-04-28T00:33Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.096842,
-          37.64884
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210427GG01775"
-      },
-      "roads": [
-        {
-          "name": "I-880 S",
-          "from": "CA-92 W",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-04-28T00:33Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
-        },
-        "event-reference": {
-          "event-identifier": "763385"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Fire"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Fire on I-880 Southbound north of CA-92 W (Hayward). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "CA-92 W",
-                  "link-to-road": null,
-                  "link-from-city": "Hayward",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.64884",
-                    "event-location-coordinates-longitude": "-122.096842"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-04-27T17:33:56.33760",
-              "valid-period": {
-                "event-timeline-estimated-duration": "29.5"
-              },
-              "start-time": "2021-04-27T17:33:56.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-04-27T17:33:56.33760",
-        "ivr-article": "north of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210427GG01775",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-17 Southbound south of Bear Creek Rd (Los Gatos). Right lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-04-28T00:38Z",
-      "updated": "2021-04-28T00:38Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.993419,
-          37.190918
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210427GG01784"
-      },
-      "roads": [
-        {
-          "name": "CA-17 S",
-          "from": "Bear Creek Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-04-28T00:38Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
-        },
-        "event-reference": {
-          "event-identifier": "763386"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-17 Southbound south of Bear Creek Rd (Los Gatos). Right lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-17 S",
-                  "link-from-road": "Bear Creek Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Los Gatos",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.190918",
-                    "event-location-coordinates-longitude": "-121.993419"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-04-27T17:38:11.29290",
-              "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
-              },
-              "start-time": "2021-04-27T17:38:11.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-04-27T17:38:11.29290",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210427GG01784",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-1 Northbound at I-280 N-CA-1 N Split (Daly City). Lanes blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Moderate",
       "created": "2021-04-28T00:39Z",
-      "updated": "2021-04-28T00:47Z",
+      "updated": "2021-04-28T01:03Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -1649,11 +1214,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1667,12 +1232,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-04-28T00:47Z/"
+          "2021-04-28T01:03Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
           "event-identifier": "763389"
@@ -1686,7 +1251,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Traffic Collision with Injuries"
                     }
                   }
                 },
@@ -1696,7 +1261,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-1 Northbound at I-280 N-CA-1 N Split (Daly City). Lanes blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-1 Northbound at I-280 N-CA-1 N Split (Daly City). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1719,11 +1284,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-04-27T17:47:47.52770",
+              "update-time": "2021-04-27T18:03:44.19710",
               "valid-period": {
-                "event-timeline-estimated-duration": "39"
+                "event-timeline-estimated-duration": "33.5"
               },
-              "start-time": "2021-04-27T17:47:47.00000",
+              "start-time": "2021-04-27T18:03:44.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1737,11 +1302,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-04-27T17:47:47.52770",
+        "ivr-lastUpdateDttm": "2021-04-27T18:03:44.19710",
         "ivr-article": "at",
         "ivr-county": "San Mateo",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lanes",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210427GG01790",
         "EventSourceName": "CHP",
@@ -1750,21 +1315,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Southbound west of Woodside Rd (Redwood City). Left shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-880 Northbound at I-880 N-I-80 W Ramp (Oakland). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2021-04-28T00:46Z",
-      "updated": "2021-04-28T00:48Z",
+      "created": "2021-04-28T00:48Z",
+      "updated": "2021-04-28T01:23Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -1777,8 +1342,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.206051,
-          37.487486
+          -122.300172,
+          37.814567
         ]
       },
       "source_type": {
@@ -1787,21 +1352,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210427GG01818"
+        "#text": "210427GG01814"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Woodside Rd",
-          "direction": "Southbound",
+          "name": "I-880 N",
+          "from": "I-880 N-I-80 W Ramp",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left shoulder"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1809,21 +1374,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-04-28T00:48Z/"
+          "2021-04-28T01:23Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
-          "event-identifier": "763390"
+          "event-identifier": "763392"
         },
         "event-status": "new",
         "details": {
@@ -1834,7 +1399,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -1844,7 +1409,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Southbound west of Woodside Rd (Redwood City). Left shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-880 Northbound at I-880 N-I-80 W Ramp (Oakland). Lane blocked. Expect delays."
                     }
                   }
                 }
@@ -1853,25 +1418,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Woodside Rd",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "I-880 N-I-80 W Ramp",
                   "link-to-road": null,
-                  "link-from-city": "Redwood City",
+                  "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.487486",
-                    "event-location-coordinates-longitude": "-122.206051"
+                    "event-location-coordinates-latitude": "37.814567",
+                    "event-location-coordinates-longitude": "-122.300172"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-04-27T17:48:51.65280",
+              "update-time": "2021-04-27T18:23:54.13850",
               "valid-period": {
-                "event-timeline-estimated-duration": "27.7"
+                "event-timeline-estimated-duration": "34"
               },
-              "start-time": "2021-04-27T17:48:51.00000",
+              "start-time": "2021-04-27T18:23:54.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1884,35 +1449,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-04-27T17:48:51.65280",
-        "ivr-article": "west of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left shoulder",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-04-27T18:23:54.13850",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210427GG01818",
+        "SourceEventID": "210427GG01814",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-87 Northbound south of Coleman Ave (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-880 Southbound north of I-238 S (San Leandro). Left lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2021-04-28T00:47Z",
-      "updated": "2021-04-28T00:47Z",
+      "created": "2021-04-28T01:17Z",
+      "updated": "2021-04-28T01:17Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -1925,8 +1490,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.901165,
-          37.3427
+          -122.135316,
+          37.68875
         ]
       },
       "source_type": {
@@ -1935,17 +1500,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210427GG01822"
+        "#text": "210427GG01882"
       },
       "roads": [
         {
-          "name": "CA-87 N",
-          "from": "Coleman Ave",
-          "direction": "Northbound",
+          "name": "I-880 S",
+          "from": "I-238 S",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Left lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1957,21 +1522,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-04-28T00:47Z/"
+          "2021-04-28T01:17Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-04-27T17:49:10.91710"
+          "event-message-time-stamp": "2021-04-27T18:29:45.16544"
         },
         "event-reference": {
-          "event-identifier": "763391"
+          "event-identifier": "763398"
         },
         "event-status": "new",
         "details": {
@@ -1992,7 +1557,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-87 Northbound south of Coleman Ave (San Jose). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-880 Southbound north of I-238 S (San Leandro). Left lane affected. Expect delays."
                     }
                   }
                 }
@@ -2001,25 +1566,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-87 N",
-                  "link-from-road": "Coleman Ave",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "I-238 S",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "San Leandro",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.3427",
-                    "event-location-coordinates-longitude": "-121.901165"
+                    "event-location-coordinates-latitude": "37.68875",
+                    "event-location-coordinates-longitude": "-122.135316"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-04-27T17:47:47.17230",
+              "update-time": "2021-04-27T18:17:31.93140",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2021-04-27T17:47:47.00000",
+              "start-time": "2021-04-27T18:17:31.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2032,14 +1597,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-04-27T17:47:47.17230",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-04-27T18:17:31.93140",
+        "ivr-article": "north of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210427GG01822",
+        "SourceEventID": "210427GG01882",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
