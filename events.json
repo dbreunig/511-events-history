@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-02T05:45:29.91456"
+          "event-message-time-stamp": "2021-05-02T06:10:19.81311"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -224,7 +224,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-02T05:45:29.91456"
+          "event-message-time-stamp": "2021-05-02T06:10:19.81311"
         },
         "event-reference": {
           "event-identifier": "745024"
@@ -371,7 +371,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-02T05:45:29.91456"
+          "event-message-time-stamp": "2021-05-02T06:10:19.81311"
         },
         "event-reference": {
           "event-identifier": "764975"
@@ -449,14 +449,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Northbound south of CA-84 E (Fremont). Lanes open. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-880 Northbound south of CA-84 E (Fremont). Lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Unknown",
       "created": "2021-05-02T12:17Z",
-      "updated": "2021-05-02T12:39Z",
+      "updated": "2021-05-02T12:46Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -514,12 +514,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-05-02T12:39Z/"
+          "2021-05-02T12:46Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-02T05:45:29.91456"
+          "event-message-time-stamp": "2021-05-02T06:10:19.81311"
         },
         "event-reference": {
           "event-identifier": "764978"
@@ -533,7 +533,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Traffic Collision with Injuries"
                     }
                   }
                 },
@@ -543,7 +543,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of CA-84 E (Fremont). Lanes open. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-880 Northbound south of CA-84 E (Fremont). Lanes open. Expect delays."
                     }
                   }
                 }
@@ -566,11 +566,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-02T05:39:12.00430",
+              "update-time": "2021-05-02T05:46:33.91940",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2021-05-02T05:39:11.00000",
+              "start-time": "2021-05-02T05:46:33.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -584,13 +584,309 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-02T05:39:12.00430",
+        "ivr-lastUpdateDttm": "2021-05-02T05:46:33.91940",
         "ivr-article": "south of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "open",
         "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210502GG00409",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-680 Northbound south of Bernal Ave (Pleasanton). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-02T12:46Z",
+      "updated": "2021-05-02T13:09Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.898077,
+          37.6536
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210502GG00432"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "Bernal Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-02T13:09Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-02T06:10:19.81311"
+        },
+        "event-reference": {
+          "event-identifier": "764980"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-680 Northbound south of Bernal Ave (Pleasanton). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Bernal Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Pleasanton",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.6536",
+                    "event-location-coordinates-longitude": "-121.898077"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-02T06:09:43.00960",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29"
+              },
+              "start-time": "2021-05-02T06:09:42.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-02T06:09:43.00960",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210502GG00432",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on CA-4 Eastbound east of Center Ave (Martinez). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-02T12:58Z",
+      "updated": "2021-05-02T13:06Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.123639,
+          37.99293
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210502GG00438"
+      },
+      "roads": [
+        {
+          "name": "CA-4 E",
+          "from": "Center Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-02T13:06Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-02T06:10:19.81311"
+        },
+        "event-reference": {
+          "event-identifier": "764981"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-4 Eastbound east of Center Ave (Martinez). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-4 E",
+                  "link-from-road": "Center Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Martinez",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.99293",
+                    "event-location-coordinates-longitude": "-122.123639"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-02T06:06:33.31560",
+              "valid-period": {
+                "event-timeline-estimated-duration": "33.5"
+              },
+              "start-time": "2021-05-02T06:06:33.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-05-02T06:06:33.31560",
+        "ivr-article": "east of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210502GG00438",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
