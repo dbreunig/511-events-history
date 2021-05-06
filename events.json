@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
+          "event-message-time-stamp": "2021-05-06T05:31:06.78006"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -224,7 +224,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
+          "event-message-time-stamp": "2021-05-06T05:31:06.78006"
         },
         "event-reference": {
           "event-identifier": "745024"
@@ -301,14 +301,472 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Northbound at Blossom Hill Rd (San Jose). All lanes closed until 5 AM. Tuesday, May 4, 2021 12:01 AM thru Tuesday, May 4, 2021 5:00 AM, Tuesday. Wednesday, May 5, 2021 12:01 AM thru Wednesday, May 5, 2021 5:00 AM, Wednesday. Thursday, May 6, 2021 12:01 AM thru Thursday, May 6, 2021 5:00 AM, Thursday. Friday, May 7, 2021 12:01 AM thru Monday, May 3, 2021 3:51 PM, Monday/Friday. Monday, May 10, 2021 12:01 AM thru Monday, May 3, 2021 3:51 PM, Monday.",
-      "event_type": "CONSTRUCTION",
+      "headline": "CHP : Severe traffic alert and Traffic Collision and Spill on I-580 Westbound east of I-680 S (Pleasanton). Left and center lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Roadwork"
+        "event_subtype": [
+          "Traffic Collision",
+          "Severe traffic alert",
+          "Spill"
+        ]
       },
-      "severity": "Unknown",
-      "created": "2021-05-03T18:59Z",
-      "updated": "2021-05-05T19:35Z",
+      "severity": "Major",
+      "created": "2021-05-06T08:27Z",
+      "updated": "2021-05-06T12:13Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.921019774595,
+          37.7014793509204
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210506GG00120"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "I-680 S",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left and center lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-06T11:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-06T05:31:06.78006"
+        },
+        "event-reference": {
+          "event-identifier": "766420"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      },
+                      {
+                        "incident": "Spill"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision and Spill on I-580 Westbound east of I-680 S (Pleasanton). Left and center lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "I-680 S",
+                  "link-to-road": null,
+                  "link-from-city": "Pleasanton",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.701479350920408",
+                    "event-location-coordinates-longitude": "-121.92101977459527"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-06T05:13:20.02100",
+              "valid-period": {
+                "event-timeline-estimated-duration": "58"
+              },
+              "start-time": "2021-05-06T04:34:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-05-06T05:13:20.02100",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left and center lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210506GG00120",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Tractor trailer fire on I-680 Southbound north of Oak Park Blvd (Pleasant Hill). Right lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Tractor trailer fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-06T11:50Z",
+      "updated": "2021-05-06T12:29Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.06041,
+          37.933384
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210506GG00287"
+      },
+      "roads": [
+        {
+          "name": "I-680 S",
+          "from": "Oak Park Blvd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-06T12:02Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-06T05:31:06.78006"
+        },
+        "event-reference": {
+          "event-identifier": "766429"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Tractor trailer fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Tractor trailer fire on I-680 Southbound north of Oak Park Blvd (Pleasant Hill). Right lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "Oak Park Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "Pleasant Hill",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.933384",
+                    "event-location-coordinates-longitude": "-122.06041"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-06T05:29:37.66620",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35"
+              },
+              "start-time": "2021-05-06T05:02:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-05-06T05:29:37.66620",
+        "ivr-article": "north of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210506GG00287",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-12 Westbound at I-80 W (Vallejo). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-06T12:23Z",
+      "updated": "2021-05-06T12:23Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.146948,
+          38.211396
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210506GG00338"
+      },
+      "roads": [
+        {
+          "name": "CA-12 W",
+          "from": "I-80 W",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-06T12:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-06T05:31:06.78006"
+        },
+        "event-reference": {
+          "event-identifier": "766431"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on CA-12 Westbound at I-80 W (Vallejo). Right lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "CA-12 W",
+                  "link-from-road": "I-80 W",
+                  "link-to-road": null,
+                  "link-from-city": "Vallejo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.211396",
+                    "event-location-coordinates-longitude": "-122.146948"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-06T05:23:52.01610",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.2"
+              },
+              "start-time": "2021-05-06T05:23:51.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-05-06T05:23:52.01610",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210506GG00338",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on I-280 Northbound at N De Anza Blvd (Cupertino). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-06T12:28Z",
+      "updated": "2021-05-06T12:28Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -328,1807 +786,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.795853,
-          37.257202
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Blossom Hill Rd",
-          "direction": "Northbound",
-          "state": "CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 5 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T07:01Z/2021-05-06T12:00Z"
-        ]
-      },
-      "closure_geometry": {
-        "@xmlns:gml": "http://www.opengis.net/gml",
-        "@xmlns": "http://511.org/open511-extensions",
-        "gml:MultiLineString": {
-          "@srsName": "urn:ogc:def:crs:EPSG::4326",
-          "gml:LineStringMember": [
-            {
-              "gml:LineString": {
-                "gml:posList": "-121.808619983549,37.2818882807384,-121.808608999848,37.2818670002446,-121.808548999573,37.2817629999909,-121.808473000303,37.281636000036,-121.80838500044,37.2814870002154,-121.808161999959,37.2811389997394,-121.80799000043,37.28086499974,-121.807925999957,37.2807650000918,-121.807843000117,37.2806340000299,-121.807683000283,37.2803840002503,-121.807539000343,37.2801509998395,-121.807445999558,37.2799980000518,-121.807315000037,37.2797969997738,-121.807173999572,37.2795800000412,-121.807149000356,37.2795410002073,-121.807099000127,37.2794649997217,-121.807034999655,37.2793660003377,-121.807017999936,37.2793390001582,-121.80693799957,37.279213999651,-121.806879999844,37.2791229998031,-121.8068659996,37.2791020001525,-121.806709999965,37.2788640001286,-121.806632999972,37.2787400002505,-121.806583999568,37.2786609997028,-121.806544000283,37.2785970003565,-121.806525000017,37.2785689999105,-121.806506999575,37.278541000169,-121.806074999755,37.2778599996735,-121.805857000195,37.2775170003205,-121.805780000202,37.2773979996838,-121.805673999897,37.27721299975,-121.805642999935,37.2771599999905,-121.805591000056,37.2770689998037,-121.805556999721,37.2770109998864,-121.805518000261,37.2769419997912,-121.805405000283,37.2767269997206,-121.805289999757,37.2764859999954,-121.805285999559,37.2764759998121,-121.805197999696,37.2762800002415,-121.805026000167,37.2758790000476,-121.804924000059,37.2756090003198,-121.804863999785,37.2754279996927,-121.804770000074,37.2751470000962,-121.804667000141,37.2748310001947,-121.804570000057,37.2745329997647,-121.804507000308,37.2743390002324,-121.804426000117,37.2740880002247,-121.804332000406,37.273807999969,-121.804236999971,37.2735099997784,-121.804139999887,37.2732119998379,-121.804047999825,37.2729260002202,-121.80397500003,37.2726869999013,-121.803903999885,37.2724809997594,-121.803836999938,37.2722610001582,-121.803756999572,37.2720319999328,-121.8036889998,37.2718039998062,-121.803595000089,37.2715200000122,-121.803518000096,37.2712839997811,-121.803426999859,37.271007000093,-121.803328000125,37.2707020003026,-121.80325500033,37.2704770000169,-121.803165999743,37.2702039999112,-121.803083999728,37.2699599997201,-121.802990999841,37.269666999855,-121.802919999696,37.2694430001626,-121.802831999832,37.2691780000904,-121.802713000007,37.2688109997613,-121.8026109999,37.268511000275,-121.802522000211,37.2682249999568,-121.802454000439,37.2680180003437,-121.802435000172,37.2679599998873,-121.802359999829,37.267733999852,-121.80229899973,37.2675389998204,-121.802218000437,37.2672880000189,-121.802122000178,37.2669909999022,-121.801974999865,37.2665380003352,-121.801872999758,37.2662280002573,-121.801804999986,37.266022000316,-121.801748999909,37.2658490000793,-121.801666000068,37.2655930002642,-121.80154200022,37.2651860000457,-121.801414000173,37.2647980002116,-121.801336000356,37.2645600000059,-121.801235999898,37.2642579996654,-121.801203000286,37.2641529999238,-121.801137000164,37.2639449996561,-121.801044000277,37.2636589998693,-121.800913999683,37.2632940001961,-121.800810999751,37.2629900001033,-121.800725000435,37.262755999991,-121.800626999628,37.2625170002776,-121.800517000023,37.2622690000873,-121.800408000243,37.2620169996686,-121.800352999991,37.2619089997417,-121.800166000394,37.2615510002534,-121.80009100005,37.2614139997634,-121.800014000058,37.2612750000135,-121.799957000156,37.2611709999094,-121.799938999714,37.2611400001805,-121.799830999759,37.2609559998439"
-              }
-            },
-            {
-              "gml:LineString": {
-                "gml:posList": "-121.799830999759,37.2609559998439,-121.799691999842,37.2607319999774,-121.799569999644,37.2605490003039,-121.799531000184,37.2604909998145,-121.799428000252,37.2603339998927,-121.799383000046,37.2602650002426,-121.799367000152,37.2602430001025,-121.799204999771,37.2600180000235,-121.799024999845,37.2597769997209,-121.798854000141,37.2595589999517,-121.798792000217,37.2594849998014,-121.798666999645,37.2593320001972,-121.798637000406,37.2592989999334,-121.79843900004,37.2590709998607,-121.798300999947,37.2589160003422,-121.798240999673,37.2588489998981,-121.798074999991,37.2586700002442,-121.797888000394,37.2584710000217,-121.797665999738,37.2582519997872,-121.797334000375,37.2579370000277,-121.796997000091,37.2576340000307,-121.796781000181,37.2574499997091,-121.796604999556,37.2573089999629,-121.79658005873,37.2572885941057"
-              }
-            }
-          ]
-        }
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "765354"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "1",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Northbound at Blossom Hill Rd (San Jose). All lanes closed until 5 AM. Tuesday, May 4, 2021 12:01 AM thru Tuesday, May 4, 2021 5:00 AM, Tuesday. Wednesday, May 5, 2021 12:01 AM thru Wednesday, May 5, 2021 5:00 AM, Wednesday. Thursday, May 6, 2021 12:01 AM thru Thursday, May 6, 2021 5:00 AM, Thursday. Friday, May 7, 2021 12:01 AM thru Monday, May 3, 2021 3:51 PM, Monday/Friday. Monday, May 10, 2021 12:01 AM thru Monday, May 3, 2021 3:51 PM, Monday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Blossom Hill Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.257202",
-                    "event-location-coordinates-longitude": "-121.795853"
-                  },
-                  "event-road-closure-links": {
-                    "link-id": "301250"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-05T12:35:42.02460",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-06T00:01:00.00000",
-              "cleared-time": "2021-05-06T05:00:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "true",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-05T12:35:42.02460",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "until 5 AM",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Northbound between Ralston Ave (Belmont) and E Hillsdale Blvd (San Mateo). Lanes closed until 6 AM. Wednesday, May 5, 2021 8:01 PM thru Thursday, May 6, 2021 5:59 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T03:18Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.270134,
-          37.526315
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101AB-0006-2021-05-05-20:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Ralston Ave",
-          "to": "E Hillsdale Blvd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 6 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T03:01Z/2021-05-06T12:59Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766345"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Northbound between Ralston Ave (Belmont) and E Hillsdale Blvd (San Mateo). Lanes closed until 6 AM. Wednesday, May 5, 2021 8:01 PM thru Thursday, May 6, 2021 5:59 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Ralston Ave",
-                  "link-to-road": "E Hillsdale Blvd",
-                  "link-from-city": "Belmont",
-                  "link-to-city": "San Mateo",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.526315",
-                    "event-location-coordinates-longitude": "-122.270134"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:26.23540",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T20:01:00.00000",
-              "cleared-time": "2021-05-06T05:59:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:26.23540",
-        "ivr-article": "between",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "until 6 AM",
-        "SourceEventID": "C101AB-0006-2021-05-05-20:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Bridge work on US-101 Southbound between Wolfback Rdg (Sausalito) and Golden Gate Bridge - South Tower (San Francisco). Lanes closed until 5 AM. Wednesday, May 5, 2021 8:01 PM thru Thursday, May 6, 2021 4:59 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Bridge work"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T03:18Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.493635,
-          37.855025
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "P101LB-0003-2021-05-05-20:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "Wolfback Rdg",
-          "to": "Golden Gate Bridge - South Tower",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 5 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T03:01Z/2021-05-06T11:59Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766347"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Bridge work"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Bridge work on US-101 Southbound between Wolfback Rdg (Sausalito) and Golden Gate Bridge - South Tower (San Francisco). Lanes closed until 5 AM. Wednesday, May 5, 2021 8:01 PM thru Thursday, May 6, 2021 4:59 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Wolfback Rdg",
-                  "link-to-road": "Golden Gate Bridge - South Tower",
-                  "link-from-city": "Sausalito",
-                  "link-to-city": "San Francisco",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.855025",
-                    "event-location-coordinates-longitude": "-122.493635"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:29.02230",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T20:01:00.00000",
-              "cleared-time": "2021-05-06T04:59:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:29.02230",
-        "ivr-article": "between",
-        "ivr-county": "Marin",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "until 5 AM",
-        "SourceEventID": "P101LB-0003-2021-05-05-20:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Overnight roadwork on CA-84 Eastbound between Palomares Rd (Fremont) and Pleasanton Sunol Rd (Scotts Corner). All lanes closed until 5 AM. Continuous Wednesday, May 5, 2021 9:00 PM thru Thursday, May 6, 2021 5:00 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Overnight roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T03:56Z",
-      "updated": "2021-05-06T03:56Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.94696,
-          37.598122
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "roads": [
-        {
-          "name": "CA-84 E",
-          "from": "Palomares Rd",
-          "to": "Pleasanton Sunol Rd",
-          "direction": "Eastbound",
-          "state": "CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 5 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T04:00Z/2021-05-06T12:00Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766358"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "1",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Overnight roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Overnight roadwork on CA-84 Eastbound between Palomares Rd (Fremont) and Pleasanton Sunol Rd (Scotts Corner). All lanes closed until 5 AM. Continuous Wednesday, May 5, 2021 9:00 PM thru Thursday, May 6, 2021 5:00 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "CA-84 E",
-                  "link-from-road": "Palomares Rd",
-                  "link-to-road": "Pleasanton Sunol Rd",
-                  "link-from-city": "Fremont",
-                  "link-to-city": "Scotts Corner",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.598122",
-                    "event-location-coordinates-longitude": "-121.94696"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-05T20:56:18.51700",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T21:00:00.00000",
-              "cleared-time": "2021-05-06T05:00:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "true",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-05-05T20:56:18.51700",
-        "ivr-article": "between",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "until 5 AM",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Southbound between Lytton Springs Rd (Unincorporated) and Windsor River Rd (Windsor). Various lanes closed until 6 AM. Wednesday, May 5, 2021 9:01 PM thru Thursday, May 6, 2021 5:59 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T04:14Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "Sonoma",
-          "id": "5397100",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5397100/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.874398,
-          38.659383
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101CB-0008-2021-05-05-21:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "Lytton Springs Rd",
-          "to": "Windsor River Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Various lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 6 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T04:01Z/2021-05-06T12:59Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766362"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Southbound between Lytton Springs Rd (Unincorporated) and Windsor River Rd (Windsor). Various lanes closed until 6 AM. Wednesday, May 5, 2021 9:01 PM thru Thursday, May 6, 2021 5:59 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA097",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Lytton Springs Rd",
-                  "link-to-road": "Windsor River Rd",
-                  "link-from-city": "Unincorporated",
-                  "link-to-city": "Windsor",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.659383",
-                    "event-location-coordinates-longitude": "-122.874398"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:27.60540",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T21:01:00.00000",
-              "cleared-time": "2021-05-06T05:59:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:27.60540",
-        "ivr-article": "between",
-        "ivr-county": "Sonoma",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Various lanes",
-        "ivr-genOtherText": "until 6 AM",
-        "SourceEventID": "C101CB-0008-2021-05-05-21:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Northbound between Dore Ave (San Mateo) and Peninsula Ave (San Mateo). Lanes closed until 6 AM. Wednesday, May 5, 2021 9:01 PM thru Thursday, May 6, 2021 5:59 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T05:04Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.321315,
-          37.577584
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101AB-0011-2021-05-05-21:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Dore Ave",
-          "to": "Peninsula Ave",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 6 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T04:01Z/2021-05-06T12:59Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766381"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Northbound between Dore Ave (San Mateo) and Peninsula Ave (San Mateo). Lanes closed until 6 AM. Wednesday, May 5, 2021 9:01 PM thru Thursday, May 6, 2021 5:59 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Dore Ave",
-                  "link-to-road": "Peninsula Ave",
-                  "link-from-city": "San Mateo",
-                  "link-to-city": "San Mateo",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.577584",
-                    "event-location-coordinates-longitude": "-122.321315"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:26.50150",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T21:01:00.00000",
-              "cleared-time": "2021-05-06T05:59:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:26.50150",
-        "ivr-article": "between",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "until 6 AM",
-        "SourceEventID": "C101AB-0011-2021-05-05-21:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Southbound between E Hillsdale Blvd (San Mateo) and Ralston Ave (Belmont). Lanes closed until 6-30 AM. Wednesday, May 5, 2021 9:01 PM thru Thursday, May 6, 2021 6:30 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T05:04Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.287901,
-          37.54457
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101AB-0021-2021-05-05-21:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "E Hillsdale Blvd",
-          "to": "Ralston Ave",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 6-30 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T04:01Z/2021-05-06T13:30Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766382"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Southbound between E Hillsdale Blvd (San Mateo) and Ralston Ave (Belmont). Lanes closed until 6-30 AM. Wednesday, May 5, 2021 9:01 PM thru Thursday, May 6, 2021 6:30 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "E Hillsdale Blvd",
-                  "link-to-road": "Ralston Ave",
-                  "link-from-city": "San Mateo",
-                  "link-to-city": "Belmont",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.54457",
-                    "event-location-coordinates-longitude": "-122.287901"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:26.78490",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T21:01:00.00000",
-              "cleared-time": "2021-05-06T06:30:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:26.78490",
-        "ivr-article": "between",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "until 6-30 AM",
-        "SourceEventID": "C101AB-0021-2021-05-05-21:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Southbound at E Poplar Ave (San Mateo). Lanes closed until 6-30 AM. Wednesday, May 5, 2021 10:01 PM thru Thursday, May 6, 2021 6:30 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T05:04Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.328607,
-          37.584337
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101AB-0026-2021-05-05-22:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "E Poplar Ave",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 6-30 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T05:01Z/2021-05-06T13:30Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766383"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Southbound at E Poplar Ave (San Mateo). Lanes closed until 6-30 AM. Wednesday, May 5, 2021 10:01 PM thru Thursday, May 6, 2021 6:30 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "E Poplar Ave",
-                  "link-to-road": null,
-                  "link-from-city": "San Mateo",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.584337",
-                    "event-location-coordinates-longitude": "-122.328607"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:27.06380",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T22:01:00.00000",
-              "cleared-time": "2021-05-06T06:30:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:27.06380",
-        "ivr-article": "at",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "until 6-30 AM",
-        "SourceEventID": "C101AB-0026-2021-05-05-22:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Southbound between San Bruno Ave E (San Bruno) and Airport Exit (Millbrae). Lanes closed until 6-30 AM. Wednesday, May 5, 2021 10:01 PM thru Thursday, May 6, 2021 6:30 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T05:04Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.402707,
-          37.631315
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101AB-0031-2021-05-05-22:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "San Bruno Ave E",
-          "to": "Airport Exit",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 6-30 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T05:01Z/2021-05-06T13:30Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766384"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Southbound between San Bruno Ave E (San Bruno) and Airport Exit (Millbrae). Lanes closed until 6-30 AM. Wednesday, May 5, 2021 10:01 PM thru Thursday, May 6, 2021 6:30 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "San Bruno Ave E",
-                  "link-to-road": "Airport Exit",
-                  "link-from-city": "San Bruno",
-                  "link-to-city": "Millbrae",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.631315",
-                    "event-location-coordinates-longitude": "-122.402707"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:27.32410",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T22:01:00.00000",
-              "cleared-time": "2021-05-06T06:30:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:27.32410",
-        "ivr-article": "between",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "until 6-30 AM",
-        "SourceEventID": "C101AB-0031-2021-05-05-22:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Bridge work on US-101 Northbound exiting at Lucky Dr (Corte Madera). Off Ramp closed until 6 AM. Wednesday, May 5, 2021 11:01 PM thru Thursday, May 6, 2021 5:59 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Bridge work"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T05:59Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.515669,
-          37.941577
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101TB-0006-2021-05-05-23:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Lucky Dr",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 6 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "exiting at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T06:01Z/2021-05-06T12:59Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766397"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Bridge work"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Bridge work on US-101 Northbound exiting at Lucky Dr (Corte Madera). Off Ramp closed until 6 AM. Wednesday, May 5, 2021 11:01 PM thru Thursday, May 6, 2021 5:59 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Lucky Dr",
-                  "link-to-road": null,
-                  "link-from-city": "Corte Madera",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.941577",
-                    "event-location-coordinates-longitude": "-122.515669"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:28.26490",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T23:01:00.00000",
-              "cleared-time": "2021-05-06T05:59:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:28.26490",
-        "ivr-article": "exiting at",
-        "ivr-county": "Marin",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Off Ramp",
-        "ivr-genOtherText": "until 6 AM",
-        "SourceEventID": "C101TB-0006-2021-05-05-23:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Northbound between Beatty Rd (Brisbane) and Key Ave (San Francisco). Lanes closed until 5 AM. Wednesday, May 5, 2021 11:01 PM thru Thursday, May 6, 2021 5:01 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T06:20Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.394989,
-          37.708399
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101DC-0009-2021-05-05-23:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Beatty Rd",
-          "to": "Key Ave",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 5 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T06:01Z/2021-05-06T12:01Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766401"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Northbound between Beatty Rd (Brisbane) and Key Ave (San Francisco). Lanes closed until 5 AM. Wednesday, May 5, 2021 11:01 PM thru Thursday, May 6, 2021 5:01 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Beatty Rd",
-                  "link-to-road": "Key Ave",
-                  "link-from-city": "Brisbane",
-                  "link-to-city": "San Francisco",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.708399",
-                    "event-location-coordinates-longitude": "-122.394989"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:27.85940",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T23:01:00.00000",
-              "cleared-time": "2021-05-06T05:01:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:27.85940",
-        "ivr-article": "between",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "until 5 AM",
-        "SourceEventID": "C101DC-0009-2021-05-05-23:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Southbound between Mansell St (San Francisco) and Beatty Rd (Brisbane). Lanes closed until 5 AM. Wednesday, May 5, 2021 11:01 PM thru Thursday, May 6, 2021 5:01 AM, Wednesday/Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-05-06T06:20Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.401124,
-          37.723529
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101DC-0021-2021-05-05-23:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "Mansell St",
-          "to": "Beatty Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 5 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T06:01Z/2021-05-06T12:01Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766402"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Southbound between Mansell St (San Francisco) and Beatty Rd (Brisbane). Lanes closed until 5 AM. Wednesday, May 5, 2021 11:01 PM thru Thursday, May 6, 2021 5:01 AM, Wednesday/Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Mansell St",
-                  "link-to-road": "Beatty Rd",
-                  "link-from-city": "San Francisco",
-                  "link-to-city": "Brisbane",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.723529",
-                    "event-location-coordinates-longitude": "-122.401124"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:28.12550",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-05-05T23:01:00.00000",
-              "cleared-time": "2021-05-06T05:01:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:28.12550",
-        "ivr-article": "between",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "until 5 AM",
-        "SourceEventID": "C101DC-0021-2021-05-05-23:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-80 Westbound at Appian Way (Pinole). Lanes blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
-      },
-      "severity": "Moderate",
-      "created": "2021-05-06T07:49Z",
-      "updated": "2021-05-06T11:41Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.296122,
-          37.994255
+          -122.02793,
+          37.334491
         ]
       },
       "source_type": {
@@ -2137,308 +796,12 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210506GG00059"
+        "#text": "210506GG00341"
       },
       "roads": [
         {
-          "name": "I-80 W",
-          "from": "Appian Way",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T11:41Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766412"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Westbound at Appian Way (Pinole). Lanes blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Appian Way",
-                  "link-to-road": null,
-                  "link-from-city": "Pinole",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.994255",
-                    "event-location-coordinates-longitude": "-122.296122"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:41:14.52540",
-              "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
-              },
-              "start-time": "2021-05-06T04:41:14.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:41:14.52540",
-        "ivr-article": "at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210506GG00059",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Westbound east of I-680 S (Pleasanton). Lanes affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-05-06T08:27Z",
-      "updated": "2021-05-06T11:34Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.926466,
-          37.700288
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210506GG00120"
-      },
-      "roads": [
-        {
-          "name": "I-580 W",
-          "from": "I-680 S",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T11:34Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766420"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Westbound east of I-680 S (Pleasanton). Lanes affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "I-680 S",
-                  "link-to-road": null,
-                  "link-from-city": "Pleasanton",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.700288",
-                    "event-location-coordinates-longitude": "-121.926466"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:34:51.31410",
-              "valid-period": {
-                "event-timeline-estimated-duration": "31"
-              },
-              "start-time": "2021-05-06T04:34:51.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:34:51.31410",
-        "ivr-article": "east of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210506GG00120",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-13 Northbound south of Park Blvd (Oakland). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-05-06T10:32Z",
-      "updated": "2021-05-06T10:32Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.207483,
-          37.82209
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210506GG00241"
-      },
-      "roads": [
-        {
-          "name": "CA-13 N",
-          "from": "Park Blvd",
+          "name": "I-280 N",
+          "from": "N De Anza Blvd",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -2455,21 +818,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-05-06T10:32Z/"
+          "2021-05-06T12:28Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
+          "event-message-time-stamp": "2021-05-06T05:31:06.78006"
         },
         "event-reference": {
-          "event-identifier": "766425"
+          "event-identifier": "766432"
         },
         "event-status": "new",
         "details": {
@@ -2480,7 +843,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Fire"
                     }
                   }
                 },
@@ -2490,7 +853,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-13 Northbound south of Park Blvd (Oakland). Lane affected. Expect delays."
+                      "event-description": "CHP : Fire on I-280 Northbound at N De Anza Blvd (Cupertino). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -2499,25 +862,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "CA-13 N",
-                  "link-from-road": "Park Blvd",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "N De Anza Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Oakland",
+                  "link-from-city": "Cupertino",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.82209",
-                    "event-location-coordinates-longitude": "-122.207483"
+                    "event-location-coordinates-latitude": "37.334491",
+                    "event-location-coordinates-longitude": "-122.02793"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-06T03:32:39.20040",
+              "update-time": "2021-05-06T05:28:35.99100",
               "valid-period": {
-                "event-timeline-estimated-duration": "34"
+                "event-timeline-estimated-duration": "29.5"
               },
-              "start-time": "2021-05-06T03:32:39.00000",
+              "start-time": "2021-05-06T05:28:07.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2531,309 +894,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-06T03:32:39.20040",
-        "ivr-article": "south of",
-        "ivr-county": "Alameda",
+        "ivr-lastUpdateDttm": "2021-05-06T05:28:35.99100",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210506GG00241",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-580 Westbound east of S Corral Hollow Rd (Tracy). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
-      },
-      "severity": "Moderate",
-      "created": "2021-05-06T11:41Z",
-      "updated": "2021-05-06T11:41Z",
-      "areas": {
-        "area": {
-          "name": "San Joaquin",
-          "id": "5392126",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392126/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.453975,
-          37.670436
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210506ST00042"
-      },
-      "roads": [
-        {
-          "name": "I-580 W",
-          "from": "S Corral Hollow Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T11:41Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766427"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-580 Westbound east of S Corral Hollow Rd (Tracy). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": null,
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "S Corral Hollow Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Tracy",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.670436",
-                    "event-location-coordinates-longitude": "-121.453975"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:41:15.21780",
-              "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
-              },
-              "start-time": "2021-05-06T04:41:15.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:41:15.21780",
-        "ivr-article": "east of",
-        "ivr-county": "San Joaquin",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210506ST00042",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Brush fire on CA-4 Westbound east of Loveridge Rd (Pittsburg). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Brush fire"
-      },
-      "severity": "Moderate",
-      "created": "2021-05-06T11:48Z",
-      "updated": "2021-05-06T11:48Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.876289,
-          38.013977
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210506GG00282"
-      },
-      "roads": [
-        {
-          "name": "CA-4 W",
-          "from": "Loveridge Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-06T11:48Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-06T04:50:11.61988"
-        },
-        "event-reference": {
-          "event-identifier": "766428"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Brush fire"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Brush fire on CA-4 Westbound east of Loveridge Rd (Pittsburg). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 W",
-                  "link-from-road": "Loveridge Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Pittsburg",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.013977",
-                    "event-location-coordinates-longitude": "-121.876289"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-06T04:48:41.49900",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-05-06T04:48:41.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-05-06T04:48:41.49900",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210506GG00282",
+        "SourceEventID": "210506GG00341",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
