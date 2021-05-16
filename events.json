@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T08:56:16.51999"
+          "event-message-time-stamp": "2021-05-16T09:50:13.88368"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -224,7 +224,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T08:56:16.51999"
+          "event-message-time-stamp": "2021-05-16T09:50:13.88368"
         },
         "event-reference": {
           "event-identifier": "769574"
@@ -369,7 +369,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T08:56:16.51999"
+          "event-message-time-stamp": "2021-05-16T09:50:13.88368"
         },
         "event-reference": {
           "event-identifier": "770000"
@@ -513,7 +513,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T08:56:16.51999"
+          "event-message-time-stamp": "2021-05-16T09:50:13.88368"
         },
         "event-reference": {
           "event-identifier": "770023"
@@ -591,14 +591,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert on I-280 Northbound west of CA-85 S (Sunnyvale). Lanes affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on US-101 Northbound at Moffett Blvd (Mountain View). 2nd lane from the left blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Severe traffic alert"
+        "event_subtype": "Traffic Collision"
       },
-      "severity": "Major",
-      "created": "2021-05-16T06:09Z",
-      "updated": "2021-05-16T10:13Z",
+      "severity": "Moderate",
+      "created": "2021-05-16T16:01Z",
+      "updated": "2021-05-16T16:01Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -618,8 +618,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.057023,
-          37.334227
+          -122.068737,
+          37.408367
         ]
       },
       "source_type": {
@@ -628,21 +628,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210515GG03057"
+        "#text": "210516GG00255"
       },
       "roads": [
         {
-          "name": "I-280 N",
-          "from": "CA-85 S",
+          "name": "US-101 N",
+          "from": "Moffett Blvd",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
+            "#text": "2nd lane from the left"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -650,317 +650,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-05-16T10:13Z/"
+          "2021-05-16T16:01Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T08:56:16.51999"
+          "event-message-time-stamp": "2021-05-16T09:50:13.88368"
         },
         "event-reference": {
-          "event-identifier": "770211"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Severe traffic alert"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert on I-280 Northbound west of CA-85 S (Sunnyvale). Lanes affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "CA-85 S",
-                  "link-to-road": null,
-                  "link-from-city": "Sunnyvale",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.334227",
-                    "event-location-coordinates-longitude": "-122.057023"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-16T03:13:16.13790",
-              "valid-period": {
-                "event-timeline-estimated-duration": "49"
-              },
-              "start-time": "2021-05-16T03:13:16.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-16T03:13:16.13790",
-        "ivr-article": "west of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210515GG03057",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-80 Eastbound west of Treasure Island Rd (San Francisco). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
-      },
-      "severity": "Major",
-      "created": "2021-05-16T13:25Z",
-      "updated": "2021-05-16T15:10Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.36171,
-          37.813098
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210516GG00446"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Treasure Island Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-16T15:10Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-16T08:56:16.51999"
-        },
-        "event-reference": {
-          "event-identifier": "770255"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Eastbound west of Treasure Island Rd (San Francisco). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Treasure Island Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.813098",
-                    "event-location-coordinates-longitude": "-122.36171"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-16T08:10:28.20810",
-              "valid-period": {
-                "event-timeline-estimated-duration": "52"
-              },
-              "start-time": "2021-05-16T08:10:28.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-05-16T08:10:28.20810",
-        "ivr-article": "west of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210516GG00446",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-280 Southbound north of Mariposa St (San Francisco). Left shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-05-16T14:13Z",
-      "updated": "2021-05-16T14:25Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.392638,
-          37.761351
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210516GG00501"
-      },
-      "roads": [
-        {
-          "name": "I-280 S",
-          "from": "Mariposa St",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-16T14:25Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-16T08:56:16.51999"
-        },
-        "event-reference": {
-          "event-identifier": "770260"
+          "event-identifier": "770272"
         },
         "event-status": "new",
         "details": {
@@ -981,7 +685,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-280 Southbound north of Mariposa St (San Francisco). Left shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on US-101 Northbound at Moffett Blvd (Mountain View). 2nd lane from the left blocked. Expect delays."
                     }
                   }
                 }
@@ -990,25 +694,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "Mariposa St",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Moffett Blvd",
                   "link-to-road": null,
-                  "link-from-city": "San Francisco",
+                  "link-from-city": "Mountain View",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.761351",
-                    "event-location-coordinates-longitude": "-122.392638"
+                    "event-location-coordinates-latitude": "37.408367",
+                    "event-location-coordinates-longitude": "-122.068737"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-16T07:25:51.34240",
+              "update-time": "2021-05-16T09:01:20.40330",
               "valid-period": {
-                "event-timeline-estimated-duration": "29"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2021-05-16T07:25:51.00000",
+              "start-time": "2021-05-16T09:01:20.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1021,35 +725,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-16T07:25:51.34240",
-        "ivr-article": "north of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left shoulder",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-16T09:01:20.40330",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "2nd lane from the left",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210516GG00501",
+        "SourceEventID": "210516GG00255",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-24 Eastbound west of Pleasant Hill Rd (Lafayette). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-880 Northbound south of CA-84 E (Fremont). Right shoulder open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Collision"
       },
-      "severity": "Moderate",
-      "created": "2021-05-16T15:11Z",
-      "updated": "2021-05-16T15:56Z",
+      "severity": "Unknown",
+      "created": "2021-05-16T16:23Z",
+      "updated": "2021-05-16T16:37Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -1062,8 +766,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.081878,
-          37.897394
+          -122.020399,
+          37.543568
         ]
       },
       "source_type": {
@@ -1072,13 +776,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210516GG00575"
+        "#text": "210516GG00672"
       },
       "roads": [
         {
-          "name": "CA-24 E",
-          "from": "Pleasant Hill Rd",
-          "direction": "Eastbound",
+          "name": "I-880 N",
+          "from": "CA-84 E",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "open"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-16T16:37Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-16T09:50:13.88368"
+        },
+        "event-reference": {
+          "event-identifier": "770276"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of CA-84 E (Fremont). Right shoulder open. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "CA-84 E",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.543568",
+                    "event-location-coordinates-longitude": "-122.020399"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-16T09:37:25.77820",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2021-05-16T09:37:25.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-16T09:37:25.77820",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210516GG00672",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-29 Northbound south of S Kelly Rd (Napa). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-16T16:37Z",
+      "updated": "2021-05-16T16:37Z",
+      "areas": {
+        "area": {
+          "name": "Napa",
+          "id": "5376101",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5376101/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.256236,
+          38.207634
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210516GG00697"
+      },
+      "roads": [
+        {
+          "name": "CA-29 N",
+          "from": "S Kelly Rd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1094,21 +946,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-05-16T15:56Z/"
+          "2021-05-16T16:37Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T08:56:16.51999"
+          "event-message-time-stamp": "2021-05-16T09:50:13.88368"
         },
         "event-reference": {
-          "event-identifier": "770268"
+          "event-identifier": "770279"
         },
         "event-status": "new",
         "details": {
@@ -1129,7 +981,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-24 Eastbound west of Pleasant Hill Rd (Lafayette). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on CA-29 Northbound south of S Kelly Rd (Napa). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -1138,25 +990,173 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 E",
-                  "link-from-road": "Pleasant Hill Rd",
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-29 N",
+                  "link-from-road": "S Kelly Rd",
                   "link-to-road": null,
-                  "link-from-city": "Lafayette",
+                  "link-from-city": "Napa",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.897394",
-                    "event-location-coordinates-longitude": "-122.081878"
+                    "event-location-coordinates-latitude": "38.207634",
+                    "event-location-coordinates-longitude": "-122.256236"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-16T08:56:01.64650",
+              "update-time": "2021-05-16T09:37:25.64240",
               "valid-period": {
-                "event-timeline-estimated-duration": "25.2"
+                "event-timeline-estimated-duration": "35.2"
               },
-              "start-time": "2021-05-16T08:56:01.00000",
+              "start-time": "2021-05-16T09:37:25.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-16T09:37:25.64240",
+        "ivr-article": "south of",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210516GG00697",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on CA-152 Eastbound at E 10TH St (Gilroy). On Ramp affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-16T16:39Z",
+      "updated": "2021-05-16T16:49Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.556493,
+          37.003734
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210516MY00091"
+      },
+      "roads": [
+        {
+          "name": "CA-152",
+          "from": "E 10TH St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "On Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-16T16:49Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-16T09:50:13.88368"
+        },
+        "event-reference": {
+          "event-identifier": "770280"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on CA-152 Eastbound at E 10TH St (Gilroy). On Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-152",
+                  "link-from-road": "E 10TH St",
+                  "link-to-road": null,
+                  "link-from-city": "Gilroy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.003734",
+                    "event-location-coordinates-longitude": "-121.556493"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-16T09:49:05.29800",
+              "valid-period": {
+                "event-timeline-estimated-duration": "37"
+              },
+              "start-time": "2021-05-16T09:49:05.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1170,13 +1170,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-05-16T08:56:01.64650",
-        "ivr-article": "west of",
-        "ivr-county": "Contra Costa",
+        "ivr-lastUpdateDttm": "2021-05-16T09:49:05.29800",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "On Ramp",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210516GG00575",
+        "SourceEventID": "210516MY00091",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
