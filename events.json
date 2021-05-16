@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T12:40:22.14700"
+          "event-message-time-stamp": "2021-05-16T12:50:01.23656"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -224,7 +224,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T12:40:22.14700"
+          "event-message-time-stamp": "2021-05-16T12:50:01.23656"
         },
         "event-reference": {
           "event-identifier": "769574"
@@ -369,7 +369,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T12:40:22.14700"
+          "event-message-time-stamp": "2021-05-16T12:50:01.23656"
         },
         "event-reference": {
           "event-identifier": "770000"
@@ -517,7 +517,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T12:40:22.14700"
+          "event-message-time-stamp": "2021-05-16T12:50:01.25218"
         },
         "event-reference": {
           "event-identifier": "770310"
@@ -665,7 +665,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T12:40:22.14700"
+          "event-message-time-stamp": "2021-05-16T12:50:01.25218"
         },
         "event-reference": {
           "event-identifier": "770311"
@@ -744,21 +744,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-29 Southbound at CA-12 (Southern) (Unincorporated). Center Divider affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-680 Southbound entering at Diablo Rd (Danville). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
-      "severity": "Minor",
-      "created": "2021-05-16T19:39Z",
-      "updated": "2021-05-16T19:39Z",
+      "severity": "Moderate",
+      "created": "2021-05-16T19:40Z",
+      "updated": "2021-05-16T19:48Z",
       "areas": {
         "area": {
-          "name": "Napa",
-          "id": "5376101",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5376101/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -771,8 +771,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.258004,
-          38.223227
+          -121.993339,
+          37.820015
         ]
       },
       "source_type": {
@@ -781,17 +781,165 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210516GG01116"
+        "#text": "210516GG01117"
       },
       "roads": [
         {
-          "name": "CA-29 S",
-          "from": "CA-12 (Southern)",
+          "name": "I-680 S",
+          "from": "Diablo Rd",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "entering at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-16T19:40Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-16T12:50:01.25218"
+        },
+        "event-reference": {
+          "event-identifier": "770315"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-680 Southbound entering at Diablo Rd (Danville). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "Diablo Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Danville",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.820015",
+                    "event-location-coordinates-longitude": "-121.993339"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-16T12:48:15.15320",
+              "valid-period": {
+                "event-timeline-estimated-duration": "27.7"
+              },
+              "start-time": "2021-05-16T12:40:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-05-16T12:48:15.15320",
+        "ivr-article": "entering at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210516GG01117",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-205 Westbound west of W 11TH St (Tracy). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-16T19:40Z",
+      "updated": "2021-05-16T19:40Z",
+      "areas": {
+        "area": {
+          "name": "San Joaquin",
+          "id": "5392126",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392126/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.505043,
+          37.740885
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210516ST00207"
+      },
+      "roads": [
+        {
+          "name": "I-205 W",
+          "from": "W 11TH St",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -803,21 +951,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-05-16T19:39Z/"
+          "2021-05-16T19:40Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-16T12:40:22.14700"
+          "event-message-time-stamp": "2021-05-16T12:50:01.25218"
         },
         "event-reference": {
-          "event-identifier": "770314"
+          "event-identifier": "770316"
         },
         "event-status": "new",
         "details": {
@@ -838,7 +986,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-29 Southbound at CA-12 (Southern) (Unincorporated). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-205 Westbound west of W 11TH St (Tracy). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -847,25 +995,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA055",
-                  "link-road-designator": "CA-29 S",
-                  "link-from-road": "CA-12 (Southern)",
+                  "event-location-type-area": null,
+                  "link-road-designator": "I-205 W",
+                  "link-from-road": "W 11TH St",
                   "link-to-road": null,
-                  "link-from-city": "Unincorporated",
+                  "link-from-city": "Tracy",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.223227",
-                    "event-location-coordinates-longitude": "-122.258004"
+                    "event-location-coordinates-latitude": "37.740885",
+                    "event-location-coordinates-longitude": "-121.505043"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-16T12:39:55.10190",
+              "update-time": "2021-05-16T12:40:59.09060",
               "valid-period": {
-                "event-timeline-estimated-duration": "20.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2021-05-16T12:39:55.00000",
+              "start-time": "2021-05-16T12:40:59.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -874,18 +1022,322 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-16T12:39:55.10190",
-        "ivr-article": "at",
-        "ivr-county": "Napa",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-05-16T12:40:59.09060",
+        "ivr-article": "west of",
+        "ivr-county": "San Joaquin",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210516GG01116",
+        "SourceEventID": "210516ST00207",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard and Debris on I-880 Northbound south of I-880 N-I-80 W Ramp (Oakland). 3rd lane from the left affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": [
+          "Traffic Hazard",
+          "Debris"
+        ]
+      },
+      "severity": "Moderate",
+      "created": "2021-05-16T19:43Z",
+      "updated": "2021-05-16T19:47Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.299826,
+          37.8148038832162
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210516GG01125"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "I-880 N-I-80 W Ramp",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "3rd lane from the left"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-16T19:43Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-16T12:50:01.25218"
+        },
+        "event-reference": {
+          "event-identifier": "770317"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Traffic Hazard"
+                      },
+                      {
+                        "incident": "Debris"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard and Debris on I-880 Northbound south of I-880 N-I-80 W Ramp (Oakland). 3rd lane from the left affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "I-880 N-I-80 W Ramp",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.8148038832162",
+                    "event-location-coordinates-longitude": "-122.299826"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-16T12:47:14.38980",
+              "valid-period": {
+                "event-timeline-estimated-duration": "37.6"
+              },
+              "start-time": "2021-05-16T12:43:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-16T12:47:14.38980",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "3rd lane from the left",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210516GG01125",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound at CA-92 W (San Mateo). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-16T19:47Z",
+      "updated": "2021-05-16T19:49Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.298583,
+          37.556133
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210516GG01137"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "CA-92 W",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-16T19:47Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-16T12:50:01.25218"
+        },
+        "event-reference": {
+          "event-identifier": "770318"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound at CA-92 W (San Mateo). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "CA-92 W",
+                  "link-to-road": null,
+                  "link-from-city": "San Mateo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.556133",
+                    "event-location-coordinates-longitude": "-122.298583"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-16T12:49:14.14350",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-05-16T12:47:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-16T12:49:14.14350",
+        "ivr-article": "at",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210516GG01137",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
