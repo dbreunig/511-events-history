@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-29T07:33:53.17362"
+          "event-message-time-stamp": "2021-05-29T07:57:44.16826"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -225,7 +225,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-29T07:33:53.17362"
+          "event-message-time-stamp": "2021-05-29T07:57:44.16826"
         },
         "event-reference": {
           "event-identifier": "775076"
@@ -372,7 +372,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-29T07:33:53.17362"
+          "event-message-time-stamp": "2021-05-29T07:57:44.16826"
         },
         "event-reference": {
           "event-identifier": "775261"
@@ -520,7 +520,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-29T07:33:53.17362"
+          "event-message-time-stamp": "2021-05-29T07:57:44.16826"
         },
         "event-reference": {
           "event-identifier": "775293"
@@ -668,7 +668,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-29T07:33:53.17362"
+          "event-message-time-stamp": "2021-05-29T07:57:44.16826"
         },
         "event-reference": {
           "event-identifier": "775304"
@@ -816,7 +816,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-29T07:33:53.17362"
+          "event-message-time-stamp": "2021-05-29T07:57:44.16826"
         },
         "event-reference": {
           "event-identifier": "775311"
@@ -964,7 +964,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-29T07:33:53.17362"
+          "event-message-time-stamp": "2021-05-29T07:57:44.16826"
         },
         "event-reference": {
           "event-identifier": "775313"
@@ -1042,21 +1042,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-4 Westbound at Loveridge Rd (Pittsburg). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound at Treasure Island Rd (San Francisco). Off Ramp closed. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
-      "severity": "Moderate",
-      "created": "2021-05-29T14:15Z",
-      "updated": "2021-05-29T14:15Z",
+      "severity": "Severe",
+      "created": "2021-05-29T14:38Z",
+      "updated": "2021-05-29T14:53Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "San Francisco",
+          "id": "5391997",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5391997/"
           }
         }
       },
@@ -1069,8 +1069,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.864671,
-          38.011402
+          -122.366974,
+          37.808253
         ]
       },
       "source_type": {
@@ -1079,13 +1079,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210529GG00520"
+        "#text": "210529GG00548"
       },
       "roads": [
         {
-          "name": "CA-4 W",
-          "from": "Loveridge Rd",
-          "direction": "Westbound",
+          "name": "I-80 E",
+          "from": "Treasure Island Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-29T14:53Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-29T07:57:44.16826"
+        },
+        "event-reference": {
+          "event-identifier": "775316"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound at Treasure Island Rd (San Francisco). Off Ramp closed. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Treasure Island Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.808253",
+                    "event-location-coordinates-longitude": "-122.366974"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-29T07:53:06.71810",
+              "valid-period": {
+                "event-timeline-estimated-duration": "71.5"
+              },
+              "start-time": "2021-05-29T07:53:06.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Severe",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "5",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-05-29T07:53:06.71810",
+        "ivr-article": "at",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210529GG00548",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Eastbound east of 1ST St (Livermore). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-29T14:42Z",
+      "updated": "2021-05-29T14:53Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.736852,
+          37.703393
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210529GG00559"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "1ST St",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1101,21 +1249,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-05-29T14:15Z/"
+          "2021-05-29T14:53Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-29T07:33:53.17362"
+          "event-message-time-stamp": "2021-05-29T07:57:44.16826"
         },
         "event-reference": {
-          "event-identifier": "775315"
+          "event-identifier": "775317"
         },
         "event-status": "new",
         "details": {
@@ -1136,7 +1284,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-4 Westbound at Loveridge Rd (Pittsburg). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound east of 1ST St (Livermore). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1145,25 +1293,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 W",
-                  "link-from-road": "Loveridge Rd",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "1ST St",
                   "link-to-road": null,
-                  "link-from-city": "Pittsburg",
+                  "link-from-city": "Livermore",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.011402",
-                    "event-location-coordinates-longitude": "-121.864671"
+                    "event-location-coordinates-latitude": "37.703393",
+                    "event-location-coordinates-longitude": "-121.736852"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-29T07:15:54.45130",
+              "update-time": "2021-05-29T07:53:06.56260",
               "valid-period": {
                 "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2021-05-29T07:15:54.00000",
+              "start-time": "2021-05-29T07:53:06.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1176,14 +1324,162 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-05-29T07:15:54.45130",
-        "ivr-article": "at",
-        "ivr-county": "Contra Costa",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-05-29T07:53:06.56260",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210529GG00520",
+        "SourceEventID": "210529GG00559",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-880 Northbound south of CA-82 (San Jose). Lanes affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-29T14:48Z",
+      "updated": "2021-05-29T14:48Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.928042,
+          37.340857
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210529GG00569"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "CA-82",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-29T14:48Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-29T07:57:44.16826"
+        },
+        "event-reference": {
+          "event-identifier": "775318"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-880 Northbound south of CA-82 (San Jose). Lanes affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "CA-82",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.340857",
+                    "event-location-coordinates-longitude": "-121.928042"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-29T07:48:51.10450",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2021-05-29T07:48:51.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-29T07:48:51.10450",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210529GG00569",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
