@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-28T19:37:41.46023"
+          "event-message-time-stamp": "2021-05-28T20:42:53.62424"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -215,7 +215,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-28T19:37:41.46023"
+          "event-message-time-stamp": "2021-05-28T20:42:53.62424"
         },
         "event-reference": {
           "event-identifier": "754263"
@@ -298,7 +298,7 @@
       },
       "severity": "Major",
       "created": "2021-05-28T20:39Z",
-      "updated": "2021-05-29T02:00Z",
+      "updated": "2021-05-29T03:42Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-28T19:37:41.46023"
+          "event-message-time-stamp": "2021-05-28T20:42:53.62424"
         },
         "event-reference": {
           "event-identifier": "775076"
@@ -405,7 +405,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-28T19:00:39.89620",
+              "update-time": "2021-05-28T20:42:46.96590",
               "valid-period": {
                 "event-timeline-estimated-duration": "59.5"
               },
@@ -423,7 +423,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-05-28T19:00:39.89620",
+        "ivr-lastUpdateDttm": "2021-05-28T20:42:46.96590",
         "ivr-article": "between",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
@@ -435,21 +435,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-35 Northbound at Old La Honda Rd (Portola Valley). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-680 Northbound north of Bayshore Rd (Benicia). Right lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2021-05-29T02:21Z",
-      "updated": "2021-05-29T02:30Z",
+      "created": "2021-05-29T02:51Z",
+      "updated": "2021-05-29T02:52Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "Solano",
+          "id": "5396987",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5396987/"
           }
         }
       },
@@ -462,8 +462,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.252327,
-          37.371787
+          -122.130867,
+          38.064266
         ]
       },
       "source_type": {
@@ -472,13 +472,605 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210528GG02370"
+        "#text": "210528GG02449"
       },
       "roads": [
         {
-          "name": "CA-35 N",
-          "from": "Old La Honda Rd",
+          "name": "I-680 N",
+          "from": "Bayshore Rd",
           "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-29T02:51Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-28T20:42:53.62424"
+        },
+        "event-reference": {
+          "event-identifier": "775228"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-680 Northbound north of Bayshore Rd (Benicia). Right lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Bayshore Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Benicia",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.064266",
+                    "event-location-coordinates-longitude": "-122.130867"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-28T19:52:43.50090",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2021-05-28T19:51:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-28T19:52:43.50090",
+        "ivr-article": "north of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210528GG02449",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-4 Eastbound entering at Alhambra Ave (Martinez). On Ramp blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Major",
+      "created": "2021-05-29T03:11Z",
+      "updated": "2021-05-29T03:12Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.12634,
+          37.991473
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210528GG02498"
+      },
+      "roads": [
+        {
+          "name": "CA-4 E",
+          "from": "Alhambra Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "On Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "entering at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-29T03:11Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-28T20:42:53.62424"
+        },
+        "event-reference": {
+          "event-identifier": "775233"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-4 Eastbound entering at Alhambra Ave (Martinez). On Ramp blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-4 E",
+                  "link-from-road": "Alhambra Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Martinez",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.991473",
+                    "event-location-coordinates-longitude": "-122.12634"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-28T20:12:42.97590",
+              "valid-period": {
+                "event-timeline-estimated-duration": "49"
+              },
+              "start-time": "2021-05-28T20:11:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-05-28T20:12:42.97590",
+        "ivr-article": "entering at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "On Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210528GG02498",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-680 Northbound north of Livorna Rd (Alamo). 3rd lane from the left affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-29T03:16Z",
+      "updated": "2021-05-29T03:17Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.03765,
+          37.865358
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210528GG02513"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "Livorna Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "3rd lane from the left"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-29T03:16Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-28T20:42:53.62424"
+        },
+        "event-reference": {
+          "event-identifier": "775235"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-680 Northbound north of Livorna Rd (Alamo). 3rd lane from the left affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Livorna Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Alamo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.865358",
+                    "event-location-coordinates-longitude": "-122.03765"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-28T20:17:21.22700",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-05-28T20:16:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-28T20:17:21.22700",
+        "ivr-article": "north of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "3rd lane from the left",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210528GG02513",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-680 Northbound south of Bernal Ave (Pleasanton). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-29T03:17Z",
+      "updated": "2021-05-29T03:17Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.898077,
+          37.6536
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210528GG02516"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "Bernal Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-29T03:17Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-28T20:42:53.62424"
+        },
+        "event-reference": {
+          "event-identifier": "775236"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-680 Northbound south of Bernal Ave (Pleasanton). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Bernal Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Pleasanton",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.6536",
+                    "event-location-coordinates-longitude": "-121.898077"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-28T20:17:50.76460",
+              "valid-period": {
+                "event-timeline-estimated-duration": "30.5"
+              },
+              "start-time": "2021-05-28T20:17:50.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-28T20:17:50.76460",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210528GG02516",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Brush fire on US-101 Southbound at Monterey Hwy (Gilroy). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Brush fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-29T03:21Z",
+      "updated": "2021-05-29T03:22Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.557778,
+          36.990278
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210528MY00444"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Monterey Hwy",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -500,15 +1092,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-05-29T02:30Z/"
+          "2021-05-29T03:22Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-28T19:37:41.46023"
+          "event-message-time-stamp": "2021-05-28T20:42:53.62424"
         },
         "event-reference": {
-          "event-identifier": "775221"
+          "event-identifier": "775239"
         },
         "event-status": "new",
         "details": {
@@ -519,7 +1111,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Brush fire"
                     }
                   }
                 },
@@ -529,7 +1121,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-35 Northbound at Old La Honda Rd (Portola Valley). Lane affected. Expect delays."
+                      "event-description": "CHP : Brush fire on US-101 Southbound at Monterey Hwy (Gilroy). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -538,173 +1130,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "CA-35 N",
-                  "link-from-road": "Old La Honda Rd",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Monterey Hwy",
                   "link-to-road": null,
-                  "link-from-city": "Portola Valley",
+                  "link-from-city": "Gilroy",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.371787",
-                    "event-location-coordinates-longitude": "-122.252327"
+                    "event-location-coordinates-latitude": "36.990278",
+                    "event-location-coordinates-longitude": "-121.557778"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-28T19:30:47.06120",
+              "update-time": "2021-05-28T20:22:08.03110",
               "valid-period": {
-                "event-timeline-estimated-duration": "34"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2021-05-28T19:30:47.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-28T19:30:47.06120",
-        "ivr-article": "at",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210528GG02370",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Southbound north of Alemany Blvd (San Francisco). Right lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-05-29T02:22Z",
-      "updated": "2021-05-29T02:36Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.414904,
-          37.732277
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210528GG02374"
-      },
-      "roads": [
-        {
-          "name": "I-280 S",
-          "from": "Alemany Blvd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-29T02:36Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-28T19:37:41.46023"
-        },
-        "event-reference": {
-          "event-identifier": "775222"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Southbound north of Alemany Blvd (San Francisco). Right lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "Alemany Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.732277",
-                    "event-location-coordinates-longitude": "-122.414904"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-28T19:36:06.96590",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-05-28T19:36:06.00000",
+              "start-time": "2021-05-28T20:22:08.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -718,27 +1162,27 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-28T19:36:06.96590",
-        "ivr-article": "north of",
-        "ivr-county": "San Francisco",
+        "ivr-lastUpdateDttm": "2021-05-28T20:22:08.03110",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210528GG02374",
+        "SourceEventID": "210528MY00444",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Northbound south of CA-92 E (San Mateo). Right lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on CA-1 Southbound ramp to Skyline Blvd (Daly City). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2021-05-29T02:26Z",
-      "updated": "2021-05-29T02:27Z",
+      "created": "2021-05-29T03:25Z",
+      "updated": "2021-05-29T03:29Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -758,8 +1202,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.33171,
-          37.502982
+          -122.485229,
+          37.668545
         ]
       },
       "source_type": {
@@ -768,21 +1212,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210528GG02386"
+        "#text": "210528GG02534"
       },
       "roads": [
         {
-          "name": "I-280 N",
-          "from": "CA-92 E",
-          "direction": "Northbound",
+          "name": "CA-1 S",
+          "from": "Skyline Blvd",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -790,21 +1234,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "ramp to"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-05-29T02:26Z/"
+          "2021-05-29T03:25Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-28T19:37:41.46023"
+          "event-message-time-stamp": "2021-05-28T20:42:53.62424"
         },
         "event-reference": {
-          "event-identifier": "775224"
+          "event-identifier": "775241"
         },
         "event-status": "new",
         "details": {
@@ -825,7 +1269,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Northbound south of CA-92 E (San Mateo). Right lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-1 Southbound ramp to Skyline Blvd (Daly City). Lane blocked. Expect delays."
                     }
                   }
                 }
@@ -835,24 +1279,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA081",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "CA-92 E",
+                  "link-road-designator": "CA-1 S",
+                  "link-from-road": "Skyline Blvd",
                   "link-to-road": null,
-                  "link-from-city": "San Mateo",
+                  "link-from-city": "Daly City",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.502982",
-                    "event-location-coordinates-longitude": "-122.33171"
+                    "event-location-coordinates-latitude": "37.668545",
+                    "event-location-coordinates-longitude": "-122.485229"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-28T19:27:20.85040",
+              "update-time": "2021-05-28T20:29:33.92610",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2021-05-28T19:26:00.00000",
+              "start-time": "2021-05-28T20:25:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -865,35 +1309,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-28T19:27:20.85040",
-        "ivr-article": "south of",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-05-28T20:29:33.92610",
+        "ivr-article": "ramp to",
         "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210528GG02386",
+        "SourceEventID": "210528GG02534",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Debris on CA-4 Westbound east of Bailey Rd (Pittsburg). Left lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on US-101 Northbound north of Market St (San Francisco). Left lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Debris"
+        "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Moderate",
-      "created": "2021-05-29T02:36Z",
-      "updated": "2021-05-29T02:36Z",
+      "severity": "Minor",
+      "created": "2021-05-29T03:37Z",
+      "updated": "2021-05-29T03:40Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "San Francisco",
+          "id": "5391997",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5391997/"
           }
         }
       },
@@ -906,8 +1350,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.937152,
-          38.019101
+          -122.423304,
+          37.771852
         ]
       },
       "source_type": {
@@ -916,13 +1360,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210528GG02415"
+        "#text": "210528GG02559"
       },
       "roads": [
         {
-          "name": "CA-4 W",
-          "from": "Bailey Rd",
-          "direction": "Westbound",
+          "name": "US-101 N",
+          "from": "Market St",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -930,7 +1374,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -938,21 +1382,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-05-29T02:36Z/"
+          "2021-05-29T03:40Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-28T19:37:41.46023"
+          "event-message-time-stamp": "2021-05-28T20:42:53.62424"
         },
         "event-reference": {
-          "event-identifier": "775225"
+          "event-identifier": "775242"
         },
         "event-status": "new",
         "details": {
@@ -963,7 +1407,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Debris"
+                      "incident": "Traffic Collision with Injuries"
                     }
                   }
                 },
@@ -973,7 +1417,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Debris on CA-4 Westbound east of Bailey Rd (Pittsburg). Left lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Northbound north of Market St (San Francisco). Left lane blocked. Expect delays."
                     }
                   }
                 }
@@ -982,25 +1426,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 W",
-                  "link-from-road": "Bailey Rd",
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Market St",
                   "link-to-road": null,
-                  "link-from-city": "Pittsburg",
+                  "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.019101",
-                    "event-location-coordinates-longitude": "-121.937152"
+                    "event-location-coordinates-latitude": "37.771852",
+                    "event-location-coordinates-longitude": "-122.423304"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-28T19:36:39.91750",
+              "update-time": "2021-05-28T20:40:14.74330",
               "valid-period": {
-                "event-timeline-estimated-duration": "25.6"
+                "event-timeline-estimated-duration": "18.5"
               },
-              "start-time": "2021-05-28T19:36:00.00000",
+              "start-time": "2021-05-28T20:40:14.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1009,18 +1453,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-05-28T19:36:39.91750",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-05-28T20:40:14.74330",
+        "ivr-article": "north of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210528GG02415",
+        "SourceEventID": "210528GG02559",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
