@@ -12,7 +12,7 @@
       },
       "severity": "Unknown",
       "created": "2020-12-19T13:48Z",
-      "updated": "2021-05-28T19:49Z",
+      "updated": "2021-05-30T17:01Z",
       "areas": {
         "area": {
           "name": "Napa",
@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-30T09:49:39.35615"
+          "event-message-time-stamp": "2021-05-30T10:32:17.56796"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -127,7 +127,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-28T12:49:58.62100",
+              "update-time": "2021-05-30T10:01:32.04330",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -145,7 +145,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound and Westbound",
-        "ivr-lastUpdateDttm": "2021-05-28T12:49:58.62100",
+        "ivr-lastUpdateDttm": "2021-05-30T10:01:32.04330",
         "ivr-article": "at",
         "ivr-county": "Napa",
         "ivr-laneStatus": "closed",
@@ -225,7 +225,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-30T09:49:39.35615"
+          "event-message-time-stamp": "2021-05-30T10:32:17.56796"
         },
         "event-reference": {
           "event-identifier": "775076"
@@ -302,17 +302,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision with Injuries on CA-87 Northbound ramp to US-101 S (San Jose). Right lanes blocked. Expect delays.",
+      "headline": "CHP : Residual delays on CA-87 Northbound ramp to US-101 S (San Jose). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision with Injuries",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Severe",
+      "severity": "Unknown",
       "created": "2021-05-30T13:36Z",
-      "updated": "2021-05-30T16:34Z",
+      "updated": "2021-05-30T17:24Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -352,11 +349,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lanes"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -375,7 +372,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-30T09:49:39.35615"
+          "event-message-time-stamp": "2021-05-30T10:32:17.56796"
         },
         "event-reference": {
           "event-identifier": "775635"
@@ -388,14 +385,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision with Injuries"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -404,7 +396,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision with Injuries on CA-87 Northbound ramp to US-101 S (San Jose). Right lanes blocked. Expect delays."
+                      "event-description": "CHP : Residual delays on CA-87 Northbound ramp to US-101 S (San Jose). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -427,9 +419,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-30T09:34:12.91470",
+              "update-time": "2021-05-30T10:24:31.48110",
               "valid-period": {
-                "event-timeline-estimated-duration": "73"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-05-30T09:04:00.00000",
               "cleared-time": null,
@@ -440,17 +432,16 @@
             }
           }
         },
-        "EventImpact": "Severe",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-30T09:34:12.91470",
+        "ivr-lastUpdateDttm": "2021-05-30T10:24:31.48110",
         "ivr-article": "ramp to",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lanes",
-        "ivr-impact": "Always play incident",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210530GG00431",
         "EventSourceName": "CHP",
@@ -459,169 +450,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-680 Northbound south of Bollinger Canyon Rd (San Ramon). Lane affected. Expect delays.",
+      "headline": "CHP : High winds on US-101 Northbound and Southbound at Golden Gate Bridge (San Francisco). Lanes affected. Traffic advisory in effect.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-05-30T14:04Z",
-      "updated": "2021-05-30T16:28Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.967176,
-          37.763011
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210530GG00513"
-      },
-      "roads": [
-        {
-          "name": "I-680 N",
-          "from": "Bollinger Canyon Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-30T16:28Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-30T09:49:39.35615"
-        },
-        "event-reference": {
-          "event-identifier": "775637"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-680 Northbound south of Bollinger Canyon Rd (San Ramon). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Bollinger Canyon Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Ramon",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.763011",
-                    "event-location-coordinates-longitude": "-121.967176"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-30T09:28:33.64370",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2021-05-30T09:28:33.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-30T09:28:33.64370",
-        "ivr-article": "south of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210530GG00513",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-29 Southbound south of Robert Louis Stevenson State Park (Calistoga). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "High winds"
       },
       "severity": "Major",
-      "created": "2021-05-30T15:32Z",
-      "updated": "2021-05-30T15:32Z",
+      "created": "2021-05-30T16:58Z",
+      "updated": "2021-05-30T16:58Z",
       "areas": {
         "area": {
-          "name": "Napa",
-          "id": "5376101",
+          "name": "San Francisco",
+          "id": "5391997",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5376101/"
+            "@href": "http://geonames.org/5391997/"
           }
         }
       },
@@ -634,27 +477,23 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.599961,
-          38.652017
+          -122.477417,
+          37.810833
         ]
       },
       "source_type": {
         "@xmlns": "http://511.org/open511-extensions",
         "#text": "CHP"
       },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210530GG00632"
-      },
       "roads": [
         {
-          "name": "CA-29 S",
-          "from": "Robert Louis Stevenson State Park",
-          "direction": "Southbound",
+          "name": "US-101 N",
+          "from": "Golden Gate Bridge",
+          "direction": "Northbound and Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -662,36 +501,36 @@
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "Traffic advisory in effect"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-05-30T15:32Z/"
+          "2021-05-30T16:58Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-30T09:49:39.35615"
+          "event-message-time-stamp": "2021-05-30T10:32:17.56796"
         },
         "event-reference": {
-          "event-identifier": "775650"
+          "event-identifier": "775664"
         },
         "event-status": "new",
         "details": {
           "eventElementDetails": {
-            "event-element-sequence": "4",
+            "event-element-sequence": "1",
             "event-element-description": {
               "eventDescription": [
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "High winds"
                     }
                   }
                 },
@@ -701,7 +540,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-29 Southbound south of Robert Louis Stevenson State Park (Calistoga). Lane affected. Expect delays."
+                      "event-description": "CHP : High winds on US-101 Northbound and Southbound at Golden Gate Bridge (San Francisco). Lanes affected. Traffic advisory in effect."
                     }
                   }
                 }
@@ -710,25 +549,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA055",
-                  "link-road-designator": "CA-29 S",
-                  "link-from-road": "Robert Louis Stevenson State Park",
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Golden Gate Bridge",
                   "link-to-road": null,
-                  "link-from-city": "Calistoga",
+                  "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.652017",
-                    "event-location-coordinates-longitude": "-122.599961"
+                    "event-location-coordinates-latitude": "37.810833",
+                    "event-location-coordinates-longitude": "-122.477417"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-30T08:32:12.80920",
+              "update-time": "2021-05-30T09:58:55.65260",
               "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
+                "event-timeline-estimated-duration": "64.5"
               },
-              "start-time": "2021-05-30T08:32:12.00000",
+              "start-time": "2021-05-30T09:58:55.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -741,28 +580,173 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-30T08:32:12.80920",
-        "ivr-article": "south of",
-        "ivr-county": "Napa",
+        "ivr-eventDirection": "Northbound and Southbound",
+        "ivr-lastUpdateDttm": "2021-05-30T09:58:55.65260",
+        "ivr-article": "at",
+        "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210530GG00632",
+        "ivr-totalLanes": "Lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Traffic advisory in effect",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-35 Northbound east of Fox Run (Los Gatos). Lanes affected. Expect delays.",
+      "headline": "CHP : High winds on I-580 Eastbound and Westbound between S Vasco Rd (Livermore) and Greenville Rd (Livermore). Lanes affected. Traffic advisory in effect.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "High winds"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-30T17:00Z",
+      "updated": "2021-05-30T17:00Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.723709,
+          37.709
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "S Vasco Rd",
+          "to": "Greenville Rd",
+          "direction": "Eastbound and Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Traffic advisory in effect"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "between"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-30T17:00Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-30T10:32:17.56796"
+        },
+        "event-reference": {
+          "event-identifier": "775666"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "High winds"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : High winds on I-580 Eastbound and Westbound between S Vasco Rd (Livermore) and Greenville Rd (Livermore). Lanes affected. Traffic advisory in effect."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "S Vasco Rd",
+                  "link-to-road": "Greenville Rd",
+                  "link-from-city": "Livermore",
+                  "link-to-city": "Livermore",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.709",
+                    "event-location-coordinates-longitude": "-121.723709"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-30T10:00:34.51150",
+              "valid-period": {
+                "event-timeline-estimated-duration": "37"
+              },
+              "start-time": "2021-05-30T10:00:34.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound and Westbound",
+        "ivr-lastUpdateDttm": "2021-05-30T10:00:34.51150",
+        "ivr-article": "between",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Traffic advisory in effect",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on CA-9 Eastbound south of Skyline Blvd (Unincorporated). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Moderate",
-      "created": "2021-05-30T16:08Z",
-      "updated": "2021-05-30T16:36Z",
+      "severity": "Minor",
+      "created": "2021-05-30T17:07Z",
+      "updated": "2021-05-30T17:07Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -782,8 +766,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.11598,
-          37.256293
+          -122.121564,
+          37.258207
         ]
       },
       "source_type": {
@@ -792,17 +776,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210530GG00694"
+        "#text": "210530GG00807"
       },
       "roads": [
         {
-          "name": "CA-35 N",
-          "from": "Fox Run",
-          "direction": "Northbound",
+          "name": "CA-9",
+          "from": "Skyline Blvd",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -814,21 +798,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-05-30T16:35Z/"
+          "2021-05-30T17:07Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-30T09:49:39.35615"
+          "event-message-time-stamp": "2021-05-30T10:32:17.56796"
         },
         "event-reference": {
-          "event-identifier": "775655"
+          "event-identifier": "775667"
         },
         "event-status": "new",
         "details": {
@@ -849,7 +833,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-35 Northbound east of Fox Run (Los Gatos). Lanes affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-9 Eastbound south of Skyline Blvd (Unincorporated). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -859,24 +843,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-35 N",
-                  "link-from-road": "Fox Run",
+                  "link-road-designator": "CA-9",
+                  "link-from-road": "Skyline Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Los Gatos",
+                  "link-from-city": "Unincorporated",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.256293",
-                    "event-location-coordinates-longitude": "-122.11598"
+                    "event-location-coordinates-latitude": "37.258207",
+                    "event-location-coordinates-longitude": "-122.121564"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-30T09:36:00.08500",
+              "update-time": "2021-05-30T10:07:53.61790",
               "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
+                "event-timeline-estimated-duration": "8.5"
               },
-              "start-time": "2021-05-30T09:35:59.00000",
+              "start-time": "2021-05-30T10:07:53.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -885,39 +869,39 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-30T09:36:00.08500",
-        "ivr-article": "east of",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-05-30T10:07:53.61790",
+        "ivr-article": "south of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210530GG00694",
+        "SourceEventID": "210530GG00807",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-17 Southbound north of Laurel Rd (Los Gatos). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on CA-17 Northbound north of San Tomas Expy (Campbell). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2021-05-30T16:40Z",
-      "updated": "2021-05-30T16:44Z",
+      "created": "2021-05-30T17:22Z",
+      "updated": "2021-05-30T17:26Z",
       "areas": {
         "area": {
-          "name": "Santa Cruz",
-          "id": "5393068",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393068/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -930,8 +914,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.975556,
-          37.103889
+          -121.948786,
+          37.265743
         ]
       },
       "source_type": {
@@ -940,13 +924,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210530MY00099"
+        "#text": "210530GG00831"
       },
       "roads": [
         {
-          "name": "CA-17 S",
-          "from": "Laurel Rd",
-          "direction": "Southbound",
+          "name": "CA-17 N",
+          "from": "San Tomas Expy",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -968,163 +952,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-05-30T16:44Z/"
+          "2021-05-30T17:22Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-30T09:49:39.35615"
+          "event-message-time-stamp": "2021-05-30T10:32:17.56796"
         },
         "event-reference": {
-          "event-identifier": "775660"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-17 Southbound north of Laurel Rd (Los Gatos). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA087",
-                  "link-road-designator": "CA-17 S",
-                  "link-from-road": "Laurel Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Los Gatos",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.103889",
-                    "event-location-coordinates-longitude": "-121.975556"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-05-30T09:44:31.77870",
-              "valid-period": {
-                "event-timeline-estimated-duration": "34"
-              },
-              "start-time": "2021-05-30T09:44:31.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-30T09:44:31.77870",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Cruz",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210530MY00099",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-880 Northbound south of I-238 S (San Leandro). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-05-30T16:41Z",
-      "updated": "2021-05-30T16:41Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.135036,
-          37.688883
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210530GG00752"
-      },
-      "roads": [
-        {
-          "name": "I-880 N",
-          "from": "I-238 S",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-05-30T16:41Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-05-30T09:49:39.35615"
-        },
-        "event-reference": {
-          "event-identifier": "775661"
+          "event-identifier": "775672"
         },
         "event-status": "new",
         "details": {
@@ -1145,7 +981,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-880 Northbound south of I-238 S (San Leandro). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-17 Northbound north of San Tomas Expy (Campbell). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1154,25 +990,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "I-238 S",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "San Tomas Expy",
                   "link-to-road": null,
-                  "link-from-city": "San Leandro",
+                  "link-from-city": "Campbell",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.688883",
-                    "event-location-coordinates-longitude": "-122.135036"
+                    "event-location-coordinates-latitude": "37.265743",
+                    "event-location-coordinates-longitude": "-121.948786"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-30T09:41:19.39360",
+              "update-time": "2021-05-30T10:26:20.80050",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "30.5"
               },
-              "start-time": "2021-05-30T09:41:19.00000",
+              "start-time": "2021-05-30T10:22:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1186,34 +1022,34 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-05-30T09:41:19.39360",
-        "ivr-article": "south of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
+        "ivr-lastUpdateDttm": "2021-05-30T10:26:20.80050",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210530GG00752",
+        "SourceEventID": "210530GG00831",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Southbound north of E Poplar Ave (San Mateo). Lane affected. Expect delays.",
+      "headline": "CHP : Residual delays on I-80 Westbound west of Waterman Blvd (Fairfield). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Residual delays"
       },
       "severity": "Moderate",
-      "created": "2021-05-30T16:42Z",
-      "updated": "2021-05-30T16:42Z",
+      "created": "2021-05-30T17:23Z",
+      "updated": "2021-05-30T17:25Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "Solano",
+          "id": "5396987",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5396987/"
           }
         }
       },
@@ -1226,8 +1062,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.325401,
-          37.581246
+          -122.052997,
+          38.269666
         ]
       },
       "source_type": {
@@ -1236,12 +1072,160 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210530GG00757"
+        "#text": "210530GG00834"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Waterman Blvd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-05-30T17:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-05-30T10:32:17.56796"
+        },
+        "event-reference": {
+          "event-identifier": "775673"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on I-80 Westbound west of Waterman Blvd (Fairfield). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Waterman Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.269666",
+                    "event-location-coordinates-longitude": "-122.052997"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-05-30T10:25:00.31710",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-05-30T10:23:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-05-30T10:25:00.31710",
+        "ivr-article": "west of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210530GG00834",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Grass fire on US-101 Southbound north of Blossom Hill Rd (San Jose). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Grass fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-05-30T17:25Z",
+      "updated": "2021-05-30T17:30Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.800153,
+          37.261546
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210530GG00844"
       },
       "roads": [
         {
           "name": "US-101 S",
-          "from": "E Poplar Ave",
+          "from": "Blossom Hill Rd",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -1264,15 +1248,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-05-30T16:42Z/"
+          "2021-05-30T17:30Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-05-30T09:49:39.35615"
+          "event-message-time-stamp": "2021-05-30T10:32:17.56796"
         },
         "event-reference": {
-          "event-identifier": "775662"
+          "event-identifier": "775675"
         },
         "event-status": "new",
         "details": {
@@ -1283,7 +1267,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Grass fire"
                     }
                   }
                 },
@@ -1293,7 +1277,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Southbound north of E Poplar Ave (San Mateo). Lane affected. Expect delays."
+                      "event-description": "CHP : Grass fire on US-101 Southbound north of Blossom Hill Rd (San Jose). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1302,25 +1286,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
+                  "event-location-type-area": "CA085",
                   "link-road-designator": "US-101 S",
-                  "link-from-road": "E Poplar Ave",
+                  "link-from-road": "Blossom Hill Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Mateo",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.581246",
-                    "event-location-coordinates-longitude": "-122.325401"
+                    "event-location-coordinates-latitude": "37.261546",
+                    "event-location-coordinates-longitude": "-121.800153"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-05-30T09:42:23.38310",
+              "update-time": "2021-05-30T10:30:12.84860",
               "valid-period": {
-                "event-timeline-estimated-duration": "27.7"
+                "event-timeline-estimated-duration": "29.5"
               },
-              "start-time": "2021-05-30T09:42:23.00000",
+              "start-time": "2021-05-30T10:30:12.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1334,13 +1318,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-05-30T09:42:23.38310",
+        "ivr-lastUpdateDttm": "2021-05-30T10:30:12.84860",
         "ivr-article": "north of",
-        "ivr-county": "San Mateo",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210530GG00757",
+        "SourceEventID": "210530GG00844",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
