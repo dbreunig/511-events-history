@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T06:53:48.35362"
+          "event-message-time-stamp": "2021-06-17T07:05:09.73508"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T06:53:48.35362"
+          "event-message-time-stamp": "2021-06-17T07:05:09.73508"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -321,7 +321,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-17T13:23Z",
-      "updated": "2021-06-17T13:52Z",
+      "updated": "2021-06-17T14:02Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -384,7 +384,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T06:53:48.35362"
+          "event-message-time-stamp": "2021-06-17T07:05:09.73508"
         },
         "event-reference": {
           "event-identifier": "782381"
@@ -431,7 +431,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-17T06:52:20.74480",
+              "update-time": "2021-06-17T07:02:05.92820",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -449,7 +449,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-06-17T06:52:20.74480",
+        "ivr-lastUpdateDttm": "2021-06-17T07:02:05.92820",
         "ivr-article": "at",
         "ivr-county": "Marin",
         "ivr-laneStatus": "closed",
@@ -462,14 +462,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-12 Eastbound east of Oakmont Dr (Santa Rosa). Lanes affected. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Traffic Collision on CA-12 Eastbound east of Oakmont Dr (Santa Rosa). All lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": [
+          "Traffic Collision",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Minor",
+      "severity": "Moderate",
       "created": "2021-06-17T13:28Z",
-      "updated": "2021-06-17T13:48Z",
+      "updated": "2021-06-17T14:03Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -502,14 +505,14 @@
           "name": "CA-12 E",
           "from": "Oakmont Dr",
           "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
+          "state": "CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -528,7 +531,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T06:53:48.35362"
+          "event-message-time-stamp": "2021-06-17T07:05:09.73508"
         },
         "event-reference": {
           "event-identifier": "782382"
@@ -541,9 +544,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -552,7 +560,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-12 Eastbound east of Oakmont Dr (Santa Rosa). Lanes affected. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision on CA-12 Eastbound east of Oakmont Dr (Santa Rosa). All lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -575,9 +583,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-17T06:48:01.19100",
+              "update-time": "2021-06-17T07:03:10.00690",
               "valid-period": {
-                "event-timeline-estimated-duration": "20.5"
+                "event-timeline-estimated-duration": "38.5"
               },
               "start-time": "2021-06-17T06:28:00.00000",
               "cleared-time": null,
@@ -588,16 +596,16 @@
             }
           }
         },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
+        "EventImpact": "Moderate",
+        "RoadClosed": "true",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
+        "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-06-17T06:48:01.19100",
+        "ivr-lastUpdateDttm": "2021-06-17T07:03:10.00690",
         "ivr-article": "east of",
         "ivr-county": "Sonoma",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "All lanes",
         "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "EventSourceName": "CHP",
@@ -676,7 +684,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T06:53:48.35362"
+          "event-message-time-stamp": "2021-06-17T07:05:09.73508"
         },
         "event-reference": {
           "event-identifier": "782387"
