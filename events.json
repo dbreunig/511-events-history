@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T18:28:52.24149"
+          "event-message-time-stamp": "2021-06-17T18:55:54.08502"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T18:28:52.24149"
+          "event-message-time-stamp": "2021-06-17T18:55:54.08502"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -314,18 +314,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Brush fire and Fire department activity on US-101 Southbound north of Sister Cities Blvd (South San Francisco). Right lane closed. Expect delays.",
+      "headline": "CHP : Residual delays on US-101 Southbound north of Sister Cities Blvd (South San Francisco). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Brush fire",
-          "Fire department activity",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2021-06-17T21:30Z",
-      "updated": "2021-06-18T00:44Z",
+      "updated": "2021-06-18T01:54Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -365,11 +361,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -388,7 +384,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T18:28:52.24149"
+          "event-message-time-stamp": "2021-06-17T18:55:54.08502"
         },
         "event-reference": {
           "event-identifier": "782586"
@@ -401,17 +397,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Brush fire"
-                      },
-                      {
-                        "incident": "Fire department activity"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -420,7 +408,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Brush fire and Fire department activity on US-101 Southbound north of Sister Cities Blvd (South San Francisco). Right lane closed. Expect delays."
+                      "event-description": "CHP : Residual delays on US-101 Southbound north of Sister Cities Blvd (South San Francisco). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -443,9 +431,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-17T17:44:52.85990",
+              "update-time": "2021-06-17T18:54:09.83910",
               "valid-period": {
-                "event-timeline-estimated-duration": "52"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-06-17T14:30:00.00000",
               "cleared-time": null,
@@ -456,16 +444,16 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-06-17T17:44:52.85990",
+        "ivr-lastUpdateDttm": "2021-06-17T18:54:09.83910",
         "ivr-article": "north of",
         "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Right lane",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-impact": "Play when affecting traffic",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210617GG01547",
@@ -475,310 +463,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on I-680 Southbound entering at N Capitol Ave (San Jose). On Ramp closed until 8-30 PM. Thursday, June 17, 2021 4:30 PM thru Thursday, June 17, 2021 8:30 PM, Thursday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-06-17T23:50Z",
-      "updated": "2021-06-18T01:27Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.875436,
-          37.398787
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "T680GA-0001-2021-06-17-16:30:00"
-      },
-      "roads": [
-        {
-          "name": "I-680 S",
-          "from": "N Capitol Ave",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 8-30 PM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "entering at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-06-17T23:30Z/2021-06-18T03:30Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-06-17T18:28:52.24149"
-        },
-        "event-reference": {
-          "event-identifier": "782649"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on I-680 Southbound entering at N Capitol Ave (San Jose). On Ramp closed until 8-30 PM. Thursday, June 17, 2021 4:30 PM thru Thursday, June 17, 2021 8:30 PM, Thursday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-680 S",
-                  "link-from-road": "N Capitol Ave",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.398787",
-                    "event-location-coordinates-longitude": "-121.875436"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-06-17T18:27:07.10130",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-06-17T16:30:00.00000",
-              "cleared-time": "2021-06-17T20:30:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-06-17T18:27:07.10130",
-        "ivr-article": "entering at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "On Ramp",
-        "ivr-genOtherText": "until 8-30 PM",
-        "SourceEventID": "T680GA-0001-2021-06-17-16:30:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-580 Eastbound at Macarthur Blvd-dutton Ave (Oakland). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
-      },
-      "severity": "Moderate",
-      "created": "2021-06-18T00:38Z",
-      "updated": "2021-06-18T01:00Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.143814,
-          37.740064
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210617GG02166"
-      },
-      "roads": [
-        {
-          "name": "I-580 E",
-          "from": "Macarthur Blvd-dutton Ave",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-06-18T01:00Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-06-17T18:28:52.24149"
-        },
-        "event-reference": {
-          "event-identifier": "782676"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-580 Eastbound at Macarthur Blvd-dutton Ave (Oakland). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "Macarthur Blvd-dutton Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Oakland",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.740064",
-                    "event-location-coordinates-longitude": "-122.143814"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-06-17T18:00:08.53740",
-              "valid-period": {
-                "event-timeline-estimated-duration": "31"
-              },
-              "start-time": "2021-06-17T18:00:07.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-06-17T18:00:08.53740",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210617GG02166",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Overturned vehicle on I-580 Westbound east of Paloverde Rd (Hayward). Right lanes blocked. Expect delays.",
+      "headline": "CHP : Overturned vehicle on I-580 Westbound east of Paloverde Rd (Hayward). Right lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Overturned vehicle"
       },
       "severity": "Moderate",
       "created": "2021-06-18T01:07Z",
-      "updated": "2021-06-18T01:19Z",
+      "updated": "2021-06-18T01:45Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -818,7 +510,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lanes"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -841,7 +533,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T18:28:52.24149"
+          "event-message-time-stamp": "2021-06-17T18:55:54.08502"
         },
         "event-reference": {
           "event-identifier": "782695"
@@ -865,7 +557,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Overturned vehicle on I-580 Westbound east of Paloverde Rd (Hayward). Right lanes blocked. Expect delays."
+                      "event-description": "CHP : Overturned vehicle on I-580 Westbound east of Paloverde Rd (Hayward). Right lane blocked. Expect delays."
                     }
                   }
                 }
@@ -888,9 +580,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-17T18:19:39.57450",
+              "update-time": "2021-06-17T18:45:02.53310",
               "valid-period": {
-                "event-timeline-estimated-duration": "40"
+                "event-timeline-estimated-duration": "32.5"
               },
               "start-time": "2021-06-17T18:07:00.00000",
               "cleared-time": null,
@@ -906,12 +598,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-06-17T18:19:39.57450",
+        "ivr-lastUpdateDttm": "2021-06-17T18:45:02.53310",
         "ivr-article": "east of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lanes",
-        "ivr-impact": "Always play incident",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210617GG02241",
         "EventSourceName": "CHP",
@@ -920,14 +611,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-12 Westbound west of CA-113 N (Rio Vista). Lane affected. Expect delays.",
+      "headline": "CHP : Residual delays on CA-12 Westbound west of CA-113 N (Rio Vista). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Residual delays"
       },
       "severity": "Minor",
       "created": "2021-06-18T01:08Z",
-      "updated": "2021-06-18T01:18Z",
+      "updated": "2021-06-18T01:51Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -967,7 +658,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -990,7 +681,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T18:28:52.24149"
+          "event-message-time-stamp": "2021-06-17T18:55:54.08502"
         },
         "event-reference": {
           "event-identifier": "782697"
@@ -1004,7 +695,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -1014,7 +705,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-12 Westbound west of CA-113 N (Rio Vista). Lane affected. Expect delays."
+                      "event-description": "CHP : Residual delays on CA-12 Westbound west of CA-113 N (Rio Vista). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -1037,9 +728,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-17T18:18:35.95610",
+              "update-time": "2021-06-17T18:51:03.32370",
               "valid-period": {
-                "event-timeline-estimated-duration": "19"
+                "event-timeline-estimated-duration": "20.5"
               },
               "start-time": "2021-06-17T18:08:00.00000",
               "cleared-time": null,
@@ -1055,11 +746,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "1",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-06-17T18:18:35.95610",
+        "ivr-lastUpdateDttm": "2021-06-17T18:51:03.32370",
         "ivr-article": "west of",
         "ivr-county": "Solano",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210617GG02250",
         "EventSourceName": "CHP",
@@ -1141,7 +832,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T18:28:52.24149"
+          "event-message-time-stamp": "2021-06-17T18:55:54.08502"
         },
         "event-reference": {
           "event-identifier": "782698"
@@ -1231,7 +922,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-18T01:10Z",
-      "updated": "2021-06-18T01:27Z",
+      "updated": "2021-06-18T01:53Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -1294,7 +985,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T18:28:52.24149"
+          "event-message-time-stamp": "2021-06-17T18:55:54.08502"
         },
         "event-reference": {
           "event-identifier": "782700"
@@ -1341,7 +1032,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-17T18:27:06.47310",
+              "update-time": "2021-06-17T18:53:01.16020",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1359,7 +1050,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-06-17T18:27:06.47310",
+        "ivr-lastUpdateDttm": "2021-06-17T18:53:01.16020",
         "ivr-article": "at",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "closed",
@@ -1372,7 +1063,7 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision on I-880 Southbound at Mowry Ave (Fremont). All lanes blocked. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Traffic Collision on I-880 Southbound south of Mowry Ave (Fremont). Left and center lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": [
@@ -1380,9 +1071,9 @@
           "Severe traffic alert"
         ]
       },
-      "severity": "Severe",
+      "severity": "Major",
       "created": "2021-06-18T01:11Z",
-      "updated": "2021-06-18T01:28Z",
+      "updated": "2021-06-18T01:52Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1419,10 +1110,10 @@
           "name": "I-880 S",
           "from": "Mowry Ave",
           "direction": "Southbound",
-          "state": "CLOSED",
+          "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
+            "#text": "Left and center lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1434,7 +1125,7 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "south of"
           }
         }
       ],
@@ -1457,7 +1148,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-17T18:28:52.24149"
+          "event-message-time-stamp": "2021-06-17T18:55:54.08502"
         },
         "event-reference": {
           "event-identifier": "782701"
@@ -1486,7 +1177,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision on I-880 Southbound at Mowry Ave (Fremont). All lanes blocked. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision on I-880 Southbound south of Mowry Ave (Fremont). Left and center lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -1512,9 +1203,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-17T18:28:27.82110",
+              "update-time": "2021-06-17T18:52:52.62760",
               "valid-period": {
-                "event-timeline-estimated-duration": "68.5"
+                "event-timeline-estimated-duration": "53.5"
               },
               "start-time": "2021-06-17T18:11:00.00000",
               "cleared-time": null,
@@ -1525,19 +1216,166 @@
             }
           }
         },
-        "EventImpact": "Severe",
-        "RoadClosed": "true",
+        "EventImpact": "Major",
+        "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
+        "ivr-eventClass": "3",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-06-17T18:28:27.82110",
-        "ivr-article": "at",
+        "ivr-lastUpdateDttm": "2021-06-17T18:52:52.62760",
+        "ivr-article": "south of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
+        "ivr-totalLanes": "Left and center lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210617GG02264",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on US-101 Northbound north of Lakeville Hwy (Petaluma). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-18T01:46Z",
+      "updated": "2021-06-18T01:47Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.617936,
+          38.233588
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210617GG02363"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Lakeville Hwy",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-18T01:46Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-17T18:55:54.08502"
+        },
+        "event-reference": {
+          "event-identifier": "782706"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Northbound north of Lakeville Hwy (Petaluma). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Lakeville Hwy",
+                  "link-to-road": null,
+                  "link-from-city": "Petaluma",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.233588",
+                    "event-location-coordinates-longitude": "-122.617936"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-17T18:47:01.76730",
+              "valid-period": {
+                "event-timeline-estimated-duration": "38.5"
+              },
+              "start-time": "2021-06-17T18:46:35.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-06-17T18:47:01.76730",
+        "ivr-article": "north of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210617GG02363",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
