@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-19T11:04:49.82871"
+          "event-message-time-stamp": "2021-06-19T11:25:25.75496"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-19T11:04:49.82871"
+          "event-message-time-stamp": "2021-06-19T11:25:25.75496"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -384,7 +384,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-19T11:04:49.82871"
+          "event-message-time-stamp": "2021-06-19T11:25:25.75496"
         },
         "event-reference": {
           "event-identifier": "783381"
@@ -463,21 +463,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Northbound at Montague Expy (Milpitas). Lane affected. Expect delays.",
+      "headline": "CHP : Brush fire on I-80 Eastbound west of Barrett Ave (Richmond). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Brush fire"
       },
       "severity": "Moderate",
-      "created": "2021-06-19T17:40Z",
-      "updated": "2021-06-19T18:04Z",
+      "created": "2021-06-19T18:05Z",
+      "updated": "2021-06-19T18:05Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -490,8 +490,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.878557,
-          37.408962
+          -122.325742,
+          37.9375
         ]
       },
       "source_type": {
@@ -500,12 +500,308 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210619GG01032"
+        "#text": "210619GG01092"
       },
       "roads": [
         {
-          "name": "I-680 N",
-          "from": "Montague Expy",
+          "name": "I-80 E",
+          "from": "Barrett Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-19T18:05Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-19T11:25:25.75496"
+        },
+        "event-reference": {
+          "event-identifier": "783392"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Brush fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Brush fire on I-80 Eastbound west of Barrett Ave (Richmond). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Barrett Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Richmond",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.9375",
+                    "event-location-coordinates-longitude": "-122.325742"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-19T11:05:05.22040",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-06-19T11:05:01.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-06-19T11:05:05.22040",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210619GG01092",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on US-101 Northbound south of E 3RD Ave (San Mateo). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-19T18:09Z",
+      "updated": "2021-06-19T18:09Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.310724,
+          37.567966
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210619GG01101"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "E 3RD Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-19T18:09Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-19T11:25:25.75496"
+        },
+        "event-reference": {
+          "event-identifier": "783393"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on US-101 Northbound south of E 3RD Ave (San Mateo). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "E 3RD Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Mateo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.567966",
+                    "event-location-coordinates-longitude": "-122.310724"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-19T11:09:23.59210",
+              "valid-period": {
+                "event-timeline-estimated-duration": "27.7"
+              },
+              "start-time": "2021-06-19T11:09:19.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-06-19T11:09:23.59210",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210619GG01101",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-17 Northbound at Laurel Rd (Los Gatos). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-19T18:14Z",
+      "updated": "2021-06-19T18:23Z",
+      "areas": {
+        "area": {
+          "name": "Santa Cruz",
+          "id": "5393068",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393068/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.976363,
+          37.095504
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210619MY00175"
+      },
+      "roads": [
+        {
+          "name": "CA-17 N",
+          "from": "Laurel Rd",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -528,15 +824,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-06-19T18:03Z/"
+          "2021-06-19T18:23Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-19T11:04:49.82871"
+          "event-message-time-stamp": "2021-06-19T11:25:25.75496"
         },
         "event-reference": {
-          "event-identifier": "783386"
+          "event-identifier": "783394"
         },
         "event-status": "new",
         "details": {
@@ -547,7 +843,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -557,7 +853,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Northbound at Montague Expy (Milpitas). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on CA-17 Northbound at Laurel Rd (Los Gatos). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -566,25 +862,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Montague Expy",
+                  "event-location-type-area": "CA087",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "Laurel Rd",
                   "link-to-road": null,
-                  "link-from-city": "Milpitas",
+                  "link-from-city": "Los Gatos",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.408962",
-                    "event-location-coordinates-longitude": "-121.878557"
+                    "event-location-coordinates-latitude": "37.095504",
+                    "event-location-coordinates-longitude": "-121.976363"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-19T11:04:00.65410",
+              "update-time": "2021-06-19T11:23:26.38700",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "35.2"
               },
-              "start-time": "2021-06-19T11:03:56.00000",
+              "start-time": "2021-06-19T11:23:22.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -598,27 +894,27 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-19T11:04:00.65410",
+        "ivr-lastUpdateDttm": "2021-06-19T11:23:26.38700",
         "ivr-article": "at",
-        "ivr-county": "Santa Clara",
+        "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210619GG01032",
+        "SourceEventID": "210619MY00175",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Westbound east of CLEVELAND Ave (Albany). Lanes affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-238 Northbound south of Hesperian Blvd (San Leandro). Lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
-      "severity": "Moderate",
-      "created": "2021-06-19T17:57Z",
-      "updated": "2021-06-19T17:57Z",
+      "severity": "Major",
+      "created": "2021-06-19T18:15Z",
+      "updated": "2021-06-19T18:17Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -638,8 +934,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.308233,
-          37.895221
+          -122.129392,
+          37.690911
         ]
       },
       "source_type": {
@@ -648,13 +944,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210619GG01070"
+        "#text": "210619GG01125"
       },
       "roads": [
         {
-          "name": "I-80 W",
-          "from": "CLEVELAND Ave",
-          "direction": "Westbound",
+          "name": "I-238 N",
+          "from": "Hesperian Blvd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -670,21 +966,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-06-19T17:57Z/"
+          "2021-06-19T18:15Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-19T11:04:49.82871"
+          "event-message-time-stamp": "2021-06-19T11:25:25.75496"
         },
         "event-reference": {
-          "event-identifier": "783391"
+          "event-identifier": "783395"
         },
         "event-status": "new",
         "details": {
@@ -705,7 +1001,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of CLEVELAND Ave (Albany). Lanes affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-238 Northbound south of Hesperian Blvd (San Leandro). Lanes affected. Expect delays."
                     }
                   }
                 }
@@ -715,24 +1011,172 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "CLEVELAND Ave",
+                  "link-road-designator": "I-238 N",
+                  "link-from-road": "Hesperian Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Albany",
+                  "link-from-city": "San Leandro",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.895221",
-                    "event-location-coordinates-longitude": "-122.308233"
+                    "event-location-coordinates-latitude": "37.690911",
+                    "event-location-coordinates-longitude": "-122.129392"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-19T10:57:33.29340",
+              "update-time": "2021-06-19T11:17:23.16890",
               "valid-period": {
-                "event-timeline-estimated-duration": "32.5"
+                "event-timeline-estimated-duration": "50.5"
               },
-              "start-time": "2021-06-19T10:57:29.00000",
+              "start-time": "2021-06-19T11:15:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-06-19T11:17:23.16890",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210619GG01125",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-17 Southbound north of San Tomas Expy (Campbell). 2nd lane from the left blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-19T18:19Z",
+      "updated": "2021-06-19T18:19Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.946309,
+          37.275824
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210619GG01130"
+      },
+      "roads": [
+        {
+          "name": "CA-17 S",
+          "from": "San Tomas Expy",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "2nd lane from the left"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-19T18:19Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-19T11:25:25.75496"
+        },
+        "event-reference": {
+          "event-identifier": "783396"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on CA-17 Southbound north of San Tomas Expy (Campbell). 2nd lane from the left blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-17 S",
+                  "link-from-road": "San Tomas Expy",
+                  "link-to-road": null,
+                  "link-from-city": "Campbell",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.275824",
+                    "event-location-coordinates-longitude": "-121.946309"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-19T11:19:06.58770",
+              "valid-period": {
+                "event-timeline-estimated-duration": "27.7"
+              },
+              "start-time": "2021-06-19T11:19:02.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -745,14 +1189,310 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-06-19T10:57:33.29340",
-        "ivr-article": "east of",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-06-19T11:19:06.58770",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210619GG01130",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-880 Southbound at Montague Expy (Milpitas). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-19T18:22Z",
+      "updated": "2021-06-19T18:23Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.907621,
+          37.395493
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210619GG01141"
+      },
+      "roads": [
+        {
+          "name": "I-880 S",
+          "from": "Montague Expy",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-19T18:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-19T11:25:25.75496"
+        },
+        "event-reference": {
+          "event-identifier": "783398"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-880 Southbound at Montague Expy (Milpitas). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "Montague Expy",
+                  "link-to-road": null,
+                  "link-from-city": "Milpitas",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.395493",
+                    "event-location-coordinates-longitude": "-121.907621"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-19T11:23:25.66880",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2021-06-19T11:23:21.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-06-19T11:23:25.66880",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210619GG01141",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-580 Eastbound west of I-205 E (Unincorporated). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-19T18:22Z",
+      "updated": "2021-06-19T18:22Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.574194,
+          37.741723
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210619GG01142"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "I-205 E",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-19T18:22Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-19T11:25:25.75496"
+        },
+        "event-reference": {
+          "event-identifier": "783399"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-580 Eastbound west of I-205 E (Unincorporated). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "I-205 E",
+                  "link-to-road": null,
+                  "link-from-city": "Unincorporated",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.741723",
+                    "event-location-coordinates-longitude": "-121.574194"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-19T11:22:20.81820",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-06-19T11:22:16.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-06-19T11:22:20.81820",
+        "ivr-article": "west of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210619GG01070",
+        "SourceEventID": "210619GG01142",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
