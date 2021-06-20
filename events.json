@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-20T09:46:28.53563"
+          "event-message-time-stamp": "2021-06-20T10:12:16.83638"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-20T09:46:28.53563"
+          "event-message-time-stamp": "2021-06-20T10:12:16.83638"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -384,7 +384,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-20T09:46:28.53563"
+          "event-message-time-stamp": "2021-06-20T10:12:16.83638"
         },
         "event-reference": {
           "event-identifier": "783493"
@@ -463,21 +463,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fog on US-101 Southbound at Wolfback Rdg (Sausalito). Lane affected. Expect delays.",
+      "headline": "CHP : Fog on US-101 Northbound and Southbound at Golden Gate Bridge (San Francisco). Lanes affected. Traffic advisory in effect.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Fog"
       },
-      "severity": "Moderate",
+      "severity": "Major",
       "created": "2021-06-20T11:21Z",
-      "updated": "2021-06-20T16:21Z",
+      "updated": "2021-06-20T17:00Z",
       "areas": {
         "area": {
-          "name": "Marin",
-          "id": "5370468",
+          "name": "San Francisco",
+          "id": "5391997",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
+            "@href": "http://geonames.org/5391997/"
           }
         }
       },
@@ -490,8 +490,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.492453,
-          37.852735
+          -122.477417,
+          37.810833
         ]
       },
       "source_type": {
@@ -504,13 +504,13 @@
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Wolfback Rdg",
-          "direction": "Southbound",
+          "name": "US-101 N",
+          "from": "Golden Gate Bridge",
+          "direction": "Northbound and Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -518,7 +518,7 @@
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "Traffic advisory in effect"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -533,7 +533,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-20T09:46:28.53563"
+          "event-message-time-stamp": "2021-06-20T10:12:16.83638"
         },
         "event-reference": {
           "event-identifier": "783630"
@@ -557,7 +557,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fog on US-101 Southbound at Wolfback Rdg (Sausalito). Lane affected. Expect delays."
+                      "event-description": "CHP : Fog on US-101 Northbound and Southbound at Golden Gate Bridge (San Francisco). Lanes affected. Traffic advisory in effect."
                     }
                   }
                 }
@@ -566,23 +566,23 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Wolfback Rdg",
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Golden Gate Bridge",
                   "link-to-road": null,
-                  "link-from-city": "Sausalito",
+                  "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.852735",
-                    "event-location-coordinates-longitude": "-122.492453"
+                    "event-location-coordinates-latitude": "37.810833",
+                    "event-location-coordinates-longitude": "-122.477417"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-20T09:21:06.50800",
+              "update-time": "2021-06-20T10:00:32.48800",
               "valid-period": {
-                "event-timeline-estimated-duration": "29.5"
+                "event-timeline-estimated-duration": "64.5"
               },
               "start-time": "2021-06-20T09:21:00.00000",
               "cleared-time": null,
@@ -593,17 +593,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-06-20T09:21:06.50800",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound and Southbound",
+        "ivr-lastUpdateDttm": "2021-06-20T10:00:32.48800",
         "ivr-article": "at",
-        "ivr-county": "Marin",
+        "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
+        "ivr-totalLanes": "Lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Traffic advisory in effect",
         "SourceEventID": "210620GG00398",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
@@ -681,7 +682,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-20T09:46:28.53563"
+          "event-message-time-stamp": "2021-06-20T10:12:16.83638"
         },
         "event-reference": {
           "event-identifier": "783643"
@@ -766,7 +767,7 @@
       },
       "severity": "Major",
       "created": "2021-06-20T16:27Z",
-      "updated": "2021-06-20T16:27Z",
+      "updated": "2021-06-20T17:02Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -824,12 +825,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-06-20T16:27Z/"
+          "2021-06-20T17:02Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-20T09:46:28.53563"
+          "event-message-time-stamp": "2021-06-20T10:12:16.83638"
         },
         "event-reference": {
           "event-identifier": "783664"
@@ -876,11 +877,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-20T09:27:30.55790",
+              "update-time": "2021-06-20T10:02:40.44170",
               "valid-period": {
                 "event-timeline-estimated-duration": "50.5"
               },
-              "start-time": "2021-06-20T09:27:24.00000",
+              "start-time": "2021-06-20T10:02:34.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -894,7 +895,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-06-20T09:27:30.55790",
+        "ivr-lastUpdateDttm": "2021-06-20T10:02:40.44170",
         "ivr-article": "at",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "blocked",
@@ -907,21 +908,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-580 Westbound at Macarthur Blvd-dutton Ave (Oakland). Lane blocked. Expect delays.",
+      "headline": "CHP : Residual delays on US-101 Northbound at Oyster Point Blvd (South San Francisco). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Residual delays"
       },
       "severity": "Moderate",
-      "created": "2021-06-20T16:29Z",
-      "updated": "2021-06-20T16:31Z",
+      "created": "2021-06-20T16:47Z",
+      "updated": "2021-06-20T17:01Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "San Mateo",
+          "id": "5392427",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5392427/"
           }
         }
       },
@@ -934,8 +935,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.13955,
-          37.734134
+          -122.395206,
+          37.667073
         ]
       },
       "source_type": {
@@ -944,13 +945,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210620GG00744"
+        "#text": "210620GG00788"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "Macarthur Blvd-dutton Ave",
-          "direction": "Westbound",
+          "name": "US-101 N",
+          "from": "Oyster Point Blvd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-20T16:47Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-20T10:12:16.83638"
+        },
+        "event-reference": {
+          "event-identifier": "783668"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on US-101 Northbound at Oyster Point Blvd (South San Francisco). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Oyster Point Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "South San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.667073",
+                    "event-location-coordinates-longitude": "-122.395206"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-20T10:01:59.94690",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-06-20T09:47:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-06-20T10:01:59.94690",
+        "ivr-article": "at",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210620GG00788",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-680 Northbound at El Cerro Blvd (Danville). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-20T17:02Z",
+      "updated": "2021-06-20T17:02Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.011453,
+          37.836433
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210620GG00810"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "El Cerro Blvd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -972,15 +1121,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-06-20T16:31Z/"
+          "2021-06-20T17:02Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-20T09:46:28.53563"
+          "event-message-time-stamp": "2021-06-20T10:12:16.83638"
         },
         "event-reference": {
-          "event-identifier": "783665"
+          "event-identifier": "783670"
         },
         "event-status": "new",
         "details": {
@@ -1001,7 +1150,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-580 Westbound at Macarthur Blvd-dutton Ave (Oakland). Lane blocked. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-680 Northbound at El Cerro Blvd (Danville). Lane blocked. Expect delays."
                     }
                   }
                 }
@@ -1010,25 +1159,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "Macarthur Blvd-dutton Ave",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "El Cerro Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Oakland",
+                  "link-from-city": "Danville",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.734134",
-                    "event-location-coordinates-longitude": "-122.13955"
+                    "event-location-coordinates-latitude": "37.836433",
+                    "event-location-coordinates-longitude": "-122.011453"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-20T09:31:46.41000",
+              "update-time": "2021-06-20T10:02:40.29640",
               "valid-period": {
                 "event-timeline-estimated-duration": "27.7"
               },
-              "start-time": "2021-06-20T09:31:40.00000",
+              "start-time": "2021-06-20T10:02:34.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1041,28 +1190,28 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-06-20T09:31:46.41000",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-06-20T10:02:40.29640",
         "ivr-article": "at",
-        "ivr-county": "Alameda",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210620GG00744",
+        "SourceEventID": "210620GG00810",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Westbound east of Central Ave (Richmond). Lane affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on CA-24 Eastbound west of Pleasant Hill Rd (Lafayette). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2021-06-20T16:39Z",
-      "updated": "2021-06-20T16:39Z",
+      "created": "2021-06-20T17:09Z",
+      "updated": "2021-06-20T17:09Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -1082,8 +1231,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.308607,
-          37.891765
+          -122.101841,
+          37.8969
         ]
       },
       "source_type": {
@@ -1092,13 +1241,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210620GG00769"
+        "#text": "210620GG00824"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "Central Ave",
-          "direction": "Westbound",
+          "name": "CA-24 E",
+          "from": "Pleasant Hill Rd",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1106,7 +1255,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1114,21 +1263,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-06-20T16:39Z/"
+          "2021-06-20T17:08Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-20T09:46:28.53563"
+          "event-message-time-stamp": "2021-06-20T10:12:16.83638"
         },
         "event-reference": {
-          "event-identifier": "783666"
+          "event-identifier": "783671"
         },
         "event-status": "new",
         "details": {
@@ -1139,7 +1288,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -1149,7 +1298,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of Central Ave (Richmond). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on CA-24 Eastbound west of Pleasant Hill Rd (Lafayette). Lane blocked. Expect delays."
                     }
                   }
                 }
@@ -1159,24 +1308,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA013",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "Central Ave",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Pleasant Hill Rd",
                   "link-to-road": null,
-                  "link-from-city": "Richmond",
+                  "link-from-city": "Lafayette",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.891765",
-                    "event-location-coordinates-longitude": "-122.308607"
+                    "event-location-coordinates-latitude": "37.8969",
+                    "event-location-coordinates-longitude": "-122.101841"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-20T09:39:15.10460",
+              "update-time": "2021-06-20T10:09:03.47070",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
+                "event-timeline-estimated-duration": "25.2"
               },
-              "start-time": "2021-06-20T09:39:09.00000",
+              "start-time": "2021-06-20T10:08:57.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1189,162 +1338,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-06-20T09:39:15.10460",
-        "ivr-article": "east of",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-06-20T10:09:03.47070",
+        "ivr-article": "west of",
         "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
+        "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210620GG00769",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Southbound north of S 11TH St (San Jose). Lanes affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-06-20T16:42Z",
-      "updated": "2021-06-20T16:42Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.8703,
-          37.328643
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210620GG00776"
-      },
-      "roads": [
-        {
-          "name": "I-280 S",
-          "from": "S 11TH St",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-06-20T16:42Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-06-20T09:46:28.53563"
-        },
-        "event-reference": {
-          "event-identifier": "783667"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Southbound north of S 11TH St (San Jose). Lanes affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "S 11TH St",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.328643",
-                    "event-location-coordinates-longitude": "-121.8703"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-06-20T09:42:27.12170",
-              "valid-period": {
-                "event-timeline-estimated-duration": "32.5"
-              },
-              "start-time": "2021-06-20T09:42:21.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-06-20T09:42:27.12170",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210620GG00776",
+        "SourceEventID": "210620GG00824",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
