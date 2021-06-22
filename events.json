@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.69553"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.69553"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -321,7 +321,7 @@
       },
       "severity": "Major",
       "created": "2021-06-21T18:21Z",
-      "updated": "2021-06-22T16:01Z",
+      "updated": "2021-06-22T17:00Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -380,7 +380,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.69553"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "783998"
@@ -427,7 +427,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:01:26.18410",
+              "update-time": "2021-06-22T10:00:21.59220",
               "valid-period": {
                 "event-timeline-estimated-duration": "64.5"
               },
@@ -445,7 +445,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Northbound and Southbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:01:26.18410",
+        "ivr-lastUpdateDttm": "2021-06-22T10:00:21.59220",
         "ivr-article": "at",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
@@ -458,17 +458,18 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision with Injuries on CA-37 Westbound east of Skaggs Island Rd (Vallejo). Right lane blocked. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Traffic Collision with Injuries and Overturned tractor trailer on CA-37 Eastbound and Westbound between Wilson Ave (Vallejo) and CA-121 (Unincorporated). All lanes closed. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": [
           "Traffic Collision with Injuries",
+          "Overturned tractor trailer",
           "Severe traffic alert"
         ]
       },
-      "severity": "Major",
+      "severity": "Severe",
       "created": "2021-06-22T12:59Z",
-      "updated": "2021-06-22T16:37Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -488,8 +489,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.347596269592,
-          38.1357295207411
+          -122.271667,
+          38.123989
         ]
       },
       "source_type": {
@@ -503,16 +504,17 @@
       "roads": [
         {
           "name": "CA-37 W",
-          "from": "Skaggs Island Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
+          "from": "Wilson Ave",
+          "to": "CA-121",
+          "direction": "Eastbound and Westbound",
+          "state": "CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -520,7 +522,7 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "between"
           }
         }
       ],
@@ -531,7 +533,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.69553"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784297"
@@ -549,6 +551,9 @@
                         "incident": "Traffic Collision with Injuries"
                       },
                       {
+                        "incident": "Overturned tractor trailer"
+                      },
+                      {
                         "incident": "Severe traffic alert"
                       }
                     ]
@@ -560,7 +565,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision with Injuries on CA-37 Westbound east of Skaggs Island Rd (Vallejo). Right lane blocked. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision with Injuries and Overturned tractor trailer on CA-37 Eastbound and Westbound between Wilson Ave (Vallejo) and CA-121 (Unincorporated). All lanes closed. Expect delays."
                     }
                   }
                 }
@@ -571,21 +576,21 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA095",
                   "link-road-designator": "CA-37 W",
-                  "link-from-road": "Skaggs Island Rd",
-                  "link-to-road": null,
+                  "link-from-road": "Wilson Ave",
+                  "link-to-road": "CA-121",
                   "link-from-city": "Vallejo",
-                  "link-to-city": null,
+                  "link-to-city": "Unincorporated",
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.1357295207411",
-                    "event-location-coordinates-longitude": "-122.347596269592"
+                    "event-location-coordinates-latitude": "38.123989",
+                    "event-location-coordinates-longitude": "-122.271667"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:37:32.61480",
+              "update-time": "2021-06-22T10:11:41.94340",
               "valid-period": {
-                "event-timeline-estimated-duration": "58"
+                "event-timeline-estimated-duration": "77.5"
               },
               "start-time": "2021-06-22T06:26:00.00000",
               "cleared-time": null,
@@ -596,16 +601,16 @@
             }
           }
         },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
+        "EventImpact": "Severe",
+        "RoadClosed": "true",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:37:32.61480",
-        "ivr-article": "east of",
+        "ivr-eventClass": "5",
+        "ivr-eventDirection": "Eastbound and Westbound",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:41.94340",
+        "ivr-article": "between",
         "ivr-county": "Solano",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
         "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210622GG00314",
@@ -622,7 +627,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T13:29Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -686,7 +691,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.69553"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784301"
@@ -733,7 +738,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:29.79830",
+              "update-time": "2021-06-22T10:11:04.44890",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -751,7 +756,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:29.79830",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:04.44890",
         "ivr-article": "between",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "closed",
@@ -834,7 +839,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.69553"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784310"
@@ -919,7 +924,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T14:14Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -983,7 +988,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.69553"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784320"
@@ -1030,7 +1035,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:30.97650",
+              "update-time": "2021-06-22T10:11:06.60870",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1048,7 +1053,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:30.97650",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:06.60870",
         "ivr-article": "between",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "closed",
@@ -1068,7 +1073,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T14:14Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -1132,7 +1137,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784321"
@@ -1179,7 +1184,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:31.23870",
+              "update-time": "2021-06-22T10:11:06.88140",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1197,7 +1202,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:31.23870",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:06.88140",
         "ivr-article": "between",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "closed",
@@ -1217,7 +1222,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T14:30Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -1280,7 +1285,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784329"
@@ -1327,7 +1332,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:31.50130",
+              "update-time": "2021-06-22T10:11:07.15600",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1345,7 +1350,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:31.50130",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:07.15600",
         "ivr-article": "at",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "closed",
@@ -1365,7 +1370,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T15:19Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -1428,7 +1433,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784346"
@@ -1475,7 +1480,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:32.98710",
+              "update-time": "2021-06-22T10:11:09.47990",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1493,7 +1498,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:32.98710",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:09.47990",
         "ivr-article": "at",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -1513,7 +1518,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T15:39Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1576,7 +1581,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784353"
@@ -1623,7 +1628,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:34.97030",
+              "update-time": "2021-06-22T10:11:11.71660",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1641,7 +1646,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:34.97030",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:11.71660",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -1661,7 +1666,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:02Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1724,7 +1729,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784357"
@@ -1771,7 +1776,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:33.52270",
+              "update-time": "2021-06-22T10:11:10.29760",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1789,7 +1794,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:33.52270",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:10.29760",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -1868,7 +1873,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784358"
@@ -1953,7 +1958,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:09Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -2017,7 +2022,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784360"
@@ -2064,7 +2069,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:32.69190",
+              "update-time": "2021-06-22T10:11:08.99580",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2082,7 +2087,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:32.69190",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:08.99580",
         "ivr-article": "between",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -2102,7 +2107,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:09Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -2165,7 +2170,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784361"
@@ -2212,7 +2217,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:33.24470",
+              "update-time": "2021-06-22T10:11:10.01500",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2230,7 +2235,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:33.24470",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:10.01500",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -2250,7 +2255,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:09Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -2313,7 +2318,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784362"
@@ -2360,7 +2365,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:34.04860",
+              "update-time": "2021-06-22T10:11:10.82610",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2378,7 +2383,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:34.04860",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:10.82610",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -2398,7 +2403,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:12Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -2461,7 +2466,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784363"
@@ -2508,7 +2513,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:32.16280",
+              "update-time": "2021-06-22T10:11:08.03070",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2526,7 +2531,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:32.16280",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:08.03070",
         "ivr-article": "at",
         "ivr-county": "Solano",
         "ivr-laneStatus": "closed",
@@ -2546,7 +2551,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:12Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -2609,7 +2614,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784364"
@@ -2656,7 +2661,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:32.44580",
+              "update-time": "2021-06-22T10:11:08.51920",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2674,7 +2679,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:32.44580",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:08.51920",
         "ivr-article": "at",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -2694,7 +2699,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:19Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -2757,7 +2762,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784369"
@@ -2804,7 +2809,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:27.30470",
+              "update-time": "2021-06-22T10:11:02.91760",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2822,7 +2827,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:27.30470",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:02.91760",
         "ivr-article": "at",
         "ivr-county": "Solano",
         "ivr-laneStatus": "closed",
@@ -2842,7 +2847,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:23Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -2905,7 +2910,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784371"
@@ -2952,7 +2957,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:31.82140",
+              "update-time": "2021-06-22T10:11:07.46770",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2970,7 +2975,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:31.82140",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:07.46770",
         "ivr-article": "at",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -2990,7 +2995,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:23Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -3053,7 +3058,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784372"
@@ -3100,7 +3105,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:34.19060",
+              "update-time": "2021-06-22T10:11:10.96910",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -3118,7 +3123,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:34.19060",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:10.96910",
         "ivr-article": "exiting at",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "closed",
@@ -3138,7 +3143,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:29Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -3202,7 +3207,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784376"
@@ -3249,7 +3254,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:29.28950",
+              "update-time": "2021-06-22T10:11:04.17010",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -3267,7 +3272,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:29.28950",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:04.17010",
         "ivr-article": "between",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -3287,7 +3292,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:29Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -3351,7 +3356,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784377"
@@ -3398,7 +3403,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:30.44220",
+              "update-time": "2021-06-22T10:11:05.25780",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -3416,7 +3421,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:30.44220",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:05.25780",
         "ivr-article": "between",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -3436,7 +3441,7 @@
       },
       "severity": "Unknown",
       "created": "2021-06-22T16:33Z",
-      "updated": "2021-06-22T16:43Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -3499,7 +3504,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784378"
@@ -3546,7 +3551,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:43:33.76530",
+              "update-time": "2021-06-22T10:11:10.56330",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -3564,7 +3569,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:33.76530",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:10.56330",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -3647,7 +3652,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
           "event-identifier": "784379"
@@ -3725,14 +3730,310 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-780 Eastbound west of Military West St (Benicia). Right lane affected. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Roadwork on CA-92 Westbound at Clawiter Rd (Hayward). Lane closed until 2-30 PM. Tuesday, June 22, 2021 9:30 AM thru Tuesday, June 22, 2021 2:30 PM, Tuesday.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Roadwork"
       },
-      "severity": "Moderate",
-      "created": "2021-06-22T16:39Z",
-      "updated": "2021-06-22T16:39Z",
+      "severity": "Unknown",
+      "created": "2021-06-22T16:50Z",
+      "updated": "2021-06-22T17:11Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.153049,
+          37.617671
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "M92MA-0002-2021-06-22-09:30:00"
+      },
+      "roads": [
+        {
+          "name": "CA-92 W",
+          "from": "Clawiter Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 2-30 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-22T16:30Z/2021-06-22T21:30Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
+        },
+        "event-reference": {
+          "event-identifier": "784385"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-92 Westbound at Clawiter Rd (Hayward). Lane closed until 2-30 PM. Tuesday, June 22, 2021 9:30 AM thru Tuesday, June 22, 2021 2:30 PM, Tuesday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "CA-92 W",
+                  "link-from-road": "Clawiter Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Hayward",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.617671",
+                    "event-location-coordinates-longitude": "-122.153049"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-22T10:11:04.73560",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2021-06-22T09:30:00.00000",
+              "cleared-time": "2021-06-22T14:30:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:04.73560",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "until 2-30 PM",
+        "SourceEventID": "M92MA-0002-2021-06-22-09:30:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on CA-82 Southbound at Santa Cruz Ave (Menlo Park). Lane closed until 3 PM. Tuesday, June 22, 2021 9:01 AM thru Tuesday, June 22, 2021 3:01 PM, Tuesday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2021-06-22T16:50Z",
+      "updated": "2021-06-22T17:11Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.180564,
+          37.452356
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "P82NA-0007-2021-06-22-09:01:00"
+      },
+      "roads": [
+        {
+          "name": "CA-82 S",
+          "from": "Santa Cruz Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 3 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-22T16:01Z/2021-06-22T22:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
+        },
+        "event-reference": {
+          "event-identifier": "784386"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-82 Southbound at Santa Cruz Ave (Menlo Park). Lane closed until 3 PM. Tuesday, June 22, 2021 9:01 AM thru Tuesday, June 22, 2021 3:01 PM, Tuesday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "CA-82 S",
+                  "link-from-road": "Santa Cruz Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Menlo Park",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.452356",
+                    "event-location-coordinates-longitude": "-122.180564"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-22T10:11:09.74460",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2021-06-22T09:01:00.00000",
+              "cleared-time": "2021-06-22T15:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:09.74460",
+        "ivr-article": "at",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "until 3 PM",
+        "SourceEventID": "P82NA-0007-2021-06-22-09:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Emergency construction on CA-37 Westbound between Wilson Ave (Vallejo) and CA-121 (Unincorporated). All lanes closed until 3 PM. Tuesday, June 22, 2021 9:45 AM thru Tuesday, June 22, 2021 3:01 PM, Tuesday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Emergency construction"
+      },
+      "severity": "Unknown",
+      "created": "2021-06-22T17:00Z",
+      "updated": "2021-06-22T17:11Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -3752,8 +4053,308 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.185114,
-          38.07071
+          -122.275675,
+          38.122155
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "T37CA-0001-2021-06-22-09:45:00"
+      },
+      "roads": [
+        {
+          "name": "CA-37 W",
+          "from": "Wilson Ave",
+          "to": "CA-121",
+          "direction": "Westbound",
+          "state": "CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 3 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "between"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-22T16:45Z/2021-06-22T22:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
+        },
+        "event-reference": {
+          "event-identifier": "784387"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Emergency construction"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Emergency construction on CA-37 Westbound between Wilson Ave (Vallejo) and CA-121 (Unincorporated). All lanes closed until 3 PM. Tuesday, June 22, 2021 9:45 AM thru Tuesday, June 22, 2021 3:01 PM, Tuesday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "CA-37 W",
+                  "link-from-road": "Wilson Ave",
+                  "link-to-road": "CA-121",
+                  "link-from-city": "Vallejo",
+                  "link-to-city": "Unincorporated",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.122155",
+                    "event-location-coordinates-longitude": "-122.275675"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-22T10:11:12.00740",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2021-06-22T09:45:00.00000",
+              "cleared-time": "2021-06-22T15:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "true",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:12.00740",
+        "ivr-article": "between",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "until 3 PM",
+        "SourceEventID": "T37CA-0001-2021-06-22-09:45:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Emergency construction on CA-37 Eastbound between CA-121 (Unincorporated) and Wilson Ave (Vallejo). All lanes closed until 3 PM. Tuesday, June 22, 2021 9:45 AM thru Tuesday, June 22, 2021 3:01 PM, Tuesday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Emergency construction"
+      },
+      "severity": "Unknown",
+      "created": "2021-06-22T17:00Z",
+      "updated": "2021-06-22T17:11Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.449193,
+          38.150961
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "T37CA-0002-2021-06-22-09:45:00"
+      },
+      "roads": [
+        {
+          "name": "CA-37 E",
+          "from": "CA-121",
+          "to": "Wilson Ave",
+          "direction": "Eastbound",
+          "state": "CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 3 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "between"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-22T16:45Z/2021-06-22T22:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
+        },
+        "event-reference": {
+          "event-identifier": "784388"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Emergency construction"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Emergency construction on CA-37 Eastbound between CA-121 (Unincorporated) and Wilson Ave (Vallejo). All lanes closed until 3 PM. Tuesday, June 22, 2021 9:45 AM thru Tuesday, June 22, 2021 3:01 PM, Tuesday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "CA-37 E",
+                  "link-from-road": "CA-121",
+                  "link-to-road": "Wilson Ave",
+                  "link-from-city": "Unincorporated",
+                  "link-to-city": "Vallejo",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.150961",
+                    "event-location-coordinates-longitude": "-122.449193"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-22T10:11:12.28310",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2021-06-22T09:45:00.00000",
+              "cleared-time": "2021-06-22T15:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "true",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-06-22T10:11:12.28310",
+        "ivr-article": "between",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "until 3 PM",
+        "SourceEventID": "T37CA-0002-2021-06-22-09:45:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound east of I-680 N (Pleasanton). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-22T17:04Z",
+      "updated": "2021-06-22T17:05Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.917091,
+          37.701987
         ]
       },
       "source_type": {
@@ -3762,13 +4363,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210622GG00714"
+        "#text": "210622GG00776"
       },
       "roads": [
         {
-          "name": "I-780 E",
-          "from": "Military West St",
-          "direction": "Eastbound",
+          "name": "I-580 W",
+          "from": "I-680 N",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -3784,21 +4385,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-06-22T16:39Z/"
+          "2021-06-22T17:05Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
+          "event-message-time-stamp": "2021-06-22T10:13:17.17892"
         },
         "event-reference": {
-          "event-identifier": "784382"
+          "event-identifier": "784389"
         },
         "event-status": "new",
         "details": {
@@ -3819,7 +4420,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-780 Eastbound west of Military West St (Benicia). Right lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of I-680 N (Pleasanton). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -3828,25 +4429,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-780 E",
-                  "link-from-road": "Military West St",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "I-680 N",
                   "link-to-road": null,
-                  "link-from-city": "Benicia",
+                  "link-from-city": "Pleasanton",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.07071",
-                    "event-location-coordinates-longitude": "-122.185114"
+                    "event-location-coordinates-latitude": "37.701987",
+                    "event-location-coordinates-longitude": "-121.917091"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-22T09:39:33.10460",
+              "update-time": "2021-06-22T10:05:40.25450",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2021-06-22T09:39:23.00000",
+              "start-time": "2021-06-22T10:05:30.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -3859,310 +4460,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:39:33.10460",
-        "ivr-article": "west of",
-        "ivr-county": "Solano",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-06-22T10:05:40.25450",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210622GG00714",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Southbound north of W A St (Hayward). Right shoulder blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-06-22T16:40Z",
-      "updated": "2021-06-22T16:41Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.109386,
-          37.668957
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210622GG00716"
-      },
-      "roads": [
-        {
-          "name": "I-880 S",
-          "from": "W A St",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-06-22T16:40Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
-        },
-        "event-reference": {
-          "event-identifier": "784383"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Southbound north of W A St (Hayward). Right shoulder blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "W A St",
-                  "link-to-road": null,
-                  "link-from-city": "Hayward",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.668957",
-                    "event-location-coordinates-longitude": "-122.109386"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-06-22T09:41:15.43870",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25"
-              },
-              "start-time": "2021-06-22T09:40:29.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:41:15.43870",
-        "ivr-article": "north of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210622GG00716",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Southbound south of Hesperian Blvd (San Lorenzo). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-06-22T16:42Z",
-      "updated": "2021-06-22T16:43Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.126156,
-          37.682417
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210622GG00720"
-      },
-      "roads": [
-        {
-          "name": "I-880 S",
-          "from": "Hesperian Blvd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-06-22T16:43Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-06-22T09:46:42.71115"
-        },
-        "event-reference": {
-          "event-identifier": "784384"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Southbound south of Hesperian Blvd (San Lorenzo). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "Hesperian Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "San Lorenzo",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.682417",
-                    "event-location-coordinates-longitude": "-122.126156"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-06-22T09:43:54.87380",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25"
-              },
-              "start-time": "2021-06-22T09:43:45.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-06-22T09:43:54.87380",
-        "ivr-article": "south of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210622GG00720",
+        "SourceEventID": "210622GG00776",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
