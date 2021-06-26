@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-26T14:35:06.91713"
+          "event-message-time-stamp": "2021-06-26T14:49:06.98756"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-26T14:35:06.91713"
+          "event-message-time-stamp": "2021-06-26T14:49:06.98756"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -384,7 +384,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-26T14:35:06.91713"
+          "event-message-time-stamp": "2021-06-26T14:49:06.98756"
         },
         "event-reference": {
           "event-identifier": "786049"
@@ -462,21 +462,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Vehicle fire on US-101 Northbound at 3RD ST (San Rafael) (San Rafael). Lane affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-880 Northbound south of Dixon Landing Rd (Milpitas). Right lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Vehicle fire"
+        "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2021-06-26T21:29Z",
-      "updated": "2021-06-26T21:31Z",
+      "created": "2021-06-26T21:42Z",
+      "updated": "2021-06-26T21:42Z",
       "areas": {
         "area": {
-          "name": "Marin",
-          "id": "5370468",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -489,8 +489,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.518632,
-          37.967561
+          -121.92153,
+          37.447877
         ]
       },
       "source_type": {
@@ -499,12 +499,308 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210626GG01580"
+        "#text": "210626GG01621"
       },
       "roads": [
         {
-          "name": "US-101 N",
-          "from": "3RD ST (San Rafael)",
+          "name": "I-880 N",
+          "from": "Dixon Landing Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-26T21:41Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-26T14:49:06.98756"
+        },
+        "event-reference": {
+          "event-identifier": "786052"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-880 Northbound south of Dixon Landing Rd (Milpitas). Right lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Dixon Landing Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Milpitas",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.447877",
+                    "event-location-coordinates-longitude": "-121.92153"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-26T14:42:00.79700",
+              "valid-period": {
+                "event-timeline-estimated-duration": "30.199999999999996"
+              },
+              "start-time": "2021-06-26T14:41:47.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-06-26T14:42:00.79700",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210626GG01621",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-280 Southbound north of US-101 S (san Francisco) (San Francisco). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-26T21:44Z",
+      "updated": "2021-06-26T21:44Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.403298,
+          37.729145
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210626GG01629"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "US-101 S (san Francisco)",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-26T21:43Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-26T14:49:06.98756"
+        },
+        "event-reference": {
+          "event-identifier": "786053"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-280 Southbound north of US-101 S (san Francisco) (San Francisco). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "US-101 S (san Francisco)",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.729145",
+                    "event-location-coordinates-longitude": "-122.403298"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-26T14:44:09.36150",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-06-26T14:43:55.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-06-26T14:44:09.36150",
+        "ivr-article": "north of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210626GG01629",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on CA-87 Northbound at W Hedding St (San Jose). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-26T21:46Z",
+      "updated": "2021-06-26T21:46Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.908683,
+          37.349872
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210626GG01635"
+      },
+      "roads": [
+        {
+          "name": "CA-87 N",
+          "from": "W Hedding St",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -527,15 +823,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-06-26T21:31Z/"
+          "2021-06-26T21:46Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-26T14:35:06.91713"
+          "event-message-time-stamp": "2021-06-26T14:49:06.98756"
         },
         "event-reference": {
-          "event-identifier": "786050"
+          "event-identifier": "786054"
         },
         "event-status": "new",
         "details": {
@@ -546,7 +842,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Vehicle fire"
+                      "incident": "Fire"
                     }
                   }
                 },
@@ -556,7 +852,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Vehicle fire on US-101 Northbound at 3RD ST (San Rafael) (San Rafael). Lane affected. Expect delays."
+                      "event-description": "CHP : Fire on CA-87 Northbound at W Hedding St (San Jose). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -565,25 +861,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "3RD ST (San Rafael)",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-87 N",
+                  "link-from-road": "W Hedding St",
                   "link-to-road": null,
-                  "link-from-city": "San Rafael",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.967561",
-                    "event-location-coordinates-longitude": "-122.518632"
+                    "event-location-coordinates-latitude": "37.349872",
+                    "event-location-coordinates-longitude": "-121.908683"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-26T14:31:17.88850",
+              "update-time": "2021-06-26T14:46:17.82780",
               "valid-period": {
-                "event-timeline-estimated-duration": "31"
+                "event-timeline-estimated-duration": "32"
               },
-              "start-time": "2021-06-26T14:31:04.00000",
+              "start-time": "2021-06-26T14:46:04.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -597,34 +893,34 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-26T14:31:17.88850",
+        "ivr-lastUpdateDttm": "2021-06-26T14:46:17.82780",
         "ivr-article": "at",
-        "ivr-county": "Marin",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210626GG01580",
+        "SourceEventID": "210626GG01635",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Northbound north of S Airport Blvd (South San Francisco). Left lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-880 Southbound at W A St (Hayward). Left lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Moderate",
-      "created": "2021-06-26T21:33Z",
-      "updated": "2021-06-26T21:33Z",
+      "created": "2021-06-26T21:46Z",
+      "updated": "2021-06-26T21:47Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -637,8 +933,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.406002,
-          37.643058
+          -122.105912,
+          37.663305
         ]
       },
       "source_type": {
@@ -647,13 +943,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210626GG01591"
+        "#text": "210626GG01636"
       },
       "roads": [
         {
-          "name": "US-101 N",
-          "from": "S Airport Blvd",
-          "direction": "Northbound",
+          "name": "I-880 S",
+          "from": "W A St",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -661,7 +957,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -669,21 +965,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-06-26T21:33Z/"
+          "2021-06-26T21:47Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-06-26T14:35:06.91713"
+          "event-message-time-stamp": "2021-06-26T14:49:06.98756"
         },
         "event-reference": {
-          "event-identifier": "786051"
+          "event-identifier": "786055"
         },
         "event-status": "new",
         "details": {
@@ -694,7 +990,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Collision with Injuries"
                     }
                   }
                 },
@@ -704,7 +1000,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Northbound north of S Airport Blvd (South San Francisco). Left lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-880 Southbound at W A St (Hayward). Left lane blocked. Expect delays."
                     }
                   }
                 }
@@ -713,25 +1009,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "S Airport Blvd",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "W A St",
                   "link-to-road": null,
-                  "link-from-city": "South San Francisco",
+                  "link-from-city": "Hayward",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.643058",
-                    "event-location-coordinates-longitude": "-122.406002"
+                    "event-location-coordinates-latitude": "37.663305",
+                    "event-location-coordinates-longitude": "-122.105912"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-06-26T14:33:27.00170",
+              "update-time": "2021-06-26T14:47:22.47600",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.2"
+                "event-timeline-estimated-duration": "29.5"
               },
-              "start-time": "2021-06-26T14:33:13.00000",
+              "start-time": "2021-06-26T14:47:08.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -744,14 +1040,162 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-06-26T14:33:27.00170",
-        "ivr-article": "north of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-06-26T14:47:22.47600",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210626GG01591",
+        "SourceEventID": "210626GG01636",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on I-80 Eastbound west of Redwood Pky (Vallejo). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Moderate",
+      "created": "2021-06-26T21:47Z",
+      "updated": "2021-06-26T21:48Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.230255,
+          38.120224
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210626GG01638"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Redwood Pky",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-06-26T21:47Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-06-26T14:49:06.98756"
+        },
+        "event-reference": {
+          "event-identifier": "786056"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on I-80 Eastbound west of Redwood Pky (Vallejo). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Redwood Pky",
+                  "link-to-road": null,
+                  "link-from-city": "Vallejo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.120224",
+                    "event-location-coordinates-longitude": "-122.230255"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-06-26T14:48:32.77260",
+              "valid-period": {
+                "event-timeline-estimated-duration": "30.5"
+              },
+              "start-time": "2021-06-26T14:47:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-06-26T14:48:32.77260",
+        "ivr-article": "west of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210626GG01638",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
