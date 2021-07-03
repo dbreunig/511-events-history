@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-03T00:48:42.60218"
+          "event-message-time-stamp": "2021-07-03T01:08:26.00058"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -224,7 +224,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-03T00:48:42.60218"
+          "event-message-time-stamp": "2021-07-03T01:08:26.00058"
         },
         "event-reference": {
           "event-identifier": "787107"
@@ -369,7 +369,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-03T00:48:42.60218"
+          "event-message-time-stamp": "2021-07-03T01:08:26.00058"
         },
         "event-reference": {
           "event-identifier": "788118"
@@ -517,7 +517,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-03T00:48:42.60218"
+          "event-message-time-stamp": "2021-07-03T01:08:26.00058"
         },
         "event-reference": {
           "event-identifier": "788477"
@@ -665,7 +665,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-03T00:48:42.60218"
+          "event-message-time-stamp": "2021-07-03T01:08:26.00058"
         },
         "event-reference": {
           "event-identifier": "788480"
@@ -743,14 +743,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Southbound north of CA-87 (San Jose). Center Divider affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-880 Northbound at Old Bayshore Hwy (San Jose). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Minor",
       "created": "2021-07-03T07:47Z",
-      "updated": "2021-07-03T07:47Z",
+      "updated": "2021-07-03T08:06Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -770,8 +770,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.914338,
-          37.351636
+          -121.901034,
+          37.366436
         ]
       },
       "source_type": {
@@ -784,13 +784,457 @@
       },
       "roads": [
         {
-          "name": "I-880 S",
-          "from": "CA-87",
-          "direction": "Southbound",
+          "name": "I-880 N",
+          "from": "Old Bayshore Hwy",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-03T08:06Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-03T01:08:26.00058"
+        },
+        "event-reference": {
+          "event-identifier": "788482"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-880 Northbound at Old Bayshore Hwy (San Jose). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Old Bayshore Hwy",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.366436",
+                    "event-location-coordinates-longitude": "-121.901034"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-03T01:06:21.78940",
+              "valid-period": {
+                "event-timeline-estimated-duration": "23.5"
+              },
+              "start-time": "2021-07-03T01:06:06.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-07-03T01:06:21.78940",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210703GG00080",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound at CA-92 W (San Mateo). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-03T08:04Z",
+      "updated": "2021-07-03T08:04Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.296253,
+          37.553686
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210703GG00107"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "CA-92 W",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-03T08:03Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-03T01:08:26.00058"
+        },
+        "event-reference": {
+          "event-identifier": "788483"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound at CA-92 W (San Mateo). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "CA-92 W",
+                  "link-to-road": null,
+                  "link-from-city": "San Mateo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.553686",
+                    "event-location-coordinates-longitude": "-122.296253"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-03T01:04:13.52230",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-07-03T01:03:58.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-07-03T01:04:13.52230",
+        "ivr-article": "at",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210703GG00107",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-238 Northbound south of E 14TH St (Hayward). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-03T08:07Z",
+      "updated": "2021-07-03T08:07Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.105203,
+          37.6894
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210703GG00112"
+      },
+      "roads": [
+        {
+          "name": "I-238 N",
+          "from": "E 14TH St",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-03T08:07Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-03T01:08:26.00058"
+        },
+        "event-reference": {
+          "event-identifier": "788484"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-238 Northbound south of E 14TH St (Hayward). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-238 N",
+                  "link-from-road": "E 14TH St",
+                  "link-to-road": null,
+                  "link-from-city": "Hayward",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.6894",
+                    "event-location-coordinates-longitude": "-122.105203"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-03T01:07:26.09190",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2021-07-03T01:07:10.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-07-03T01:07:26.09190",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210703GG00112",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Southbound north of Pacheco Pass Hwy (Gilroy). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-03T08:07Z",
+      "updated": "2021-07-03T08:07Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.55655,
+          37.002994
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210703MY00022"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Pacheco Pass Hwy",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -808,15 +1252,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-07-03T07:46Z/"
+          "2021-07-03T08:07Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-03T00:48:42.60218"
+          "event-message-time-stamp": "2021-07-03T01:08:26.00058"
         },
         "event-reference": {
-          "event-identifier": "788482"
+          "event-identifier": "788485"
         },
         "event-status": "new",
         "details": {
@@ -827,7 +1271,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -837,7 +1281,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Southbound north of CA-87 (San Jose). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of Pacheco Pass Hwy (Gilroy). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -847,24 +1291,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "CA-87",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Pacheco Pass Hwy",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Gilroy",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.351636",
-                    "event-location-coordinates-longitude": "-121.914338"
+                    "event-location-coordinates-latitude": "37.002994",
+                    "event-location-coordinates-longitude": "-121.55655"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-07-03T00:47:06.90060",
+              "update-time": "2021-07-03T01:07:26.46490",
               "valid-period": {
-                "event-timeline-estimated-duration": "19"
+                "event-timeline-estimated-duration": "30.5"
               },
-              "start-time": "2021-07-03T00:46:51.00000",
+              "start-time": "2021-07-03T01:07:11.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -873,18 +1317,18 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
+        "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-07-03T00:47:06.90060",
+        "ivr-lastUpdateDttm": "2021-07-03T01:07:26.46490",
         "ivr-article": "north of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210703GG00080",
+        "SourceEventID": "210703MY00022",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
