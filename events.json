@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T12:04:39.85432"
+          "event-message-time-stamp": "2021-07-05T12:19:19.26822"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T12:04:39.85432"
+          "event-message-time-stamp": "2021-07-05T12:19:19.26822"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -381,7 +381,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T12:04:39.85432"
+          "event-message-time-stamp": "2021-07-05T12:19:19.26822"
         },
         "event-reference": {
           "event-identifier": "788833"
@@ -529,7 +529,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T12:04:39.85432"
+          "event-message-time-stamp": "2021-07-05T12:19:19.26822"
         },
         "event-reference": {
           "event-identifier": "788981"
@@ -677,7 +677,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T12:04:39.85432"
+          "event-message-time-stamp": "2021-07-05T12:19:19.26822"
         },
         "event-reference": {
           "event-identifier": "789082"
@@ -825,7 +825,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T12:04:39.85432"
+          "event-message-time-stamp": "2021-07-05T12:19:19.26822"
         },
         "event-reference": {
           "event-identifier": "789084"
@@ -903,14 +903,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-880 Northbound entering at Mowry Ave (Fremont). On Ramp affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries and Overturned vehicle on I-580 Westbound east of Grant Line Rd (Unincorporated). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Overturned vehicle"
+        ]
       },
-      "severity": "Major",
-      "created": "2021-07-05T19:02Z",
-      "updated": "2021-07-05T19:03Z",
+      "severity": "Moderate",
+      "created": "2021-07-05T19:09Z",
+      "updated": "2021-07-05T19:10Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -930,8 +933,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.002774,
-          37.530203
+          -121.580823,
+          37.74135
         ]
       },
       "source_type": {
@@ -940,17 +943,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210705GG01084"
+        "#text": "210705GG01118"
       },
       "roads": [
         {
-          "name": "I-880 N",
-          "from": "Mowry Ave",
-          "direction": "Northbound",
+          "name": "I-580 W",
+          "from": "Grant Line Rd",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -962,21 +965,322 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "entering at"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-07-05T19:02Z/"
+          "2021-07-05T19:09Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T12:04:39.85432"
+          "event-message-time-stamp": "2021-07-05T12:19:19.26822"
         },
         "event-reference": {
-          "event-identifier": "789085"
+          "event-identifier": "789086"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Overturned vehicle"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries and Overturned vehicle on I-580 Westbound east of Grant Line Rd (Unincorporated). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Grant Line Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Unincorporated",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.74135",
+                    "event-location-coordinates-longitude": "-121.580823"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-05T12:10:47.97940",
+              "valid-period": {
+                "event-timeline-estimated-duration": "38.5"
+              },
+              "start-time": "2021-07-05T12:09:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-07-05T12:10:47.97940",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210705GG01118",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on CA-87 Southbound north of Airport Pky (San Jose). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-05T19:13Z",
+      "updated": "2021-07-05T19:15Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.924114,
+          37.368128
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210705GG01125"
+      },
+      "roads": [
+        {
+          "name": "CA-87 S",
+          "from": "Airport Pky",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-05T19:12Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-05T12:19:19.26822"
+        },
+        "event-reference": {
+          "event-identifier": "789087"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on CA-87 Southbound north of Airport Pky (San Jose). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-87 S",
+                  "link-from-road": "Airport Pky",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.368128",
+                    "event-location-coordinates-longitude": "-121.924114"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-05T12:15:24.68380",
+              "valid-period": {
+                "event-timeline-estimated-duration": "32"
+              },
+              "start-time": "2021-07-05T12:12:44.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-07-05T12:15:24.68380",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210705GG01125",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-680 Northbound exiting at Rudgear Rd (Walnut Creek). Off Ramp blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Major",
+      "created": "2021-07-05T19:16Z",
+      "updated": "2021-07-05T19:18Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.046355,
+          37.876406
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210705GG01135"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "Rudgear Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "exiting at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-05T19:15Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-05T12:19:19.26822"
+        },
+        "event-reference": {
+          "event-identifier": "789088"
         },
         "event-status": "new",
         "details": {
@@ -997,7 +1301,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-880 Northbound entering at Mowry Ave (Fremont). On Ramp affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-680 Northbound exiting at Rudgear Rd (Walnut Creek). Off Ramp blocked. Expect delays."
                     }
                   }
                 }
@@ -1006,25 +1310,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "Mowry Ave",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Rudgear Rd",
                   "link-to-road": null,
-                  "link-from-city": "Fremont",
+                  "link-from-city": "Walnut Creek",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.530203",
-                    "event-location-coordinates-longitude": "-122.002774"
+                    "event-location-coordinates-latitude": "37.876406",
+                    "event-location-coordinates-longitude": "-122.046355"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-07-05T12:03:35.35280",
+              "update-time": "2021-07-05T12:18:59.54760",
               "valid-period": {
                 "event-timeline-estimated-duration": "50.5"
               },
-              "start-time": "2021-07-05T12:02:00.00000",
+              "start-time": "2021-07-05T12:15:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1038,13 +1342,161 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-07-05T12:03:35.35280",
-        "ivr-article": "entering at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "On Ramp",
+        "ivr-lastUpdateDttm": "2021-07-05T12:18:59.54760",
+        "ivr-article": "exiting at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Off Ramp",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210705GG01084",
+        "SourceEventID": "210705GG01135",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-280 Southbound at US-101 S (san Jose) (San Jose). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-05T19:17Z",
+      "updated": "2021-07-05T19:18Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.85206,
+          37.33959
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210705GG01139"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "US-101 S (san Jose)",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-05T19:17Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-05T12:19:19.26822"
+        },
+        "event-reference": {
+          "event-identifier": "789089"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-280 Southbound at US-101 S (san Jose) (San Jose). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "US-101 S (san Jose)",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.33959",
+                    "event-location-coordinates-longitude": "-121.85206"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-05T12:18:30.37630",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-07-05T12:17:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-07-05T12:18:30.37630",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210705GG01139",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
