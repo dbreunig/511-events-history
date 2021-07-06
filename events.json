@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:20:54.39041"
+          "event-message-time-stamp": "2021-07-05T22:33:42.13121"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:20:54.39041"
+          "event-message-time-stamp": "2021-07-05T22:33:42.13121"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -384,7 +384,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:20:54.39041"
+          "event-message-time-stamp": "2021-07-05T22:33:42.13121"
         },
         "event-reference": {
           "event-identifier": "788981"
@@ -532,7 +532,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:20:54.39041"
+          "event-message-time-stamp": "2021-07-05T22:33:42.13121"
         },
         "event-reference": {
           "event-identifier": "789206"
@@ -680,7 +680,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:20:54.39041"
+          "event-message-time-stamp": "2021-07-05T22:33:42.13121"
         },
         "event-reference": {
           "event-identifier": "789243"
@@ -758,21 +758,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Eastbound east of Main St (San Quentin). Center Divider affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on CA-17 Southbound south of Summit Rd (Los Gatos). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2021-07-06T04:59Z",
-      "updated": "2021-07-06T05:17Z",
+      "created": "2021-07-06T05:21Z",
+      "updated": "2021-07-06T05:21Z",
       "areas": {
         "area": {
-          "name": "Marin",
-          "id": "5370468",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -785,8 +785,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.47827,
-          37.942595
+          -121.984939,
+          37.143406
         ]
       },
       "source_type": {
@@ -795,17 +795,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210705GG02703"
+        "#text": "210705MY00439"
       },
       "roads": [
         {
-          "name": "I-580 E",
-          "from": "Main St",
-          "direction": "Eastbound",
+          "name": "CA-17 S",
+          "from": "Summit Rd",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -817,21 +817,169 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-07-06T05:17Z/"
+          "2021-07-06T05:21Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:20:54.39041"
+          "event-message-time-stamp": "2021-07-05T22:33:42.13121"
         },
         "event-reference": {
-          "event-identifier": "789248"
+          "event-identifier": "789250"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on CA-17 Southbound south of Summit Rd (Los Gatos). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-17 S",
+                  "link-from-road": "Summit Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Los Gatos",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.143406",
+                    "event-location-coordinates-longitude": "-121.984939"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-05T22:21:46.68050",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.2"
+              },
+              "start-time": "2021-07-05T22:21:30.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-07-05T22:21:46.68050",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210705MY00439",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound at N Flynn Rd (Livermore). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-06T05:27Z",
+      "updated": "2021-07-06T05:27Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.66644,
+          37.718043
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210705GG02751"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "N Flynn Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-06T05:26Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-05T22:33:42.13121"
+        },
+        "event-reference": {
+          "event-identifier": "789251"
         },
         "event-status": "new",
         "details": {
@@ -852,7 +1000,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound east of Main St (San Quentin). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound at N Flynn Rd (Livermore). Left lane affected. Expect delays."
                     }
                   }
                 }
@@ -861,25 +1009,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "Main St",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "N Flynn Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Quentin",
+                  "link-from-city": "Livermore",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.942595",
-                    "event-location-coordinates-longitude": "-122.47827"
+                    "event-location-coordinates-latitude": "37.718043",
+                    "event-location-coordinates-longitude": "-121.66644"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-07-05T22:17:28.78630",
+              "update-time": "2021-07-05T22:27:07.91450",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2021-07-05T22:17:12.00000",
+              "start-time": "2021-07-05T22:26:51.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -892,14 +1040,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-07-05T22:17:28.78630",
-        "ivr-article": "east of",
-        "ivr-county": "Marin",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-07-05T22:27:07.91450",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210705GG02703",
+        "SourceEventID": "210705GG02751",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
