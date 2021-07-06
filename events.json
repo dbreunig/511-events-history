@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:48:34.81154"
+          "event-message-time-stamp": "2021-07-05T23:05:08.45741"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:48:34.81154"
+          "event-message-time-stamp": "2021-07-05T23:05:08.45741"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -384,7 +384,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:48:34.81154"
+          "event-message-time-stamp": "2021-07-05T23:05:08.45741"
         },
         "event-reference": {
           "event-identifier": "788981"
@@ -532,7 +532,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:48:34.81154"
+          "event-message-time-stamp": "2021-07-05T23:05:08.45741"
         },
         "event-reference": {
           "event-identifier": "789206"
@@ -610,14 +610,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Westbound at N Flynn Rd (Livermore). Left lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound at N Flynn Rd (Livermore). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
-      "severity": "Moderate",
+      "severity": "Minor",
       "created": "2021-07-06T05:27Z",
-      "updated": "2021-07-06T05:27Z",
+      "updated": "2021-07-06T05:58Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -657,7 +657,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -675,12 +675,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-07-06T05:26Z/"
+          "2021-07-06T05:58Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T22:48:34.81154"
+          "event-message-time-stamp": "2021-07-05T23:05:08.45741"
         },
         "event-reference": {
           "event-identifier": "789251"
@@ -704,7 +704,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Westbound at N Flynn Rd (Livermore). Left lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound at N Flynn Rd (Livermore). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -727,11 +727,159 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-07-05T22:27:07.91450",
+              "update-time": "2021-07-05T22:58:17.03070",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "20.5"
               },
-              "start-time": "2021-07-05T22:26:51.00000",
+              "start-time": "2021-07-05T22:58:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-07-05T22:58:17.03070",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210705GG02751",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-24 Eastbound west of Camino Pablo (Orinda). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-06T05:53Z",
+      "updated": "2021-07-06T05:53Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.18658,
+          37.874851
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210705GG02799"
+      },
+      "roads": [
+        {
+          "name": "CA-24 E",
+          "from": "Camino Pablo",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-06T05:53Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-05T23:05:08.45741"
+        },
+        "event-reference": {
+          "event-identifier": "789253"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-24 Eastbound west of Camino Pablo (Orinda). Left lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Camino Pablo",
+                  "link-to-road": null,
+                  "link-from-city": "Orinda",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.874851",
+                    "event-location-coordinates-longitude": "-122.18658"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-05T22:53:58.75540",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-07-05T22:53:42.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -744,14 +892,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-07-05T22:27:07.91450",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-07-05T22:53:58.75540",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210705GG02751",
+        "SourceEventID": "210705GG02799",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
