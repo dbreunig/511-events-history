@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-06T04:20:44.24438"
+          "event-message-time-stamp": "2021-07-06T04:33:34.08639"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-06T04:20:44.24438"
+          "event-message-time-stamp": "2021-07-06T04:33:34.10202"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -384,7 +384,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-06T04:20:44.24438"
+          "event-message-time-stamp": "2021-07-06T04:33:34.10202"
         },
         "event-reference": {
           "event-identifier": "789264"
@@ -532,7 +532,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-06T04:20:44.24438"
+          "event-message-time-stamp": "2021-07-06T04:33:34.10202"
         },
         "event-reference": {
           "event-identifier": "789266"
@@ -604,6 +604,154 @@
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210706GG00205",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-580 Eastbound at Santa Rita Rd (Pleasanton). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-06T11:33Z",
+      "updated": "2021-07-06T11:33Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.877411,
+          37.701366
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210706GG00215"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Santa Rita Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-06T11:33Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-06T04:33:34.10202"
+        },
+        "event-reference": {
+          "event-identifier": "789267"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-580 Eastbound at Santa Rita Rd (Pleasanton). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Santa Rita Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Pleasanton",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.701366",
+                    "event-location-coordinates-longitude": "-121.877411"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-06T04:33:20.16740",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-07-06T04:33:03.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-07-06T04:33:20.16740",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210706GG00215",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
