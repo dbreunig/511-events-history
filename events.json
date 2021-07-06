@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T23:39:22.54103"
+          "event-message-time-stamp": "2021-07-05T23:52:56.00281"
         },
         "event-reference": {
           "event-identifier": "721616"
@@ -231,7 +231,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T23:39:22.54103"
+          "event-message-time-stamp": "2021-07-05T23:52:56.00281"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -384,7 +384,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T23:39:22.54103"
+          "event-message-time-stamp": "2021-07-05T23:52:56.00281"
         },
         "event-reference": {
           "event-identifier": "788981"
@@ -532,7 +532,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T23:39:22.54103"
+          "event-message-time-stamp": "2021-07-05T23:52:56.00281"
         },
         "event-reference": {
           "event-identifier": "789206"
@@ -680,7 +680,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-05T23:39:22.54103"
+          "event-message-time-stamp": "2021-07-05T23:52:56.00281"
         },
         "event-reference": {
           "event-identifier": "789253"
@@ -752,6 +752,154 @@
         "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210705GG02799",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on US-101 Southbound at Tully Rd (San Jose). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-06T06:45Z",
+      "updated": "2021-07-06T06:49Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.82927,
+          37.315931
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210705GG02871"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Tully Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-06T06:49Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-05T23:52:56.00281"
+        },
+        "event-reference": {
+          "event-identifier": "789256"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on US-101 Southbound at Tully Rd (San Jose). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Tully Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.315931",
+                    "event-location-coordinates-longitude": "-121.82927"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-05T23:49:51.96000",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.2"
+              },
+              "start-time": "2021-07-05T23:49:35.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-07-05T23:49:51.96000",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210705GG02871",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
