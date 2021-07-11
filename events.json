@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-11T10:10:56.07700"
+          "event-message-time-stamp": "2021-07-11T10:24:42.24110"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-11T10:10:56.07700"
+          "event-message-time-stamp": "2021-07-11T10:24:42.24110"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -379,7 +379,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-11T10:10:56.07700"
+          "event-message-time-stamp": "2021-07-11T10:24:42.24110"
         },
         "event-reference": {
           "event-identifier": "791042"
@@ -529,7 +529,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-11T10:10:56.07700"
+          "event-message-time-stamp": "2021-07-11T10:24:42.24110"
         },
         "event-reference": {
           "event-identifier": "791358"
@@ -678,7 +678,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-11T10:10:56.07700"
+          "event-message-time-stamp": "2021-07-11T10:24:42.24110"
         },
         "event-reference": {
           "event-identifier": "791364"
@@ -757,21 +757,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-80 Eastbound east of Dixon Ave W (Dixon). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on US-101 Southbound north of Metcalf Rd (San Jose). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2021-07-11T15:54Z",
-      "updated": "2021-07-11T16:44Z",
+      "created": "2021-07-11T17:19Z",
+      "updated": "2021-07-11T17:19Z",
       "areas": {
         "area": {
-          "name": "Solano",
-          "id": "5396987",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -784,8 +784,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.862136,
-          38.443
+          -121.726569,
+          37.213018
         ]
       },
       "source_type": {
@@ -794,17 +794,165 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210711GG00763"
+        "#text": "210711MY00134"
       },
       "roads": [
         {
-          "name": "I-80 E",
-          "from": "Dixon Ave W",
-          "direction": "Eastbound",
+          "name": "US-101 S",
+          "from": "Metcalf Rd",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-11T17:19Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-11T10:24:42.24110"
+        },
+        "event-reference": {
+          "event-identifier": "791389"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on US-101 Southbound north of Metcalf Rd (San Jose). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Metcalf Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.213018",
+                    "event-location-coordinates-longitude": "-121.726569"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-11T10:19:17.45750",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.2"
+              },
+              "start-time": "2021-07-11T10:19:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-07-11T10:19:17.45750",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210711MY00134",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-12 Westbound east of Lynch Rd (Napa). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-11T17:20Z",
+      "updated": "2021-07-11T17:20Z",
+      "areas": {
+        "area": {
+          "name": "Napa",
+          "id": "5376101",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5376101/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.234216,
+          38.220147
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210711GG01000"
+      },
+      "roads": [
+        {
+          "name": "CA-12 W",
+          "from": "Lynch Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -822,15 +970,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-07-11T16:43Z/"
+          "2021-07-11T17:20Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-11T10:10:56.07700"
+          "event-message-time-stamp": "2021-07-11T10:24:42.24110"
         },
         "event-reference": {
-          "event-identifier": "791376"
+          "event-identifier": "791390"
         },
         "event-status": "new",
         "details": {
@@ -841,7 +989,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision with Injuries"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -851,7 +999,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Eastbound east of Dixon Ave W (Dixon). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on CA-12 Westbound east of Lynch Rd (Napa). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -860,25 +1008,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Dixon Ave W",
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-12 W",
+                  "link-from-road": "Lynch Rd",
                   "link-to-road": null,
-                  "link-from-city": "Dixon",
+                  "link-from-city": "Napa",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.443",
-                    "event-location-coordinates-longitude": "-121.862136"
+                    "event-location-coordinates-latitude": "38.220147",
+                    "event-location-coordinates-longitude": "-122.234216"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-07-11T09:44:03.38150",
+              "update-time": "2021-07-11T10:20:21.61760",
               "valid-period": {
-                "event-timeline-estimated-duration": "33.5"
+                "event-timeline-estimated-duration": "35.2"
               },
-              "start-time": "2021-07-11T09:43:46.00000",
+              "start-time": "2021-07-11T10:20:04.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -891,35 +1039,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-07-11T09:44:03.38150",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-07-11T10:20:21.61760",
         "ivr-article": "east of",
-        "ivr-county": "Solano",
+        "ivr-county": "Napa",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210711GG00763",
+        "SourceEventID": "210711GG01000",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Brush fire on I-580 Westbound west of Greenville Rd (Livermore). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on CA-17 Northbound at CA-85 N (Los Gatos). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Brush fire"
+        "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2021-07-11T17:08Z",
-      "updated": "2021-07-11T17:09Z",
+      "created": "2021-07-11T17:20Z",
+      "updated": "2021-07-11T17:22Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -932,8 +1080,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.70142,
-          37.717973
+          -121.953356,
+          37.259768
         ]
       },
       "source_type": {
@@ -942,13 +1090,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210711GG00958"
+        "#text": "210711GG00999"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "Greenville Rd",
-          "direction": "Westbound",
+          "name": "CA-17 N",
+          "from": "CA-85 N",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -964,21 +1112,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-07-11T17:09Z/"
+          "2021-07-11T17:22Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-07-11T10:10:56.07700"
+          "event-message-time-stamp": "2021-07-11T10:24:42.24110"
         },
         "event-reference": {
-          "event-identifier": "791387"
+          "event-identifier": "791391"
         },
         "event-status": "new",
         "details": {
@@ -989,7 +1137,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Brush fire"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -999,7 +1147,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Brush fire on I-580 Westbound west of Greenville Rd (Livermore). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on CA-17 Northbound at CA-85 N (Los Gatos). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -1008,25 +1156,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "Greenville Rd",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "CA-85 N",
                   "link-to-road": null,
-                  "link-from-city": "Livermore",
+                  "link-from-city": "Los Gatos",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.717973",
-                    "event-location-coordinates-longitude": "-121.70142"
+                    "event-location-coordinates-latitude": "37.259768",
+                    "event-location-coordinates-longitude": "-121.953356"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-07-11T10:09:40.28450",
+              "update-time": "2021-07-11T10:22:30.28620",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "27.7"
               },
-              "start-time": "2021-07-11T10:09:22.00000",
+              "start-time": "2021-07-11T10:22:12.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1039,14 +1187,162 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-07-11T10:09:40.28450",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-07-11T10:22:30.28620",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210711GG00958",
+        "SourceEventID": "210711GG00999",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on US-101 Northbound south of San Bruno Ave E (San Bruno). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-07-11T17:21Z",
+      "updated": "2021-07-11T17:21Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.400645,
+          37.62345
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210711GG01006"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "San Bruno Ave E",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-07-11T17:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-07-11T10:24:42.24110"
+        },
+        "event-reference": {
+          "event-identifier": "791392"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on US-101 Northbound south of San Bruno Ave E (San Bruno). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "San Bruno Ave E",
+                  "link-to-road": null,
+                  "link-from-city": "San Bruno",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.62345",
+                    "event-location-coordinates-longitude": "-122.400645"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-07-11T10:21:25.84480",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.2"
+              },
+              "start-time": "2021-07-11T10:21:08.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-07-11T10:21:25.84480",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210711GG01006",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
