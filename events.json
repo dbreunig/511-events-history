@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -688,7 +688,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804731"
@@ -765,18 +765,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision and Overturned tractor trailer on CA-4 Westbound exiting at Willow Pass Rd (Concord). Off Ramp blocked. Avoid the area.",
+      "headline": "CHP : Residual delays on CA-4 Westbound exiting at Willow Pass Rd (Concord). All lanes open. Avoid the area.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision",
-          "Overturned tractor trailer",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Severe",
+      "severity": "Unknown",
       "created": "2021-08-16T13:11Z",
-      "updated": "2021-08-16T21:30Z",
+      "updated": "2021-08-16T21:46Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -816,11 +812,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -839,7 +835,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804915"
@@ -852,17 +848,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision"
-                      },
-                      {
-                        "incident": "Overturned tractor trailer"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -871,7 +859,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision and Overturned tractor trailer on CA-4 Westbound exiting at Willow Pass Rd (Concord). Off Ramp blocked. Avoid the area."
+                      "event-description": "CHP : Residual delays on CA-4 Westbound exiting at Willow Pass Rd (Concord). All lanes open. Avoid the area."
                     }
                   }
                 }
@@ -894,9 +882,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:30:20.54630",
+              "update-time": "2021-08-16T14:46:45.87880",
               "valid-period": {
-                "event-timeline-estimated-duration": "74.5"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-08-16T06:11:00.00000",
               "cleared-time": null,
@@ -907,168 +895,19 @@
             }
           }
         },
-        "EventImpact": "Severe",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:30:20.54630",
-        "ivr-article": "exiting at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Off Ramp",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "Avoid the area",
-        "SourceEventID": "210816GG00313",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Bridge work on CA-1 Northbound and Southbound at CA-84 (San Gregorio). Lane closed. One way traffic control in effect. Monday, August 16, 2021 6:01 AM thru Monday, August 16, 2021 4:01 PM, Monday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Bridge work"
-      },
-      "severity": "Unknown",
-      "created": "2021-08-16T13:40Z",
-      "updated": "2021-08-16T19:46Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.40205,
-          37.32068
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C1MB-0001-2021-08-16-06:01:00"
-      },
-      "roads": [
-        {
-          "name": "CA-1 N",
-          "from": "CA-84",
-          "direction": "Northbound and Southbound",
-          "state": "SINGLE_LANE_ALTERNATING",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "One way traffic control in effect"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-16T13:01Z/2021-08-16T23:01Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
-        },
-        "event-reference": {
-          "event-identifier": "804923"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Bridge work"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Bridge work on CA-1 Northbound and Southbound at CA-84 (San Gregorio). Lane closed. One way traffic control in effect. Monday, August 16, 2021 6:01 AM thru Monday, August 16, 2021 4:01 PM, Monday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "CA-1 N",
-                  "link-from-road": "CA-84",
-                  "link-to-road": null,
-                  "link-from-city": "San Gregorio",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.32068",
-                    "event-location-coordinates-longitude": "-122.40205"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-16T12:46:01.05840",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-08-16T06:01:00.00000",
-              "cleared-time": "2021-08-16T16:01:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
         "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound and Southbound",
-        "ivr-lastUpdateDttm": "2021-08-16T12:46:01.05840",
-        "ivr-article": "at",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "One way traffic control in effect",
-        "SourceEventID": "C1MB-0001-2021-08-16-06:01:00",
-        "EventSourceName": "Caltrans",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-08-16T14:46:45.87880",
+        "ivr-article": "exiting at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
+        "ivr-genOtherText": "Avoid the area",
+        "SourceEventID": "210816GG00313",
+        "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
@@ -1081,7 +920,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T14:09Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:48Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -1145,7 +984,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804933"
@@ -1192,7 +1031,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:48.12740",
+              "update-time": "2021-08-16T14:48:41.01600",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1210,7 +1049,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:48.12740",
+        "ivr-lastUpdateDttm": "2021-08-16T14:48:41.01600",
         "ivr-article": "between",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "closed",
@@ -1230,7 +1069,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T14:09Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:48Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -1294,7 +1133,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804934"
@@ -1341,7 +1180,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:48.38980",
+              "update-time": "2021-08-16T14:48:41.28380",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1359,7 +1198,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:48.38980",
+        "ivr-lastUpdateDttm": "2021-08-16T14:48:41.28380",
         "ivr-article": "between",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "closed",
@@ -1379,7 +1218,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T14:48Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:45Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -1442,7 +1281,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804944"
@@ -1489,7 +1328,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:52.16200",
+              "update-time": "2021-08-16T14:45:22.53690",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1507,7 +1346,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:52.16200",
+        "ivr-lastUpdateDttm": "2021-08-16T14:45:22.53690",
         "ivr-article": "exiting at",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "closed",
@@ -1590,7 +1429,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804948"
@@ -1675,7 +1514,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T15:24Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:45Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1738,7 +1577,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804951"
@@ -1785,7 +1624,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:52.83430",
+              "update-time": "2021-08-16T14:45:23.22010",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1803,7 +1642,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:52.83430",
+        "ivr-lastUpdateDttm": "2021-08-16T14:45:23.22010",
         "ivr-article": "entering at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -1886,7 +1725,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804957"
@@ -1971,7 +1810,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T16:04Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:45Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -2034,7 +1873,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804963"
@@ -2081,7 +1920,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:51.23730",
+              "update-time": "2021-08-16T14:45:21.87680",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2099,7 +1938,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:51.23730",
+        "ivr-lastUpdateDttm": "2021-08-16T14:45:21.87680",
         "ivr-article": "at",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -2119,7 +1958,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T16:07Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:48Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -2183,7 +2022,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804966"
@@ -2230,7 +2069,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:49.48980",
+              "update-time": "2021-08-16T14:48:42.37780",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2248,7 +2087,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:49.48980",
+        "ivr-lastUpdateDttm": "2021-08-16T14:48:42.37780",
         "ivr-article": "between",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -2268,7 +2107,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T16:07Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:48Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -2331,7 +2170,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804967"
@@ -2378,7 +2217,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:49.75830",
+              "update-time": "2021-08-16T14:48:42.63760",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2396,7 +2235,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:49.75830",
+        "ivr-lastUpdateDttm": "2021-08-16T14:48:42.63760",
         "ivr-article": "at",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -2416,7 +2255,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T16:07Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:45Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -2479,7 +2318,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804968"
@@ -2526,7 +2365,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:52.44320",
+              "update-time": "2021-08-16T14:45:22.82750",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2544,7 +2383,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:52.44320",
+        "ivr-lastUpdateDttm": "2021-08-16T14:45:22.82750",
         "ivr-article": "at",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "closed",
@@ -2564,7 +2403,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T16:38Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:45Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -2627,7 +2466,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804978"
@@ -2674,7 +2513,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:50.94960",
+              "update-time": "2021-08-16T14:45:21.59680",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2692,7 +2531,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:50.94960",
+        "ivr-lastUpdateDttm": "2021-08-16T14:45:21.59680",
         "ivr-article": "at",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -2712,7 +2551,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T16:45Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:48Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -2775,7 +2614,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804980"
@@ -2822,7 +2661,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:49.20160",
+              "update-time": "2021-08-16T14:48:42.09820",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2840,7 +2679,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:49.20160",
+        "ivr-lastUpdateDttm": "2021-08-16T14:48:42.09820",
         "ivr-article": "at",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "closed",
@@ -2860,7 +2699,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T16:55Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:45Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -2923,7 +2762,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804989"
@@ -2970,7 +2809,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:52.29730",
+              "update-time": "2021-08-16T14:45:22.68230",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2988,7 +2827,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:52.29730",
+        "ivr-lastUpdateDttm": "2021-08-16T14:45:22.68230",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -3008,7 +2847,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T16:58Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:48Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -3072,7 +2911,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804991"
@@ -3119,7 +2958,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:50.34800",
+              "update-time": "2021-08-16T14:48:43.17580",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -3137,7 +2976,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:50.34800",
+        "ivr-lastUpdateDttm": "2021-08-16T14:48:43.17580",
         "ivr-article": "between",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -3157,7 +2996,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T16:58Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:48Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -3221,7 +3060,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "804992"
@@ -3268,7 +3107,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:50.66200",
+              "update-time": "2021-08-16T14:48:43.46460",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -3286,7 +3125,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:50.66200",
+        "ivr-lastUpdateDttm": "2021-08-16T14:48:43.46460",
         "ivr-article": "between",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -3306,7 +3145,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T17:53Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:48Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -3369,7 +3208,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "805007"
@@ -3416,7 +3255,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:46.57250",
+              "update-time": "2021-08-16T14:48:39.73540",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -3434,7 +3273,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:46.57250",
+        "ivr-lastUpdateDttm": "2021-08-16T14:48:39.73540",
         "ivr-article": "at",
         "ivr-county": "Solano",
         "ivr-laneStatus": "closed",
@@ -3454,7 +3293,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T18:13Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:48Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -3518,7 +3357,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "805010"
@@ -3565,7 +3404,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:50.14790",
+              "update-time": "2021-08-16T14:48:42.92900",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -3583,7 +3422,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:50.14790",
+        "ivr-lastUpdateDttm": "2021-08-16T14:48:42.92900",
         "ivr-article": "between",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -3603,7 +3442,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-16T19:39Z",
-      "updated": "2021-08-16T21:31Z",
+      "updated": "2021-08-16T21:48Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -3667,7 +3506,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "805044"
@@ -3714,7 +3553,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:31:48.68100",
+              "update-time": "2021-08-16T14:48:41.55760",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -3732,7 +3571,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:31:48.68100",
+        "ivr-lastUpdateDttm": "2021-08-16T14:48:41.55760",
         "ivr-article": "between",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "closed",
@@ -3745,162 +3584,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard and Debris on I-80 Eastbound west of Gilman St (Berkeley). Lanes affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": [
-          "Traffic Hazard",
-          "Debris"
-        ]
-      },
-      "severity": "Moderate",
-      "created": "2021-08-16T20:43Z",
-      "updated": "2021-08-16T21:21Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.306023,
-          37.874502
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210816GG01254"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Gilman St",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-16T21:00Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
-        },
-        "event-reference": {
-          "event-identifier": "805068"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Hazard"
-                      },
-                      {
-                        "incident": "Debris"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard and Debris on I-80 Eastbound west of Gilman St (Berkeley). Lanes affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Gilman St",
-                  "link-to-road": null,
-                  "link-from-city": "Berkeley",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.874502",
-                    "event-location-coordinates-longitude": "-122.306023"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-16T14:21:58.76270",
-              "valid-period": {
-                "event-timeline-estimated-duration": "34.6"
-              },
-              "start-time": "2021-08-16T14:00:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:21:58.76270",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210816GG01254",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Debris on I-280 Southbound north of Alemany Blvd (San Francisco). Lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -3908,7 +3591,7 @@
       },
       "severity": "Moderate",
       "created": "2021-08-16T20:50Z",
-      "updated": "2021-08-16T20:52Z",
+      "updated": "2021-08-16T21:34Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -3971,7 +3654,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "805072"
@@ -4018,7 +3701,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T13:52:19.04190",
+              "update-time": "2021-08-16T14:34:46.38330",
               "valid-period": {
                 "event-timeline-estimated-duration": "34.6"
               },
@@ -4036,7 +3719,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-16T13:52:19.04190",
+        "ivr-lastUpdateDttm": "2021-08-16T14:34:46.38330",
         "ivr-article": "north of",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
@@ -4119,7 +3802,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "805073"
@@ -4197,154 +3880,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fire on I-80 Westbound at CA-13 N-I-80 W Ramp (Berkeley). On Ramp affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Fire"
-      },
-      "severity": "Major",
-      "created": "2021-08-16T21:06Z",
-      "updated": "2021-08-16T21:14Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.297993,
-          37.844546
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210816GG01330"
-      },
-      "roads": [
-        {
-          "name": "I-80 W",
-          "from": "CA-13 N-I-80 W Ramp",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-16T21:13Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
-        },
-        "event-reference": {
-          "event-identifier": "805082"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Fire"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Fire on I-80 Westbound at CA-13 N-I-80 W Ramp (Berkeley). On Ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "CA-13 N-I-80 W Ramp",
-                  "link-to-road": null,
-                  "link-from-city": "Berkeley",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.844546",
-                    "event-location-coordinates-longitude": "-122.297993"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-16T14:14:10.49960",
-              "valid-period": {
-                "event-timeline-estimated-duration": "52"
-              },
-              "start-time": "2021-08-16T14:13:44.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:14:10.49960",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "On Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210816GG01330",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Hazard on I-580 Eastbound east of El Charro Rd (Pleasanton). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -4415,7 +3950,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "805084"
@@ -4493,162 +4028,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Westbound east of CA-4 E (Hercules). Center lanes blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-08-16T21:08Z",
-      "updated": "2021-08-16T21:21Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.266235,
-          38.018484
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210816GG01336"
-      },
-      "roads": [
-        {
-          "name": "I-80 W",
-          "from": "CA-4 E",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-16T21:08Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
-        },
-        "event-reference": {
-          "event-identifier": "805085"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of CA-4 E (Hercules). Center lanes blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "CA-4 E",
-                  "link-to-road": null,
-                  "link-from-city": "Hercules",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.018484",
-                    "event-location-coordinates-longitude": "-122.266235"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-16T14:21:11.40750",
-              "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
-              },
-              "start-time": "2021-08-16T14:08:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:21:11.40750",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Center lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210816GG01336",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-24 Westbound east of Wilder Road (Orinda). Lane affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on CA-24 Westbound east of Wilder Road (Orinda). Right lane and shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
       "created": "2021-08-16T21:13Z",
-      "updated": "2021-08-16T21:22Z",
+      "updated": "2021-08-16T21:38Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -4688,7 +4075,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane and shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -4711,7 +4098,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "805087"
@@ -4735,7 +4122,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-24 Westbound east of Wilder Road (Orinda). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on CA-24 Westbound east of Wilder Road (Orinda). Right lane and shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -4758,305 +4145,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:22:50.80030",
+              "update-time": "2021-08-16T14:38:34.08510",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.2"
-              },
-              "start-time": "2021-08-16T14:22:24.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:22:50.80030",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210816GG01357",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Northbound south of Bridgeway (Sausalito). Off Ramp affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Major",
-      "created": "2021-08-16T21:20Z",
-      "updated": "2021-08-16T21:32Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.507072,
-          37.870613
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210816GG01379"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Bridgeway",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-16T21:32Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
-        },
-        "event-reference": {
-          "event-identifier": "805090"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Northbound south of Bridgeway (Sausalito). Off Ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Bridgeway",
-                  "link-to-road": null,
-                  "link-from-city": "Sausalito",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.870613",
-                    "event-location-coordinates-longitude": "-122.507072"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-16T14:32:36.76100",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.2"
-              },
-              "start-time": "2021-08-16T14:32:10.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:32:36.76100",
-        "ivr-article": "south of",
-        "ivr-county": "Marin",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Off Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210816GG01379",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-242 Northbound south of Clayton Rd (Concord). Lanes affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-08-16T21:22Z",
-      "updated": "2021-08-16T21:23Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.048744,
-          37.96661
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210816GG01382"
-      },
-      "roads": [
-        {
-          "name": "CA-242 N",
-          "from": "Clayton Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-16T21:22Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
-        },
-        "event-reference": {
-          "event-identifier": "805091"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-242 Northbound south of Clayton Rd (Concord). Lanes affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-242 N",
-                  "link-from-road": "Clayton Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Concord",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.96661",
-                    "event-location-coordinates-longitude": "-122.048744"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-16T14:23:24.04390",
-              "valid-period": {
-                "event-timeline-estimated-duration": "40.5"
               },
               "start-time": "2021-08-16T14:22:00.00000",
               "cleared-time": null,
@@ -5071,28 +4162,28 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:23:24.04390",
-        "ivr-article": "south of",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-08-16T14:38:34.08510",
+        "ivr-article": "east of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
+        "ivr-totalLanes": "Right lane and shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210816GG01382",
+        "SourceEventID": "210816GG01357",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-37 Eastbound east of US-101 N (Novato). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on CA-37 Eastbound east of US-101 N (Novato). Right lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Major",
       "created": "2021-08-16T21:26Z",
-      "updated": "2021-08-16T21:27Z",
+      "updated": "2021-08-16T21:42Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -5132,7 +4223,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -5155,7 +4246,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "805092"
@@ -5179,7 +4270,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-37 Eastbound east of US-101 N (Novato). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on CA-37 Eastbound east of US-101 N (Novato). Right lane blocked. Expect delays."
                     }
                   }
                 }
@@ -5202,11 +4293,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:27:12.60260",
+              "update-time": "2021-08-16T14:42:16.07520",
               "valid-period": {
                 "event-timeline-estimated-duration": "49"
               },
-              "start-time": "2021-08-16T14:25:40.00000",
+              "start-time": "2021-08-16T14:25:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -5220,11 +4311,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:27:12.60260",
+        "ivr-lastUpdateDttm": "2021-08-16T14:42:16.07520",
         "ivr-article": "east of",
         "ivr-county": "Marin",
         "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210816GG01387",
         "EventSourceName": "CHP",
@@ -5303,7 +4394,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "805093"
@@ -5381,14 +4472,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Southbound at University Ave (East Palo Alto). Right lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on US-101 Southbound exiting at University Ave (East Palo Alto). Right lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
       "created": "2021-08-16T21:32Z",
-      "updated": "2021-08-16T21:33Z",
+      "updated": "2021-08-16T21:35Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -5440,7 +4531,7 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "exiting at"
           }
         }
       ],
@@ -5451,7 +4542,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-16T14:34:31.59615"
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
         },
         "event-reference": {
           "event-identifier": "805094"
@@ -5475,7 +4566,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Southbound at University Ave (East Palo Alto). Right lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on US-101 Southbound exiting at University Ave (East Palo Alto). Right lane blocked. Expect delays."
                     }
                   }
                 }
@@ -5498,11 +4589,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-16T14:33:41.66920",
+              "update-time": "2021-08-16T14:35:31.97730",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2021-08-16T14:33:15.00000",
+              "start-time": "2021-08-16T14:33:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -5516,13 +4607,608 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-16T14:33:41.66920",
-        "ivr-article": "at",
+        "ivr-lastUpdateDttm": "2021-08-16T14:35:31.97730",
+        "ivr-article": "exiting at",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210816GG01414",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound west of Suisun Valley Rd (Fairfield). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-08-16T21:40Z",
+      "updated": "2021-08-16T21:40Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.116932,
+          38.229697
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210816GG01441"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Suisun Valley Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-16T21:39Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
+        },
+        "event-reference": {
+          "event-identifier": "805096"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound west of Suisun Valley Rd (Fairfield). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Suisun Valley Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.229697",
+                    "event-location-coordinates-longitude": "-122.116932"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-16T14:40:11.55030",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-08-16T14:39:45.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-08-16T14:40:11.55030",
+        "ivr-article": "west of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210816GG01441",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision and Debris on CA-92 Westbound west of I-280 N (San Mateo). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": [
+          "Debris",
+          "Traffic Collision"
+        ]
+      },
+      "severity": "Moderate",
+      "created": "2021-08-16T21:40Z",
+      "updated": "2021-08-16T21:41Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.3386,
+          37.50714
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210816GG01443"
+      },
+      "roads": [
+        {
+          "name": "CA-92 W",
+          "from": "I-280 N",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-16T21:39Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
+        },
+        "event-reference": {
+          "event-identifier": "805097"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Debris"
+                      },
+                      {
+                        "incident": "Traffic Collision"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision and Debris on CA-92 Westbound west of I-280 N (San Mateo). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "CA-92 W",
+                  "link-from-road": "I-280 N",
+                  "link-to-road": null,
+                  "link-from-city": "San Mateo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.50714",
+                    "event-location-coordinates-longitude": "-122.3386"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-16T14:41:34.84150",
+              "valid-period": {
+                "event-timeline-estimated-duration": "31.099999999999998"
+              },
+              "start-time": "2021-08-16T14:39:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-08-16T14:41:34.84150",
+        "ivr-article": "west of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210816GG01443",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on US-101 Northbound north of E San Martin Ave (San Martin). Right and center lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-08-16T21:41Z",
+      "updated": "2021-08-16T21:41Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.59949,
+          37.08867
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "E San Martin Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right and center lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-16T21:41Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
+        },
+        "event-reference": {
+          "event-identifier": "805098"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on US-101 Northbound north of E San Martin Ave (San Martin). Right and center lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "E San Martin Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Martin",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.08867",
+                    "event-location-coordinates-longitude": "-121.59949"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-16T14:41:08.14110",
+              "valid-period": {
+                "event-timeline-estimated-duration": "42"
+              },
+              "start-time": "2021-08-16T14:41:07.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-08-16T14:41:08.14110",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right and center lanes",
+        "ivr-genOtherText": "Expect delays",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Grass fire on I-80 Eastbound at American Canyon Rd (Vallejo). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Grass fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-08-16T21:46Z",
+      "updated": "2021-08-16T21:47Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.202969,
+          38.167203
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210816GG01466"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "American Canyon Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-16T21:47Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-16T14:48:43.87296"
+        },
+        "event-reference": {
+          "event-identifier": "805099"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Grass fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Grass fire on I-80 Eastbound at American Canyon Rd (Vallejo). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "American Canyon Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Vallejo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.167203",
+                    "event-location-coordinates-longitude": "-122.202969"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-16T14:47:46.58610",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29.5"
+              },
+              "start-time": "2021-08-16T14:47:20.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-08-16T14:47:46.58610",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210816GG01466",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
