@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T18:24:05.22260"
+          "event-message-time-stamp": "2021-08-19T18:48:39.84598"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T18:24:05.22260"
+          "event-message-time-stamp": "2021-08-19T18:48:39.84598"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T18:24:05.22260"
+          "event-message-time-stamp": "2021-08-19T18:48:39.84598"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T18:24:05.22260"
+          "event-message-time-stamp": "2021-08-19T18:48:39.84598"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -691,7 +691,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T18:24:05.22260"
+          "event-message-time-stamp": "2021-08-19T18:48:39.84598"
         },
         "event-reference": {
           "event-identifier": "806051"
@@ -843,7 +843,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T18:24:05.22260"
+          "event-message-time-stamp": "2021-08-19T18:48:39.84598"
         },
         "event-reference": {
           "event-identifier": "806247"
@@ -930,21 +930,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound north of Airport Exit (Millbrae). Left lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on CA-237 Eastbound east of Great America Pky (Santa Clara). Lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Moderate",
-      "created": "2021-08-20T01:17Z",
-      "updated": "2021-08-20T01:17Z",
+      "created": "2021-08-20T01:27Z",
+      "updated": "2021-08-20T01:29Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -957,8 +957,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.396767,
-          37.613583
+          -121.97757,
+          37.415595
         ]
       },
       "source_type": {
@@ -967,17 +967,313 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210819GG02136"
+        "#text": "210819GG02167"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Airport Exit",
-          "direction": "Southbound",
+          "name": "CA-237 E",
+          "from": "Great America Pky",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-20T01:27Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-19T18:48:39.84598"
+        },
+        "event-reference": {
+          "event-identifier": "806255"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-237 Eastbound east of Great America Pky (Santa Clara). Lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-237 E",
+                  "link-from-road": "Great America Pky",
+                  "link-to-road": null,
+                  "link-from-city": "Santa Clara",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.415595",
+                    "event-location-coordinates-longitude": "-121.97757"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-19T18:29:08.54860",
+              "valid-period": {
+                "event-timeline-estimated-duration": "38.5"
+              },
+              "start-time": "2021-08-19T18:27:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-08-19T18:29:08.54860",
+        "ivr-article": "east of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210819GG02167",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on I-80 Westbound at I-580 E-macarthur Maze (Oakland). Left lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2021-08-20T01:33Z",
+      "updated": "2021-08-20T01:48Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.294587,
+          37.83312
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210819GG02183"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "I-580 E-macarthur Maze",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-20T01:47Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-19T18:48:39.84598"
+        },
+        "event-reference": {
+          "event-identifier": "806257"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Westbound at I-580 E-macarthur Maze (Oakland). Left lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "I-580 E-macarthur Maze",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.83312",
+                    "event-location-coordinates-longitude": "-122.294587"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-19T18:48:23.08920",
+              "valid-period": {
+                "event-timeline-estimated-duration": "37"
+              },
+              "start-time": "2021-08-19T18:47:56.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-08-19T18:48:23.08920",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210819GG02183",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound at El Portal Dr (San Pablo). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-08-20T01:46Z",
+      "updated": "2021-08-20T01:46Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.320338,
+          37.970799
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210819GG02220"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "El Portal Dr",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -989,21 +1285,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-08-20T01:16Z/"
+          "2021-08-20T01:45Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T18:24:05.22260"
+          "event-message-time-stamp": "2021-08-19T18:48:39.84598"
         },
         "event-reference": {
-          "event-identifier": "806250"
+          "event-identifier": "806261"
         },
         "event-status": "new",
         "details": {
@@ -1024,7 +1320,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of Airport Exit (Millbrae). Left lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound at El Portal Dr (San Pablo). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1033,25 +1329,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Airport Exit",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "El Portal Dr",
                   "link-to-road": null,
-                  "link-from-city": "Millbrae",
+                  "link-from-city": "San Pablo",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.613583",
-                    "event-location-coordinates-longitude": "-122.396767"
+                    "event-location-coordinates-latitude": "37.970799",
+                    "event-location-coordinates-longitude": "-122.320338"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-19T18:17:41.02550",
+              "update-time": "2021-08-19T18:46:13.67100",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2021-08-19T18:16:00.00000",
+              "start-time": "2021-08-19T18:45:46.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1064,331 +1360,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-19T18:17:41.02550",
-        "ivr-article": "north of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210819GG02136",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Eastbound west of I-880 S (Oakland). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Minor",
-      "created": "2021-08-20T01:20Z",
-      "updated": "2021-08-20T01:20Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.3201,
-          37.822692
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210819GG02149"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "I-880 S",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-20T01:19Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-19T18:24:05.22260"
-        },
-        "event-reference": {
-          "event-identifier": "806251"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Eastbound west of I-880 S (Oakland). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "I-880 S",
-                  "link-to-road": null,
-                  "link-from-city": "Oakland",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.822692",
-                    "event-location-coordinates-longitude": "-122.3201"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-19T18:20:35.47310",
-              "valid-period": {
-                "event-timeline-estimated-duration": "24"
-              },
-              "start-time": "2021-08-19T18:19:53.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-08-19T18:20:35.47310",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210819GG02149",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Eastbound west of Bay Bridge - West Span (San Francisco). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Major",
-      "created": "2021-08-20T01:22Z",
-      "updated": "2021-08-20T01:23Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.391447,
-          37.785495
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210819GG02154"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Bay Bridge - West Span",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-20T01:22Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-19T18:24:05.22260"
-        },
-        "event-reference": {
-          "event-identifier": "806252"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Eastbound west of Bay Bridge - West Span (San Francisco). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Bay Bridge - West Span",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.785495",
-                    "event-location-coordinates-longitude": "-122.391447"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-19T18:23:16.54940",
-              "valid-period": {
-                "event-timeline-estimated-duration": "47.5"
-              },
-              "start-time": "2021-08-19T18:22:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-08-19T18:23:16.54940",
-        "ivr-article": "west of",
-        "ivr-county": "San Francisco",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-08-19T18:46:13.67100",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210819GG02154",
+        "SourceEventID": "210819GG02220",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Southbound south of Healdsburg Ave (Healdsburg). Lane affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on US-101 Northbound at I-680 S (San Jose). Lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2021-08-20T01:23Z",
-      "updated": "2021-08-20T01:23Z",
+      "created": "2021-08-20T01:48Z",
+      "updated": "2021-08-20T01:48Z",
       "areas": {
         "area": {
-          "name": "Sonoma",
-          "id": "5397100",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5397100/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -1401,8 +1401,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.865297,
-          38.601746
+          -121.857256,
+          37.336563
         ]
       },
       "source_type": {
@@ -1411,17 +1411,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210819GG02156"
+        "#text": "210819GG02223"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Healdsburg Ave",
-          "direction": "Southbound",
+          "name": "US-101 N",
+          "from": "I-680 S",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1433,21 +1433,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-08-20T01:23Z/"
+          "2021-08-20T01:47Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T18:24:05.22260"
+          "event-message-time-stamp": "2021-08-19T18:48:39.84598"
         },
         "event-reference": {
-          "event-identifier": "806253"
+          "event-identifier": "806262"
         },
         "event-status": "new",
         "details": {
@@ -1468,7 +1468,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Southbound south of Healdsburg Ave (Healdsburg). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on US-101 Northbound at I-680 S (San Jose). Lanes affected. Expect delays."
                     }
                   }
                 }
@@ -1477,25 +1477,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA097",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Healdsburg Ave",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "I-680 S",
                   "link-to-road": null,
-                  "link-from-city": "Healdsburg",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.601746",
-                    "event-location-coordinates-longitude": "-122.865297"
+                    "event-location-coordinates-latitude": "37.336563",
+                    "event-location-coordinates-longitude": "-121.857256"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-19T18:23:33.59670",
+              "update-time": "2021-08-19T18:48:22.85100",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.2"
+                "event-timeline-estimated-duration": "32.2"
               },
-              "start-time": "2021-08-19T18:23:06.00000",
+              "start-time": "2021-08-19T18:47:55.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1508,14 +1508,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-19T18:23:33.59670",
-        "ivr-article": "south of",
-        "ivr-county": "Sonoma",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-08-19T18:48:22.85100",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210819GG02156",
+        "SourceEventID": "210819GG02223",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
