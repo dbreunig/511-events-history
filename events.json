@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -621,17 +621,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision with Injuries on CA-237 Eastbound east of Great America Pky (Santa Clara). Left lanes blocked. Expect delays.",
+      "headline": "CHP : Residual delays on CA-237 Eastbound east of Great America Pky (Santa Clara). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision with Injuries",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2021-08-20T01:27Z",
-      "updated": "2021-08-20T02:03Z",
+      "updated": "2021-08-20T02:44Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -671,11 +668,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lanes"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -694,7 +691,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "806255"
@@ -707,14 +704,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision with Injuries"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -723,7 +715,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision with Injuries on CA-237 Eastbound east of Great America Pky (Santa Clara). Left lanes blocked. Expect delays."
+                      "event-description": "CHP : Residual delays on CA-237 Eastbound east of Great America Pky (Santa Clara). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -746,9 +738,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-19T19:03:46.65250",
+              "update-time": "2021-08-19T19:44:21.85340",
               "valid-period": {
-                "event-timeline-estimated-duration": "58"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-08-19T18:27:00.00000",
               "cleared-time": null,
@@ -759,167 +751,18 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-08-19T19:03:46.65250",
+        "ivr-lastUpdateDttm": "2021-08-19T19:44:21.85340",
         "ivr-article": "east of",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lanes",
-        "ivr-impact": "Always play incident",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210819GG02167",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Northbound to I-680 N (San Jose). Lanes affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-08-20T01:48Z",
-      "updated": "2021-08-20T01:49Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.85187,
-          37.33976
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210819GG02223"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "I-680 N",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "to"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-20T01:47Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
-        },
-        "event-reference": {
-          "event-identifier": "806262"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Northbound to I-680 N (San Jose). Lanes affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "I-680 N",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.33976",
-                    "event-location-coordinates-longitude": "-121.85187"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-19T18:49:42.29610",
-              "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
-              },
-              "start-time": "2021-08-19T18:47:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-19T18:49:42.29610",
-        "ivr-article": "to",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210819GG02223",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -996,7 +839,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "806269"
@@ -1144,7 +987,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "806270"
@@ -1222,14 +1065,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-880 Southbound north of Montague Expy (Milpitas). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-880 Southbound north of Montague Expy (Milpitas). 4th lane from the left affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
       "created": "2021-08-20T02:30Z",
-      "updated": "2021-08-20T02:30Z",
+      "updated": "2021-08-20T02:44Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1269,7 +1112,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "4th lane from the left"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1292,7 +1135,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "806274"
@@ -1316,7 +1159,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-880 Southbound north of Montague Expy (Milpitas). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-880 Southbound north of Montague Expy (Milpitas). 4th lane from the left affected. Expect delays."
                     }
                   }
                 }
@@ -1339,11 +1182,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-19T19:30:28.14210",
+              "update-time": "2021-08-19T19:44:24.57680",
               "valid-period": {
                 "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2021-08-19T19:30:01.00000",
+              "start-time": "2021-08-19T19:30:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1357,11 +1200,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-19T19:30:28.14210",
+        "ivr-lastUpdateDttm": "2021-08-19T19:44:24.57680",
         "ivr-article": "north of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "4th lane from the left",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210819GG02305",
         "EventSourceName": "CHP",
@@ -1377,7 +1220,7 @@
       },
       "severity": "Unknown",
       "created": "2021-08-20T02:30Z",
-      "updated": "2021-08-20T02:37Z",
+      "updated": "2021-08-20T02:46Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1440,7 +1283,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "806275"
@@ -1487,7 +1330,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-19T19:37:08.93220",
+              "update-time": "2021-08-19T19:46:49.64490",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1505,7 +1348,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-19T19:37:08.93220",
+        "ivr-lastUpdateDttm": "2021-08-19T19:46:49.64490",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -1518,14 +1361,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-152 Eastbound west of Watsonville Rd (Gilroy). Right shoulder blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on CA-152 west of Watsonville Rd (Gilroy). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Minor",
       "created": "2021-08-20T02:31Z",
-      "updated": "2021-08-20T02:38Z",
+      "updated": "2021-08-20T02:48Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1561,11 +1404,11 @@
         {
           "name": "CA-152",
           "from": "Watsonville Rd",
-          "direction": "Eastbound",
+          "direction": "Unknown",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1588,7 +1431,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "806276"
@@ -1612,7 +1455,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-152 Eastbound west of Watsonville Rd (Gilroy). Right shoulder blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-152 west of Watsonville Rd (Gilroy). Lane blocked. Expect delays."
                     }
                   }
                 }
@@ -1635,7 +1478,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-19T19:38:44.63350",
+              "update-time": "2021-08-19T19:48:15.60690",
               "valid-period": {
                 "event-timeline-estimated-duration": "16"
               },
@@ -1652,12 +1495,12 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "1",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-08-19T19:38:44.63350",
+        "ivr-eventDirection": "Unknown",
+        "ivr-lastUpdateDttm": "2021-08-19T19:48:15.60690",
         "ivr-article": "west of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210819MY00363",
         "EventSourceName": "CHP",
@@ -1673,7 +1516,7 @@
       },
       "severity": "Moderate",
       "created": "2021-08-20T02:35Z",
-      "updated": "2021-08-20T02:39Z",
+      "updated": "2021-08-20T02:48Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1731,12 +1574,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-08-20T02:38Z/"
+          "2021-08-20T02:48Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-19T19:39:54.96628"
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
         },
         "event-reference": {
           "event-identifier": "806278"
@@ -1783,11 +1626,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-19T19:39:07.99840",
+              "update-time": "2021-08-19T19:48:54.72740",
               "valid-period": {
                 "event-timeline-estimated-duration": "32"
               },
-              "start-time": "2021-08-19T19:38:41.00000",
+              "start-time": "2021-08-19T19:48:27.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1801,13 +1644,309 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-19T19:39:07.99840",
+        "ivr-lastUpdateDttm": "2021-08-19T19:48:54.72740",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210819MY00370",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Ralston Ave (Belmont). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-08-20T02:44Z",
+      "updated": "2021-08-20T02:44Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.266836,
+          37.523512
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210819GG02333"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Ralston Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-20T02:44Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
+        },
+        "event-reference": {
+          "event-identifier": "806280"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Ralston Ave (Belmont). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Ralston Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Belmont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.523512",
+                    "event-location-coordinates-longitude": "-122.266836"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-19T19:44:33.00190",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-08-19T19:44:06.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-08-19T19:44:33.00190",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210819GG02333",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-680 Southbound north of Arthur Rd (Martinez). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-08-20T02:45Z",
+      "updated": "2021-08-20T02:45Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.09078,
+          38.013232
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210819GG02337"
+      },
+      "roads": [
+        {
+          "name": "I-680 S",
+          "from": "Arthur Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-20T02:45Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-19T19:49:08.98216"
+        },
+        "event-reference": {
+          "event-identifier": "806281"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-680 Southbound north of Arthur Rd (Martinez). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "Arthur Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Martinez",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.013232",
+                    "event-location-coordinates-longitude": "-122.09078"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-19T19:45:52.00910",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29"
+              },
+              "start-time": "2021-08-19T19:45:11.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-08-19T19:45:52.00910",
+        "ivr-article": "north of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210819GG02337",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
