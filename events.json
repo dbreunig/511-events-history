@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-29T17:26:48.91395"
+          "event-message-time-stamp": "2021-08-29T17:50:06.12906"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-29T17:26:48.91395"
+          "event-message-time-stamp": "2021-08-29T17:50:06.12906"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-29T17:26:48.91395"
+          "event-message-time-stamp": "2021-08-29T17:50:06.12906"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-29T17:26:48.91395"
+          "event-message-time-stamp": "2021-08-29T17:50:06.12906"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -621,14 +621,458 @@
     },
     {
       "status": "ACTIVE",
+      "headline": "CHP : Fire on I-880 Northbound south of W Tennyson Rd (Hayward). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-08-30T00:31Z",
+      "updated": "2021-08-30T00:31Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.086376,
+          37.634552
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210829GG02153"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "W Tennyson Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-30T00:31Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-29T17:50:06.12906"
+        },
+        "event-reference": {
+          "event-identifier": "809945"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on I-880 Northbound south of W Tennyson Rd (Hayward). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "W Tennyson Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Hayward",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.634552",
+                    "event-location-coordinates-longitude": "-122.086376"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-29T17:31:37.32930",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29.5"
+              },
+              "start-time": "2021-08-29T17:31:08.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-08-29T17:31:37.32930",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210829GG02153",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound north of Bridgeway (Sausalito). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-08-30T00:34Z",
+      "updated": "2021-08-30T00:34Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.507072,
+          37.870613
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210829GG02166"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Bridgeway",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-30T00:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-29T17:50:06.12906"
+        },
+        "event-reference": {
+          "event-identifier": "809946"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound north of Bridgeway (Sausalito). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Bridgeway",
+                  "link-to-road": null,
+                  "link-from-city": "Sausalito",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.870613",
+                    "event-location-coordinates-longitude": "-122.507072"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-29T17:34:50.45710",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-08-29T17:34:21.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-08-29T17:34:50.45710",
+        "ivr-article": "north of",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210829GG02166",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-280 Northbound at S Bascom Ave (San Jose). Off Ramp affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Major",
+      "created": "2021-08-30T00:39Z",
+      "updated": "2021-08-30T00:46Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.931114,
+          37.317009
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210829GG02180"
+      },
+      "roads": [
+        {
+          "name": "I-280 N",
+          "from": "S Bascom Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-08-30T00:46Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-29T17:50:06.12906"
+        },
+        "event-reference": {
+          "event-identifier": "809948"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-280 Northbound at S Bascom Ave (San Jose). Off Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "S Bascom Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.317009",
+                    "event-location-coordinates-longitude": "-121.931114"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-29T17:46:38.38210",
+              "valid-period": {
+                "event-timeline-estimated-duration": "49"
+              },
+              "start-time": "2021-08-29T17:46:09.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-08-29T17:46:38.38210",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210829GG02180",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
       "headline": "CHP : Traffic Collision with Injuries on CA-12 Eastbound at CA-29 (Unincorporated). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Moderate",
-      "created": "2021-08-29T23:06Z",
-      "updated": "2021-08-29T23:39Z",
+      "created": "2021-08-30T00:44Z",
+      "updated": "2021-08-30T00:44Z",
       "areas": {
         "area": {
           "name": "Napa",
@@ -686,15 +1130,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-08-29T23:38Z/"
+          "2021-08-30T00:44Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-29T17:26:48.91395"
+          "event-message-time-stamp": "2021-08-29T17:50:06.12906"
         },
         "event-reference": {
-          "event-identifier": "809933"
+          "event-identifier": "809949"
         },
         "event-status": "new",
         "details": {
@@ -738,11 +1182,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-29T16:39:01.13410",
+              "update-time": "2021-08-29T17:44:29.72430",
               "valid-period": {
                 "event-timeline-estimated-duration": "38.5"
               },
-              "start-time": "2021-08-29T16:38:32.00000",
+              "start-time": "2021-08-29T17:44:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -756,7 +1200,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-08-29T16:39:01.13410",
+        "ivr-lastUpdateDttm": "2021-08-29T17:44:29.72430",
         "ivr-article": "at",
         "ivr-county": "Napa",
         "ivr-laneStatus": "affected",
@@ -769,21 +1213,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-1 Northbound south of CA-17 N (Santa Cruz). Center Divider affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-580 Westbound at I-680 S (Pleasanton). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Minor",
-      "created": "2021-08-30T00:23Z",
-      "updated": "2021-08-30T00:26Z",
+      "severity": "Moderate",
+      "created": "2021-08-30T00:48Z",
+      "updated": "2021-08-30T00:48Z",
       "areas": {
         "area": {
-          "name": "Santa Cruz",
-          "id": "5393068",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393068/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -796,8 +1240,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.999278,
-          36.988303
+          -121.926466,
+          37.700288
         ]
       },
       "source_type": {
@@ -806,21 +1250,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210829MY00318"
+        "#text": "210829GG02204"
       },
       "roads": [
         {
-          "name": "CA-1 N",
-          "from": "CA-17 N",
-          "direction": "Northbound",
+          "name": "I-580 W",
+          "from": "I-680 S",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -828,21 +1272,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-08-30T00:25Z/"
+          "2021-08-30T00:48Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-29T17:26:48.91395"
+          "event-message-time-stamp": "2021-08-29T17:50:06.12906"
         },
         "event-reference": {
-          "event-identifier": "809944"
+          "event-identifier": "809950"
         },
         "event-status": "new",
         "details": {
@@ -853,7 +1297,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Traffic Collision with Injuries"
                     }
                   }
                 },
@@ -863,7 +1307,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-1 Northbound south of CA-17 N (Santa Cruz). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-580 Westbound at I-680 S (Pleasanton). Lane blocked. Expect delays."
                     }
                   }
                 }
@@ -872,25 +1316,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA087",
-                  "link-road-designator": "CA-1 N",
-                  "link-from-road": "CA-17 N",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "I-680 S",
                   "link-to-road": null,
-                  "link-from-city": "Santa Cruz",
+                  "link-from-city": "Pleasanton",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "36.988303",
-                    "event-location-coordinates-longitude": "-121.999278"
+                    "event-location-coordinates-latitude": "37.700288",
+                    "event-location-coordinates-longitude": "-121.926466"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-29T17:26:14.00960",
+              "update-time": "2021-08-29T17:48:47.05980",
               "valid-period": {
-                "event-timeline-estimated-duration": "20.5"
+                "event-timeline-estimated-duration": "29.5"
               },
-              "start-time": "2021-08-29T17:25:45.00000",
+              "start-time": "2021-08-29T17:48:18.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -899,18 +1343,18 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-29T17:26:14.00960",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Cruz",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-08-29T17:48:47.05980",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210829MY00318",
+        "SourceEventID": "210829GG02204",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
