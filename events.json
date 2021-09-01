@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
+          "event-message-time-stamp": "2021-08-31T18:52:35.15629"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
+          "event-message-time-stamp": "2021-08-31T18:52:35.15629"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
+          "event-message-time-stamp": "2021-08-31T18:52:35.15629"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
+          "event-message-time-stamp": "2021-08-31T18:52:35.15629"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -679,7 +679,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
+          "event-message-time-stamp": "2021-08-31T18:52:35.15629"
         },
         "event-reference": {
           "event-identifier": "800302"
@@ -755,17 +755,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Drawbridge open on CA-4 Eastbound and Westbound east of Discovery Bay Blvd (Discovery Bay). All lanes closed. Expect delays.",
+      "headline": "CHP : Residual delays on CA-4 Eastbound and Westbound east of Discovery Bay Blvd (Discovery Bay). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Drawbridge open",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2021-08-31T16:47Z",
-      "updated": "2021-09-01T00:45Z",
+      "updated": "2021-09-01T01:47Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -798,14 +795,14 @@
           "name": "CA-4 E",
           "from": "Discovery Bay Blvd",
           "direction": "Eastbound and Westbound",
-          "state": "CLOSED",
+          "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -819,7 +816,7 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-08-31T16:47Z/"
+          "2021-08-31T16:47Z/2021-09-01T01:55Z"
         ]
       },
       "closure_geometry": {
@@ -836,7 +833,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
+          "event-message-time-stamp": "2021-08-31T18:52:35.15629"
         },
         "event-reference": {
           "event-identifier": "810579"
@@ -849,14 +846,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Drawbridge open"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -865,7 +857,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Drawbridge open on CA-4 Eastbound and Westbound east of Discovery Bay Blvd (Discovery Bay). All lanes closed. Expect delays."
+                      "event-description": "CHP : Residual delays on CA-4 Eastbound and Westbound east of Discovery Bay Blvd (Discovery Bay). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -891,332 +883,16 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-31T17:45:06.59070",
-              "valid-period": {
-                "event-timeline-estimated-duration": "55"
-              },
-              "start-time": "2021-08-31T09:47:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "true",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound and Westbound",
-        "ivr-lastUpdateDttm": "2021-08-31T17:45:06.59070",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "Expect delays",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Drawbridge open on CA-4 Eastbound and Westbound east of Discovery Bay Blvd (Discovery Bay). All lanes closed. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": [
-          "Drawbridge open",
-          "Severe traffic alert"
-        ]
-      },
-      "severity": "Major",
-      "created": "2021-08-31T16:49Z",
-      "updated": "2021-09-01T01:11Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.569400490494,
-          37.8900646645297
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "roads": [
-        {
-          "name": "CA-4 W",
-          "from": "Discovery Bay Blvd",
-          "direction": "Eastbound and Westbound",
-          "state": "CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-31T16:49Z/"
-        ]
-      },
-      "closure_geometry": {
-        "@xmlns:gml": "http://www.opengis.net/gml",
-        "@xmlns": "http://511.org/open511-extensions",
-        "gml:MultiLineString": {
-          "@srsName": "urn:ogc:def:crs:EPSG::4326",
-          "gml:LineStringMember": {
-            "gml:LineString": {
-              "gml:posList": "-121.569898000447,37.8908040002239,-121.569931000059,37.8909139998913,-121.570192000175,37.8915100002456,-121.570245999704,37.8916279998078,-121.570292999559,37.8917520002374,-121.570357999856,37.8918700001206,-121.570397000215,37.8919410003016,-121.570459999964,37.8920199999034,-121.570519000413,37.892067999656,-121.570591000383,37.8921149997969,-121.570664000178,37.8921430000928,-121.570716999882,37.892158000171,-121.570773999783,37.8921680002214,-121.57082999986,37.8921709996692,-121.570865999845,37.8921719999577,-121.570923999571,37.8921689998011,-121.570988000043,37.892161000328,-121.571055999815,37.8921430000928,-121.571127999785,37.8921120003469,-121.571172999991,37.8920859999096,-121.57126000003,37.8920389997502,-121.571373000008,37.8919380001357,-121.571530000367,37.8917490000637,-121.571572000199,37.8917010001031,-121.571604999811,37.891656000289,-121.571619000055,37.8916399998127,-121.571746000277,37.8915019999921,-121.571779999714,37.8914749997503,-121.571937000072,37.8912929998841,-121.571961000362,37.8912739998448,-121.572167000226,37.8911200001668,-121.572498999589,37.8909590001589,-121.572953999874,37.8907830001527,-121.573544999702,37.8905790002634,-121.573804000168,37.8905130003242,-121.574804000251,37.890198000218,-121.574995000047,37.890155000117,-121.575200000086,37.8901130003074,-121.57553700037,37.8900759999319,-121.577515999721,37.8900579998958,-121.577871000446,37.8900579998958,-121.580880178782,37.8900639649339,-121.584933999876,37.8900720000819,-121.586164999938,37.8900720000819,-121.586224000387,37.8900939999636,-121.586260000372,37.8900939999636,-121.586282000113,37.8900939999636,-121.586470000434,37.8901010000535,-121.586646000162,37.8901060002186,-121.587481000388,37.8901359997841,-121.589392999791,37.8901449997932,-121.59253699998,37.8901519998782,-121.595676000145,37.8901519998782,-121.59607000033,37.8901519998782"
-            }
-          }
-        }
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
-        },
-        "event-reference": {
-          "event-identifier": "810580"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "1",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Drawbridge open"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Drawbridge open on CA-4 Eastbound and Westbound east of Discovery Bay Blvd (Discovery Bay). All lanes closed. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 W",
-                  "link-from-road": "Discovery Bay Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "Discovery Bay",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.8900646645297",
-                    "event-location-coordinates-longitude": "-121.569400490494"
-                  },
-                  "event-road-closure-links": {
-                    "link-id": "135940"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-31T18:11:10.28040",
-              "valid-period": {
-                "event-timeline-estimated-duration": "55"
-              },
-              "start-time": "2021-08-31T09:49:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "true",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound and Westbound",
-        "ivr-lastUpdateDttm": "2021-08-31T18:11:10.28040",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "Expect delays",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Bridge work on CA-4 Eastbound between Cherry Hill Dr (Byron) and Discovery Bay Blvd (Discovery Bay). Lane closed. One way traffic control in effect. Tuesday, August 31, 2021 1:30 PM thru Tuesday, August 31, 2021 7:01 PM, Tuesday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Bridge work"
-      },
-      "severity": "Unknown",
-      "created": "2021-08-31T23:44Z",
-      "updated": "2021-09-01T01:24Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.570285,
-          37.891676
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "T4CA-0001-2021-08-31-13:30:00"
-      },
-      "roads": [
-        {
-          "name": "CA-4 E",
-          "from": "Cherry Hill Dr",
-          "to": "Discovery Bay Blvd",
-          "direction": "Eastbound",
-          "state": "SINGLE_LANE_ALTERNATING",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "One way traffic control in effect"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-08-31T20:30Z/2021-09-01T02:01Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
-        },
-        "event-reference": {
-          "event-identifier": "810735"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Bridge work"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Bridge work on CA-4 Eastbound between Cherry Hill Dr (Byron) and Discovery Bay Blvd (Discovery Bay). Lane closed. One way traffic control in effect. Tuesday, August 31, 2021 1:30 PM thru Tuesday, August 31, 2021 7:01 PM, Tuesday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 E",
-                  "link-from-road": "Cherry Hill Dr",
-                  "link-to-road": "Discovery Bay Blvd",
-                  "link-from-city": "Byron",
-                  "link-to-city": "Discovery Bay",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.891676",
-                    "event-location-coordinates-longitude": "-121.570285"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-31T18:24:58.67730",
+              "update-time": "2021-08-31T18:47:42.99400",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2021-08-31T13:30:00.00000",
-              "cleared-time": "2021-08-31T19:01:00.00000",
+              "start-time": "2021-08-31T09:47:00.00000",
+              "cleared-time": "2021-08-31T18:55:00.00000",
               "utc-offset": "-0700"
             },
             "event-element-source": {
-              "event-organization-reported-identifier": "1004"
+              "event-organization-reported-identifier": "1003"
             }
           }
         },
@@ -1224,472 +900,27 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-08-31T18:24:58.67730",
-        "ivr-article": "between",
+        "ivr-eventDirection": "Eastbound and Westbound",
+        "ivr-lastUpdateDttm": "2021-08-31T18:47:42.99400",
+        "ivr-article": "east of",
         "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "One way traffic control in effect",
-        "SourceEventID": "T4CA-0001-2021-08-31-13:30:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Northbound south of Sycamore Valley Rd (Danville). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-09-01T00:51Z",
-      "updated": "2021-09-01T00:51Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.990775,
-          37.806862
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210831GG02146"
-      },
-      "roads": [
-        {
-          "name": "I-680 N",
-          "from": "Sycamore Valley Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-09-01T00:51Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
-        },
-        "event-reference": {
-          "event-identifier": "810764"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Northbound south of Sycamore Valley Rd (Danville). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Sycamore Valley Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Danville",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.806862",
-                    "event-location-coordinates-longitude": "-121.990775"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-31T17:51:33.64080",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-08-31T17:51:04.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-31T17:51:33.64080",
-        "ivr-article": "south of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210831GG02146",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Northbound exiting at Crow Canyon Rd (San Ramon). Off Ramp blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Major",
-      "created": "2021-09-01T00:56Z",
-      "updated": "2021-09-01T00:58Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.973283,
-          37.773638
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210831GG02162"
-      },
-      "roads": [
-        {
-          "name": "I-680 N",
-          "from": "Crow Canyon Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "exiting at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-09-01T00:56Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
-        },
-        "event-reference": {
-          "event-identifier": "810768"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Northbound exiting at Crow Canyon Rd (San Ramon). Off Ramp blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Crow Canyon Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Ramon",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.773638",
-                    "event-location-coordinates-longitude": "-121.973283"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-31T17:58:10.12270",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
-              },
-              "start-time": "2021-08-31T17:56:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-08-31T17:58:10.12270",
-        "ivr-article": "exiting at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Off Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210831GG02162",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-85 Southbound exiting at W Fremont Ave (Sunnyvale). Off Ramp blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Major",
-      "created": "2021-09-01T01:13Z",
-      "updated": "2021-09-01T01:25Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.062086,
-          37.355117
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "210831GG02208"
-      },
-      "roads": [
-        {
-          "name": "CA-85 S",
-          "from": "W Fremont Ave",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "exiting at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-09-01T01:12Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
-        },
-        "event-reference": {
-          "event-identifier": "810778"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-85 Southbound exiting at W Fremont Ave (Sunnyvale). Off Ramp blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-85 S",
-                  "link-from-road": "W Fremont Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Sunnyvale",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.355117",
-                    "event-location-coordinates-longitude": "-122.062086"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-08-31T18:25:17.12530",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.2"
-              },
-              "start-time": "2021-08-31T18:12:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-31T18:25:17.12530",
-        "ivr-article": "exiting at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Off Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "210831GG02208",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Southbound south of Airport Pky (San Jose). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on US-101 Southbound south of Airport Pky (San Jose). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
-      "severity": "Moderate",
+      "severity": "Unknown",
       "created": "2021-09-01T01:19Z",
-      "updated": "2021-09-01T01:26Z",
+      "updated": "2021-09-01T01:48Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1729,11 +960,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1747,12 +978,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-09-01T01:25Z/"
+          "2021-09-01T01:48Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
+          "event-message-time-stamp": "2021-08-31T18:52:35.15629"
         },
         "event-reference": {
           "event-identifier": "810780"
@@ -1776,7 +1007,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Southbound south of Airport Pky (San Jose). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on US-101 Southbound south of Airport Pky (San Jose). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -1799,11 +1030,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-08-31T18:26:12.30090",
+              "update-time": "2021-08-31T18:48:51.85050",
               "valid-period": {
-                "event-timeline-estimated-duration": "25"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2021-08-31T18:25:42.00000",
+              "start-time": "2021-08-31T18:48:22.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1812,16 +1043,16 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-08-31T18:26:12.30090",
+        "ivr-lastUpdateDttm": "2021-08-31T18:48:51.85050",
         "ivr-article": "south of",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210831GG02224",
         "EventSourceName": "CHP",
@@ -1900,7 +1131,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-08-31T18:26:51.88776"
+          "event-message-time-stamp": "2021-08-31T18:52:35.15629"
         },
         "event-reference": {
           "event-identifier": "810781"
@@ -1972,6 +1203,154 @@
         "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "210831GG02234",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-242 Southbound at Concord Ave (Concord). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-09-01T01:49Z",
+      "updated": "2021-09-01T01:50Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.041624,
+          37.983275
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "210831GG02304"
+      },
+      "roads": [
+        {
+          "name": "CA-242 S",
+          "from": "Concord Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-09-01T01:49Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-08-31T18:52:35.15629"
+        },
+        "event-reference": {
+          "event-identifier": "810788"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-242 Southbound at Concord Ave (Concord). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-242 S",
+                  "link-from-road": "Concord Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Concord",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.983275",
+                    "event-location-coordinates-longitude": "-122.041624"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-08-31T18:50:52.98310",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29"
+              },
+              "start-time": "2021-08-31T18:49:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-08-31T18:50:52.98310",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "210831GG02304",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
