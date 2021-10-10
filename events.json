@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-09T21:39:44.34299"
+          "event-message-time-stamp": "2021-10-09T21:51:46.77609"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-09T21:39:44.34299"
+          "event-message-time-stamp": "2021-10-09T21:51:46.77609"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-09T21:39:44.34299"
+          "event-message-time-stamp": "2021-10-09T21:51:46.77609"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-09T21:39:44.34299"
+          "event-message-time-stamp": "2021-10-09T21:51:46.77609"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -691,7 +691,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-09T21:39:44.34299"
+          "event-message-time-stamp": "2021-10-09T21:51:46.77609"
         },
         "event-reference": {
           "event-identifier": "826391"
@@ -839,7 +839,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-09T21:39:44.34299"
+          "event-message-time-stamp": "2021-10-09T21:51:46.77609"
         },
         "event-reference": {
           "event-identifier": "826395"
@@ -987,7 +987,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-09T21:39:44.34299"
+          "event-message-time-stamp": "2021-10-09T21:51:46.77609"
         },
         "event-reference": {
           "event-identifier": "826402"
@@ -1135,7 +1135,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-09T21:39:44.34299"
+          "event-message-time-stamp": "2021-10-09T21:51:46.77609"
         },
         "event-reference": {
           "event-identifier": "826403"
@@ -1207,6 +1207,154 @@
         "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211009GG02441",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-880 Northbound south of Washington Ave (San Leandro). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-10T04:44Z",
+      "updated": "2021-10-10T04:44Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.140253,
+          37.692384
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211009GG02506"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "Washington Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-10T04:43Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-09T21:51:46.77609"
+        },
+        "event-reference": {
+          "event-identifier": "826405"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-880 Northbound south of Washington Ave (San Leandro). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Washington Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Leandro",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.692384",
+                    "event-location-coordinates-longitude": "-122.140253"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-09T21:44:34.39810",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-10-09T21:43:57.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-10-09T21:44:34.39810",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211009GG02506",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
