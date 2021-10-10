@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-10T14:34:12.61727"
+          "event-message-time-stamp": "2021-10-10T14:48:33.96837"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-10T14:34:12.61727"
+          "event-message-time-stamp": "2021-10-10T14:48:33.96837"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-10T14:34:12.61727"
+          "event-message-time-stamp": "2021-10-10T14:48:33.96837"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-10T14:34:12.61727"
+          "event-message-time-stamp": "2021-10-10T14:48:33.96837"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -621,14 +621,162 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on US-101 Northbound south of Blossom Hill Rd (San Jose). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on CA-1 Northbound north of Muir Woods Rd (Unincorporated). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Major",
+      "created": "2021-10-10T21:25Z",
+      "updated": "2021-10-10T21:40Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.599138,
+          37.875328
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211010GG01428"
+      },
+      "roads": [
+        {
+          "name": "CA-1 N",
+          "from": "Muir Woods Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-10T21:24Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-10T14:48:33.96837"
+        },
+        "event-reference": {
+          "event-identifier": "826577"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-1 Northbound north of Muir Woods Rd (Unincorporated). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "CA-1 N",
+                  "link-from-road": "Muir Woods Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Unincorporated",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.875328",
+                    "event-location-coordinates-longitude": "-122.599138"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-10T14:40:01.90630",
+              "valid-period": {
+                "event-timeline-estimated-duration": "49"
+              },
+              "start-time": "2021-10-10T14:24:24.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-10-10T14:40:01.90630",
+        "ivr-article": "north of",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211010GG01428",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on I-280 Northbound at Guadalupe Pky (San Jose). Left lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
       },
       "severity": "Moderate",
-      "created": "2021-10-10T20:52Z",
-      "updated": "2021-10-10T21:32Z",
+      "created": "2021-10-10T21:30Z",
+      "updated": "2021-10-10T21:41Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -648,8 +796,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.788763,
-          37.25303
+          -121.889529,
+          37.324492
         ]
       },
       "source_type": {
@@ -658,317 +806,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211010GG01335"
+        "#text": "211010GG01439"
       },
       "roads": [
         {
-          "name": "US-101 N",
-          "from": "Blossom Hill Rd",
+          "name": "I-280 N",
+          "from": "Guadalupe Pky",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Left lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-10T21:32Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-10T14:34:12.61727"
-        },
-        "event-reference": {
-          "event-identifier": "826565"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Northbound south of Blossom Hill Rd (San Jose). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Blossom Hill Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.25303",
-                    "event-location-coordinates-longitude": "-121.788763"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-10T14:32:46.49270",
-              "valid-period": {
-                "event-timeline-estimated-duration": "31"
-              },
-              "start-time": "2021-10-10T14:32:09.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-10T14:32:46.49270",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211010GG01335",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-24 Eastbound west of Pleasant Hill Rd (Lafayette). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Minor",
-      "created": "2021-10-10T21:11Z",
-      "updated": "2021-10-10T21:27Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.09113,
-          37.897673
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211010GG01376"
-      },
-      "roads": [
-        {
-          "name": "CA-24 E",
-          "from": "Pleasant Hill Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-10T21:26Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-10T14:34:12.61727"
-        },
-        "event-reference": {
-          "event-identifier": "826570"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-24 Eastbound west of Pleasant Hill Rd (Lafayette). Center Divider affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 E",
-                  "link-from-road": "Pleasant Hill Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Lafayette",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.897673",
-                    "event-location-coordinates-longitude": "-122.09113"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-10T14:27:13.53050",
-              "valid-period": {
-                "event-timeline-estimated-duration": "20.2"
-              },
-              "start-time": "2021-10-10T14:26:36.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-10-10T14:27:13.53050",
-        "ivr-article": "west of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211010GG01376",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound at Petaluma Blvd S (Petaluma). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-10T21:22Z",
-      "updated": "2021-10-10T21:33Z",
-      "areas": {
-        "area": {
-          "name": "Sonoma",
-          "id": "5397100",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5397100/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.611799,
-          38.223595
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211010GG01422"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "Petaluma Blvd S",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -982,15 +834,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-10-10T21:33Z/"
+          "2021-10-10T21:40Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-10T14:34:12.61727"
+          "event-message-time-stamp": "2021-10-10T14:48:33.96837"
         },
         "event-reference": {
-          "event-identifier": "826576"
+          "event-identifier": "826579"
         },
         "event-status": "new",
         "details": {
@@ -1001,7 +853,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Fire"
                     }
                   }
                 },
@@ -1011,7 +863,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound at Petaluma Blvd S (Petaluma). Lane affected. Expect delays."
+                      "event-description": "CHP : Fire on I-280 Northbound at Guadalupe Pky (San Jose). Left lane blocked. Expect delays."
                     }
                   }
                 }
@@ -1020,25 +872,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA097",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Petaluma Blvd S",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "Guadalupe Pky",
                   "link-to-road": null,
-                  "link-from-city": "Petaluma",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.223595",
-                    "event-location-coordinates-longitude": "-122.611799"
+                    "event-location-coordinates-latitude": "37.324492",
+                    "event-location-coordinates-longitude": "-121.889529"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-10T14:33:52.18310",
+              "update-time": "2021-10-10T14:41:34.28180",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "29.5"
               },
-              "start-time": "2021-10-10T14:33:14.00000",
+              "start-time": "2021-10-10T14:40:56.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1051,14 +903,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-10-10T14:33:52.18310",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-10-10T14:41:34.28180",
         "ivr-article": "at",
-        "ivr-county": "Sonoma",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211010GG01422",
+        "SourceEventID": "211010GG01439",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
