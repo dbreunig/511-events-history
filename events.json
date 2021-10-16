@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-16T14:05:34.72407"
+          "event-message-time-stamp": "2021-10-16T14:20:59.02680"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-16T14:05:34.72407"
+          "event-message-time-stamp": "2021-10-16T14:20:59.02680"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-16T14:05:34.72407"
+          "event-message-time-stamp": "2021-10-16T14:20:59.02680"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-16T14:05:34.72407"
+          "event-message-time-stamp": "2021-10-16T14:20:59.02680"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -679,7 +679,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-16T14:05:34.72407"
+          "event-message-time-stamp": "2021-10-16T14:20:59.02680"
         },
         "event-reference": {
           "event-identifier": "822138"
@@ -825,7 +825,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-16T14:05:34.72407"
+          "event-message-time-stamp": "2021-10-16T14:20:59.02680"
         },
         "event-reference": {
           "event-identifier": "829120"
@@ -903,14 +903,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-242 Northbound south of Olivera Rd (Concord). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on CA-4 Eastbound at Hillcrest Ave (Antioch). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2021-10-16T20:46Z",
-      "updated": "2021-10-16T20:46Z",
+      "created": "2021-10-16T21:11Z",
+      "updated": "2021-10-16T21:11Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -930,8 +930,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.039167,
-          37.993791
+          -121.781728,
+          37.99544
         ]
       },
       "source_type": {
@@ -940,17 +940,165 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211016GG01421"
+        "#text": "211016GG01490"
       },
       "roads": [
         {
-          "name": "CA-242 N",
-          "from": "Olivera Rd",
+          "name": "CA-4 E",
+          "from": "Hillcrest Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-16T21:11Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-16T14:20:59.02680"
+        },
+        "event-reference": {
+          "event-identifier": "829129"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-4 Eastbound at Hillcrest Ave (Antioch). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-4 E",
+                  "link-from-road": "Hillcrest Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Antioch",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.99544",
+                    "event-location-coordinates-longitude": "-121.781728"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-16T14:11:43.63770",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-10-16T14:11:05.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-10-16T14:11:43.63770",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211016GG01490",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Northbound south of Cochrane Rd (Morgan Hill). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Minor",
+      "created": "2021-10-16T21:11Z",
+      "updated": "2021-10-16T21:11Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.652392,
+          37.153031
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211016MY00240"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Cochrane Rd",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -968,15 +1116,163 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-10-16T20:45Z/"
+          "2021-10-16T21:11Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-16T14:05:34.72407"
+          "event-message-time-stamp": "2021-10-16T14:20:59.02680"
         },
         "event-reference": {
-          "event-identifier": "829128"
+          "event-identifier": "829130"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Northbound south of Cochrane Rd (Morgan Hill). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Cochrane Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Morgan Hill",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.153031",
+                    "event-location-coordinates-longitude": "-121.652392"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-16T14:11:43.90630",
+              "valid-period": {
+                "event-timeline-estimated-duration": "19"
+              },
+              "start-time": "2021-10-16T14:11:05.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-10-16T14:11:43.90630",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211016MY00240",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-152 Eastbound east of Casa De Fruta Pky (Gilroy). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Minor",
+      "created": "2021-10-16T21:16Z",
+      "updated": "2021-10-16T21:16Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.383611,
+          36.984444
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211016MY00242"
+      },
+      "roads": [
+        {
+          "name": "CA-152",
+          "from": "Casa De Fruta Pky",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-16T21:15Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-16T14:20:59.02680"
+        },
+        "event-reference": {
+          "event-identifier": "829133"
         },
         "event-status": "new",
         "details": {
@@ -997,7 +1293,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-242 Northbound south of Olivera Rd (Concord). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-152 Eastbound east of Casa De Fruta Pky (Gilroy). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -1006,25 +1302,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-242 N",
-                  "link-from-road": "Olivera Rd",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-152",
+                  "link-from-road": "Casa De Fruta Pky",
                   "link-to-road": null,
-                  "link-from-city": "Concord",
+                  "link-from-city": "Gilroy",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.993791",
-                    "event-location-coordinates-longitude": "-122.039167"
+                    "event-location-coordinates-latitude": "36.984444",
+                    "event-location-coordinates-longitude": "-121.383611"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-16T13:46:29.43860",
+              "update-time": "2021-10-16T14:16:08.01080",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "5.5"
               },
-              "start-time": "2021-10-16T13:45:51.00000",
+              "start-time": "2021-10-16T14:15:29.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1033,18 +1329,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-16T13:46:29.43860",
-        "ivr-article": "south of",
-        "ivr-county": "Contra Costa",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-10-16T14:16:08.01080",
+        "ivr-article": "east of",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211016GG01421",
+        "SourceEventID": "211016MY00242",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
