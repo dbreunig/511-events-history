@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-23T16:07:40.04694"
+          "event-message-time-stamp": "2021-10-23T16:22:26.80357"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-23T16:07:40.04694"
+          "event-message-time-stamp": "2021-10-23T16:22:26.80357"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-23T16:07:40.04694"
+          "event-message-time-stamp": "2021-10-23T16:22:26.80357"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-23T16:07:40.04694"
+          "event-message-time-stamp": "2021-10-23T16:22:26.80357"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -687,7 +687,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-23T16:07:40.04694"
+          "event-message-time-stamp": "2021-10-23T16:22:26.80357"
         },
         "event-reference": {
           "event-identifier": "825794"
@@ -765,14 +765,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Westbound west of Richmond San Rafael Bridge (Richmond). Lane blocked. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Traffic Collision on I-580 Westbound west of Richmond San Rafael Bridge (Richmond). Right lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": [
+          "Traffic Collision",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Major",
+      "severity": "Severe",
       "created": "2021-10-23T22:51Z",
-      "updated": "2021-10-23T23:05Z",
+      "updated": "2021-10-23T23:09Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -812,7 +815,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -835,7 +838,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-23T16:07:40.04694"
+          "event-message-time-stamp": "2021-10-23T16:22:26.80357"
         },
         "event-reference": {
           "event-identifier": "831993"
@@ -848,9 +851,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -859,7 +867,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Westbound west of Richmond San Rafael Bridge (Richmond). Lane blocked. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision on I-580 Westbound west of Richmond San Rafael Bridge (Richmond). Right lane blocked. Expect delays."
                     }
                   }
                 }
@@ -882,11 +890,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-23T16:05:44.62800",
+              "update-time": "2021-10-23T16:09:08.00310",
               "valid-period": {
-                "event-timeline-estimated-duration": "56.5"
+                "event-timeline-estimated-duration": "76"
               },
-              "start-time": "2021-10-23T16:05:05.00000",
+              "start-time": "2021-10-23T16:05:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -895,314 +903,19 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Severe",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "5",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-10-23T16:05:44.62800",
+        "ivr-lastUpdateDttm": "2021-10-23T16:09:08.00310",
         "ivr-article": "west of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right lane",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211023GG01625",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Northbound north of S 11TH St (San Jose). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-23T22:57Z",
-      "updated": "2021-10-23T23:05Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.867671,
-          37.330104
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211023GG01642"
-      },
-      "roads": [
-        {
-          "name": "I-280 N",
-          "from": "S 11TH St",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-23T22:57Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-23T16:07:40.04694"
-        },
-        "event-reference": {
-          "event-identifier": "831994"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Northbound north of S 11TH St (San Jose). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "S 11TH St",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.330104",
-                    "event-location-coordinates-longitude": "-121.867671"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-23T16:05:09.96210",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2021-10-23T15:57:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-23T16:05:09.96210",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211023GG01642",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-92 Westbound west of S Delaware St (San Mateo). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-23T23:04Z",
-      "updated": "2021-10-23T23:04Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.304564,
-          37.552624
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211023GG01661"
-      },
-      "roads": [
-        {
-          "name": "CA-92 W",
-          "from": "S Delaware St",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-23T23:03Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-23T16:07:40.04694"
-        },
-        "event-reference": {
-          "event-identifier": "831996"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-92 Westbound west of S Delaware St (San Mateo). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "CA-92 W",
-                  "link-from-road": "S Delaware St",
-                  "link-to-road": null,
-                  "link-from-city": "San Mateo",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.552624",
-                    "event-location-coordinates-longitude": "-122.304564"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-23T16:04:37.46640",
-              "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
-              },
-              "start-time": "2021-10-23T16:03:57.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-10-23T16:04:37.46640",
-        "ivr-article": "west of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211023GG01661",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
