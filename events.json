@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -691,7 +691,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832304"
@@ -840,7 +840,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832342"
@@ -985,7 +985,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832454"
@@ -1063,14 +1063,18 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Westbound at Richmond San Rafael Bridge (Richmond). Left and center lanes blocked. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Overturned tractor trailer and Traffic Collision on I-580 Westbound at Richmond San Rafael Bridge (Richmond). Left and center lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": [
+          "Traffic Collision",
+          "Overturned tractor trailer",
+          "Severe traffic alert"
+        ]
       },
       "severity": "Severe",
       "created": "2021-10-24T17:24Z",
-      "updated": "2021-10-24T18:30Z",
+      "updated": "2021-10-24T20:19Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -1133,7 +1137,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832474"
@@ -1146,9 +1150,17 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision"
+                      },
+                      {
+                        "incident": "Overturned tractor trailer"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -1157,7 +1169,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Westbound at Richmond San Rafael Bridge (Richmond). Left and center lanes blocked. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Overturned tractor trailer and Traffic Collision on I-580 Westbound at Richmond San Rafael Bridge (Richmond). Left and center lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -1180,9 +1192,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-24T11:30:13.85390",
+              "update-time": "2021-10-24T13:19:38.07840",
               "valid-period": {
-                "event-timeline-estimated-duration": "71.5"
+                "event-timeline-estimated-duration": "97"
               },
               "start-time": "2021-10-24T11:00:00.00000",
               "cleared-time": null,
@@ -1198,11 +1210,12 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "5",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-10-24T11:30:13.85390",
+        "ivr-lastUpdateDttm": "2021-10-24T13:19:38.07840",
         "ivr-article": "at",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Left and center lanes",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211024GG01273",
         "EventSourceName": "CHP",
@@ -1281,7 +1294,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832502"
@@ -1359,154 +1372,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Northbound at Sycamore Valley Rd (Danville). Left shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-24T18:19Z",
-      "updated": "2021-10-24T19:49Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.990775,
-          37.806862
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01430"
-      },
-      "roads": [
-        {
-          "name": "I-680 N",
-          "from": "Sycamore Valley Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:48Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832519"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Northbound at Sycamore Valley Rd (Danville). Left shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Sycamore Valley Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Danville",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.806862",
-                    "event-location-coordinates-longitude": "-121.990775"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:49:16.61190",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-10-24T12:48:36.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:49:16.61190",
-        "ivr-article": "at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01430",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Disabled tractor trailer on I-280 Northbound south of Hickey Blvd (Daly City). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -1577,7 +1442,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832520"
@@ -1726,7 +1591,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832523"
@@ -1874,7 +1739,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832530"
@@ -1952,14 +1817,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on US-101 Southbound north of I-380 W (South San Francisco). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries and Flooding on US-101 Southbound north of I-380 W (South San Francisco). Left lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Flooding"
+        ]
       },
       "severity": "Moderate",
       "created": "2021-10-24T18:33Z",
-      "updated": "2021-10-24T19:54Z",
+      "updated": "2021-10-24T20:11Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -1999,7 +1867,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Left lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -2022,7 +1890,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832536"
@@ -2035,9 +1903,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Flooding"
+                      }
+                    ]
                   }
                 },
                 {
@@ -2046,7 +1919,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Southbound north of I-380 W (South San Francisco). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries and Flooding on US-101 Southbound north of I-380 W (South San Francisco). Left lane affected. Expect delays."
                     }
                   }
                 }
@@ -2069,11 +1942,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-24T12:54:56.55360",
+              "update-time": "2021-10-24T13:11:35.41850",
               "valid-period": {
-                "event-timeline-estimated-duration": "28.5"
+                "event-timeline-estimated-duration": "34.5"
               },
-              "start-time": "2021-10-24T12:54:16.00000",
+              "start-time": "2021-10-24T12:54:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2087,11 +1960,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:54:56.55360",
+        "ivr-lastUpdateDttm": "2021-10-24T13:11:35.41850",
         "ivr-article": "north of",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211024GG01487",
         "EventSourceName": "CHP",
@@ -2170,7 +2043,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832538"
@@ -2248,162 +2121,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Eastbound east of Fitzgerald Dr (Pinole). Off Ramp affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Major",
-      "created": "2021-10-24T18:40Z",
-      "updated": "2021-10-24T20:02Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.310454,
-          37.990514
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01509"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Fitzgerald Dr",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T20:02Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832542"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Eastbound east of Fitzgerald Dr (Pinole). Off Ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Fitzgerald Dr",
-                  "link-to-road": null,
-                  "link-from-city": "Pinole",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.990514",
-                    "event-location-coordinates-longitude": "-122.31045399999999"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T13:02:50.85780",
-              "valid-period": {
-                "event-timeline-estimated-duration": "49"
-              },
-              "start-time": "2021-10-24T13:02:11.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-10-24T13:02:50.85780",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Off Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01509",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on US-101 Northbound at N Lawrence Expy (Sunnyvale). Off Ramp affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on US-101 Northbound ramps to N Lawrence Expy (Sunnyvale). Connector ramp closed. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Major",
       "created": "2021-10-24T18:42Z",
-      "updated": "2021-10-24T19:27Z",
+      "updated": "2021-10-24T20:12Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -2443,11 +2168,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
+            "#text": "Connector ramp"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -2455,7 +2180,7 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "ramps to"
           }
         }
       ],
@@ -2466,7 +2191,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832544"
@@ -2490,7 +2215,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Northbound at N Lawrence Expy (Sunnyvale). Off Ramp affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Northbound ramps to N Lawrence Expy (Sunnyvale). Connector ramp closed. Expect delays."
                     }
                   }
                 }
@@ -2513,7 +2238,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-24T12:27:39.74400",
+              "update-time": "2021-10-24T13:12:42.58000",
               "valid-period": {
                 "event-timeline-estimated-duration": "53.5"
               },
@@ -2531,11 +2256,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:27:39.74400",
-        "ivr-article": "at",
+        "ivr-lastUpdateDttm": "2021-10-24T13:12:42.58000",
+        "ivr-article": "ramps to",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Off Ramp",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Connector ramp",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211024GG01514",
         "EventSourceName": "CHP",
@@ -2544,162 +2269,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Downed tree on US-101 Northbound north of Spencer Ave (Sausalito). Right lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Hazard on CA-4 Eastbound west of Balfour Rd (Brentwood). Left lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Downed tree"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-24T18:50Z",
-      "updated": "2021-10-24T18:51Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.49376,
-          37.855427
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01542"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Spencer Ave",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T18:49Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832552"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Downed tree"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Downed tree on US-101 Northbound north of Spencer Ave (Sausalito). Right lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Spencer Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Sausalito",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.855427",
-                    "event-location-coordinates-longitude": "-122.49376"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T11:51:17.40680",
-              "valid-period": {
-                "event-timeline-estimated-duration": "27.7"
-              },
-              "start-time": "2021-10-24T11:49:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-24T11:51:17.40680",
-        "ivr-article": "north of",
-        "ivr-county": "Marin",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01542",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-4 Eastbound west of Balfour Rd (Brentwood). Left lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
       "created": "2021-10-24T18:58Z",
-      "updated": "2021-10-24T18:58Z",
+      "updated": "2021-10-24T20:13Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -2762,7 +2339,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832554"
@@ -2776,7 +2353,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -2786,7 +2363,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-4 Eastbound west of Balfour Rd (Brentwood). Left lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-4 Eastbound west of Balfour Rd (Brentwood). Left lane affected. Expect delays."
                     }
                   }
                 }
@@ -2809,11 +2386,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-24T11:58:16.62840",
+              "update-time": "2021-10-24T13:13:20.58700",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.2"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2021-10-24T11:57:36.00000",
+              "start-time": "2021-10-24T11:57:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2827,7 +2404,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-10-24T11:58:16.62840",
+        "ivr-lastUpdateDttm": "2021-10-24T13:13:20.58700",
         "ivr-article": "west of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
@@ -2910,7 +2487,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832555"
@@ -2988,154 +2565,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound south of Windsor River Rd (Windsor). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-24T19:01Z",
-      "updated": "2021-10-24T19:19Z",
-      "areas": {
-        "area": {
-          "name": "Sonoma",
-          "id": "5397100",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5397100/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.826214,
-          38.565019
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01568"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "Windsor River Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:19Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832562"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound south of Windsor River Rd (Windsor). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA097",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Windsor River Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Windsor",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.565019",
-                    "event-location-coordinates-longitude": "-122.826214"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:19:43.19040",
-              "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
-              },
-              "start-time": "2021-10-24T12:19:03.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:19:43.19040",
-        "ivr-article": "south of",
-        "ivr-county": "Sonoma",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01568",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Collision on I-280 Northbound south of Edgewood Rd (Unincorporated). Left lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -3206,7 +2635,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832565"
@@ -3284,302 +2713,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-24 Eastbound west of ST Stephens Dr (Orinda). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-24T19:09Z",
-      "updated": "2021-10-24T20:00Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.175662,
-          37.888907
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01594"
-      },
-      "roads": [
-        {
-          "name": "CA-24 E",
-          "from": "ST Stephens Dr",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:59Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832571"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-24 Eastbound west of ST Stephens Dr (Orinda). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 E",
-                  "link-from-road": "ST Stephens Dr",
-                  "link-to-road": null,
-                  "link-from-city": "Orinda",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.888907",
-                    "event-location-coordinates-longitude": "-122.175662"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T13:00:34.95830",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2021-10-24T12:59:55.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-10-24T13:00:34.95830",
-        "ivr-article": "west of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01594",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-280 Northbound south of Farm Hill Blvd (Woodside). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Minor",
-      "created": "2021-10-24T19:10Z",
-      "updated": "2021-10-24T19:27Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.267688,
-          37.444139
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01596"
-      },
-      "roads": [
-        {
-          "name": "I-280 N",
-          "from": "Farm Hill Blvd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:26Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832572"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-280 Northbound south of Farm Hill Blvd (Woodside). Center Divider affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "Farm Hill Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "Woodside",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.444139",
-                    "event-location-coordinates-longitude": "-122.267688"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:27:39.59960",
-              "valid-period": {
-                "event-timeline-estimated-duration": "19"
-              },
-              "start-time": "2021-10-24T12:26:59.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:27:39.59960",
-        "ivr-article": "south of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01596",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Downed tree on I-280 Northbound ramp to John Daly Blvd (Daly City). Lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -3650,7 +2783,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832575"
@@ -3728,302 +2861,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Westbound at Hacienda Dr (Pleasanton). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-24T19:26Z",
-      "updated": "2021-10-24T19:26Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.882782,
-          37.701676
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01653"
-      },
-      "roads": [
-        {
-          "name": "I-580 W",
-          "from": "Hacienda Dr",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:25Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832589"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Westbound at Hacienda Dr (Pleasanton). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "Hacienda Dr",
-                  "link-to-road": null,
-                  "link-from-city": "Pleasanton",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.701676",
-                    "event-location-coordinates-longitude": "-121.882782"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:26:30.21050",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2021-10-24T12:25:50.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:26:30.21050",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01653",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Northbound north of Sir Francis Drake Blvd (Larkspur). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-24T19:26Z",
-      "updated": "2021-10-24T19:26Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.514715,
-          37.944713
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01654"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Sir Francis Drake Blvd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:25Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832590"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Northbound north of Sir Francis Drake Blvd (Larkspur). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Sir Francis Drake Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "Larkspur",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.944713",
-                    "event-location-coordinates-longitude": "-122.514715"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:26:30.33310",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-10-24T12:25:50.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:26:30.33310",
-        "ivr-article": "north of",
-        "ivr-county": "Marin",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01654",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "Caltrans : Emergency construction on CA-113 Northbound between Brown Rd (Dixon) and Fry Rd (Dixon). All lanes closed until 11-30 AM. Sunday, October 24, 2021 11:30 AM thru Monday, October 25, 2021 11:30 AM, Monday/Sunday.",
       "event_type": "CONSTRUCTION",
       "event_subtypes": {
@@ -4031,7 +2868,7 @@
       },
       "severity": "Unknown",
       "created": "2021-10-24T19:27Z",
-      "updated": "2021-10-24T20:02Z",
+      "updated": "2021-10-24T20:22Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -4095,7 +2932,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832591"
@@ -4142,7 +2979,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-24T13:02:52.97710",
+              "update-time": "2021-10-24T13:22:09.95830",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -4160,7 +2997,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-24T13:02:52.97710",
+        "ivr-lastUpdateDttm": "2021-10-24T13:22:09.95830",
         "ivr-article": "between",
         "ivr-county": "Solano",
         "ivr-laneStatus": "closed",
@@ -4174,162 +3011,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-280 Northbound at S Bascom Ave (San Jose). Right lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-24T19:27Z",
-      "updated": "2021-10-24T19:36Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.931114,
-          37.317009
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01652"
-      },
-      "roads": [
-        {
-          "name": "I-280 N",
-          "from": "S Bascom Ave",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:36Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832593"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-280 Northbound at S Bascom Ave (San Jose). Right lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "S Bascom Ave",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.317009",
-                    "event-location-coordinates-longitude": "-121.931114"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:36:45.64620",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25"
-              },
-              "start-time": "2021-10-24T12:36:05.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:36:45.64620",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01652",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-17 Southbound north of Glenwood Cutoff (Scotts Valley). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on CA-17 Southbound north of Glenwood Cutoff (Scotts Valley). Right shoulder open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Moderate",
+      "severity": "Unknown",
       "created": "2021-10-24T19:27Z",
-      "updated": "2021-10-24T19:59Z",
+      "updated": "2021-10-24T20:22Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -4373,7 +3062,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -4387,12 +3076,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-10-24T19:58Z/"
+          "2021-10-24T20:21Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832594"
@@ -4416,7 +3105,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-17 Southbound north of Glenwood Cutoff (Scotts Valley). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-17 Southbound north of Glenwood Cutoff (Scotts Valley). Right shoulder open. Expect delays."
                     }
                   }
                 }
@@ -4439,11 +3128,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-24T12:59:27.74400",
+              "update-time": "2021-10-24T13:22:06.30140",
               "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2021-10-24T12:58:48.00000",
+              "start-time": "2021-10-24T13:21:26.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -4452,15 +3141,15 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:59:27.74400",
+        "ivr-lastUpdateDttm": "2021-10-24T13:22:06.30140",
         "ivr-article": "north of",
         "ivr-county": "Santa Cruz",
-        "ivr-laneStatus": "affected",
+        "ivr-laneStatus": "open",
         "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211024MY00212",
@@ -4540,7 +3229,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832595"
@@ -4618,606 +3307,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Eastbound east of Paloverde Rd (Hayward). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-680 Southbound north of Livorna Rd (Alamo). Left lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-24T19:32Z",
-      "updated": "2021-10-24T19:49Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.026831,
-          37.700865
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01672"
-      },
-      "roads": [
-        {
-          "name": "I-580 E",
-          "from": "Paloverde Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:48Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832597"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Eastbound east of Paloverde Rd (Hayward). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "Paloverde Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Hayward",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.700865",
-                    "event-location-coordinates-longitude": "-122.026831"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:49:16.19830",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2021-10-24T12:48:36.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:49:16.19830",
-        "ivr-article": "east of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01672",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Northbound south of I-280 N-US-101 N Ramp (San Francisco). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Minor",
-      "created": "2021-10-24T19:32Z",
-      "updated": "2021-10-24T19:57Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.407848,
-          37.740299
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01671"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "I-280 N-US-101 N Ramp",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:56Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832598"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Northbound south of I-280 N-US-101 N Ramp (San Francisco). Center Divider affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "I-280 N-US-101 N Ramp",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.740299",
-                    "event-location-coordinates-longitude": "-122.407848"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:57:11.74910",
-              "valid-period": {
-                "event-timeline-estimated-duration": "19"
-              },
-              "start-time": "2021-10-24T12:56:32.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:57:11.74910",
-        "ivr-article": "south of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01671",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-24 Westbound east of Acalanes Rd (Lafayette). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Minor",
-      "created": "2021-10-24T19:34Z",
-      "updated": "2021-10-24T19:58Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.151758,
-          37.891793
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01675"
-      },
-      "roads": [
-        {
-          "name": "CA-24 W",
-          "from": "Acalanes Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:57Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832600"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-24 Westbound east of Acalanes Rd (Lafayette). Center Divider affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 W",
-                  "link-from-road": "Acalanes Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Lafayette",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.891793",
-                    "event-location-coordinates-longitude": "-122.151758"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:58:19.53110",
-              "valid-period": {
-                "event-timeline-estimated-duration": "19"
-              },
-              "start-time": "2021-10-24T12:57:39.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:58:19.53110",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01675",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Northbound north of CA-1 N (Sausalito). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-24T19:36Z",
-      "updated": "2021-10-24T19:36Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.515668,
-          37.879468
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01684"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "CA-1 N",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:36Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832602"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Northbound north of CA-1 N (Sausalito). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "CA-1 N",
-                  "link-to-road": null,
-                  "link-from-city": "Sausalito",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.879468",
-                    "event-location-coordinates-longitude": "-122.515668"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:36:45.51790",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.2"
-              },
-              "start-time": "2021-10-24T12:36:05.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:36:45.51790",
-        "ivr-article": "north of",
-        "ivr-county": "Marin",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01684",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-680 Southbound north of Livorna Rd (Alamo). Left lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
       "created": "2021-10-24T19:41Z",
-      "updated": "2021-10-24T19:41Z",
+      "updated": "2021-10-24T20:16Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -5280,7 +3377,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832605"
@@ -5294,7 +3391,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -5304,7 +3401,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-680 Southbound north of Livorna Rd (Alamo). Left lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-680 Southbound north of Livorna Rd (Alamo). Left lane blocked. Expect delays."
                     }
                   }
                 }
@@ -5327,11 +3424,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-24T12:41:16.38980",
+              "update-time": "2021-10-24T13:16:46.14620",
               "valid-period": {
-                "event-timeline-estimated-duration": "27.7"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2021-10-24T12:40:36.00000",
+              "start-time": "2021-10-24T12:40:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -5345,7 +3442,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:41:16.38980",
+        "ivr-lastUpdateDttm": "2021-10-24T13:16:46.14620",
         "ivr-article": "north of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "blocked",
@@ -5428,7 +3525,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832607"
@@ -5506,302 +3603,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-680 Northbound south of I-780 E (Benicia). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Minor",
-      "created": "2021-10-24T19:43Z",
-      "updated": "2021-10-24T20:00Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.130402,
-          38.059332
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01698"
-      },
-      "roads": [
-        {
-          "name": "I-680 N",
-          "from": "I-780 E",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:59Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832609"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-680 Northbound south of I-780 E (Benicia). Center Divider affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "I-780 E",
-                  "link-to-road": null,
-                  "link-from-city": "Benicia",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.059332",
-                    "event-location-coordinates-longitude": "-122.130402"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T13:00:34.68210",
-              "valid-period": {
-                "event-timeline-estimated-duration": "19"
-              },
-              "start-time": "2021-10-24T12:59:55.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-10-24T13:00:34.68210",
-        "ivr-article": "south of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01698",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Westbound east of Kidwell Rd (Dixon). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-10-24T19:44Z",
-      "updated": "2021-10-24T19:46Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.780453,
-          38.510449
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01710"
-      },
-      "roads": [
-        {
-          "name": "I-80 W",
-          "from": "Kidwell Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:46Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832610"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Westbound east of Kidwell Rd (Dixon). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Kidwell Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Dixon",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.510449",
-                    "event-location-coordinates-longitude": "-121.780453"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:46:58.62210",
-              "valid-period": {
-                "event-timeline-estimated-duration": "29"
-              },
-              "start-time": "2021-10-24T12:46:18.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:46:58.62210",
-        "ivr-article": "east of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01710",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Collision on I-280 Southbound east of Alemany Blvd (San Francisco). Left lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -5872,7 +3673,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832612"
@@ -5950,154 +3751,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-280 Southbound north of John Daly Blvd (Daly City). Left lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Minor",
-      "created": "2021-10-24T19:46Z",
-      "updated": "2021-10-24T19:50Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.465358,
-          37.710344
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211024GG01714"
-      },
-      "roads": [
-        {
-          "name": "I-280 S",
-          "from": "John Daly Blvd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-10-24T19:49Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
-        },
-        "event-reference": {
-          "event-identifier": "832613"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-280 Southbound north of John Daly Blvd (Daly City). Left lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "John Daly Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "Daly City",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.710344",
-                    "event-location-coordinates-longitude": "-122.465358"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-10-24T12:50:24.35080",
-              "valid-period": {
-                "event-timeline-estimated-duration": "24"
-              },
-              "start-time": "2021-10-24T12:49:44.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:50:24.35080",
-        "ivr-article": "north of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211024GG01714",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Hazard on I-880 Northbound entering at W Tennyson Rd (Hayward). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -6168,7 +3821,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832616"
@@ -6246,14 +3899,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound north of Guadalupe Pky (San Jose). 2nd lane from the left blocked. Expect delays.",
+      "headline": "CHP : Traffic Hazard on US-101 Southbound north of Guadalupe Pky (San Jose). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
-      "severity": "Moderate",
+      "severity": "Minor",
       "created": "2021-10-24T19:56Z",
-      "updated": "2021-10-24T19:56Z",
+      "updated": "2021-10-24T20:18Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -6293,11 +3946,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -6311,12 +3964,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-10-24T19:55Z/"
+          "2021-10-24T20:18Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832629"
@@ -6340,7 +3993,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of Guadalupe Pky (San Jose). 2nd lane from the left blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of Guadalupe Pky (San Jose). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -6363,11 +4016,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-24T12:56:04.04120",
+              "update-time": "2021-10-24T13:18:40.67830",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "20.5"
               },
-              "start-time": "2021-10-24T12:55:24.00000",
+              "start-time": "2021-10-24T13:18:01.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -6376,16 +4029,16 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "1",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-10-24T12:56:04.04120",
+        "ivr-lastUpdateDttm": "2021-10-24T13:18:40.67830",
         "ivr-article": "north of",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211024GG01756",
         "EventSourceName": "CHP",
@@ -6464,7 +4117,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832633"
@@ -6612,7 +4265,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-24T13:04:56.54007"
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
         },
         "event-reference": {
           "event-identifier": "832636"
@@ -6684,6 +4337,2226 @@
         "ivr-totalLanes": "On Ramp",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211024GG01773",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on I-680 Northbound north of Crow Canyon Rd (San Ramon). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:05Z",
+      "updated": "2021-10-24T20:20Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.975649,
+          37.778337
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01780"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "Crow Canyon Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:20Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832637"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-680 Northbound north of Crow Canyon Rd (San Ramon). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Crow Canyon Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Ramon",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.778337",
+                    "event-location-coordinates-longitude": "-121.975649"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:20:57.31230",
+              "valid-period": {
+                "event-timeline-estimated-duration": "31"
+              },
+              "start-time": "2021-10-24T13:20:17.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:20:57.31230",
+        "ivr-article": "north of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01780",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-280 Southbound south of Avalon Dr (South San Francisco). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:06Z",
+      "updated": "2021-10-24T20:11Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.440144,
+          37.637184
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01786"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "Avalon Dr",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:11Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832639"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-280 Southbound south of Avalon Dr (South San Francisco). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "Avalon Dr",
+                  "link-to-road": null,
+                  "link-from-city": "South San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.637184",
+                    "event-location-coordinates-longitude": "-122.440144"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:11:52.49690",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-10-24T13:11:12.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:11:52.49690",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01786",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on I-80 Eastbound at Cherry Glen Rd (Vacaville). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:08Z",
+      "updated": "2021-10-24T20:20Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.018823,
+          38.33299
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01794"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Cherry Glen Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:20Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832641"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Eastbound at Cherry Glen Rd (Vacaville). Right lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Cherry Glen Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Vacaville",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.33299",
+                    "event-location-coordinates-longitude": "-122.018823"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:20:57.16740",
+              "valid-period": {
+                "event-timeline-estimated-duration": "31"
+              },
+              "start-time": "2021-10-24T13:20:17.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:20:57.16740",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01794",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-280 Northbound south of Skyline Blvd (San Bruno). Lanes affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:08Z",
+      "updated": "2021-10-24T20:22Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.430004,
+          37.605875
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01795"
+      },
+      "roads": [
+        {
+          "name": "I-280 N",
+          "from": "Skyline Blvd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832642"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-280 Northbound south of Skyline Blvd (San Bruno). Lanes affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "Skyline Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "San Bruno",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.605875",
+                    "event-location-coordinates-longitude": "-122.430004"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:22:05.89980",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2021-10-24T13:21:26.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:22:05.89980",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01795",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-580 Eastbound east of Main St (San Quentin). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Major",
+      "created": "2021-10-24T20:08Z",
+      "updated": "2021-10-24T20:18Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.47827,
+          37.942595
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01796"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Main St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:18Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832643"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-580 Eastbound east of Main St (San Quentin). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Main St",
+                  "link-to-road": null,
+                  "link-from-city": "San Quentin",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.942595",
+                    "event-location-coordinates-longitude": "-122.47827"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:18:40.40540",
+              "valid-period": {
+                "event-timeline-estimated-duration": "45.199999999999996"
+              },
+              "start-time": "2021-10-24T13:18:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:18:40.40540",
+        "ivr-article": "east of",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01796",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-24 Eastbound west of Happy Valley Rd (Lafayette). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Minor",
+      "created": "2021-10-24T20:08Z",
+      "updated": "2021-10-24T20:08Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.125001,
+          37.892862
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01797"
+      },
+      "roads": [
+        {
+          "name": "CA-24 E",
+          "from": "Happy Valley Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:07Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832644"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-24 Eastbound west of Happy Valley Rd (Lafayette). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Happy Valley Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Lafayette",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.892862",
+                    "event-location-coordinates-longitude": "-122.125001"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:08:29.94350",
+              "valid-period": {
+                "event-timeline-estimated-duration": "19"
+              },
+              "start-time": "2021-10-24T13:07:50.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:08:29.94350",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01797",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on I-580 Westbound at I-680 S (Pleasanton). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:10Z",
+      "updated": "2021-10-24T20:22Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.92564,
+          37.700464
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01800"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "I-680 S",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832646"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-580 Westbound at I-680 S (Pleasanton). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "I-680 S",
+                  "link-to-road": null,
+                  "link-from-city": "Pleasanton",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.700464",
+                    "event-location-coordinates-longitude": "-121.92564"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:22:05.74910",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29.5"
+              },
+              "start-time": "2021-10-24T13:21:26.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:22:05.74910",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01800",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-242 Southbound north of Concord Ave (Concord). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:11Z",
+      "updated": "2021-10-24T20:11Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.041624,
+          37.983275
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01811"
+      },
+      "roads": [
+        {
+          "name": "CA-242 S",
+          "from": "Concord Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:11Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832648"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-242 Southbound north of Concord Ave (Concord). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-242 S",
+                  "link-from-road": "Concord Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Concord",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.983275",
+                    "event-location-coordinates-longitude": "-122.041624"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:11:52.28610",
+              "valid-period": {
+                "event-timeline-estimated-duration": "30.5"
+              },
+              "start-time": "2021-10-24T13:11:12.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:11:52.28610",
+        "ivr-article": "north of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01811",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-24 Eastbound west of Caldecott Tunnel (Orinda). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:13Z",
+      "updated": "2021-10-24T20:14Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.21709,
+          37.854646
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01813"
+      },
+      "roads": [
+        {
+          "name": "CA-24 E",
+          "from": "Caldecott Tunnel",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:13Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832649"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-24 Eastbound west of Caldecott Tunnel (Orinda). Left lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Caldecott Tunnel",
+                  "link-to-road": null,
+                  "link-from-city": "Orinda",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.854646",
+                    "event-location-coordinates-longitude": "-122.21709"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:14:08.21440",
+              "valid-period": {
+                "event-timeline-estimated-duration": "43"
+              },
+              "start-time": "2021-10-24T13:13:28.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:14:08.21440",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01813",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound east of Columbus Pky (Vallejo). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:15Z",
+      "updated": "2021-10-24T20:15Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.218532,
+          38.141334
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01815"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Columbus Pky",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:14Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832650"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound east of Columbus Pky (Vallejo). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Columbus Pky",
+                  "link-to-road": null,
+                  "link-from-city": "Vallejo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.141334",
+                    "event-location-coordinates-longitude": "-122.218532"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:15:15.83610",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-10-24T13:14:36.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:15:15.83610",
+        "ivr-article": "east of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01815",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound east of CA-12 E (Fairfield). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:17Z",
+      "updated": "2021-10-24T20:17Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.10859,
+          38.232722
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01825"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "CA-12 E",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:16Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832651"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound east of CA-12 E (Fairfield). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "CA-12 E",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.232722",
+                    "event-location-coordinates-longitude": "-122.10859"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:17:32.43530",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-10-24T13:16:52.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:17:32.43530",
+        "ivr-article": "east of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01825",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-580 Westbound east of Paloverde Rd (Hayward). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:18Z",
+      "updated": "2021-10-24T20:20Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.016788,
+          37.702907
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01828"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Paloverde Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:20Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832652"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-580 Westbound east of Paloverde Rd (Hayward). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Paloverde Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Hayward",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.702907",
+                    "event-location-coordinates-longitude": "-122.016788"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:20:56.92630",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-10-24T13:20:17.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:20:56.92630",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01828",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Southbound south of Wilfred Ave (Rohnert Park). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:19Z",
+      "updated": "2021-10-24T20:22Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.712364,
+          38.366671
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01834"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Wilfred Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832653"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Southbound south of Wilfred Ave (Rohnert Park). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Wilfred Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Rohnert Park",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.366671",
+                    "event-location-coordinates-longitude": "-122.712364"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:22:05.25710",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2021-10-24T13:21:25.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:22:05.25710",
+        "ivr-article": "south of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01834",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Southbound south of Divisadero St (San Francisco). Right lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Minor",
+      "created": "2021-10-24T20:19Z",
+      "updated": "2021-10-24T20:19Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.447694,
+          37.800716
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01831"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Divisadero St",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:19Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832654"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Southbound south of Divisadero St (San Francisco). Right lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Divisadero St",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.800716",
+                    "event-location-coordinates-longitude": "-122.447694"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:19:48.35370",
+              "valid-period": {
+                "event-timeline-estimated-duration": "15.499999999999998"
+              },
+              "start-time": "2021-10-24T13:19:08.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:19:48.35370",
+        "ivr-article": "south of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01831",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-128 Westbound at Berryessa Knoxville Rd (Napa). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-24T20:22Z",
+      "updated": "2021-10-24T20:22Z",
+      "areas": {
+        "area": {
+          "name": "Napa",
+          "id": "5376101",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5376101/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.236444,
+          38.478416
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211024GG01844"
+      },
+      "roads": [
+        {
+          "name": "CA-128 W",
+          "from": "Berryessa Knoxville Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-24T20:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-24T13:22:37.11633"
+        },
+        "event-reference": {
+          "event-identifier": "832655"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-128 Westbound at Berryessa Knoxville Rd (Napa). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-128 W",
+                  "link-from-road": "Berryessa Knoxville Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Napa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.478416",
+                    "event-location-coordinates-longitude": "-122.236444"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-24T13:22:05.14160",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2021-10-24T13:21:25.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-10-24T13:22:05.14160",
+        "ivr-article": "at",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211024GG01844",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
