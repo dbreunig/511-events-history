@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-31T12:48:27.54753"
+          "event-message-time-stamp": "2021-10-31T13:04:59.45113"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-31T12:48:27.54753"
+          "event-message-time-stamp": "2021-10-31T13:04:59.45113"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-31T12:48:27.54753"
+          "event-message-time-stamp": "2021-10-31T13:04:59.45113"
         },
         "event-reference": {
           "event-identifier": "799269"
@@ -538,7 +538,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-31T12:48:27.54753"
+          "event-message-time-stamp": "2021-10-31T13:04:59.45113"
         },
         "event-reference": {
           "event-identifier": "799270"
@@ -679,7 +679,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-31T12:48:27.54753"
+          "event-message-time-stamp": "2021-10-31T13:04:59.45113"
         },
         "event-reference": {
           "event-identifier": "834378"
@@ -825,7 +825,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-31T12:48:27.54753"
+          "event-message-time-stamp": "2021-10-31T13:04:59.45113"
         },
         "event-reference": {
           "event-identifier": "835919"
@@ -903,21 +903,24 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Southbound north of Livorna Rd (Alamo). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries and Overturned vehicle on I-680 Southbound south of Mission Blvd (Fremont). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Overturned vehicle"
+        ]
       },
       "severity": "Moderate",
-      "created": "2021-10-31T19:15Z",
-      "updated": "2021-10-31T19:15Z",
+      "created": "2021-10-31T19:47Z",
+      "updated": "2021-10-31T19:49Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -930,8 +933,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.039129,
-          37.866847
+          -121.928566,
+          37.500127
         ]
       },
       "source_type": {
@@ -940,17 +943,170 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211031GG01173"
+        "#text": "211031GG01244"
       },
       "roads": [
         {
           "name": "I-680 S",
-          "from": "Livorna Rd",
+          "from": "Mission Blvd",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-31T19:49Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-31T13:04:59.45113"
+        },
+        "event-reference": {
+          "event-identifier": "835948"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Overturned vehicle"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries and Overturned vehicle on I-680 Southbound south of Mission Blvd (Fremont). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "Mission Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.500127",
+                    "event-location-coordinates-longitude": "-121.928566"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-31T12:49:56.12010",
+              "valid-period": {
+                "event-timeline-estimated-duration": "41"
+              },
+              "start-time": "2021-10-31T12:49:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-10-31T12:49:56.12010",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211031GG01244",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Southbound north of San Antonio Ave (Mountain View). 3rd lane from the left affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-31T19:50Z",
+      "updated": "2021-10-31T19:52Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.10143,
+          37.428169
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211031GG01251"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "San Antonio Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "3rd lane from the left"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -968,15 +1124,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-10-31T19:15Z/"
+          "2021-10-31T19:50Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-10-31T12:48:27.54753"
+          "event-message-time-stamp": "2021-10-31T13:04:59.45113"
         },
         "event-reference": {
-          "event-identifier": "835944"
+          "event-identifier": "835949"
         },
         "event-status": "new",
         "details": {
@@ -997,7 +1153,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Southbound north of Livorna Rd (Alamo). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of San Antonio Ave (Mountain View). 3rd lane from the left affected. Expect delays."
                     }
                   }
                 }
@@ -1006,25 +1162,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 S",
-                  "link-from-road": "Livorna Rd",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "San Antonio Ave",
                   "link-to-road": null,
-                  "link-from-city": "Alamo",
+                  "link-from-city": "Mountain View",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.866847",
-                    "event-location-coordinates-longitude": "-122.039129"
+                    "event-location-coordinates-latitude": "37.428169",
+                    "event-location-coordinates-longitude": "-122.10143"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-10-31T12:15:28.48790",
+              "update-time": "2021-10-31T12:52:03.21070",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2021-10-31T12:15:27.00000",
+              "start-time": "2021-10-31T12:50:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1038,13 +1194,161 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-10-31T12:15:28.48790",
+        "ivr-lastUpdateDttm": "2021-10-31T12:52:03.21070",
         "ivr-article": "north of",
-        "ivr-county": "Contra Costa",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "3rd lane from the left",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211031GG01173",
+        "SourceEventID": "211031GG01251",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Brush fire on I-880 Southbound north of CA-84 W (Fremont). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Brush fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-10-31T19:57Z",
+      "updated": "2021-10-31T19:57Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.041031,
+          37.560548
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211031GG01269"
+      },
+      "roads": [
+        {
+          "name": "I-880 S",
+          "from": "CA-84 W",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-10-31T19:57Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-10-31T13:04:59.45113"
+        },
+        "event-reference": {
+          "event-identifier": "835950"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Brush fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Brush fire on I-880 Southbound north of CA-84 W (Fremont). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "CA-84 W",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.560548",
+                    "event-location-coordinates-longitude": "-122.041031"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-10-31T12:57:47.34660",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-10-31T12:57:24.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-10-31T12:57:47.34660",
+        "ivr-article": "north of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211031GG01269",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
