@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-11T21:04:42.03840"
+          "event-message-time-stamp": "2021-11-11T21:21:51.53256"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-11T21:04:42.03840"
+          "event-message-time-stamp": "2021-11-11T21:21:51.53256"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -382,7 +382,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-11T21:04:42.03840"
+          "event-message-time-stamp": "2021-11-11T21:21:51.53256"
         },
         "event-reference": {
           "event-identifier": "836146"
@@ -531,7 +531,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-11T21:04:42.03840"
+          "event-message-time-stamp": "2021-11-11T21:21:51.53256"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -665,7 +665,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-11T21:04:42.03840"
+          "event-message-time-stamp": "2021-11-11T21:21:51.53256"
         },
         "event-reference": {
           "event-identifier": "839176"
@@ -741,14 +741,310 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-880 Southbound south of Market St (Oakland). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on CA-29 Southbound at Robert Louis Stevenson State Park (Calistoga). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Major",
+      "created": "2021-11-12T05:12Z",
+      "updated": "2021-11-12T05:20Z",
+      "areas": {
+        "area": {
+          "name": "Napa",
+          "id": "5376101",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5376101/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.599961,
+          38.652017
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211111GG02362"
+      },
+      "roads": [
+        {
+          "name": "CA-29 S",
+          "from": "Robert Louis Stevenson State Park",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-12T05:20Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-11T21:21:51.53256"
+        },
+        "event-reference": {
+          "event-identifier": "840129"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-29 Southbound at Robert Louis Stevenson State Park (Calistoga). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-29 S",
+                  "link-from-road": "Robert Louis Stevenson State Park",
+                  "link-to-road": null,
+                  "link-from-city": "Calistoga",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.652017",
+                    "event-location-coordinates-longitude": "-122.599961"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-11T21:20:09.18220",
+              "valid-period": {
+                "event-timeline-estimated-duration": "49"
+              },
+              "start-time": "2021-11-11T21:20:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-11-11T21:20:09.18220",
+        "ivr-article": "at",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211111GG02362",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-85 Southbound at S De Anza Blvd (San Jose). Off Ramp blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Major",
+      "created": "2021-11-12T05:15Z",
+      "updated": "2021-11-12T05:15Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.03538,
+          37.303502
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211111GG02367"
+      },
+      "roads": [
+        {
+          "name": "CA-85 S",
+          "from": "S De Anza Blvd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-12T05:15Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-11T21:21:51.53256"
+        },
+        "event-reference": {
+          "event-identifier": "840131"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on CA-85 Southbound at S De Anza Blvd (San Jose). Off Ramp blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-85 S",
+                  "link-from-road": "S De Anza Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.303502",
+                    "event-location-coordinates-longitude": "-122.03538"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-11T21:15:58.17180",
+              "valid-period": {
+                "event-timeline-estimated-duration": "50.2"
+              },
+              "start-time": "2021-11-11T21:15:49.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-11-11T21:15:58.17180",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211111GG02367",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-880 Southbound south of Market St (Oakland). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2021-11-12T04:10Z",
-      "updated": "2021-11-12T05:03Z",
+      "created": "2021-11-12T05:19Z",
+      "updated": "2021-11-12T05:20Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -792,7 +1088,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -806,15 +1102,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-12T05:03Z/"
+          "2021-11-12T05:20Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-11T21:04:42.03840"
+          "event-message-time-stamp": "2021-11-11T21:21:51.53256"
         },
         "event-reference": {
-          "event-identifier": "840123"
+          "event-identifier": "840132"
         },
         "event-status": "new",
         "details": {
@@ -835,7 +1131,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-880 Southbound south of Market St (Oakland). Lane blocked. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-880 Southbound south of Market St (Oakland). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -858,11 +1154,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-11T21:03:26.52420",
+              "update-time": "2021-11-11T21:20:09.33280",
               "valid-period": {
                 "event-timeline-estimated-duration": "30.199999999999996"
               },
-              "start-time": "2021-11-11T21:03:18.00000",
+              "start-time": "2021-11-11T21:20:01.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -876,10 +1172,10 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-11T21:03:26.52420",
+        "ivr-lastUpdateDttm": "2021-11-11T21:20:09.33280",
         "ivr-article": "south of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
+        "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211111GG02247",
