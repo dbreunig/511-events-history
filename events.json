@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "811908"
@@ -508,7 +508,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -655,7 +655,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "841140"
@@ -799,7 +799,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "841180"
@@ -944,7 +944,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "841181"
@@ -1022,17 +1022,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Vehicle fire on I-80 Westbound west of Treasure Island Rd (San Francisco). Left and center lanes blocked. Expect delays.",
+      "headline": "CHP : Residual delays on I-80 Westbound west of Treasure Island Rd (San Francisco). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Severe traffic alert",
-          "Vehicle fire"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Severe",
+      "severity": "Unknown",
       "created": "2021-11-16T02:49Z",
-      "updated": "2021-11-16T03:11Z",
+      "updated": "2021-11-16T03:38Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -1072,11 +1069,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left and center lanes"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1095,7 +1092,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "841454"
@@ -1108,14 +1105,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Severe traffic alert"
-                      },
-                      {
-                        "incident": "Vehicle fire"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -1124,7 +1116,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Vehicle fire on I-80 Westbound west of Treasure Island Rd (San Francisco). Left and center lanes blocked. Expect delays."
+                      "event-description": "CHP : Residual delays on I-80 Westbound west of Treasure Island Rd (San Francisco). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -1147,9 +1139,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-15T19:11:19.90700",
+              "update-time": "2021-11-15T19:38:01.93570",
               "valid-period": {
-                "event-timeline-estimated-duration": "77.5"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-11-15T18:50:00.00000",
               "cleared-time": null,
@@ -1160,17 +1152,16 @@
             }
           }
         },
-        "EventImpact": "Severe",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-11-15T19:11:19.90700",
+        "ivr-lastUpdateDttm": "2021-11-15T19:38:01.93570",
         "ivr-article": "west of",
         "ivr-county": "San Francisco",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left and center lanes",
-        "ivr-impact": "Always play incident",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211115GG02183",
         "EventSourceName": "CHP",
@@ -1249,7 +1240,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "841457"
@@ -1398,7 +1389,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "841458"
@@ -1546,7 +1537,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "841461"
@@ -1631,7 +1622,7 @@
       },
       "severity": "Unknown",
       "created": "2021-11-16T03:30Z",
-      "updated": "2021-11-16T03:33Z",
+      "updated": "2021-11-16T03:46Z",
       "areas": {
         "area": {
           "name": "Napa",
@@ -1695,7 +1686,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-15T19:34:51.28834"
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
         },
         "event-reference": {
           "event-identifier": "841462"
@@ -1742,7 +1733,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-15T19:33:14.20920",
+              "update-time": "2021-11-15T19:46:00.38520",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1760,7 +1751,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-15T19:33:14.20920",
+        "ivr-lastUpdateDttm": "2021-11-15T19:46:00.38520",
         "ivr-article": "between",
         "ivr-county": "Napa",
         "ivr-laneStatus": "closed",
@@ -1768,6 +1759,302 @@
         "ivr-genOtherText": "One way traffic control in effect",
         "SourceEventID": "C29KA-0002-2021-11-15-19:01:00",
         "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on I-680 Southbound at Parish Rd (Fairfield). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-16T03:43Z",
+      "updated": "2021-11-16T03:46Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.103539,
+          38.101774
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211115GG02313"
+      },
+      "roads": [
+        {
+          "name": "I-680 S",
+          "from": "Parish Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-16T03:46Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
+        },
+        "event-reference": {
+          "event-identifier": "841463"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-680 Southbound at Parish Rd (Fairfield). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "Parish Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.101774",
+                    "event-location-coordinates-longitude": "-122.103539"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-15T19:46:32.13700",
+              "valid-period": {
+                "event-timeline-estimated-duration": "38.5"
+              },
+              "start-time": "2021-11-15T19:46:29.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-11-15T19:46:32.13700",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211115GG02313",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound east of Barrett Ave (Richmond). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-16T03:46Z",
+      "updated": "2021-11-16T03:47Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.325867,
+          37.938211
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211115GG02322"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Barrett Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-16T03:47Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-15T19:48:14.49045"
+        },
+        "event-reference": {
+          "event-identifier": "841464"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of Barrett Ave (Richmond). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Barrett Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Richmond",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.938211",
+                    "event-location-coordinates-longitude": "-122.325867"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-15T19:47:35.68620",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-11-15T19:47:32.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-11-15T19:47:35.68620",
+        "ivr-article": "east of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211115GG02322",
+        "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     }
