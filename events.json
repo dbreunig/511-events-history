@@ -75,7 +75,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "780447"
@@ -227,7 +227,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -375,7 +375,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -518,7 +518,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841180"
@@ -663,7 +663,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841181"
@@ -811,7 +811,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841457"
@@ -957,7 +957,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841549"
@@ -1035,17 +1035,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Police department activity on CA-12 Eastbound and Westbound east of Beck Ave (Fairfield). All lanes closed. Expect delays.",
+      "headline": "CHP : Residual delays on CA-12 Eastbound and Westbound east of Beck Ave (Fairfield). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Police department activity",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Moderate",
+      "severity": "Unknown",
       "created": "2021-11-16T23:29Z",
-      "updated": "2021-11-17T01:33Z",
+      "updated": "2021-11-17T02:30Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -1078,14 +1075,14 @@
           "name": "CA-12 W",
           "from": "Beck Ave",
           "direction": "Eastbound and Westbound",
-          "state": "CLOSED",
+          "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1104,7 +1101,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841771"
@@ -1117,14 +1114,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Police department activity"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -1133,7 +1125,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Police department activity on CA-12 Eastbound and Westbound east of Beck Ave (Fairfield). All lanes closed. Expect delays."
+                      "event-description": "CHP : Residual delays on CA-12 Eastbound and Westbound east of Beck Ave (Fairfield). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -1156,9 +1148,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-16T17:33:52.17860",
+              "update-time": "2021-11-16T18:30:47.58680",
               "valid-period": {
-                "event-timeline-estimated-duration": "43"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-11-16T15:29:00.00000",
               "cleared-time": null,
@@ -1169,17 +1161,16 @@
             }
           }
         },
-        "EventImpact": "Moderate",
-        "RoadClosed": "true",
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound and Westbound",
-        "ivr-lastUpdateDttm": "2021-11-16T17:33:52.17860",
+        "ivr-lastUpdateDttm": "2021-11-16T18:30:47.58680",
         "ivr-article": "east of",
         "ivr-county": "Solano",
-        "ivr-laneStatus": "closed",
+        "ivr-laneStatus": "open",
         "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
@@ -1256,7 +1247,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841787"
@@ -1346,7 +1337,7 @@
       },
       "severity": "Moderate",
       "created": "2021-11-17T01:24Z",
-      "updated": "2021-11-17T01:56Z",
+      "updated": "2021-11-17T02:25Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -1409,7 +1400,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841818"
@@ -1456,7 +1447,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-16T17:56:13.29780",
+              "update-time": "2021-11-16T18:25:00.93240",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
@@ -1474,7 +1465,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-16T17:56:13.29780",
+        "ivr-lastUpdateDttm": "2021-11-16T18:25:00.93240",
         "ivr-article": "south of",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "blocked",
@@ -1557,7 +1548,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841832"
@@ -1642,7 +1633,7 @@
       },
       "severity": "Moderate",
       "created": "2021-11-17T01:39Z",
-      "updated": "2021-11-17T01:40Z",
+      "updated": "2021-11-17T02:25Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1705,7 +1696,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841833"
@@ -1752,7 +1743,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-16T17:40:33.24580",
+              "update-time": "2021-11-16T18:25:00.79510",
               "valid-period": {
                 "event-timeline-estimated-duration": "37"
               },
@@ -1770,7 +1761,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-16T17:40:33.24580",
+        "ivr-lastUpdateDttm": "2021-11-16T18:25:00.79510",
         "ivr-article": "south of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
@@ -1794,7 +1785,7 @@
       },
       "severity": "Moderate",
       "created": "2021-11-17T01:40Z",
-      "updated": "2021-11-17T01:47Z",
+      "updated": "2021-11-17T02:25Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1857,7 +1848,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841836"
@@ -1912,7 +1903,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-16T17:47:59.53610",
+              "update-time": "2021-11-16T18:25:00.63790",
               "valid-period": {
                 "event-timeline-estimated-duration": "43.6"
               },
@@ -1930,7 +1921,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-11-16T17:47:59.53610",
+        "ivr-lastUpdateDttm": "2021-11-16T18:25:00.63790",
         "ivr-article": "east of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
@@ -1950,7 +1941,7 @@
       },
       "severity": "Major",
       "created": "2021-11-17T01:45Z",
-      "updated": "2021-11-17T01:46Z",
+      "updated": "2021-11-17T02:25Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -2013,7 +2004,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841839"
@@ -2060,7 +2051,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-16T17:46:55.42170",
+              "update-time": "2021-11-16T18:25:19.71040",
               "valid-period": {
                 "event-timeline-estimated-duration": "49"
               },
@@ -2078,7 +2069,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-11-16T17:46:55.42170",
+        "ivr-lastUpdateDttm": "2021-11-16T18:25:19.71040",
         "ivr-article": "entering at",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
@@ -2161,7 +2152,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841843"
@@ -2239,450 +2230,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fire on US-101 Southbound ramp to Cesar Chavez St (San Francisco). On Ramp affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Fire"
-      },
-      "severity": "Major",
-      "created": "2021-11-17T01:50Z",
-      "updated": "2021-11-17T01:53Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.402997,
-          37.752501
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211116GG02112"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "Cesar Chavez St",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "ramp to"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-17T01:52Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
-        },
-        "event-reference": {
-          "event-identifier": "841845"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Fire"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Fire on US-101 Southbound ramp to Cesar Chavez St (San Francisco). On Ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Cesar Chavez St",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.752501",
-                    "event-location-coordinates-longitude": "-122.402997"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-16T17:53:23.24470",
-              "valid-period": {
-                "event-timeline-estimated-duration": "52"
-              },
-              "start-time": "2021-11-16T17:52:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-16T17:53:23.24470",
-        "ivr-article": "ramp to",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "On Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211116GG02112",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-80 Eastbound east of Solano Ave (Richmond). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Moderate",
-      "created": "2021-11-17T02:10Z",
-      "updated": "2021-11-17T02:11Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.324825,
-          37.939611
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211116GG02160"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Solano Ave",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-17T02:10Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
-        },
-        "event-reference": {
-          "event-identifier": "841856"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-80 Eastbound east of Solano Ave (Richmond). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Solano Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Richmond",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.939611",
-                    "event-location-coordinates-longitude": "-122.324825"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-16T18:11:26.68640",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-11-16T18:10:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-11-16T18:11:26.68640",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211116GG02160",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Northbound at Tully Rd (San Jose). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-11-17T02:11Z",
-      "updated": "2021-11-17T02:13Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.827058,
-          37.314034
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211116GG02162"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Tully Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-17T02:12Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
-        },
-        "event-reference": {
-          "event-identifier": "841857"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Northbound at Tully Rd (San Jose). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Tully Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.314034",
-                    "event-location-coordinates-longitude": "-121.827058"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-16T18:13:02.49940",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2021-11-16T18:12:58.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-16T18:13:02.49940",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211116GG02162",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Disabled vehicle on I-280 Southbound north of El Monte Rd (Los Altos Hills). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -2753,7 +2300,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
           "event-identifier": "841858"
@@ -2831,162 +2378,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Residual delays on CA-17 Southbound at E Hamilton Ave (Campbell). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Moderate",
-      "created": "2021-11-17T02:13Z",
-      "updated": "2021-11-17T02:13Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.93737,
-          37.292202
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211116GG02167"
-      },
-      "roads": [
-        {
-          "name": "CA-17 S",
-          "from": "E Hamilton Ave",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-17T02:12Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
-        },
-        "event-reference": {
-          "event-identifier": "841859"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on CA-17 Southbound at E Hamilton Ave (Campbell). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-17 S",
-                  "link-from-road": "E Hamilton Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Campbell",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.292202",
-                    "event-location-coordinates-longitude": "-121.93737"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-16T18:13:34.53590",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-11-16T18:12:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-16T18:13:34.53590",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211116GG02167",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Southbound south of Page Mill Rd (Los Altos Hills). Right lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-880 Southbound exiting at Coleman Ave (San Jose). Off Ramp affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
-      "severity": "Moderate",
-      "created": "2021-11-17T02:14Z",
-      "updated": "2021-11-17T02:14Z",
+      "severity": "Major",
+      "created": "2021-11-17T02:29Z",
+      "updated": "2021-11-17T02:30Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -3006,8 +2405,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.16971,
-          37.391961
+          -121.921646,
+          37.346413
         ]
       },
       "source_type": {
@@ -3016,17 +2415,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211116GG02169"
+        "#text": "211116GG02200"
       },
       "roads": [
         {
-          "name": "I-280 S",
-          "from": "Page Mill Rd",
+          "name": "I-880 S",
+          "from": "Coleman Ave",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Off Ramp"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -3038,21 +2437,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "exiting at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-11-17T02:14Z/"
+          "2021-11-17T02:28Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
+          "event-message-time-stamp": "2021-11-16T18:30:59.87800"
         },
         "event-reference": {
-          "event-identifier": "841862"
+          "event-identifier": "841870"
         },
         "event-status": "new",
         "details": {
@@ -3073,7 +2472,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Southbound south of Page Mill Rd (Los Altos Hills). Right lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-880 Southbound exiting at Coleman Ave (San Jose). Off Ramp affected. Expect delays."
                     }
                   }
                 }
@@ -3083,24 +2482,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "Page Mill Rd",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "Coleman Ave",
                   "link-to-road": null,
-                  "link-from-city": "Los Altos Hills",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.391961",
-                    "event-location-coordinates-longitude": "-122.16971"
+                    "event-location-coordinates-latitude": "37.346413",
+                    "event-location-coordinates-longitude": "-121.921646"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-16T18:14:07.01170",
+              "update-time": "2021-11-16T18:30:05.34270",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "50.5"
               },
-              "start-time": "2021-11-16T18:14:02.00000",
+              "start-time": "2021-11-16T18:28:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -3109,166 +2508,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "3",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-16T18:14:07.01170",
-        "ivr-article": "south of",
+        "ivr-lastUpdateDttm": "2021-11-16T18:30:05.34270",
+        "ivr-article": "exiting at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
+        "ivr-totalLanes": "Off Ramp",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211116GG02169",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-37 Eastbound west of CA-121 (Unincorporated). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
-      },
-      "severity": "Minor",
-      "created": "2021-11-17T02:14Z",
-      "updated": "2021-11-17T02:14Z",
-      "areas": {
-        "area": {
-          "name": "Sonoma",
-          "id": "5397100",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5397100/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.449378,
-          38.15097
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211116GG02170"
-      },
-      "roads": [
-        {
-          "name": "CA-37 E",
-          "from": "CA-121",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-17T02:14Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-16T18:14:26.81815"
-        },
-        "event-reference": {
-          "event-identifier": "841863"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-37 Eastbound west of CA-121 (Unincorporated). Center Divider affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA097",
-                  "link-road-designator": "CA-37 E",
-                  "link-from-road": "CA-121",
-                  "link-to-road": null,
-                  "link-from-city": "Unincorporated",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.15097",
-                    "event-location-coordinates-longitude": "-122.449378"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-16T18:14:21.06450",
-              "valid-period": {
-                "event-timeline-estimated-duration": "23.5"
-              },
-              "start-time": "2021-11-16T18:14:02.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-11-16T18:14:21.06450",
-        "ivr-article": "west of",
-        "ivr-county": "Sonoma",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211116GG02170",
+        "SourceEventID": "211116GG02200",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
