@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-23T18:51:32.11203"
+          "event-message-time-stamp": "2021-11-23T19:04:54.87235"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-23T18:51:32.11203"
+          "event-message-time-stamp": "2021-11-23T19:04:54.87235"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -296,17 +296,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision with Injuries on I-680 Southbound north of Jacklin Rd (Milpitas). Left and center lanes blocked. Expect delays.",
+      "headline": "CHP : Residual delays on I-680 Southbound north of Jacklin Rd (Milpitas). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision with Injuries",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2021-11-24T02:07Z",
-      "updated": "2021-11-24T02:46Z",
+      "updated": "2021-11-24T03:03Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -346,11 +343,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left and center lanes"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -369,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-23T18:51:32.11203"
+          "event-message-time-stamp": "2021-11-23T19:04:54.87235"
         },
         "event-reference": {
           "event-identifier": "844585"
@@ -382,14 +379,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision with Injuries"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -398,7 +390,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision with Injuries on I-680 Southbound north of Jacklin Rd (Milpitas). Left and center lanes blocked. Expect delays."
+                      "event-description": "CHP : Residual delays on I-680 Southbound north of Jacklin Rd (Milpitas). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -421,9 +413,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-23T18:46:53.38590",
+              "update-time": "2021-11-23T19:03:29.55420",
               "valid-period": {
-                "event-timeline-estimated-duration": "58"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-11-23T18:08:00.00000",
               "cleared-time": null,
@@ -434,16 +426,16 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-23T18:46:53.38590",
+        "ivr-lastUpdateDttm": "2021-11-23T19:03:29.55420",
         "ivr-article": "north of",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left and center lanes",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211123GG02133",
@@ -453,162 +445,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-4 Westbound exiting at Bailey Rd (Pittsburg). Off Ramp affected. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Bridge work on US-101 Northbound at San Benito County Line (Gilroy). Right lane and shoulder closed until 4 AM. Tuesday, November 23, 2021 7:01 PM thru Wednesday, November 24, 2021 3:59 AM, Tuesday/Wednesday.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Bridge work"
       },
-      "severity": "Major",
-      "created": "2021-11-24T02:25Z",
-      "updated": "2021-11-24T02:26Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.937152,
-          38.019101
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211123GG02180"
-      },
-      "roads": [
-        {
-          "name": "CA-4 W",
-          "from": "Bailey Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "exiting at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-24T02:25Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-23T18:51:32.11203"
-        },
-        "event-reference": {
-          "event-identifier": "844597"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-4 Westbound exiting at Bailey Rd (Pittsburg). Off Ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 W",
-                  "link-from-road": "Bailey Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Pittsburg",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.019101",
-                    "event-location-coordinates-longitude": "-121.937152"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-23T18:26:02.21730",
-              "valid-period": {
-                "event-timeline-estimated-duration": "49"
-              },
-              "start-time": "2021-11-23T18:25:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-11-23T18:26:02.21730",
-        "ivr-article": "exiting at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Off Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211123GG02180",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-280 Northbound at Mclaughlin Ave (San Jose). 2nd lane from the left blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Moderate",
-      "created": "2021-11-24T02:28Z",
-      "updated": "2021-11-24T02:49Z",
+      "severity": "Unknown",
+      "created": "2021-11-24T02:27Z",
+      "updated": "2021-11-24T03:04Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -628,35 +472,35 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.857256,
-          37.336563
+          -121.54802,
+          36.9174
         ]
       },
       "source_type": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
+        "#text": "Caltrans"
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211123GG02195"
+        "#text": "C101KB-0008-2021-11-23-19:01:00"
       },
       "roads": [
         {
-          "name": "I-280 N",
-          "from": "Mclaughlin Ave",
+          "name": "US-101 N",
+          "from": "San Benito County Line",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
+            "#text": "Right lane and shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "until 4 AM"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -666,26 +510,26 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-24T02:49Z/"
+          "2021-11-24T03:01Z/2021-11-24T11:59Z"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-23T18:51:32.11203"
+          "event-message-time-stamp": "2021-11-23T19:04:54.87235"
         },
         "event-reference": {
-          "event-identifier": "844599"
+          "event-identifier": "844598"
         },
         "event-status": "new",
         "details": {
           "eventElementDetails": {
-            "event-element-sequence": "4",
+            "event-element-sequence": "2",
             "event-element-description": {
               "eventDescription": [
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Bridge work"
                     }
                   }
                 },
@@ -695,7 +539,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-280 Northbound at Mclaughlin Ave (San Jose). 2nd lane from the left blocked. Expect delays."
+                      "event-description": "Caltrans : Bridge work on US-101 Northbound at San Benito County Line (Gilroy). Right lane and shoulder closed until 4 AM. Tuesday, November 23, 2021 7:01 PM thru Wednesday, November 24, 2021 3:59 AM, Tuesday/Wednesday."
                     }
                   }
                 }
@@ -705,45 +549,45 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "Mclaughlin Ave",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "San Benito County Line",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Gilroy",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.336563",
-                    "event-location-coordinates-longitude": "-121.857256"
+                    "event-location-coordinates-latitude": "36.9174",
+                    "event-location-coordinates-longitude": "-121.54802"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-23T18:49:30.24000",
+              "update-time": "2021-11-23T19:04:35.55850",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.2"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2021-11-23T18:49:25.00000",
-              "cleared-time": null,
+              "start-time": "2021-11-23T19:01:00.00000",
+              "cleared-time": "2021-11-24T03:59:00.00000",
               "utc-offset": "-0800"
             },
             "event-element-source": {
-              "event-organization-reported-identifier": "1003"
+              "event-organization-reported-identifier": "1004"
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-23T18:49:30.24000",
+        "ivr-lastUpdateDttm": "2021-11-23T19:04:35.55850",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "2nd lane from the left",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211123GG02195",
-        "EventSourceName": "CHP",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Right lane and shoulder",
+        "ivr-genOtherText": "until 4 AM",
+        "SourceEventID": "C101KB-0008-2021-11-23-19:01:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     },
@@ -819,7 +663,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-23T18:51:32.11203"
+          "event-message-time-stamp": "2021-11-23T19:04:54.87235"
         },
         "event-reference": {
           "event-identifier": "844600"
@@ -897,154 +741,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-37 Westbound west of US-101 N (Novato). 2nd lane from the left affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Major",
-      "created": "2021-11-24T02:31Z",
-      "updated": "2021-11-24T02:35Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.543494016982,
-          38.0817989802925
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211123GG02201"
-      },
-      "roads": [
-        {
-          "name": "CA-37 W",
-          "from": "US-101 N",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-24T02:31Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-23T18:51:32.11203"
-        },
-        "event-reference": {
-          "event-identifier": "844601"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-37 Westbound west of US-101 N (Novato). 2nd lane from the left affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "CA-37 W",
-                  "link-from-road": "US-101 N",
-                  "link-to-road": null,
-                  "link-from-city": "Novato",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.0817989802925",
-                    "event-location-coordinates-longitude": "-122.543494016982"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-23T18:35:15.93040",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
-              },
-              "start-time": "2021-11-23T18:31:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-11-23T18:35:15.93040",
-        "ivr-article": "west of",
-        "ivr-county": "Marin",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "2nd lane from the left",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211123GG02201",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Hazard on I-280 Southbound north of Sand Hill Rd (Menlo Park). HOV affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -1115,7 +811,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-23T18:51:32.11203"
+          "event-message-time-stamp": "2021-11-23T19:04:54.87235"
         },
         "event-reference": {
           "event-identifier": "844604"
@@ -1263,7 +959,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-23T18:51:32.11203"
+          "event-message-time-stamp": "2021-11-23T19:04:54.87235"
         },
         "event-reference": {
           "event-identifier": "844609"
@@ -1335,6 +1031,154 @@
         "ivr-totalLanes": "Off Ramp",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211123GG02237",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-80 Westbound east of Bay Bridge - West Span (San Francisco). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Major",
+      "created": "2021-11-24T02:55Z",
+      "updated": "2021-11-24T03:03Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.377875,
+          37.798222
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211123GG02273"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Bay Bridge - West Span",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-24T02:56Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-23T19:04:54.87235"
+        },
+        "event-reference": {
+          "event-identifier": "844615"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-80 Westbound east of Bay Bridge - West Span (San Francisco). Left lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Bay Bridge - West Span",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.798222",
+                    "event-location-coordinates-longitude": "-122.377875"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-23T19:03:02.67950",
+              "valid-period": {
+                "event-timeline-estimated-duration": "48.7"
+              },
+              "start-time": "2021-11-23T18:56:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-11-23T19:03:02.67950",
+        "ivr-article": "east of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211123GG02273",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
