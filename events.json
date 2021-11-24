@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-24T07:05:11.25076"
+          "event-message-time-stamp": "2021-11-24T07:23:40.46678"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-24T07:05:11.25076"
+          "event-message-time-stamp": "2021-11-24T07:23:40.46678"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-24T07:05:11.25076"
+          "event-message-time-stamp": "2021-11-24T07:23:40.46678"
         },
         "event-reference": {
           "event-identifier": "844751"
@@ -444,21 +444,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Westbound at Main St (San Quentin). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-80 Eastbound at Treasure Island Rd (San Francisco). Off Ramp blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Hazard"
       },
-      "severity": "Moderate",
-      "created": "2021-11-24T15:04Z",
-      "updated": "2021-11-24T15:04Z",
+      "severity": "Severe",
+      "created": "2021-11-24T15:16Z",
+      "updated": "2021-11-24T15:18Z",
       "areas": {
         "area": {
-          "name": "Marin",
-          "id": "5370468",
+          "name": "San Francisco",
+          "id": "5391997",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
+            "@href": "http://geonames.org/5391997/"
           }
         }
       },
@@ -471,8 +471,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.477717,
-          37.942605
+          -122.366974,
+          37.808253
         ]
       },
       "source_type": {
@@ -481,21 +481,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211124GG00340"
+        "#text": "211124GG00356"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "Main St",
-          "direction": "Westbound",
+          "name": "I-80 E",
+          "from": "Treasure Island Rd",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Off Ramp"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -509,163 +509,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-24T15:04Z/"
+          "2021-11-24T15:18Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-24T07:05:11.25076"
+          "event-message-time-stamp": "2021-11-24T07:23:40.46678"
         },
         "event-reference": {
-          "event-identifier": "844756"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Westbound at Main St (San Quentin). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "Main St",
-                  "link-to-road": null,
-                  "link-from-city": "San Quentin",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.942605",
-                    "event-location-coordinates-longitude": "-122.477717"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-24T07:04:56.10300",
-              "valid-period": {
-                "event-timeline-estimated-duration": "29"
-              },
-              "start-time": "2021-11-24T07:04:37.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-11-24T07:04:56.10300",
-        "ivr-article": "at",
-        "ivr-county": "Marin",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211124GG00340",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Westbound east of Cherry Glen Rd (Vacaville). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-11-24T15:04Z",
-      "updated": "2021-11-24T15:04Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.016491,
-          38.337139
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211124GGFSP00043"
-      },
-      "roads": [
-        {
-          "name": "I-80 W",
-          "from": "Cherry Glen Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-24T15:04Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-24T07:05:11.25076"
-        },
-        "event-reference": {
-          "event-identifier": "844757"
+          "event-identifier": "844760"
         },
         "event-status": "new",
         "details": {
@@ -686,7 +538,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of Cherry Glen Rd (Vacaville). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound at Treasure Island Rd (San Francisco). Off Ramp blocked. Expect delays."
                     }
                   }
                 }
@@ -695,25 +547,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Cherry Glen Rd",
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Treasure Island Rd",
                   "link-to-road": null,
-                  "link-from-city": "Vacaville",
+                  "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.337139",
-                    "event-location-coordinates-longitude": "-122.016491"
+                    "event-location-coordinates-latitude": "37.808253",
+                    "event-location-coordinates-longitude": "-122.366974"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-24T07:04:43.58900",
+              "update-time": "2021-11-24T07:18:16.63450",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "73"
               },
-              "start-time": "2021-11-24T07:04:38.00000",
+              "start-time": "2021-11-24T07:18:11.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -722,18 +574,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Severe",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-11-24T07:04:43.58900",
-        "ivr-article": "east of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-eventClass": "5",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-24T07:18:16.63450",
+        "ivr-article": "at",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Off Ramp",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211124GGFSP00043",
+        "SourceEventID": "211124GG00356",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
