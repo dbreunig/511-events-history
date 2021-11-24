@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-24T10:04:38.94919"
+          "event-message-time-stamp": "2021-11-24T10:23:43.80385"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-24T10:04:38.94919"
+          "event-message-time-stamp": "2021-11-24T10:23:43.80385"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -296,14 +296,162 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-880 Southbound south of US-101 S (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound at I-680 N (Fairfield). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2021-11-24T17:36Z",
-      "updated": "2021-11-24T17:42Z",
+      "created": "2021-11-24T18:10Z",
+      "updated": "2021-11-24T18:11Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.1378,
+          38.21688
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211124GG00695"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "I-680 N",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-24T18:10Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-24T10:23:43.80385"
+        },
+        "event-reference": {
+          "event-identifier": "844787"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound at I-680 N (Fairfield). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "I-680 N",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.21688",
+                    "event-location-coordinates-longitude": "-122.1378"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-24T10:11:49.00710",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-11-24T10:10:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-11-24T10:11:49.00710",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211124GG00695",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-280 Northbound south of El Monte Rd (Los Altos Hills). Lanes affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-24T18:17Z",
+      "updated": "2021-11-24T18:17Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -323,8 +471,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.903556,
-          37.362028
+          -122.117037,
+          37.357261
         ]
       },
       "source_type": {
@@ -333,17 +481,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211124GG00607"
+        "#text": "211124GG00706"
       },
       "roads": [
         {
-          "name": "I-880 S",
-          "from": "US-101 S",
-          "direction": "Southbound",
+          "name": "I-280 N",
+          "from": "El Monte Rd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -361,15 +509,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-24T17:42Z/"
+          "2021-11-24T18:16Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-24T10:04:38.94919"
+          "event-message-time-stamp": "2021-11-24T10:23:43.80385"
         },
         "event-reference": {
-          "event-identifier": "844780"
+          "event-identifier": "844788"
         },
         "event-status": "new",
         "details": {
@@ -390,7 +538,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-880 Southbound south of US-101 S (San Jose). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-280 Northbound south of El Monte Rd (Los Altos Hills). Lanes affected. Expect delays."
                     }
                   }
                 }
@@ -400,24 +548,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "US-101 S",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "El Monte Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Los Altos Hills",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.362028",
-                    "event-location-coordinates-longitude": "-121.903556"
+                    "event-location-coordinates-latitude": "37.357261",
+                    "event-location-coordinates-longitude": "-122.117037"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-24T09:42:30.71410",
+              "update-time": "2021-11-24T10:17:05.64750",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2021-11-24T09:42:25.00000",
+              "start-time": "2021-11-24T10:16:59.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -430,35 +578,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-24T09:42:30.71410",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-11-24T10:17:05.64750",
         "ivr-article": "south of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211124GG00607",
+        "SourceEventID": "211124GG00706",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound north of Old Middlefield Way (Mountain View). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-880 Northbound south of 98TH Ave (Oakland). Center lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2021-11-24T17:51Z",
-      "updated": "2021-11-24T17:51Z",
+      "created": "2021-11-24T18:20Z",
+      "updated": "2021-11-24T18:21Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -471,8 +619,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.081123,
-          37.413077
+          -122.189129,
+          37.73255
         ]
       },
       "source_type": {
@@ -481,17 +629,313 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211124GG00645"
+        "#text": "211124GG00715"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Old Middlefield Way",
+          "name": "I-880 N",
+          "from": "98TH Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-24T18:20Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-24T10:23:43.80385"
+        },
+        "event-reference": {
+          "event-identifier": "844789"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of 98TH Ave (Oakland). Center lanes affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "98TH Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.73255",
+                    "event-location-coordinates-longitude": "-122.189129"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-24T10:21:08.29700",
+              "valid-period": {
+                "event-timeline-estimated-duration": "31"
+              },
+              "start-time": "2021-11-24T10:20:08.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-11-24T10:21:08.29700",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211124GG00715",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on I-80 Westbound at Waterman Blvd (Fairfield). On Ramp blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Major",
+      "created": "2021-11-24T18:23Z",
+      "updated": "2021-11-24T18:23Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.052997,
+          38.269666
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211124GG00723"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Waterman Blvd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "On Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-24T18:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-24T10:23:43.80385"
+        },
+        "event-reference": {
+          "event-identifier": "844790"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Westbound at Waterman Blvd (Fairfield). On Ramp blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Waterman Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.269666",
+                    "event-location-coordinates-longitude": "-122.052997"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-24T10:23:29.56670",
+              "valid-period": {
+                "event-timeline-estimated-duration": "53.5"
+              },
+              "start-time": "2021-11-24T10:23:15.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-11-24T10:23:29.56670",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "On Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211124GG00723",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-1 Southbound north of CA-17 N (Santa Cruz). Left shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-24T18:23Z",
+      "updated": "2021-11-24T18:23Z",
+      "areas": {
+        "area": {
+          "name": "Santa Cruz",
+          "id": "5393068",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393068/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.987939,
+          36.987356
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211124MY00113"
+      },
+      "roads": [
+        {
+          "name": "CA-1 S",
+          "from": "CA-17 N",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Left shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -509,15 +953,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-24T17:51Z/"
+          "2021-11-24T18:23Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-24T10:04:38.94919"
+          "event-message-time-stamp": "2021-11-24T10:23:43.80385"
         },
         "event-reference": {
-          "event-identifier": "844784"
+          "event-identifier": "844791"
         },
         "event-status": "new",
         "details": {
@@ -538,7 +982,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of Old Middlefield Way (Mountain View). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-1 Southbound north of CA-17 N (Santa Cruz). Left shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -547,25 +991,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Old Middlefield Way",
+                  "event-location-type-area": "CA087",
+                  "link-road-designator": "CA-1 S",
+                  "link-from-road": "CA-17 N",
                   "link-to-road": null,
-                  "link-from-city": "Mountain View",
+                  "link-from-city": "Santa Cruz",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.413077",
-                    "event-location-coordinates-longitude": "-122.081123"
+                    "event-location-coordinates-latitude": "36.987356",
+                    "event-location-coordinates-longitude": "-121.987939"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-24T09:51:56.86810",
+              "update-time": "2021-11-24T10:23:21.81560",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2021-11-24T09:51:51.00000",
+              "start-time": "2021-11-24T10:23:16.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -579,161 +1023,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-24T09:51:56.86810",
+        "ivr-lastUpdateDttm": "2021-11-24T10:23:21.81560",
         "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
+        "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Left shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211124GG00645",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound north of N 1ST St (San Jose). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-11-24T17:58Z",
-      "updated": "2021-11-24T17:58Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.918014,
-          37.372048
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211124GG00658"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "N 1ST St",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-24T17:58Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-24T10:04:38.94919"
-        },
-        "event-reference": {
-          "event-identifier": "844786"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of N 1ST St (San Jose). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "N 1ST St",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.372048",
-                    "event-location-coordinates-longitude": "-121.918014"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-24T09:58:14.28450",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-11-24T09:58:08.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-24T09:58:14.28450",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211124GG00658",
+        "SourceEventID": "211124MY00113",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
