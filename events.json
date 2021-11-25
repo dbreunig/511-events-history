@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T15:22:52.71243"
+          "event-message-time-stamp": "2021-11-25T15:34:31.61636"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T15:22:52.71243"
+          "event-message-time-stamp": "2021-11-25T15:34:31.61636"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T15:22:52.71243"
+          "event-message-time-stamp": "2021-11-25T15:34:31.61636"
         },
         "event-reference": {
           "event-identifier": "845184"
@@ -444,21 +444,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Westbound at San Pablo Ave (Crockett). Off Ramp blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on US-101 Southbound north of Hearn Ave (Santa Rosa). Right lane and shoulder blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
-      "severity": "Major",
-      "created": "2021-11-25T23:06Z",
-      "updated": "2021-11-25T23:11Z",
+      "severity": "Moderate",
+      "created": "2021-11-25T23:27Z",
+      "updated": "2021-11-25T23:27Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "Sonoma",
+          "id": "5397100",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5397100/"
           }
         }
       },
@@ -471,8 +471,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.225996,
-          38.056308
+          -122.71609,
+          38.415917
         ]
       },
       "source_type": {
@@ -481,17 +481,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211125GG01407"
+        "#text": "211125GG01446"
       },
       "roads": [
         {
-          "name": "I-80 W",
-          "from": "San Pablo Ave",
-          "direction": "Westbound",
+          "name": "US-101 S",
+          "from": "Hearn Ave",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
+            "#text": "Right lane and shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -503,21 +503,169 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-11-25T23:11Z/"
+          "2021-11-25T23:27Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T15:22:52.71243"
+          "event-message-time-stamp": "2021-11-25T15:34:31.61636"
         },
         "event-reference": {
-          "event-identifier": "845186"
+          "event-identifier": "845187"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Southbound north of Hearn Ave (Santa Rosa). Right lane and shoulder blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Hearn Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Santa Rosa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.415917",
+                    "event-location-coordinates-longitude": "-122.71609"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-25T15:27:57.85260",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2021-11-25T15:27:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-11-25T15:27:57.85260",
+        "ivr-article": "north of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane and shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211125GG01446",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Bicentennial Way (Santa Rosa). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-25T23:27Z",
+      "updated": "2021-11-25T23:28Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.727671,
+          38.466827
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211125GG01443"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Bicentennial Way",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-25T23:27Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-25T15:34:31.61636"
+        },
+        "event-reference": {
+          "event-identifier": "845188"
         },
         "event-status": "new",
         "details": {
@@ -538,7 +686,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Westbound at San Pablo Ave (Crockett). Off Ramp blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Bicentennial Way (Santa Rosa). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -547,25 +695,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "San Pablo Ave",
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Bicentennial Way",
                   "link-to-road": null,
-                  "link-from-city": "Crockett",
+                  "link-from-city": "Santa Rosa",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.056308",
-                    "event-location-coordinates-longitude": "-122.225996"
+                    "event-location-coordinates-latitude": "38.466827",
+                    "event-location-coordinates-longitude": "-122.727671"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-25T15:11:41.73560",
+              "update-time": "2021-11-25T15:28:33.56840",
               "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2021-11-25T15:11:33.00000",
+              "start-time": "2021-11-25T15:27:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -574,18 +722,166 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-11-25T15:11:41.73560",
-        "ivr-article": "at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Off Ramp",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-11-25T15:28:33.56840",
+        "ivr-article": "south of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211125GG01407",
+        "SourceEventID": "211125GG01443",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-680 Southbound north of Mckee Rd (San Jose). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-25T23:31Z",
+      "updated": "2021-11-25T23:31Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.850434,
+          37.372053
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211125GG01458"
+      },
+      "roads": [
+        {
+          "name": "I-680 S",
+          "from": "Mckee Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-25T23:31Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-25T15:34:31.61636"
+        },
+        "event-reference": {
+          "event-identifier": "845189"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-680 Southbound north of Mckee Rd (San Jose). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "Mckee Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.372053",
+                    "event-location-coordinates-longitude": "-121.850434"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-25T15:31:36.61450",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-11-25T15:31:28.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-11-25T15:31:36.61450",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211125GG01458",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
