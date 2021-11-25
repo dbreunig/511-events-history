@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T07:23:20.99253"
+          "event-message-time-stamp": "2021-11-25T07:37:01.58890"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T07:23:20.99253"
+          "event-message-time-stamp": "2021-11-25T07:37:01.58890"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T07:23:20.99253"
+          "event-message-time-stamp": "2021-11-25T07:37:01.58890"
         },
         "event-reference": {
           "event-identifier": "845082"
@@ -514,7 +514,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T07:23:20.99253"
+          "event-message-time-stamp": "2021-11-25T07:37:01.58890"
         },
         "event-reference": {
           "event-identifier": "845086"
@@ -592,14 +592,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-80 Westbound east of Pinole Valley Rd (Pinole). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-80 Westbound east of Pinole Valley Rd (Pinole). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Moderate",
       "created": "2021-11-25T14:35Z",
-      "updated": "2021-11-25T15:23Z",
+      "updated": "2021-11-25T15:32Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -643,7 +643,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -657,12 +657,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-25T15:23Z/"
+          "2021-11-25T15:32Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T07:23:20.99253"
+          "event-message-time-stamp": "2021-11-25T07:37:01.58890"
         },
         "event-reference": {
           "event-identifier": "845095"
@@ -686,7 +686,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Westbound east of Pinole Valley Rd (Pinole). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Westbound east of Pinole Valley Rd (Pinole). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -709,11 +709,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-25T07:23:17.62930",
+              "update-time": "2021-11-25T07:32:42.81720",
               "valid-period": {
                 "event-timeline-estimated-duration": "29.5"
               },
-              "start-time": "2021-11-25T07:23:10.00000",
+              "start-time": "2021-11-25T07:32:35.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -727,13 +727,309 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-11-25T07:23:17.62930",
+        "ivr-lastUpdateDttm": "2021-11-25T07:32:42.81720",
         "ivr-article": "east of",
         "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "blocked",
+        "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211125GG00381",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on US-101 Southbound at 7TH St (Santa Rosa). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-25T15:24Z",
+      "updated": "2021-11-25T15:32Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.719514,
+          38.439191
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211125GG00416"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "7TH St",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-25T15:32Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-25T07:37:01.58890"
+        },
+        "event-reference": {
+          "event-identifier": "845098"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on US-101 Southbound at 7TH St (Santa Rosa). Left lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "7TH St",
+                  "link-to-road": null,
+                  "link-from-city": "Santa Rosa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.439191",
+                    "event-location-coordinates-longitude": "-122.719514"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-25T07:32:42.56680",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.2"
+              },
+              "start-time": "2021-11-25T07:32:35.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-11-25T07:32:42.56680",
+        "ivr-article": "at",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211125GG00416",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on I-80 Westbound at N Texas St (Fairfield). All lanes open. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Unknown",
+      "created": "2021-11-25T15:35Z",
+      "updated": "2021-11-25T15:35Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.034061,
+          38.299835
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211124GG02638"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "N Texas St",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "open"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-25T15:35Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-25T07:37:01.58890"
+        },
+        "event-reference": {
+          "event-identifier": "845099"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Westbound at N Texas St (Fairfield). All lanes open. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "N Texas St",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.299835",
+                    "event-location-coordinates-longitude": "-122.034061"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-25T07:35:51.30030",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2021-11-25T07:35:43.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-11-25T07:35:51.30030",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211124GG02638",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
