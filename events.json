@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T05:11:04.13482"
+          "event-message-time-stamp": "2021-11-25T05:25:31.40868"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T05:11:04.13482"
+          "event-message-time-stamp": "2021-11-25T05:25:31.40868"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T05:11:04.13482"
+          "event-message-time-stamp": "2021-11-25T05:25:31.40868"
         },
         "event-reference": {
           "event-identifier": "845079"
@@ -444,14 +444,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert on US-101 Northbound north of Ralston Ave (Belmont). All lanes blocked. Expect delays.",
+      "headline": "CHP : Severe traffic alert on US-101 Northbound north of Ralston Ave (Belmont). On Ramp affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Severe traffic alert"
       },
       "severity": "Severe",
       "created": "2021-11-25T11:01Z",
-      "updated": "2021-11-25T13:00Z",
+      "updated": "2021-11-25T13:22Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -488,14 +488,14 @@
           "name": "US-101 N",
           "from": "Ralston Ave",
           "direction": "Northbound",
-          "state": "CLOSED",
+          "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
+            "#text": "On Ramp"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -509,12 +509,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-25T13:00Z/"
+          "2021-11-25T13:21Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T05:11:04.13482"
+          "event-message-time-stamp": "2021-11-25T05:25:31.40868"
         },
         "event-reference": {
           "event-identifier": "845082"
@@ -538,7 +538,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert on US-101 Northbound north of Ralston Ave (Belmont). All lanes blocked. Expect delays."
+                      "event-description": "CHP : Severe traffic alert on US-101 Northbound north of Ralston Ave (Belmont). On Ramp affected. Expect delays."
                     }
                   }
                 }
@@ -561,11 +561,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-25T05:00:11.19160",
+              "update-time": "2021-11-25T05:22:06.31040",
               "valid-period": {
                 "event-timeline-estimated-duration": "67"
               },
-              "start-time": "2021-11-25T05:00:04.00000",
+              "start-time": "2021-11-25T05:21:59.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -575,16 +575,15 @@
           }
         },
         "EventImpact": "Severe",
-        "RoadClosed": "true",
+        "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "5",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-25T05:00:11.19160",
+        "ivr-lastUpdateDttm": "2021-11-25T05:22:06.31040",
         "ivr-article": "north of",
         "ivr-county": "San Mateo",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "On Ramp",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211125GG00213",
         "EventSourceName": "CHP",
@@ -593,162 +592,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Southbound north of San Bruno Ave E (San Bruno). Off Ramp affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-80 Eastbound east of San Pablo Ave (Crockett). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Major",
-      "created": "2021-11-25T11:06Z",
-      "updated": "2021-11-25T11:53Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.402881,
-          37.631763
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211125GG00222"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "San Bruno Ave E",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-25T11:53Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-25T05:11:04.13482"
-        },
-        "event-reference": {
-          "event-identifier": "845083"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Southbound north of San Bruno Ave E (San Bruno). Off Ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "San Bruno Ave E",
-                  "link-to-road": null,
-                  "link-from-city": "San Bruno",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.631763",
-                    "event-location-coordinates-longitude": "-122.402881"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-25T03:53:29.28210",
-              "valid-period": {
-                "event-timeline-estimated-duration": "49"
-              },
-              "start-time": "2021-11-25T03:53:22.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-25T03:53:29.28210",
-        "ivr-article": "north of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Off Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211125GG00222",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Eastbound east of San Pablo Ave (Crockett). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Major",
       "created": "2021-11-25T11:40Z",
-      "updated": "2021-11-25T13:01Z",
+      "updated": "2021-11-25T13:20Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -806,12 +657,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-25T13:01Z/"
+          "2021-11-25T13:19Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T05:11:04.13482"
+          "event-message-time-stamp": "2021-11-25T05:25:31.40868"
         },
         "event-reference": {
           "event-identifier": "845086"
@@ -825,7 +676,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Traffic Collision with Injuries"
                     }
                   }
                 },
@@ -835,7 +686,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Eastbound east of San Pablo Ave (Crockett). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Eastbound east of San Pablo Ave (Crockett). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -858,11 +709,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-25T05:01:13.86280",
+              "update-time": "2021-11-25T05:20:01.12810",
               "valid-period": {
-                "event-timeline-estimated-duration": "49"
+                "event-timeline-estimated-duration": "53.5"
               },
-              "start-time": "2021-11-25T05:01:06.00000",
+              "start-time": "2021-11-25T05:19:53.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -876,7 +727,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-11-25T05:01:13.86280",
+        "ivr-lastUpdateDttm": "2021-11-25T05:20:01.12810",
         "ivr-article": "east of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
@@ -896,7 +747,7 @@
       },
       "severity": "Minor",
       "created": "2021-11-25T13:02Z",
-      "updated": "2021-11-25T13:09Z",
+      "updated": "2021-11-25T13:16Z",
       "areas": {
         "area": {
           "name": "Napa",
@@ -954,12 +805,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-25T13:09Z/"
+          "2021-11-25T13:16Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-25T05:11:04.13482"
+          "event-message-time-stamp": "2021-11-25T05:25:31.40868"
         },
         "event-reference": {
           "event-identifier": "845089"
@@ -1006,11 +857,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-25T05:09:34.45590",
+              "update-time": "2021-11-25T05:16:53.41740",
               "valid-period": {
                 "event-timeline-estimated-duration": "23.5"
               },
-              "start-time": "2021-11-25T05:09:27.00000",
+              "start-time": "2021-11-25T05:16:46.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1024,7 +875,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "1",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-25T05:09:34.45590",
+        "ivr-lastUpdateDttm": "2021-11-25T05:16:53.41740",
         "ivr-article": "at",
         "ivr-county": "Napa",
         "ivr-laneStatus": "affected",
