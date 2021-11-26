@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-26T15:05:09.53897"
+          "event-message-time-stamp": "2021-11-26T15:22:52.58078"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-26T15:05:09.53897"
+          "event-message-time-stamp": "2021-11-26T15:22:52.58078"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -296,14 +296,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-880 Southbound at Stevens Creek Blvd (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Fire on CA-87 Northbound at I-280 S (San Jose). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Fire"
       },
       "severity": "Moderate",
-      "created": "2021-11-26T22:53Z",
-      "updated": "2021-11-26T22:53Z",
+      "created": "2021-11-26T23:04Z",
+      "updated": "2021-11-26T23:12Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -323,8 +323,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.940876,
-          37.327992
+          -121.89929,
+          37.321875
         ]
       },
       "source_type": {
@@ -333,13 +333,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211126GG01342"
+        "#text": "211126GG01372"
       },
       "roads": [
         {
-          "name": "I-880 S",
-          "from": "Stevens Creek Blvd",
-          "direction": "Southbound",
+          "name": "CA-87 N",
+          "from": "I-280 S",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-26T23:12Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-26T15:22:52.58078"
+        },
+        "event-reference": {
+          "event-identifier": "845366"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on CA-87 Northbound at I-280 S (San Jose). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-87 N",
+                  "link-from-road": "I-280 S",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.321875",
+                    "event-location-coordinates-longitude": "-121.89929"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-26T15:12:58.75470",
+              "valid-period": {
+                "event-timeline-estimated-duration": "32"
+              },
+              "start-time": "2021-11-26T15:12:49.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-11-26T15:12:58.75470",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211126GG01372",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-12 Eastbound at Walters Rd (Suisun City). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-26T23:08Z",
+      "updated": "2021-11-26T23:15Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.989829,
+          38.24011
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211126GG01378"
+      },
+      "roads": [
+        {
+          "name": "CA-12 E",
+          "from": "Walters Rd",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -361,15 +509,311 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-26T22:52Z/"
+          "2021-11-26T23:14Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-26T15:05:09.53897"
+          "event-message-time-stamp": "2021-11-26T15:22:52.58078"
         },
         "event-reference": {
-          "event-identifier": "845365"
+          "event-identifier": "845368"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-12 Eastbound at Walters Rd (Suisun City). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "CA-12 E",
+                  "link-from-road": "Walters Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Suisun City",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.24011",
+                    "event-location-coordinates-longitude": "-121.989829"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-26T15:15:04.60780",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2021-11-26T15:14:54.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-26T15:15:04.60780",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211126GG01378",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on I-80 Westbound at Waterman Blvd (Fairfield). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-26T23:09Z",
+      "updated": "2021-11-26T23:21Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.047378,
+          38.276293
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211126GG01389"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Waterman Blvd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-26T23:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-26T15:22:52.58078"
+        },
+        "event-reference": {
+          "event-identifier": "845370"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on I-80 Westbound at Waterman Blvd (Fairfield). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Waterman Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.276293",
+                    "event-location-coordinates-longitude": "-122.047378"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-26T15:21:22.59160",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29.5"
+              },
+              "start-time": "2021-11-26T15:21:12.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-11-26T15:21:22.59160",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211126GG01389",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Eastbound east of N Flynn Rd (Livermore). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-26T23:10Z",
+      "updated": "2021-11-26T23:12Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.662296,
+          37.71868
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211126GG01394"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "N Flynn Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-26T23:11Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-26T15:22:52.58078"
+        },
+        "event-reference": {
+          "event-identifier": "845372"
         },
         "event-status": "new",
         "details": {
@@ -390,7 +834,155 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-880 Southbound at Stevens Creek Blvd (San Jose). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound east of N Flynn Rd (Livermore). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "N Flynn Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Livermore",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.71868",
+                    "event-location-coordinates-longitude": "-121.662296"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-26T15:12:19.49200",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-11-26T15:11:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-26T15:12:19.49200",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211126GG01394",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on CA-85 Southbound at I-280 S (Sunnyvale). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-26T23:12Z",
+      "updated": "2021-11-26T23:13Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.05571,
+          37.332535
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211126GG01403"
+      },
+      "roads": [
+        {
+          "name": "CA-85 S",
+          "from": "I-280 S",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-26T23:12Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-26T15:22:52.58078"
+        },
+        "event-reference": {
+          "event-identifier": "845373"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on CA-85 Southbound at I-280 S (Sunnyvale). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -400,24 +992,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "Stevens Creek Blvd",
+                  "link-road-designator": "CA-85 S",
+                  "link-from-road": "I-280 S",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Sunnyvale",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.327992",
-                    "event-location-coordinates-longitude": "-121.940876"
+                    "event-location-coordinates-latitude": "37.332535",
+                    "event-location-coordinates-longitude": "-122.05571"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-26T14:53:06.25210",
+              "update-time": "2021-11-26T15:13:04.74960",
               "valid-period": {
                 "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2021-11-26T14:52:56.00000",
+              "start-time": "2021-11-26T15:12:48.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -431,13 +1023,161 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-26T14:53:06.25210",
+        "ivr-lastUpdateDttm": "2021-11-26T15:13:04.74960",
         "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211126GG01403",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-17 Southbound south of Summit Rd (Los Gatos). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-26T23:19Z",
+      "updated": "2021-11-26T23:19Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.984939,
+          37.143406
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211126MY00184"
+      },
+      "roads": [
+        {
+          "name": "CA-17 S",
+          "from": "Summit Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-26T23:19Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-26T15:22:52.58078"
+        },
+        "event-reference": {
+          "event-identifier": "845375"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-17 Southbound south of Summit Rd (Los Gatos). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-17 S",
+                  "link-from-road": "Summit Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Los Gatos",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.143406",
+                    "event-location-coordinates-longitude": "-121.984939"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-26T15:19:16.13740",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2021-11-26T15:19:06.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-11-26T15:19:16.13740",
+        "ivr-article": "south of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211126GG01342",
+        "SourceEventID": "211126MY00184",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
