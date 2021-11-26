@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-26T13:48:23.46284"
+          "event-message-time-stamp": "2021-11-26T14:05:07.72449"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-26T13:48:23.46284"
+          "event-message-time-stamp": "2021-11-26T14:05:07.72449"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -296,21 +296,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Northbound north of Industrial St (San Francisco). Right lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound west of Redwood Pky (Vallejo). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2021-11-26T21:07Z",
-      "updated": "2021-11-26T21:07Z",
+      "created": "2021-11-26T21:51Z",
+      "updated": "2021-11-26T22:03Z",
       "areas": {
         "area": {
-          "name": "San Francisco",
-          "id": "5391997",
+          "name": "Solano",
+          "id": "5396987",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
+            "@href": "http://geonames.org/5396987/"
           }
         }
       },
@@ -323,8 +323,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.412227,
-          37.73313
+          -122.230255,
+          38.120224
         ]
       },
       "source_type": {
@@ -333,17 +333,165 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211126GG01068"
+        "#text": "211126GG01179"
       },
       "roads": [
         {
-          "name": "I-280 N",
-          "from": "Industrial St",
-          "direction": "Northbound",
+          "name": "I-80 E",
+          "from": "Redwood Pky",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-26T22:03Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-26T14:05:07.72449"
+        },
+        "event-reference": {
+          "event-identifier": "845348"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound west of Redwood Pky (Vallejo). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Redwood Pky",
+                  "link-to-road": null,
+                  "link-from-city": "Vallejo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.120224",
+                    "event-location-coordinates-longitude": "-122.230255"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-26T14:03:57.50020",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29"
+              },
+              "start-time": "2021-11-26T14:03:47.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-26T14:03:57.50020",
+        "ivr-article": "west of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211126GG01179",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-280 Southbound north of Mclaughlin Ave (San Jose). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-26T21:52Z",
+      "updated": "2021-11-26T22:01Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.85864,
+          37.335352
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211126GG01180"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "Mclaughlin Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -361,15 +509,163 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-26T21:07Z/"
+          "2021-11-26T22:01Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-26T13:48:23.46284"
+          "event-message-time-stamp": "2021-11-26T14:05:07.72449"
         },
         "event-reference": {
-          "event-identifier": "845342"
+          "event-identifier": "845349"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-280 Southbound north of Mclaughlin Ave (San Jose). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "Mclaughlin Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.335352",
+                    "event-location-coordinates-longitude": "-121.85864"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-26T14:01:51.66860",
+              "valid-period": {
+                "event-timeline-estimated-duration": "25.2"
+              },
+              "start-time": "2021-11-26T14:01:42.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-11-26T14:01:51.66860",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211126GG01180",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound east of Grand Ave (Oakland). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-26T22:01Z",
+      "updated": "2021-11-26T22:01Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.241497,
+          37.808361
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211126GG01206"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Grand Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-26T22:01Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-26T14:05:07.72449"
+        },
+        "event-reference": {
+          "event-identifier": "845350"
         },
         "event-status": "new",
         "details": {
@@ -390,7 +686,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Northbound north of Industrial St (San Francisco). Right lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of Grand Ave (Oakland). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -399,25 +695,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "Industrial St",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Grand Ave",
                   "link-to-road": null,
-                  "link-from-city": "San Francisco",
+                  "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.73313",
-                    "event-location-coordinates-longitude": "-122.412227"
+                    "event-location-coordinates-latitude": "37.808361",
+                    "event-location-coordinates-longitude": "-122.241497"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-26T13:07:16.36000",
+              "update-time": "2021-11-26T14:01:51.58150",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2021-11-26T13:07:06.00000",
+              "start-time": "2021-11-26T14:01:41.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -430,14 +726,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-26T13:07:16.36000",
-        "ivr-article": "north of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-11-26T14:01:51.58150",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211126GG01068",
+        "SourceEventID": "211126GG01206",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
