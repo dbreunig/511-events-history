@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T11:20:11.59598"
+          "event-message-time-stamp": "2021-11-27T11:33:31.72490"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T11:20:11.59598"
+          "event-message-time-stamp": "2021-11-27T11:33:31.72490"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -296,14 +296,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-121 Northbound area of CA-12 (Unincorporated). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on CA-121 Northbound area of CA-12 (Unincorporated). Lane blocked. One way traffic control in effect.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
       "created": "2021-11-27T18:47Z",
-      "updated": "2021-11-27T18:55Z",
+      "updated": "2021-11-27T19:29Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -340,7 +340,7 @@
           "name": "CA-121",
           "from": "CA-12",
           "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
+          "state": "SINGLE_LANE_ALTERNATING",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "Lane"
@@ -351,7 +351,7 @@
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "One way traffic control in effect"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T11:20:11.59598"
+          "event-message-time-stamp": "2021-11-27T11:33:31.72490"
         },
         "event-reference": {
           "event-identifier": "845527"
@@ -390,7 +390,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-121 Northbound area of CA-12 (Unincorporated). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on CA-121 Northbound area of CA-12 (Unincorporated). Lane blocked. One way traffic control in effect."
                     }
                   }
                 }
@@ -413,7 +413,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-27T10:55:36.27170",
+              "update-time": "2021-11-27T11:29:15.68190",
               "valid-period": {
                 "event-timeline-estimated-duration": "34"
               },
@@ -431,12 +431,12 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-27T10:55:36.27170",
+        "ivr-lastUpdateDttm": "2021-11-27T11:29:15.68190",
         "ivr-article": "area of",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
+        "ivr-genOtherText": "One way traffic control in effect",
         "SourceEventID": "211127GG00750",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
@@ -444,14 +444,310 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-87 Southbound north of W Capitol Expy (San Jose). Right lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound at CA-13 N-I-80 E Ramp (Berkeley). HOV affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2021-11-27T19:02Z",
-      "updated": "2021-11-27T19:16Z",
+      "created": "2021-11-27T19:21Z",
+      "updated": "2021-11-27T19:29Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.299383,
+          37.851564
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211127GG00819"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "CA-13 N-I-80 E Ramp",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "HOV"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-27T19:29Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-27T11:33:31.72490"
+        },
+        "event-reference": {
+          "event-identifier": "845531"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound at CA-13 N-I-80 E Ramp (Berkeley). HOV affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "CA-13 N-I-80 E Ramp",
+                  "link-to-road": null,
+                  "link-from-city": "Berkeley",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.851564",
+                    "event-location-coordinates-longitude": "-122.299383"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-27T11:29:28.14420",
+              "valid-period": {
+                "event-timeline-estimated-duration": "25"
+              },
+              "start-time": "2021-11-27T11:29:27.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-27T11:29:28.14420",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "HOV",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211127GG00819",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-205 Eastbound east of N MacArthur Dr (Tracy). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-27T19:25Z",
+      "updated": "2021-11-27T19:26Z",
+      "areas": {
+        "area": {
+          "name": "San Joaquin",
+          "id": "5392126",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392126/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.410691,
+          37.764645
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211127ST00145"
+      },
+      "roads": [
+        {
+          "name": "I-205 E",
+          "from": "N MacArthur Dr",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-27T19:26Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-27T11:33:31.72490"
+        },
+        "event-reference": {
+          "event-identifier": "845532"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-205 Eastbound east of N MacArthur Dr (Tracy). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": null,
+                  "link-road-designator": "I-205 E",
+                  "link-from-road": "N MacArthur Dr",
+                  "link-to-road": null,
+                  "link-from-city": "Tracy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.764645",
+                    "event-location-coordinates-longitude": "-121.410691"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-27T11:26:19.17370",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-11-27T11:26:18.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-27T11:26:19.17370",
+        "ivr-article": "east of",
+        "ivr-county": "San Joaquin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211127ST00145",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-152 Eastbound west of Watsonville Rd (Gilroy). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Minor",
+      "created": "2021-11-27T19:31Z",
+      "updated": "2021-11-27T19:31Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -471,8 +767,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.862441,
-          37.272918
+          -121.681667,
+          37.003611
         ]
       },
       "source_type": {
@@ -481,21 +777,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211127GG00783"
+        "#text": "211127MY00110"
       },
       "roads": [
         {
-          "name": "CA-87 S",
-          "from": "W Capitol Expy",
-          "direction": "Southbound",
+          "name": "CA-152",
+          "from": "Watsonville Rd",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -503,21 +799,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-11-27T19:16Z/"
+          "2021-11-27T19:31Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T11:20:11.59598"
+          "event-message-time-stamp": "2021-11-27T11:33:31.72490"
         },
         "event-reference": {
-          "event-identifier": "845530"
+          "event-identifier": "845533"
         },
         "event-status": "new",
         "details": {
@@ -528,7 +824,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision with Injuries"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -538,7 +834,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-87 Southbound north of W Capitol Expy (San Jose). Right lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-152 Eastbound west of Watsonville Rd (Gilroy). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -548,24 +844,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-87 S",
-                  "link-from-road": "W Capitol Expy",
+                  "link-road-designator": "CA-152",
+                  "link-from-road": "Watsonville Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Gilroy",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.272918",
-                    "event-location-coordinates-longitude": "-121.862441"
+                    "event-location-coordinates-latitude": "37.003611",
+                    "event-location-coordinates-longitude": "-121.681667"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-27T11:16:50.67130",
+              "update-time": "2021-11-27T11:31:34.85770",
               "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
+                "event-timeline-estimated-duration": "13"
               },
-              "start-time": "2021-11-27T11:16:50.00000",
+              "start-time": "2021-11-27T11:31:34.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -574,18 +870,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-27T11:16:50.67130",
-        "ivr-article": "north of",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-27T11:31:34.85770",
+        "ivr-article": "west of",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211127GG00783",
+        "SourceEventID": "211127MY00110",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
