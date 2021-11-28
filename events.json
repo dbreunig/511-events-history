@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T13:04:51.26357"
+          "event-message-time-stamp": "2021-11-28T13:21:18.97983"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -210,7 +210,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T13:04:51.26357"
+          "event-message-time-stamp": "2021-11-28T13:21:18.97983"
         },
         "event-reference": {
           "event-identifier": "811908"
@@ -352,7 +352,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T13:04:51.26357"
+          "event-message-time-stamp": "2021-11-28T13:21:18.97983"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -502,7 +502,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T13:04:51.26357"
+          "event-message-time-stamp": "2021-11-28T13:21:18.97983"
         },
         "event-reference": {
           "event-identifier": "845746"
@@ -656,7 +656,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T13:04:51.26357"
+          "event-message-time-stamp": "2021-11-28T13:21:18.97983"
         },
         "event-reference": {
           "event-identifier": "845813"
@@ -804,7 +804,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T13:04:51.26357"
+          "event-message-time-stamp": "2021-11-28T13:21:18.97983"
         },
         "event-reference": {
           "event-identifier": "845815"
@@ -876,6 +876,450 @@
         "ivr-totalLanes": "Left lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211128GG01188",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-680 Northbound south of Berryessa Rd (San Jose). 3rd lane from the left affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-28T21:06Z",
+      "updated": "2021-11-28T21:20Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.858201,
+          37.38018
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211128GG01209"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "Berryessa Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "3rd lane from the left"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-28T21:19Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-28T13:21:18.97983"
+        },
+        "event-reference": {
+          "event-identifier": "845818"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-680 Northbound south of Berryessa Rd (San Jose). 3rd lane from the left affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Berryessa Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.38018",
+                    "event-location-coordinates-longitude": "-121.858201"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-28T13:20:04.95140",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.2"
+              },
+              "start-time": "2021-11-28T13:19:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-11-28T13:20:04.95140",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "3rd lane from the left",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211128GG01209",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on CA-4 Eastbound west of Morello Ave (Martinez). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-28T21:18Z",
+      "updated": "2021-11-28T21:19Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.104465,
+          37.993192
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211128GG01237"
+      },
+      "roads": [
+        {
+          "name": "CA-4 E",
+          "from": "Morello Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-28T21:18Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-28T13:21:18.97983"
+        },
+        "event-reference": {
+          "event-identifier": "845822"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on CA-4 Eastbound west of Morello Ave (Martinez). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-4 E",
+                  "link-from-road": "Morello Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Martinez",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.993192",
+                    "event-location-coordinates-longitude": "-122.104465"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-28T13:19:11.03260",
+              "valid-period": {
+                "event-timeline-estimated-duration": "32"
+              },
+              "start-time": "2021-11-28T13:18:13.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-28T13:19:11.03260",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211128GG01237",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound east of Fruitvale Ave (Oakland). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-28T21:18Z",
+      "updated": "2021-11-28T21:19Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.224708,
+          37.800109
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211128GG01236"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Fruitvale Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-28T21:18Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-28T13:21:18.97983"
+        },
+        "event-reference": {
+          "event-identifier": "845823"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of Fruitvale Ave (Oakland). Right lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Fruitvale Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.800109",
+                    "event-location-coordinates-longitude": "-122.224708"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-28T13:19:38.31880",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-11-28T13:18:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-11-28T13:19:38.31880",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211128GG01236",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
