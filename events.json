@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T23:21:56.28719"
+          "event-message-time-stamp": "2021-11-27T23:33:42.28490"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T23:21:56.28719"
+          "event-message-time-stamp": "2021-11-27T23:33:42.28490"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T23:21:56.28719"
+          "event-message-time-stamp": "2021-11-27T23:33:42.28490"
         },
         "event-reference": {
           "event-identifier": "845684"
@@ -514,7 +514,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T23:21:56.28719"
+          "event-message-time-stamp": "2021-11-27T23:33:42.28490"
         },
         "event-reference": {
           "event-identifier": "845703"
@@ -662,7 +662,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T23:21:56.28719"
+          "event-message-time-stamp": "2021-11-27T23:33:42.28490"
         },
         "event-reference": {
           "event-identifier": "845708"
@@ -810,7 +810,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T23:21:56.28719"
+          "event-message-time-stamp": "2021-11-27T23:33:42.28490"
         },
         "event-reference": {
           "event-identifier": "845709"
@@ -888,21 +888,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Northbound at Tennant Ave (Morgan Hill). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on CA-4 Eastbound west of Willow Pass Rd (Pittsburg). Lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2021-11-28T06:10Z",
-      "updated": "2021-11-28T06:35Z",
+      "created": "2021-11-28T07:31Z",
+      "updated": "2021-11-28T07:31Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -915,8 +915,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.625833,
-          37.119167
+          -121.990745,
+          38.016763
         ]
       },
       "source_type": {
@@ -925,17 +925,165 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211127MY00370"
+        "#text": "211127GG02559"
       },
       "roads": [
         {
-          "name": "US-101 N",
-          "from": "Tennant Ave",
-          "direction": "Northbound",
+          "name": "CA-4 E",
+          "from": "Willow Pass Rd",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-28T07:31Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-27T23:33:42.28490"
+        },
+        "event-reference": {
+          "event-identifier": "845711"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-4 Eastbound west of Willow Pass Rd (Pittsburg). Lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-4 E",
+                  "link-from-road": "Willow Pass Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Pittsburg",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.016763",
+                    "event-location-coordinates-longitude": "-121.990745"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-27T23:31:48.91490",
+              "valid-period": {
+                "event-timeline-estimated-duration": "31"
+              },
+              "start-time": "2021-11-27T23:31:47.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-27T23:31:48.91490",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211127GG02559",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Eastbound at 4TH St (San Francisco). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Major",
+      "created": "2021-11-28T07:31Z",
+      "updated": "2021-11-28T07:31Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.401165,
+          37.778081
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211127GG02558"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "4TH St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -953,15 +1101,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-11-28T06:35Z/"
+          "2021-11-28T07:31Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-27T23:21:56.28719"
+          "event-message-time-stamp": "2021-11-27T23:33:42.28490"
         },
         "event-reference": {
-          "event-identifier": "845710"
+          "event-identifier": "845712"
         },
         "event-status": "new",
         "details": {
@@ -972,7 +1120,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -982,7 +1130,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Northbound at Tennant Ave (Morgan Hill). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound at 4TH St (San Francisco). Left lane affected. Expect delays."
                     }
                   }
                 }
@@ -991,25 +1139,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Tennant Ave",
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "4TH St",
                   "link-to-road": null,
-                  "link-from-city": "Morgan Hill",
+                  "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.119167",
-                    "event-location-coordinates-longitude": "-121.625833"
+                    "event-location-coordinates-latitude": "37.778081",
+                    "event-location-coordinates-longitude": "-122.401165"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-27T22:35:25.76130",
+              "update-time": "2021-11-27T23:31:49.07140",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.199999999999996"
+                "event-timeline-estimated-duration": "49"
               },
-              "start-time": "2021-11-27T22:35:24.00000",
+              "start-time": "2021-11-27T23:31:47.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1018,18 +1166,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-27T22:35:25.76130",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-27T23:31:49.07140",
         "ivr-article": "at",
-        "ivr-county": "Santa Clara",
+        "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211127MY00370",
+        "SourceEventID": "211127GG02558",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
