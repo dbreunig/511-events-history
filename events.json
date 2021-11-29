@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-29T06:22:21.09839"
+          "event-message-time-stamp": "2021-11-29T06:34:22.45058"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-29T06:22:21.09839"
+          "event-message-time-stamp": "2021-11-29T06:34:22.45058"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -296,17 +296,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision and Overturned vehicle on I-880 Northbound south of Hegenberger Rd (Oakland). Left lanes blocked. Expect delays.",
+      "headline": "CHP : Residual delays on I-880 Northbound south of Hegenberger Rd (Oakland). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision",
-          "Overturned vehicle"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Moderate",
+      "severity": "Unknown",
       "created": "2021-11-29T13:58Z",
-      "updated": "2021-11-29T14:05Z",
+      "updated": "2021-11-29T14:31Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -346,11 +343,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lanes"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -369,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-29T06:22:21.09839"
+          "event-message-time-stamp": "2021-11-29T06:34:22.45058"
         },
         "event-reference": {
           "event-identifier": "845986"
@@ -382,14 +379,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision"
-                      },
-                      {
-                        "incident": "Overturned vehicle"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -398,7 +390,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision and Overturned vehicle on I-880 Northbound south of Hegenberger Rd (Oakland). Left lanes blocked. Expect delays."
+                      "event-description": "CHP : Residual delays on I-880 Northbound south of Hegenberger Rd (Oakland). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -421,9 +413,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-29T06:05:19.81070",
+              "update-time": "2021-11-29T06:31:50.77020",
               "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-11-29T05:58:00.00000",
               "cleared-time": null,
@@ -434,166 +426,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-29T06:05:19.81070",
+        "ivr-lastUpdateDttm": "2021-11-29T06:31:50.77020",
         "ivr-article": "south of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lanes",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211129GG00336",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-35 Southbound at CA-92 E (Unincorporated). Lanes affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-11-29T14:06Z",
-      "updated": "2021-11-29T14:08Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.386081,
-          37.492206
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211129GG00346"
-      },
-      "roads": [
-        {
-          "name": "CA-35 S",
-          "from": "CA-92 E",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-29T14:06Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-29T06:22:21.09839"
-        },
-        "event-reference": {
-          "event-identifier": "845987"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-35 Southbound at CA-92 E (Unincorporated). Lanes affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "CA-35 S",
-                  "link-from-road": "CA-92 E",
-                  "link-to-road": null,
-                  "link-from-city": "Unincorporated",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.492206",
-                    "event-location-coordinates-longitude": "-122.386081"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-29T06:08:35.79490",
-              "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
-              },
-              "start-time": "2021-11-29T06:06:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-29T06:08:35.79490",
-        "ivr-article": "at",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211129GG00346",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -670,7 +514,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-29T06:22:21.09839"
+          "event-message-time-stamp": "2021-11-29T06:34:22.45058"
         },
         "event-reference": {
           "event-identifier": "845988"
