@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
+          "event-message-time-stamp": "2021-11-28T16:53:30.56171"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -210,7 +210,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
+          "event-message-time-stamp": "2021-11-28T16:53:30.56171"
         },
         "event-reference": {
           "event-identifier": "811908"
@@ -352,7 +352,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
+          "event-message-time-stamp": "2021-11-28T16:53:30.56171"
         },
         "event-reference": {
           "event-identifier": "836497"
@@ -502,7 +502,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
+          "event-message-time-stamp": "2021-11-28T16:53:30.56171"
         },
         "event-reference": {
           "event-identifier": "845746"
@@ -586,14 +586,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-121 Northbound at Wooden Valley Rd (Unincorporated). Lanes blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries and Overturned vehicle on CA-121 Northbound at Wooden Valley Rd (Unincorporated). Lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Overturned vehicle"
+        ]
       },
-      "severity": "Moderate",
+      "severity": "Major",
       "created": "2021-11-28T23:02Z",
-      "updated": "2021-11-29T00:01Z",
+      "updated": "2021-11-29T00:40Z",
       "areas": {
         "area": {
           "name": "Napa",
@@ -656,7 +659,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
+          "event-message-time-stamp": "2021-11-28T16:53:30.56171"
         },
         "event-reference": {
           "event-identifier": "845854"
@@ -669,9 +672,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Overturned vehicle"
+                      }
+                    ]
                   }
                 },
                 {
@@ -680,7 +688,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-121 Northbound at Wooden Valley Rd (Unincorporated). Lanes blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries and Overturned vehicle on CA-121 Northbound at Wooden Valley Rd (Unincorporated). Lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -703,11 +711,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-28T16:01:52.29420",
+              "update-time": "2021-11-28T16:40:36.33340",
               "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
+                "event-timeline-estimated-duration": "46"
               },
-              "start-time": "2021-11-28T16:01:51.00000",
+              "start-time": "2021-11-28T16:01:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -716,12 +724,12 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "3",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-28T16:01:52.29420",
+        "ivr-lastUpdateDttm": "2021-11-28T16:40:36.33340",
         "ivr-article": "at",
         "ivr-county": "Napa",
         "ivr-laneStatus": "blocked",
@@ -741,7 +749,7 @@
       },
       "severity": "Unknown",
       "created": "2021-11-28T23:07Z",
-      "updated": "2021-11-29T00:25Z",
+      "updated": "2021-11-29T00:50Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -805,7 +813,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
+          "event-message-time-stamp": "2021-11-28T16:53:30.56171"
         },
         "event-reference": {
           "event-identifier": "845856"
@@ -852,7 +860,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-11-28T16:25:55.44400",
+              "update-time": "2021-11-28T16:50:54.72540",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -870,7 +878,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-11-28T16:25:55.44400",
+        "ivr-lastUpdateDttm": "2021-11-28T16:50:54.72540",
         "ivr-article": "between",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -878,154 +886,6 @@
         "ivr-genOtherText": "until 8 PM",
         "SourceEventID": "T92BA-0001-2021-11-28-02:45:00",
         "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-1 Northbound south of US-101 S (San Francisco). Left lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
-      },
-      "severity": "Moderate",
-      "created": "2021-11-28T23:14Z",
-      "updated": "2021-11-28T23:28Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.469486,
-          37.800113
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211128GG01559"
-      },
-      "roads": [
-        {
-          "name": "CA-1 N",
-          "from": "US-101 S",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-28T23:22Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
-        },
-        "event-reference": {
-          "event-identifier": "845858"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-1 Northbound south of US-101 S (San Francisco). Left lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "CA-1 N",
-                  "link-from-road": "US-101 S",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.800113",
-                    "event-location-coordinates-longitude": "-122.469486"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-28T15:28:21.69680",
-              "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
-              },
-              "start-time": "2021-11-28T15:22:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-28T15:28:21.69680",
-        "ivr-article": "south of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211128GG01559",
-        "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
@@ -1101,7 +961,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
+          "event-message-time-stamp": "2021-11-28T16:53:30.56171"
         },
         "event-reference": {
           "event-identifier": "845864"
@@ -1249,7 +1109,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
+          "event-message-time-stamp": "2021-11-28T16:53:30.56171"
         },
         "event-reference": {
           "event-identifier": "845871"
@@ -1327,450 +1187,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-87 Northbound ramp to I-280 N (San Jose). Connector ramp affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Major",
-      "created": "2021-11-29T00:02Z",
-      "updated": "2021-11-29T00:16Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.891983,
-          37.323895
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211128GG01689"
-      },
-      "roads": [
-        {
-          "name": "CA-87 N",
-          "from": "I-280 N",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Connector ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "ramp to"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-29T00:03Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
-        },
-        "event-reference": {
-          "event-identifier": "845874"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-87 Northbound ramp to I-280 N (San Jose). Connector ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-87 N",
-                  "link-from-road": "I-280 N",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.323895",
-                    "event-location-coordinates-longitude": "-121.891983"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-28T16:16:14.68070",
-              "valid-period": {
-                "event-timeline-estimated-duration": "49"
-              },
-              "start-time": "2021-11-28T16:03:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-11-28T16:16:14.68070",
-        "ivr-article": "ramp to",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Connector ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211128GG01689",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-580 Eastbound east of Main St (San Quentin). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Major",
-      "created": "2021-11-29T00:23Z",
-      "updated": "2021-11-29T00:23Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.48558,
-          37.944791
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211128GG01747"
-      },
-      "roads": [
-        {
-          "name": "I-580 E",
-          "from": "Main St",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-29T00:23Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
-        },
-        "event-reference": {
-          "event-identifier": "845884"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-580 Eastbound east of Main St (San Quentin). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "Main St",
-                  "link-to-road": null,
-                  "link-from-city": "San Quentin",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.944791",
-                    "event-location-coordinates-longitude": "-122.48558"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-28T16:23:57.39000",
-              "valid-period": {
-                "event-timeline-estimated-duration": "45.199999999999996"
-              },
-              "start-time": "2021-11-28T16:23:56.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-11-28T16:23:57.39000",
-        "ivr-article": "east of",
-        "ivr-county": "Marin",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211128GG01747",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-280 Southbound north of I-280 S-CA-1 S Join (Daly City). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Moderate",
-      "created": "2021-11-29T00:25Z",
-      "updated": "2021-11-29T00:25Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.47164,
-          37.698587
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211128GG01751"
-      },
-      "roads": [
-        {
-          "name": "I-280 S",
-          "from": "I-280 S-CA-1 S Join",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-11-29T00:24Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
-        },
-        "event-reference": {
-          "event-identifier": "845885"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-280 Southbound north of I-280 S-CA-1 S Join (Daly City). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "I-280 S-CA-1 S Join",
-                  "link-to-road": null,
-                  "link-from-city": "Daly City",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.698587",
-                    "event-location-coordinates-longitude": "-122.47164"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-11-28T16:25:00.59930",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25.2"
-              },
-              "start-time": "2021-11-28T16:24:59.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-11-28T16:25:00.59930",
-        "ivr-article": "north of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211128GG01751",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Disabled vehicle on CA-85 Northbound exiting at El Camino Real (Mountain View). Off Ramp affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -1841,7 +1257,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-11-28T16:28:47.07759"
+          "event-message-time-stamp": "2021-11-28T16:53:30.56171"
         },
         "event-reference": {
           "event-identifier": "845886"
@@ -1913,6 +1329,154 @@
         "ivr-totalLanes": "Off Ramp",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211128GG01756",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-24 Eastbound west of Caldecott Tunnel (Orinda). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-11-29T00:47Z",
+      "updated": "2021-11-29T00:52Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.213246,
+          37.857645
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211128GG01804"
+      },
+      "roads": [
+        {
+          "name": "CA-24 E",
+          "from": "Caldecott Tunnel",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-11-29T00:52Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-11-28T16:53:30.56171"
+        },
+        "event-reference": {
+          "event-identifier": "845892"
+        },
+        "event-status": "update",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-24 Eastbound west of Caldecott Tunnel (Orinda). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Caldecott Tunnel",
+                  "link-to-road": null,
+                  "link-from-city": "Orinda",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.857645",
+                    "event-location-coordinates-longitude": "-122.213246"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-11-28T16:52:20.43540",
+              "valid-period": {
+                "event-timeline-estimated-duration": "43"
+              },
+              "start-time": "2021-11-28T16:52:19.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-11-28T16:52:20.43540",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211128GG01804",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
