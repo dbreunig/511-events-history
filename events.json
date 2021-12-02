@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-01T17:26:13.34729"
+          "event-message-time-stamp": "2021-12-01T17:51:10.18180"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -153,14 +153,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-880 Southbound north of CA-84 W (Fremont). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-580 Eastbound west of Center St (Castro Valley). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2021-12-02T01:15Z",
-      "updated": "2021-12-02T01:15Z",
+      "created": "2021-12-02T01:32Z",
+      "updated": "2021-12-02T01:46Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -180,8 +180,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.035633,
-          37.560726
+          -122.06186,
+          37.692028
         ]
       },
       "source_type": {
@@ -190,13 +190,457 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211201GG01874"
+        "#text": "211201GG01911"
       },
       "roads": [
         {
-          "name": "I-880 S",
-          "from": "CA-84 W",
-          "direction": "Southbound",
+          "name": "I-580 E",
+          "from": "Center St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-02T01:46Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-01T17:51:10.18180"
+        },
+        "event-reference": {
+          "event-identifier": "847064"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-580 Eastbound west of Center St (Castro Valley). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Center St",
+                  "link-to-road": null,
+                  "link-from-city": "Castro Valley",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.692028",
+                    "event-location-coordinates-longitude": "-122.06186"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-01T17:46:54.43970",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-12-01T17:46:47.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-12-01T17:46:54.43970",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211201GG01911",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Northbound south of Redwood Shores Pky (San Carlos). Lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-02T01:37Z",
+      "updated": "2021-12-02T01:42Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.251463,
+          37.509953
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211201GG01934"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Redwood Shores Pky",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-02T01:42Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-01T17:51:10.18180"
+        },
+        "event-reference": {
+          "event-identifier": "847069"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Northbound south of Redwood Shores Pky (San Carlos). Lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Redwood Shores Pky",
+                  "link-to-road": null,
+                  "link-from-city": "San Carlos",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.509953",
+                    "event-location-coordinates-longitude": "-122.251463"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-01T17:42:40.79110",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2021-12-01T17:42:34.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-01T17:42:40.79110",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211201GG01934",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on US-101 Northbound at Whipple Ave (Redwood City). On Ramp affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Major",
+      "created": "2021-12-02T01:43Z",
+      "updated": "2021-12-02T01:50Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.228052,
+          37.494977
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211201GG01957"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Whipple Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "On Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-02T01:49Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-01T17:51:10.18180"
+        },
+        "event-reference": {
+          "event-identifier": "847072"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Northbound at Whipple Ave (Redwood City). On Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Whipple Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Redwood City",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.494977",
+                    "event-location-coordinates-longitude": "-122.228052"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-01T17:50:04.23830",
+              "valid-period": {
+                "event-timeline-estimated-duration": "53.5"
+              },
+              "start-time": "2021-12-01T17:49:57.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-01T17:50:04.23830",
+        "ivr-article": "at",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "On Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211201GG01957",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-680 Northbound south of Monument Blvd (Pleasant Hill). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Minor",
+      "created": "2021-12-02T01:45Z",
+      "updated": "2021-12-02T01:46Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.058003,
+          37.945354
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211201GG01962"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "Monument Blvd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -212,21 +656,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-02T01:15Z/"
+          "2021-12-02T01:46Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-01T17:26:13.34729"
+          "event-message-time-stamp": "2021-12-01T17:51:10.18180"
         },
         "event-reference": {
-          "event-identifier": "847058"
+          "event-identifier": "847075"
         },
         "event-status": "new",
         "details": {
@@ -237,7 +681,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -247,7 +691,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-880 Southbound north of CA-84 W (Fremont). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-680 Northbound south of Monument Blvd (Pleasant Hill). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -256,25 +700,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "CA-84 W",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Monument Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Fremont",
+                  "link-from-city": "Pleasant Hill",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.560726",
-                    "event-location-coordinates-longitude": "-122.035633"
+                    "event-location-coordinates-latitude": "37.945354",
+                    "event-location-coordinates-longitude": "-122.058003"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-01T17:15:21.25330",
+              "update-time": "2021-12-01T17:46:54.28190",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "24"
               },
-              "start-time": "2021-12-01T17:15:14.00000",
+              "start-time": "2021-12-01T17:46:47.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -283,18 +727,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-01T17:15:21.25330",
-        "ivr-article": "north of",
-        "ivr-county": "Alameda",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-01T17:46:54.28190",
+        "ivr-article": "south of",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211201GG01874",
+        "SourceEventID": "211201GG01962",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
