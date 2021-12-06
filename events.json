@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -160,7 +160,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-05T00:59Z",
-      "updated": "2021-12-06T13:11Z",
+      "updated": "2021-12-06T13:27Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -223,7 +223,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848209"
@@ -270,7 +270,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T05:11:05.87590",
+              "update-time": "2021-12-06T05:27:10.88910",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -288,7 +288,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:05.87590",
+        "ivr-lastUpdateDttm": "2021-12-06T05:27:10.88910",
         "ivr-article": "exiting at",
         "ivr-county": "Marin",
         "ivr-laneStatus": "closed",
@@ -301,14 +301,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fog on CA-4 Eastbound at I-680 N (Martinez). Lane affected. Expect delays.",
+      "headline": "CHP : Fog on CA-4 Eastbound and Westbound between I-680 N (Martinez) and Willow Pass Rd (Pittsburg). Lanes affected. Traffic advisory in effect.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Fog"
       },
-      "severity": "Moderate",
+      "severity": "Major",
       "created": "2021-12-06T04:29Z",
-      "updated": "2021-12-06T12:49Z",
+      "updated": "2021-12-06T13:16Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -344,11 +344,12 @@
         {
           "name": "CA-4 E",
           "from": "I-680 N",
-          "direction": "Eastbound",
+          "to": "Willow Pass Rd",
+          "direction": "Eastbound and Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -356,11 +357,11 @@
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "Traffic advisory in effect"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "between"
           }
         }
       ],
@@ -371,7 +372,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848459"
@@ -395,7 +396,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fog on CA-4 Eastbound at I-680 N (Martinez). Lane affected. Expect delays."
+                      "event-description": "CHP : Fog on CA-4 Eastbound and Westbound between I-680 N (Martinez) and Willow Pass Rd (Pittsburg). Lanes affected. Traffic advisory in effect."
                     }
                   }
                 }
@@ -407,9 +408,9 @@
                   "event-location-type-area": "CA013",
                   "link-road-designator": "CA-4 E",
                   "link-from-road": "I-680 N",
-                  "link-to-road": null,
+                  "link-to-road": "Willow Pass Rd",
                   "link-from-city": "Martinez",
-                  "link-to-city": null,
+                  "link-to-city": "Pittsburg",
                   "link-primary-location": {
                     "event-location-coordinates-latitude": "37.995586",
                     "event-location-coordinates-longitude": "-122.066559"
@@ -418,11 +419,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T04:49:31.05220",
+              "update-time": "2021-12-06T05:16:45.14620",
               "valid-period": {
-                "event-timeline-estimated-duration": "37"
+                "event-timeline-estimated-duration": "52"
               },
-              "start-time": "2021-12-06T04:49:29.00000",
+              "start-time": "2021-12-06T04:49:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -431,17 +432,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-06T04:49:31.05220",
-        "ivr-article": "at",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Eastbound and Westbound",
+        "ivr-lastUpdateDttm": "2021-12-06T05:16:45.14620",
+        "ivr-article": "between",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
+        "ivr-totalLanes": "Lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Traffic advisory in effect",
         "SourceEventID": "211205GG02303",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
@@ -456,7 +458,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-06T05:00Z",
-      "updated": "2021-12-06T13:11Z",
+      "updated": "2021-12-06T13:27Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -519,7 +521,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848466"
@@ -566,7 +568,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T05:11:06.20210",
+              "update-time": "2021-12-06T05:27:11.43330",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -584,7 +586,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:06.20210",
+        "ivr-lastUpdateDttm": "2021-12-06T05:27:11.43330",
         "ivr-article": "at",
         "ivr-county": "Solano",
         "ivr-laneStatus": "closed",
@@ -667,7 +669,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848468"
@@ -746,155 +748,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on CA-29 Northbound between Pope St (St Helena) and Deer Park Rd (St Helena). Lane closed. One way traffic control in effect. Sunday, December 5, 2021 9:01 PM thru Monday, December 6, 2021 6:01 AM, Monday/Sunday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-12-06T05:09Z",
-      "updated": "2021-12-06T13:11Z",
-      "areas": {
-        "area": {
-          "name": "Napa",
-          "id": "5376101",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5376101/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.477884,
-          38.509624
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C29MA-0005-2021-12-05-21:01:00"
-      },
-      "roads": [
-        {
-          "name": "CA-29 N",
-          "from": "Pope St",
-          "to": "Deer Park Rd",
-          "direction": "Northbound",
-          "state": "SINGLE_LANE_ALTERNATING",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "One way traffic control in effect"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-06T05:01Z/2021-12-06T14:01Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
-        },
-        "event-reference": {
-          "event-identifier": "848469"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on CA-29 Northbound between Pope St (St Helena) and Deer Park Rd (St Helena). Lane closed. One way traffic control in effect. Sunday, December 5, 2021 9:01 PM thru Monday, December 6, 2021 6:01 AM, Monday/Sunday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA055",
-                  "link-road-designator": "CA-29 N",
-                  "link-from-road": "Pope St",
-                  "link-to-road": "Deer Park Rd",
-                  "link-from-city": "St Helena",
-                  "link-to-city": "St Helena",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.509624",
-                    "event-location-coordinates-longitude": "-122.477884"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-06T05:11:03.06440",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-12-05T21:01:00.00000",
-              "cleared-time": "2021-12-06T06:01:00.00000",
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:03.06440",
-        "ivr-article": "between",
-        "ivr-county": "Napa",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "One way traffic control in effect",
-        "SourceEventID": "C29MA-0005-2021-12-05-21:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "Caltrans : Bridge work on I-80 Westbound entering at Gilman St (Berkeley). On Ramp closed until 6 AM. Sunday, December 5, 2021 10:01 PM thru Monday, December 6, 2021 6:01 AM, Monday/Sunday.",
       "event_type": "CONSTRUCTION",
       "event_subtypes": {
@@ -902,7 +755,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-06T06:04Z",
-      "updated": "2021-12-06T13:11Z",
+      "updated": "2021-12-06T13:27Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -965,7 +818,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848484"
@@ -1012,7 +865,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T05:11:03.35770",
+              "update-time": "2021-12-06T05:27:10.45080",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1030,7 +883,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:03.35770",
+        "ivr-lastUpdateDttm": "2021-12-06T05:27:10.45080",
         "ivr-article": "entering at",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -1050,7 +903,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-06T06:04Z",
-      "updated": "2021-12-06T13:11Z",
+      "updated": "2021-12-06T13:27Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1113,7 +966,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848485"
@@ -1160,7 +1013,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T05:11:03.50150",
+              "update-time": "2021-12-06T05:27:10.60640",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1178,7 +1031,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:03.50150",
+        "ivr-lastUpdateDttm": "2021-12-06T05:27:10.60640",
         "ivr-article": "at",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -1198,7 +1051,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-06T06:04Z",
-      "updated": "2021-12-06T13:11Z",
+      "updated": "2021-12-06T13:27Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1261,7 +1114,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848486"
@@ -1308,7 +1161,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T05:11:03.64550",
+              "update-time": "2021-12-06T05:27:10.74410",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1326,7 +1179,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:03.64550",
+        "ivr-lastUpdateDttm": "2021-12-06T05:27:10.74410",
         "ivr-article": "exiting at",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -1346,7 +1199,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-06T06:20Z",
-      "updated": "2021-12-06T13:11Z",
+      "updated": "2021-12-06T13:27Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1409,7 +1262,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848489"
@@ -1456,7 +1309,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T05:11:06.47940",
+              "update-time": "2021-12-06T05:27:11.72590",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1474,7 +1327,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:06.47940",
+        "ivr-lastUpdateDttm": "2021-12-06T05:27:11.72590",
         "ivr-article": "at",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -1494,7 +1347,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-06T06:20Z",
-      "updated": "2021-12-06T13:11Z",
+      "updated": "2021-12-06T13:27Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1557,7 +1410,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848490"
@@ -1604,7 +1457,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T05:11:06.64150",
+              "update-time": "2021-12-06T05:27:11.87300",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1622,7 +1475,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:06.64150",
+        "ivr-lastUpdateDttm": "2021-12-06T05:27:11.87300",
         "ivr-article": "at",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -1635,608 +1488,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Southbound between E Hillsdale Blvd (San Mateo) and Ralston Ave (Belmont). Various lanes closed until 5-30 AM. Sunday, December 5, 2021 10:01 PM thru Monday, December 6, 2021 5:30 AM, Monday/Sunday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-12-06T06:39Z",
-      "updated": "2021-12-06T13:11Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.287901,
-          37.54457
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101AB-0028-2021-12-05-22:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "E Hillsdale Blvd",
-          "to": "Ralston Ave",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Various lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 5-30 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-06T06:01Z/2021-12-06T13:30Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
-        },
-        "event-reference": {
-          "event-identifier": "848499"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Southbound between E Hillsdale Blvd (San Mateo) and Ralston Ave (Belmont). Various lanes closed until 5-30 AM. Sunday, December 5, 2021 10:01 PM thru Monday, December 6, 2021 5:30 AM, Monday/Sunday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "E Hillsdale Blvd",
-                  "link-to-road": "Ralston Ave",
-                  "link-from-city": "San Mateo",
-                  "link-to-city": "Belmont",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.54457",
-                    "event-location-coordinates-longitude": "-122.287901"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-06T05:11:04.74170",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-12-05T22:01:00.00000",
-              "cleared-time": "2021-12-06T05:30:00.00000",
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:04.74170",
-        "ivr-article": "between",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Various lanes",
-        "ivr-genOtherText": "until 5-30 AM",
-        "SourceEventID": "C101AB-0028-2021-12-05-22:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Southbound at E Poplar Ave (San Mateo). Various lanes closed until 5-30 AM. Sunday, December 5, 2021 10:01 PM thru Monday, December 6, 2021 5:30 AM, Monday/Sunday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-12-06T06:39Z",
-      "updated": "2021-12-06T13:11Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.328607,
-          37.584337
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101AB-0033-2021-12-05-22:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "E Poplar Ave",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Various lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 5-30 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-06T06:01Z/2021-12-06T13:30Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
-        },
-        "event-reference": {
-          "event-identifier": "848500"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Southbound at E Poplar Ave (San Mateo). Various lanes closed until 5-30 AM. Sunday, December 5, 2021 10:01 PM thru Monday, December 6, 2021 5:30 AM, Monday/Sunday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "E Poplar Ave",
-                  "link-to-road": null,
-                  "link-from-city": "San Mateo",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.584337",
-                    "event-location-coordinates-longitude": "-122.328607"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-06T05:11:05.01980",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-12-05T22:01:00.00000",
-              "cleared-time": "2021-12-06T05:30:00.00000",
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:05.01980",
-        "ivr-article": "at",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Various lanes",
-        "ivr-genOtherText": "until 5-30 AM",
-        "SourceEventID": "C101AB-0033-2021-12-05-22:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Southbound between San Bruno Ave E (San Bruno) and Airport Exit (Millbrae). Various lanes closed until 5-30 AM. Sunday, December 5, 2021 10:01 PM thru Monday, December 6, 2021 5:30 AM, Monday/Sunday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-12-06T06:39Z",
-      "updated": "2021-12-06T13:11Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.402707,
-          37.631315
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101AB-0038-2021-12-05-22:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "San Bruno Ave E",
-          "to": "Airport Exit",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Various lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 5-30 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-06T06:01Z/2021-12-06T13:30Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
-        },
-        "event-reference": {
-          "event-identifier": "848501"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Southbound between San Bruno Ave E (San Bruno) and Airport Exit (Millbrae). Various lanes closed until 5-30 AM. Sunday, December 5, 2021 10:01 PM thru Monday, December 6, 2021 5:30 AM, Monday/Sunday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "San Bruno Ave E",
-                  "link-to-road": "Airport Exit",
-                  "link-from-city": "San Bruno",
-                  "link-to-city": "Millbrae",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.631315",
-                    "event-location-coordinates-longitude": "-122.402707"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-06T05:11:05.31540",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-12-05T22:01:00.00000",
-              "cleared-time": "2021-12-06T05:30:00.00000",
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:05.31540",
-        "ivr-article": "between",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Various lanes",
-        "ivr-genOtherText": "until 5-30 AM",
-        "SourceEventID": "C101AB-0038-2021-12-05-22:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Northbound entering at Holly St (San Carlos). On Ramp closed until 6 AM. Sunday, December 5, 2021 7:01 PM thru Monday, December 6, 2021 5:59 AM, Monday/Sunday.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2021-12-06T06:39Z",
-      "updated": "2021-12-06T13:11Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.256124,
-          37.513943
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101AB-0053-2021-12-05-19:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Holly St",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 6 AM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "entering at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-06T03:01Z/2021-12-06T13:59Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
-        },
-        "event-reference": {
-          "event-identifier": "848503"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Northbound entering at Holly St (San Carlos). On Ramp closed until 6 AM. Sunday, December 5, 2021 7:01 PM thru Monday, December 6, 2021 5:59 AM, Monday/Sunday."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Holly St",
-                  "link-to-road": null,
-                  "link-from-city": "San Carlos",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.513943",
-                    "event-location-coordinates-longitude": "-122.256124"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-06T05:11:05.73070",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-12-05T19:01:00.00000",
-              "cleared-time": "2021-12-06T05:59:00.00000",
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:05.73070",
-        "ivr-article": "entering at",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "On Ramp",
-        "ivr-genOtherText": "until 6 AM",
-        "SourceEventID": "C101AB-0053-2021-12-05-19:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on CA-1 Northbound at CA-17 N (Santa Cruz). Lane closed until 6 AM. Sunday, December 5, 2021 9:01 PM thru Monday, December 6, 2021 5:59 AM, Monday/Sunday.",
+      "headline": "Caltrans : Roadwork on CA-1 Northbound between CA-17 S (Santa Cruz) and CA-17 N (Santa Cruz). Lane closed until 6 AM. Sunday, December 5, 2021 9:01 PM thru Monday, December 6, 2021 5:59 AM, Monday/Sunday.",
       "event_type": "CONSTRUCTION",
       "event_subtypes": {
         "event_subtype": "Roadwork"
       },
       "severity": "Unknown",
       "created": "2021-12-06T08:32Z",
-      "updated": "2021-12-06T13:11Z",
+      "updated": "2021-12-06T13:27Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -2271,7 +1530,8 @@
       "roads": [
         {
           "name": "CA-1 N",
-          "from": "CA-17 N",
+          "from": "CA-17 S",
+          "to": "CA-17 N",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -2288,7 +1548,7 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "between"
           }
         }
       ],
@@ -2299,7 +1559,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848515"
@@ -2323,7 +1583,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on CA-1 Northbound at CA-17 N (Santa Cruz). Lane closed until 6 AM. Sunday, December 5, 2021 9:01 PM thru Monday, December 6, 2021 5:59 AM, Monday/Sunday."
+                      "event-description": "Caltrans : Roadwork on CA-1 Northbound between CA-17 S (Santa Cruz) and CA-17 N (Santa Cruz). Lane closed until 6 AM. Sunday, December 5, 2021 9:01 PM thru Monday, December 6, 2021 5:59 AM, Monday/Sunday."
                     }
                   }
                 }
@@ -2334,10 +1594,10 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA087",
                   "link-road-designator": "CA-1 N",
-                  "link-from-road": "CA-17 N",
-                  "link-to-road": null,
+                  "link-from-road": "CA-17 S",
+                  "link-to-road": "CA-17 N",
                   "link-from-city": "Santa Cruz",
-                  "link-to-city": null,
+                  "link-to-city": "Santa Cruz",
                   "link-primary-location": {
                     "event-location-coordinates-latitude": "36.986654",
                     "event-location-coordinates-longitude": "-122.030162"
@@ -2346,7 +1606,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T05:11:07.01370",
+              "update-time": "2021-12-06T05:27:12.26910",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2364,8 +1624,8 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:07.01370",
-        "ivr-article": "at",
+        "ivr-lastUpdateDttm": "2021-12-06T05:27:12.26910",
+        "ivr-article": "between",
         "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "closed",
         "ivr-totalLanes": "Lane",
@@ -2448,7 +1708,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848529"
@@ -2597,7 +1857,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848530"
@@ -2746,7 +2006,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848533"
@@ -2825,163 +2085,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Northbound south of Leavesley Rd (Gilroy). Left and center lanes blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-880 Northbound south of Dixon Landing Rd (Milpitas). Left lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2021-12-06T12:14Z",
-      "updated": "2021-12-06T13:01Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.566111,
-          37.022222
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211206MY00028"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "Leavesley Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left and center lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-06T12:55Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
-        },
-        "event-reference": {
-          "event-identifier": "848540"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Northbound south of Leavesley Rd (Gilroy). Left and center lanes blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Leavesley Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Gilroy",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.022222",
-                    "event-location-coordinates-longitude": "-121.566111"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-06T05:01:51.37040",
-              "valid-period": {
-                "event-timeline-estimated-duration": "39"
-              },
-              "start-time": "2021-12-06T04:55:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:01:51.37040",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left and center lanes",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211206MY00028",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-880 Northbound south of Dixon Landing Rd (Milpitas). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Minor",
       "created": "2021-12-06T13:06Z",
-      "updated": "2021-12-06T13:08Z",
+      "updated": "2021-12-06T13:19Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -3021,11 +2132,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
+            "#text": "Left lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -3044,7 +2155,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
           "event-identifier": "848543"
@@ -3058,7 +2169,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Residual delays"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -3068,7 +2179,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-880 Northbound south of Dixon Landing Rd (Milpitas). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of Dixon Landing Rd (Milpitas). Left lane blocked. Expect delays."
                     }
                   }
                 }
@@ -3091,9 +2202,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T05:08:34.84880",
+              "update-time": "2021-12-06T05:19:08.38790",
               "valid-period": {
-                "event-timeline-estimated-duration": "20.5"
+                "event-timeline-estimated-duration": "29"
               },
               "start-time": "2021-12-06T05:07:00.00000",
               "cleared-time": null,
@@ -3104,16 +2215,16 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
+        "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:08:34.84880",
+        "ivr-lastUpdateDttm": "2021-12-06T05:19:08.38790",
         "ivr-article": "south of",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211206GG00284",
         "EventSourceName": "CHP",
@@ -3122,21 +2233,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Northbound south of Mission Blvd (Fremont). Center Divider affected. Expect delays.",
+      "headline": "CHP : Fog on CA-29 Northbound and Southbound area of CA-12 (Southern) (Unincorporated). Lanes affected. Traffic advisory in effect.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Fog"
       },
-      "severity": "Minor",
-      "created": "2021-12-06T13:11Z",
-      "updated": "2021-12-06T13:11Z",
+      "severity": "Major",
+      "created": "2021-12-06T13:20Z",
+      "updated": "2021-12-06T13:20Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Napa",
+          "id": "5376101",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5376101/"
           }
         }
       },
@@ -3149,27 +2260,23 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.932551,
-          37.476251
+          -122.257843,
+          38.223194
         ]
       },
       "source_type": {
         "@xmlns": "http://511.org/open511-extensions",
         "#text": "CHP"
       },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211206GG00291"
-      },
       "roads": [
         {
-          "name": "I-880 N",
-          "from": "Mission Blvd",
-          "direction": "Northbound",
+          "name": "CA-29 N",
+          "from": "CA-12 (Southern)",
+          "direction": "Northbound and Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -3177,36 +2284,36 @@
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "Traffic advisory in effect"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "area of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-06T13:11Z/"
+          "2021-12-06T13:20Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-06T05:12:18.49938"
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
         },
         "event-reference": {
-          "event-identifier": "848544"
+          "event-identifier": "848545"
         },
         "event-status": "new",
         "details": {
           "eventElementDetails": {
-            "event-element-sequence": "4",
+            "event-element-sequence": "1",
             "event-element-description": {
               "eventDescription": [
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Fog"
                     }
                   }
                 },
@@ -3216,7 +2323,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of Mission Blvd (Fremont). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Fog on CA-29 Northbound and Southbound area of CA-12 (Southern) (Unincorporated). Lanes affected. Traffic advisory in effect."
                     }
                   }
                 }
@@ -3225,25 +2332,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "Mission Blvd",
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-29 N",
+                  "link-from-road": "CA-12 (Southern)",
                   "link-to-road": null,
-                  "link-from-city": "Fremont",
+                  "link-from-city": "Unincorporated",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.476251",
-                    "event-location-coordinates-longitude": "-121.932551"
+                    "event-location-coordinates-latitude": "38.223194",
+                    "event-location-coordinates-longitude": "-122.257843"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-06T05:11:52.86760",
+              "update-time": "2021-12-06T05:20:38.38730",
               "valid-period": {
-                "event-timeline-estimated-duration": "19"
+                "event-timeline-estimated-duration": "52"
               },
-              "start-time": "2021-12-06T05:11:42.00000",
+              "start-time": "2021-12-06T05:20:38.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -3252,19 +2359,167 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-06T05:11:52.86760",
-        "ivr-article": "south of",
-        "ivr-county": "Alameda",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound and Southbound",
+        "ivr-lastUpdateDttm": "2021-12-06T05:20:38.38730",
+        "ivr-article": "area of",
+        "ivr-county": "Napa",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211206GG00291",
+        "ivr-totalLanes": "Lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Traffic advisory in effect",
         "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Left shoulder closed until 2 PM. Monday, December 6, 2021 5:01 AM thru Monday, December 6, 2021 1:59 PM, Monday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2021-12-06T13:23Z",
+      "updated": "2021-12-06T13:27Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.477644,
+          37.942579
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C580CB-0004-2021-12-06-05:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Main St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 2 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-06T13:01Z/2021-12-06T21:59Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-06T05:27:39.39729"
+        },
+        "event-reference": {
+          "event-identifier": "848546"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Left shoulder closed until 2 PM. Monday, December 6, 2021 5:01 AM thru Monday, December 6, 2021 1:59 PM, Monday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Main St",
+                  "link-to-road": null,
+                  "link-from-city": "San Quentin",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.942579",
+                    "event-location-coordinates-longitude": "-122.477644"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-06T05:27:11.15650",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2021-12-06T05:01:00.00000",
+              "cleared-time": "2021-12-06T13:59:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-12-06T05:27:11.15650",
+        "ivr-article": "at",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Left shoulder",
+        "ivr-genOtherText": "until 2 PM",
+        "SourceEventID": "C580CB-0004-2021-12-06-05:01:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     }
