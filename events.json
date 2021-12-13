@@ -12,7 +12,7 @@
       },
       "severity": "Unknown",
       "created": "2021-07-09T15:15Z",
-      "updated": "2021-12-12T18:15Z",
+      "updated": "2021-12-13T13:40Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -123,7 +123,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-12T10:15:53.49610",
+              "update-time": "2021-12-13T05:40:48.96690",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -141,7 +141,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-12T10:15:53.49610",
+        "ivr-lastUpdateDttm": "2021-12-13T05:40:48.96690",
         "ivr-article": "ramp to",
         "ivr-county": "Solano",
         "ivr-laneStatus": "closed",
@@ -160,7 +160,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-06T14:08Z",
-      "updated": "2021-12-12T18:15Z",
+      "updated": "2021-12-13T13:40Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -266,7 +266,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-12T10:15:53.21600",
+              "update-time": "2021-12-13T05:40:55.45400",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -284,7 +284,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-12T10:15:53.21600",
+        "ivr-lastUpdateDttm": "2021-12-13T05:40:55.45400",
         "ivr-article": "north of",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851079"
@@ -516,7 +516,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851218"
@@ -667,7 +667,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851431"
@@ -824,7 +824,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851444"
@@ -908,14 +908,18 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Northbound south of W Railroad Ave (Cotati). Lanes blocked. Expect delays.",
+      "headline": "CHP : Jack-knifed tractor trailer and Traffic Collision and Fuel spill on US-101 Northbound south of W Railroad Ave (Cotati). Lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": [
+          "Fuel spill",
+          "Jack-knifed tractor trailer",
+          "Traffic Collision"
+        ]
       },
       "severity": "Major",
       "created": "2021-12-13T12:04Z",
-      "updated": "2021-12-13T13:35Z",
+      "updated": "2021-12-13T13:39Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -978,7 +982,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851464"
@@ -991,9 +995,17 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Fuel spill"
+                      },
+                      {
+                        "incident": "Jack-knifed tractor trailer"
+                      },
+                      {
+                        "incident": "Traffic Collision"
+                      }
+                    ]
                   }
                 },
                 {
@@ -1002,7 +1014,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Northbound south of W Railroad Ave (Cotati). Lanes blocked. Expect delays."
+                      "event-description": "CHP : Jack-knifed tractor trailer and Traffic Collision and Fuel spill on US-101 Northbound south of W Railroad Ave (Cotati). Lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -1025,11 +1037,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-13T05:35:08.68010",
+              "update-time": "2021-12-13T05:39:41.73970",
               "valid-period": {
-                "event-timeline-estimated-duration": "49"
+                "event-timeline-estimated-duration": "64"
               },
-              "start-time": "2021-12-13T05:34:53.00000",
+              "start-time": "2021-12-13T05:34:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1043,11 +1055,12 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-13T05:35:08.68010",
+        "ivr-lastUpdateDttm": "2021-12-13T05:39:41.73970",
         "ivr-article": "south of",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Lanes",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211213GG00409",
         "EventSourceName": "CHP",
@@ -1129,7 +1142,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851467"
@@ -1285,7 +1298,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851478"
@@ -1439,7 +1452,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851480"
@@ -1587,7 +1600,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851483"
@@ -1735,7 +1748,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851491"
@@ -1883,7 +1896,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851492"
@@ -2027,7 +2040,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851494"
@@ -2171,7 +2184,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851495"
@@ -2319,7 +2332,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851496"
@@ -2463,7 +2476,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851497"
@@ -2607,7 +2620,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851498"
@@ -2685,14 +2698,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-880 Northbound at I-238 S (San Leandro). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-880 Northbound at I-238 N (San Leandro). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
       "created": "2021-12-13T13:24Z",
-      "updated": "2021-12-13T13:37Z",
+      "updated": "2021-12-13T13:47Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -2727,7 +2740,7 @@
       "roads": [
         {
           "name": "I-880 N",
-          "from": "I-238 S",
+          "from": "I-238 N",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -2750,12 +2763,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-13T13:37Z/"
+          "2021-12-13T13:47Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851499"
@@ -2779,7 +2792,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-880 Northbound at I-238 S (San Leandro). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-880 Northbound at I-238 N (San Leandro). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -2790,7 +2803,7 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
                   "link-road-designator": "I-880 N",
-                  "link-from-road": "I-238 S",
+                  "link-from-road": "I-238 N",
                   "link-to-road": null,
                   "link-from-city": "San Leandro",
                   "link-to-city": null,
@@ -2802,11 +2815,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-13T05:37:16.74940",
+              "update-time": "2021-12-13T05:47:57.34440",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2021-12-13T05:37:02.00000",
+              "start-time": "2021-12-13T05:47:42.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -2820,7 +2833,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-13T05:37:16.74940",
+        "ivr-lastUpdateDttm": "2021-12-13T05:47:57.34440",
         "ivr-article": "at",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
@@ -2899,7 +2912,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851500"
@@ -3043,7 +3056,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851501"
@@ -3121,14 +3134,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Northbound south of Marina Blvd (San Leandro). Lanes affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-880 Northbound south of Marina Blvd (San Leandro). Right shoulder open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
-      "severity": "Moderate",
+      "severity": "Unknown",
       "created": "2021-12-13T13:27Z",
-      "updated": "2021-12-13T13:37Z",
+      "updated": "2021-12-13T13:47Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -3168,11 +3181,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -3186,12 +3199,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-13T13:37Z/"
+          "2021-12-13T13:47Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851503"
@@ -3215,7 +3228,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of Marina Blvd (San Leandro). Lanes affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of Marina Blvd (San Leandro). Right shoulder open. Expect delays."
                     }
                   }
                 }
@@ -3238,11 +3251,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-13T05:37:16.60290",
+              "update-time": "2021-12-13T05:47:57.18950",
               "valid-period": {
-                "event-timeline-estimated-duration": "31"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2021-12-13T05:37:01.00000",
+              "start-time": "2021-12-13T05:47:42.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -3251,16 +3264,16 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-13T05:37:16.60290",
+        "ivr-lastUpdateDttm": "2021-12-13T05:47:57.18950",
         "ivr-article": "south of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211213GG00551",
         "EventSourceName": "CHP",
@@ -3269,14 +3282,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-780 Westbound west of I-680 N (Benicia). Lanes affected. Expect delays.",
+      "headline": "CHP : Flooding on I-780 Westbound west of I-680 N (Benicia). Left lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Flooding"
       },
       "severity": "Major",
       "created": "2021-12-13T13:28Z",
-      "updated": "2021-12-13T13:28Z",
+      "updated": "2021-12-13T13:40Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -3316,7 +3329,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
+            "#text": "Left lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -3339,7 +3352,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851504"
@@ -3353,7 +3366,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Flooding"
                     }
                   }
                 },
@@ -3363,7 +3376,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-780 Westbound west of I-680 N (Benicia). Lanes affected. Expect delays."
+                      "event-description": "CHP : Flooding on I-780 Westbound west of I-680 N (Benicia). Left lanes affected. Expect delays."
                     }
                   }
                 }
@@ -3386,11 +3399,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-13T05:28:41.69120",
+              "update-time": "2021-12-13T05:40:30.05390",
               "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
+                "event-timeline-estimated-duration": "53.5"
               },
-              "start-time": "2021-12-13T05:28:26.00000",
+              "start-time": "2021-12-13T05:28:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -3404,11 +3417,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-13T05:28:41.69120",
+        "ivr-lastUpdateDttm": "2021-12-13T05:40:30.05390",
         "ivr-article": "west of",
         "ivr-county": "Solano",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
+        "ivr-totalLanes": "Left lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211213GG00554",
         "EventSourceName": "CHP",
@@ -3483,7 +3496,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851505"
@@ -3561,14 +3574,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Westbound east of Grand Ave (Oakland). Left lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-580 Westbound east of Grand Ave (Oakland). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
-      "severity": "Moderate",
+      "severity": "Minor",
       "created": "2021-12-13T13:30Z",
-      "updated": "2021-12-13T13:35Z",
+      "updated": "2021-12-13T13:45Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -3608,7 +3621,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -3626,12 +3639,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-13T13:34Z/"
+          "2021-12-13T13:45Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851506"
@@ -3655,7 +3668,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Westbound east of Grand Ave (Oakland). Left lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-580 Westbound east of Grand Ave (Oakland). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -3678,11 +3691,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-13T05:35:08.06490",
+              "update-time": "2021-12-13T05:45:49.19720",
               "valid-period": {
-                "event-timeline-estimated-duration": "25"
+                "event-timeline-estimated-duration": "19"
               },
-              "start-time": "2021-12-13T05:34:53.00000",
+              "start-time": "2021-12-13T05:45:34.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -3691,16 +3704,16 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "1",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-13T05:35:08.06490",
+        "ivr-lastUpdateDttm": "2021-12-13T05:45:49.19720",
         "ivr-article": "east of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left lane",
+        "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211213GG00559",
         "EventSourceName": "CHP",
@@ -3709,14 +3722,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-80 Eastbound west of Leisure Town Rd (Vacaville). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-80 Eastbound west of Leisure Town Rd (Vacaville). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Moderate",
+      "severity": "Minor",
       "created": "2021-12-13T13:30Z",
-      "updated": "2021-12-13T13:31Z",
+      "updated": "2021-12-13T13:45Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -3756,7 +3769,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -3774,12 +3787,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-13T13:31Z/"
+          "2021-12-13T13:45Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851507"
@@ -3803,7 +3816,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Eastbound west of Leisure Town Rd (Vacaville). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Eastbound west of Leisure Town Rd (Vacaville). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -3826,11 +3839,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-13T05:31:54.38890",
+              "update-time": "2021-12-13T05:45:49.33650",
               "valid-period": {
-                "event-timeline-estimated-duration": "31"
+                "event-timeline-estimated-duration": "23.5"
               },
-              "start-time": "2021-12-13T05:31:39.00000",
+              "start-time": "2021-12-13T05:45:34.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -3839,162 +3852,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "1",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-13T05:31:54.38890",
+        "ivr-lastUpdateDttm": "2021-12-13T05:45:49.33650",
         "ivr-article": "west of",
         "ivr-county": "Solano",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211213GG00560",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Flooding on I-880 Southbound south of 5TH Ave (Oakland). Lanes affected. Traffic advisory in effect.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Flooding"
-      },
-      "severity": "Moderate",
-      "created": "2021-12-13T13:31Z",
-      "updated": "2021-12-13T13:31Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.259872,
-          37.790394
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "roads": [
-        {
-          "name": "I-880 S",
-          "from": "5TH Ave",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Traffic advisory in effect"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-13T13:31Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
-        },
-        "event-reference": {
-          "event-identifier": "851508"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "1",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Flooding"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Flooding on I-880 Southbound south of 5TH Ave (Oakland). Lanes affected. Traffic advisory in effect."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "5TH Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Oakland",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.790394",
-                    "event-location-coordinates-longitude": "-122.259872"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-13T05:31:11.33180",
-              "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
-              },
-              "start-time": "2021-12-13T05:31:11.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-13T05:31:11.33180",
-        "ivr-article": "south of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "Traffic advisory in effect",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -4067,7 +3936,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851510"
@@ -4145,154 +4014,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Westbound west of Travis Blvd (Fairfield). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-12-13T13:34Z",
-      "updated": "2021-12-13T13:35Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.064636,
-          38.255891
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211213GG00565"
-      },
-      "roads": [
-        {
-          "name": "I-80 W",
-          "from": "Travis Blvd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-13T13:34Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
-        },
-        "event-reference": {
-          "event-identifier": "851511"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Westbound west of Travis Blvd (Fairfield). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Travis Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "Fairfield",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.255891",
-                    "event-location-coordinates-longitude": "-122.064636"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-13T05:35:07.90470",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25"
-              },
-              "start-time": "2021-12-13T05:34:53.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-13T05:35:07.90470",
-        "ivr-article": "west of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211213GG00565",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Flooding on CA-17 Northbound south of I-280 S (San Jose). Right lane affected. Traffic advisory in effect.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -4359,7 +4080,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851512"
@@ -4507,7 +4228,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851513"
@@ -4585,154 +4306,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Westbound east of CA-12 (Fairfield). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-12-13T13:36Z",
-      "updated": "2021-12-13T13:36Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.144834,
-          38.211715
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211213GG00568"
-      },
-      "roads": [
-        {
-          "name": "I-80 W",
-          "from": "CA-12",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-13T13:35Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
-        },
-        "event-reference": {
-          "event-identifier": "851514"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Westbound east of CA-12 (Fairfield). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "CA-12",
-                  "link-to-road": null,
-                  "link-from-city": "Fairfield",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.211715",
-                    "event-location-coordinates-longitude": "-122.144834"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-13T05:36:12.55390",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2021-12-13T05:35:57.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-13T05:36:12.55390",
-        "ivr-article": "east of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211213GG00568",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Hazard on I-80 Eastbound east of Cherry Glen Rd (Vacaville). Lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -4803,7 +4376,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-13T05:38:07.92050"
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
         },
         "event-reference": {
           "event-identifier": "851515"
@@ -4875,6 +4448,450 @@
         "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211213GG00571",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Northbound at Redwood Shores Pky (San Carlos). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-13T13:43Z",
+      "updated": "2021-12-13T13:47Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.251463,
+          37.509953
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211213GG00584"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Redwood Shores Pky",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-13T13:47Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
+        },
+        "event-reference": {
+          "event-identifier": "851516"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Northbound at Redwood Shores Pky (San Carlos). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Redwood Shores Pky",
+                  "link-to-road": null,
+                  "link-from-city": "San Carlos",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.509953",
+                    "event-location-coordinates-longitude": "-122.251463"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-13T05:47:57.04030",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-12-13T05:47:42.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-13T05:47:57.04030",
+        "ivr-article": "at",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211213GG00584",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-880 Southbound south of Marina Blvd (San Leandro). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-13T13:43Z",
+      "updated": "2021-12-13T13:43Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.169319,
+          37.712455
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211213GG00586"
+      },
+      "roads": [
+        {
+          "name": "I-880 S",
+          "from": "Marina Blvd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-13T13:43Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
+        },
+        "event-reference": {
+          "event-identifier": "851517"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-880 Southbound south of Marina Blvd (San Leandro). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "Marina Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "San Leandro",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.712455",
+                    "event-location-coordinates-longitude": "-122.169319"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-13T05:43:41.32860",
+              "valid-period": {
+                "event-timeline-estimated-duration": "25"
+              },
+              "start-time": "2021-12-13T05:43:26.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-12-13T05:43:41.32860",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211213GG00586",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-880 Southbound at I-980 W (Oakland). Lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-13T13:43Z",
+      "updated": "2021-12-13T13:46Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.276186,
+          37.799105
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211213GG00585"
+      },
+      "roads": [
+        {
+          "name": "I-880 S",
+          "from": "I-980 W",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-13T13:46Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-13T05:48:35.71155"
+        },
+        "event-reference": {
+          "event-identifier": "851518"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-880 Southbound at I-980 W (Oakland). Lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "I-980 W",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.799105",
+                    "event-location-coordinates-longitude": "-122.276186"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-13T05:46:53.38030",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2021-12-13T05:46:38.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-12-13T05:46:53.38030",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211213GG00585",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
