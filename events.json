@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "811911"
@@ -353,7 +353,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -499,7 +499,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "851839"
@@ -649,7 +649,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "852405"
@@ -793,7 +793,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "852562"
@@ -940,7 +940,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "852731"
@@ -1018,17 +1018,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Downed wires on US-101 Northbound and Southbound between Masten Ave (Gilroy) and Leavesley Rd (Gilroy). All lanes closed. Expect delays.",
+      "headline": "CHP : Residual delays on US-101 Northbound and Southbound between Masten Ave (Gilroy) and Leavesley Rd (Gilroy). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Downed wires",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Severe",
+      "severity": "Unknown",
       "created": "2021-12-15T02:17Z",
-      "updated": "2021-12-15T03:01Z",
+      "updated": "2021-12-15T03:29Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1066,14 +1063,14 @@
           "from": "Masten Ave",
           "to": "Leavesley Rd",
           "direction": "Northbound and Southbound",
-          "state": "CLOSED",
+          "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1090,28 +1087,9 @@
           "2021-12-15T02:17Z/"
         ]
       },
-      "closure_geometry": {
-        "@xmlns:gml": "http://www.opengis.net/gml",
-        "@xmlns": "http://511.org/open511-extensions",
-        "gml:MultiLineString": {
-          "@srsName": "urn:ogc:def:crs:EPSG::4326",
-          "gml:LineStringMember": [
-            {
-              "gml:LineString": {
-                "gml:posList": "-121.566448267635,37.0224101517111,-121.56645299996,37.0224189999917,-121.566467000204,37.0224449997444,-121.566519999907,37.0225420000948,-121.566558000441,37.0226110003278,-121.566591000053,37.0226740002987,-121.566787999696,37.0230360002461,-121.567012000002,37.0234519997317,-121.567155999942,37.0237200001731,-121.56751800034,37.0243819996838,-121.568078000207,37.0254170002183,-121.568576000149,37.0263400001257,-121.56887300025,37.0268889999572,-121.569088000335,37.0272829999863,-121.569613999867,37.0282470002101,-121.569665999745,37.0283429998869,-121.569998999831,37.0289620002158,-121.570146999969,37.0292360002627,-121.570678000422,37.0302140001164,-121.570941000188,37.0306930002276,-121.571208000151,37.031179000114,-121.57161800023,37.0319329999091,-121.571736000231,37.0321559996611,-121.572271999808,37.0331330002648,-121.572808000284,37.0341239998033,-121.573336000363,37.0351150000344,-121.573868999567,37.0360950001457,-121.574389999974,37.0370580000648,-121.574499999579,37.0372519998908,-121.574576999572,37.0373889997834,-121.574918000054,37.0380339996782,-121.575420000194,37.0389859997101,-121.575894999672,37.0399660000552,-121.576340999736,37.0409520001306,-121.576779000302,37.0419430001615,-121.576828999633,37.0420580002999,-121.57716900029,37.042849000123,-121.5772060001,37.042934000163,-121.577581000018,37.0437580000115,-121.577653999813,37.0439199996937,-121.577718000286,37.044062999688,-121.578094999854,37.0449109996997,-121.578192999763,37.0451399999156,-121.578520999826,37.0459050002904,-121.578945999974,37.0468979998614,-121.579376999969,37.0478889997061,-121.579807000139,37.0488800002344,-121.580238000135,37.0498710000118,-121.58066900013,37.0508619997548,-121.5810990003,37.0518530001795,-121.581530000295,37.0528439998515,-121.581766000297,37.0533870002808,-121.581961000291,37.0538350002039,-121.5823599996,37.0547490001693,-121.582541000249,37.0551679996774,-121.582824000106,37.0558170000801,-121.58309299972,37.0564309997752,-121.583257999576,37.0568080003194,-121.583692999769,37.0577989998029,-121.584116000267,37.0587899999637,-121.584377000383,37.0593999998645,-121.584389999903,37.0594320000224,-121.584399933474,37.0594552680335"
-              }
-            },
-            {
-              "gml:LineString": {
-                "gml:posList": "-121.584726894186,37.0593661401428,-121.584707000096,37.0593199997691,-121.584692000027,37.0592850001937,-121.584615999859,37.0591099999239,-121.584183000214,37.0581259999522,-121.583754999693,37.0571430001802,-121.583404999889,37.0563320002782,-121.583270999995,37.0560240002207,-121.58267199977,37.0546520000919,-121.582502999716,37.0542639999765,-121.582472999578,37.0541930003504,-121.581617000334,37.0522169996557,-121.581181000316,37.0512259996825,-121.580751000146,37.050229999649,-121.580327999648,37.0492359997728,-121.579896999653,37.0482450003078,-121.579458999985,37.0472540000923,-121.579037000211,37.0462839997534,-121.57864399985,37.0453450000739,-121.578217000053,37.0443450001158,-121.578017000036,37.0439199996937,-121.577900999685,37.0436719999424,-121.577833999738,37.0435210001856,-121.577740999852,37.043313000119,-121.577408999591,37.0425190000784,-121.57731300023,37.0423009997574,-121.57692700044,37.0414000003163,-121.576827999808,37.0411810000996,-121.576478000003,37.0404279999075,-121.57603199994,37.0394679998596,-121.575986999734,37.0393780002188,-121.575651000173,37.0387119997041,-121.575552000439,37.0385160001347,-121.574964000085,37.0374040002435,-121.574786999634,37.0370740001949,-121.574564000052,37.0366630002216,-121.57400500001,37.0356589999925,-121.57350100022,37.034720999759,-121.572970999592,37.0337440002231,-121.572457999581,37.0327860003262,-121.572082999662,37.0321070000676,-121.571942000095,37.0318409998786,-121.571425999711,37.0308819999554,-121.570876999715,37.0298800001451,-121.570336000115,37.0289050001473,-121.569820999556,37.0279169998131,-121.569643000179,37.0276000002026,-121.569421000421,37.0272070001179,-121.569276999583,37.02692700006,-121.568916999733,37.0262720001577,-121.568385000354,37.0252690000151,-121.567853999901,37.0243070002717,-121.567381000073,37.0234260003237,-121.567309000103,37.0232919997026,-121.567292000384,37.0232619996597,-121.567165999988,37.0230309998643,-121.567114999934,37.0229380000185,-121.566931999636,37.0226029998155,-121.566883999955,37.0225149998618,-121.566834999552,37.0224260000088,-121.566785000221,37.0223339999383,-121.566767211782,37.0223028699018"
-              }
-            }
-          ]
-        }
-      },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "852751"
@@ -1124,14 +1102,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Downed wires"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -1140,7 +1113,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Downed wires on US-101 Northbound and Southbound between Masten Ave (Gilroy) and Leavesley Rd (Gilroy). All lanes closed. Expect delays."
+                      "event-description": "CHP : Residual delays on US-101 Northbound and Southbound between Masten Ave (Gilroy) and Leavesley Rd (Gilroy). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -1158,20 +1131,14 @@
                   "link-primary-location": {
                     "event-location-coordinates-latitude": "37.05939",
                     "event-location-coordinates-longitude": "-121.58464"
-                  },
-                  "event-road-closure-links": {
-                    "link-id": [
-                      "118920",
-                      "301350"
-                    ]
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-14T19:01:16.44430",
+              "update-time": "2021-12-14T19:29:12.54520",
               "valid-period": {
-                "event-timeline-estimated-duration": "70.6"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-12-14T18:17:00.00000",
               "cleared-time": null,
@@ -1182,17 +1149,16 @@
             }
           }
         },
-        "EventImpact": "Severe",
-        "RoadClosed": "true",
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound and Southbound",
-        "ivr-lastUpdateDttm": "2021-12-14T19:01:16.44430",
+        "ivr-lastUpdateDttm": "2021-12-14T19:29:12.54520",
         "ivr-article": "between",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "closed",
+        "ivr-laneStatus": "open",
         "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211214MY00336",
         "EventSourceName": "CHP",
@@ -1271,7 +1237,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "852765"
@@ -1356,7 +1322,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-15T02:44Z",
-      "updated": "2021-12-15T03:22Z",
+      "updated": "2021-12-15T03:34Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -1419,7 +1385,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "852768"
@@ -1466,7 +1432,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-14T19:22:19.10530",
+              "update-time": "2021-12-14T19:34:53.21280",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1484,7 +1450,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-14T19:22:19.10530",
+        "ivr-lastUpdateDttm": "2021-12-14T19:34:53.21280",
         "ivr-article": "at",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "closed",
@@ -1497,17 +1463,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Downed wires on US-101 Northbound at Leavesley Rd (Gilroy). All lanes closed. Expect delays.",
+      "headline": "CHP : Residual delays on US-101 Northbound at Leavesley Rd (Gilroy). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Downed wires",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Severe",
+      "severity": "Unknown",
       "created": "2021-12-15T03:02Z",
-      "updated": "2021-12-15T03:02Z",
+      "updated": "2021-12-15T03:27Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1540,14 +1503,14 @@
           "name": "US-101 N",
           "from": "Leavesley Rd",
           "direction": "Northbound",
-          "state": "CLOSED",
+          "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1566,7 +1529,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "852772"
@@ -1579,14 +1542,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Downed wires"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -1595,7 +1553,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Downed wires on US-101 Northbound at Leavesley Rd (Gilroy). All lanes closed. Expect delays."
+                      "event-description": "CHP : Residual delays on US-101 Northbound at Leavesley Rd (Gilroy). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -1618,11 +1576,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-14T19:02:40.58350",
+              "update-time": "2021-12-14T19:27:59.06170",
               "valid-period": {
-                "event-timeline-estimated-duration": "70.6"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2021-12-14T19:02:40.00000",
+              "start-time": "2021-12-14T19:02:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1631,183 +1589,31 @@
             }
           }
         },
-        "EventImpact": "Severe",
-        "RoadClosed": "true",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-14T19:02:40.58350",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "Expect delays",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-80 Eastbound at Pinole Valley Rd (Pinole). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
-      },
-      "severity": "Moderate",
-      "created": "2021-12-15T03:14Z",
-      "updated": "2021-12-15T03:14Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.291239,
-          37.99478
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211214GG02222"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Pinole Valley Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-15T03:14Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
-        },
-        "event-reference": {
-          "event-identifier": "852776"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Eastbound at Pinole Valley Rd (Pinole). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Pinole Valley Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Pinole",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.99478",
-                    "event-location-coordinates-longitude": "-122.291239"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-14T19:14:21.41350",
-              "valid-period": {
-                "event-timeline-estimated-duration": "31"
-              },
-              "start-time": "2021-12-14T19:14:04.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-14T19:14:21.41350",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-14T19:27:59.06170",
         "ivr-article": "at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211214GG02222",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Downed wires on US-101 Northbound entering at Leavesley Rd (Gilroy). On Ramp closed. Expect delays.",
+      "headline": "CHP : Residual delays on US-101 Northbound entering at Leavesley Rd (Gilroy). On Ramp open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Downed wires",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Severe",
+      "severity": "Unknown",
       "created": "2021-12-15T03:17Z",
-      "updated": "2021-12-15T03:17Z",
+      "updated": "2021-12-15T03:28Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1847,7 +1653,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1866,7 +1672,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
           "event-identifier": "852777"
@@ -1879,14 +1685,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Downed wires"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -1895,7 +1696,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Downed wires on US-101 Northbound entering at Leavesley Rd (Gilroy). On Ramp closed. Expect delays."
+                      "event-description": "CHP : Residual delays on US-101 Northbound entering at Leavesley Rd (Gilroy). On Ramp open. Expect delays."
                     }
                   }
                 }
@@ -1918,9 +1719,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-14T19:17:34.98780",
+              "update-time": "2021-12-14T19:28:20.93730",
               "valid-period": {
-                "event-timeline-estimated-duration": "70.6"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-12-14T19:17:00.00000",
               "cleared-time": null,
@@ -1931,15 +1732,15 @@
             }
           }
         },
-        "EventImpact": "Severe",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-14T19:17:34.98780",
+        "ivr-lastUpdateDttm": "2021-12-14T19:28:20.93730",
         "ivr-article": "entering at",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "closed",
+        "ivr-laneStatus": "open",
         "ivr-totalLanes": "On Ramp",
         "ivr-genOtherText": "Expect delays",
         "EventSourceName": "CHP",
@@ -1948,21 +1749,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-80 Westbound east of Cummings Skwy (Crockett). Lane affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on US-101 Southbound north of Cesar Chavez St (San Francisco). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2021-12-15T03:21Z",
-      "updated": "2021-12-15T03:21Z",
+      "created": "2021-12-15T03:27Z",
+      "updated": "2021-12-15T03:27Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "San Francisco",
+          "id": "5391997",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5391997/"
           }
         }
       },
@@ -1975,8 +1776,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.235761,
-          38.046954
+          -122.402997,
+          37.752501
         ]
       },
       "source_type": {
@@ -1985,17 +1786,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211214GG02237"
+        "#text": "211214GG02249"
       },
       "roads": [
         {
-          "name": "I-80 W",
-          "from": "Cummings Skwy",
-          "direction": "Westbound",
+          "name": "US-101 S",
+          "from": "Cesar Chavez St",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -2007,21 +1808,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-15T03:21Z/"
+          "2021-12-15T03:27Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-14T19:23:37.80190"
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
         },
         "event-reference": {
-          "event-identifier": "852780"
+          "event-identifier": "852781"
         },
         "event-status": "new",
         "details": {
@@ -2042,7 +1843,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-80 Westbound east of Cummings Skwy (Crockett). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on US-101 Southbound north of Cesar Chavez St (San Francisco). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -2051,25 +1852,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Cummings Skwy",
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Cesar Chavez St",
                   "link-to-road": null,
-                  "link-from-city": "Crockett",
+                  "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.046954",
-                    "event-location-coordinates-longitude": "-122.235761"
+                    "event-location-coordinates-latitude": "37.752501",
+                    "event-location-coordinates-longitude": "-122.402997"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-14T19:21:30.67310",
+              "update-time": "2021-12-14T19:27:52.28960",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.199999999999996"
+                "event-timeline-estimated-duration": "26.2"
               },
-              "start-time": "2021-12-14T19:21:29.00000",
+              "start-time": "2021-12-14T19:27:51.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -2082,15 +1883,312 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-14T19:21:30.67310",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-12-14T19:27:52.28960",
+        "ivr-article": "north of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211214GG02249",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-880 Northbound south of Stevenson Blvd (Fremont). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-15T03:29Z",
+      "updated": "2021-12-15T03:29Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.983042,
+          37.52006
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211214GG02255"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "Stevenson Blvd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-15T03:29Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
+        },
+        "event-reference": {
+          "event-identifier": "852782"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-880 Northbound south of Stevenson Blvd (Fremont). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Stevenson Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.52006",
+                    "event-location-coordinates-longitude": "-121.983042"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-14T19:29:59.79640",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-12-14T19:29:59.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-14T19:29:59.79640",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211214GG02237",
+        "SourceEventID": "211214GG02255",
         "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on US-101 Southbound at Pacheco Pass Hwy (Gilroy). All lanes closed until midnight. Tuesday, December 14, 2021 6:30 PM thru Tuesday, December 14, 2021 11:59 PM, Tuesday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2021-12-15T03:34Z",
+      "updated": "2021-12-15T03:34Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.564798,
+          37.018961
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "T101IA-0002-2021-12-14-18:30:00"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Pacheco Pass Hwy",
+          "direction": "Southbound",
+          "state": "CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until midnight"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-15T02:30Z/2021-12-15T07:59Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-14T19:35:19.07421"
+        },
+        "event-reference": {
+          "event-identifier": "852783"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on US-101 Southbound at Pacheco Pass Hwy (Gilroy). All lanes closed until midnight. Tuesday, December 14, 2021 6:30 PM thru Tuesday, December 14, 2021 11:59 PM, Tuesday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Pacheco Pass Hwy",
+                  "link-to-road": null,
+                  "link-from-city": "Gilroy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.018961",
+                    "event-location-coordinates-longitude": "-121.564798"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-14T19:34:53.58950",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2021-12-14T18:30:00.00000",
+              "cleared-time": "2021-12-14T23:59:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "true",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-12-14T19:34:53.58950",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "until midnight",
+        "SourceEventID": "T101IA-0002-2021-12-14-18:30:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     }
