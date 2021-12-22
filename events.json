@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-21T18:09:51.77146"
+          "event-message-time-stamp": "2021-12-21T18:27:37.00067"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-21T18:09:51.77146"
+          "event-message-time-stamp": "2021-12-21T18:27:37.00067"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -365,7 +365,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-21T18:09:51.77146"
+          "event-message-time-stamp": "2021-12-21T18:27:37.00067"
         },
         "event-reference": {
           "event-identifier": "855440"
@@ -448,14 +448,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-84 Eastbound east of Dumbarton Bridge - Toll Plaza (Fremont). 3rd lane from the left blocked. Expect delays.",
+      "headline": "CHP : Residual delays on CA-84 Eastbound east of Dumbarton Bridge - Toll Plaza (Fremont). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2021-12-22T01:52Z",
-      "updated": "2021-12-22T02:04Z",
+      "updated": "2021-12-22T02:26Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -495,11 +495,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "3rd lane from the left"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -518,7 +518,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-21T18:09:51.77146"
+          "event-message-time-stamp": "2021-12-21T18:27:37.00067"
         },
         "event-reference": {
           "event-identifier": "855446"
@@ -532,7 +532,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -542,7 +542,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-84 Eastbound east of Dumbarton Bridge - Toll Plaza (Fremont). 3rd lane from the left blocked. Expect delays."
+                      "event-description": "CHP : Residual delays on CA-84 Eastbound east of Dumbarton Bridge - Toll Plaza (Fremont). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -565,9 +565,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-21T18:04:36.32000",
+              "update-time": "2021-12-21T18:26:58.44890",
               "valid-period": {
-                "event-timeline-estimated-duration": "52.699999999999996"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2021-12-21T17:57:00.00000",
               "cleared-time": null,
@@ -578,314 +578,18 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-21T18:04:36.32000",
+        "ivr-lastUpdateDttm": "2021-12-21T18:26:58.44890",
         "ivr-article": "east of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "3rd lane from the left",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211221GG01779",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Southbound north of Cochrane Rd (Morgan Hill). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-12-22T01:54Z",
-      "updated": "2021-12-22T01:56Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.648946,
-          37.149077
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211221MY00251"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "Cochrane Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-22T01:54Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-21T18:09:51.77146"
-        },
-        "event-reference": {
-          "event-identifier": "855449"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Southbound north of Cochrane Rd (Morgan Hill). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Cochrane Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Morgan Hill",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.149077",
-                    "event-location-coordinates-longitude": "-121.648946"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-21T17:56:32.67280",
-              "valid-period": {
-                "event-timeline-estimated-duration": "29"
-              },
-              "start-time": "2021-12-21T17:54:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-21T17:56:32.67280",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211221MY00251",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Southbound north of Marsh Rd (Menlo Park). 4th lane from the left blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2021-12-22T01:57Z",
-      "updated": "2021-12-22T01:58Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.184335,
-          37.48441
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211221GG01792"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "Marsh Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "4th lane from the left"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-22T01:57Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-21T18:09:51.77146"
-        },
-        "event-reference": {
-          "event-identifier": "855451"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Southbound north of Marsh Rd (Menlo Park). 4th lane from the left blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Marsh Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Menlo Park",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.48441",
-                    "event-location-coordinates-longitude": "-122.184335"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-21T17:58:46.71960",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2021-12-21T17:57:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-21T17:58:46.71960",
-        "ivr-article": "north of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "4th lane from the left",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211221GG01792",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
