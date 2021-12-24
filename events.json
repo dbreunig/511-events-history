@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-23T22:05:34.51709"
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-23T22:05:34.51709"
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
         },
         "event-reference": {
           "event-identifier": "821664"
@@ -353,7 +353,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-23T22:05:34.51709"
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -496,7 +496,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-23T22:05:34.51709"
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
         },
         "event-reference": {
           "event-identifier": "856276"
@@ -643,7 +643,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-23T22:05:34.51709"
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
         },
         "event-reference": {
           "event-identifier": "856505"
@@ -721,14 +721,310 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-152 Eastbound west of Pole Line Rd (Gilroy). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on CA-37 Eastbound west of Lakeville Hwy (Unincorporated). All lanes open. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Unknown",
+      "created": "2021-12-24T04:37Z",
+      "updated": "2021-12-24T06:19Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.476424,
+          38.134167
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211223GG02621"
+      },
+      "roads": [
+        {
+          "name": "CA-37 E",
+          "from": "Lakeville Hwy",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "open"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-24T06:19Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
+        },
+        "event-reference": {
+          "event-identifier": "856508"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-37 Eastbound west of Lakeville Hwy (Unincorporated). All lanes open. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "CA-37 E",
+                  "link-from-road": "Lakeville Hwy",
+                  "link-to-road": null,
+                  "link-from-city": "Unincorporated",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.134167",
+                    "event-location-coordinates-longitude": "-122.476424"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-23T22:19:30.19230",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2021-12-23T22:19:12.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-12-23T22:19:30.19230",
+        "ivr-article": "west of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211223GG02621",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Northbound south of Windsor River Rd (Windsor). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Minor",
+      "created": "2021-12-24T05:31Z",
+      "updated": "2021-12-24T06:21Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.810724,
+          38.549795
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211223GG02746"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Windsor River Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-24T06:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
+        },
+        "event-reference": {
+          "event-identifier": "856515"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Northbound south of Windsor River Rd (Windsor). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Windsor River Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Windsor",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.549795",
+                    "event-location-coordinates-longitude": "-122.810724"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-23T22:21:38.53140",
+              "valid-period": {
+                "event-timeline-estimated-duration": "19"
+              },
+              "start-time": "2021-12-23T22:21:21.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-23T22:21:38.53140",
+        "ivr-article": "south of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211223GG02746",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-152 Eastbound west of Pole Line Rd (Gilroy). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Minor",
       "created": "2021-12-24T05:58Z",
-      "updated": "2021-12-24T06:01Z",
+      "updated": "2021-12-24T06:15Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -768,7 +1064,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -786,12 +1082,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-24T06:01Z/"
+          "2021-12-24T06:14Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-23T22:05:34.51709"
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
         },
         "event-reference": {
           "event-identifier": "856518"
@@ -815,7 +1111,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-152 Eastbound west of Pole Line Rd (Gilroy). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on CA-152 Eastbound west of Pole Line Rd (Gilroy). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -838,11 +1134,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-23T22:01:21.12180",
+              "update-time": "2021-12-23T22:15:14.02190",
               "valid-period": {
                 "event-timeline-estimated-duration": "11.5"
               },
-              "start-time": "2021-12-23T22:01:03.00000",
+              "start-time": "2021-12-23T22:14:56.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -856,11 +1152,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "1",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-23T22:01:21.12180",
+        "ivr-lastUpdateDttm": "2021-12-23T22:15:14.02190",
         "ivr-article": "west of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211223MY00588",
         "EventSourceName": "CHP",
@@ -939,7 +1235,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-23T22:05:34.51709"
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
         },
         "event-reference": {
           "event-identifier": "856519"
@@ -1087,7 +1383,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-23T22:05:34.51709"
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
         },
         "event-reference": {
           "event-identifier": "856520"
@@ -1165,14 +1461,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-880 Northbound south of Stevenson Blvd (Fremont). Lanes blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-880 Northbound south of Stevenson Blvd (Fremont). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Moderate",
       "created": "2021-12-24T06:04Z",
-      "updated": "2021-12-24T06:04Z",
+      "updated": "2021-12-24T06:21Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1212,11 +1508,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1230,12 +1526,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-24T06:04Z/"
+          "2021-12-24T06:21Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-23T22:05:34.51709"
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
         },
         "event-reference": {
           "event-identifier": "856521"
@@ -1259,7 +1555,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-880 Northbound south of Stevenson Blvd (Fremont). Lanes blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-880 Northbound south of Stevenson Blvd (Fremont). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -1282,11 +1578,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-23T22:04:32.91620",
+              "update-time": "2021-12-23T22:21:38.37840",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "29.5"
               },
-              "start-time": "2021-12-23T22:04:15.00000",
+              "start-time": "2021-12-23T22:21:21.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1300,13 +1596,457 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-23T22:04:32.91620",
+        "ivr-lastUpdateDttm": "2021-12-23T22:21:38.37840",
         "ivr-article": "south of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lanes",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211223GG02809",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-17 Northbound at Idylwild Rd (Los Gatos). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-24T06:05Z",
+      "updated": "2021-12-24T06:07Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.989613,
+          37.17011
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211223GG02812"
+      },
+      "roads": [
+        {
+          "name": "CA-17 N",
+          "from": "Idylwild Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-24T06:07Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
+        },
+        "event-reference": {
+          "event-identifier": "856522"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-17 Northbound at Idylwild Rd (Los Gatos). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "Idylwild Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Los Gatos",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.17011",
+                    "event-location-coordinates-longitude": "-121.989613"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-23T22:07:44.80430",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2021-12-23T22:07:27.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-23T22:07:44.80430",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211223GG02812",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-280 Southbound south of Hickey Blvd (Daly City). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-24T06:16Z",
+      "updated": "2021-12-24T06:16Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.465163,
+          37.661116
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211223GG02832"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "Hickey Blvd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-24T06:16Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
+        },
+        "event-reference": {
+          "event-identifier": "856524"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-280 Southbound south of Hickey Blvd (Daly City). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "Hickey Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "Daly City",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.661116",
+                    "event-location-coordinates-longitude": "-122.465163"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-23T22:16:17.66060",
+              "valid-period": {
+                "event-timeline-estimated-duration": "27.7"
+              },
+              "start-time": "2021-12-23T22:16:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-12-23T22:16:17.66060",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211223GG02832",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-680 Northbound north of Waterfront Rd (Martinez). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-24T06:16Z",
+      "updated": "2021-12-24T06:18Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.114167,
+          38.026944
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211223GG02830"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "Waterfront Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-24T06:18Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-23T22:24:28.30681"
+        },
+        "event-reference": {
+          "event-identifier": "856525"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-680 Northbound north of Waterfront Rd (Martinez). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Waterfront Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Martinez",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.026944",
+                    "event-location-coordinates-longitude": "-122.114167"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-23T22:18:25.74650",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-12-23T22:18:08.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-23T22:18:25.74650",
+        "ivr-article": "north of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211223GG02830",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
