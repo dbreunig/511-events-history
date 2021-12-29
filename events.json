@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-28T16:30:08.80992"
+          "event-message-time-stamp": "2021-12-28T17:08:58.78519"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-28T16:30:08.80992"
+          "event-message-time-stamp": "2021-12-28T17:08:58.78519"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -296,14 +296,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Northbound exiting at Broadway (Oakland). Off Ramp closed. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-880 Southbound north of 5TH Ave (Oakland). Right lane and shoulder blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Hazard"
       },
-      "severity": "Major",
-      "created": "2021-12-28T23:25Z",
-      "updated": "2021-12-28T23:45Z",
+      "severity": "Moderate",
+      "created": "2021-12-29T00:43Z",
+      "updated": "2021-12-29T00:44Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -323,8 +323,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.274681,
-          37.798542
+          -122.247952,
+          37.787349
         ]
       },
       "source_type": {
@@ -333,21 +333,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211228GG01302"
+        "#text": "211228GG01505"
       },
       "roads": [
         {
-          "name": "I-880 N",
-          "from": "Broadway",
-          "direction": "Northbound",
+          "name": "I-880 S",
+          "from": "5TH Ave",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
+            "#text": "Right lane and shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -355,21 +355,169 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "exiting at"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-28T23:25Z/"
+          "2021-12-29T00:42Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-28T16:30:08.80992"
+          "event-message-time-stamp": "2021-12-28T17:08:58.78519"
         },
         "event-reference": {
-          "event-identifier": "857930"
+          "event-identifier": "857951"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-880 Southbound north of 5TH Ave (Oakland). Right lane and shoulder blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "5TH Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.787349",
+                    "event-location-coordinates-longitude": "-122.247952"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-28T16:44:23.40350",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-12-28T16:42:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-12-28T16:44:23.40350",
+        "ivr-article": "north of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane and shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211228GG01505",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-280 Northbound north of US-101 S (san Jose) (San Jose). Right and left lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-29T00:44Z",
+      "updated": "2021-12-29T00:47Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.847843,
+          37.336327
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211228GG01507"
+      },
+      "roads": [
+        {
+          "name": "I-280 N",
+          "from": "US-101 S (san Jose)",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right and left lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-29T00:43Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-28T17:08:58.78519"
+        },
+        "event-reference": {
+          "event-identifier": "857952"
         },
         "event-status": "new",
         "details": {
@@ -390,7 +538,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Northbound exiting at Broadway (Oakland). Off Ramp closed. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-280 Northbound north of US-101 S (san Jose) (San Jose). Right and left lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -399,25 +547,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "Broadway",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "US-101 S (san Jose)",
                   "link-to-road": null,
-                  "link-from-city": "Oakland",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.798542",
-                    "event-location-coordinates-longitude": "-122.274681"
+                    "event-location-coordinates-latitude": "37.336327",
+                    "event-location-coordinates-longitude": "-121.847843"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-28T15:45:35.54410",
+              "update-time": "2021-12-28T16:47:23.72250",
               "valid-period": {
-                "event-timeline-estimated-duration": "49"
+                "event-timeline-estimated-duration": "31"
               },
-              "start-time": "2021-12-28T15:25:00.00000",
+              "start-time": "2021-12-28T16:43:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -426,39 +574,39 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-28T15:45:35.54410",
-        "ivr-article": "exiting at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Off Ramp",
+        "ivr-lastUpdateDttm": "2021-12-28T16:47:23.72250",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right and left lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211228GG01302",
+        "SourceEventID": "211228GG01507",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-92 Westbound east of San Mateo Bridge - High Rise (Foster City). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound at San Pablo Dam Rd (San Pablo). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2021-12-29T00:22Z",
-      "updated": "2021-12-29T00:22Z",
+      "created": "2021-12-29T01:06Z",
+      "updated": "2021-12-29T01:06Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -471,8 +619,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.246131,
-          37.588586
+          -122.330645,
+          37.959772
         ]
       },
       "source_type": {
@@ -481,12 +629,160 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211228GG01447"
+        "#text": "211228GG01544"
       },
       "roads": [
         {
-          "name": "CA-92 W",
-          "from": "San Mateo Bridge - High Rise",
+          "name": "I-80 W",
+          "from": "San Pablo Dam Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-29T01:06Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-28T17:08:58.78519"
+        },
+        "event-reference": {
+          "event-identifier": "857954"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound at San Pablo Dam Rd (San Pablo). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "San Pablo Dam Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Pablo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.959772",
+                    "event-location-coordinates-longitude": "-122.330645"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-28T17:06:28.58400",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2021-12-28T17:06:02.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-12-28T17:06:28.58400",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211228GG01544",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound east of Travis Blvd (Fairfield). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-29T01:08Z",
+      "updated": "2021-12-29T01:08Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.064636,
+          38.255891
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211228GG01547"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Travis Blvd",
           "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -509,15 +805,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-29T00:21Z/"
+          "2021-12-29T01:08Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-28T16:30:08.80992"
+          "event-message-time-stamp": "2021-12-28T17:08:58.78519"
         },
         "event-reference": {
-          "event-identifier": "857944"
+          "event-identifier": "857955"
         },
         "event-status": "new",
         "details": {
@@ -538,7 +834,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-92 Westbound east of San Mateo Bridge - High Rise (Foster City). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of Travis Blvd (Fairfield). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -547,25 +843,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "CA-92 W",
-                  "link-from-road": "San Mateo Bridge - High Rise",
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Travis Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Foster City",
+                  "link-from-city": "Fairfield",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.588586",
-                    "event-location-coordinates-longitude": "-122.246131"
+                    "event-location-coordinates-latitude": "38.255891",
+                    "event-location-coordinates-longitude": "-122.064636"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-28T16:22:03.75570",
+              "update-time": "2021-12-28T17:08:35.11520",
               "valid-period": {
-                "event-timeline-estimated-duration": "38"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2021-12-28T16:21:37.00000",
+              "start-time": "2021-12-28T17:08:09.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -579,161 +875,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-28T16:22:03.75570",
+        "ivr-lastUpdateDttm": "2021-12-28T17:08:35.11520",
         "ivr-article": "east of",
-        "ivr-county": "San Mateo",
+        "ivr-county": "Solano",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211228GG01447",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Southbound south of Livorna Rd (Alamo). Center lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-12-29T00:25Z",
-      "updated": "2021-12-29T00:28Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.039129,
-          37.866847
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211228GG01453"
-      },
-      "roads": [
-        {
-          "name": "I-680 S",
-          "from": "Livorna Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-29T00:26Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-28T16:30:08.80992"
-        },
-        "event-reference": {
-          "event-identifier": "857945"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Southbound south of Livorna Rd (Alamo). Center lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 S",
-                  "link-from-road": "Livorna Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Alamo",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.866847",
-                    "event-location-coordinates-longitude": "-122.039129"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-28T16:28:15.48530",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-12-28T16:26:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-28T16:28:15.48530",
-        "ivr-article": "south of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211228GG01453",
+        "SourceEventID": "211228GG01547",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
