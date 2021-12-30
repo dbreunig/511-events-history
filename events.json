@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T05:24:55.78394"
+          "event-message-time-stamp": "2021-12-30T05:36:57.93080"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T05:24:55.78394"
+          "event-message-time-stamp": "2021-12-30T05:36:57.93080"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -296,14 +296,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fog on I-580 Eastbound and Westbound between N Flynn Rd (Livermore) and Grant Line Rd (Unincorporated). Lanes affected. Expect delays.",
+      "headline": "CHP : Fog on I-580 Eastbound and Westbound between N Flynn Rd (Livermore) and Grant Line Rd (Unincorporated). Lanes affected. Traffic advisory in effect.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Fog"
       },
       "severity": "Moderate",
       "created": "2021-12-30T02:04Z",
-      "updated": "2021-12-30T13:09Z",
+      "updated": "2021-12-30T13:30Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -352,7 +352,7 @@
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "Traffic advisory in effect"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -367,7 +367,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T05:24:55.78394"
+          "event-message-time-stamp": "2021-12-30T05:36:57.93080"
         },
         "event-reference": {
           "event-identifier": "858255"
@@ -391,7 +391,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fog on I-580 Eastbound and Westbound between N Flynn Rd (Livermore) and Grant Line Rd (Unincorporated). Lanes affected. Expect delays."
+                      "event-description": "CHP : Fog on I-580 Eastbound and Westbound between N Flynn Rd (Livermore) and Grant Line Rd (Unincorporated). Lanes affected. Traffic advisory in effect."
                     }
                   }
                 }
@@ -414,7 +414,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-30T05:09:23.35130",
+              "update-time": "2021-12-30T05:30:14.53140",
               "valid-period": {
                 "event-timeline-estimated-duration": "37"
               },
@@ -432,12 +432,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound and Westbound",
-        "ivr-lastUpdateDttm": "2021-12-30T05:09:23.35130",
+        "ivr-lastUpdateDttm": "2021-12-30T05:30:14.53140",
         "ivr-article": "between",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "Expect delays",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Traffic advisory in effect",
         "SourceEventID": "211229GG01676",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
@@ -445,21 +446,24 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fog on CA-17 Northbound at Hebard Rd (Los Gatos). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries and Overturned vehicle on CA-24 Westbound east of ST Stephens Dr (Orinda). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Fog"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Overturned vehicle"
+        ]
       },
       "severity": "Moderate",
-      "created": "2021-12-30T06:45Z",
-      "updated": "2021-12-30T13:09Z",
+      "created": "2021-12-30T13:30Z",
+      "updated": "2021-12-30T13:33Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -472,8 +476,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.992101,
-          37.172834
+          -122.166865,
+          37.892846
         ]
       },
       "source_type": {
@@ -482,17 +486,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211229GG02183"
+        "#text": "211230GG00245"
       },
       "roads": [
         {
-          "name": "CA-17 N",
-          "from": "Hebard Rd",
-          "direction": "Northbound",
+          "name": "CA-24 W",
+          "from": "ST Stephens Dr",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -504,21 +508,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-30T07:32Z/"
+          "2021-12-30T13:31Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T05:24:55.78394"
+          "event-message-time-stamp": "2021-12-30T05:36:57.93080"
         },
         "event-reference": {
-          "event-identifier": "858299"
+          "event-identifier": "858329"
         },
         "event-status": "new",
         "details": {
@@ -528,9 +532,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Fog"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Overturned vehicle"
+                      }
+                    ]
                   }
                 },
                 {
@@ -539,7 +548,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fog on CA-17 Northbound at Hebard Rd (Los Gatos). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries and Overturned vehicle on CA-24 Westbound east of ST Stephens Dr (Orinda). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -548,25 +557,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-17 N",
-                  "link-from-road": "Hebard Rd",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 W",
+                  "link-from-road": "ST Stephens Dr",
                   "link-to-road": null,
-                  "link-from-city": "Los Gatos",
+                  "link-from-city": "Orinda",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.172834",
-                    "event-location-coordinates-longitude": "-121.992101"
+                    "event-location-coordinates-latitude": "37.892846",
+                    "event-location-coordinates-longitude": "-122.166865"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-30T05:09:23.19570",
+              "update-time": "2021-12-30T05:33:06.23600",
               "valid-period": {
-                "event-timeline-estimated-duration": "32"
+                "event-timeline-estimated-duration": "38.5"
               },
-              "start-time": "2021-12-29T23:32:58.00000",
+              "start-time": "2021-12-30T05:31:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -579,14 +588,15 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-30T05:09:23.19570",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-12-30T05:33:06.23600",
+        "ivr-article": "east of",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211229GG02183",
+        "SourceEventID": "211230GG00245",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
