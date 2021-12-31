@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T06:48:36.61172"
+          "event-message-time-stamp": "2021-12-31T07:04:44.07405"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T06:48:36.61172"
+          "event-message-time-stamp": "2021-12-31T07:04:44.07405"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -362,7 +362,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T06:48:36.61172"
+          "event-message-time-stamp": "2021-12-31T07:04:44.07405"
         },
         "event-reference": {
           "event-identifier": "858615"
@@ -440,21 +440,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Northbound south of Berryessa Rd (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-580 Westbound west of El Charro Rd (Pleasanton). Left lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2021-12-31T14:44Z",
-      "updated": "2021-12-31T14:45Z",
+      "created": "2021-12-31T14:58Z",
+      "updated": "2021-12-31T14:58Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -467,8 +467,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.858201,
-          37.38018
+          -121.851571,
+          37.701384
         ]
       },
       "source_type": {
@@ -477,13 +477,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211231GG00396"
+        "#text": "211231GG00411"
       },
       "roads": [
         {
-          "name": "I-680 N",
-          "from": "Berryessa Rd",
-          "direction": "Northbound",
+          "name": "I-580 W",
+          "from": "El Charro Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-31T14:57Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T07:04:44.07405"
+        },
+        "event-reference": {
+          "event-identifier": "858631"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-580 Westbound west of El Charro Rd (Pleasanton). Left lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "El Charro Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Pleasanton",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.701384",
+                    "event-location-coordinates-longitude": "-121.851571"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T06:58:03.79600",
+              "valid-period": {
+                "event-timeline-estimated-duration": "27.7"
+              },
+              "start-time": "2021-12-31T06:57:33.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-12-31T06:58:03.79600",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231GG00411",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Eastbound west of Edwards Ave (Oakland). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-31T14:58Z",
+      "updated": "2021-12-31T14:58Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.167414,
+          37.777734
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231GG00412"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Edwards Ave",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -499,21 +647,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T14:44Z/"
+          "2021-12-31T14:57Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T06:48:36.61172"
+          "event-message-time-stamp": "2021-12-31T07:04:44.07405"
         },
         "event-reference": {
-          "event-identifier": "858628"
+          "event-identifier": "858632"
         },
         "event-status": "new",
         "details": {
@@ -534,7 +682,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Northbound south of Berryessa Rd (San Jose). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound west of Edwards Ave (Oakland). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -543,25 +691,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Berryessa Rd",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Edwards Ave",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.38018",
-                    "event-location-coordinates-longitude": "-121.858201"
+                    "event-location-coordinates-latitude": "37.777734",
+                    "event-location-coordinates-longitude": "-122.167414"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-31T06:45:23.91450",
+              "update-time": "2021-12-31T06:58:03.97850",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2021-12-31T06:44:53.00000",
+              "start-time": "2021-12-31T06:57:33.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -574,14 +722,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-31T06:45:23.91450",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-12-31T06:58:03.97850",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211231GG00396",
+        "SourceEventID": "211231GG00412",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
