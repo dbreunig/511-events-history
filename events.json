@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T17:41:09.27654"
+          "event-message-time-stamp": "2021-12-30T18:09:52.51337"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T17:41:09.27654"
+          "event-message-time-stamp": "2021-12-30T18:09:52.51337"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -296,14 +296,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Residual delays on US-101 Northbound ramp to I-880 S (San Jose). All lanes open. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-880 Northbound exiting at E Brokaw Rd (San Jose). Off Ramp affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Residual delays"
+        "event_subtype": "Traffic Collision"
       },
-      "severity": "Unknown",
-      "created": "2021-12-30T22:08Z",
-      "updated": "2021-12-31T01:29Z",
+      "severity": "Major",
+      "created": "2021-12-31T01:42Z",
+      "updated": "2021-12-31T01:43Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -323,151 +323,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.90184,
-          37.364296
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "I-880 S",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "open"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "ramp to"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-30T22:08Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-30T17:41:09.27654"
-        },
-        "event-reference": {
-          "event-identifier": "858452"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "1",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on US-101 Northbound ramp to I-880 S (San Jose). All lanes open. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "I-880 S",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.364296",
-                    "event-location-coordinates-longitude": "-121.90184"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-30T17:29:25.12520",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2021-12-30T14:08:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-30T17:29:25.12520",
-        "ivr-article": "ramp to",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "open",
-        "ivr-totalLanes": "All lanes",
-        "ivr-genOtherText": "Expect delays",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Eastbound at Treasure Island Rd (San Francisco). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Major",
-      "created": "2021-12-31T00:04Z",
-      "updated": "2021-12-31T00:45Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.366974,
-          37.808253
+          -121.903355,
+          37.378212
         ]
       },
       "source_type": {
@@ -476,21 +333,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG01513"
+        "#text": "211230GG01805"
       },
       "roads": [
         {
-          "name": "I-80 E",
-          "from": "Treasure Island Rd",
-          "direction": "Eastbound",
+          "name": "I-880 N",
+          "from": "E Brokaw Rd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Off Ramp"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -498,21 +355,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "exiting at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T00:44Z/"
+          "2021-12-31T01:41Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T17:41:09.27654"
+          "event-message-time-stamp": "2021-12-30T18:09:52.51337"
         },
         "event-reference": {
-          "event-identifier": "858482"
+          "event-identifier": "858514"
         },
         "event-status": "new",
         "details": {
@@ -533,7 +390,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Eastbound at Treasure Island Rd (San Francisco). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-880 Northbound exiting at E Brokaw Rd (San Jose). Off Ramp affected. Expect delays."
                     }
                   }
                 }
@@ -542,173 +399,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Treasure Island Rd",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "E Brokaw Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Francisco",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.808253",
-                    "event-location-coordinates-longitude": "-122.366974"
+                    "event-location-coordinates-latitude": "37.378212",
+                    "event-location-coordinates-longitude": "-121.903355"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-30T16:45:08.87770",
-              "valid-period": {
-                "event-timeline-estimated-duration": "47.5"
-              },
-              "start-time": "2021-12-30T16:44:39.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-30T16:45:08.87770",
-        "ivr-article": "at",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG01513",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Pothole on CA-1 Northbound south of Panoramic Hwy (Unincorporated). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Pothole"
-      },
-      "severity": "Major",
-      "created": "2021-12-31T01:25Z",
-      "updated": "2021-12-31T01:27Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.543384,
-          37.887101
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG01750"
-      },
-      "roads": [
-        {
-          "name": "CA-1 N",
-          "from": "Panoramic Hwy",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-31T01:24Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-30T17:41:09.27654"
-        },
-        "event-reference": {
-          "event-identifier": "858507"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Pothole"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Pothole on CA-1 Northbound south of Panoramic Hwy (Unincorporated). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "CA-1 N",
-                  "link-from-road": "Panoramic Hwy",
-                  "link-to-road": null,
-                  "link-from-city": "Unincorporated",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.887101",
-                    "event-location-coordinates-longitude": "-122.543384"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-30T17:27:30.63340",
+              "update-time": "2021-12-30T17:43:38.01070",
               "valid-period": {
                 "event-timeline-estimated-duration": "49"
               },
-              "start-time": "2021-12-30T17:24:00.00000",
+              "start-time": "2021-12-30T17:41:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -722,34 +431,34 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-30T17:27:30.63340",
-        "ivr-article": "south of",
-        "ivr-county": "Marin",
+        "ivr-lastUpdateDttm": "2021-12-30T17:43:38.01070",
+        "ivr-article": "exiting at",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Off Ramp",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG01750",
+        "SourceEventID": "211230GG01805",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-680 Northbound south of E Capitol Expy (San Jose). Off Ramp affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on US-101 Northbound north of Baker Ave (Santa Rosa). 2nd lane from the left blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Major",
-      "created": "2021-12-31T01:28Z",
-      "updated": "2021-12-31T01:30Z",
+      "severity": "Moderate",
+      "created": "2021-12-31T01:44Z",
+      "updated": "2021-12-31T01:54Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Sonoma",
+          "id": "5397100",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5397100/"
           }
         }
       },
@@ -762,8 +471,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.840876,
-          37.347498
+          -122.715785,
+          38.41887
         ]
       },
       "source_type": {
@@ -772,21 +481,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG01759"
+        "#text": "211230GG01807"
       },
       "roads": [
         {
-          "name": "I-680 N",
-          "from": "E Capitol Expy",
+          "name": "US-101 N",
+          "from": "Baker Ave",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
+            "#text": "2nd lane from the left"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -794,21 +503,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T01:30Z/"
+          "2021-12-31T01:52Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T17:41:09.27654"
+          "event-message-time-stamp": "2021-12-30T18:09:52.51337"
         },
         "event-reference": {
-          "event-identifier": "858508"
+          "event-identifier": "858516"
         },
         "event-status": "new",
         "details": {
@@ -829,7 +538,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-680 Northbound south of E Capitol Expy (San Jose). Off Ramp affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Northbound north of Baker Ave (Santa Rosa). 2nd lane from the left blocked. Expect delays."
                     }
                   }
                 }
@@ -838,25 +547,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "E Capitol Expy",
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Baker Ave",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Santa Rosa",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.347498",
-                    "event-location-coordinates-longitude": "-121.840876"
+                    "event-location-coordinates-latitude": "38.41887",
+                    "event-location-coordinates-longitude": "-122.715785"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-30T17:30:41.14190",
+              "update-time": "2021-12-30T17:54:24.15140",
               "valid-period": {
-                "event-timeline-estimated-duration": "53.5"
+                "event-timeline-estimated-duration": "38.5"
               },
-              "start-time": "2021-12-30T17:30:11.00000",
+              "start-time": "2021-12-30T17:52:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -865,39 +574,39 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-30T17:30:41.14190",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Off Ramp",
+        "ivr-lastUpdateDttm": "2021-12-30T17:54:24.15140",
+        "ivr-article": "north of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "2nd lane from the left",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG01759",
+        "SourceEventID": "211230GG01807",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-29 Northbound south of Tubbs Ln (Calistoga). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-880 Northbound south of Auto Mall Pky (Fremont). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Hazard"
       },
-      "severity": "Major",
-      "created": "2021-12-31T01:31Z",
-      "updated": "2021-12-31T01:31Z",
+      "severity": "Moderate",
+      "created": "2021-12-31T01:59Z",
+      "updated": "2021-12-31T02:08Z",
       "areas": {
         "area": {
-          "name": "Napa",
-          "id": "5376101",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5376101/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -910,8 +619,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.595407,
-          38.605519
+          -121.962855,
+          37.503818
         ]
       },
       "source_type": {
@@ -920,12 +629,12 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG01765"
+        "#text": "211230GG01846"
       },
       "roads": [
         {
-          "name": "CA-29 N",
-          "from": "Tubbs Ln",
+          "name": "I-880 N",
+          "from": "Auto Mall Pky",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -948,15 +657,163 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T01:31Z/"
+          "2021-12-31T01:58Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T17:41:09.27654"
+          "event-message-time-stamp": "2021-12-30T18:09:52.51337"
         },
         "event-reference": {
-          "event-identifier": "858510"
+          "event-identifier": "858519"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-880 Northbound south of Auto Mall Pky (Fremont). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Auto Mall Pky",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.503818",
+                    "event-location-coordinates-longitude": "-121.962855"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-30T18:08:13.94220",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-12-30T17:58:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-30T18:08:13.94220",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211230GG01846",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on US-101 Northbound ramps to I-680 N (San Jose). Right lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-31T01:59Z",
+      "updated": "2021-12-31T02:00Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.85187,
+          37.33976
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211230GG01844"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "I-680 N",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "ramps to"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-31T01:58Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-30T18:09:52.51337"
+        },
+        "event-reference": {
+          "event-identifier": "858520"
         },
         "event-status": "new",
         "details": {
@@ -977,7 +834,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-29 Northbound south of Tubbs Ln (Calistoga). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on US-101 Northbound ramps to I-680 N (San Jose). Right lane blocked. Expect delays."
                     }
                   }
                 }
@@ -986,25 +843,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA055",
-                  "link-road-designator": "CA-29 N",
-                  "link-from-road": "Tubbs Ln",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "I-680 N",
                   "link-to-road": null,
-                  "link-from-city": "Calistoga",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.605519",
-                    "event-location-coordinates-longitude": "-122.595407"
+                    "event-location-coordinates-latitude": "37.33976",
+                    "event-location-coordinates-longitude": "-121.85187"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-30T17:31:45.46870",
+              "update-time": "2021-12-30T18:00:47.92050",
               "valid-period": {
-                "event-timeline-estimated-duration": "50.2"
+                "event-timeline-estimated-duration": "25.2"
               },
-              "start-time": "2021-12-30T17:31:15.00000",
+              "start-time": "2021-12-30T17:58:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1013,32 +870,32 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-30T17:31:45.46870",
-        "ivr-article": "south of",
-        "ivr-county": "Napa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-lastUpdateDttm": "2021-12-30T18:00:47.92050",
+        "ivr-article": "ramps to",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG01765",
+        "SourceEventID": "211230GG01844",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-580 Westbound east of CA-24 E (Oakland). Right lane blocked. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-880 Northbound south of 23RD Ave (Oakland). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2021-12-31T01:39Z",
-      "updated": "2021-12-31T01:40Z",
+      "created": "2021-12-31T02:05Z",
+      "updated": "2021-12-31T02:06Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1058,8 +915,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.266937,
-          37.824054
+          -122.238702,
+          37.781074
         ]
       },
       "source_type": {
@@ -1068,17 +925,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG01791"
+        "#text": "211230GG01858"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "CA-24 E",
-          "direction": "Westbound",
+          "name": "I-880 N",
+          "from": "23RD Ave",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1090,21 +947,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T01:38Z/"
+          "2021-12-31T02:05Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T17:41:09.27654"
+          "event-message-time-stamp": "2021-12-30T18:09:52.51337"
         },
         "event-reference": {
-          "event-identifier": "858512"
+          "event-identifier": "858522"
         },
         "event-status": "new",
         "details": {
@@ -1125,7 +982,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-580 Westbound east of CA-24 E (Oakland). Right lane blocked. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-880 Northbound south of 23RD Ave (Oakland). Lane blocked. Expect delays."
                     }
                   }
                 }
@@ -1135,24 +992,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "CA-24 E",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "23RD Ave",
                   "link-to-road": null,
                   "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.824054",
-                    "event-location-coordinates-longitude": "-122.266937"
+                    "event-location-coordinates-latitude": "37.781074",
+                    "event-location-coordinates-longitude": "-122.238702"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-30T17:40:25.19180",
+              "update-time": "2021-12-30T18:06:44.17380",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.2"
+                "event-timeline-estimated-duration": "27.7"
               },
-              "start-time": "2021-12-30T17:38:00.00000",
+              "start-time": "2021-12-30T18:05:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1165,14 +1022,162 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-30T17:40:25.19180",
-        "ivr-article": "east of",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-30T18:06:44.17380",
+        "ivr-article": "south of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG01791",
+        "SourceEventID": "211230GG01858",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on I-880 Southbound north of CA-84 E (Fremont). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-31T02:09Z",
+      "updated": "2021-12-31T02:09Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.022256,
+          37.545682
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211230GG01802"
+      },
+      "roads": [
+        {
+          "name": "I-880 S",
+          "from": "CA-84 E",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-31T02:08Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-30T18:09:52.51337"
+        },
+        "event-reference": {
+          "event-identifier": "858524"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on I-880 Southbound north of CA-84 E (Fremont). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "CA-84 E",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.545682",
+                    "event-location-coordinates-longitude": "-122.022256"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-30T18:09:33.12780",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-12-30T18:08:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-12-30T18:09:33.12780",
+        "ivr-article": "north of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211230GG01802",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
