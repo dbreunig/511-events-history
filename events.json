@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T10:24:17.80960"
+          "event-message-time-stamp": "2021-12-31T10:38:04.31815"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T10:24:17.80960"
+          "event-message-time-stamp": "2021-12-31T10:38:04.31815"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -303,7 +303,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-31T16:52Z",
-      "updated": "2021-12-31T18:23Z",
+      "updated": "2021-12-31T18:36Z",
       "areas": {
         "area": {
           "name": "San Joaquin",
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T10:24:17.80960"
+          "event-message-time-stamp": "2021-12-31T10:38:04.31815"
         },
         "event-reference": {
           "event-identifier": "858656"
@@ -413,7 +413,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-31T10:23:37.74010",
+              "update-time": "2021-12-31T10:36:13.42100",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -431,7 +431,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-31T10:23:37.74010",
+        "ivr-lastUpdateDttm": "2021-12-31T10:36:13.42100",
         "ivr-article": "at",
         "ivr-county": "San Joaquin",
         "ivr-laneStatus": "closed",
@@ -444,14 +444,162 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound south of Coyote Creek Golf Dr (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-80 Westbound at CA-12 E (Fairfield). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-31T18:28Z",
+      "updated": "2021-12-31T18:28Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.099661,
+          38.236859
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231GG00728"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "CA-12 E",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-31T18:27Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T10:38:04.31815"
+        },
+        "event-reference": {
+          "event-identifier": "858677"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-80 Westbound at CA-12 E (Fairfield). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "CA-12 E",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.236859",
+                    "event-location-coordinates-longitude": "-122.099661"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T10:28:28.30120",
+              "valid-period": {
+                "event-timeline-estimated-duration": "27.7"
+              },
+              "start-time": "2021-12-31T10:27:57.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-12-31T10:28:28.30120",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231GG00728",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-17 Northbound north of E Hamilton Ave (Campbell). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2021-12-31T18:02Z",
-      "updated": "2021-12-31T18:02Z",
+      "created": "2021-12-31T18:34Z",
+      "updated": "2021-12-31T18:37Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -471,8 +619,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.697711,
-          37.193647
+          -121.938542,
+          37.294881
         ]
       },
       "source_type": {
@@ -481,17 +629,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211231MY00072"
+        "#text": "211231GG00743"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Coyote Creek Golf Dr",
-          "direction": "Southbound",
+          "name": "CA-17 N",
+          "from": "E Hamilton Ave",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -503,21 +651,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T18:01Z/"
+          "2021-12-31T18:34Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T10:24:17.80960"
+          "event-message-time-stamp": "2021-12-31T10:38:04.31815"
         },
         "event-reference": {
-          "event-identifier": "858672"
+          "event-identifier": "858679"
         },
         "event-status": "new",
         "details": {
@@ -538,7 +686,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound south of Coyote Creek Golf Dr (San Jose). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-17 Northbound north of E Hamilton Ave (Campbell). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -548,24 +696,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Coyote Creek Golf Dr",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "E Hamilton Ave",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Campbell",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.193647",
-                    "event-location-coordinates-longitude": "-121.697711"
+                    "event-location-coordinates-latitude": "37.294881",
+                    "event-location-coordinates-longitude": "-121.938542"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-31T10:02:04.16780",
+              "update-time": "2021-12-31T10:37:08.95430",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2021-12-31T10:01:33.00000",
+              "start-time": "2021-12-31T10:34:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -578,35 +726,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-31T10:02:04.16780",
-        "ivr-article": "south of",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-31T10:37:08.95430",
+        "ivr-article": "north of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211231MY00072",
+        "SourceEventID": "211231GG00743",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-87 Northbound north of W Julian St (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-680 Southbound north of I-580 W (Pleasanton). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2021-12-31T18:05Z",
-      "updated": "2021-12-31T18:24Z",
+      "created": "2021-12-31T18:35Z",
+      "updated": "2021-12-31T18:35Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -619,8 +767,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.897857,
-          37.337631
+          -121.926113,
+          37.706333
         ]
       },
       "source_type": {
@@ -629,13 +777,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211231GG00683"
+        "#text": "211231GG00747"
       },
       "roads": [
         {
-          "name": "CA-87 N",
-          "from": "W Julian St",
-          "direction": "Northbound",
+          "name": "I-680 S",
+          "from": "I-580 W",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -657,15 +805,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T18:23Z/"
+          "2021-12-31T18:35Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T10:24:17.80960"
+          "event-message-time-stamp": "2021-12-31T10:38:04.31815"
         },
         "event-reference": {
-          "event-identifier": "858673"
+          "event-identifier": "858680"
         },
         "event-status": "new",
         "details": {
@@ -676,7 +824,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -686,7 +834,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-87 Northbound north of W Julian St (San Jose). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-680 Southbound north of I-580 W (Pleasanton). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -695,25 +843,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-87 N",
-                  "link-from-road": "W Julian St",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "I-580 W",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Pleasanton",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.337631",
-                    "event-location-coordinates-longitude": "-121.897857"
+                    "event-location-coordinates-latitude": "37.706333",
+                    "event-location-coordinates-longitude": "-121.926113"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-31T10:24:14.93230",
+              "update-time": "2021-12-31T10:35:52.03080",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.2"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2021-12-31T10:23:44.00000",
+              "start-time": "2021-12-31T10:35:21.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -726,14 +874,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-31T10:24:14.93230",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-12-31T10:35:52.03080",
         "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211231GG00683",
+        "SourceEventID": "211231GG00747",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
