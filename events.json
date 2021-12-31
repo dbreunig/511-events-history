@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T13:48:31.14114"
+          "event-message-time-stamp": "2021-12-31T14:05:13.98314"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T13:48:31.14114"
+          "event-message-time-stamp": "2021-12-31T14:05:13.98314"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -303,7 +303,7 @@
       },
       "severity": "Unknown",
       "created": "2021-12-31T19:32Z",
-      "updated": "2021-12-31T21:47Z",
+      "updated": "2021-12-31T22:03Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T13:48:31.14114"
+          "event-message-time-stamp": "2021-12-31T14:05:13.98314"
         },
         "event-reference": {
           "event-identifier": "858686"
@@ -413,7 +413,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-31T13:47:39.61710",
+              "update-time": "2021-12-31T14:03:22.11680",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -431,7 +431,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-31T13:47:39.61710",
+        "ivr-lastUpdateDttm": "2021-12-31T14:03:22.11680",
         "ivr-article": "at",
         "ivr-county": "Solano",
         "ivr-laneStatus": "closed",
@@ -444,24 +444,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries and Overturned vehicle on CA-17 Northbound north of Laurel Rd (Los Gatos). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound east of Bay Bridge - Toll Plaza (Oakland). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision with Injuries",
-          "Overturned vehicle"
-        ]
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Major",
-      "created": "2021-12-31T21:09Z",
-      "updated": "2021-12-31T21:11Z",
+      "created": "2021-12-31T21:52Z",
+      "updated": "2021-12-31T21:57Z",
       "areas": {
         "area": {
-          "name": "Santa Cruz",
-          "id": "5393068",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393068/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -474,8 +471,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.975159,
-          37.097316
+          -122.3137897253,
+          37.8247558550469
         ]
       },
       "source_type": {
@@ -484,13 +481,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211231MY00138"
+        "#text": "211231GG01180"
       },
       "roads": [
         {
-          "name": "CA-17 N",
-          "from": "Laurel Rd",
-          "direction": "Northbound",
+          "name": "I-80 W",
+          "from": "Bay Bridge - Toll Plaza",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -498,7 +495,155 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-31T21:55Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T14:05:13.98314"
+        },
+        "event-reference": {
+          "event-identifier": "858715"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of Bay Bridge - Toll Plaza (Oakland). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Bay Bridge - Toll Plaza",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.8247558550469",
+                    "event-location-coordinates-longitude": "-122.3137897253"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T13:57:53.92400",
+              "valid-period": {
+                "event-timeline-estimated-duration": "46.333333333333329"
+              },
+              "start-time": "2021-12-31T13:55:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-12-31T13:57:53.92400",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231GG01180",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-242 Southbound north of Clayton Rd (Concord). Right lane and shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-31T21:58Z",
+      "updated": "2021-12-31T21:59Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.053305,
+          37.956956
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231GG01192"
+      },
+      "roads": [
+        {
+          "name": "CA-242 S",
+          "from": "Clayton Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane and shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -512,15 +657,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T21:08Z/"
+          "2021-12-31T21:58Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T13:48:31.14114"
+          "event-message-time-stamp": "2021-12-31T14:05:13.98314"
         },
         "event-reference": {
-          "event-identifier": "858709"
+          "event-identifier": "858716"
         },
         "event-status": "new",
         "details": {
@@ -530,14 +675,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision with Injuries"
-                      },
-                      {
-                        "incident": "Overturned vehicle"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
                   }
                 },
                 {
@@ -546,7 +686,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries and Overturned vehicle on CA-17 Northbound north of Laurel Rd (Los Gatos). Lane blocked. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on CA-242 Southbound north of Clayton Rd (Concord). Right lane and shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -555,25 +695,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA087",
-                  "link-road-designator": "CA-17 N",
-                  "link-from-road": "Laurel Rd",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-242 S",
+                  "link-from-road": "Clayton Rd",
                   "link-to-road": null,
-                  "link-from-city": "Los Gatos",
+                  "link-from-city": "Concord",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.097316",
-                    "event-location-coordinates-longitude": "-121.975159"
+                    "event-location-coordinates-latitude": "37.956956",
+                    "event-location-coordinates-longitude": "-122.053305"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-31T13:11:20.87070",
+              "update-time": "2021-12-31T13:59:51.50800",
               "valid-period": {
-                "event-timeline-estimated-duration": "46"
+                "event-timeline-estimated-duration": "30.199999999999996"
               },
-              "start-time": "2021-12-31T13:08:00.00000",
+              "start-time": "2021-12-31T13:58:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -582,18 +722,166 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-31T13:11:20.87070",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-12-31T13:59:51.50800",
         "ivr-article": "north of",
-        "ivr-county": "Santa Cruz",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane and shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211231MY00138",
+        "SourceEventID": "211231GG01192",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Lakeville Hwy (Petaluma). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-31T22:03Z",
+      "updated": "2021-12-31T22:04Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.617936,
+          38.233588
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231GG01201"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Lakeville Hwy",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-31T22:02Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T14:05:13.98314"
+        },
+        "event-reference": {
+          "event-identifier": "858717"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Lakeville Hwy (Petaluma). Right lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Lakeville Hwy",
+                  "link-to-road": null,
+                  "link-from-city": "Petaluma",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.233588",
+                    "event-location-coordinates-longitude": "-122.617936"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T14:04:09.37540",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2021-12-31T14:02:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-31T14:04:09.37540",
+        "ivr-article": "south of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231GG01201",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
