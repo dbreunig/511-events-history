@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T20:05:22.18689"
+          "event-message-time-stamp": "2021-12-30T20:24:31.28435"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T20:05:22.18689"
+          "event-message-time-stamp": "2021-12-30T20:24:31.28435"
         },
         "event-reference": {
           "event-identifier": "811911"
@@ -353,7 +353,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T20:05:22.18689"
+          "event-message-time-stamp": "2021-12-30T20:24:31.28435"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -430,17 +430,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision on CA-84 Eastbound west of Thornton Ave (Newark). Left lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Roadwork on I-580 Eastbound between N Livermore Ave (Livermore) and 1ST St (Livermore). Left lane and shoulder closed until 4 AM. Thursday, December 30, 2021 8:01 PM thru Friday, December 31, 2021 4:01 AM, Thursday/Friday.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Roadwork"
       },
-      "severity": "Major",
-      "created": "2021-12-31T02:31Z",
-      "updated": "2021-12-31T03:55Z",
+      "severity": "Unknown",
+      "created": "2021-12-31T04:13Z",
+      "updated": "2021-12-31T04:22Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -460,70 +457,66 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.078866312256,
-          37.5339394002671
+          -121.774074,
+          37.700704
         ]
       },
       "source_type": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
+        "#text": "Caltrans"
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG01928"
+        "#text": "M580AB-0002-2021-12-30-20:01:00"
       },
       "roads": [
         {
-          "name": "CA-84 E",
-          "from": "Thornton Ave",
+          "name": "I-580 E",
+          "from": "N Livermore Ave",
+          "to": "1ST St",
           "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "Left lane and shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "until 4 AM"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "between"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T02:45Z/"
+          "2021-12-31T04:01Z/2021-12-31T12:01Z"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T20:05:22.18689"
+          "event-message-time-stamp": "2021-12-30T20:24:31.28435"
         },
         "event-reference": {
-          "event-identifier": "858533"
+          "event-identifier": "858561"
         },
         "event-status": "new",
         "details": {
           "eventElementDetails": {
-            "event-element-sequence": "4",
+            "event-element-sequence": "2",
             "event-element-description": {
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
                   }
                 },
                 {
@@ -532,7 +525,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision on CA-84 Eastbound west of Thornton Ave (Newark). Left lane blocked. Expect delays."
+                      "event-description": "Caltrans : Roadwork on I-580 Eastbound between N Livermore Ave (Livermore) and 1ST St (Livermore). Left lane and shoulder closed until 4 AM. Thursday, December 30, 2021 8:01 PM thru Friday, December 31, 2021 4:01 AM, Thursday/Friday."
                     }
                   }
                 }
@@ -542,58 +535,58 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "CA-84 E",
-                  "link-from-road": "Thornton Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Newark",
-                  "link-to-city": null,
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "N Livermore Ave",
+                  "link-to-road": "1ST St",
+                  "link-from-city": "Livermore",
+                  "link-to-city": "Livermore",
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.5339394002671",
-                    "event-location-coordinates-longitude": "-122.078866312256"
+                    "event-location-coordinates-latitude": "37.700704",
+                    "event-location-coordinates-longitude": "-121.774074"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-30T19:55:35.13550",
+              "update-time": "2021-12-30T20:22:51.73970",
               "valid-period": {
-                "event-timeline-estimated-duration": "48.5"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2021-12-30T18:45:00.00000",
-              "cleared-time": null,
+              "start-time": "2021-12-30T20:01:00.00000",
+              "cleared-time": "2021-12-31T04:01:00.00000",
               "utc-offset": "-0800"
             },
             "event-element-source": {
-              "event-organization-reported-identifier": "1003"
+              "event-organization-reported-identifier": "1004"
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-30T19:55:35.13550",
-        "ivr-article": "west of",
+        "ivr-lastUpdateDttm": "2021-12-30T20:22:51.73970",
+        "ivr-article": "between",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG01928",
-        "EventSourceName": "CHP",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Left lane and shoulder",
+        "ivr-genOtherText": "until 4 AM",
+        "SourceEventID": "M580AB-0002-2021-12-30-20:01:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-580 Westbound east of I-80 E-macarthur Maze (Oakland). Right and center lanes blocked. Expect delays.",
+      "headline": "CHP : Disabled tractor trailer on I-580 Eastbound west of Airway Blvd (Livermore). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": "Disabled tractor trailer"
       },
       "severity": "Moderate",
-      "created": "2021-12-31T03:20Z",
-      "updated": "2021-12-31T03:26Z",
+      "created": "2021-12-31T04:21Z",
+      "updated": "2021-12-31T04:23Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -613,8 +606,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.297426,
-          37.827012
+          -121.822663,
+          37.700887
         ]
       },
       "source_type": {
@@ -623,308 +616,12 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG02031"
+        "#text": "211230GG02173"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "I-80 E-macarthur Maze",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right and center lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-31T03:23Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-30T20:05:22.18689"
-        },
-        "event-reference": {
-          "event-identifier": "858547"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-580 Westbound east of I-80 E-macarthur Maze (Oakland). Right and center lanes blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "I-80 E-macarthur Maze",
-                  "link-to-road": null,
-                  "link-from-city": "Oakland",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.827012",
-                    "event-location-coordinates-longitude": "-122.297426"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-30T19:26:38.26590",
-              "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
-              },
-              "start-time": "2021-12-30T19:23:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-30T19:26:38.26590",
-        "ivr-article": "east of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right and center lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG02031",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-92 Westbound east of Upper Skyline Blvd (Unincorporated). Left lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Major",
-      "created": "2021-12-31T03:24Z",
-      "updated": "2021-12-31T03:51Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.349727,
-          37.511784
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG02040"
-      },
-      "roads": [
-        {
-          "name": "CA-92 W",
-          "from": "Upper Skyline Blvd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-31T03:51Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-30T20:05:22.18689"
-        },
-        "event-reference": {
-          "event-identifier": "858548"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-92 Westbound east of Upper Skyline Blvd (Unincorporated). Left lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "CA-92 W",
-                  "link-from-road": "Upper Skyline Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "Unincorporated",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.511784",
-                    "event-location-coordinates-longitude": "-122.349727"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-30T19:51:57.73400",
-              "valid-period": {
-                "event-timeline-estimated-duration": "49"
-              },
-              "start-time": "2021-12-30T19:51:28.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-30T19:51:57.73400",
-        "ivr-article": "east of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG02040",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-84 Eastbound west of Thornton Ave (Newark). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2021-12-31T03:48Z",
-      "updated": "2021-12-31T03:50Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.074722,
-          37.535278
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG02097"
-      },
-      "roads": [
-        {
-          "name": "CA-84 E",
-          "from": "Thornton Ave",
+          "name": "I-580 E",
+          "from": "Airway Blvd",
           "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -947,15 +644,163 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T03:50Z/"
+          "2021-12-31T04:23Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-30T20:05:22.18689"
+          "event-message-time-stamp": "2021-12-30T20:24:31.28435"
         },
         "event-reference": {
-          "event-identifier": "858557"
+          "event-identifier": "858562"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled tractor trailer"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled tractor trailer on I-580 Eastbound west of Airway Blvd (Livermore). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Airway Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "Livermore",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.700887",
+                    "event-location-coordinates-longitude": "-121.822663"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-30T20:23:38.57930",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-12-30T20:23:08.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-12-30T20:23:38.57930",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211230GG02173",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound east of Carlson Blvd (Richmond). Lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2021-12-31T04:23Z",
+      "updated": "2021-12-31T04:23Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.317505,
+          37.914584
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211230GG02176"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Carlson Blvd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-31T04:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-30T20:24:31.28435"
+        },
+        "event-reference": {
+          "event-identifier": "858563"
         },
         "event-status": "new",
         "details": {
@@ -976,7 +821,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-84 Eastbound west of Thornton Ave (Newark). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of Carlson Blvd (Richmond). Lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -985,25 +830,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "CA-84 E",
-                  "link-from-road": "Thornton Ave",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Carlson Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Newark",
+                  "link-from-city": "Richmond",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.535278",
-                    "event-location-coordinates-longitude": "-122.074722"
+                    "event-location-coordinates-latitude": "37.914584",
+                    "event-location-coordinates-longitude": "-122.317505"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-30T19:50:54.15320",
+              "update-time": "2021-12-30T20:23:38.45960",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2021-12-30T19:50:24.00000",
+              "start-time": "2021-12-30T20:23:08.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1016,310 +861,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-30T19:50:54.15320",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG02097",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-80 Eastbound west of Powell St (Emeryville). HOV blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Moderate",
-      "created": "2021-12-31T03:54Z",
-      "updated": "2021-12-31T03:56Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.296475,
-          37.838124
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG02111"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Powell St",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "HOV"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-31T03:54Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-30T20:05:22.18689"
-        },
-        "event-reference": {
-          "event-identifier": "858558"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-80 Eastbound west of Powell St (Emeryville). HOV blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Powell St",
-                  "link-to-road": null,
-                  "link-from-city": "Emeryville",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.838124",
-                    "event-location-coordinates-longitude": "-122.296475"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-30T19:56:17.93400",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.2"
-              },
-              "start-time": "2021-12-30T19:54:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-30T19:56:17.93400",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-12-30T20:23:38.45960",
+        "ivr-article": "east of",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "HOV",
+        "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG02111",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on US-101 Southbound entering at N Lawrence Expy (Sunnyvale). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Moderate",
-      "created": "2021-12-31T04:01Z",
-      "updated": "2021-12-31T04:02Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.994392,
-          37.390593
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211230GG02122"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "N Lawrence Expy",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "entering at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2021-12-31T04:00Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-30T20:05:22.18689"
-        },
-        "event-reference": {
-          "event-identifier": "858560"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on US-101 Southbound entering at N Lawrence Expy (Sunnyvale). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "N Lawrence Expy",
-                  "link-to-road": null,
-                  "link-from-city": "Sunnyvale",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.390593",
-                    "event-location-coordinates-longitude": "-121.994392"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-30T20:02:23.07110",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2021-12-30T20:00:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-30T20:02:23.07110",
-        "ivr-article": "entering at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211230GG02122",
+        "SourceEventID": "211230GG02176",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
