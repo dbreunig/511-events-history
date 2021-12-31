@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T03:48:36.96157"
+          "event-message-time-stamp": "2021-12-31T04:05:20.79987"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T03:48:36.96157"
+          "event-message-time-stamp": "2021-12-31T04:05:20.79987"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -303,7 +303,7 @@
       },
       "severity": "Minor",
       "created": "2021-12-31T11:09Z",
-      "updated": "2021-12-31T11:47Z",
+      "updated": "2021-12-31T11:49Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -361,12 +361,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2021-12-31T11:46Z/"
+          "2021-12-31T11:48Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T03:48:36.96157"
+          "event-message-time-stamp": "2021-12-31T04:05:20.79987"
         },
         "event-reference": {
           "event-identifier": "858609"
@@ -413,11 +413,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-31T03:47:22.59090",
+              "update-time": "2021-12-31T03:49:28.94140",
               "valid-period": {
                 "event-timeline-estimated-duration": "23.5"
               },
-              "start-time": "2021-12-31T03:46:52.00000",
+              "start-time": "2021-12-31T03:48:58.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -431,13 +431,161 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "1",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-31T03:47:22.59090",
+        "ivr-lastUpdateDttm": "2021-12-31T03:49:28.94140",
         "ivr-article": "at",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211231GG00220",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-17 Northbound at E Hamilton Ave (Campbell). Off Ramp blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Major",
+      "created": "2021-12-31T11:51Z",
+      "updated": "2021-12-31T11:51Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.938542,
+          37.294881
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231GG00249"
+      },
+      "roads": [
+        {
+          "name": "CA-17 N",
+          "from": "E Hamilton Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2021-12-31T11:51Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T04:05:20.79987"
+        },
+        "event-reference": {
+          "event-identifier": "858610"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-17 Northbound at E Hamilton Ave (Campbell). Off Ramp blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "E Hamilton Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Campbell",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.294881",
+                    "event-location-coordinates-longitude": "-121.938542"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T03:51:35.60610",
+              "valid-period": {
+                "event-timeline-estimated-duration": "49"
+              },
+              "start-time": "2021-12-31T03:51:05.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-31T03:51:35.60610",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231GG00249",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
