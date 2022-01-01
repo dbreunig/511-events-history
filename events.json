@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T22:08:01.80597"
+          "event-message-time-stamp": "2021-12-31T22:24:30.11594"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T22:08:01.80597"
+          "event-message-time-stamp": "2021-12-31T22:24:30.11594"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -296,21 +296,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound at Brittan Ave (San Carlos). On Ramp affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-80 Westbound west of Treasure Island Rd (San Francisco). Off Ramp affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
-      "severity": "Major",
-      "created": "2022-01-01T05:54Z",
-      "updated": "2022-01-01T05:56Z",
+      "severity": "Severe",
+      "created": "2022-01-01T06:11Z",
+      "updated": "2022-01-01T06:23Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "San Francisco",
+          "id": "5391997",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5391997/"
           }
         }
       },
@@ -323,8 +323,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.248116,
-          37.506722
+          -122.367026,
+          37.808318
         ]
       },
       "source_type": {
@@ -333,17 +333,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211231GG02311"
+        "#text": "211231GG02352"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Brittan Ave",
-          "direction": "Southbound",
+          "name": "I-80 W",
+          "from": "Treasure Island Rd",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
+            "#text": "Off Ramp"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -355,21 +355,169 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-01-01T05:55Z/"
+          "2022-01-01T06:23Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T22:08:01.80597"
+          "event-message-time-stamp": "2021-12-31T22:24:30.11594"
         },
         "event-reference": {
-          "event-identifier": "858801"
+          "event-identifier": "858805"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-80 Westbound west of Treasure Island Rd (San Francisco). Off Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Treasure Island Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.808318",
+                    "event-location-coordinates-longitude": "-122.367026"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T22:23:53.42950",
+              "valid-period": {
+                "event-timeline-estimated-duration": "72.7"
+              },
+              "start-time": "2021-12-31T22:23:21.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Severe",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "5",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-12-31T22:23:53.42950",
+        "ivr-article": "west of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231GG02352",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-680 Northbound south of Stone Valley Rd (Alamo). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Minor",
+      "created": "2022-01-01T06:23Z",
+      "updated": "2022-01-01T06:23Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.027629,
+          37.847983
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231GG02382"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "Stone Valley Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-01T06:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T22:24:30.11594"
+        },
+        "event-reference": {
+          "event-identifier": "858806"
         },
         "event-status": "new",
         "details": {
@@ -390,7 +538,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound at Brittan Ave (San Carlos). On Ramp affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-680 Northbound south of Stone Valley Rd (Alamo). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -399,25 +547,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Brittan Ave",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Stone Valley Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Carlos",
+                  "link-from-city": "Alamo",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.506722",
-                    "event-location-coordinates-longitude": "-122.248116"
+                    "event-location-coordinates-latitude": "37.847983",
+                    "event-location-coordinates-longitude": "-122.027629"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-31T21:56:27.86340",
+              "update-time": "2021-12-31T22:23:53.31210",
               "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
+                "event-timeline-estimated-duration": "20.5"
               },
-              "start-time": "2021-12-31T21:55:56.00000",
+              "start-time": "2021-12-31T22:23:21.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -426,314 +574,18 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-31T21:56:27.86340",
-        "ivr-article": "at",
-        "ivr-county": "San Mateo",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-31T22:23:53.31210",
+        "ivr-article": "south of",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "On Ramp",
+        "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211231GG02311",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-80 Eastbound at Bay Bridge - West Span (San Francisco). Right lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Major",
-      "created": "2022-01-01T05:56Z",
-      "updated": "2022-01-01T06:02Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.377806,
-          37.798183
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211231GG02222"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Bay Bridge - West Span",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-01T06:02Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-31T22:08:01.80597"
-        },
-        "event-reference": {
-          "event-identifier": "858802"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-80 Eastbound at Bay Bridge - West Span (San Francisco). Right lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Bay Bridge - West Span",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.798183",
-                    "event-location-coordinates-longitude": "-122.377806"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-31T22:02:47.94500",
-              "valid-period": {
-                "event-timeline-estimated-duration": "48.7"
-              },
-              "start-time": "2021-12-31T22:02:16.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2021-12-31T22:02:47.94500",
-        "ivr-article": "at",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211231GG02222",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-280 Southbound north of Mariposa St (San Francisco). Right lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Moderate",
-      "created": "2022-01-01T05:59Z",
-      "updated": "2022-01-01T05:59Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.392638,
-          37.761351
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211231GG02325"
-      },
-      "roads": [
-        {
-          "name": "I-280 S",
-          "from": "Mariposa St",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-01T05:59Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-31T22:08:01.80597"
-        },
-        "event-reference": {
-          "event-identifier": "858804"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-280 Southbound north of Mariposa St (San Francisco). Right lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "Mariposa St",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.761351",
-                    "event-location-coordinates-longitude": "-122.392638"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-31T21:59:38.45520",
-              "valid-period": {
-                "event-timeline-estimated-duration": "30.199999999999996"
-              },
-              "start-time": "2021-12-31T21:59:06.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2021-12-31T21:59:38.45520",
-        "ivr-article": "north of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211231GG02325",
+        "SourceEventID": "211231GG02382",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
