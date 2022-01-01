@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T09:38:52.28841"
+          "event-message-time-stamp": "2022-01-01T09:49:27.77041"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T09:38:52.28841"
+          "event-message-time-stamp": "2022-01-01T09:49:27.77041"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T09:38:52.28841"
+          "event-message-time-stamp": "2022-01-01T09:49:27.77041"
         },
         "event-reference": {
           "event-identifier": "858826"
@@ -514,7 +514,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T09:38:52.28841"
+          "event-message-time-stamp": "2022-01-01T09:49:27.77041"
         },
         "event-reference": {
           "event-identifier": "858887"
@@ -592,14 +592,162 @@
     },
     {
       "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-880 Northbound south of CA-87 (San Jose). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-01T17:43Z",
+      "updated": "2022-01-01T17:43Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.909472,
+          37.355891
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220101GG00955"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "CA-87",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-01T17:43Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-01T09:49:27.77041"
+        },
+        "event-reference": {
+          "event-identifier": "858899"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-880 Northbound south of CA-87 (San Jose). Right lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "CA-87",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.355891",
+                    "event-location-coordinates-longitude": "-121.909472"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-01T09:43:43.38910",
+              "valid-period": {
+                "event-timeline-estimated-duration": "30.5"
+              },
+              "start-time": "2022-01-01T09:43:10.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-01T09:43:43.38910",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220101GG00955",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
       "headline": "CHP : Fire on I-880 Southbound north of Whipple Rd (Hayward). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Fire"
       },
       "severity": "Moderate",
-      "created": "2022-01-01T17:21Z",
-      "updated": "2022-01-01T17:32Z",
+      "created": "2022-01-01T17:46Z",
+      "updated": "2022-01-01T17:47Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -657,15 +805,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-01-01T17:31Z/"
+          "2022-01-01T17:47Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T09:38:52.28841"
+          "event-message-time-stamp": "2022-01-01T09:49:27.77041"
         },
         "event-reference": {
-          "event-identifier": "858895"
+          "event-identifier": "858900"
         },
         "event-status": "new",
         "details": {
@@ -709,11 +857,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-01T09:32:05.57730",
+              "update-time": "2022-01-01T09:47:57.19000",
               "valid-period": {
                 "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-01-01T09:31:33.00000",
+              "start-time": "2022-01-01T09:47:24.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -727,7 +875,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-01-01T09:32:05.57730",
+        "ivr-lastUpdateDttm": "2022-01-01T09:47:57.19000",
         "ivr-article": "north of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
