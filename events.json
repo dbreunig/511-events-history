@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T22:24:30.11594"
+          "event-message-time-stamp": "2021-12-31T22:38:38.70485"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T22:24:30.11594"
+          "event-message-time-stamp": "2021-12-31T22:38:38.70485"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -296,21 +296,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-80 Westbound west of Treasure Island Rd (San Francisco). Off Ramp affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-80 Westbound east of Old Davis Rd (Davis). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Severe",
-      "created": "2022-01-01T06:11Z",
-      "updated": "2022-01-01T06:23Z",
+      "severity": "Moderate",
+      "created": "2022-01-01T06:30Z",
+      "updated": "2022-01-01T06:34Z",
       "areas": {
         "area": {
-          "name": "San Francisco",
-          "id": "5391997",
+          "name": "Solano",
+          "id": "5396987",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
+            "@href": "http://geonames.org/5396987/"
           }
         }
       },
@@ -323,8 +323,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.367026,
-          37.808318
+          -121.76288,
+          38.526744
         ]
       },
       "source_type": {
@@ -333,21 +333,169 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211231GG02352"
+        "#text": "211231GG02398"
       },
       "roads": [
         {
           "name": "I-80 W",
-          "from": "Treasure Island Rd",
+          "from": "Old Davis Rd",
           "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-01T06:33Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T22:38:38.70485"
+        },
+        "event-reference": {
+          "event-identifier": "858808"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Westbound east of Old Davis Rd (Davis). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Old Davis Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Davis",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.526744",
+                    "event-location-coordinates-longitude": "-121.76288"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T22:34:27.78400",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29.5"
+              },
+              "start-time": "2021-12-31T22:33:56.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-12-31T22:34:27.78400",
+        "ivr-article": "east of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231GG02398",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound west of Red Top Rd (Fairfield). Right lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-01T06:32Z",
+      "updated": "2022-01-01T06:32Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.155046,
+          38.20397
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231GG02406"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Red Top Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -361,163 +509,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-01-01T06:23Z/"
+          "2022-01-01T06:31Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T22:24:30.11594"
+          "event-message-time-stamp": "2021-12-31T22:38:38.70485"
         },
         "event-reference": {
-          "event-identifier": "858805"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-80 Westbound west of Treasure Island Rd (San Francisco). Off Ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Treasure Island Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.808318",
-                    "event-location-coordinates-longitude": "-122.367026"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2021-12-31T22:23:53.42950",
-              "valid-period": {
-                "event-timeline-estimated-duration": "72.7"
-              },
-              "start-time": "2021-12-31T22:23:21.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Severe",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2021-12-31T22:23:53.42950",
-        "ivr-article": "west of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Off Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211231GG02352",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Northbound south of Stone Valley Rd (Alamo). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Minor",
-      "created": "2022-01-01T06:23Z",
-      "updated": "2022-01-01T06:23Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.027629,
-          37.847983
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "211231GG02382"
-      },
-      "roads": [
-        {
-          "name": "I-680 N",
-          "from": "Stone Valley Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-01T06:23Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2021-12-31T22:24:30.11594"
-        },
-        "event-reference": {
-          "event-identifier": "858806"
+          "event-identifier": "858809"
         },
         "event-status": "new",
         "details": {
@@ -538,7 +538,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Northbound south of Stone Valley Rd (Alamo). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound west of Red Top Rd (Fairfield). Right lane blocked. Expect delays."
                     }
                   }
                 }
@@ -547,25 +547,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Stone Valley Rd",
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Red Top Rd",
                   "link-to-road": null,
-                  "link-from-city": "Alamo",
+                  "link-from-city": "Fairfield",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.847983",
-                    "event-location-coordinates-longitude": "-122.027629"
+                    "event-location-coordinates-latitude": "38.20397",
+                    "event-location-coordinates-longitude": "-122.155046"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2021-12-31T22:23:53.31210",
+              "update-time": "2021-12-31T22:32:20.06560",
               "valid-period": {
-                "event-timeline-estimated-duration": "20.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2021-12-31T22:23:21.00000",
+              "start-time": "2021-12-31T22:31:48.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -574,18 +574,314 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2021-12-31T22:23:53.31210",
-        "ivr-article": "south of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2021-12-31T22:32:20.06560",
+        "ivr-article": "west of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "211231GG02382",
+        "SourceEventID": "211231GG02406",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Eastbound west of S Corral Hollow Rd (Tracy). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-01T06:36Z",
+      "updated": "2022-01-01T06:36Z",
+      "areas": {
+        "area": {
+          "name": "San Joaquin",
+          "id": "5392126",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392126/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.460231,
+          37.673863
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231ST00366"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "S Corral Hollow Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-01T06:36Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T22:38:38.70485"
+        },
+        "event-reference": {
+          "event-identifier": "858811"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound west of S Corral Hollow Rd (Tracy). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": null,
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "S Corral Hollow Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Tracy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.673863",
+                    "event-location-coordinates-longitude": "-121.460231"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T22:36:34.49200",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2021-12-31T22:36:02.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-12-31T22:36:34.49200",
+        "ivr-article": "west of",
+        "ivr-county": "San Joaquin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231ST00366",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on CA-85 Northbound north of Blossom Hill Rd (San Jose). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-01T06:37Z",
+      "updated": "2022-01-01T06:37Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.840872,
+          37.252845
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231GG02418"
+      },
+      "roads": [
+        {
+          "name": "CA-85 N",
+          "from": "Blossom Hill Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-01T06:37Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T22:38:38.72047"
+        },
+        "event-reference": {
+          "event-identifier": "858812"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-85 Northbound north of Blossom Hill Rd (San Jose). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-85 N",
+                  "link-from-road": "Blossom Hill Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.252845",
+                    "event-location-coordinates-longitude": "-121.840872"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T22:37:37.61860",
+              "valid-period": {
+                "event-timeline-estimated-duration": "31"
+              },
+              "start-time": "2021-12-31T22:37:05.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-31T22:37:37.61860",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231GG02418",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
