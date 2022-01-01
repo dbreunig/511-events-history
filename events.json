@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T19:36:10.00778"
+          "event-message-time-stamp": "2021-12-31T19:48:50.21741"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -219,7 +219,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T19:36:10.00778"
+          "event-message-time-stamp": "2021-12-31T19:48:50.21741"
         },
         "event-reference": {
           "event-identifier": "848552"
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T19:36:10.00778"
+          "event-message-time-stamp": "2021-12-31T19:48:50.21741"
         },
         "event-reference": {
           "event-identifier": "858776"
@@ -514,7 +514,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T19:36:10.00778"
+          "event-message-time-stamp": "2021-12-31T19:48:50.21741"
         },
         "event-reference": {
           "event-identifier": "858783"
@@ -662,7 +662,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2021-12-31T19:36:10.00778"
+          "event-message-time-stamp": "2021-12-31T19:48:50.21741"
         },
         "event-reference": {
           "event-identifier": "858784"
@@ -734,6 +734,450 @@
         "ivr-totalLanes": "Left lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "211231GG01970",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on I-580 Eastbound at Grand Ave (Oakland). Off Ramp affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Major",
+      "created": "2022-01-01T03:38Z",
+      "updated": "2022-01-01T03:40Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.250819,
+          37.813365
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231GG02013"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Grand Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-01T03:39Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T19:48:50.21741"
+        },
+        "event-reference": {
+          "event-identifier": "858785"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on I-580 Eastbound at Grand Ave (Oakland). Off Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Grand Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.813365",
+                    "event-location-coordinates-longitude": "-122.250819"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T19:40:01.94150",
+              "valid-period": {
+                "event-timeline-estimated-duration": "52"
+              },
+              "start-time": "2021-12-31T19:39:30.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2021-12-31T19:40:01.94150",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231GG02013",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on US-101 Northbound south of S Airport Blvd (South San Francisco). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-01T03:43Z",
+      "updated": "2022-01-01T03:45Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.406002,
+          37.643058
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231GG02025"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "S Airport Blvd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-01T03:44Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T19:48:50.21741"
+        },
+        "event-reference": {
+          "event-identifier": "858786"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on US-101 Northbound south of S Airport Blvd (South San Francisco). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "S Airport Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "South San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.643058",
+                    "event-location-coordinates-longitude": "-122.406002"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T19:45:18.93590",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2021-12-31T19:44:47.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2021-12-31T19:45:18.93590",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231GG02025",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-17 Southbound at CA-1 N (Santa Cruz). Right lane and shoulder blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-01T03:43Z",
+      "updated": "2022-01-01T03:43Z",
+      "areas": {
+        "area": {
+          "name": "Santa Cruz",
+          "id": "5393068",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393068/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.019148,
+          36.993538
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "211231MY00296"
+      },
+      "roads": [
+        {
+          "name": "CA-17 S",
+          "from": "CA-1 N",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane and shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-01T03:42Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2021-12-31T19:48:50.21741"
+        },
+        "event-reference": {
+          "event-identifier": "858787"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-17 Southbound at CA-1 N (Santa Cruz). Right lane and shoulder blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA087",
+                  "link-road-designator": "CA-17 S",
+                  "link-from-road": "CA-1 N",
+                  "link-to-road": null,
+                  "link-from-city": "Santa Cruz",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "36.993538",
+                    "event-location-coordinates-longitude": "-122.019148"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2021-12-31T19:43:42.53170",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2021-12-31T19:42:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2021-12-31T19:43:42.53170",
+        "ivr-article": "at",
+        "ivr-county": "Santa Cruz",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane and shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "211231MY00296",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
