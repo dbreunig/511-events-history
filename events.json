@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T19:48:45.69376"
+          "event-message-time-stamp": "2022-01-01T20:05:17.72524"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -223,7 +223,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T19:48:45.69376"
+          "event-message-time-stamp": "2022-01-01T20:05:17.72524"
         },
         "event-reference": {
           "event-identifier": "858988"
@@ -371,7 +371,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T19:48:45.69376"
+          "event-message-time-stamp": "2022-01-01T20:05:17.72524"
         },
         "event-reference": {
           "event-identifier": "858993"
@@ -519,7 +519,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T19:48:45.69376"
+          "event-message-time-stamp": "2022-01-01T20:05:17.72524"
         },
         "event-reference": {
           "event-identifier": "858996"
@@ -667,7 +667,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T19:48:45.69376"
+          "event-message-time-stamp": "2022-01-01T20:05:17.72524"
         },
         "event-reference": {
           "event-identifier": "858997"
@@ -815,7 +815,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T19:48:45.69376"
+          "event-message-time-stamp": "2022-01-01T20:05:17.72524"
         },
         "event-reference": {
           "event-identifier": "858998"
@@ -893,14 +893,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Eastbound west of University Ave (Berkeley). 2nd lane from the left affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound west of University Ave (Berkeley). Lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
       "created": "2022-01-02T03:47Z",
-      "updated": "2022-01-02T03:47Z",
+      "updated": "2022-01-02T04:04Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -940,11 +940,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -958,12 +958,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-01-02T03:46Z/"
+          "2022-01-02T04:03Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T19:48:45.69376"
+          "event-message-time-stamp": "2022-01-01T20:05:17.72524"
         },
         "event-reference": {
           "event-identifier": "858999"
@@ -987,7 +987,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Eastbound west of University Ave (Berkeley). 2nd lane from the left affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound west of University Ave (Berkeley). Lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -1010,11 +1010,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-01T19:47:29.96900",
+              "update-time": "2022-01-01T20:04:23.29960",
               "valid-period": {
-                "event-timeline-estimated-duration": "25"
+                "event-timeline-estimated-duration": "31"
               },
-              "start-time": "2022-01-01T19:46:56.00000",
+              "start-time": "2022-01-01T20:03:49.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1028,13 +1028,309 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-01-01T19:47:29.96900",
+        "ivr-lastUpdateDttm": "2022-01-01T20:04:23.29960",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220101GG02190",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Eastbound east of Treasure Island Rd (San Francisco). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Major",
+      "created": "2022-01-02T03:49Z",
+      "updated": "2022-01-02T03:50Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.36171,
+          37.813098
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220101GG02197"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Treasure Island Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-02T03:50Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-01T20:05:17.72524"
+        },
+        "event-reference": {
+          "event-identifier": "859000"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound east of Treasure Island Rd (San Francisco). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Treasure Island Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.813098",
+                    "event-location-coordinates-longitude": "-122.36171"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-01T19:50:40.50260",
+              "valid-period": {
+                "event-timeline-estimated-duration": "49"
+              },
+              "start-time": "2022-01-01T19:50:07.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-01-01T19:50:40.50260",
+        "ivr-article": "east of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220101GG02197",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Eastbound west of N Flynn Rd (Livermore). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Minor",
+      "created": "2022-01-02T03:59Z",
+      "updated": "2022-01-02T03:59Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.662296,
+          37.71868
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220101GG02215"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "N Flynn Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-02T03:58Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-01T20:05:17.72524"
+        },
+        "event-reference": {
+          "event-identifier": "859002"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound west of N Flynn Rd (Livermore). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "N Flynn Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Livermore",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.71868",
+                    "event-location-coordinates-longitude": "-121.662296"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-01T19:59:07.29370",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.5"
+              },
+              "start-time": "2022-01-01T19:58:33.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-01-01T19:59:07.29370",
         "ivr-article": "west of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220101GG02190",
+        "SourceEventID": "220101GG02215",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
