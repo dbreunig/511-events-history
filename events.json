@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T23:22:18.25817"
+          "event-message-time-stamp": "2022-01-01T23:34:16.78678"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -223,7 +223,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T23:22:18.25817"
+          "event-message-time-stamp": "2022-01-01T23:34:16.78678"
         },
         "event-reference": {
           "event-identifier": "859016"
@@ -301,14 +301,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-87 Northbound north of Almaden Expy (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on CA-237 Eastbound west of N Mathilda Ave (Sunnyvale). Right shoulder blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Moderate",
-      "created": "2022-01-02T07:01Z",
-      "updated": "2022-01-02T07:15Z",
+      "created": "2022-01-02T07:24Z",
+      "updated": "2022-01-02T07:29Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -328,8 +328,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.878779,
-          37.304487
+          -122.0307,
+          37.402133
         ]
       },
       "source_type": {
@@ -338,13 +338,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220101GG02542"
+        "#text": "220101GG02575"
       },
       "roads": [
         {
-          "name": "CA-87 N",
-          "from": "Almaden Expy",
-          "direction": "Northbound",
+          "name": "CA-237 E",
+          "from": "N Mathilda Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-02T07:28Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-01T23:34:16.78678"
+        },
+        "event-reference": {
+          "event-identifier": "859023"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-237 Eastbound west of N Mathilda Ave (Sunnyvale). Right shoulder blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-237 E",
+                  "link-from-road": "N Mathilda Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Sunnyvale",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.402133",
+                    "event-location-coordinates-longitude": "-122.0307"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-01T23:29:10.57620",
+              "valid-period": {
+                "event-timeline-estimated-duration": "33.5"
+              },
+              "start-time": "2022-01-01T23:28:36.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-01-01T23:29:10.57620",
+        "ivr-article": "west of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220101GG02575",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-205 Eastbound east of W 11TH St (Tracy). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-02T07:33Z",
+      "updated": "2022-01-02T07:33Z",
+      "areas": {
+        "area": {
+          "name": "San Joaquin",
+          "id": "5392126",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392126/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.504185,
+          37.740676
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220101ST00435"
+      },
+      "roads": [
+        {
+          "name": "I-205 E",
+          "from": "W 11TH St",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -360,21 +508,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-01-02T07:14Z/"
+          "2022-01-02T07:32Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-01T23:22:18.25817"
+          "event-message-time-stamp": "2022-01-01T23:34:16.78678"
         },
         "event-reference": {
-          "event-identifier": "859020"
+          "event-identifier": "859024"
         },
         "event-status": "new",
         "details": {
@@ -395,7 +543,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-87 Northbound north of Almaden Expy (San Jose). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-205 Eastbound east of W 11TH St (Tracy). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -404,25 +552,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-87 N",
-                  "link-from-road": "Almaden Expy",
+                  "event-location-type-area": null,
+                  "link-road-designator": "I-205 E",
+                  "link-from-road": "W 11TH St",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Tracy",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.304487",
-                    "event-location-coordinates-longitude": "-121.878779"
+                    "event-location-coordinates-latitude": "37.740676",
+                    "event-location-coordinates-longitude": "-121.504185"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-01T23:15:27.48800",
+              "update-time": "2022-01-01T23:33:24.32840",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-01-01T23:14:53.00000",
+              "start-time": "2022-01-01T23:32:50.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -435,162 +583,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-01T23:15:27.48800",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-01-01T23:33:24.32840",
+        "ivr-article": "east of",
+        "ivr-county": "San Joaquin",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220101GG02542",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-280 Northbound south of S 11TH St (San Jose). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-01-02T07:11Z",
-      "updated": "2022-01-02T07:11Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.867671,
-          37.330104
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220101GG02558"
-      },
-      "roads": [
-        {
-          "name": "I-280 N",
-          "from": "S 11TH St",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-02T07:10Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-01T23:22:18.25817"
-        },
-        "event-reference": {
-          "event-identifier": "859022"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-280 Northbound south of S 11TH St (San Jose). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "S 11TH St",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.330104",
-                    "event-location-coordinates-longitude": "-121.867671"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-01T23:11:14.03640",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25"
-              },
-              "start-time": "2022-01-01T23:10:40.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-01T23:11:14.03640",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220101GG02558",
+        "SourceEventID": "220101ST00435",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
