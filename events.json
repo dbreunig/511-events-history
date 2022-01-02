@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-02T11:33:44.66886"
+          "event-message-time-stamp": "2022-01-02T11:48:26.43761"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -223,7 +223,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-02T11:33:44.66886"
+          "event-message-time-stamp": "2022-01-02T11:48:26.43761"
         },
         "event-reference": {
           "event-identifier": "859066"
@@ -295,6 +295,154 @@
         "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220102GG00680",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Vehicle fire on CA-152 Eastbound east of Casa De Fruta Pky (Gilroy). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Vehicle fire"
+      },
+      "severity": "Minor",
+      "created": "2022-01-02T19:46Z",
+      "updated": "2022-01-02T19:48Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.383611,
+          36.984444
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220102MY00096"
+      },
+      "roads": [
+        {
+          "name": "CA-152",
+          "from": "Casa De Fruta Pky",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-02T19:47Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-02T11:48:26.43761"
+        },
+        "event-reference": {
+          "event-identifier": "859070"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Vehicle fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Vehicle fire on CA-152 Eastbound east of Casa De Fruta Pky (Gilroy). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-152",
+                  "link-from-road": "Casa De Fruta Pky",
+                  "link-to-road": null,
+                  "link-from-city": "Gilroy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "36.984444",
+                    "event-location-coordinates-longitude": "-121.383611"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-02T11:48:07.89460",
+              "valid-period": {
+                "event-timeline-estimated-duration": "16"
+              },
+              "start-time": "2022-01-02T11:47:23.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-01-02T11:48:07.89460",
+        "ivr-article": "east of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220102MY00096",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
