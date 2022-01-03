@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-02T17:41:04.02024"
+          "event-message-time-stamp": "2022-01-02T18:09:15.98944"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -153,21 +153,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fire on I-880 Northbound at I-280 N (San Jose). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on CA-29 Northbound at Oakville Cross Rd (Napa). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Fire"
+        "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Moderate",
-      "created": "2022-01-03T01:19Z",
-      "updated": "2022-01-03T01:20Z",
+      "severity": "Major",
+      "created": "2022-01-03T01:48Z",
+      "updated": "2022-01-03T02:06Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Napa",
+          "id": "5376101",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5376101/"
           }
         }
       },
@@ -180,8 +180,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.940786,
-          37.31949
+          -122.41126,
+          38.446264
         ]
       },
       "source_type": {
@@ -190,12 +190,160 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220102GG01429"
+        "#text": "220102GG01492"
       },
       "roads": [
         {
-          "name": "I-880 N",
-          "from": "I-280 N",
+          "name": "CA-29 N",
+          "from": "Oakville Cross Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-03T02:05Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-02T18:09:15.98944"
+        },
+        "event-reference": {
+          "event-identifier": "859148"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-29 Northbound at Oakville Cross Rd (Napa). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-29 N",
+                  "link-from-road": "Oakville Cross Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Napa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.446264",
+                    "event-location-coordinates-longitude": "-122.41126"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-02T18:06:01.00990",
+              "valid-period": {
+                "event-timeline-estimated-duration": "53.5"
+              },
+              "start-time": "2022-01-02T18:05:25.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-02T18:06:01.00990",
+        "ivr-article": "at",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220102GG01492",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on US-101 Northbound south of CA-92 W (San Mateo). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-03T01:57Z",
+      "updated": "2022-01-03T01:58Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.296253,
+          37.553686
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220102GG01512"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "CA-92 W",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -212,21 +360,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-01-03T01:18Z/"
+          "2022-01-03T01:56Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-02T17:41:04.02024"
+          "event-message-time-stamp": "2022-01-02T18:09:15.98944"
         },
         "event-reference": {
-          "event-identifier": "859139"
+          "event-identifier": "859150"
         },
         "event-status": "new",
         "details": {
@@ -237,7 +385,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Fire"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -247,7 +395,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fire on I-880 Northbound at I-280 N (San Jose). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Residual delays on US-101 Northbound south of CA-92 W (San Mateo). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -256,25 +404,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "I-280 N",
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "CA-92 W",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "San Mateo",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.31949",
-                    "event-location-coordinates-longitude": "-121.940786"
+                    "event-location-coordinates-latitude": "37.553686",
+                    "event-location-coordinates-longitude": "-122.296253"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-02T17:20:36.64360",
+              "update-time": "2022-01-02T17:58:28.70670",
               "valid-period": {
-                "event-timeline-estimated-duration": "32"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-01-02T17:18:50.00000",
+              "start-time": "2022-01-02T17:56:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -288,27 +436,27 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-02T17:20:36.64360",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
+        "ivr-lastUpdateDttm": "2022-01-02T17:58:28.70670",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220102GG01429",
+        "SourceEventID": "220102GG01512",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-680 Northbound north of Andrade Rd (Unincorporated). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-880 N-I-80 W Ramp Westbound at I-880 N (Oakland). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-01-03T01:29Z",
-      "updated": "2022-01-03T01:33Z",
+      "created": "2022-01-03T02:00Z",
+      "updated": "2022-01-03T02:01Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -328,8 +476,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.881533,
-          37.575627
+          -122.300172,
+          37.814567
         ]
       },
       "source_type": {
@@ -338,13 +486,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220102GG01449"
+        "#text": "220102GG01514"
       },
       "roads": [
         {
-          "name": "I-680 N",
-          "from": "Andrade Rd",
-          "direction": "Northbound",
+          "name": "I-880 N-I-80 W Ramp",
+          "from": "I-880 N",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -360,21 +508,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-01-03T01:31Z/"
+          "2022-01-03T02:01Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-02T17:41:04.02024"
+          "event-message-time-stamp": "2022-01-02T18:09:15.98944"
         },
         "event-reference": {
-          "event-identifier": "859141"
+          "event-identifier": "859151"
         },
         "event-status": "new",
         "details": {
@@ -385,7 +533,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -395,7 +543,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-680 Northbound north of Andrade Rd (Unincorporated). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-880 N-I-80 W Ramp Westbound at I-880 N (Oakland). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -405,24 +553,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Andrade Rd",
+                  "link-road-designator": "I-880 N-I-80 W Ramp",
+                  "link-from-road": "I-880 N",
                   "link-to-road": null,
-                  "link-from-city": "Unincorporated",
+                  "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.575627",
-                    "event-location-coordinates-longitude": "-121.881533"
+                    "event-location-coordinates-latitude": "37.814567",
+                    "event-location-coordinates-longitude": "-122.300172"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-02T17:33:04.07870",
+              "update-time": "2022-01-02T18:01:46.63060",
               "valid-period": {
-                "event-timeline-estimated-duration": "29"
+                "event-timeline-estimated-duration": "38"
               },
-              "start-time": "2022-01-02T17:31:30.00000",
+              "start-time": "2022-01-02T18:01:11.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -435,14 +583,162 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-02T17:33:04.07870",
-        "ivr-article": "north of",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-01-02T18:01:46.63060",
+        "ivr-article": "at",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220102GG01449",
+        "SourceEventID": "220102GG01514",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-680 Southbound south of I-580 E (Pleasanton). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-03T02:06Z",
+      "updated": "2022-01-03T02:06Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.911281,
+          37.701642
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220102GG01527"
+      },
+      "roads": [
+        {
+          "name": "I-680 S",
+          "from": "I-580 E",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-03T02:05Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-02T18:09:15.98944"
+        },
+        "event-reference": {
+          "event-identifier": "859152"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-680 Southbound south of I-580 E (Pleasanton). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "I-580 E",
+                  "link-to-road": null,
+                  "link-from-city": "Pleasanton",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.701642",
+                    "event-location-coordinates-longitude": "-121.911281"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-02T18:06:00.85710",
+              "valid-period": {
+                "event-timeline-estimated-duration": "27.7"
+              },
+              "start-time": "2022-01-02T18:05:25.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-02T18:06:00.85710",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220102GG01527",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
