@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-03T17:09:21.13797"
+          "event-message-time-stamp": "2022-01-03T17:41:22.80670"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -153,25 +153,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision and Overturned vehicle on CA-17 Northbound south of Idylwild Rd (Los Gatos). Right lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on CA-128 Westbound at Wragg Canyon Rd (Napa). Lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision",
-          "Overturned vehicle",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Traffic Collision"
       },
-      "severity": "Major",
-      "created": "2022-01-03T23:37Z",
-      "updated": "2022-01-04T00:58Z",
+      "severity": "Moderate",
+      "created": "2022-01-04T01:10Z",
+      "updated": "2022-01-04T01:11Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Napa",
+          "id": "5376101",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5376101/"
           }
         }
       },
@@ -184,8 +180,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.988444392636,
-          37.1668283006644
+          -122.151882,
+          38.449138
         ]
       },
       "source_type": {
@@ -194,178 +190,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220103GG01311"
+        "#text": "220103GG01502"
       },
       "roads": [
         {
-          "name": "CA-17 N",
-          "from": "Idylwild Rd",
-          "direction": "Northbound",
+          "name": "CA-128 W",
+          "from": "Wragg Canyon Rd",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-03T23:37Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-03T17:09:21.13797"
-        },
-        "event-reference": {
-          "event-identifier": "859362"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision"
-                      },
-                      {
-                        "incident": "Overturned vehicle"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision and Overturned vehicle on CA-17 Northbound south of Idylwild Rd (Los Gatos). Right lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-17 N",
-                  "link-from-road": "Idylwild Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Los Gatos",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.1668283006644",
-                    "event-location-coordinates-longitude": "-121.988444392636"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-03T16:58:42.07920",
-              "valid-period": {
-                "event-timeline-estimated-duration": "61"
-              },
-              "start-time": "2022-01-03T15:37:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-03T16:58:42.07920",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220103GG01311",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Fire on CA-9 Northbound at CA-1 (Santa Cruz). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Fire"
-      },
-      "severity": "Minor",
-      "created": "2022-01-04T00:46Z",
-      "updated": "2022-01-04T00:47Z",
-      "areas": {
-        "area": {
-          "name": "Santa Cruz",
-          "id": "5393068",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393068/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.037455,
-          37.000093
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220103MY00243"
-      },
-      "roads": [
-        {
-          "name": "CA-9",
-          "from": "CA-1",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -379,15 +218,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-01-04T00:46Z/"
+          "2022-01-04T01:10Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-03T17:09:21.13797"
+          "event-message-time-stamp": "2022-01-03T17:41:22.80670"
         },
         "event-reference": {
-          "event-identifier": "859387"
+          "event-identifier": "859396"
         },
         "event-status": "new",
         "details": {
@@ -398,7 +237,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Fire"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -408,7 +247,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fire on CA-9 Northbound at CA-1 (Santa Cruz). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on CA-128 Westbound at Wragg Canyon Rd (Napa). Lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -417,25 +256,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA087",
-                  "link-road-designator": "CA-9",
-                  "link-from-road": "CA-1",
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-128 W",
+                  "link-from-road": "Wragg Canyon Rd",
                   "link-to-road": null,
-                  "link-from-city": "Santa Cruz",
+                  "link-from-city": "Napa",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.000093",
-                    "event-location-coordinates-longitude": "-122.037455"
+                    "event-location-coordinates-latitude": "38.449138",
+                    "event-location-coordinates-longitude": "-122.151882"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-03T16:47:24.74270",
+              "update-time": "2022-01-03T17:11:15.19620",
               "valid-period": {
-                "event-timeline-estimated-duration": "22"
+                "event-timeline-estimated-duration": "34"
               },
-              "start-time": "2022-01-03T16:46:10.00000",
+              "start-time": "2022-01-03T17:10:27.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -444,32 +283,180 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-03T16:47:24.74270",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-01-03T17:11:15.19620",
         "ivr-article": "at",
-        "ivr-county": "Santa Cruz",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220103MY00243",
+        "SourceEventID": "220103GG01502",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-238 Southbound at Hesperian Blvd (San Leandro). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Pothole on I-280 Southbound north of Larkspur Dr (Millbrae). Right lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Pothole"
       },
       "severity": "Moderate",
-      "created": "2022-01-04T01:02Z",
-      "updated": "2022-01-04T01:02Z",
+      "created": "2022-01-04T01:18Z",
+      "updated": "2022-01-04T01:37Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.422499,
+          37.59861
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220103GG01516"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "Larkspur Dr",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-04T01:19Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-03T17:41:22.80670"
+        },
+        "event-reference": {
+          "event-identifier": "859399"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Pothole"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Pothole on I-280 Southbound north of Larkspur Dr (Millbrae). Right lanes affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "Larkspur Dr",
+                  "link-to-road": null,
+                  "link-from-city": "Millbrae",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.59861",
+                    "event-location-coordinates-longitude": "-122.422499"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-03T17:37:19.13550",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2022-01-03T17:19:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-03T17:37:19.13550",
+        "ivr-article": "north of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220103GG01516",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on I-580 Westbound exiting at 35TH Ave (Oakland). Off Ramp blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Major",
+      "created": "2022-01-04T01:32Z",
+      "updated": "2022-01-04T01:33Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -489,8 +476,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.132558,
-          37.690534
+          -122.206233,
+          37.794631
         ]
       },
       "source_type": {
@@ -499,161 +486,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220103GG01482"
+        "#text": "220103GG01544"
       },
       "roads": [
         {
-          "name": "I-238 S",
-          "from": "Hesperian Blvd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-04T01:02Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-03T17:09:21.13797"
-        },
-        "event-reference": {
-          "event-identifier": "859393"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-238 Southbound at Hesperian Blvd (San Leandro). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-238 S",
-                  "link-from-road": "Hesperian Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "San Leandro",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.690534",
-                    "event-location-coordinates-longitude": "-122.132558"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-03T17:02:37.58080",
-              "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
-              },
-              "start-time": "2022-01-03T17:02:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-01-03T17:02:37.58080",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220103GG01482",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound exiting at E Washington St (Petaluma). Off Ramp blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Major",
-      "created": "2022-01-04T01:04Z",
-      "updated": "2022-01-04T01:05Z",
-      "areas": {
-        "area": {
-          "name": "Sonoma",
-          "id": "5397100",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5397100/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.629727,
-          38.247785
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220103GG01488"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "E Washington St",
-          "direction": "Southbound",
+          "name": "I-580 W",
+          "from": "35TH Ave",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -675,15 +514,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-01-04T01:04Z/"
+          "2022-01-04T01:31Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-03T17:09:21.13797"
+          "event-message-time-stamp": "2022-01-03T17:41:22.80670"
         },
         "event-reference": {
-          "event-identifier": "859394"
+          "event-identifier": "859405"
         },
         "event-status": "new",
         "details": {
@@ -694,7 +533,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Traffic Collision with Injuries"
                     }
                   }
                 },
@@ -704,7 +543,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound exiting at E Washington St (Petaluma). Off Ramp blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-580 Westbound exiting at 35TH Ave (Oakland). Off Ramp blocked. Expect delays."
                     }
                   }
                 }
@@ -713,25 +552,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA097",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "E Washington St",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "35TH Ave",
                   "link-to-road": null,
-                  "link-from-city": "Petaluma",
+                  "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.247785",
-                    "event-location-coordinates-longitude": "-122.629727"
+                    "event-location-coordinates-latitude": "37.794631",
+                    "event-location-coordinates-longitude": "-122.206233"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-03T17:05:42.74770",
+              "update-time": "2022-01-03T17:33:22.66390",
               "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
+                "event-timeline-estimated-duration": "53.5"
               },
-              "start-time": "2022-01-03T17:04:00.00000",
+              "start-time": "2022-01-03T17:31:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -744,14 +583,162 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-01-03T17:05:42.74770",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-01-03T17:33:22.66390",
         "ivr-article": "exiting at",
-        "ivr-county": "Sonoma",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Off Ramp",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220103GG01488",
+        "SourceEventID": "220103GG01544",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Pothole on I-280 Northbound south of Cambridge St (San Francisco). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Pothole"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-04T01:33Z",
+      "updated": "2022-01-04T01:34Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.423836,
+          37.731355
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220103GG01546"
+      },
+      "roads": [
+        {
+          "name": "I-280 N",
+          "from": "Cambridge St",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-04T01:32Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-03T17:41:22.80670"
+        },
+        "event-reference": {
+          "event-identifier": "859406"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Pothole"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Pothole on I-280 Northbound south of Cambridge St (San Francisco). Left lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "Cambridge St",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.731355",
+                    "event-location-coordinates-longitude": "-122.423836"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-03T17:34:36.82660",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-01-03T17:32:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-03T17:34:36.82660",
+        "ivr-article": "south of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220103GG01546",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
