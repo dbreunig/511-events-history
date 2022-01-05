@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T17:09:26.86778"
+          "event-message-time-stamp": "2022-01-04T17:42:12.79270"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -160,7 +160,7 @@
       },
       "severity": "Major",
       "created": "2022-01-04T13:18Z",
-      "updated": "2022-01-05T01:00Z",
+      "updated": "2022-01-05T01:32Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -220,7 +220,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T17:09:26.86778"
+          "event-message-time-stamp": "2022-01-04T17:42:12.79270"
         },
         "event-reference": {
           "event-identifier": "859513"
@@ -267,7 +267,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-04T17:00:11.73680",
+              "update-time": "2022-01-04T17:32:14.11790",
               "valid-period": {
                 "event-timeline-estimated-duration": "51.166666666666664"
               },
@@ -285,7 +285,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Eastbound and Westbound",
-        "ivr-lastUpdateDttm": "2022-01-04T17:00:11.73680",
+        "ivr-lastUpdateDttm": "2022-01-04T17:32:14.11790",
         "ivr-article": "between",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
@@ -298,14 +298,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Emergency road closure on CA-35 Northbound and Southbound north of La Honda Rd (Redwood City). All lanes closed. Avoid the area.",
+      "headline": "CHP : Residual delays on CA-35 Northbound and Southbound north of La Honda Rd (Redwood City). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Emergency road closure"
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2022-01-04T19:15Z",
-      "updated": "2022-01-05T00:29Z",
+      "updated": "2022-01-05T01:25Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -338,18 +338,18 @@
           "name": "CA-35 N",
           "from": "La Honda Rd",
           "direction": "Northbound and Southbound",
-          "state": "CLOSED",
+          "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Avoid the area"
+            "#text": "Expect delays"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -364,7 +364,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T17:09:26.86778"
+          "event-message-time-stamp": "2022-01-04T17:42:12.79270"
         },
         "event-reference": {
           "event-identifier": "859639"
@@ -378,7 +378,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Emergency road closure"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -388,7 +388,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Emergency road closure on CA-35 Northbound and Southbound north of La Honda Rd (Redwood City). All lanes closed. Avoid the area."
+                      "event-description": "CHP : Residual delays on CA-35 Northbound and Southbound north of La Honda Rd (Redwood City). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -411,9 +411,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-04T16:29:16.82190",
+              "update-time": "2022-01-04T17:25:32.48700",
               "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2022-01-04T11:15:00.00000",
               "cleared-time": null,
@@ -424,32 +424,31 @@
             }
           }
         },
-        "EventImpact": "Major",
-        "RoadClosed": "true",
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound and Southbound",
-        "ivr-lastUpdateDttm": "2022-01-04T16:29:16.82190",
+        "ivr-lastUpdateDttm": "2022-01-04T17:25:32.48700",
         "ivr-article": "north of",
         "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
+        "ivr-laneStatus": "open",
         "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "Avoid the area",
+        "ivr-genOtherText": "Expect delays",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Emergency road closure on CA-35 Northbound and Southbound north of La Honda Rd (Woodside). All lanes closed. Avoid the area.",
+      "headline": "CHP : Residual delays on CA-35 Northbound and Southbound north of La Honda Rd (Woodside). All lanes open. Avoid the area.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Emergency road closure"
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2022-01-04T19:20Z",
-      "updated": "2022-01-05T00:29Z",
+      "updated": "2022-01-05T01:25Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -482,14 +481,14 @@
           "name": "CA-35 S",
           "from": "La Honda Rd",
           "direction": "Northbound and Southbound",
-          "state": "CLOSED",
+          "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -508,7 +507,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T17:09:26.86778"
+          "event-message-time-stamp": "2022-01-04T17:42:12.79270"
         },
         "event-reference": {
           "event-identifier": "859640"
@@ -522,7 +521,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Emergency road closure"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -532,7 +531,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Emergency road closure on CA-35 Northbound and Southbound north of La Honda Rd (Woodside). All lanes closed. Avoid the area."
+                      "event-description": "CHP : Residual delays on CA-35 Northbound and Southbound north of La Honda Rd (Woodside). All lanes open. Avoid the area."
                     }
                   }
                 }
@@ -555,9 +554,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-04T16:29:42.06680",
+              "update-time": "2022-01-04T17:25:11.84080",
               "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2022-01-04T11:20:00.00000",
               "cleared-time": null,
@@ -568,17 +567,16 @@
             }
           }
         },
-        "EventImpact": "Major",
-        "RoadClosed": "true",
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound and Southbound",
-        "ivr-lastUpdateDttm": "2022-01-04T16:29:42.06680",
+        "ivr-lastUpdateDttm": "2022-01-04T17:25:11.84080",
         "ivr-article": "north of",
         "ivr-county": "San Mateo",
-        "ivr-laneStatus": "closed",
+        "ivr-laneStatus": "open",
         "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Avoid the area",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
@@ -586,14 +584,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Northbound south of Auto Mall Pky (Fremont). 2nd lane from the left affected. Expect delays.",
+      "headline": "CHP : Residual delays on I-880 Northbound south of Auto Mall Pky (Fremont). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Residual delays"
       },
       "severity": "Moderate",
       "created": "2022-01-05T01:02Z",
-      "updated": "2022-01-05T01:09Z",
+      "updated": "2022-01-05T01:25Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -633,7 +631,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -651,12 +649,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-01-05T01:08Z/"
+          "2022-01-05T01:21Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T17:09:26.86778"
+          "event-message-time-stamp": "2022-01-04T17:42:12.79270"
         },
         "event-reference": {
           "event-identifier": "859754"
@@ -670,7 +668,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -680,7 +678,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of Auto Mall Pky (Fremont). 2nd lane from the left affected. Expect delays."
+                      "event-description": "CHP : Residual delays on I-880 Northbound south of Auto Mall Pky (Fremont). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -703,11 +701,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-04T17:09:17.15610",
+              "update-time": "2022-01-04T17:25:55.67490",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-01-04T17:08:38.00000",
+              "start-time": "2022-01-04T17:21:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -721,11 +719,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-04T17:09:17.15610",
+        "ivr-lastUpdateDttm": "2022-01-04T17:25:55.67490",
         "ivr-article": "south of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220104GG01590",
         "EventSourceName": "CHP",
@@ -803,7 +801,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T17:09:26.86778"
+          "event-message-time-stamp": "2022-01-04T17:42:12.79270"
         },
         "event-reference": {
           "event-identifier": "859756"
@@ -886,169 +884,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled tractor trailer on CA-92 Westbound at San Mateo Bridge - High Rise (Foster City). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled tractor trailer"
-      },
-      "severity": "Moderate",
-      "created": "2022-01-05T01:06Z",
-      "updated": "2022-01-05T01:09Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.251686,
-          37.583447
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220104GG01598"
-      },
-      "roads": [
-        {
-          "name": "CA-92 W",
-          "from": "San Mateo Bridge - High Rise",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-05T01:08Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-04T17:09:26.86778"
-        },
-        "event-reference": {
-          "event-identifier": "859757"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled tractor trailer"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled tractor trailer on CA-92 Westbound at San Mateo Bridge - High Rise (Foster City). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "CA-92 W",
-                  "link-from-road": "San Mateo Bridge - High Rise",
-                  "link-to-road": null,
-                  "link-from-city": "Foster City",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.583447",
-                    "event-location-coordinates-longitude": "-122.251686"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-04T17:09:16.99250",
-              "valid-period": {
-                "event-timeline-estimated-duration": "38"
-              },
-              "start-time": "2022-01-04T17:08:38.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-01-04T17:09:16.99250",
-        "ivr-article": "at",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220104GG01598",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Westbound at Bellam Blvd (San Rafael). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound west of Air Base Pky (Fairfield). Left lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-01-05T01:06Z",
-      "updated": "2022-01-05T01:07Z",
+      "created": "2022-01-05T01:29Z",
+      "updated": "2022-01-05T01:40Z",
       "areas": {
         "area": {
-          "name": "Marin",
-          "id": "5370468",
+          "name": "Solano",
+          "id": "5396987",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
+            "@href": "http://geonames.org/5396987/"
           }
         }
       },
@@ -1061,8 +911,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.503378,
-          37.958229
+          -122.047563,
+          38.275643
         ]
       },
       "source_type": {
@@ -1071,21 +921,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220104GG01599"
+        "#text": "220104GG01647"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "Bellam Blvd",
-          "direction": "Westbound",
+          "name": "I-80 E",
+          "from": "Air Base Pky",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Left lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1093,21 +943,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-01-05T01:06Z/"
+          "2022-01-05T01:37Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T17:09:26.86778"
+          "event-message-time-stamp": "2022-01-04T17:42:12.79270"
         },
         "event-reference": {
-          "event-identifier": "859758"
+          "event-identifier": "859767"
         },
         "event-status": "new",
         "details": {
@@ -1128,7 +978,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Westbound at Bellam Blvd (San Rafael). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound west of Air Base Pky (Fairfield). Left lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -1137,25 +987,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "Bellam Blvd",
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Air Base Pky",
                   "link-to-road": null,
-                  "link-from-city": "San Rafael",
+                  "link-from-city": "Fairfield",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.958229",
-                    "event-location-coordinates-longitude": "-122.503378"
+                    "event-location-coordinates-latitude": "38.275643",
+                    "event-location-coordinates-longitude": "-122.047563"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-04T17:07:07.32800",
+              "update-time": "2022-01-04T17:40:33.19470",
               "valid-period": {
                 "event-timeline-estimated-duration": "34"
               },
-              "start-time": "2022-01-04T17:06:28.00000",
+              "start-time": "2022-01-04T17:37:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1168,14 +1018,310 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-01-04T17:07:07.32800",
-        "ivr-article": "at",
-        "ivr-county": "Marin",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-01-04T17:40:33.19470",
+        "ivr-article": "west of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220104GG01647",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on CA-242 Southbound north of Clayton Rd (Concord). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-05T01:30Z",
+      "updated": "2022-01-05T01:31Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.053305,
+          37.956956
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220104GG01653"
+      },
+      "roads": [
+        {
+          "name": "CA-242 S",
+          "from": "Clayton Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-05T01:31Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-04T17:42:12.79270"
+        },
+        "event-reference": {
+          "event-identifier": "859768"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on CA-242 Southbound north of Clayton Rd (Concord). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-242 S",
+                  "link-from-road": "Clayton Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Concord",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.956956",
+                    "event-location-coordinates-longitude": "-122.053305"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-04T17:31:50.32030",
+              "valid-period": {
+                "event-timeline-estimated-duration": "32"
+              },
+              "start-time": "2022-01-04T17:31:11.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-04T17:31:50.32030",
+        "ivr-article": "north of",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220104GG01599",
+        "SourceEventID": "220104GG01653",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on I-80 Eastbound west of Air Base Pky (Fairfield). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-05T01:38Z",
+      "updated": "2022-01-05T01:39Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.051892,
+          38.270549
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220104GG01668"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Air Base Pky",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-05T01:37Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-04T17:42:12.79270"
+        },
+        "event-reference": {
+          "event-identifier": "859770"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on I-80 Eastbound west of Air Base Pky (Fairfield). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Air Base Pky",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.270549",
+                    "event-location-coordinates-longitude": "-122.051892"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-04T17:39:50.38700",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-01-04T17:37:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-01-04T17:39:50.38700",
+        "ivr-article": "west of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220104GG01668",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
