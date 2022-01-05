@@ -71,7 +71,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T19:05:00.43367"
+          "event-message-time-stamp": "2022-01-04T19:23:47.94439"
         },
         "event-reference": {
           "event-identifier": "790551"
@@ -220,7 +220,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T19:05:00.43367"
+          "event-message-time-stamp": "2022-01-04T19:23:47.94439"
         },
         "event-reference": {
           "event-identifier": "859513"
@@ -308,7 +308,7 @@
       },
       "severity": "Severe",
       "created": "2022-01-05T01:05Z",
-      "updated": "2022-01-05T02:11Z",
+      "updated": "2022-01-05T03:11Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -367,7 +367,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T19:05:00.43367"
+          "event-message-time-stamp": "2022-01-04T19:23:47.94439"
         },
         "event-reference": {
           "event-identifier": "859756"
@@ -419,7 +419,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-04T18:11:03.62040",
+              "update-time": "2022-01-04T19:11:21.72420",
               "valid-period": {
                 "event-timeline-estimated-duration": "76"
               },
@@ -437,7 +437,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "5",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-01-04T18:11:03.62040",
+        "ivr-lastUpdateDttm": "2022-01-04T19:11:21.72420",
         "ivr-article": "ramp to",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "blocked",
@@ -521,7 +521,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T19:05:00.43367"
+          "event-message-time-stamp": "2022-01-04T19:23:47.94439"
         },
         "event-reference": {
           "event-identifier": "859789"
@@ -600,21 +600,24 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-4 Westbound west of Railroad Ave (Pittsburg). Right lanes affected. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Emergency road closure on CA-35 Northbound area of La Honda Rd (Redwood City). All lanes closed. Avoid the area.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": [
+          "Emergency road closure",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Moderate",
-      "created": "2022-01-05T02:59Z",
-      "updated": "2022-01-05T03:00Z",
+      "severity": "Major",
+      "created": "2022-01-05T03:08Z",
+      "updated": "2022-01-05T03:18Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "San Mateo",
+          "id": "5392427",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5392427/"
           }
         }
       },
@@ -627,8 +630,309 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.895066,
-          38.018567
+          -122.264297338623,
+          37.386379327172
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "roads": [
+        {
+          "name": "CA-35 N",
+          "from": "La Honda Rd",
+          "direction": "Northbound",
+          "state": "CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Avoid the area"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "area of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-05T03:08Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-04T19:23:47.94439"
+        },
+        "event-reference": {
+          "event-identifier": "859796"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Emergency road closure"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Severe traffic alert and Emergency road closure on CA-35 Northbound area of La Honda Rd (Redwood City). All lanes closed. Avoid the area."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "CA-35 N",
+                  "link-from-road": "La Honda Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Redwood City",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.386379327172",
+                    "event-location-coordinates-longitude": "-122.264297338623"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-04T19:18:18.68100",
+              "valid-period": {
+                "event-timeline-estimated-duration": "62.5"
+              },
+              "start-time": "2022-01-04T19:08:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "true",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-04T19:18:18.68100",
+        "ivr-article": "area of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Avoid the area",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Severe traffic alert and Emergency road closure on CA-35 Southbound area of La Honda Rd (Woodside). All lanes closed. Avoid the area.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": [
+          "Emergency road closure",
+          "Severe traffic alert"
+        ]
+      },
+      "severity": "Major",
+      "created": "2022-01-05T03:09Z",
+      "updated": "2022-01-05T03:09Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.264435807663,
+          37.3864542114832
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "roads": [
+        {
+          "name": "CA-35 S",
+          "from": "La Honda Rd",
+          "direction": "Southbound",
+          "state": "CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Avoid the area"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "area of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-05T03:09Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-04T19:23:47.94439"
+        },
+        "event-reference": {
+          "event-identifier": "859797"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Emergency road closure"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Severe traffic alert and Emergency road closure on CA-35 Southbound area of La Honda Rd (Woodside). All lanes closed. Avoid the area."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "CA-35 S",
+                  "link-from-road": "La Honda Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Woodside",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.386454211483233",
+                    "event-location-coordinates-longitude": "-122.26443580766345"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-04T19:09:57.50650",
+              "valid-period": {
+                "event-timeline-estimated-duration": "62.5"
+              },
+              "start-time": "2022-01-04T19:09:57.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "true",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-04T19:09:57.50650",
+        "ivr-article": "area of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Avoid the area",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-580 Westbound east of Paloverde Rd (Hayward). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-05T03:19Z",
+      "updated": "2022-01-05T03:19Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.016788,
+          37.702907
         ]
       },
       "source_type": {
@@ -637,17 +941,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220104GG01831"
+        "#text": "220104GG01866"
       },
       "roads": [
         {
-          "name": "CA-4 W",
-          "from": "Railroad Ave",
+          "name": "I-580 W",
+          "from": "Paloverde Rd",
           "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lanes"
+            "#text": "Left lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -659,21 +963,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-01-05T02:58Z/"
+          "2022-01-05T03:18Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-04T19:05:00.43367"
+          "event-message-time-stamp": "2022-01-04T19:23:47.94439"
         },
         "event-reference": {
-          "event-identifier": "859794"
+          "event-identifier": "859799"
         },
         "event-status": "new",
         "details": {
@@ -694,7 +998,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-4 Westbound west of Railroad Ave (Pittsburg). Right lanes affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-580 Westbound east of Paloverde Rd (Hayward). Left lane affected. Expect delays."
                     }
                   }
                 }
@@ -703,25 +1007,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 W",
-                  "link-from-road": "Railroad Ave",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Paloverde Rd",
                   "link-to-road": null,
-                  "link-from-city": "Pittsburg",
+                  "link-from-city": "Hayward",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.018567",
-                    "event-location-coordinates-longitude": "-121.895066"
+                    "event-location-coordinates-latitude": "37.702907",
+                    "event-location-coordinates-longitude": "-122.016788"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-04T19:00:52.27210",
+              "update-time": "2022-01-04T19:19:35.10810",
               "valid-period": {
-                "event-timeline-estimated-duration": "40.199999999999996"
+                "event-timeline-estimated-duration": "27.7"
               },
-              "start-time": "2022-01-04T18:58:00.00000",
+              "start-time": "2022-01-04T19:18:56.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -735,13 +1039,310 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-01-04T19:00:52.27210",
-        "ivr-article": "west of",
-        "ivr-county": "Contra Costa",
+        "ivr-lastUpdateDttm": "2022-01-04T19:19:35.10810",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lanes",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220104GG01831",
+        "SourceEventID": "220104GG01866",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on I-880 Northbound between CA-84 W (Fremont) and Alvarado Niles Rd (Union City). Various lanes closed until 5 AM. Tuesday, January 4, 2022 7:01 PM thru Wednesday, January 5, 2022 5:01 AM, Tuesday/Wednesday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-01-05T03:19Z",
+      "updated": "2022-01-05T03:22Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.038305,
+          37.563501
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C880LB-0002-2022-01-04-19:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "CA-84 W",
+          "to": "Alvarado Niles Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Various lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 5 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "between"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-05T03:01Z/2022-01-05T13:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-04T19:23:47.94439"
+        },
+        "event-reference": {
+          "event-identifier": "859800"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-880 Northbound between CA-84 W (Fremont) and Alvarado Niles Rd (Union City). Various lanes closed until 5 AM. Tuesday, January 4, 2022 7:01 PM thru Wednesday, January 5, 2022 5:01 AM, Tuesday/Wednesday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "CA-84 W",
+                  "link-to-road": "Alvarado Niles Rd",
+                  "link-from-city": "Fremont",
+                  "link-to-city": "Union City",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.563501",
+                    "event-location-coordinates-longitude": "-122.038305"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-04T19:22:51.91090",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-01-04T19:01:00.00000",
+              "cleared-time": "2022-01-05T05:01:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-04T19:22:51.91090",
+        "ivr-article": "between",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Various lanes",
+        "ivr-genOtherText": "until 5 AM",
+        "SourceEventID": "C880LB-0002-2022-01-04-19:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Pothole on I-880 Southbound north of Davis St (San Leandro). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Pothole"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-05T03:21Z",
+      "updated": "2022-01-05T03:22Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.179998,
+          37.722206
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220104GG01871"
+      },
+      "roads": [
+        {
+          "name": "I-880 S",
+          "from": "Davis St",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-05T03:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-04T19:23:47.94439"
+        },
+        "event-reference": {
+          "event-identifier": "859801"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Pothole"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Pothole on I-880 Southbound north of Davis St (San Leandro). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "Davis St",
+                  "link-to-road": null,
+                  "link-from-city": "San Leandro",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.722206",
+                    "event-location-coordinates-longitude": "-122.179998"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-04T19:22:41.25830",
+              "valid-period": {
+                "event-timeline-estimated-duration": "25"
+              },
+              "start-time": "2022-01-04T19:21:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-04T19:22:41.25830",
+        "ivr-article": "north of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220104GG01871",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
