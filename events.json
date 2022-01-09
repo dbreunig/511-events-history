@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-08T15:48:16.49227"
+          "event-message-time-stamp": "2022-01-08T16:13:43.44667"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-08T15:48:16.49227"
+          "event-message-time-stamp": "2022-01-08T16:13:43.44667"
         },
         "event-reference": {
           "event-identifier": "860173"
@@ -356,7 +356,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-08T15:48:16.49227"
+          "event-message-time-stamp": "2022-01-08T16:13:43.44667"
         },
         "event-reference": {
           "event-identifier": "860544"
@@ -504,7 +504,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-08T15:48:16.49227"
+          "event-message-time-stamp": "2022-01-08T16:13:43.44667"
         },
         "event-reference": {
           "event-identifier": "860778"
@@ -652,7 +652,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-08T15:48:16.49227"
+          "event-message-time-stamp": "2022-01-08T16:13:43.44667"
         },
         "event-reference": {
           "event-identifier": "860780"
@@ -724,6 +724,302 @@
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220108GG01297",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Peninsula Ave (San Mateo). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-09T00:08Z",
+      "updated": "2022-01-09T00:08Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.325401,
+          37.581246
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220108GG01359"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Peninsula Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-09T00:08Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-08T16:13:43.44667"
+        },
+        "event-reference": {
+          "event-identifier": "860782"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Peninsula Ave (San Mateo). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Peninsula Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Mateo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.581246",
+                    "event-location-coordinates-longitude": "-122.325401"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-08T16:08:46.03630",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-01-08T16:08:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-08T16:08:46.03630",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220108GG01359",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on CA-85 Southbound north of Homestead Rd (Cupertino). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-09T00:09Z",
+      "updated": "2022-01-09T00:10Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.059912,
+          37.341602
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220108GG01360"
+      },
+      "roads": [
+        {
+          "name": "CA-85 S",
+          "from": "Homestead Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-09T00:09Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-08T16:13:43.44667"
+        },
+        "event-reference": {
+          "event-identifier": "860783"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on CA-85 Southbound north of Homestead Rd (Cupertino). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-85 S",
+                  "link-from-road": "Homestead Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Cupertino",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.341602",
+                    "event-location-coordinates-longitude": "-122.059912"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-08T16:10:34.68630",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-01-08T16:09:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-08T16:10:34.68630",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220108GG01360",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
