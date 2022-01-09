@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.36486"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.36486"
         },
         "event-reference": {
           "event-identifier": "860173"
@@ -356,7 +356,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.36486"
         },
         "event-reference": {
           "event-identifier": "860544"
@@ -504,7 +504,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.36486"
         },
         "event-reference": {
           "event-identifier": "860854"
@@ -652,7 +652,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.38045"
         },
         "event-reference": {
           "event-identifier": "860865"
@@ -800,7 +800,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.38045"
         },
         "event-reference": {
           "event-identifier": "860877"
@@ -878,14 +878,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert on I-80 Eastbound at San Pablo Dam Rd (San Pablo). Lane affected. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Traffic Collision with Injuries on I-80 Eastbound at San Pablo Dam Rd (San Pablo). All lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Severe traffic alert"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Moderate",
+      "severity": "Severe",
       "created": "2022-01-09T14:16Z",
-      "updated": "2022-01-09T16:59Z",
+      "updated": "2022-01-09T17:39Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -922,14 +925,14 @@
           "name": "I-80 E",
           "from": "San Pablo Dam Rd",
           "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
+          "state": "CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -946,9 +949,21 @@
           "2022-01-09T16:58Z/"
         ]
       },
+      "closure_geometry": {
+        "@xmlns:gml": "http://www.opengis.net/gml",
+        "@xmlns": "http://511.org/open511-extensions",
+        "gml:MultiLineString": {
+          "@srsName": "urn:ogc:def:crs:EPSG::4326",
+          "gml:LineStringMember": {
+            "gml:LineString": {
+              "gml:posList": "-122.23783489874,38.045282953843,-122.237373000292,38.0456180003395,-122.237232999652,38.0457210002186,-122.23684199984,38.046005000261,-122.235794999901,38.046758999861,-122.235624000197,38.0468769998839,-122.23523599986,38.0471490003151,-122.235205999722,38.047168999974,-122.23509199992,38.0472520001625,-122.235060999957,38.0472739996854,-122.234907999797,38.0473770000644,-122.234245999823,38.0478339998473,-122.233859000208,38.0481030001023,-122.233830999721,38.0481219999199,-122.233600999567,38.0482839997281,-122.232961000233,38.0487399999362,-122.232683000399,38.0489249998033,-122.232493000428,38.0490490001102,-122.232476999636,38.0490590000345,-122.232279000168,38.04919499986,-122.231804999616,38.0495300001574,-122.231443999941,38.0497820002809,-122.23131500007,38.0498739998853,-122.23092000006,38.0501530002007,-122.230699000127,38.0503099998826,-122.230524000225,38.0504309999034,-122.230145999933,38.0506919999104,-122.229784000433,38.050949000111,-122.229379000377,38.0512290001118,-122.229149000223,38.0513949996772,-122.228699999786,38.0517080002117,-122.228134000072,38.0520990000003,-122.227984000284,38.0521989999672,-122.227903000093,38.0522529997652,-122.227580999878,38.0524730001811,-122.227564060347,38.0524851917934"
+            }
+          }
+        }
+      },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.38045"
         },
         "event-reference": {
           "event-identifier": "860879"
@@ -961,9 +976,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Severe traffic alert"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -972,7 +992,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert on I-80 Eastbound at San Pablo Dam Rd (San Pablo). Lane affected. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision with Injuries on I-80 Eastbound at San Pablo Dam Rd (San Pablo). All lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -990,16 +1010,19 @@
                   "link-primary-location": {
                     "event-location-coordinates-latitude": "37.952867",
                     "event-location-coordinates-longitude": "-122.327994"
+                  },
+                  "event-road-closure-links": {
+                    "link-id": "101290"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-09T08:59:27.63530",
+              "update-time": "2022-01-09T09:39:15.16120",
               "valid-period": {
-                "event-timeline-estimated-duration": "44.5"
+                "event-timeline-estimated-duration": "73"
               },
-              "start-time": "2022-01-09T08:58:40.00000",
+              "start-time": "2022-01-09T08:58:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1008,16 +1031,17 @@
             }
           }
         },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
+        "EventImpact": "Severe",
+        "RoadClosed": "true",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "5",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-01-09T08:59:27.63530",
+        "ivr-lastUpdateDttm": "2022-01-09T09:39:15.16120",
         "ivr-article": "at",
         "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220109GG00358",
         "EventSourceName": "CHP",
@@ -1033,7 +1057,7 @@
       },
       "severity": "Unknown",
       "created": "2022-01-09T14:23Z",
-      "updated": "2022-01-09T17:22Z",
+      "updated": "2022-01-09T17:38Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -1096,7 +1120,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.38045"
         },
         "event-reference": {
           "event-identifier": "860881"
@@ -1143,7 +1167,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-09T09:22:42.55200",
+              "update-time": "2022-01-09T09:38:25.89700",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1161,7 +1185,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-09T09:22:42.55200",
+        "ivr-lastUpdateDttm": "2022-01-09T09:38:25.89700",
         "ivr-article": "at",
         "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "closed",
@@ -1174,154 +1198,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-80 Eastbound east of San Pablo Ave (Crockett). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Major",
-      "created": "2022-01-09T15:01Z",
-      "updated": "2022-01-09T15:07Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.224744,
-          38.056349
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220109GG00410"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "San Pablo Ave",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-09T15:06Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
-        },
-        "event-reference": {
-          "event-identifier": "860882"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-80 Eastbound east of San Pablo Ave (Crockett). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "San Pablo Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Crockett",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.056349",
-                    "event-location-coordinates-longitude": "-122.224744"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-09T07:07:22.25580",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.2"
-              },
-              "start-time": "2022-01-09T07:06:35.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-01-09T07:07:22.25580",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220109GG00410",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "Caltrans : Roadwork on CA-35 Northbound between CA-9 (Los Gatos) and Portola Heights Rd (Palo alto). Lane closed until 10 AM. Sunday, January 9, 2022 7:01 AM thru Sunday, January 9, 2022 10:01 AM, Sunday.",
       "event_type": "CONSTRUCTION",
       "event_subtypes": {
@@ -1329,7 +1205,7 @@
       },
       "severity": "Unknown",
       "created": "2022-01-09T15:23Z",
-      "updated": "2022-01-09T17:22Z",
+      "updated": "2022-01-09T17:38Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1393,7 +1269,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.38045"
         },
         "event-reference": {
           "event-identifier": "860886"
@@ -1440,7 +1316,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-09T09:22:40.67680",
+              "update-time": "2022-01-09T09:38:24.02670",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1458,7 +1334,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-09T09:22:40.67680",
+        "ivr-lastUpdateDttm": "2022-01-09T09:38:24.02670",
         "ivr-article": "between",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -1541,7 +1417,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.38045"
         },
         "event-reference": {
           "event-identifier": "860888"
@@ -1689,7 +1565,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.38045"
         },
         "event-reference": {
           "event-identifier": "860889"
@@ -1837,7 +1713,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.38045"
         },
         "event-reference": {
           "event-identifier": "860895"
@@ -1915,21 +1791,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Southbound south of Marsh Rd (Menlo Park). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-880 Southbound south of W Tennyson Rd (Hayward). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-01-09T16:56Z",
-      "updated": "2022-01-09T17:05Z",
+      "created": "2022-01-09T17:24Z",
+      "updated": "2022-01-09T17:24Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -1942,8 +1818,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.184335,
-          37.48441
+          -122.081714,
+          37.627644
         ]
       },
       "source_type": {
@@ -1952,17 +1828,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220109GG00525"
+        "#text": "220109GG00569"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Marsh Rd",
+          "name": "I-880 S",
+          "from": "W Tennyson Rd",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1980,163 +1856,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-01-09T17:05Z/"
+          "2022-01-09T17:24Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
+          "event-message-time-stamp": "2022-01-09T09:39:37.38045"
         },
         "event-reference": {
-          "event-identifier": "860896"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Southbound south of Marsh Rd (Menlo Park). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Marsh Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Menlo Park",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.48441",
-                    "event-location-coordinates-longitude": "-122.184335"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-09T09:05:48.47560",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-01-09T09:05:01.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-01-09T09:05:48.47560",
-        "ivr-article": "south of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220109GG00525",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-85 Northbound at Almaden Expy (San Jose). 2nd lane from the left affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-01-09T17:15Z",
-      "updated": "2022-01-09T17:15Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.871117,
-          37.256063
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220109GG00560"
-      },
-      "roads": [
-        {
-          "name": "CA-85 N",
-          "from": "Almaden Expy",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-09T17:14Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-09T09:24:42.80616"
-        },
-        "event-reference": {
-          "event-identifier": "860898"
+          "event-identifier": "860899"
         },
         "event-status": "new",
         "details": {
@@ -2157,7 +1885,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-85 Northbound at Almaden Expy (San Jose). 2nd lane from the left affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-880 Southbound south of W Tennyson Rd (Hayward). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -2166,25 +1894,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-85 N",
-                  "link-from-road": "Almaden Expy",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "W Tennyson Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Hayward",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.256063",
-                    "event-location-coordinates-longitude": "-121.871117"
+                    "event-location-coordinates-latitude": "37.627644",
+                    "event-location-coordinates-longitude": "-122.081714"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-09T09:15:19.80200",
+              "update-time": "2022-01-09T09:24:53.17930",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-01-09T09:14:32.00000",
+              "start-time": "2022-01-09T09:24:06.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -2197,14 +1925,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-09T09:15:19.80200",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-09T09:24:53.17930",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220109GG00560",
+        "SourceEventID": "220109GG00569",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
