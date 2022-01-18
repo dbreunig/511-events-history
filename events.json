@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-18T07:10:24.05572"
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-18T07:10:24.05572"
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
         },
         "event-reference": {
           "event-identifier": "860173"
@@ -359,7 +359,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-18T07:10:24.05572"
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
         },
         "event-reference": {
           "event-identifier": "861215"
@@ -503,7 +503,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-18T07:10:24.05572"
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
         },
         "event-reference": {
           "event-identifier": "861856"
@@ -651,7 +651,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-18T07:10:24.05572"
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
         },
         "event-reference": {
           "event-identifier": "863119"
@@ -729,14 +729,166 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Westbound east of Carlson Blvd (Richmond). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Emergency roadwork on I-280 Southbound ramp to Guadalupe Pky (San Jose). All lanes closed. Avoid the area.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": [
+          "Severe traffic alert",
+          "Emergency roadwork"
+        ]
+      },
+      "severity": "Severe",
+      "created": "2022-01-18T15:18Z",
+      "updated": "2022-01-18T15:21Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.892947817301,
+          37.3225160599269
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "Guadalupe Pky",
+          "direction": "Southbound",
+          "state": "CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Avoid the area"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "ramp to"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-18T15:18Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
+        },
+        "event-reference": {
+          "event-identifier": "863141"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Severe traffic alert"
+                      },
+                      {
+                        "incident": "Emergency roadwork"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Severe traffic alert and Emergency roadwork on I-280 Southbound ramp to Guadalupe Pky (San Jose). All lanes closed. Avoid the area."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "Guadalupe Pky",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.3225160599269",
+                    "event-location-coordinates-longitude": "-121.892947817301"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-18T07:21:49.82700",
+              "valid-period": {
+                "event-timeline-estimated-duration": "67"
+              },
+              "start-time": "2022-01-18T07:18:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Severe",
+        "RoadClosed": "true",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "5",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-18T07:21:49.82700",
+        "ivr-article": "ramp to",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Avoid the area",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-80 Westbound east of Cutting Blvd (El Cerrito). 3rd lane from the left blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-01-18T14:48Z",
-      "updated": "2022-01-18T14:59Z",
+      "created": "2022-01-18T15:18Z",
+      "updated": "2022-01-18T15:23Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -756,8 +908,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.317505,
-          37.914584
+          -122.32287,
+          37.927978
         ]
       },
       "source_type": {
@@ -766,21 +918,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220118GG00306"
+        "#text": "220118GG00342"
       },
       "roads": [
         {
           "name": "I-80 W",
-          "from": "Carlson Blvd",
+          "from": "Cutting Blvd",
           "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "3rd lane from the left"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -794,15 +946,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-01-18T14:59Z/"
+          "2022-01-18T15:18Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-18T07:10:24.05572"
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
         },
         "event-reference": {
-          "event-identifier": "863130"
+          "event-identifier": "863142"
         },
         "event-status": "new",
         "details": {
@@ -823,7 +975,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Westbound east of Carlson Blvd (Richmond). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-80 Westbound east of Cutting Blvd (El Cerrito). 3rd lane from the left blocked. Expect delays."
                     }
                   }
                 }
@@ -834,23 +986,23 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA013",
                   "link-road-designator": "I-80 W",
-                  "link-from-road": "Carlson Blvd",
+                  "link-from-road": "Cutting Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Richmond",
+                  "link-from-city": "El Cerrito",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.914584",
-                    "event-location-coordinates-longitude": "-122.317505"
+                    "event-location-coordinates-latitude": "37.927978",
+                    "event-location-coordinates-longitude": "-122.32287"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-18T06:59:53.70600",
+              "update-time": "2022-01-18T07:23:20.15860",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-01-18T06:59:49.00000",
+              "start-time": "2022-01-18T07:18:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -864,27 +1016,27 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-01-18T06:59:53.70600",
+        "ivr-lastUpdateDttm": "2022-01-18T07:23:20.15860",
         "ivr-article": "east of",
         "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "3rd lane from the left",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220118GG00306",
+        "SourceEventID": "220118GG00342",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-237 Westbound west of Zanker Rd (San Jose). Left lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on CA-17 Northbound south of Alma Bridge Rd (Los Gatos). Left lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-01-18T14:57Z",
-      "updated": "2022-01-18T15:08Z",
+      "created": "2022-01-18T15:20Z",
+      "updated": "2022-01-18T15:22Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -904,8 +1056,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.940654,
-          37.420148
+          -121.993522,
+          37.195615
         ]
       },
       "source_type": {
@@ -914,13 +1066,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220118GG00317"
+        "#text": "220118GG00345"
       },
       "roads": [
         {
-          "name": "CA-237 W",
-          "from": "Zanker Rd",
-          "direction": "Westbound",
+          "name": "CA-17 N",
+          "from": "Alma Bridge Rd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -936,21 +1088,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-01-18T15:08Z/"
+          "2022-01-18T15:19Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-18T07:10:24.05572"
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
         },
         "event-reference": {
-          "event-identifier": "863134"
+          "event-identifier": "863144"
         },
         "event-status": "new",
         "details": {
@@ -961,7 +1113,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -971,7 +1123,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-237 Westbound west of Zanker Rd (San Jose). Left lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on CA-17 Northbound south of Alma Bridge Rd (Los Gatos). Left lane blocked. Expect delays."
                     }
                   }
                 }
@@ -981,24 +1133,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-237 W",
-                  "link-from-road": "Zanker Rd",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "Alma Bridge Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Los Gatos",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.420148",
-                    "event-location-coordinates-longitude": "-121.940654"
+                    "event-location-coordinates-latitude": "37.195615",
+                    "event-location-coordinates-longitude": "-121.993522"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-18T07:08:21.25280",
+              "update-time": "2022-01-18T07:22:43.36790",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.199999999999996"
+                "event-timeline-estimated-duration": "34"
               },
-              "start-time": "2022-01-18T07:08:17.00000",
+              "start-time": "2022-01-18T07:19:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1011,183 +1163,36 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-01-18T07:08:21.25280",
-        "ivr-article": "west of",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-18T07:22:43.36790",
+        "ivr-article": "south of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Left lane",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220118GG00317",
+        "SourceEventID": "220118GG00345",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-80 Eastbound west of Tennessee St (Vallejo). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Moderate",
-      "created": "2022-01-18T15:06Z",
-      "updated": "2022-01-18T15:07Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.229385,
-          38.10957
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220118GG00326"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Tennessee St",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-18T15:06Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-18T07:10:24.05572"
-        },
-        "event-reference": {
-          "event-identifier": "863138"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-80 Eastbound west of Tennessee St (Vallejo). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Tennessee St",
-                  "link-to-road": null,
-                  "link-from-city": "Vallejo",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.10957",
-                    "event-location-coordinates-longitude": "-122.229385"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-18T07:07:20.66220",
-              "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
-              },
-              "start-time": "2022-01-18T07:06:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-01-18T07:07:20.66220",
-        "ivr-article": "west of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220118GG00326",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-92 Eastbound at I-880 S (Hayward). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on US-101 Southbound north of Masten Ave (Gilroy). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-01-18T15:08Z",
-      "updated": "2022-01-18T15:08Z",
+      "created": "2022-01-18T15:20Z",
+      "updated": "2022-01-18T15:26Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -1200,8 +1205,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.092937,
-          37.643347
+          -121.578056,
+          37.044167
         ]
       },
       "source_type": {
@@ -1210,17 +1215,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220118GG00332"
+        "#text": "220118MY00033"
       },
       "roads": [
         {
-          "name": "CA-92 E",
-          "from": "I-880 S",
-          "direction": "Eastbound",
+          "name": "US-101 S",
+          "from": "Masten Ave",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1232,21 +1237,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-01-18T15:08Z/"
+          "2022-01-18T15:19Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-18T07:10:24.05572"
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
         },
         "event-reference": {
-          "event-identifier": "863139"
+          "event-identifier": "863145"
         },
         "event-status": "new",
         "details": {
@@ -1267,7 +1272,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-92 Eastbound at I-880 S (Hayward). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of Masten Ave (Gilroy). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -1276,25 +1281,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "CA-92 E",
-                  "link-from-road": "I-880 S",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Masten Ave",
                   "link-to-road": null,
-                  "link-from-city": "Hayward",
+                  "link-from-city": "Gilroy",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.643347",
-                    "event-location-coordinates-longitude": "-122.092937"
+                    "event-location-coordinates-latitude": "37.044167",
+                    "event-location-coordinates-longitude": "-121.578056"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-18T07:08:20.98090",
+              "update-time": "2022-01-18T07:26:03.99440",
               "valid-period": {
                 "event-timeline-estimated-duration": "30.5"
               },
-              "start-time": "2022-01-18T07:08:17.00000",
+              "start-time": "2022-01-18T07:19:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1307,15 +1312,461 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-01-18T07:08:20.98090",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-18T07:26:03.99440",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220118MY00033",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-37 Westbound east of Skaggs Island Rd (Vallejo). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-18T15:24Z",
+      "updated": "2022-01-18T15:24Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.380684,
+          38.1488
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220118GG00363"
+      },
+      "roads": [
+        {
+          "name": "CA-37 W",
+          "from": "Skaggs Island Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-18T15:24Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
+        },
+        "event-reference": {
+          "event-identifier": "863147"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on CA-37 Westbound east of Skaggs Island Rd (Vallejo). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "CA-37 W",
+                  "link-from-road": "Skaggs Island Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Vallejo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.1488",
+                    "event-location-coordinates-longitude": "-122.380684"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-18T07:24:15.43020",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.2"
+              },
+              "start-time": "2022-01-18T07:24:11.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-01-18T07:24:15.43020",
+        "ivr-article": "east of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220118GG00332",
+        "SourceEventID": "220118GG00363",
         "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on CA-1 Northbound between Sloat Blvd (San Francisco) and Fulton St (San Francisco). Lane closed until 5 PM. Tuesday, January 18, 2022 7:01 AM thru Tuesday, January 18, 2022 4:59 PM, Tuesday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-01-18T15:24Z",
+      "updated": "2022-01-18T15:27Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.474847,
+          37.731093
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "P1AB-0002-2022-01-18-07:01:00"
+      },
+      "roads": [
+        {
+          "name": "CA-1 N",
+          "from": "Sloat Blvd",
+          "to": "Fulton St",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 5 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "between"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-18T15:01Z/2022-01-19T00:59Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
+        },
+        "event-reference": {
+          "event-identifier": "863149"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-1 Northbound between Sloat Blvd (San Francisco) and Fulton St (San Francisco). Lane closed until 5 PM. Tuesday, January 18, 2022 7:01 AM thru Tuesday, January 18, 2022 4:59 PM, Tuesday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "CA-1 N",
+                  "link-from-road": "Sloat Blvd",
+                  "link-to-road": "Fulton St",
+                  "link-from-city": "San Francisco",
+                  "link-to-city": "San Francisco",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.731093",
+                    "event-location-coordinates-longitude": "-122.474847"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-18T07:27:58.67410",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-01-18T07:01:00.00000",
+              "cleared-time": "2022-01-18T16:59:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-18T07:27:58.67410",
+        "ivr-article": "between",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "until 5 PM",
+        "SourceEventID": "P1AB-0002-2022-01-18-07:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on CA-1 Southbound between Fulton St (San Francisco) and Sloat Blvd (San Francisco). Lane closed until 5 PM. Tuesday, January 18, 2022 7:01 AM thru Tuesday, January 18, 2022 4:59 PM, Tuesday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-01-18T15:24Z",
+      "updated": "2022-01-18T15:27Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.477329,
+          37.765441
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "P1AB-0007-2022-01-18-07:01:00"
+      },
+      "roads": [
+        {
+          "name": "CA-1 S",
+          "from": "Fulton St",
+          "to": "Sloat Blvd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 5 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "between"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-18T15:01Z/2022-01-19T00:59Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-18T07:28:55.79685"
+        },
+        "event-reference": {
+          "event-identifier": "863150"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-1 Southbound between Fulton St (San Francisco) and Sloat Blvd (San Francisco). Lane closed until 5 PM. Tuesday, January 18, 2022 7:01 AM thru Tuesday, January 18, 2022 4:59 PM, Tuesday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "CA-1 S",
+                  "link-from-road": "Fulton St",
+                  "link-to-road": "Sloat Blvd",
+                  "link-from-city": "San Francisco",
+                  "link-to-city": "San Francisco",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.765441",
+                    "event-location-coordinates-longitude": "-122.477329"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-18T07:27:58.99190",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-01-18T07:01:00.00000",
+              "cleared-time": "2022-01-18T16:59:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-18T07:27:58.99190",
+        "ivr-article": "between",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "until 5 PM",
+        "SourceEventID": "P1AB-0007-2022-01-18-07:01:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     }
