@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-23T17:54:25.09227"
+          "event-message-time-stamp": "2022-01-23T18:17:36.26175"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-23T17:54:25.09227"
+          "event-message-time-stamp": "2022-01-23T18:17:36.26175"
         },
         "event-reference": {
           "event-identifier": "860173"
@@ -346,7 +346,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-23T17:54:25.09227"
+          "event-message-time-stamp": "2022-01-23T18:17:36.26175"
         },
         "event-reference": {
           "event-identifier": "864245"
@@ -422,14 +422,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-4 Westbound ramp to CA-242 N (Concord). Lane affected. Expect delays.",
+      "headline": "CHP : Residual delays on CA-4 Westbound ramp to CA-242 N (Concord). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Residual delays"
       },
-      "severity": "Moderate",
+      "severity": "Minor",
       "created": "2022-01-24T00:48Z",
-      "updated": "2022-01-24T00:50Z",
+      "updated": "2022-01-24T01:55Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -469,7 +469,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -492,7 +492,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-23T17:54:25.09227"
+          "event-message-time-stamp": "2022-01-23T18:17:36.26175"
         },
         "event-reference": {
           "event-identifier": "864980"
@@ -506,7 +506,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -516,7 +516,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-4 Westbound ramp to CA-242 N (Concord). Lane affected. Expect delays."
+                      "event-description": "CHP : Residual delays on CA-4 Westbound ramp to CA-242 N (Concord). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -539,11 +539,455 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-23T16:50:51.77350",
+              "update-time": "2022-01-23T17:55:53.16920",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.5"
+              },
+              "start-time": "2022-01-23T16:49:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-01-23T17:55:53.16920",
+        "ivr-article": "ramp to",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220123GG01523",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-128 Eastbound at Berryessa Knoxville Rd (Napa). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-24T01:53Z",
+      "updated": "2022-01-24T02:04Z",
+      "areas": {
+        "area": {
+          "name": "Napa",
+          "id": "5376101",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5376101/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.251232,
+          38.496587
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220123GG01684"
+      },
+      "roads": [
+        {
+          "name": "CA-128 E",
+          "from": "Berryessa Knoxville Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-24T02:04Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-23T18:17:36.26175"
+        },
+        "event-reference": {
+          "event-identifier": "864999"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-128 Eastbound at Berryessa Knoxville Rd (Napa). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-128 E",
+                  "link-from-road": "Berryessa Knoxville Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Napa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.496587",
+                    "event-location-coordinates-longitude": "-122.251232"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-23T18:04:26.60430",
               "valid-period": {
                 "event-timeline-estimated-duration": "34"
               },
-              "start-time": "2022-01-23T16:49:00.00000",
+              "start-time": "2022-01-23T18:04:25.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-01-23T18:04:26.60430",
+        "ivr-article": "at",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220123GG01684",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound at Treasure Island Rd (San Francisco). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Major",
+      "created": "2022-01-24T02:01Z",
+      "updated": "2022-01-24T02:06Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.366974,
+          37.808253
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220123GG01711"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Treasure Island Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-24T02:06Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-23T18:17:36.26175"
+        },
+        "event-reference": {
+          "event-identifier": "865000"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound at Treasure Island Rd (San Francisco). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Treasure Island Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.808253",
+                    "event-location-coordinates-longitude": "-122.366974"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-23T18:06:31.93010",
+              "valid-period": {
+                "event-timeline-estimated-duration": "47.5"
+              },
+              "start-time": "2022-01-23T18:06:31.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-01-23T18:06:31.93010",
+        "ivr-article": "at",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220123GG01711",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-84 Westbound west of Vallecitos Rd (Livermore). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-24T02:01Z",
+      "updated": "2022-01-24T02:09Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.801884,
+          37.632764
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220123GG01710"
+      },
+      "roads": [
+        {
+          "name": "CA-84 W",
+          "from": "Vallecitos Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-24T02:09Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-23T18:17:36.26175"
+        },
+        "event-reference": {
+          "event-identifier": "865001"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-84 Westbound west of Vallecitos Rd (Livermore). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "CA-84 W",
+                  "link-from-road": "Vallecitos Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Livermore",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.632764",
+                    "event-location-coordinates-longitude": "-121.801884"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-23T18:09:40.24560",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2022-01-23T18:09:39.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -557,13 +1001,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-01-23T16:50:51.77350",
-        "ivr-article": "ramp to",
-        "ivr-county": "Contra Costa",
+        "ivr-lastUpdateDttm": "2022-01-23T18:09:40.24560",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220123GG01523",
+        "SourceEventID": "220123GG01710",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
