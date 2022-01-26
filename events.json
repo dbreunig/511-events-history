@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-25T18:54:04.18097"
+          "event-message-time-stamp": "2022-01-25T19:05:05.04824"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-25T18:54:04.18097"
+          "event-message-time-stamp": "2022-01-25T19:05:05.04824"
         },
         "event-reference": {
           "event-identifier": "860173"
@@ -346,7 +346,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-25T18:54:04.18097"
+          "event-message-time-stamp": "2022-01-25T19:05:05.04824"
         },
         "event-reference": {
           "event-identifier": "864245"
@@ -492,7 +492,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-25T18:54:04.18097"
+          "event-message-time-stamp": "2022-01-25T19:05:05.04824"
         },
         "event-reference": {
           "event-identifier": "865635"
@@ -640,7 +640,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-25T18:54:04.18097"
+          "event-message-time-stamp": "2022-01-25T19:05:05.04824"
         },
         "event-reference": {
           "event-identifier": "865636"
@@ -788,7 +788,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-25T18:54:04.18097"
+          "event-message-time-stamp": "2022-01-25T19:05:05.04824"
         },
         "event-reference": {
           "event-identifier": "865639"
@@ -860,6 +860,154 @@
         "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220125GG02001",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Atherton Ave (Novato). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-26T03:04Z",
+      "updated": "2022-01-26T03:04Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.564299,
+          38.113681
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220125GG02169"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Atherton Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-26T03:04Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-25T19:05:05.04824"
+        },
+        "event-reference": {
+          "event-identifier": "865659"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Atherton Ave (Novato). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Atherton Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Novato",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.113681",
+                    "event-location-coordinates-longitude": "-122.564299"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-25T19:04:43.66660",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2022-01-25T19:04:39.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-25T19:04:43.66660",
+        "ivr-article": "south of",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220125GG02169",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
