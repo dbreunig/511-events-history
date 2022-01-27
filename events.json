@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-26T18:50:42.44570"
+          "event-message-time-stamp": "2022-01-26T19:05:16.29774"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-26T18:50:42.44570"
+          "event-message-time-stamp": "2022-01-26T19:05:16.29774"
         },
         "event-reference": {
           "event-identifier": "860173"
@@ -289,14 +289,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on US-101 Southbound at I-880 N (San Jose). Right shoulder blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on US-101 Southbound at I-880 N (San Jose). Lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Moderate",
+      "severity": "Unknown",
       "created": "2022-01-27T01:56Z",
-      "updated": "2022-01-27T02:28Z",
+      "updated": "2022-01-27T03:01Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -336,11 +336,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -354,12 +354,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-01-27T02:27Z/"
+          "2022-01-27T03:01Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-26T18:50:42.44570"
+          "event-message-time-stamp": "2022-01-26T19:05:16.29774"
         },
         "event-reference": {
           "event-identifier": "866022"
@@ -383,7 +383,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Southbound at I-880 N (San Jose). Right shoulder blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Southbound at I-880 N (San Jose). Lanes open. Expect delays."
                     }
                   }
                 }
@@ -406,11 +406,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-26T18:28:03.49950",
+              "update-time": "2022-01-26T19:01:36.20900",
               "valid-period": {
-                "event-timeline-estimated-duration": "29.5"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2022-01-26T18:27:57.00000",
+              "start-time": "2022-01-26T19:01:29.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -419,161 +419,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-01-26T18:28:03.49950",
+        "ivr-lastUpdateDttm": "2022-01-26T19:01:36.20900",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220126GG01840",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Eastbound exiting at Oakland Ave (Oakland). Left lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-01-27T02:08Z",
-      "updated": "2022-01-27T02:08Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.253853,
-          37.818913
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "roads": [
-        {
-          "name": "I-580 E",
-          "from": "Oakland Ave",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "exiting at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-27T02:08Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-26T18:50:42.44570"
-        },
-        "event-reference": {
-          "event-identifier": "866031"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "1",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Eastbound exiting at Oakland Ave (Oakland). Left lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "Oakland Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Oakland",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.818913",
-                    "event-location-coordinates-longitude": "-122.253853"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-26T18:08:12.36230",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25"
-              },
-              "start-time": "2022-01-26T18:08:12.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-01-26T18:08:12.36230",
-        "ivr-article": "exiting at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
-        "ivr-genOtherText": "Expect delays",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -650,7 +507,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-26T18:50:42.44570"
+          "event-message-time-stamp": "2022-01-26T19:05:16.29774"
         },
         "event-reference": {
           "event-identifier": "866038"
@@ -722,6 +579,154 @@
         "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220126GG01916",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-880 Northbound south of Whipple Rd (Hayward). Left lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-27T02:56Z",
+      "updated": "2022-01-27T03:03Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.064142,
+          37.603428
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220126GG01951"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "Whipple Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-27T03:00Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-26T19:05:16.29774"
+        },
+        "event-reference": {
+          "event-identifier": "866042"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of Whipple Rd (Hayward). Left lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Whipple Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Hayward",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.603428",
+                    "event-location-coordinates-longitude": "-122.064142"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-26T19:03:14.25460",
+              "valid-period": {
+                "event-timeline-estimated-duration": "31"
+              },
+              "start-time": "2022-01-26T19:00:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-26T19:03:14.25460",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220126GG01951",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
