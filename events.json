@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
+          "event-message-time-stamp": "2022-01-28T18:11:32.20077"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
+          "event-message-time-stamp": "2022-01-28T18:11:32.20077"
         },
         "event-reference": {
           "event-identifier": "860173"
@@ -289,14 +289,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound south of Bowers Ave (Santa Clara). Center lanes affected. Expect delays.",
+      "headline": "CHP : Traffic Collision and Overturned vehicle on I-280 Southbound north of Page Mill Rd (Los Altos Hills). Right shoulder blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": [
+          "Traffic Collision",
+          "Overturned vehicle"
+        ]
       },
       "severity": "Moderate",
-      "created": "2022-01-29T01:26Z",
-      "updated": "2022-01-29T01:31Z",
+      "created": "2022-01-29T01:50Z",
+      "updated": "2022-01-29T01:51Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -316,8 +319,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.976136,
-          37.385401
+          -122.16971,
+          37.391961
         ]
       },
       "source_type": {
@@ -326,17 +329,170 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220128GG01861"
+        "#text": "220128GG01928"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Bowers Ave",
+          "name": "I-280 S",
+          "from": "Page Mill Rd",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center lanes"
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-29T01:50Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-28T18:11:32.20077"
+        },
+        "event-reference": {
+          "event-identifier": "866766"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision"
+                      },
+                      {
+                        "incident": "Overturned vehicle"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision and Overturned vehicle on I-280 Southbound north of Page Mill Rd (Los Altos Hills). Right shoulder blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "Page Mill Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Los Altos Hills",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.391961",
+                    "event-location-coordinates-longitude": "-122.16971"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-28T17:51:27.77540",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2022-01-28T17:50:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-28T17:51:27.77540",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220128GG01928",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on US-101 Southbound at E Washington St (Petaluma). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-29T01:52Z",
+      "updated": "2022-01-29T01:55Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.629727,
+          38.247785
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220128GG01933"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "E Washington St",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -348,21 +504,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-01-29T01:26Z/"
+          "2022-01-29T01:55Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
+          "event-message-time-stamp": "2022-01-28T18:11:32.20077"
         },
         "event-reference": {
-          "event-identifier": "866751"
+          "event-identifier": "866767"
         },
         "event-status": "new",
         "details": {
@@ -373,7 +529,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -383,7 +539,163 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound south of Bowers Ave (Santa Clara). Center lanes affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on US-101 Southbound at E Washington St (Petaluma). Right lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "E Washington St",
+                  "link-to-road": null,
+                  "link-from-city": "Petaluma",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.247785",
+                    "event-location-coordinates-longitude": "-122.629727"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-28T17:55:43.67140",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.2"
+              },
+              "start-time": "2022-01-28T17:55:33.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-28T17:55:43.67140",
+        "ivr-article": "at",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220128GG01933",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision and Debris on US-101 Southbound at San Antonio Ave (Mountain View). Right lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": [
+          "Debris",
+          "Traffic Collision"
+        ]
+      },
+      "severity": "Moderate",
+      "created": "2022-01-29T01:57Z",
+      "updated": "2022-01-29T02:07Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.101486,
+          37.428185
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220128GG01949"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "San Antonio Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-29T01:57Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-28T18:11:32.20077"
+        },
+        "event-reference": {
+          "event-identifier": "866771"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Debris"
+                      },
+                      {
+                        "incident": "Traffic Collision"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision and Debris on US-101 Southbound at San Antonio Ave (Mountain View). Right lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -394,23 +706,23 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
                   "link-road-designator": "US-101 S",
-                  "link-from-road": "Bowers Ave",
+                  "link-from-road": "San Antonio Ave",
                   "link-to-road": null,
-                  "link-from-city": "Santa Clara",
+                  "link-from-city": "Mountain View",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.385401",
-                    "event-location-coordinates-longitude": "-121.976136"
+                    "event-location-coordinates-latitude": "37.428185",
+                    "event-location-coordinates-longitude": "-122.101486"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-28T17:31:26.29330",
+              "update-time": "2022-01-28T18:07:35.26830",
               "valid-period": {
-                "event-timeline-estimated-duration": "32.5"
+                "event-timeline-estimated-duration": "33.1"
               },
-              "start-time": "2022-01-28T17:26:00.00000",
+              "start-time": "2022-01-28T17:57:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -424,1063 +736,27 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-01-28T17:31:26.29330",
-        "ivr-article": "south of",
+        "ivr-lastUpdateDttm": "2022-01-28T18:07:35.26830",
+        "ivr-article": "at",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center lanes",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220128GG01861",
+        "SourceEventID": "220128GG01949",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-87 Northbound south of Curtner Ave (San Jose). Center lanes affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on US-101 Southbound at E Poplar Ave (San Mateo). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
-      "severity": "Major",
-      "created": "2022-01-29T01:28Z",
-      "updated": "2022-01-29T01:34Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.871134,
-          37.29049
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220128GG01869"
-      },
-      "roads": [
-        {
-          "name": "CA-87 N",
-          "from": "Curtner Ave",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-29T01:28Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
-        },
-        "event-reference": {
-          "event-identifier": "866754"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-87 Northbound south of Curtner Ave (San Jose). Center lanes affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-87 N",
-                  "link-from-road": "Curtner Ave",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.29049",
-                    "event-location-coordinates-longitude": "-121.871134"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-28T17:34:04.86700",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
-              },
-              "start-time": "2022-01-28T17:28:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-28T17:34:04.86700",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220128GG01869",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-29 Northbound at CA-12 (Northern) (Napa). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
       "severity": "Moderate",
-      "created": "2022-01-29T01:34Z",
-      "updated": "2022-01-29T01:34Z",
-      "areas": {
-        "area": {
-          "name": "Napa",
-          "id": "5376101",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5376101/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.302524,
-          38.257584
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220128GG01880"
-      },
-      "roads": [
-        {
-          "name": "CA-29 N",
-          "from": "CA-12 (Northern)",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-29T01:34Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
-        },
-        "event-reference": {
-          "event-identifier": "866755"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-29 Northbound at CA-12 (Northern) (Napa). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA055",
-                  "link-road-designator": "CA-29 N",
-                  "link-from-road": "CA-12 (Northern)",
-                  "link-to-road": null,
-                  "link-from-city": "Napa",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.257584",
-                    "event-location-coordinates-longitude": "-122.302524"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-28T17:34:46.79630",
-              "valid-period": {
-                "event-timeline-estimated-duration": "34"
-              },
-              "start-time": "2022-01-28T17:34:31.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-28T17:34:46.79630",
-        "ivr-article": "at",
-        "ivr-county": "Napa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220128GG01880",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-680 Southbound north of Alcosta Blvd (San Ramon). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-01-29T01:38Z",
-      "updated": "2022-01-29T01:40Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.938864,
-          37.721573
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220128GG01891"
-      },
-      "roads": [
-        {
-          "name": "I-680 S",
-          "from": "Alcosta Blvd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-29T01:38Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
-        },
-        "event-reference": {
-          "event-identifier": "866757"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-680 Southbound north of Alcosta Blvd (San Ramon). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 S",
-                  "link-from-road": "Alcosta Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "San Ramon",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.721573",
-                    "event-location-coordinates-longitude": "-121.938864"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-28T17:40:37.88280",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25"
-              },
-              "start-time": "2022-01-28T17:38:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-01-28T17:40:37.88280",
-        "ivr-article": "north of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220128GG01891",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-680 Northbound at Vargas Rd (Fremont). 2nd lane from the left blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-01-29T01:41Z",
-      "updated": "2022-01-29T01:42Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.915955,
-          37.554863
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220128GG01899"
-      },
-      "roads": [
-        {
-          "name": "I-680 N",
-          "from": "Vargas Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-29T01:40Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
-        },
-        "event-reference": {
-          "event-identifier": "866759"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-680 Northbound at Vargas Rd (Fremont). 2nd lane from the left blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Vargas Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Fremont",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.554863",
-                    "event-location-coordinates-longitude": "-121.915955"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-28T17:42:15.35240",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-01-28T17:40:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-28T17:42:15.35240",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "2nd lane from the left",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220128GG01899",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-24 Westbound entering at Claremont Ave (Oakland). On Ramp affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Major",
-      "created": "2022-01-29T01:42Z",
-      "updated": "2022-01-29T01:44Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.260604,
-          37.841745
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220128GG01903"
-      },
-      "roads": [
-        {
-          "name": "CA-24 W",
-          "from": "Claremont Ave",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "entering at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-29T01:41Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
-        },
-        "event-reference": {
-          "event-identifier": "866760"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-24 Westbound entering at Claremont Ave (Oakland). On Ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "CA-24 W",
-                  "link-from-road": "Claremont Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Oakland",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.841745",
-                    "event-location-coordinates-longitude": "-122.260604"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-28T17:44:44.75510",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
-              },
-              "start-time": "2022-01-28T17:41:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-01-28T17:44:44.75510",
-        "ivr-article": "entering at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "On Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220128GG01903",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-680 Northbound at Andrade Rd (Unincorporated). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Moderate",
-      "created": "2022-01-29T01:46Z",
-      "updated": "2022-01-29T01:48Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.88865,
-          37.572148
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220128GG01921"
-      },
-      "roads": [
-        {
-          "name": "I-680 N",
-          "from": "Andrade Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-29T01:46Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
-        },
-        "event-reference": {
-          "event-identifier": "866762"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-680 Northbound at Andrade Rd (Unincorporated). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Andrade Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Unincorporated",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.572148",
-                    "event-location-coordinates-longitude": "-121.88865"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-28T17:48:36.26270",
-              "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
-              },
-              "start-time": "2022-01-28T17:46:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-28T17:48:36.26270",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220128GG01921",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-680 Northbound north of N Main St (Walnut Creek). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Moderate",
-      "created": "2022-01-29T01:46Z",
-      "updated": "2022-01-29T01:46Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.06692,
-          37.912775
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220128GG01920"
-      },
-      "roads": [
-        {
-          "name": "I-680 N",
-          "from": "N Main St",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-01-29T01:46Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
-        },
-        "event-reference": {
-          "event-identifier": "866763"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-680 Northbound north of N Main St (Walnut Creek). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "N Main St",
-                  "link-to-road": null,
-                  "link-from-city": "Walnut Creek",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.912775",
-                    "event-location-coordinates-longitude": "-122.06692"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-01-28T17:46:43.91720",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25.5"
-              },
-              "start-time": "2022-01-28T17:46:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-01-28T17:46:43.91720",
-        "ivr-article": "north of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220128GG01920",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-280 Southbound north of Sand Hill Rd (Menlo Park). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Minor",
-      "created": "2022-01-29T01:48Z",
-      "updated": "2022-01-29T01:48Z",
+      "created": "2022-01-29T02:02Z",
+      "updated": "2022-01-29T02:10Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -1500,8 +776,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.226329,
-          37.42237
+          -122.323482,
+          37.579492
         ]
       },
       "source_type": {
@@ -1510,17 +786,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220128GG01924"
+        "#text": "220128GG01956"
       },
       "roads": [
         {
-          "name": "I-280 S",
-          "from": "Sand Hill Rd",
+          "name": "US-101 S",
+          "from": "E Poplar Ave",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1532,21 +808,169 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-01-29T01:48Z/"
+          "2022-01-29T02:10Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-01-28T17:48:44.62464"
+          "event-message-time-stamp": "2022-01-28T18:11:32.20077"
         },
         "event-reference": {
-          "event-identifier": "866764"
+          "event-identifier": "866773"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Southbound at E Poplar Ave (San Mateo). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "E Poplar Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Mateo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.579492",
+                    "event-location-coordinates-longitude": "-122.323482"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-28T18:10:30.52530",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-01-28T18:10:20.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-28T18:10:30.52530",
+        "ivr-article": "at",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220128GG01956",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Northbound south of Yolanda Ave (Santa Rosa). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-29T02:06Z",
+      "updated": "2022-01-29T02:07Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.715905,
+          38.415911
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220128GG01960"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Yolanda Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-29T02:06Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-28T18:11:32.20077"
+        },
+        "event-reference": {
+          "event-identifier": "866775"
         },
         "event-status": "new",
         "details": {
@@ -1567,7 +991,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-280 Southbound north of Sand Hill Rd (Menlo Park). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on US-101 Northbound south of Yolanda Ave (Santa Rosa). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1576,25 +1000,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "Sand Hill Rd",
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Yolanda Ave",
                   "link-to-road": null,
-                  "link-from-city": "Menlo Park",
+                  "link-from-city": "Santa Rosa",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.42237",
-                    "event-location-coordinates-longitude": "-122.226329"
+                    "event-location-coordinates-latitude": "38.415911",
+                    "event-location-coordinates-longitude": "-122.715905"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-01-28T17:48:32.85060",
+              "update-time": "2022-01-28T18:07:08.64960",
               "valid-period": {
-                "event-timeline-estimated-duration": "19"
+                "event-timeline-estimated-duration": "29"
               },
-              "start-time": "2022-01-28T17:48:12.00000",
+              "start-time": "2022-01-28T18:06:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1603,18 +1027,314 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-01-28T17:48:32.85060",
-        "ivr-article": "north of",
-        "ivr-county": "San Mateo",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-01-28T18:07:08.64960",
+        "ivr-article": "south of",
+        "ivr-county": "Sonoma",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220128GG01924",
+        "SourceEventID": "220128GG01960",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on US-101 Southbound north of I-880 N (San Jose). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-29T02:07Z",
+      "updated": "2022-01-29T02:08Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.89722,
+          37.363445
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220128GG01964"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "I-880 N",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-29T02:07Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-28T18:11:32.20077"
+        },
+        "event-reference": {
+          "event-identifier": "866777"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on US-101 Southbound north of I-880 N (San Jose). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "I-880 N",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.363445",
+                    "event-location-coordinates-longitude": "-121.89722"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-28T18:08:12.57070",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-01-28T18:07:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-01-28T18:08:12.57070",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220128GG01964",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on CA-237 Eastbound west of N 1ST St (San Jose). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Moderate",
+      "created": "2022-01-29T02:10Z",
+      "updated": "2022-01-29T02:11Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.961129,
+          37.419004
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220128GG01969"
+      },
+      "roads": [
+        {
+          "name": "CA-237 E",
+          "from": "N 1ST St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-01-29T02:10Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-01-28T18:11:32.20077"
+        },
+        "event-reference": {
+          "event-identifier": "866779"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on CA-237 Eastbound west of N 1ST St (San Jose). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-237 E",
+                  "link-from-road": "N 1ST St",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.419004",
+                    "event-location-coordinates-longitude": "-121.961129"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-01-28T18:11:16.40330",
+              "valid-period": {
+                "event-timeline-estimated-duration": "30.5"
+              },
+              "start-time": "2022-01-28T18:10:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-01-28T18:11:16.40330",
+        "ivr-article": "west of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220128GG01969",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
