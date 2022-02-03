@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-02T18:25:28.11456"
+          "event-message-time-stamp": "2022-02-02T18:40:00.75665"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-02T18:25:28.11456"
+          "event-message-time-stamp": "2022-02-02T18:40:00.75665"
         },
         "event-reference": {
           "event-identifier": "867497"
@@ -365,7 +365,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-02T18:25:28.11456"
+          "event-message-time-stamp": "2022-02-02T18:40:00.75665"
         },
         "event-reference": {
           "event-identifier": "868128"
@@ -515,7 +515,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-02T18:25:28.11456"
+          "event-message-time-stamp": "2022-02-02T18:40:00.75665"
         },
         "event-reference": {
           "event-identifier": "868138"
@@ -664,7 +664,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-02T18:25:28.11456"
+          "event-message-time-stamp": "2022-02-02T18:40:00.75665"
         },
         "event-reference": {
           "event-identifier": "868294"
@@ -742,14 +742,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fire on I-580 Westbound at High St (Oakland). Lane affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-880 Northbound exiting at Whipple Rd (Hayward). 3rd lane from the left blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Fire"
+        "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2022-02-03T02:09Z",
-      "updated": "2022-02-03T02:09Z",
+      "created": "2022-02-03T02:28Z",
+      "updated": "2022-02-03T02:29Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -769,8 +769,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.198669,
-          37.788279
+          -122.066467,
+          37.606876
         ]
       },
       "source_type": {
@@ -779,13 +779,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220202GG01996"
+        "#text": "220202GG02025"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "High St",
-          "direction": "Westbound",
+          "name": "I-880 N",
+          "from": "Whipple Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "3rd lane from the left"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "exiting at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-03T02:28Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-02T18:40:00.75665"
+        },
+        "event-reference": {
+          "event-identifier": "868306"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-880 Northbound exiting at Whipple Rd (Hayward). 3rd lane from the left blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Whipple Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Hayward",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.606876",
+                    "event-location-coordinates-longitude": "-122.066467"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-02T18:29:37.95320",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.2"
+              },
+              "start-time": "2022-02-02T18:28:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-02-02T18:29:37.95320",
+        "ivr-article": "exiting at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "3rd lane from the left",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220202GG02025",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-580 Eastbound west of Fruitvale Ave (Oakland). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-03T02:36Z",
+      "updated": "2022-02-03T02:37Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.220888,
+          37.799104
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220202GG02067"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Fruitvale Ave",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -801,21 +949,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-03T02:09Z/"
+          "2022-02-03T02:37Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-02T18:25:28.11456"
+          "event-message-time-stamp": "2022-02-02T18:40:00.75665"
         },
         "event-reference": {
-          "event-identifier": "868297"
+          "event-identifier": "868309"
         },
         "event-status": "new",
         "details": {
@@ -826,7 +974,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Fire"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -836,7 +984,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fire on I-580 Westbound at High St (Oakland). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-580 Eastbound west of Fruitvale Ave (Oakland). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -846,24 +994,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "High St",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Fruitvale Ave",
                   "link-to-road": null,
                   "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.788279",
-                    "event-location-coordinates-longitude": "-122.198669"
+                    "event-location-coordinates-latitude": "37.799104",
+                    "event-location-coordinates-longitude": "-122.220888"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-02T18:09:34.56990",
+              "update-time": "2022-02-02T18:37:38.61830",
               "valid-period": {
-                "event-timeline-estimated-duration": "29.5"
+                "event-timeline-estimated-duration": "27.7"
               },
-              "start-time": "2022-02-02T18:09:11.00000",
+              "start-time": "2022-02-02T18:37:32.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -876,310 +1024,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-02-02T18:09:34.56990",
-        "ivr-article": "at",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-02-02T18:37:38.61830",
+        "ivr-article": "west of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220202GG01996",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Bus fire on US-101 Southbound exiting at Alemany Blvd (San Francisco). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Bus fire"
-      },
-      "severity": "Moderate",
-      "created": "2022-02-03T02:14Z",
-      "updated": "2022-02-03T02:17Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.407989,
-          37.73864
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220202GG02014"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "Alemany Blvd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "exiting at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-03T02:14Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-02T18:25:28.11456"
-        },
-        "event-reference": {
-          "event-identifier": "868300"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Bus fire"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Bus fire on US-101 Southbound exiting at Alemany Blvd (San Francisco). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Alemany Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.73864",
-                    "event-location-coordinates-longitude": "-122.407989"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-02T18:17:33.74550",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-02-02T18:14:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-02-02T18:17:33.74550",
-        "ivr-article": "exiting at",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220202GG02014",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Eastbound at Bay Bridge - West Span (San Francisco). On Ramp affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Severe",
-      "created": "2022-02-03T02:25Z",
-      "updated": "2022-02-03T02:25Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.391447,
-          37.785495
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220202GG02042"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Bay Bridge - West Span",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-03T02:24Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-02T18:25:28.11456"
-        },
-        "event-reference": {
-          "event-identifier": "868304"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Eastbound at Bay Bridge - West Span (San Francisco). On Ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Bay Bridge - West Span",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.785495",
-                    "event-location-coordinates-longitude": "-122.391447"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-02T18:25:15.37700",
-              "valid-period": {
-                "event-timeline-estimated-duration": "71.5"
-              },
-              "start-time": "2022-02-02T18:24:55.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Severe",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-02T18:25:15.37700",
-        "ivr-article": "at",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "On Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220202GG02042",
+        "SourceEventID": "220202GG02067",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
