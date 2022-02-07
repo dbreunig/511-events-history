@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-06T20:07:18.99141"
+          "event-message-time-stamp": "2022-02-06T20:24:23.82025"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-06T20:07:18.99141"
+          "event-message-time-stamp": "2022-02-06T20:24:23.82025"
         },
         "event-reference": {
           "event-identifier": "867497"
@@ -360,7 +360,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-06T20:07:18.99141"
+          "event-message-time-stamp": "2022-02-06T20:24:23.82025"
         },
         "event-reference": {
           "event-identifier": "869173"
@@ -507,7 +507,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-06T20:07:18.99141"
+          "event-message-time-stamp": "2022-02-06T20:24:23.82025"
         },
         "event-reference": {
           "event-identifier": "869512"
@@ -585,14 +585,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Northbound north of CA-82 (San Jose). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-680 Southbound north of E Capitol Expy (San Jose). Lane open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Moderate",
-      "created": "2022-02-07T03:30Z",
-      "updated": "2022-02-07T03:44Z",
+      "severity": "Unknown",
+      "created": "2022-02-07T04:11Z",
+      "updated": "2022-02-07T04:20Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -612,8 +612,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.928042,
-          37.340857
+          -121.838061,
+          37.352139
         ]
       },
       "source_type": {
@@ -622,13 +622,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220206GG02075"
+        "#text": "220206GG02173"
       },
       "roads": [
         {
-          "name": "I-880 N",
-          "from": "CA-82",
-          "direction": "Northbound",
+          "name": "I-680 S",
+          "from": "E Capitol Expy",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -636,7 +636,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -650,15 +650,163 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-07T03:44Z/"
+          "2022-02-07T04:20Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-06T20:07:18.99141"
+          "event-message-time-stamp": "2022-02-06T20:24:23.82025"
         },
         "event-reference": {
-          "event-identifier": "869520"
+          "event-identifier": "869524"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-680 Southbound north of E Capitol Expy (San Jose). Lane open. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "E Capitol Expy",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.352139",
+                    "event-location-coordinates-longitude": "-121.838061"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-06T20:20:30.43660",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-02-06T20:20:29.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-02-06T20:20:30.43660",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220206GG02173",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-85 Southbound south of Blossom Hill Rd (San Jose). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Minor",
+      "created": "2022-02-07T04:15Z",
+      "updated": "2022-02-07T04:15Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.842124,
+          37.253118
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220206GG02180"
+      },
+      "roads": [
+        {
+          "name": "CA-85 S",
+          "from": "Blossom Hill Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-07T04:15Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-06T20:24:23.82025"
+        },
+        "event-reference": {
+          "event-identifier": "869525"
         },
         "event-status": "new",
         "details": {
@@ -679,7 +827,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Northbound north of CA-82 (San Jose). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on CA-85 Southbound south of Blossom Hill Rd (San Jose). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -689,24 +837,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "CA-82",
+                  "link-road-designator": "CA-85 S",
+                  "link-from-road": "Blossom Hill Rd",
                   "link-to-road": null,
                   "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.340857",
-                    "event-location-coordinates-longitude": "-121.928042"
+                    "event-location-coordinates-latitude": "37.253118",
+                    "event-location-coordinates-longitude": "-121.842124"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-06T19:44:48.82310",
+              "update-time": "2022-02-06T20:15:14.99930",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "19"
               },
-              "start-time": "2022-02-06T19:44:47.00000",
+              "start-time": "2022-02-06T20:15:13.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -715,39 +863,39 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-02-06T19:44:48.82310",
-        "ivr-article": "north of",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-02-06T20:15:14.99930",
+        "ivr-article": "south of",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220206GG02075",
+        "SourceEventID": "220206GG02180",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fire on CA-4 Eastbound west of Sand Creek Rd (Brentwood). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound west of I-880 S (Oakland). Lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Fire"
+        "event_subtype": "Traffic Collision"
       },
-      "severity": "Major",
-      "created": "2022-02-07T03:30Z",
-      "updated": "2022-02-07T03:30Z",
+      "severity": "Moderate",
+      "created": "2022-02-07T04:20Z",
+      "updated": "2022-02-07T04:23Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -760,8 +908,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.743882,
-          37.947685
+          -122.313576,
+          37.823839
         ]
       },
       "source_type": {
@@ -770,17 +918,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220206GG02076"
+        "#text": "220206GG02192"
       },
       "roads": [
         {
-          "name": "CA-4 E",
-          "from": "Sand Creek Rd",
+          "name": "I-80 E",
+          "from": "I-880 S",
           "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -798,15 +946,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-07T03:30Z/"
+          "2022-02-07T04:23Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-06T20:07:18.99141"
+          "event-message-time-stamp": "2022-02-06T20:24:23.82025"
         },
         "event-reference": {
-          "event-identifier": "869521"
+          "event-identifier": "869526"
         },
         "event-status": "new",
         "details": {
@@ -817,7 +965,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Fire"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -827,7 +975,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fire on CA-4 Eastbound west of Sand Creek Rd (Brentwood). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound west of I-880 S (Oakland). Lanes affected. Expect delays."
                     }
                   }
                 }
@@ -836,25 +984,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 E",
-                  "link-from-road": "Sand Creek Rd",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "I-880 S",
                   "link-to-road": null,
-                  "link-from-city": "Brentwood",
+                  "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.947685",
-                    "event-location-coordinates-longitude": "-121.743882"
+                    "event-location-coordinates-latitude": "37.823839",
+                    "event-location-coordinates-longitude": "-122.313576"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-06T19:30:04.82520",
+              "update-time": "2022-02-06T20:23:40.11280",
               "valid-period": {
-                "event-timeline-estimated-duration": "52"
+                "event-timeline-estimated-duration": "29"
               },
-              "start-time": "2022-02-06T19:30:03.00000",
+              "start-time": "2022-02-06T20:23:39.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -863,32 +1011,32 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-06T19:30:04.82520",
+        "ivr-lastUpdateDttm": "2022-02-06T20:23:40.11280",
         "ivr-article": "west of",
-        "ivr-county": "Contra Costa",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220206GG02076",
+        "SourceEventID": "220206GG02192",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Eastbound east of Treasure Island Rd (San Francisco). Center Divider affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-80 Westbound east of 7TH St (San Francisco). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
-      "severity": "Moderate",
-      "created": "2022-02-07T03:36Z",
-      "updated": "2022-02-07T03:38Z",
+      "severity": "Minor",
+      "created": "2022-02-07T04:22Z",
+      "updated": "2022-02-07T04:22Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -908,8 +1056,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.366974,
-          37.808253
+          -122.405811,
+          37.775564
         ]
       },
       "source_type": {
@@ -918,13 +1066,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220206GG02090"
+        "#text": "220206GG01984"
       },
       "roads": [
         {
-          "name": "I-80 E",
-          "from": "Treasure Island Rd",
-          "direction": "Eastbound",
+          "name": "I-80 W",
+          "from": "7TH St",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -946,15 +1094,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-07T03:38Z/"
+          "2022-02-07T04:22Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-06T20:07:18.99141"
+          "event-message-time-stamp": "2022-02-06T20:24:23.82025"
         },
         "event-reference": {
-          "event-identifier": "869522"
+          "event-identifier": "869527"
         },
         "event-status": "new",
         "details": {
@@ -965,7 +1113,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -975,7 +1123,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound east of Treasure Island Rd (San Francisco). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-80 Westbound east of 7TH St (San Francisco). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -985,24 +1133,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Treasure Island Rd",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "7TH St",
                   "link-to-road": null,
                   "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.808253",
-                    "event-location-coordinates-longitude": "-122.366974"
+                    "event-location-coordinates-latitude": "37.775564",
+                    "event-location-coordinates-longitude": "-122.405811"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-06T19:38:31.07000",
+              "update-time": "2022-02-06T20:22:37.26750",
               "valid-period": {
-                "event-timeline-estimated-duration": "43"
+                "event-timeline-estimated-duration": "20.2"
               },
-              "start-time": "2022-02-06T19:38:30.00000",
+              "start-time": "2022-02-06T20:22:36.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1011,166 +1159,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-06T19:38:31.07000",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-06T20:22:37.26750",
         "ivr-article": "east of",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220206GG02090",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-280 Northbound south of Foothill Expy (Los Altos). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-02-07T03:58Z",
-      "updated": "2022-02-07T03:58Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.062289,
-          37.33322
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220206GG02138"
-      },
-      "roads": [
-        {
-          "name": "I-280 N",
-          "from": "Foothill Expy",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-07T03:58Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-06T20:07:18.99141"
-        },
-        "event-reference": {
-          "event-identifier": "869523"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-280 Northbound south of Foothill Expy (Los Altos). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "Foothill Expy",
-                  "link-to-road": null,
-                  "link-from-city": "Los Altos",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.33322",
-                    "event-location-coordinates-longitude": "-122.062289"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-06T19:58:26.56060",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-02-06T19:58:25.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-02-06T19:58:26.56060",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220206GG02138",
+        "SourceEventID": "220206GG01984",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
