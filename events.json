@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-12T15:48:13.89818"
+          "event-message-time-stamp": "2022-02-12T16:14:52.23975"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-12T15:48:13.89818"
+          "event-message-time-stamp": "2022-02-12T16:14:52.23975"
         },
         "event-reference": {
           "event-identifier": "867497"
@@ -360,7 +360,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-12T15:48:13.89818"
+          "event-message-time-stamp": "2022-02-12T16:14:52.23975"
         },
         "event-reference": {
           "event-identifier": "869173"
@@ -437,14 +437,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Westbound east of Appian Way (Pinole). Left and center lanes blocked. Expect delays.",
+      "headline": "CHP : Residual delays on I-80 Westbound at Pinole Valley Rd (Pinole). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Residual delays"
       },
-      "severity": "Moderate",
+      "severity": "Unknown",
       "created": "2022-02-12T22:42Z",
-      "updated": "2022-02-12T22:48Z",
+      "updated": "2022-02-13T00:14Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -464,8 +464,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.306302,
-          37.992603
+          -122.285942,
+          37.997131
         ]
       },
       "source_type": {
@@ -479,12 +479,163 @@
       "roads": [
         {
           "name": "I-80 W",
-          "from": "Appian Way",
+          "from": "Pinole Valley Rd",
           "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left and center lanes"
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "open"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-12T22:45Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-12T16:14:52.23975"
+        },
+        "event-reference": {
+          "event-identifier": "871709"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on I-80 Westbound at Pinole Valley Rd (Pinole). All lanes open. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Pinole Valley Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Pinole",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.997131",
+                    "event-location-coordinates-longitude": "-122.285942"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-12T16:14:45.97630",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-02-12T14:45:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-12T16:14:45.97630",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220212GG01438",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision and Spill on I-80 Westbound east of Cutting Blvd (El Cerrito). Left lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": [
+          "Traffic Collision",
+          "Spill"
+        ]
+      },
+      "severity": "Moderate",
+      "created": "2022-02-12T23:55Z",
+      "updated": "2022-02-13T00:05Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.32287,
+          37.927978
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220212GG01621"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Cutting Blvd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -502,15 +653,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-12T22:45Z/"
+          "2022-02-13T00:03Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-12T15:48:13.89818"
+          "event-message-time-stamp": "2022-02-12T16:14:52.23975"
         },
         "event-reference": {
-          "event-identifier": "871709"
+          "event-identifier": "871729"
         },
         "event-status": "new",
         "details": {
@@ -520,9 +671,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision"
+                      },
+                      {
+                        "incident": "Spill"
+                      }
+                    ]
                   }
                 },
                 {
@@ -531,7 +687,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Westbound east of Appian Way (Pinole). Left and center lanes blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision and Spill on I-80 Westbound east of Cutting Blvd (El Cerrito). Left lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -542,23 +698,23 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA013",
                   "link-road-designator": "I-80 W",
-                  "link-from-road": "Appian Way",
+                  "link-from-road": "Cutting Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Pinole",
+                  "link-from-city": "El Cerrito",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.992603",
-                    "event-location-coordinates-longitude": "-122.306302"
+                    "event-location-coordinates-latitude": "37.927978",
+                    "event-location-coordinates-longitude": "-122.32287"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-12T14:48:13.90370",
+              "update-time": "2022-02-12T16:05:48.23970",
               "valid-period": {
-                "event-timeline-estimated-duration": "31"
+                "event-timeline-estimated-duration": "41.5"
               },
-              "start-time": "2022-02-12T14:45:00.00000",
+              "start-time": "2022-02-12T16:03:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -572,34 +728,34 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-02-12T14:48:13.90370",
+        "ivr-lastUpdateDttm": "2022-02-12T16:05:48.23970",
         "ivr-article": "east of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left and center lanes",
+        "ivr-totalLanes": "Left lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220212GG01438",
+        "SourceEventID": "220212GG01621",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-280 Southbound at I-280 S-CA-1 S Join (Daly City). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on CA-24 Eastbound west of Acalanes Rd (Lafayette). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
-      "severity": "Minor",
-      "created": "2022-02-12T22:57Z",
-      "updated": "2022-02-12T23:01Z",
+      "severity": "Moderate",
+      "created": "2022-02-13T00:04Z",
+      "updated": "2022-02-13T00:06Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -612,8 +768,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.47164,
-          37.698587
+          -122.150167,
+          37.891181
         ]
       },
       "source_type": {
@@ -622,160 +778,12 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220212GG01480"
+        "#text": "220212GG01645"
       },
       "roads": [
         {
-          "name": "I-280 S",
-          "from": "I-280 S-CA-1 S Join",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-12T23:01Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-12T15:48:13.89818"
-        },
-        "event-reference": {
-          "event-identifier": "871712"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-280 Southbound at I-280 S-CA-1 S Join (Daly City). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "I-280 S-CA-1 S Join",
-                  "link-to-road": null,
-                  "link-from-city": "Daly City",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.698587",
-                    "event-location-coordinates-longitude": "-122.47164"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-12T15:01:53.68360",
-              "valid-period": {
-                "event-timeline-estimated-duration": "24"
-              },
-              "start-time": "2022-02-12T15:01:52.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-02-12T15:01:53.68360",
-        "ivr-article": "at",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220212GG01480",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-92 Eastbound at San Mateo Bridge - Eastbound Causeway (Foster City). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Major",
-      "created": "2022-02-12T23:28Z",
-      "updated": "2022-02-12T23:37Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.210158,
-          37.600508
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220212GG01559"
-      },
-      "roads": [
-        {
-          "name": "CA-92 E",
-          "from": "San Mateo Bridge - Eastbound Causeway",
+          "name": "CA-24 E",
+          "from": "Acalanes Rd",
           "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -792,21 +800,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-12T23:37Z/"
+          "2022-02-13T00:06Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-12T15:48:13.89818"
+          "event-message-time-stamp": "2022-02-12T16:14:52.23975"
         },
         "event-reference": {
-          "event-identifier": "871722"
+          "event-identifier": "871731"
         },
         "event-status": "new",
         "details": {
@@ -817,7 +825,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -827,7 +835,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-92 Eastbound at San Mateo Bridge - Eastbound Causeway (Foster City). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on CA-24 Eastbound west of Acalanes Rd (Lafayette). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -836,173 +844,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "CA-92 E",
-                  "link-from-road": "San Mateo Bridge - Eastbound Causeway",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Acalanes Rd",
                   "link-to-road": null,
-                  "link-from-city": "Foster City",
+                  "link-from-city": "Lafayette",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.600508",
-                    "event-location-coordinates-longitude": "-122.210158"
+                    "event-location-coordinates-latitude": "37.891181",
+                    "event-location-coordinates-longitude": "-122.150167"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-12T15:37:43.35890",
-              "valid-period": {
-                "event-timeline-estimated-duration": "52.699999999999996"
-              },
-              "start-time": "2022-02-12T15:37:42.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-12T15:37:43.35890",
-        "ivr-article": "at",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220212GG01559",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound north of De La Cruz Blvd (San Jose). Left shoulder blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-02-12T23:33Z",
-      "updated": "2022-02-12T23:33Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.941589,
-          37.37662
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220212GG01576"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "De La Cruz Blvd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-12T23:33Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-12T15:48:13.89818"
-        },
-        "event-reference": {
-          "event-identifier": "871727"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of De La Cruz Blvd (San Jose). Left shoulder blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "De La Cruz Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.37662",
-                    "event-location-coordinates-longitude": "-121.941589"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-12T15:33:30.26110",
+              "update-time": "2022-02-12T16:06:01.16180",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-02-12T15:33:29.00000",
+              "start-time": "2022-02-12T16:06:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1015,14 +875,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-02-12T15:33:30.26110",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left shoulder",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-02-12T16:06:01.16180",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220212GG01576",
+        "SourceEventID": "220212GG01645",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
