@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-14T05:11:57.40627"
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-14T05:11:57.40627"
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
         },
         "event-reference": {
           "event-identifier": "867497"
@@ -360,7 +360,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-14T05:11:57.40627"
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
         },
         "event-reference": {
           "event-identifier": "869173"
@@ -437,14 +437,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fog on US-101 Southbound at Merchant Rd (San Francisco). Lane affected. Expect delays.",
+      "headline": "CHP : Fog on US-101 Northbound and Southbound at Golden Gate Bridge (San Francisco). Lanes affected. Traffic advisory in effect.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Fog"
       },
-      "severity": "Minor",
+      "severity": "Major",
       "created": "2022-02-14T03:29Z",
-      "updated": "2022-02-14T03:30Z",
+      "updated": "2022-02-14T13:12Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -464,8 +464,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.475694,
-          37.807153
+          -122.478389300768,
+          37.8183949725384
         ]
       },
       "source_type": {
@@ -478,13 +478,13 @@
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Merchant Rd",
-          "direction": "Southbound",
+          "name": "US-101 N",
+          "from": "Golden Gate Bridge",
+          "direction": "Northbound and Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -492,7 +492,7 @@
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "Traffic advisory in effect"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -507,7 +507,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-14T05:11:57.40627"
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
         },
         "event-reference": {
           "event-identifier": "872009"
@@ -531,7 +531,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fog on US-101 Southbound at Merchant Rd (San Francisco). Lane affected. Expect delays."
+                      "event-description": "CHP : Fog on US-101 Northbound and Southbound at Golden Gate Bridge (San Francisco). Lanes affected. Traffic advisory in effect."
                     }
                   }
                 }
@@ -541,24 +541,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA075",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Merchant Rd",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Golden Gate Bridge",
                   "link-to-road": null,
                   "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.807153",
-                    "event-location-coordinates-longitude": "-122.475694"
+                    "event-location-coordinates-latitude": "37.818394972538407",
+                    "event-location-coordinates-longitude": "-122.4783893007679"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-13T19:30:56.24710",
+              "update-time": "2022-02-14T05:12:45.16640",
               "valid-period": {
-                "event-timeline-estimated-duration": "17"
+                "event-timeline-estimated-duration": "64.5"
               },
-              "start-time": "2022-02-13T19:30:55.00000",
+              "start-time": "2022-02-13T19:30:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -567,17 +567,18 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-02-13T19:30:56.24710",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound and Southbound",
+        "ivr-lastUpdateDttm": "2022-02-14T05:12:45.16640",
         "ivr-article": "at",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
+        "ivr-totalLanes": "Lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Traffic advisory in effect",
         "SourceEventID": "220213GG02099",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
@@ -592,7 +593,7 @@
       },
       "severity": "Unknown",
       "created": "2022-02-14T05:08Z",
-      "updated": "2022-02-14T13:09Z",
+      "updated": "2022-02-14T13:25Z",
       "areas": {
         "area": {
           "name": "Napa",
@@ -655,7 +656,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-14T05:11:57.40627"
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
         },
         "event-reference": {
           "event-identifier": "872030"
@@ -702,7 +703,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-14T05:09:59.63690",
+              "update-time": "2022-02-14T05:25:47.29370",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -720,7 +721,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-02-14T05:09:59.63690",
+        "ivr-lastUpdateDttm": "2022-02-14T05:25:47.29370",
         "ivr-article": "at",
         "ivr-county": "Napa",
         "ivr-laneStatus": "closed",
@@ -733,310 +734,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-85 Southbound north of Central Expy (Mountain View). On Ramp affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on CA-17 Southbound north of Glenwood Cutoff (Scotts Valley). Right lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Disabled vehicle"
       },
-      "severity": "Major",
-      "created": "2022-02-14T05:56Z",
-      "updated": "2022-02-14T07:34Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.068669,
-          37.395264
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220213GG02416"
-      },
-      "roads": [
-        {
-          "name": "CA-85 S",
-          "from": "Central Expy",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-14T07:34Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-14T05:11:57.40627"
-        },
-        "event-reference": {
-          "event-identifier": "872035"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-85 Southbound north of Central Expy (Mountain View). On Ramp affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-85 S",
-                  "link-from-road": "Central Expy",
-                  "link-to-road": null,
-                  "link-from-city": "Mountain View",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.395264",
-                    "event-location-coordinates-longitude": "-122.068669"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-13T23:34:56.61870",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.2"
-              },
-              "start-time": "2022-02-13T23:34:55.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-02-13T23:34:56.61870",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "On Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220213GG02416",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-880 Southbound north of Mowry Ave (Fremont). All lanes open. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Unknown",
-      "created": "2022-02-14T12:19Z",
-      "updated": "2022-02-14T13:05Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.006489,
-          37.532001
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220214GG00245"
-      },
-      "roads": [
-        {
-          "name": "I-880 S",
-          "from": "Mowry Ave",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "open"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-14T12:44Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-14T05:11:57.40627"
-        },
-        "event-reference": {
-          "event-identifier": "872070"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-880 Southbound north of Mowry Ave (Fremont). All lanes open. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "Mowry Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Fremont",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.532001",
-                    "event-location-coordinates-longitude": "-122.006489"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-14T05:05:09.12720",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2022-02-14T04:44:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-02-14T05:05:09.12720",
-        "ivr-article": "north of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "open",
-        "ivr-totalLanes": "All lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220214GG00245",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-17 Southbound north of Glenwood Cutoff (Scotts Valley). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
       "severity": "Moderate",
       "created": "2022-02-14T13:00Z",
-      "updated": "2022-02-14T13:00Z",
+      "updated": "2022-02-14T13:23Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -1076,11 +781,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1094,12 +799,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-14T13:00Z/"
+          "2022-02-14T13:18Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-14T05:11:57.40627"
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
         },
         "event-reference": {
           "event-identifier": "872072"
@@ -1113,7 +818,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -1123,7 +828,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-17 Southbound north of Glenwood Cutoff (Scotts Valley). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on CA-17 Southbound north of Glenwood Cutoff (Scotts Valley). Right lane blocked. Expect delays."
                     }
                   }
                 }
@@ -1146,11 +851,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-14T05:00:34.03210",
+              "update-time": "2022-02-14T05:23:20.28850",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "35.2"
               },
-              "start-time": "2022-02-14T05:00:32.00000",
+              "start-time": "2022-02-14T05:18:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1164,11 +869,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-02-14T05:00:34.03210",
+        "ivr-lastUpdateDttm": "2022-02-14T05:23:20.28850",
         "ivr-article": "north of",
         "ivr-county": "Santa Cruz",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220214MY00021",
         "EventSourceName": "CHP",
@@ -1246,7 +951,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-14T05:11:57.40627"
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
         },
         "event-reference": {
           "event-identifier": "872074"
@@ -1323,6 +1028,742 @@
         "ivr-totalLanes": "All lanes",
         "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Avoid the area",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Left shoulder closed until 2 PM. Monday, February 14, 2022 5:01 AM thru Monday, February 14, 2022 1:59 PM, Monday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-02-14T13:13Z",
+      "updated": "2022-02-14T13:25Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.477644,
+          37.942579
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C580CB-0003-2022-02-14-05:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Main St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 2 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-14T13:01Z/2022-02-14T21:59Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
+        },
+        "event-reference": {
+          "event-identifier": "872075"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Left shoulder closed until 2 PM. Monday, February 14, 2022 5:01 AM thru Monday, February 14, 2022 1:59 PM, Monday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Main St",
+                  "link-to-road": null,
+                  "link-from-city": "San Quentin",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.942579",
+                    "event-location-coordinates-longitude": "-122.477644"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-14T05:25:46.66680",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-02-14T05:01:00.00000",
+              "cleared-time": "2022-02-14T13:59:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-02-14T05:25:46.66680",
+        "ivr-article": "at",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Left shoulder",
+        "ivr-genOtherText": "until 2 PM",
+        "SourceEventID": "C580CB-0003-2022-02-14-05:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-80 Westbound east of Pinole Valley Rd (Pinole). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-14T13:15Z",
+      "updated": "2022-02-14T13:21Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.281783,
+          38.00178
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220214GG00291"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Pinole Valley Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-14T13:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
+        },
+        "event-reference": {
+          "event-identifier": "872076"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-80 Westbound east of Pinole Valley Rd (Pinole). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Pinole Valley Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Pinole",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.00178",
+                    "event-location-coordinates-longitude": "-122.281783"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-14T05:21:30.12070",
+              "valid-period": {
+                "event-timeline-estimated-duration": "25"
+              },
+              "start-time": "2022-02-14T05:21:28.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-14T05:21:30.12070",
+        "ivr-article": "east of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220214GG00291",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound east of Paloverde Rd (Hayward). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-14T13:16Z",
+      "updated": "2022-02-14T13:18Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.016929,
+          37.702489
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220214GG00293"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Paloverde Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-14T13:16Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
+        },
+        "event-reference": {
+          "event-identifier": "872077"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of Paloverde Rd (Hayward). Right lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Paloverde Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Hayward",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.702489",
+                    "event-location-coordinates-longitude": "-122.016929"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-14T05:18:44.47220",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-02-14T05:16:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-14T05:18:44.47220",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220214GG00293",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fog on CA-1 Northbound and Southbound south of CA-84 (San Gregorio). Lanes affected. Traffic advisory in effect.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fog"
+      },
+      "severity": "Major",
+      "created": "2022-02-14T13:17Z",
+      "updated": "2022-02-14T13:17Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.404730862718,
+          37.2870013205897
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "roads": [
+        {
+          "name": "CA-1 S",
+          "from": "CA-84",
+          "direction": "Northbound and Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Traffic advisory in effect"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-14T13:17Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
+        },
+        "event-reference": {
+          "event-identifier": "872078"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fog"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fog on CA-1 Northbound and Southbound south of CA-84 (San Gregorio). Lanes affected. Traffic advisory in effect."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "CA-1 S",
+                  "link-from-road": "CA-84",
+                  "link-to-road": null,
+                  "link-from-city": "San Gregorio",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.287001320589674",
+                    "event-location-coordinates-longitude": "-122.40473086271764"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-14T05:17:46.21780",
+              "valid-period": {
+                "event-timeline-estimated-duration": "52"
+              },
+              "start-time": "2022-02-14T05:17:45.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound and Southbound",
+        "ivr-lastUpdateDttm": "2022-02-14T05:17:46.21780",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Traffic advisory in effect",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Southbound south of Hearn Ave (Santa Rosa). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-14T13:19Z",
+      "updated": "2022-02-14T13:24Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.71609,
+          38.415917
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220214GG00295"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Hearn Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-14T13:24Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-14T05:27:07.44749"
+        },
+        "event-reference": {
+          "event-identifier": "872079"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Southbound south of Hearn Ave (Santa Rosa). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Hearn Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Santa Rosa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.415917",
+                    "event-location-coordinates-longitude": "-122.71609"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-14T05:24:38.21550",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2022-02-14T05:24:36.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-02-14T05:24:38.21550",
+        "ivr-article": "south of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220214GG00295",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
