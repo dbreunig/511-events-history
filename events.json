@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
+          "event-message-time-stamp": "2022-02-18T22:36:48.51555"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
+          "event-message-time-stamp": "2022-02-18T22:36:48.51555"
         },
         "event-reference": {
           "event-identifier": "867497"
@@ -301,7 +301,7 @@
       },
       "severity": "Unknown",
       "created": "2022-02-19T03:10Z",
-      "updated": "2022-02-19T06:23Z",
+      "updated": "2022-02-19T06:35Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -364,7 +364,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
+          "event-message-time-stamp": "2022-02-18T22:36:48.51555"
         },
         "event-reference": {
           "event-identifier": "873897"
@@ -411,7 +411,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-18T22:23:18.69610",
+              "update-time": "2022-02-18T22:35:58.41000",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -429,7 +429,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-18T22:23:18.69610",
+        "ivr-lastUpdateDttm": "2022-02-18T22:35:58.41000",
         "ivr-article": "at",
         "ivr-county": "Marin",
         "ivr-laneStatus": "closed",
@@ -512,7 +512,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
+          "event-message-time-stamp": "2022-02-18T22:36:48.51555"
         },
         "event-reference": {
           "event-identifier": "873920"
@@ -660,7 +660,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
+          "event-message-time-stamp": "2022-02-18T22:36:48.51555"
         },
         "event-reference": {
           "event-identifier": "873924"
@@ -738,14 +738,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fire on I-80 Eastbound at Weber Rd (Vacaville). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-780 Eastbound east of Glen Cove Rd (Vallejo). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Fire"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-02-19T06:23Z",
-      "updated": "2022-02-19T06:23Z",
+      "created": "2022-02-19T06:28Z",
+      "updated": "2022-02-19T06:28Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -765,8 +765,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.916971,
-          38.401166
+          -122.214264,
+          38.086268
         ]
       },
       "source_type": {
@@ -775,13 +775,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220218GG02393"
+        "#text": "220218GG02399"
       },
       "roads": [
         {
-          "name": "I-80 E",
-          "from": "Weber Rd",
+          "name": "I-780 E",
+          "from": "Glen Cove Rd",
           "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-19T06:28Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-18T22:36:48.51555"
+        },
+        "event-reference": {
+          "event-identifier": "873926"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-780 Eastbound east of Glen Cove Rd (Vallejo). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-780 E",
+                  "link-from-road": "Glen Cove Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Vallejo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.086268",
+                    "event-location-coordinates-longitude": "-122.214264"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-18T22:28:47.89910",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2022-02-18T22:28:37.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-02-18T22:28:47.89910",
+        "ivr-article": "east of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220218GG02399",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-24 Westbound at Claremont Ave (Oakland). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-19T06:28Z",
+      "updated": "2022-02-19T06:28Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.254967,
+          37.843503
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220218GG02400"
+      },
+      "roads": [
+        {
+          "name": "CA-24 W",
+          "from": "Claremont Ave",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -803,15 +951,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-19T06:23Z/"
+          "2022-02-19T06:28Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
+          "event-message-time-stamp": "2022-02-18T22:36:48.51555"
         },
         "event-reference": {
-          "event-identifier": "873925"
+          "event-identifier": "873927"
         },
         "event-status": "new",
         "details": {
@@ -822,7 +970,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Fire"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -832,7 +980,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fire on I-80 Eastbound at Weber Rd (Vacaville). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-24 Westbound at Claremont Ave (Oakland). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -841,25 +989,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Weber Rd",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "CA-24 W",
+                  "link-from-road": "Claremont Ave",
                   "link-to-road": null,
-                  "link-from-city": "Vacaville",
+                  "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.401166",
-                    "event-location-coordinates-longitude": "-121.916971"
+                    "event-location-coordinates-latitude": "37.843503",
+                    "event-location-coordinates-longitude": "-122.254967"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-18T22:23:32.71080",
+              "update-time": "2022-02-18T22:28:48.08040",
               "valid-period": {
-                "event-timeline-estimated-duration": "32"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-02-18T22:23:22.00000",
+              "start-time": "2022-02-18T22:28:37.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -872,14 +1020,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-18T22:23:32.71080",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-18T22:28:48.08040",
         "ivr-article": "at",
-        "ivr-county": "Solano",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220218GG02393",
+        "SourceEventID": "220218GG02400",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
