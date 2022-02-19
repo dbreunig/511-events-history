@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:05:28.44044"
+          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:05:28.44044"
+          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
         },
         "event-reference": {
           "event-identifier": "867497"
@@ -301,7 +301,7 @@
       },
       "severity": "Unknown",
       "created": "2022-02-19T03:10Z",
-      "updated": "2022-02-19T06:04Z",
+      "updated": "2022-02-19T06:23Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -364,7 +364,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:05:28.44044"
+          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
         },
         "event-reference": {
           "event-identifier": "873897"
@@ -411,7 +411,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-18T22:04:21.81030",
+              "update-time": "2022-02-18T22:23:18.69610",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -429,7 +429,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-18T22:04:21.81030",
+        "ivr-lastUpdateDttm": "2022-02-18T22:23:18.69610",
         "ivr-article": "at",
         "ivr-county": "Marin",
         "ivr-laneStatus": "closed",
@@ -512,7 +512,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:05:28.44044"
+          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
         },
         "event-reference": {
           "event-identifier": "873920"
@@ -590,21 +590,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-152 Eastbound east of Casa De Fruta Pky (Gilroy). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound west of El Portal Dr (San Pablo). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
-      "severity": "Minor",
-      "created": "2022-02-19T05:36Z",
-      "updated": "2022-02-19T05:42Z",
+      "severity": "Moderate",
+      "created": "2022-02-19T06:23Z",
+      "updated": "2022-02-19T06:23Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -617,8 +617,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.384301,
-          36.988319
+          -122.320442,
+          37.969909
         ]
       },
       "source_type": {
@@ -627,12 +627,160 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220218MY00372"
+        "#text": "220218GG02392"
       },
       "roads": [
         {
-          "name": "CA-152",
-          "from": "Casa De Fruta Pky",
+          "name": "I-80 E",
+          "from": "El Portal Dr",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-19T06:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
+        },
+        "event-reference": {
+          "event-identifier": "873924"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound west of El Portal Dr (San Pablo). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "El Portal Dr",
+                  "link-to-road": null,
+                  "link-from-city": "San Pablo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.969909",
+                    "event-location-coordinates-longitude": "-122.320442"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-18T22:23:32.53200",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-02-18T22:23:22.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-02-18T22:23:32.53200",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220218GG02392",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on I-80 Eastbound at Weber Rd (Vacaville). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-19T06:23Z",
+      "updated": "2022-02-19T06:23Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.916971,
+          38.401166
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220218GG02393"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Weber Rd",
           "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -649,21 +797,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-19T05:42Z/"
+          "2022-02-19T06:23Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-18T22:05:28.44044"
+          "event-message-time-stamp": "2022-02-18T22:23:57.29834"
         },
         "event-reference": {
-          "event-identifier": "873922"
+          "event-identifier": "873925"
         },
         "event-status": "new",
         "details": {
@@ -674,7 +822,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Fire"
                     }
                   }
                 },
@@ -684,7 +832,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-152 Eastbound east of Casa De Fruta Pky (Gilroy). Lane affected. Expect delays."
+                      "event-description": "CHP : Fire on I-80 Eastbound at Weber Rd (Vacaville). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -693,25 +841,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-152",
-                  "link-from-road": "Casa De Fruta Pky",
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Weber Rd",
                   "link-to-road": null,
-                  "link-from-city": "Gilroy",
+                  "link-from-city": "Vacaville",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "36.988319",
-                    "event-location-coordinates-longitude": "-121.384301"
+                    "event-location-coordinates-latitude": "38.401166",
+                    "event-location-coordinates-longitude": "-121.916971"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-18T21:42:47.80950",
+              "update-time": "2022-02-18T22:23:32.71080",
               "valid-period": {
-                "event-timeline-estimated-duration": "13"
+                "event-timeline-estimated-duration": "32"
               },
-              "start-time": "2022-02-18T21:42:37.00000",
+              "start-time": "2022-02-18T22:23:22.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -720,18 +868,18 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
+        "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-18T21:42:47.80950",
-        "ivr-article": "east of",
-        "ivr-county": "Santa Clara",
+        "ivr-lastUpdateDttm": "2022-02-18T22:23:32.71080",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220218MY00372",
+        "SourceEventID": "220218GG02393",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
