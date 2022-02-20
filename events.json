@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-19T21:33:23.87951"
+          "event-message-time-stamp": "2022-02-19T21:48:20.83506"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-19T21:33:23.87951"
+          "event-message-time-stamp": "2022-02-19T21:48:20.83506"
         },
         "event-reference": {
           "event-identifier": "867497"
@@ -294,14 +294,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-152 Eastbound at Dunne Ln (Gilroy). Lanes blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on CA-152 Eastbound at Dunne Ln (Gilroy). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Minor",
+      "severity": "Unknown",
       "created": "2022-02-20T04:22Z",
-      "updated": "2022-02-20T05:22Z",
+      "updated": "2022-02-20T05:42Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -341,11 +341,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -359,12 +359,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-20T05:22Z/"
+          "2022-02-20T05:42Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-19T21:33:23.87951"
+          "event-message-time-stamp": "2022-02-19T21:48:20.83506"
         },
         "event-reference": {
           "event-identifier": "874139"
@@ -388,7 +388,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-152 Eastbound at Dunne Ln (Gilroy). Lanes blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-152 Eastbound at Dunne Ln (Gilroy). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -411,11 +411,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-19T21:22:54.14970",
+              "update-time": "2022-02-19T21:42:49.83590",
               "valid-period": {
-                "event-timeline-estimated-duration": "23.5"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2022-02-19T21:22:52.00000",
+              "start-time": "2022-02-19T21:42:48.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -424,166 +424,18 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-19T21:22:54.14970",
+        "ivr-lastUpdateDttm": "2022-02-19T21:42:49.83590",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lanes",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220219MY00378",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Northbound at N Lawrence Expy (Sunnyvale). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Minor",
-      "created": "2022-02-20T04:34Z",
-      "updated": "2022-02-20T05:18Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.997552,
-          37.391757
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220219GG02044"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "N Lawrence Expy",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-20T05:18Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-19T21:33:23.87951"
-        },
-        "event-reference": {
-          "event-identifier": "874141"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Northbound at N Lawrence Expy (Sunnyvale). Center Divider affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "N Lawrence Expy",
-                  "link-to-road": null,
-                  "link-from-city": "Sunnyvale",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.391757",
-                    "event-location-coordinates-longitude": "-121.997552"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-19T21:18:43.59950",
-              "valid-period": {
-                "event-timeline-estimated-duration": "20.2"
-              },
-              "start-time": "2022-02-19T21:18:42.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-02-19T21:18:43.59950",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220219GG02044",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -660,7 +512,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-19T21:33:23.87951"
+          "event-message-time-stamp": "2022-02-19T21:48:20.83506"
         },
         "event-reference": {
           "event-identifier": "874143"
@@ -738,21 +590,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Northbound at I-680 N (San Jose). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-280 Northbound south of CA-92 W (San Mateo). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-02-20T05:16Z",
-      "updated": "2022-02-20T05:27Z",
+      "created": "2022-02-20T05:37Z",
+      "updated": "2022-02-20T05:37Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "San Mateo",
+          "id": "5392427",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5392427/"
           }
         }
       },
@@ -765,8 +617,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.85358,
-          37.341422
+          -122.341915,
+          37.509177
         ]
       },
       "source_type": {
@@ -775,17 +627,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220219GG02122"
+        "#text": "220219GG02151"
       },
       "roads": [
         {
-          "name": "US-101 N",
-          "from": "I-680 N",
+          "name": "I-280 N",
+          "from": "CA-92 W",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -797,21 +649,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-20T05:27Z/"
+          "2022-02-20T05:37Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-19T21:33:23.87951"
+          "event-message-time-stamp": "2022-02-19T21:48:20.83506"
         },
         "event-reference": {
-          "event-identifier": "874145"
+          "event-identifier": "874146"
         },
         "event-status": "new",
         "details": {
@@ -832,7 +684,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Northbound at I-680 N (San Jose). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-280 Northbound south of CA-92 W (San Mateo). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -841,25 +693,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "I-680 N",
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "CA-92 W",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "San Mateo",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.341422",
-                    "event-location-coordinates-longitude": "-121.85358"
+                    "event-location-coordinates-latitude": "37.509177",
+                    "event-location-coordinates-longitude": "-122.341915"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-19T21:27:05.67140",
+              "update-time": "2022-02-19T21:37:35.38840",
               "valid-period": {
-                "event-timeline-estimated-duration": "25.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-02-19T21:27:04.00000",
+              "start-time": "2022-02-19T21:37:34.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -873,13 +725,161 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-02-19T21:27:05.67140",
-        "ivr-article": "at",
+        "ivr-lastUpdateDttm": "2022-02-19T21:37:35.38840",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220219GG02151",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-17 Northbound south of Summit Rd (Los Gatos). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-20T05:44Z",
+      "updated": "2022-02-20T05:48Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.984839,
+          37.143411
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220219MY00420"
+      },
+      "roads": [
+        {
+          "name": "CA-17 N",
+          "from": "Summit Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-20T05:48Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-19T21:48:20.83506"
+        },
+        "event-reference": {
+          "event-identifier": "874147"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-17 Northbound south of Summit Rd (Los Gatos). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "Summit Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Los Gatos",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.143411",
+                    "event-location-coordinates-longitude": "-121.984839"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-19T21:48:05.42440",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2022-02-19T21:48:04.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-02-19T21:48:05.42440",
+        "ivr-article": "south of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220219GG02122",
+        "SourceEventID": "220219MY00420",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
