@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-21T22:05:44.32157"
+          "event-message-time-stamp": "2022-02-21T22:23:57.19507"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-21T22:05:44.32157"
+          "event-message-time-stamp": "2022-02-21T22:23:57.19507"
         },
         "event-reference": {
           "event-identifier": "867497"
@@ -365,7 +365,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-21T22:05:44.32157"
+          "event-message-time-stamp": "2022-02-21T22:23:57.19507"
         },
         "event-reference": {
           "event-identifier": "874498"
@@ -510,7 +510,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-21T22:05:44.32157"
+          "event-message-time-stamp": "2022-02-21T22:23:57.19507"
         },
         "event-reference": {
           "event-identifier": "874504"
@@ -659,7 +659,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-21T22:05:44.32157"
+          "event-message-time-stamp": "2022-02-21T22:23:57.19507"
         },
         "event-reference": {
           "event-identifier": "874564"
@@ -737,14 +737,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-80 Eastbound west of University Ave (Berkeley). Center Divider affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-80 Eastbound east of CA-13 N-I-80 E Ramp (Berkeley). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Minor",
+      "severity": "Moderate",
       "created": "2022-02-22T06:02Z",
-      "updated": "2022-02-22T06:04Z",
+      "updated": "2022-02-22T06:17Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -764,8 +764,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.302816,
-          37.863935
+          -122.299383,
+          37.851564
         ]
       },
       "source_type": {
@@ -779,12 +779,12 @@
       "roads": [
         {
           "name": "I-80 E",
-          "from": "University Ave",
+          "from": "CA-13 N-I-80 E Ramp",
           "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -796,21 +796,169 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-22T06:03Z/"
+          "2022-02-22T06:17Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-21T22:05:44.32157"
+          "event-message-time-stamp": "2022-02-21T22:23:57.19507"
         },
         "event-reference": {
           "event-identifier": "874622"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Eastbound east of CA-13 N-I-80 E Ramp (Berkeley). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "CA-13 N-I-80 E Ramp",
+                  "link-to-road": null,
+                  "link-from-city": "Berkeley",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.851564",
+                    "event-location-coordinates-longitude": "-122.299383"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-21T22:17:36.53240",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29.5"
+              },
+              "start-time": "2022-02-21T22:17:33.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-02-21T22:17:36.53240",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220221GG02376",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-280 Southbound south of US-101 S (san Francisco) (San Francisco). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-22T06:21Z",
+      "updated": "2022-02-22T06:21Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.41136,
+          37.733918
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220221GG02412"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "US-101 S (san Francisco)",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-22T06:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-21T22:23:57.19507"
+        },
+        "event-reference": {
+          "event-identifier": "874624"
         },
         "event-status": "new",
         "details": {
@@ -831,7 +979,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-80 Eastbound west of University Ave (Berkeley). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-280 Southbound south of US-101 S (san Francisco) (San Francisco). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -840,25 +988,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "University Ave",
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "US-101 S (san Francisco)",
                   "link-to-road": null,
-                  "link-from-city": "Berkeley",
+                  "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.863935",
-                    "event-location-coordinates-longitude": "-122.302816"
+                    "event-location-coordinates-latitude": "37.733918",
+                    "event-location-coordinates-longitude": "-122.41136"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-21T22:04:00.63080",
+              "update-time": "2022-02-21T22:21:47.26660",
               "valid-period": {
-                "event-timeline-estimated-duration": "20.2"
+                "event-timeline-estimated-duration": "26.2"
               },
-              "start-time": "2022-02-21T22:03:57.00000",
+              "start-time": "2022-02-21T22:21:44.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -867,18 +1015,18 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-21T22:04:00.63080",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-02-21T22:21:47.26660",
+        "ivr-article": "south of",
+        "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220221GG02376",
+        "SourceEventID": "220221GG02412",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
