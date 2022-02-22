@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-22T01:48:28.30336"
+          "event-message-time-stamp": "2022-02-22T02:07:52.06740"
         },
         "event-reference": {
           "event-identifier": "860171"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-22T01:48:28.30336"
+          "event-message-time-stamp": "2022-02-22T02:07:52.06740"
         },
         "event-reference": {
           "event-identifier": "867497"
@@ -365,7 +365,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-22T01:48:28.30336"
+          "event-message-time-stamp": "2022-02-22T02:07:52.06740"
         },
         "event-reference": {
           "event-identifier": "874498"
@@ -510,7 +510,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-22T01:48:28.30336"
+          "event-message-time-stamp": "2022-02-22T02:07:52.06740"
         },
         "event-reference": {
           "event-identifier": "874504"
@@ -659,7 +659,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-22T01:48:28.30336"
+          "event-message-time-stamp": "2022-02-22T02:07:52.06740"
         },
         "event-reference": {
           "event-identifier": "874564"
@@ -731,6 +731,154 @@
         "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220221GG01700",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-280 Southbound at S 6TH St (San Jose). Off Ramp affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Major",
+      "created": "2022-02-22T10:00Z",
+      "updated": "2022-02-22T10:00Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.87808,
+          37.327499
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220222GG00142"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "S 6TH St",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-22T10:00Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-22T02:07:52.06740"
+        },
+        "event-reference": {
+          "event-identifier": "874642"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-280 Southbound at S 6TH St (San Jose). Off Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "S 6TH St",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.327499",
+                    "event-location-coordinates-longitude": "-121.87808"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-22T02:00:59.85060",
+              "valid-period": {
+                "event-timeline-estimated-duration": "50.5"
+              },
+              "start-time": "2022-02-22T02:00:56.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-02-22T02:00:59.85060",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220222GG00142",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
