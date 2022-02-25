@@ -72,7 +72,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-24T20:07:42.22019"
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
         },
         "event-reference": {
           "event-identifier": "874751"
@@ -157,7 +157,7 @@
       },
       "severity": "Unknown",
       "created": "2022-02-25T03:15Z",
-      "updated": "2022-02-25T04:07Z",
+      "updated": "2022-02-25T04:23Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -220,7 +220,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-24T20:07:42.22019"
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
         },
         "event-reference": {
           "event-identifier": "875783"
@@ -267,7 +267,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-24T20:07:18.90480",
+              "update-time": "2022-02-24T20:23:26.41680",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -285,7 +285,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-24T20:07:18.90480",
+        "ivr-lastUpdateDttm": "2022-02-24T20:23:26.41680",
         "ivr-article": "at",
         "ivr-county": "Marin",
         "ivr-laneStatus": "closed",
@@ -305,7 +305,7 @@
       },
       "severity": "Unknown",
       "created": "2022-02-25T03:38Z",
-      "updated": "2022-02-25T04:07Z",
+      "updated": "2022-02-25T04:23Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -368,7 +368,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-24T20:07:42.22019"
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
         },
         "event-reference": {
           "event-identifier": "875788"
@@ -415,7 +415,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-24T20:07:18.58540",
+              "update-time": "2022-02-24T20:23:26.14470",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -433,7 +433,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-02-24T20:07:18.58540",
+        "ivr-lastUpdateDttm": "2022-02-24T20:23:26.14470",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -446,14 +446,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Eastbound west of Fairmont Dr (San Leandro). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Roadwork on CA-84 Westbound at Niles Canyon Rd (Fremont). All lanes closed until 5 AM. Thursday, February 24, 2022 8:01 PM thru Friday, February 25, 2022 5:01 AM, Thursday/Friday.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Roadwork"
       },
-      "severity": "Moderate",
-      "created": "2022-02-25T04:01Z",
-      "updated": "2022-02-25T04:03Z",
+      "severity": "Unknown",
+      "created": "2022-02-25T04:13Z",
+      "updated": "2022-02-25T04:23Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -473,8 +473,157 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.127566,
-          37.711385
+          -121.946915,
+          37.597848
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C84FB-0005-2022-02-24-20:01:00"
+      },
+      "roads": [
+        {
+          "name": "CA-84 W",
+          "from": "Niles Canyon Rd",
+          "direction": "Westbound",
+          "state": "CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 5 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-25T04:01Z/2022-02-25T13:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
+        },
+        "event-reference": {
+          "event-identifier": "875793"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-84 Westbound at Niles Canyon Rd (Fremont). All lanes closed until 5 AM. Thursday, February 24, 2022 8:01 PM thru Friday, February 25, 2022 5:01 AM, Thursday/Friday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "CA-84 W",
+                  "link-from-road": "Niles Canyon Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.597848",
+                    "event-location-coordinates-longitude": "-121.946915"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-24T20:23:25.96020",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-02-24T20:01:00.00000",
+              "cleared-time": "2022-02-25T05:01:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "true",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-24T20:23:25.96020",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "until 5 AM",
+        "SourceEventID": "C84FB-0005-2022-02-24-20:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound west of CA-24 E (Oakland). 3rd lane from the left affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-25T04:15Z",
+      "updated": "2022-02-25T04:19Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.266937,
+          37.824054
         ]
       },
       "source_type": {
@@ -483,12 +632,160 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220224GG02169"
+        "#text": "220224GG02203"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "CA-24 E",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "3rd lane from the left"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-25T04:15Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
+        },
+        "event-reference": {
+          "event-identifier": "875794"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound west of CA-24 E (Oakland). 3rd lane from the left affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "CA-24 E",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.824054",
+                    "event-location-coordinates-longitude": "-122.266937"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-24T20:19:49.75350",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-02-24T20:15:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-24T20:19:49.75350",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "3rd lane from the left",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220224GG02203",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Eastbound west of Patterson Pass Rd (Tracy). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-25T04:15Z",
+      "updated": "2022-02-25T04:16Z",
+      "areas": {
+        "area": {
+          "name": "San Joaquin",
+          "id": "5392126",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392126/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.538496,
+          37.722096
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220224ST00338"
       },
       "roads": [
         {
           "name": "I-580 E",
-          "from": "Fairmont Dr",
+          "from": "Patterson Pass Rd",
           "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -511,15 +808,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-25T04:03Z/"
+          "2022-02-25T04:15Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-24T20:07:42.22019"
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
         },
         "event-reference": {
-          "event-identifier": "875791"
+          "event-identifier": "875795"
         },
         "event-status": "new",
         "details": {
@@ -540,7 +837,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound west of Fairmont Dr (San Leandro). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound west of Patterson Pass Rd (Tracy). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -549,25 +846,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
+                  "event-location-type-area": null,
                   "link-road-designator": "I-580 E",
-                  "link-from-road": "Fairmont Dr",
+                  "link-from-road": "Patterson Pass Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Leandro",
+                  "link-from-city": "Tracy",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.711385",
-                    "event-location-coordinates-longitude": "-122.127566"
+                    "event-location-coordinates-latitude": "37.722096",
+                    "event-location-coordinates-longitude": "-121.538496"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-24T20:03:30.81650",
+              "update-time": "2022-02-24T20:16:30.79490",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2022-02-24T20:03:22.00000",
+              "start-time": "2022-02-24T20:15:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -581,27 +878,27 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-24T20:03:30.81650",
+        "ivr-lastUpdateDttm": "2022-02-24T20:16:30.79490",
         "ivr-article": "west of",
-        "ivr-county": "Alameda",
+        "ivr-county": "San Joaquin",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220224GG02169",
+        "SourceEventID": "220224ST00338",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-580 Eastbound west of Grant Line Rd (Unincorporated). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Roadwork on I-580 Westbound between I-238 S (Castro Valley) and Oakland Ave (Oakland). Various lanes closed until 5 AM. Thursday, February 24, 2022 8:01 PM thru Friday, February 25, 2022 5:01 AM, Thursday/Friday.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": "Residual delays"
+        "event_subtype": "Roadwork"
       },
-      "severity": "Moderate",
-      "created": "2022-02-25T04:05Z",
-      "updated": "2022-02-25T04:06Z",
+      "severity": "Unknown",
+      "created": "2022-02-25T04:23Z",
+      "updated": "2022-02-25T04:23Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -621,64 +918,65 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.59082,
-          37.739335
+          -122.104045,
+          37.695388
         ]
       },
       "source_type": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
+        "#text": "Caltrans"
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220224GG02179"
+        "#text": "C580MA-0010-2022-02-24-20:01:00"
       },
       "roads": [
         {
-          "name": "I-580 E",
-          "from": "Grant Line Rd",
-          "direction": "Eastbound",
+          "name": "I-580 W",
+          "from": "I-238 S",
+          "to": "Oakland Ave",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Various lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "until 5 AM"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "between"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-25T04:05Z/"
+          "2022-02-25T04:01Z/2022-02-25T13:01Z"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-24T20:07:42.22019"
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
         },
         "event-reference": {
-          "event-identifier": "875792"
+          "event-identifier": "875796"
         },
         "event-status": "new",
         "details": {
           "eventElementDetails": {
-            "event-element-sequence": "4",
+            "event-element-sequence": "2",
             "event-element-description": {
               "eventDescription": [
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Residual delays"
+                      "incident": "Roadwork"
                     }
                   }
                 },
@@ -688,7 +986,303 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-580 Eastbound west of Grant Line Rd (Unincorporated). Right shoulder affected. Expect delays."
+                      "event-description": "Caltrans : Roadwork on I-580 Westbound between I-238 S (Castro Valley) and Oakland Ave (Oakland). Various lanes closed until 5 AM. Thursday, February 24, 2022 8:01 PM thru Friday, February 25, 2022 5:01 AM, Thursday/Friday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "I-238 S",
+                  "link-to-road": "Oakland Ave",
+                  "link-from-city": "Castro Valley",
+                  "link-to-city": "Oakland",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.695388",
+                    "event-location-coordinates-longitude": "-122.104045"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-24T20:23:26.78690",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-02-24T20:01:00.00000",
+              "cleared-time": "2022-02-25T05:01:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-24T20:23:26.78690",
+        "ivr-article": "between",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Various lanes",
+        "ivr-genOtherText": "until 5 AM",
+        "SourceEventID": "C580MA-0010-2022-02-24-20:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on I-580 Westbound exiting at Estudillo Ave (San Leandro). Off Ramp closed until 7 AM. Thursday, February 24, 2022 8:01 PM thru Friday, February 25, 2022 7:01 AM, Thursday/Friday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-02-25T04:23Z",
+      "updated": "2022-02-25T04:23Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.137472,
+          37.725495
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C580MA-0085-2022-02-24-20:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Estudillo Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 7 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "exiting at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-25T04:01Z/2022-02-25T15:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
+        },
+        "event-reference": {
+          "event-identifier": "875797"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-580 Westbound exiting at Estudillo Ave (San Leandro). Off Ramp closed until 7 AM. Thursday, February 24, 2022 8:01 PM thru Friday, February 25, 2022 7:01 AM, Thursday/Friday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Estudillo Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Leandro",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.725495",
+                    "event-location-coordinates-longitude": "-122.137472"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-24T20:23:26.98280",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-02-24T20:01:00.00000",
+              "cleared-time": "2022-02-25T07:01:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-24T20:23:26.98280",
+        "ivr-article": "exiting at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "until 7 AM",
+        "SourceEventID": "C580MA-0085-2022-02-24-20:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on I-580 Eastbound exiting at Estudillo Ave (San Leandro). Off Ramp closed until 7 AM. Thursday, February 24, 2022 7:01 PM thru Friday, February 25, 2022 7:01 AM, Thursday/Friday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-02-25T04:23Z",
+      "updated": "2022-02-25T04:23Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.138594,
+          37.729206
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C580MA-0090-2022-02-24-19:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Estudillo Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 7 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "exiting at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-25T03:01Z/2022-02-25T15:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
+        },
+        "event-reference": {
+          "event-identifier": "875798"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-580 Eastbound exiting at Estudillo Ave (San Leandro). Off Ramp closed until 7 AM. Thursday, February 24, 2022 7:01 PM thru Friday, February 25, 2022 7:01 AM, Thursday/Friday."
                     }
                   }
                 }
@@ -699,44 +1293,340 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
                   "link-road-designator": "I-580 E",
-                  "link-from-road": "Grant Line Rd",
+                  "link-from-road": "Estudillo Ave",
                   "link-to-road": null,
-                  "link-from-city": "Unincorporated",
+                  "link-from-city": "San Leandro",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.739335",
-                    "event-location-coordinates-longitude": "-121.59082"
+                    "event-location-coordinates-latitude": "37.729206",
+                    "event-location-coordinates-longitude": "-122.138594"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-24T20:06:22.47020",
+              "update-time": "2022-02-24T20:23:27.11910",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2022-02-24T20:05:00.00000",
-              "cleared-time": null,
+              "start-time": "2022-02-24T19:01:00.00000",
+              "cleared-time": "2022-02-25T07:01:00.00000",
               "utc-offset": "-0800"
             },
             "event-element-source": {
-              "event-organization-reported-identifier": "1003"
+              "event-organization-reported-identifier": "1004"
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-24T20:06:22.47020",
-        "ivr-article": "west of",
+        "ivr-lastUpdateDttm": "2022-02-24T20:23:27.11910",
+        "ivr-article": "exiting at",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220224GG02179",
-        "EventSourceName": "CHP",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "until 7 AM",
+        "SourceEventID": "C580MA-0090-2022-02-24-19:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on I-580 Westbound exiting at Macarthur Blvd-dutton Ave (Oakland). Off Ramp closed until 6 AM. Thursday, February 24, 2022 8:01 PM thru Friday, February 25, 2022 6:01 AM, Thursday/Friday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-02-25T04:23Z",
+      "updated": "2022-02-25T04:23Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.139617,
+          37.734862
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C580MA-0095-2022-02-24-20:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Macarthur Blvd-dutton Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 6 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "exiting at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-25T04:01Z/2022-02-25T14:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
+        },
+        "event-reference": {
+          "event-identifier": "875799"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-580 Westbound exiting at Macarthur Blvd-dutton Ave (Oakland). Off Ramp closed until 6 AM. Thursday, February 24, 2022 8:01 PM thru Friday, February 25, 2022 6:01 AM, Thursday/Friday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Macarthur Blvd-dutton Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.734862",
+                    "event-location-coordinates-longitude": "-122.139617"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-24T20:23:27.30920",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-02-24T20:01:00.00000",
+              "cleared-time": "2022-02-25T06:01:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-24T20:23:27.30920",
+        "ivr-article": "exiting at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "until 6 AM",
+        "SourceEventID": "C580MA-0095-2022-02-24-20:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on I-580 Eastbound exiting at Macarthur Blvd-dutton Ave (Oakland). Off Ramp closed until 6 AM. Thursday, February 24, 2022 8:01 PM thru Friday, February 25, 2022 6:01 AM, Thursday/Friday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-02-25T04:23Z",
+      "updated": "2022-02-25T04:23Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.143867,
+          37.73997
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C580MA-0100-2022-02-24-20:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Macarthur Blvd-dutton Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 6 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "exiting at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-25T04:01Z/2022-02-25T14:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-24T20:24:28.08564"
+        },
+        "event-reference": {
+          "event-identifier": "875800"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-580 Eastbound exiting at Macarthur Blvd-dutton Ave (Oakland). Off Ramp closed until 6 AM. Thursday, February 24, 2022 8:01 PM thru Friday, February 25, 2022 6:01 AM, Thursday/Friday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Macarthur Blvd-dutton Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.73997",
+                    "event-location-coordinates-longitude": "-122.143867"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-24T20:23:27.45180",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-02-24T20:01:00.00000",
+              "cleared-time": "2022-02-25T06:01:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-02-24T20:23:27.45180",
+        "ivr-article": "exiting at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "until 6 AM",
+        "SourceEventID": "C580MA-0100-2022-02-24-20:01:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     }
