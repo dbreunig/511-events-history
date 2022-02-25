@@ -72,7 +72,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-24T18:08:49.97722"
+          "event-message-time-stamp": "2022-02-24T18:26:54.62167"
         },
         "event-reference": {
           "event-identifier": "874751"
@@ -220,7 +220,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-24T18:08:49.97722"
+          "event-message-time-stamp": "2022-02-24T18:26:54.62167"
         },
         "event-reference": {
           "event-identifier": "875749"
@@ -298,14 +298,162 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-4 Eastbound west of Port Chicago Hwy (Concord). Left lanes affected. Expect delays.",
+      "headline": "CHP : Fire on I-880 Southbound at W Tennyson Rd (Hayward). Off Ramp closed. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Major",
+      "created": "2022-02-25T02:11Z",
+      "updated": "2022-02-25T02:24Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.08695,
+          37.634974
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220224GG01898"
+      },
+      "roads": [
+        {
+          "name": "I-880 S",
+          "from": "W Tennyson Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-25T02:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-24T18:26:54.62167"
+        },
+        "event-reference": {
+          "event-identifier": "875757"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on I-880 Southbound at W Tennyson Rd (Hayward). Off Ramp closed. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "W Tennyson Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Hayward",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.634974",
+                    "event-location-coordinates-longitude": "-122.08695"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-24T18:24:52.69590",
+              "valid-period": {
+                "event-timeline-estimated-duration": "52"
+              },
+              "start-time": "2022-02-24T18:23:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-02-24T18:24:52.69590",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220224GG01898",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Eastbound west of Fitzgerald Dr (Pinole). 2nd lane from the left blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-02-25T02:00Z",
-      "updated": "2022-02-25T02:02Z",
+      "created": "2022-02-25T02:13Z",
+      "updated": "2022-02-25T02:14Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -325,8 +473,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.002277,
-          38.012596
+          -122.313409,
+          37.987956
         ]
       },
       "source_type": {
@@ -335,21 +483,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220224GG01871"
+        "#text": "220224GG01916"
       },
       "roads": [
         {
-          "name": "CA-4 E",
-          "from": "Port Chicago Hwy",
+          "name": "I-80 E",
+          "from": "Fitzgerald Dr",
           "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lanes"
+            "#text": "2nd lane from the left"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -363,15 +511,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-25T02:00Z/"
+          "2022-02-25T02:13Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-24T18:08:49.97722"
+          "event-message-time-stamp": "2022-02-24T18:26:54.62167"
         },
         "event-reference": {
-          "event-identifier": "875751"
+          "event-identifier": "875759"
         },
         "event-status": "new",
         "details": {
@@ -392,7 +540,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-4 Eastbound west of Port Chicago Hwy (Concord). Left lanes affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound west of Fitzgerald Dr (Pinole). 2nd lane from the left blocked. Expect delays."
                     }
                   }
                 }
@@ -402,24 +550,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 E",
-                  "link-from-road": "Port Chicago Hwy",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Fitzgerald Dr",
                   "link-to-road": null,
-                  "link-from-city": "Concord",
+                  "link-from-city": "Pinole",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.012596",
-                    "event-location-coordinates-longitude": "-122.002277"
+                    "event-location-coordinates-latitude": "37.987956",
+                    "event-location-coordinates-longitude": "-122.313409"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-24T18:02:34.38830",
+              "update-time": "2022-02-24T18:14:22.03700",
               "valid-period": {
-                "event-timeline-estimated-duration": "40.5"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-02-24T18:00:00.00000",
+              "start-time": "2022-02-24T18:13:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -433,34 +581,34 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-24T18:02:34.38830",
+        "ivr-lastUpdateDttm": "2022-02-24T18:14:22.03700",
         "ivr-article": "west of",
         "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left lanes",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "2nd lane from the left",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220224GG01871",
+        "SourceEventID": "220224GG01916",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-12 Eastbound at Beck Ave (Fairfield). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Hazard on CA-87 Northbound south of Coleman Ave (San Jose). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-02-25T02:05Z",
-      "updated": "2022-02-25T02:06Z",
+      "created": "2022-02-25T02:26Z",
+      "updated": "2022-02-25T02:26Z",
       "areas": {
         "area": {
-          "name": "Solano",
-          "id": "5396987",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -473,8 +621,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.066412,
-          38.240267
+          -121.901165,
+          37.3427
         ]
       },
       "source_type": {
@@ -483,13 +631,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220224GG01884"
+        "#text": "220224GG01950"
       },
       "roads": [
         {
-          "name": "CA-12 E",
-          "from": "Beck Ave",
-          "direction": "Eastbound",
+          "name": "CA-87 N",
+          "from": "Coleman Ave",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -505,21 +653,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-25T02:04Z/"
+          "2022-02-25T02:26Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-24T18:08:49.97722"
+          "event-message-time-stamp": "2022-02-24T18:26:54.62167"
         },
         "event-reference": {
-          "event-identifier": "875753"
+          "event-identifier": "875763"
         },
         "event-status": "new",
         "details": {
@@ -530,7 +678,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -540,7 +688,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-12 Eastbound at Beck Ave (Fairfield). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-87 Northbound south of Coleman Ave (San Jose). Lane blocked. Expect delays."
                     }
                   }
                 }
@@ -549,25 +697,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "CA-12 E",
-                  "link-from-road": "Beck Ave",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-87 N",
+                  "link-from-road": "Coleman Ave",
                   "link-to-road": null,
-                  "link-from-city": "Fairfield",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.240267",
-                    "event-location-coordinates-longitude": "-122.066412"
+                    "event-location-coordinates-latitude": "37.3427",
+                    "event-location-coordinates-longitude": "-121.901165"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-24T18:06:21.94530",
+              "update-time": "2022-02-24T18:26:13.14010",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.2"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2022-02-24T18:04:00.00000",
+              "start-time": "2022-02-24T18:26:05.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -580,162 +728,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-24T18:06:21.94530",
-        "ivr-article": "at",
-        "ivr-county": "Solano",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-02-24T18:26:13.14010",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220224GG01884",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on CA-24 Eastbound west of Pleasant Hill Rd (Lafayette). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Moderate",
-      "created": "2022-02-25T02:06Z",
-      "updated": "2022-02-25T02:07Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.101841,
-          37.8969
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220224GG01885"
-      },
-      "roads": [
-        {
-          "name": "CA-24 E",
-          "from": "Pleasant Hill Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-25T02:06Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-24T18:08:49.97722"
-        },
-        "event-reference": {
-          "event-identifier": "875754"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on CA-24 Eastbound west of Pleasant Hill Rd (Lafayette). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 E",
-                  "link-from-road": "Pleasant Hill Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Lafayette",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.8969",
-                    "event-location-coordinates-longitude": "-122.101841"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-24T18:07:14.91580",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25.5"
-              },
-              "start-time": "2022-02-24T18:06:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-24T18:07:14.91580",
-        "ivr-article": "west of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220224GG01885",
+        "SourceEventID": "220224GG01950",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
