@@ -72,7 +72,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-26T17:29:58.88547"
+          "event-message-time-stamp": "2022-02-26T17:56:40.57075"
         },
         "event-reference": {
           "event-identifier": "874751"
@@ -220,7 +220,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-26T17:29:58.88547"
+          "event-message-time-stamp": "2022-02-26T17:56:40.57075"
         },
         "event-reference": {
           "event-identifier": "876388"
@@ -298,14 +298,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Eastbound east of 1ST St (Livermore). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-880 Southbound north of W A St (Hayward). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-02-27T01:21Z",
-      "updated": "2022-02-27T01:23Z",
+      "created": "2022-02-27T01:39Z",
+      "updated": "2022-02-27T01:53Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -325,8 +325,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.736852,
-          37.703393
+          -122.109386,
+          37.668957
         ]
       },
       "source_type": {
@@ -335,13 +335,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220226GG01729"
+        "#text": "220226GG01777"
       },
       "roads": [
         {
-          "name": "I-580 E",
-          "from": "1ST St",
-          "direction": "Eastbound",
+          "name": "I-880 S",
+          "from": "W A St",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -357,169 +357,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-27T01:23Z/"
+          "2022-02-27T01:53Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-26T17:29:58.88547"
+          "event-message-time-stamp": "2022-02-26T17:56:40.57075"
         },
         "event-reference": {
-          "event-identifier": "876390"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound east of 1ST St (Livermore). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "1ST St",
-                  "link-to-road": null,
-                  "link-from-city": "Livermore",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.703393",
-                    "event-location-coordinates-longitude": "-121.736852"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-26T17:23:25.62840",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2022-02-26T17:23:24.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-26T17:23:25.62840",
-        "ivr-article": "east of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220226GG01729",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Eastbound south of US-101 S (San Rafael). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-02-27T01:22Z",
-      "updated": "2022-02-27T01:22Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.511824,
-          37.963691
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220226GG01731"
-      },
-      "roads": [
-        {
-          "name": "I-580 E",
-          "from": "US-101 S",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-27T01:22Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-26T17:29:58.88547"
-        },
-        "event-reference": {
-          "event-identifier": "876391"
+          "event-identifier": "876394"
         },
         "event-status": "new",
         "details": {
@@ -540,7 +392,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Eastbound south of US-101 S (San Rafael). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-880 Southbound north of W A St (Hayward). Lane blocked. Expect delays."
                     }
                   }
                 }
@@ -549,25 +401,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "US-101 S",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "W A St",
                   "link-to-road": null,
-                  "link-from-city": "San Rafael",
+                  "link-from-city": "Hayward",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.963691",
-                    "event-location-coordinates-longitude": "-122.511824"
+                    "event-location-coordinates-latitude": "37.668957",
+                    "event-location-coordinates-longitude": "-122.109386"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-26T17:22:22.66280",
+              "update-time": "2022-02-26T17:53:47.55680",
               "valid-period": {
-                "event-timeline-estimated-duration": "34"
+                "event-timeline-estimated-duration": "25"
               },
-              "start-time": "2022-02-26T17:22:21.00000",
+              "start-time": "2022-02-26T17:53:46.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -580,162 +432,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-26T17:22:22.66280",
-        "ivr-article": "south of",
-        "ivr-county": "Marin",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-02-26T17:53:47.55680",
+        "ivr-article": "north of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220226GG01731",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-4 Eastbound east of Arnold Industrial Pl (Concord). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-02-27T01:24Z",
-      "updated": "2022-02-27T01:24Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.047248,
-          38.00229
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220226GG01740"
-      },
-      "roads": [
-        {
-          "name": "CA-4 E",
-          "from": "Arnold Industrial Pl",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-02-27T01:24Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-02-26T17:29:58.88547"
-        },
-        "event-reference": {
-          "event-identifier": "876392"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-4 Eastbound east of Arnold Industrial Pl (Concord). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 E",
-                  "link-from-road": "Arnold Industrial Pl",
-                  "link-to-road": null,
-                  "link-from-city": "Concord",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.00229",
-                    "event-location-coordinates-longitude": "-122.047248"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-02-26T17:24:28.83290",
-              "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
-              },
-              "start-time": "2022-02-26T17:24:28.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-26T17:24:28.83290",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220226GG01740",
+        "SourceEventID": "220226GG01777",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
