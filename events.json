@@ -72,7 +72,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-27T12:05:19.37127"
+          "event-message-time-stamp": "2022-02-27T12:23:09.10989"
         },
         "event-reference": {
           "event-identifier": "874751"
@@ -157,7 +157,7 @@
       },
       "severity": "Moderate",
       "created": "2022-02-27T19:10Z",
-      "updated": "2022-02-27T19:26Z",
+      "updated": "2022-02-27T20:23Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -215,12 +215,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-27T19:26Z/"
+          "2022-02-27T20:23Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-27T12:05:19.37127"
+          "event-message-time-stamp": "2022-02-27T12:23:09.10989"
         },
         "event-reference": {
           "event-identifier": "876523"
@@ -267,11 +267,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-27T11:26:18.99380",
+              "update-time": "2022-02-27T12:23:01.73740",
               "valid-period": {
                 "event-timeline-estimated-duration": "29.5"
               },
-              "start-time": "2022-02-27T11:26:18.00000",
+              "start-time": "2022-02-27T12:23:01.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -285,7 +285,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-27T11:26:18.99380",
+        "ivr-lastUpdateDttm": "2022-02-27T12:23:01.73740",
         "ivr-article": "west of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
@@ -298,21 +298,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Northbound south of High St (Oakland). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-280 Northbound at S Winchester Blvd (San Jose). Left lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-02-27T19:18Z",
-      "updated": "2022-02-27T19:19Z",
+      "created": "2022-02-27T20:11Z",
+      "updated": "2022-02-27T20:11Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -325,8 +325,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.216843,
-          37.764023
+          -121.947986,
+          37.316656
         ]
       },
       "source_type": {
@@ -335,13 +335,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220227GG00917"
+        "#text": "220227GG01054"
       },
       "roads": [
         {
-          "name": "I-880 N",
-          "from": "High St",
+          "name": "I-280 N",
+          "from": "S Winchester Blvd",
           "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-27T20:11Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-27T12:23:09.10989"
+        },
+        "event-reference": {
+          "event-identifier": "876539"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-280 Northbound at S Winchester Blvd (San Jose). Left lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "S Winchester Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.316656",
+                    "event-location-coordinates-longitude": "-121.947986"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-27T12:11:26.55520",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-02-27T12:11:25.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-02-27T12:11:26.55520",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220227GG01054",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Southbound north of I-880 N (San Jose). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-27T20:14Z",
+      "updated": "2022-02-27T20:14Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.896941,
+          37.363415
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220227GG01064"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "I-880 N",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -357,21 +505,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-27T19:18Z/"
+          "2022-02-27T20:14Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-27T12:05:19.37127"
+          "event-message-time-stamp": "2022-02-27T12:23:09.10989"
         },
         "event-reference": {
-          "event-identifier": "876527"
+          "event-identifier": "876540"
         },
         "event-status": "new",
         "details": {
@@ -392,7 +540,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of High St (Oakland). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on US-101 Southbound north of I-880 N (San Jose). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -401,25 +549,173 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "High St",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "I-880 N",
                   "link-to-road": null,
-                  "link-from-city": "Oakland",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.764023",
-                    "event-location-coordinates-longitude": "-122.216843"
+                    "event-location-coordinates-latitude": "37.363415",
+                    "event-location-coordinates-longitude": "-121.896941"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-27T11:19:25.25960",
+              "update-time": "2022-02-27T12:14:36.03110",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "25"
               },
-              "start-time": "2022-02-27T11:18:56.00000",
+              "start-time": "2022-02-27T12:14:35.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-02-27T12:14:36.03110",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220227GG01064",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Grass fire on CA-17 Northbound north of Granite Creek Rd (Scotts Valley). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Grass fire"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-27T20:15Z",
+      "updated": "2022-02-27T20:16Z",
+      "areas": {
+        "area": {
+          "name": "Santa Cruz",
+          "id": "5393068",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393068/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.004847,
+          37.060211
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220227MY00161"
+      },
+      "roads": [
+        {
+          "name": "CA-17 N",
+          "from": "Granite Creek Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-27T20:16Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-27T12:23:09.10989"
+        },
+        "event-reference": {
+          "event-identifier": "876541"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Grass fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Grass fire on CA-17 Northbound north of Granite Creek Rd (Scotts Valley). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA087",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "Granite Creek Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Scotts Valley",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.060211",
+                    "event-location-coordinates-longitude": "-122.004847"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-27T12:16:42.72290",
+              "valid-period": {
+                "event-timeline-estimated-duration": "37"
+              },
+              "start-time": "2022-02-27T12:16:42.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -433,27 +729,27 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-02-27T11:19:25.25960",
-        "ivr-article": "south of",
-        "ivr-county": "Alameda",
+        "ivr-lastUpdateDttm": "2022-02-27T12:16:42.72290",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220227GG00917",
+        "SourceEventID": "220227MY00161",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-17 Southbound north of San Tomas Expy (Campbell). Right lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on US-101 Northbound south of San Benito County Line (Gilroy). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Moderate",
-      "created": "2022-02-27T19:51Z",
-      "updated": "2022-02-27T19:57Z",
+      "severity": "Minor",
+      "created": "2022-02-27T20:15Z",
+      "updated": "2022-02-27T20:18Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -473,8 +769,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.946309,
-          37.275824
+          -121.5475,
+          36.929167
         ]
       },
       "source_type": {
@@ -483,17 +779,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220227GG01010"
+        "#text": "220227MY00160"
       },
       "roads": [
         {
-          "name": "CA-17 S",
-          "from": "San Tomas Expy",
-          "direction": "Southbound",
+          "name": "US-101 N",
+          "from": "San Benito County Line",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -505,21 +801,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-27T19:51Z/"
+          "2022-02-27T20:18Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-27T12:05:19.37127"
+          "event-message-time-stamp": "2022-02-27T12:23:09.10989"
         },
         "event-reference": {
-          "event-identifier": "876536"
+          "event-identifier": "876542"
         },
         "event-status": "new",
         "details": {
@@ -530,7 +826,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Traffic Collision with Injuries"
                     }
                   }
                 },
@@ -540,7 +836,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-17 Southbound north of San Tomas Expy (Campbell). Right lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Northbound south of San Benito County Line (Gilroy). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -550,24 +846,172 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-17 S",
-                  "link-from-road": "San Tomas Expy",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "San Benito County Line",
                   "link-to-road": null,
-                  "link-from-city": "Campbell",
+                  "link-from-city": "Gilroy",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.275824",
-                    "event-location-coordinates-longitude": "-121.946309"
+                    "event-location-coordinates-latitude": "36.929167",
+                    "event-location-coordinates-longitude": "-121.5475"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-27T11:57:38.67260",
+              "update-time": "2022-02-27T12:18:49.20630",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "23.5"
               },
-              "start-time": "2022-02-27T11:51:00.00000",
+              "start-time": "2022-02-27T12:18:48.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-02-27T12:18:49.20630",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220227MY00160",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Southbound at Baker Ave (Santa Rosa). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-27T20:17Z",
+      "updated": "2022-02-27T20:17Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.715455,
+          38.421721
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220227GG01076"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Baker Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-27T20:17Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-27T12:23:09.10989"
+        },
+        "event-reference": {
+          "event-identifier": "876543"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Southbound at Baker Ave (Santa Rosa). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Baker Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Santa Rosa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.421721",
+                    "event-location-coordinates-longitude": "-122.715455"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-27T12:17:45.79620",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2022-02-27T12:17:45.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -581,34 +1025,34 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-02-27T11:57:38.67260",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
+        "ivr-lastUpdateDttm": "2022-02-27T12:17:45.79620",
+        "ivr-article": "at",
+        "ivr-county": "Sonoma",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220227GG01010",
+        "SourceEventID": "220227GG01076",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-4 Eastbound west of Railroad Ave (Pittsburg). Right lanes affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on CA-85 Southbound south of Saratoga Ave (Saratoga). Lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-02-27T19:54Z",
-      "updated": "2022-02-27T19:55Z",
+      "created": "2022-02-27T20:20Z",
+      "updated": "2022-02-27T20:20Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -621,8 +1065,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.894061,
-          38.017951
+          -122.003628,
+          37.274669
         ]
       },
       "source_type": {
@@ -631,17 +1075,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220227GG01018"
+        "#text": "220227GG01083"
       },
       "roads": [
         {
-          "name": "CA-4 E",
-          "from": "Railroad Ave",
-          "direction": "Eastbound",
+          "name": "CA-85 S",
+          "from": "Saratoga Ave",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lanes"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -653,21 +1097,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-02-27T19:54Z/"
+          "2022-02-27T20:20Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-27T12:05:19.37127"
+          "event-message-time-stamp": "2022-02-27T12:23:09.10989"
         },
         "event-reference": {
-          "event-identifier": "876538"
+          "event-identifier": "876544"
         },
         "event-status": "new",
         "details": {
@@ -688,7 +1132,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-4 Eastbound west of Railroad Ave (Pittsburg). Right lanes affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-85 Southbound south of Saratoga Ave (Saratoga). Lanes affected. Expect delays."
                     }
                   }
                 }
@@ -697,25 +1141,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 E",
-                  "link-from-road": "Railroad Ave",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-85 S",
+                  "link-from-road": "Saratoga Ave",
                   "link-to-road": null,
-                  "link-from-city": "Pittsburg",
+                  "link-from-city": "Saratoga",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.017951",
-                    "event-location-coordinates-longitude": "-121.894061"
+                    "event-location-coordinates-latitude": "37.274669",
+                    "event-location-coordinates-longitude": "-122.003628"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-27T11:55:28.11460",
+              "update-time": "2022-02-27T12:20:55.28450",
               "valid-period": {
                 "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2022-02-27T11:54:00.00000",
+              "start-time": "2022-02-27T12:20:54.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -728,14 +1172,162 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-02-27T11:55:28.11460",
-        "ivr-article": "west of",
-        "ivr-county": "Contra Costa",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-02-27T12:20:55.28450",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lanes",
+        "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220227GG01018",
+        "SourceEventID": "220227GG01083",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Manuel t Freitas Pky (San Rafael). Lanes affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-27T20:23Z",
+      "updated": "2022-02-27T20:23Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.538358,
+          38.002784
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220227GG01086"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Manuel t Freitas Pky",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-27T20:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-27T12:23:09.10989"
+        },
+        "event-reference": {
+          "event-identifier": "876545"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Manuel t Freitas Pky (San Rafael). Lanes affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Manuel t Freitas Pky",
+                  "link-to-road": null,
+                  "link-from-city": "San Rafael",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.002784",
+                    "event-location-coordinates-longitude": "-122.538358"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-27T12:23:01.44880",
+              "valid-period": {
+                "event-timeline-estimated-duration": "32.5"
+              },
+              "start-time": "2022-02-27T12:23:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-02-27T12:23:01.44880",
+        "ivr-article": "south of",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220227GG01086",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
