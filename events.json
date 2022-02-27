@@ -72,7 +72,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-26T19:34:48.01188"
+          "event-message-time-stamp": "2022-02-26T19:48:21.17952"
         },
         "event-reference": {
           "event-identifier": "874751"
@@ -220,7 +220,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-26T19:34:48.01188"
+          "event-message-time-stamp": "2022-02-26T19:48:21.17952"
         },
         "event-reference": {
           "event-identifier": "876403"
@@ -368,7 +368,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-26T19:34:48.01188"
+          "event-message-time-stamp": "2022-02-26T19:48:21.17952"
         },
         "event-reference": {
           "event-identifier": "876407"
@@ -516,7 +516,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-26T19:34:48.01188"
+          "event-message-time-stamp": "2022-02-26T19:48:21.17952"
         },
         "event-reference": {
           "event-identifier": "876410"
@@ -664,7 +664,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-26T19:34:48.01188"
+          "event-message-time-stamp": "2022-02-26T19:48:21.17952"
         },
         "event-reference": {
           "event-identifier": "876413"
@@ -742,21 +742,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fire on US-101 Southbound north of I-280 S (san Jose) (San Jose). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound at Hilltop Dr (San Pablo). Off Ramp affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Fire"
+        "event_subtype": "Traffic Hazard"
       },
-      "severity": "Moderate",
-      "created": "2022-02-27T03:23Z",
-      "updated": "2022-02-27T03:26Z",
+      "severity": "Major",
+      "created": "2022-02-27T03:42Z",
+      "updated": "2022-02-27T03:42Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -769,8 +769,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.852009,
-          37.339427
+          -122.317375,
+          37.979573
         ]
       },
       "source_type": {
@@ -779,17 +779,165 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220226GG02021"
+        "#text": "220226GG02074"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Hilltop Dr",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-02-27T03:42Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-26T19:48:21.17952"
+        },
+        "event-reference": {
+          "event-identifier": "876416"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound at Hilltop Dr (San Pablo). Off Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Hilltop Dr",
+                  "link-to-road": null,
+                  "link-from-city": "San Pablo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.979573",
+                    "event-location-coordinates-longitude": "-122.317375"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-26T19:42:39.55580",
+              "valid-period": {
+                "event-timeline-estimated-duration": "50.5"
+              },
+              "start-time": "2022-02-26T19:42:38.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-26T19:42:39.55580",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220226GG02074",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on US-101 Southbound north of E Poplar Ave (San Mateo). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-02-27T03:47Z",
+      "updated": "2022-02-27T03:47Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.325401,
+          37.581246
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220226GG02086"
       },
       "roads": [
         {
           "name": "US-101 S",
-          "from": "I-280 S (san Jose)",
+          "from": "E Poplar Ave",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Left lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -807,15 +955,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-02-27T03:26Z/"
+          "2022-02-27T03:47Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-26T19:34:48.01188"
+          "event-message-time-stamp": "2022-02-26T19:48:21.17952"
         },
         "event-reference": {
-          "event-identifier": "876414"
+          "event-identifier": "876417"
         },
         "event-status": "new",
         "details": {
@@ -826,7 +974,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Fire"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -836,7 +984,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fire on US-101 Southbound north of I-280 S (san Jose) (San Jose). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on US-101 Southbound north of E Poplar Ave (San Mateo). Left lane affected. Expect delays."
                     }
                   }
                 }
@@ -845,25 +993,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
+                  "event-location-type-area": "CA081",
                   "link-road-designator": "US-101 S",
-                  "link-from-road": "I-280 S (san Jose)",
+                  "link-from-road": "E Poplar Ave",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "San Mateo",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.339427",
-                    "event-location-coordinates-longitude": "-121.852009"
+                    "event-location-coordinates-latitude": "37.581246",
+                    "event-location-coordinates-longitude": "-122.325401"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-26T19:26:57.72360",
+              "update-time": "2022-02-26T19:47:52.94280",
               "valid-period": {
-                "event-timeline-estimated-duration": "29.5"
+                "event-timeline-estimated-duration": "27.7"
               },
-              "start-time": "2022-02-26T19:26:56.00000",
+              "start-time": "2022-02-26T19:47:51.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -877,13 +1025,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-02-26T19:26:57.72360",
+        "ivr-lastUpdateDttm": "2022-02-26T19:47:52.94280",
         "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
+        "ivr-county": "San Mateo",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220226GG02021",
+        "SourceEventID": "220226GG02086",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
