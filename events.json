@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-28T18:17:05.56765"
+          "event-message-time-stamp": "2022-02-28T18:40:06.78093"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-28T18:17:05.56765"
+          "event-message-time-stamp": "2022-02-28T18:40:06.78093"
         },
         "event-reference": {
           "event-identifier": "876735"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-28T18:17:05.56765"
+          "event-message-time-stamp": "2022-02-28T18:40:06.78093"
         },
         "event-reference": {
           "event-identifier": "876876"
@@ -506,7 +506,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-28T18:17:05.56765"
+          "event-message-time-stamp": "2022-02-28T18:40:06.78093"
         },
         "event-reference": {
           "event-identifier": "876916"
@@ -654,7 +654,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-28T18:17:05.56765"
+          "event-message-time-stamp": "2022-02-28T18:40:06.78093"
         },
         "event-reference": {
           "event-identifier": "876925"
@@ -732,21 +732,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-680 Northbound at CA-84 W (Sunol). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound north of 3RD ST (San Rafael) (San Rafael). Left lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-03-01T02:13Z",
-      "updated": "2022-03-01T02:13Z",
+      "created": "2022-03-01T02:21Z",
+      "updated": "2022-03-01T02:23Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Marin",
+          "id": "5370468",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5370468/"
           }
         }
       },
@@ -759,8 +759,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.872667,
-          37.585063
+          -122.520421,
+          37.976276
         ]
       },
       "source_type": {
@@ -769,21 +769,169 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220228GG01549"
+        "#text": "220228GG01569"
       },
       "roads": [
         {
-          "name": "I-680 N",
-          "from": "CA-84 W",
+          "name": "US-101 N",
+          "from": "3RD ST (San Rafael)",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Left lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-01T02:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-28T18:40:06.78093"
+        },
+        "event-reference": {
+          "event-identifier": "876933"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound north of 3RD ST (San Rafael) (San Rafael). Left lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "3RD ST (San Rafael)",
+                  "link-to-road": null,
+                  "link-from-city": "San Rafael",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.976276",
+                    "event-location-coordinates-longitude": "-122.520421"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-28T18:23:08.67710",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-02-28T18:21:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-02-28T18:23:08.67710",
+        "ivr-article": "north of",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220228GG01569",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-205 Eastbound at W Grant Line Rd (Tracy). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-03-01T02:26Z",
+      "updated": "2022-03-01T02:29Z",
+      "areas": {
+        "area": {
+          "name": "San Joaquin",
+          "id": "5392126",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392126/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.460913,
+          37.754566
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220228ST00303"
+      },
+      "roads": [
+        {
+          "name": "I-205 E",
+          "from": "W Grant Line Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -797,15 +945,163 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-03-01T02:13Z/"
+          "2022-03-01T02:26Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-02-28T18:17:05.56765"
+          "event-message-time-stamp": "2022-02-28T18:40:06.78093"
         },
         "event-reference": {
-          "event-identifier": "876929"
+          "event-identifier": "876935"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-205 Eastbound at W Grant Line Rd (Tracy). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": null,
+                  "link-road-designator": "I-205 E",
+                  "link-from-road": "W Grant Line Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Tracy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.754566",
+                    "event-location-coordinates-longitude": "-121.460913"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-28T18:29:09.90040",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-02-28T18:26:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-02-28T18:29:09.90040",
+        "ivr-article": "at",
+        "ivr-county": "San Joaquin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220228ST00303",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-580 Westbound west of Richmond San Rafael Bridge - Toll Plaza (Richmond). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Major",
+      "created": "2022-03-01T02:30Z",
+      "updated": "2022-03-01T02:31Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.403542,
+          37.932486
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220228GG01584"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Richmond San Rafael Bridge - Toll Plaza",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-01T02:30Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-28T18:40:06.78093"
+        },
+        "event-reference": {
+          "event-identifier": "876936"
         },
         "event-status": "new",
         "details": {
@@ -826,7 +1122,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-680 Northbound at CA-84 W (Sunol). Lane blocked. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-580 Westbound west of Richmond San Rafael Bridge - Toll Plaza (Richmond). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -835,25 +1131,173 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "CA-84 W",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Richmond San Rafael Bridge - Toll Plaza",
                   "link-to-road": null,
-                  "link-from-city": "Sunol",
+                  "link-from-city": "Richmond",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.585063",
-                    "event-location-coordinates-longitude": "-121.872667"
+                    "event-location-coordinates-latitude": "37.932486",
+                    "event-location-coordinates-longitude": "-122.403542"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-02-28T18:13:18.45710",
+              "update-time": "2022-02-28T18:31:55.63280",
               "valid-period": {
-                "event-timeline-estimated-duration": "27.7"
+                "event-timeline-estimated-duration": "52.699999999999996"
               },
-              "start-time": "2022-02-28T18:13:17.00000",
+              "start-time": "2022-02-28T18:30:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-02-28T18:31:55.63280",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220228GG01584",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Injured animal on I-80 Eastbound west of CA-4 E (Hercules). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Injured animal"
+      },
+      "severity": "Moderate",
+      "created": "2022-03-01T02:34Z",
+      "updated": "2022-03-01T02:35Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.266264,
+          38.018239
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220228GG01597"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "CA-4 E",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-01T02:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-02-28T18:40:06.78093"
+        },
+        "event-reference": {
+          "event-identifier": "876939"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Injured animal"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Injured animal on I-80 Eastbound west of CA-4 E (Hercules). Left lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "CA-4 E",
+                  "link-to-road": null,
+                  "link-from-city": "Hercules",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.018239",
+                    "event-location-coordinates-longitude": "-122.266264"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-02-28T18:35:31.59240",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29"
+              },
+              "start-time": "2022-02-28T18:34:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -866,14 +1310,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-02-28T18:13:18.45710",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-02-28T18:35:31.59240",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220228GG01549",
+        "SourceEventID": "220228GG01597",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
