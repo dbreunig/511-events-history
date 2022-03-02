@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-01T19:10:05.96731"
+          "event-message-time-stamp": "2022-03-01T19:30:43.89346"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-01T19:10:05.96731"
+          "event-message-time-stamp": "2022-03-01T19:30:43.89346"
         },
         "event-reference": {
           "event-identifier": "876735"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-01T19:10:05.96731"
+          "event-message-time-stamp": "2022-03-01T19:30:43.89346"
         },
         "event-reference": {
           "event-identifier": "876876"
@@ -436,14 +436,311 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Southbound ramps to I-280 S (san Francisco) (San Francisco). Lane affected. Expect delays.",
+      "headline": "Caltrans : Bridge work on US-101 Southbound between Hamilton Dr (Mill Valley) and Donahue St (Sausalito). Lanes closed until 6 AM. Tuesday, March 1, 2022 7:01 PM thru Wednesday, March 2, 2022 5:59 AM, Tuesday/Wednesday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Bridge work"
+      },
+      "severity": "Unknown",
+      "created": "2022-03-02T03:13Z",
+      "updated": "2022-03-02T03:30Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.516805,
+          37.89035
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C101NC-0002-2022-03-01-19:01:00"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Hamilton Dr",
+          "to": "Donahue St",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 6 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "between"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-02T03:01Z/2022-03-02T13:59Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-01T19:30:43.89346"
+        },
+        "event-reference": {
+          "event-identifier": "877303"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Bridge work"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Bridge work on US-101 Southbound between Hamilton Dr (Mill Valley) and Donahue St (Sausalito). Lanes closed until 6 AM. Tuesday, March 1, 2022 7:01 PM thru Wednesday, March 2, 2022 5:59 AM, Tuesday/Wednesday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Hamilton Dr",
+                  "link-to-road": "Donahue St",
+                  "link-from-city": "Mill Valley",
+                  "link-to-city": "Sausalito",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.89035",
+                    "event-location-coordinates-longitude": "-122.516805"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-01T19:30:06.48050",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-03-01T19:01:00.00000",
+              "cleared-time": "2022-03-02T05:59:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-03-01T19:30:06.48050",
+        "ivr-article": "between",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "until 6 AM",
+        "SourceEventID": "C101NC-0002-2022-03-01-19:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Right shoulder closed until 9 PM. Tuesday, March 1, 2022 7:01 PM thru Tuesday, March 1, 2022 8:59 PM, Tuesday.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-03-02T03:13Z",
+      "updated": "2022-03-02T03:30Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.477644,
+          37.942579
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C580CB-0017-2022-03-01-19:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Main St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 9 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-02T03:01Z/2022-03-02T04:59Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-01T19:30:43.89346"
+        },
+        "event-reference": {
+          "event-identifier": "877304"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Right shoulder closed until 9 PM. Tuesday, March 1, 2022 7:01 PM thru Tuesday, March 1, 2022 8:59 PM, Tuesday."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Main St",
+                  "link-to-road": null,
+                  "link-from-city": "San Quentin",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.942579",
+                    "event-location-coordinates-longitude": "-122.477644"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-01T19:30:06.81140",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-03-01T19:01:00.00000",
+              "cleared-time": "2022-03-01T20:59:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-03-01T19:30:06.81140",
+        "ivr-article": "at",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "until 9 PM",
+        "SourceEventID": "C580CB-0017-2022-03-01-19:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-80 Westbound east of 4TH St (San Francisco). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-03-02T03:01Z",
-      "updated": "2022-03-02T03:03Z",
+      "created": "2022-03-02T03:14Z",
+      "updated": "2022-03-02T03:16Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -463,8 +760,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.40706,
-          37.73531
+          -122.397252,
+          37.78173
         ]
       },
       "source_type": {
@@ -473,13 +770,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220301GG02099"
+        "#text": "220301GG02127"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "I-280 S (san Francisco)",
-          "direction": "Southbound",
+          "name": "I-80 W",
+          "from": "4TH St",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -495,21 +792,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "ramps to"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-03-02T03:01Z/"
+          "2022-03-02T03:14Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-01T19:10:05.96731"
+          "event-message-time-stamp": "2022-03-01T19:30:43.89346"
         },
         "event-reference": {
-          "event-identifier": "877300"
+          "event-identifier": "877305"
         },
         "event-status": "new",
         "details": {
@@ -530,7 +827,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Southbound ramps to I-280 S (san Francisco) (San Francisco). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-80 Westbound east of 4TH St (San Francisco). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -540,24 +837,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA075",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "I-280 S (san Francisco)",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "4TH St",
                   "link-to-road": null,
                   "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.73531",
-                    "event-location-coordinates-longitude": "-122.40706"
+                    "event-location-coordinates-latitude": "37.78173",
+                    "event-location-coordinates-longitude": "-122.397252"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-01T19:03:09.56190",
+              "update-time": "2022-03-01T19:16:21.16730",
               "valid-period": {
-                "event-timeline-estimated-duration": "25"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-03-01T19:01:00.00000",
+              "start-time": "2022-03-01T19:14:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -570,28 +867,324 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-03-01T19:03:09.56190",
-        "ivr-article": "ramps to",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-03-01T19:16:21.16730",
+        "ivr-article": "east of",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220301GG02099",
+        "SourceEventID": "220301GG02127",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-80 Westbound west of Powell St (Emeryville). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-380 Eastbound west of US-101 S (South San Francisco). 2nd lane from the left affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-03-02T03:04Z",
-      "updated": "2022-03-02T03:04Z",
+      "created": "2022-03-02T03:15Z",
+      "updated": "2022-03-02T03:17Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.403778,
+          37.635799
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220301GG02129"
+      },
+      "roads": [
+        {
+          "name": "I-380 E",
+          "from": "US-101 S",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "2nd lane from the left"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-02T03:15Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-01T19:30:43.89346"
+        },
+        "event-reference": {
+          "event-identifier": "877306"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-380 Eastbound west of US-101 S (South San Francisco). 2nd lane from the left affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "I-380 E",
+                  "link-from-road": "US-101 S",
+                  "link-to-road": null,
+                  "link-from-city": "South San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.635799",
+                    "event-location-coordinates-longitude": "-122.403778"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-01T19:17:07.07760",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-03-01T19:15:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-03-01T19:17:07.07760",
+        "ivr-article": "west of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220301GG02129",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on CA-12 Eastbound west of Farmers Ln (Santa Rosa). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Minor",
+      "created": "2022-03-02T03:25Z",
+      "updated": "2022-03-02T03:26Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.687383,
+          38.437644
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220301GG02160"
+      },
+      "roads": [
+        {
+          "name": "CA-12 E",
+          "from": "Farmers Ln",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-02T03:25Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-01T19:30:43.89346"
+        },
+        "event-reference": {
+          "event-identifier": "877307"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on CA-12 Eastbound west of Farmers Ln (Santa Rosa). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "CA-12 E",
+                  "link-from-road": "Farmers Ln",
+                  "link-to-road": null,
+                  "link-from-city": "Santa Rosa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.437644",
+                    "event-location-coordinates-longitude": "-122.687383"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-01T19:26:56.32130",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.5"
+              },
+              "start-time": "2022-03-01T19:25:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-03-01T19:26:56.32130",
+        "ivr-article": "west of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220301GG02160",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Eastbound west of N Flynn Rd (Livermore). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-03-02T03:28Z",
+      "updated": "2022-03-02T03:29Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -611,8 +1204,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.296752,
-          37.838087
+          -121.660393,
+          37.719139
         ]
       },
       "source_type": {
@@ -621,17 +1214,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220301GG02109"
+        "#text": "220301GG02168"
       },
       "roads": [
         {
-          "name": "I-80 W",
-          "from": "Powell St",
-          "direction": "Westbound",
+          "name": "I-580 E",
+          "from": "N Flynn Rd",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -649,15 +1242,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-03-02T03:04Z/"
+          "2022-03-02T03:28Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-01T19:10:05.96731"
+          "event-message-time-stamp": "2022-03-01T19:30:43.89346"
         },
         "event-reference": {
-          "event-identifier": "877301"
+          "event-identifier": "877308"
         },
         "event-status": "new",
         "details": {
@@ -668,7 +1261,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -678,7 +1271,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-80 Westbound west of Powell St (Emeryville). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound west of N Flynn Rd (Livermore). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -688,24 +1281,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Powell St",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "N Flynn Rd",
                   "link-to-road": null,
-                  "link-from-city": "Emeryville",
+                  "link-from-city": "Livermore",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.838087",
-                    "event-location-coordinates-longitude": "-122.296752"
+                    "event-location-coordinates-latitude": "37.719139",
+                    "event-location-coordinates-longitude": "-121.660393"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-01T19:04:58.71570",
+              "update-time": "2022-03-01T19:29:57.34760",
               "valid-period": {
-                "event-timeline-estimated-duration": "33.7"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-03-01T19:04:00.00000",
+              "start-time": "2022-03-01T19:28:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -718,14 +1311,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-03-01T19:04:58.71570",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-03-01T19:29:57.34760",
         "ivr-article": "west of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220301GG02109",
+        "SourceEventID": "220301GG02168",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
