@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-01T18:59:04.46287"
+          "event-message-time-stamp": "2022-03-01T19:10:05.96731"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-01T18:59:04.46287"
+          "event-message-time-stamp": "2022-03-01T19:10:05.96731"
         },
         "event-reference": {
           "event-identifier": "876735"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-01T18:59:04.46287"
+          "event-message-time-stamp": "2022-03-01T19:10:05.96731"
         },
         "event-reference": {
           "event-identifier": "876876"
@@ -436,14 +436,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Northbound south of Mariposa St (San Francisco). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on US-101 Southbound ramps to I-280 S (san Francisco) (San Francisco). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-03-02T02:39Z",
-      "updated": "2022-03-02T02:39Z",
+      "created": "2022-03-02T03:01Z",
+      "updated": "2022-03-02T03:03Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -463,8 +463,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.405846,
-          37.76181
+          -122.40706,
+          37.73531
         ]
       },
       "source_type": {
@@ -473,13 +473,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220301GG02040"
+        "#text": "220301GG02099"
       },
       "roads": [
         {
-          "name": "US-101 N",
-          "from": "Mariposa St",
-          "direction": "Northbound",
+          "name": "US-101 S",
+          "from": "I-280 S (san Francisco)",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -495,21 +495,169 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "ramps to"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-03-02T02:39Z/"
+          "2022-03-02T03:01Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-01T18:59:04.46287"
+          "event-message-time-stamp": "2022-03-01T19:10:05.96731"
         },
         "event-reference": {
-          "event-identifier": "877297"
+          "event-identifier": "877300"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Southbound ramps to I-280 S (san Francisco) (San Francisco). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "I-280 S (san Francisco)",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.73531",
+                    "event-location-coordinates-longitude": "-122.40706"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-01T19:03:09.56190",
+              "valid-period": {
+                "event-timeline-estimated-duration": "25"
+              },
+              "start-time": "2022-03-01T19:01:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-03-01T19:03:09.56190",
+        "ivr-article": "ramps to",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220301GG02099",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-80 Westbound west of Powell St (Emeryville). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-03-02T03:04Z",
+      "updated": "2022-03-02T03:04Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.296752,
+          37.838087
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220301GG02109"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Powell St",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-02T03:04Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-01T19:10:05.96731"
+        },
+        "event-reference": {
+          "event-identifier": "877301"
         },
         "event-status": "new",
         "details": {
@@ -530,155 +678,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Northbound south of Mariposa St (San Francisco). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Mariposa St",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.76181",
-                    "event-location-coordinates-longitude": "-122.405846"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-01T18:39:49.84220",
-              "valid-period": {
-                "event-timeline-estimated-duration": "27.7"
-              },
-              "start-time": "2022-03-01T18:39:47.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-03-01T18:39:49.84220",
-        "ivr-article": "south of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220301GG02040",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Westbound east of Ashby Ave (Berkeley). Right lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-03-02T02:53Z",
-      "updated": "2022-03-02T02:54Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.29986,
-          37.852533
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220301GG02074"
-      },
-      "roads": [
-        {
-          "name": "I-80 W",
-          "from": "Ashby Ave",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-02T02:53Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-01T18:59:04.46287"
-        },
-        "event-reference": {
-          "event-identifier": "877299"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of Ashby Ave (Berkeley). Right lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-80 Westbound west of Powell St (Emeryville). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -689,23 +689,23 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
                   "link-road-designator": "I-80 W",
-                  "link-from-road": "Ashby Ave",
+                  "link-from-road": "Powell St",
                   "link-to-road": null,
-                  "link-from-city": "Berkeley",
+                  "link-from-city": "Emeryville",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.852533",
-                    "event-location-coordinates-longitude": "-122.29986"
+                    "event-location-coordinates-latitude": "37.838087",
+                    "event-location-coordinates-longitude": "-122.296752"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-01T18:54:27.29130",
+              "update-time": "2022-03-01T19:04:58.71570",
               "valid-period": {
-                "event-timeline-estimated-duration": "25.5"
+                "event-timeline-estimated-duration": "33.7"
               },
-              "start-time": "2022-03-01T18:53:00.00000",
+              "start-time": "2022-03-01T19:04:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -719,13 +719,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-03-01T18:54:27.29130",
-        "ivr-article": "east of",
+        "ivr-lastUpdateDttm": "2022-03-01T19:04:58.71570",
+        "ivr-article": "west of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220301GG02074",
+        "SourceEventID": "220301GG02109",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
