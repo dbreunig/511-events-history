@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "876735"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "876876"
@@ -503,7 +503,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "878878"
@@ -651,7 +651,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "878911"
@@ -729,14 +729,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-1 Southbound at Muir Woods Rd (Unincorporated). All lanes closed. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Traffic Collision on CA-1 Northbound and Southbound at Muir Woods Rd (Unincorporated). All lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": [
+          "Traffic Collision",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Major",
+      "severity": "Severe",
       "created": "2022-03-06T21:57Z",
-      "updated": "2022-03-06T22:33Z",
+      "updated": "2022-03-06T22:38Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -772,7 +775,7 @@
         {
           "name": "CA-1 S",
           "from": "Muir Woods Rd",
-          "direction": "Southbound",
+          "direction": "Northbound and Southbound",
           "state": "CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -780,7 +783,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -794,12 +797,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-03-06T22:33Z/"
+          "2022-03-06T22:34Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "878932"
@@ -812,9 +815,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -823,7 +831,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-1 Southbound at Muir Woods Rd (Unincorporated). All lanes closed. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision on CA-1 Northbound and Southbound at Muir Woods Rd (Unincorporated). All lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -846,11 +854,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-06T14:33:36.65020",
+              "update-time": "2022-03-06T14:38:58.67860",
               "valid-period": {
-                "event-timeline-estimated-duration": "53.5"
+                "event-timeline-estimated-duration": "68.5"
               },
-              "start-time": "2022-03-06T14:33:36.00000",
+              "start-time": "2022-03-06T14:34:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -859,15 +867,15 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Severe",
         "RoadClosed": "true",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-03-06T14:33:36.65020",
+        "ivr-eventClass": "5",
+        "ivr-eventDirection": "Northbound and Southbound",
+        "ivr-lastUpdateDttm": "2022-03-06T14:38:58.67860",
         "ivr-article": "at",
         "ivr-county": "Marin",
-        "ivr-laneStatus": "closed",
+        "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "All lanes",
         "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
@@ -885,7 +893,7 @@
       },
       "severity": "Moderate",
       "created": "2022-03-06T22:02Z",
-      "updated": "2022-03-06T22:14Z",
+      "updated": "2022-03-06T22:37Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -943,12 +951,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-03-06T22:10Z/"
+          "2022-03-06T22:37Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "878936"
@@ -995,11 +1003,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-06T14:14:47.87720",
+              "update-time": "2022-03-06T14:37:50.00020",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-03-06T14:10:27.00000",
+              "start-time": "2022-03-06T14:37:49.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1013,7 +1021,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-03-06T14:14:47.87720",
+        "ivr-lastUpdateDttm": "2022-03-06T14:37:50.00020",
         "ivr-article": "north of",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "blocked",
@@ -1026,14 +1034,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-580 Eastbound west of N Flynn Rd (Livermore). Center lanes affected. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Traffic Collision with Injuries on I-580 Eastbound west of N Flynn Rd (Livermore). Center lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Moderate",
+      "severity": "Major",
       "created": "2022-03-06T22:07Z",
-      "updated": "2022-03-06T22:15Z",
+      "updated": "2022-03-06T22:41Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1077,7 +1088,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1096,7 +1107,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "878940"
@@ -1109,9 +1120,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -1120,7 +1136,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-580 Eastbound west of N Flynn Rd (Livermore). Center lanes affected. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision with Injuries on I-580 Eastbound west of N Flynn Rd (Livermore). Center lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -1143,9 +1159,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-06T14:15:17.72280",
+              "update-time": "2022-03-06T14:41:30.29570",
               "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
+                "event-timeline-estimated-duration": "58"
               },
               "start-time": "2022-03-06T14:14:00.00000",
               "cleared-time": null,
@@ -1156,16 +1172,17 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "3",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-06T14:15:17.72280",
+        "ivr-lastUpdateDttm": "2022-03-06T14:41:30.29570",
         "ivr-article": "west of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
+        "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Center lanes",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220306GG01290",
         "EventSourceName": "CHP",
@@ -1243,7 +1260,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "878943"
@@ -1326,154 +1343,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-4 Eastbound west of Sand Creek Rd (Brentwood). Left lanes affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Major",
-      "created": "2022-03-06T22:17Z",
-      "updated": "2022-03-06T22:21Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.743882,
-          37.947685
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220306GG01320"
-      },
-      "roads": [
-        {
-          "name": "CA-4 E",
-          "from": "Sand Creek Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-06T22:17Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
-        },
-        "event-reference": {
-          "event-identifier": "878944"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-4 Eastbound west of Sand Creek Rd (Brentwood). Left lanes affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 E",
-                  "link-from-road": "Sand Creek Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Brentwood",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.947685",
-                    "event-location-coordinates-longitude": "-121.743882"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-06T14:21:00.61330",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
-              },
-              "start-time": "2022-03-06T14:17:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-06T14:21:00.61330",
-        "ivr-article": "west of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220306GG01320",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Disabled vehicle on I-80 Westbound west of Macdonald Ave (Richmond). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -1544,7 +1413,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "878948"
@@ -1629,7 +1498,7 @@
       },
       "severity": "Moderate",
       "created": "2022-03-06T22:33Z",
-      "updated": "2022-03-06T22:33Z",
+      "updated": "2022-03-06T22:34Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1687,12 +1556,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-03-06T22:33Z/"
+          "2022-03-06T22:34Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-06T14:34:31.08967"
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
         },
         "event-reference": {
           "event-identifier": "878949"
@@ -1739,11 +1608,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-06T14:33:36.51960",
+              "update-time": "2022-03-06T14:34:39.80890",
               "valid-period": {
                 "event-timeline-estimated-duration": "30.5"
               },
-              "start-time": "2022-03-06T14:33:36.00000",
+              "start-time": "2022-03-06T14:34:39.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1757,13 +1626,309 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-06T14:33:36.51960",
+        "ivr-lastUpdateDttm": "2022-03-06T14:34:39.80890",
         "ivr-article": "east of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220306GG01363",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-80 Eastbound east of Mason St (Vacaville). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Minor",
+      "created": "2022-03-06T22:34Z",
+      "updated": "2022-03-06T22:34Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.97396,
+          38.358413
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220306GGFSP00005"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Mason St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-06T22:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
+        },
+        "event-reference": {
+          "event-identifier": "878950"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-80 Eastbound east of Mason St (Vacaville). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Mason St",
+                  "link-to-road": null,
+                  "link-from-city": "Vacaville",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.358413",
+                    "event-location-coordinates-longitude": "-121.97396"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-06T14:34:40.02130",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.2"
+              },
+              "start-time": "2022-03-06T14:34:39.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-03-06T14:34:40.02130",
+        "ivr-article": "east of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220306GGFSP00005",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound west of University Ave (Berkeley). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-03-06T22:44Z",
+      "updated": "2022-03-06T22:48Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.303227,
+          37.864609
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220306GG01390"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "University Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-06T22:48Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-06T14:48:53.30722"
+        },
+        "event-reference": {
+          "event-identifier": "878953"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound west of University Ave (Berkeley). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "University Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Berkeley",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.864609",
+                    "event-location-coordinates-longitude": "-122.303227"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-06T14:48:20.38140",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-03-06T14:48:20.00000",
+              "cleared-time": null,
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-03-06T14:48:20.38140",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220306GG01390",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
