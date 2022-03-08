@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
+          "event-message-time-stamp": "2022-03-07T18:10:11.57857"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
+          "event-message-time-stamp": "2022-03-07T18:10:11.57857"
         },
         "event-reference": {
           "event-identifier": "876735"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
+          "event-message-time-stamp": "2022-03-07T18:10:11.57857"
         },
         "event-reference": {
           "event-identifier": "876876"
@@ -503,7 +503,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
+          "event-message-time-stamp": "2022-03-07T18:10:11.57857"
         },
         "event-reference": {
           "event-identifier": "878878"
@@ -581,21 +581,24 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-29 Southbound north of S Kelly Rd (Napa). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Long-term construction and Roadwork on I-205 Eastbound exiting at W 11TH St (Tracy). Off Ramp closed until 5-30 PM. From 7:00 AM Monday, March 07, 2022 to 5:30 PM Thursday, March 31, 2022.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": [
+          "Long-term construction",
+          "Roadwork"
+        ]
       },
-      "severity": "Moderate",
-      "created": "2022-03-08T00:48Z",
-      "updated": "2022-03-08T01:31Z",
+      "severity": "Unknown",
+      "created": "2022-03-08T01:37Z",
+      "updated": "2022-03-08T01:57Z",
       "areas": {
         "area": {
-          "name": "Napa",
-          "id": "5376101",
+          "name": "San Joaquin",
+          "id": "5392126",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5376101/"
+            "@href": "http://geonames.org/5392126/"
           }
         }
       },
@@ -608,8 +611,161 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.256236,
-          38.207634
+          -121.502977,
+          37.740581
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "P205AA-0001-2022-03-07-07:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-205 E",
+          "from": "W 11TH St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 5-30 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "exiting at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-07T15:01Z/2022-04-01T00:30Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-07T18:10:11.57857"
+        },
+        "event-reference": {
+          "event-identifier": "879364"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Long-term construction"
+                      },
+                      {
+                        "incident": "Roadwork"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Long-term construction and Roadwork on I-205 Eastbound exiting at W 11TH St (Tracy). Off Ramp closed until 5-30 PM. From 7:00 AM Monday, March 07, 2022 to 5:30 PM Thursday, March 31, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": null,
+                  "link-road-designator": "I-205 E",
+                  "link-from-road": "W 11TH St",
+                  "link-to-road": null,
+                  "link-from-city": "Tracy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.740581",
+                    "event-location-coordinates-longitude": "-121.502977"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-07T17:57:34.15800",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-03-07T07:01:00.00000",
+              "cleared-time": "2022-03-31T17:30:00.00000",
+              "utc-offset": "-0800"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-03-07T17:57:34.15800",
+        "ivr-article": "exiting at",
+        "ivr-county": "San Joaquin",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "until 5-30 PM",
+        "SourceEventID": "P205AA-0001-2022-03-07-07:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on I-680 Northbound north of Stoneridge Dr (Pleasanton). Left lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2022-03-08T01:49Z",
+      "updated": "2022-03-08T01:58Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.91918,
+          37.692391
         ]
       },
       "source_type": {
@@ -618,21 +774,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220307GG01807"
+        "#text": "220307GG01989"
       },
       "roads": [
         {
-          "name": "CA-29 S",
-          "from": "S Kelly Rd",
-          "direction": "Southbound",
+          "name": "I-680 N",
+          "from": "Stoneridge Dr",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Left lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -646,15 +802,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-03-08T01:31Z/"
+          "2022-03-08T01:57Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
+          "event-message-time-stamp": "2022-03-07T18:10:11.57857"
         },
         "event-reference": {
-          "event-identifier": "879343"
+          "event-identifier": "879366"
         },
         "event-status": "new",
         "details": {
@@ -675,7 +831,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-29 Southbound north of S Kelly Rd (Napa). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-680 Northbound north of Stoneridge Dr (Pleasanton). Left lane blocked. Expect delays."
                     }
                   }
                 }
@@ -684,25 +840,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA055",
-                  "link-road-designator": "CA-29 S",
-                  "link-from-road": "S Kelly Rd",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Stoneridge Dr",
                   "link-to-road": null,
-                  "link-from-city": "Napa",
+                  "link-from-city": "Pleasanton",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.207634",
-                    "event-location-coordinates-longitude": "-122.256236"
+                    "event-location-coordinates-latitude": "37.692391",
+                    "event-location-coordinates-longitude": "-121.91918"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-07T17:31:21.17180",
+              "update-time": "2022-03-07T17:58:42.28200",
               "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
+                "event-timeline-estimated-duration": "31"
               },
-              "start-time": "2022-03-07T17:31:19.00000",
+              "start-time": "2022-03-07T17:57:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -715,28 +871,28 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-03-07T17:31:21.17180",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-03-07T17:58:42.28200",
         "ivr-article": "north of",
-        "ivr-county": "Napa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220307GG01807",
+        "SourceEventID": "220307GG01989",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Westbound east of Hacienda Dr (Pleasanton). 2nd lane from the left blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-238 Northbound south of E 14TH St (Hayward). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-03-08T00:51Z",
-      "updated": "2022-03-08T00:55Z",
+      "created": "2022-03-08T01:52Z",
+      "updated": "2022-03-08T02:09Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -756,8 +912,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.882782,
-          37.701676
+          -122.105203,
+          37.6894
         ]
       },
       "source_type": {
@@ -766,21 +922,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220307GG01819"
+        "#text": "220307GG01994"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "Hacienda Dr",
-          "direction": "Westbound",
+          "name": "I-238 N",
+          "from": "E 14TH St",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -788,21 +944,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-03-08T00:51Z/"
+          "2022-03-08T02:09Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
+          "event-message-time-stamp": "2022-03-07T18:10:11.57857"
         },
         "event-reference": {
-          "event-identifier": "879346"
+          "event-identifier": "879367"
         },
         "event-status": "new",
         "details": {
@@ -823,7 +979,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Westbound east of Hacienda Dr (Pleasanton). 2nd lane from the left blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-238 Northbound south of E 14TH St (Hayward). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -833,24 +989,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "Hacienda Dr",
+                  "link-road-designator": "I-238 N",
+                  "link-from-road": "E 14TH St",
                   "link-to-road": null,
-                  "link-from-city": "Pleasanton",
+                  "link-from-city": "Hayward",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.701676",
-                    "event-location-coordinates-longitude": "-121.882782"
+                    "event-location-coordinates-latitude": "37.6894",
+                    "event-location-coordinates-longitude": "-122.105203"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-07T16:55:54.66270",
+              "update-time": "2022-03-07T18:09:10.60530",
               "valid-period": {
-                "event-timeline-estimated-duration": "25"
+                "event-timeline-estimated-duration": "34"
               },
-              "start-time": "2022-03-07T16:51:00.00000",
+              "start-time": "2022-03-07T18:09:09.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -863,35 +1019,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-03-07T16:55:54.66270",
-        "ivr-article": "east of",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-03-07T18:09:10.60530",
+        "ivr-article": "south of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220307GG01819",
+        "SourceEventID": "220307GG01994",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Westbound east of Gilman St (Berkeley). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Roadwork on CA-37 Westbound between Lakeville Hwy (Unincorporated) and Atherton Ave (Novato). Lane closed until 5 AM. From 12:00 PM Monday, March 07, 2022 to 5:00 AM Tuesday, March 08, 2022.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Roadwork"
       },
-      "severity": "Moderate",
-      "created": "2022-03-08T00:53Z",
-      "updated": "2022-03-08T00:53Z",
+      "severity": "Unknown",
+      "created": "2022-03-08T02:00Z",
+      "updated": "2022-03-08T02:09Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Sonoma",
+          "id": "5397100",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5397100/"
           }
         }
       },
@@ -904,22 +1060,23 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.308246,
-          37.881911
+          -122.476366,
+          38.134079
         ]
       },
       "source_type": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
+        "#text": "Caltrans"
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220307GG01832"
+        "#text": "C37WA-0006-2022-03-07-12:01:00"
       },
       "roads": [
         {
-          "name": "I-80 W",
-          "from": "Gilman St",
+          "name": "CA-37 W",
+          "from": "Lakeville Hwy",
+          "to": "Atherton Ave",
           "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -928,40 +1085,40 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "until 5 AM"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "between"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-03-08T00:53Z/"
+          "2022-03-07T20:01Z/2022-03-08T12:59Z"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
+          "event-message-time-stamp": "2022-03-07T18:10:11.57857"
         },
         "event-reference": {
-          "event-identifier": "879348"
+          "event-identifier": "879372"
         },
         "event-status": "new",
         "details": {
           "eventElementDetails": {
-            "event-element-sequence": "4",
+            "event-element-sequence": "2",
             "event-element-description": {
               "eventDescription": [
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Roadwork"
                     }
                   }
                 },
@@ -971,7 +1128,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of Gilman St (Berkeley). Lane affected. Expect delays."
+                      "event-description": "Caltrans : Roadwork on CA-37 Westbound between Lakeville Hwy (Unincorporated) and Atherton Ave (Novato). Lane closed until 5 AM. From 12:00 PM Monday, March 07, 2022 to 5:00 AM Tuesday, March 08, 2022."
                     }
                   }
                 }
@@ -980,66 +1137,66 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Gilman St",
-                  "link-to-road": null,
-                  "link-from-city": "Berkeley",
-                  "link-to-city": null,
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "CA-37 W",
+                  "link-from-road": "Lakeville Hwy",
+                  "link-to-road": "Atherton Ave",
+                  "link-from-city": "Unincorporated",
+                  "link-to-city": "Novato",
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.881911",
-                    "event-location-coordinates-longitude": "-122.308246"
+                    "event-location-coordinates-latitude": "38.134079",
+                    "event-location-coordinates-longitude": "-122.476366"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-07T16:53:28.10380",
+              "update-time": "2022-03-07T18:09:48.77770",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2022-03-07T16:53:26.00000",
-              "cleared-time": null,
+              "start-time": "2022-03-07T12:01:00.00000",
+              "cleared-time": "2022-03-08T04:59:00.00000",
               "utc-offset": "-0800"
             },
             "event-element-source": {
-              "event-organization-reported-identifier": "1003"
+              "event-organization-reported-identifier": "1004"
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-03-07T16:53:28.10380",
-        "ivr-article": "east of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
+        "ivr-lastUpdateDttm": "2022-03-07T18:09:48.77770",
+        "ivr-article": "between",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "closed",
         "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220307GG01832",
-        "EventSourceName": "CHP",
+        "ivr-genOtherText": "until 5 AM",
+        "SourceEventID": "C37WA-0006-2022-03-07-12:01:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Eastbound west of Treasure Island Rd (San Francisco). Lane blocked. Expect delays.",
+      "headline": "CHP : Residual delays on I-80 Westbound east of I-505 N (Vacaville). Center Divider blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
-      "created": "2022-03-08T01:06Z",
-      "updated": "2022-03-08T01:13Z",
+      "severity": "Minor",
+      "created": "2022-03-08T02:08Z",
+      "updated": "2022-03-08T02:09Z",
       "areas": {
         "area": {
-          "name": "San Francisco",
-          "id": "5391997",
+          "name": "Solano",
+          "id": "5396987",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
+            "@href": "http://geonames.org/5396987/"
           }
         }
       },
@@ -1052,8 +1209,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.364334,
-          37.810654
+          -121.960276,
+          38.367826
         ]
       },
       "source_type": {
@@ -1062,17 +1219,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220307GG01868"
+        "#text": "220307GG02029"
       },
       "roads": [
         {
-          "name": "I-80 E",
-          "from": "Treasure Island Rd",
-          "direction": "Eastbound",
+          "name": "I-80 W",
+          "from": "I-505 N",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1084,169 +1241,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-08T01:07Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
-        },
-        "event-reference": {
-          "event-identifier": "879355"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound west of Treasure Island Rd (San Francisco). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Treasure Island Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.810654",
-                    "event-location-coordinates-longitude": "-122.364334"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-07T17:13:18.29270",
-              "valid-period": {
-                "event-timeline-estimated-duration": "49"
-              },
-              "start-time": "2022-03-07T17:07:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-07T17:13:18.29270",
-        "ivr-article": "west of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220307GG01868",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-4 Westbound east of Laurel Rd (Antioch). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-03-08T01:08Z",
-      "updated": "2022-03-08T01:31Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.741915,
-          37.976136
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220307GG01873"
-      },
-      "roads": [
-        {
-          "name": "CA-4 W",
-          "from": "Laurel Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
             "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-03-08T01:31Z/"
+          "2022-03-08T02:08Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
+          "event-message-time-stamp": "2022-03-07T18:10:11.57857"
         },
         "event-reference": {
-          "event-identifier": "879356"
+          "event-identifier": "879374"
         },
         "event-status": "new",
         "details": {
@@ -1257,7 +1266,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -1267,7 +1276,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-4 Westbound east of Laurel Rd (Antioch). Lane affected. Expect delays."
+                      "event-description": "CHP : Residual delays on I-80 Westbound east of I-505 N (Vacaville). Center Divider blocked. Expect delays."
                     }
                   }
                 }
@@ -1276,321 +1285,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 W",
-                  "link-from-road": "Laurel Rd",
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "I-505 N",
                   "link-to-road": null,
-                  "link-from-city": "Antioch",
+                  "link-from-city": "Vacaville",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.976136",
-                    "event-location-coordinates-longitude": "-121.741915"
+                    "event-location-coordinates-latitude": "38.367826",
+                    "event-location-coordinates-longitude": "-121.960276"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-07T17:31:20.89810",
-              "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
-              },
-              "start-time": "2022-03-07T17:31:19.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-03-07T17:31:20.89810",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220307GG01873",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-880 Southbound north of I-238 N (San Leandro). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-03-08T01:29Z",
-      "updated": "2022-03-08T01:29Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.135316,
-          37.68875
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220307GG01928"
-      },
-      "roads": [
-        {
-          "name": "I-880 S",
-          "from": "I-238 N",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-08T01:29Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
-        },
-        "event-reference": {
-          "event-identifier": "879359"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-880 Southbound north of I-238 N (San Leandro). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "I-238 N",
-                  "link-to-road": null,
-                  "link-from-city": "San Leandro",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.68875",
-                    "event-location-coordinates-longitude": "-122.135316"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-07T17:29:14.36100",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-03-07T17:29:13.00000",
-              "cleared-time": null,
-              "utc-offset": "-0800"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-03-07T17:29:14.36100",
-        "ivr-article": "north of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220307GG01928",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Eastbound east of Hopyard Rd (Pleasanton). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Minor",
-      "created": "2022-03-08T01:30Z",
-      "updated": "2022-03-08T01:30Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.904489,
-          37.701542
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220307GG01930"
-      },
-      "roads": [
-        {
-          "name": "I-580 E",
-          "from": "Hopyard Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-08T01:30Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-07T17:31:32.90448"
-        },
-        "event-reference": {
-          "event-identifier": "879360"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound east of Hopyard Rd (Pleasanton). Center Divider affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "Hopyard Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Pleasanton",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.701542",
-                    "event-location-coordinates-longitude": "-121.904489"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-07T17:30:17.52530",
+              "update-time": "2022-03-07T18:09:04.80110",
               "valid-period": {
                 "event-timeline-estimated-duration": "20.5"
               },
-              "start-time": "2022-03-07T17:30:16.00000",
+              "start-time": "2022-03-07T18:08:00.00000",
               "cleared-time": null,
               "utc-offset": "-0800"
             },
@@ -1603,14 +1316,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "1",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-07T17:30:17.52530",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-03-07T18:09:04.80110",
         "ivr-article": "east of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220307GG01930",
+        "SourceEventID": "220307GG02029",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
