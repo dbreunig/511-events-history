@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
         },
         "event-reference": {
           "event-identifier": "876735"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
         },
         "event-reference": {
           "event-identifier": "876876"
@@ -509,7 +509,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
         },
         "event-reference": {
           "event-identifier": "879364"
@@ -659,7 +659,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
         },
         "event-reference": {
           "event-identifier": "881222"
@@ -806,7 +806,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
         },
         "event-reference": {
           "event-identifier": "881491"
@@ -954,7 +954,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
         },
         "event-reference": {
           "event-identifier": "881492"
@@ -1032,14 +1032,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Northbound north of N Rengstorff Ave (Mountain View). Right lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on US-101 Northbound south of N Shoreline Blvd (Mountain View). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-03-14T01:11Z",
-      "updated": "2022-03-14T01:55Z",
+      "created": "2022-03-14T02:14Z",
+      "updated": "2022-03-14T02:30Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1059,8 +1059,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.092497,
-          37.421143
+          -122.07936,
+          37.412599
         ]
       },
       "source_type": {
@@ -1069,17 +1069,165 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220313GG01737"
+        "#text": "220313GG01879"
       },
       "roads": [
         {
           "name": "US-101 N",
-          "from": "N Rengstorff Ave",
+          "from": "N Shoreline Blvd",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-14T02:30Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
+        },
+        "event-reference": {
+          "event-identifier": "881507"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Northbound south of N Shoreline Blvd (Mountain View). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "N Shoreline Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "Mountain View",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.412599",
+                    "event-location-coordinates-longitude": "-122.07936"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-13T19:30:03.31460",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-03-13T19:30:01.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-03-13T19:30:03.31460",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220313GG01879",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Northbound north of Ralston Ave (Belmont). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-03-14T02:16Z",
+      "updated": "2022-03-14T02:21Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.266836,
+          37.523512
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220313GG01883"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Ralston Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1097,15 +1245,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-03-14T01:55Z/"
+          "2022-03-14T02:21Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
         },
         "event-reference": {
-          "event-identifier": "881493"
+          "event-identifier": "881508"
         },
         "event-status": "new",
         "details": {
@@ -1116,7 +1264,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -1126,7 +1274,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Northbound north of N Rengstorff Ave (Mountain View). Right lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on US-101 Northbound north of Ralston Ave (Belmont). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -1135,25 +1283,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
+                  "event-location-type-area": "CA081",
                   "link-road-designator": "US-101 N",
-                  "link-from-road": "N Rengstorff Ave",
+                  "link-from-road": "Ralston Ave",
                   "link-to-road": null,
-                  "link-from-city": "Mountain View",
+                  "link-from-city": "Belmont",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.421143",
-                    "event-location-coordinates-longitude": "-122.092497"
+                    "event-location-coordinates-latitude": "37.523512",
+                    "event-location-coordinates-longitude": "-122.266836"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-13T18:55:31.66120",
+              "update-time": "2022-03-13T19:21:40.94190",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "25"
               },
-              "start-time": "2022-03-13T18:55:30.00000",
+              "start-time": "2022-03-13T19:21:39.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1167,27 +1315,27 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-03-13T18:55:31.66120",
+        "ivr-lastUpdateDttm": "2022-03-13T19:21:40.94190",
         "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
+        "ivr-county": "San Mateo",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220313GG01737",
+        "SourceEventID": "220313GG01883",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Westbound east of Paloverde Rd (Hayward). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-880 Southbound at Webster ST Tube (Oakland). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-03-14T01:51Z",
-      "updated": "2022-03-14T01:51Z",
+      "created": "2022-03-14T02:27Z",
+      "updated": "2022-03-14T02:27Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1207,8 +1355,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.026831,
-          37.700865
+          -122.272209,
+          37.797358
         ]
       },
       "source_type": {
@@ -1217,17 +1365,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220313GG01831"
+        "#text": "220313GG01905"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "Paloverde Rd",
-          "direction": "Westbound",
+          "name": "I-880 S",
+          "from": "Webster ST Tube",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1239,21 +1387,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-03-14T01:51Z/"
+          "2022-03-14T02:27Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
         },
         "event-reference": {
-          "event-identifier": "881502"
+          "event-identifier": "881509"
         },
         "event-status": "new",
         "details": {
@@ -1274,7 +1422,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of Paloverde Rd (Hayward). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-880 Southbound at Webster ST Tube (Oakland). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1284,172 +1432,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "Paloverde Rd",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "Webster ST Tube",
                   "link-to-road": null,
-                  "link-from-city": "Hayward",
+                  "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.700865",
-                    "event-location-coordinates-longitude": "-122.026831"
+                    "event-location-coordinates-latitude": "37.797358",
+                    "event-location-coordinates-longitude": "-122.272209"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-13T18:51:20.21720",
+              "update-time": "2022-03-13T19:27:57.10280",
               "valid-period": {
                 "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-03-13T18:51:18.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-03-13T18:51:20.21720",
-        "ivr-article": "east of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220313GG01831",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Southbound north of Crow Canyon Rd (San Ramon). Right lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-03-14T01:56Z",
-      "updated": "2022-03-14T01:56Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.973169,
-          37.772788
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220313GG01842"
-      },
-      "roads": [
-        {
-          "name": "I-680 S",
-          "from": "Crow Canyon Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-14T01:56Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
-        },
-        "event-reference": {
-          "event-identifier": "881504"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Southbound north of Crow Canyon Rd (San Ramon). Right lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 S",
-                  "link-from-road": "Crow Canyon Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Ramon",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.772788",
-                    "event-location-coordinates-longitude": "-121.973169"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-13T18:56:34.59600",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2022-03-13T18:56:33.00000",
+              "start-time": "2022-03-13T19:27:55.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1463,27 +1463,27 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-03-13T18:56:34.59600",
-        "ivr-article": "north of",
-        "ivr-county": "Contra Costa",
+        "ivr-lastUpdateDttm": "2022-03-13T19:27:57.10280",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220313GG01842",
+        "SourceEventID": "220313GG01905",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-17 Southbound south of Lark Ave (Los Gatos). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on CA-17 Northbound south of E Hamilton Ave (Campbell). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
-      "severity": "Moderate",
-      "created": "2022-03-14T01:57Z",
-      "updated": "2022-03-14T01:57Z",
+      "severity": "Minor",
+      "created": "2022-03-14T02:30Z",
+      "updated": "2022-03-14T02:30Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1503,8 +1503,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.959925,
-          37.248916
+          -121.93686,
+          37.2916
         ]
       },
       "source_type": {
@@ -1513,17 +1513,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220313GG01844"
+        "#text": "220313GG01908"
       },
       "roads": [
         {
-          "name": "CA-17 S",
-          "from": "Lark Ave",
-          "direction": "Southbound",
+          "name": "CA-17 N",
+          "from": "E Hamilton Ave",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1541,15 +1541,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-03-14T01:57Z/"
+          "2022-03-14T02:30Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
+          "event-message-time-stamp": "2022-03-13T19:31:02.36871"
         },
         "event-reference": {
-          "event-identifier": "881505"
+          "event-identifier": "881510"
         },
         "event-status": "new",
         "details": {
@@ -1570,7 +1570,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-17 Southbound south of Lark Ave (Los Gatos). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-17 Northbound south of E Hamilton Ave (Campbell). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -1580,24 +1580,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-17 S",
-                  "link-from-road": "Lark Ave",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "E Hamilton Ave",
                   "link-to-road": null,
-                  "link-from-city": "Los Gatos",
+                  "link-from-city": "Campbell",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.248916",
-                    "event-location-coordinates-longitude": "-121.959925"
+                    "event-location-coordinates-latitude": "37.2916",
+                    "event-location-coordinates-longitude": "-121.93686"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-13T18:57:37.39510",
+              "update-time": "2022-03-13T19:30:03.00700",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "20.5"
               },
-              "start-time": "2022-03-13T18:57:36.00000",
+              "start-time": "2022-03-13T19:30:01.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1606,166 +1606,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-03-13T18:57:37.39510",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-03-13T19:30:03.00700",
         "ivr-article": "south of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220313GG01844",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-80 Westbound east of Lagoon Valley Rd (Vacaville). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Moderate",
-      "created": "2022-03-14T02:01Z",
-      "updated": "2022-03-14T02:01Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.022082,
-          38.328394
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220313GG01852"
-      },
-      "roads": [
-        {
-          "name": "I-80 W",
-          "from": "Lagoon Valley Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-14T02:01Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-13T19:11:03.96318"
-        },
-        "event-reference": {
-          "event-identifier": "881506"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-80 Westbound east of Lagoon Valley Rd (Vacaville). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Lagoon Valley Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Vacaville",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.328394",
-                    "event-location-coordinates-longitude": "-122.022082"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-13T19:01:48.30570",
-              "valid-period": {
-                "event-timeline-estimated-duration": "27.7"
-              },
-              "start-time": "2022-03-13T19:01:46.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-03-13T19:01:48.30570",
-        "ivr-article": "east of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220313GG01852",
+        "SourceEventID": "220313GG01908",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
