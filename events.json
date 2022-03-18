@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "876735"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "876876"
@@ -436,17 +436,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision on CA-17 Southbound ramp to CA-85 S (Los Gatos). Right lane blocked. Expect delays.",
+      "headline": "CHP : Residual delays on CA-17 Southbound ramp to CA-85 S (Los Gatos). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2022-03-18T01:41Z",
-      "updated": "2022-03-18T03:04Z",
+      "updated": "2022-03-18T03:53Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -486,11 +483,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -509,7 +506,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "882970"
@@ -522,14 +519,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -538,7 +530,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision on CA-17 Southbound ramp to CA-85 S (Los Gatos). Right lane blocked. Expect delays."
+                      "event-description": "CHP : Residual delays on CA-17 Southbound ramp to CA-85 S (Los Gatos). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -561,9 +553,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-17T20:04:56.65490",
+              "update-time": "2022-03-17T20:53:09.55880",
               "valid-period": {
-                "event-timeline-estimated-duration": "46"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2022-03-17T18:59:00.00000",
               "cleared-time": null,
@@ -574,16 +566,16 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-03-17T20:04:56.65490",
+        "ivr-lastUpdateDttm": "2022-03-17T20:53:09.55880",
         "ivr-article": "ramp to",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220317GG01929",
         "EventSourceName": "CHP",
@@ -592,310 +584,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Right shoulder closed until 9 PM. From 7:00 PM Thursday, March 17, 2022 to 9:00 PM Thursday, March 17, 2022.",
-      "event_type": "CONSTRUCTION",
-      "event_subtypes": {
-        "event_subtype": "Roadwork"
-      },
-      "severity": "Unknown",
-      "created": "2022-03-18T02:16Z",
-      "updated": "2022-03-18T03:47Z",
-      "areas": {
-        "area": {
-          "name": "Marin",
-          "id": "5370468",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.477644,
-          37.942579
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C580CB-0012-2022-03-17-19:01:00"
-      },
-      "roads": [
-        {
-          "name": "I-580 E",
-          "from": "Main St",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 9 PM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-18T02:01Z/2022-03-18T03:59Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
-        },
-        "event-reference": {
-          "event-identifier": "882979"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Right shoulder closed until 9 PM. From 7:00 PM Thursday, March 17, 2022 to 9:00 PM Thursday, March 17, 2022."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "Main St",
-                  "link-to-road": null,
-                  "link-from-city": "San Quentin",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.942579",
-                    "event-location-coordinates-longitude": "-122.477644"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-17T20:47:29.01310",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2022-03-17T19:01:00.00000",
-              "cleared-time": "2022-03-17T20:59:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-17T20:47:29.01310",
-        "ivr-article": "at",
-        "ivr-county": "Marin",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "until 9 PM",
-        "SourceEventID": "C580CB-0012-2022-03-17-19:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-80 Eastbound east of Treasure Island Rd (San Francisco). All lanes open. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Unknown",
-      "created": "2022-03-18T03:07Z",
-      "updated": "2022-03-18T03:40Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.36171,
-          37.813098
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220317GG02100"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Treasure Island Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "open"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-18T03:34Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
-        },
-        "event-reference": {
-          "event-identifier": "882986"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-80 Eastbound east of Treasure Island Rd (San Francisco). All lanes open. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Treasure Island Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.813098",
-                    "event-location-coordinates-longitude": "-122.36171"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-17T20:40:21.19120",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2022-03-17T20:34:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-17T20:40:21.19120",
-        "ivr-article": "east of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "open",
-        "ivr-totalLanes": "All lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220317GG02100",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on CA-84 Westbound at Niles Canyon Rd (Fremont). All lanes closed until 5 AM. From 8:00 PM Thursday, March 17, 2022 to 5:00 AM Friday, March 18, 2022.",
+      "headline": "Caltrans : Roadwork on CA-84 Eastbound at Niles Canyon Rd (Fremont). All lanes closed until 5 AM. From 8:00 PM Thursday, March 17, 2022 to 5:00 AM Friday, March 18, 2022.",
       "event_type": "CONSTRUCTION",
       "event_subtypes": {
         "event_subtype": "Roadwork"
       },
       "severity": "Unknown",
       "created": "2022-03-18T03:14Z",
-      "updated": "2022-03-18T03:47Z",
+      "updated": "2022-03-18T04:04Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -929,9 +625,9 @@
       },
       "roads": [
         {
-          "name": "CA-84 W",
+          "name": "CA-84 E",
           "from": "Niles Canyon Rd",
-          "direction": "Westbound",
+          "direction": "Eastbound",
           "state": "CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -958,7 +654,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "882989"
@@ -982,7 +678,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on CA-84 Westbound at Niles Canyon Rd (Fremont). All lanes closed until 5 AM. From 8:00 PM Thursday, March 17, 2022 to 5:00 AM Friday, March 18, 2022."
+                      "event-description": "Caltrans : Roadwork on CA-84 Eastbound at Niles Canyon Rd (Fremont). All lanes closed until 5 AM. From 8:00 PM Thursday, March 17, 2022 to 5:00 AM Friday, March 18, 2022."
                     }
                   }
                 }
@@ -992,7 +688,7 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "CA-84 W",
+                  "link-road-designator": "CA-84 E",
                   "link-from-road": "Niles Canyon Rd",
                   "link-to-road": null,
                   "link-from-city": "Fremont",
@@ -1005,7 +701,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-17T20:47:28.69790",
+              "update-time": "2022-03-17T21:04:06.36100",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1022,8 +718,8 @@
         "RoadClosed": "true",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-03-17T20:47:28.69790",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-03-17T21:04:06.36100",
         "ivr-article": "at",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -1044,7 +740,7 @@
       },
       "severity": "Unknown",
       "created": "2022-03-18T03:21Z",
-      "updated": "2022-03-18T03:47Z",
+      "updated": "2022-03-18T04:04Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1108,7 +804,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "882992"
@@ -1155,7 +851,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-17T20:47:29.80550",
+              "update-time": "2022-03-17T21:04:07.19960",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1173,7 +869,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-17T20:47:29.80550",
+        "ivr-lastUpdateDttm": "2022-03-17T21:04:07.19960",
         "ivr-article": "between",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -1181,154 +877,6 @@
         "ivr-genOtherText": "until 4 AM",
         "SourceEventID": "M580AB-0002-2022-03-17-20:01:00",
         "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-280 Southbound at Lawrence Expy (San Jose). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Moderate",
-      "created": "2022-03-18T03:26Z",
-      "updated": "2022-03-18T03:26Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.992177,
-          37.318938
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220317GG02143"
-      },
-      "roads": [
-        {
-          "name": "I-280 S",
-          "from": "Lawrence Expy",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-18T03:25Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
-        },
-        "event-reference": {
-          "event-identifier": "882993"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-280 Southbound at Lawrence Expy (San Jose). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "Lawrence Expy",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.318938",
-                    "event-location-coordinates-longitude": "-121.992177"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-17T20:26:24.32030",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-03-17T20:25:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-03-17T20:26:24.32030",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220317GG02143",
-        "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
@@ -1400,7 +948,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "882994"
@@ -1547,7 +1095,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "882995"
@@ -1695,7 +1243,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "882997"
@@ -1773,6 +1321,155 @@
     },
     {
       "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on CA-17 Northbound between Los Gatos Saratoga Rd (Los Gatos) and CA-85 N (Los Gatos). Various lanes closed until 5 AM. From 9:00 PM Thursday, March 17, 2022 to 5:00 AM Friday, March 18, 2022.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-03-18T03:44Z",
+      "updated": "2022-03-18T04:04Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.974683,
+          37.22691
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C17HA-0020-2022-03-17-21:01:00"
+      },
+      "roads": [
+        {
+          "name": "CA-17 N",
+          "from": "Los Gatos Saratoga Rd",
+          "to": "CA-85 N",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Various lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 5 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "between"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-18T04:01Z/2022-03-18T11:59Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
+        },
+        "event-reference": {
+          "event-identifier": "882998"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-17 Northbound between Los Gatos Saratoga Rd (Los Gatos) and CA-85 N (Los Gatos). Various lanes closed until 5 AM. From 9:00 PM Thursday, March 17, 2022 to 5:00 AM Friday, March 18, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-17 N",
+                  "link-from-road": "Los Gatos Saratoga Rd",
+                  "link-to-road": "CA-85 N",
+                  "link-from-city": "Los Gatos",
+                  "link-to-city": "Los Gatos",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.22691",
+                    "event-location-coordinates-longitude": "-121.974683"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-17T21:04:05.32700",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-03-17T21:01:00.00000",
+              "cleared-time": "2022-03-18T04:59:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-03-17T21:04:05.32700",
+        "ivr-article": "between",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Various lanes",
+        "ivr-genOtherText": "until 5 AM",
+        "SourceEventID": "C17HA-0020-2022-03-17-21:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
       "headline": "Caltrans : Roadwork on CA-17 Southbound exiting at CA-85 N (Los Gatos). Off Ramp closed until 6 AM. From 7:00 PM Thursday, March 17, 2022 to 6:00 AM Friday, March 18, 2022.",
       "event_type": "CONSTRUCTION",
       "event_subtypes": {
@@ -1780,7 +1477,7 @@
       },
       "severity": "Unknown",
       "created": "2022-03-18T03:44Z",
-      "updated": "2022-03-18T03:47Z",
+      "updated": "2022-03-18T04:04Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1843,7 +1540,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "883000"
@@ -1890,7 +1587,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-17T20:47:28.21380",
+              "update-time": "2022-03-17T21:04:05.88780",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1908,7 +1605,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-03-17T20:47:28.21380",
+        "ivr-lastUpdateDttm": "2022-03-17T21:04:05.88780",
         "ivr-article": "exiting at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -1928,7 +1625,7 @@
       },
       "severity": "Unknown",
       "created": "2022-03-18T03:44Z",
-      "updated": "2022-03-18T03:47Z",
+      "updated": "2022-03-18T04:04Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1991,7 +1688,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "883001"
@@ -2038,7 +1735,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-17T20:47:28.37760",
+              "update-time": "2022-03-17T21:04:06.07600",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2056,7 +1753,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-03-17T20:47:28.37760",
+        "ivr-lastUpdateDttm": "2022-03-17T21:04:06.07600",
         "ivr-article": "entering at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -2069,14 +1766,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Westbound east of N Livermore Ave (Livermore). Left lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound east of N Livermore Ave (Livermore). HOV affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
       "created": "2022-03-18T03:45Z",
-      "updated": "2022-03-18T03:48Z",
+      "updated": "2022-03-18T03:54Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -2116,7 +1813,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "HOV"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -2134,12 +1831,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-03-18T03:48Z/"
+          "2022-03-18T03:54Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
           "event-identifier": "883002"
@@ -2163,7 +1860,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of N Livermore Ave (Livermore). Left lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of N Livermore Ave (Livermore). HOV affected. Expect delays."
                     }
                   }
                 }
@@ -2186,11 +1883,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-17T20:48:27.38550",
+              "update-time": "2022-03-17T20:54:53.61020",
               "valid-period": {
                 "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-03-17T20:48:22.00000",
+              "start-time": "2022-03-17T20:54:48.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2204,11 +1901,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-03-17T20:48:27.38550",
+        "ivr-lastUpdateDttm": "2022-03-17T20:54:53.61020",
         "ivr-article": "east of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left lane",
+        "ivr-totalLanes": "HOV",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220317GG02183",
         "EventSourceName": "CHP",
@@ -2217,21 +1914,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Southbound north of N Fair Oaks Ave (Sunnyvale). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Roadwork on CA-1 Northbound at CA-17 N (Santa Cruz). Lane closed until 6 AM. From 9:00 PM Thursday, March 17, 2022 to 6:00 AM Friday, March 18, 2022.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Roadwork"
       },
-      "severity": "Moderate",
+      "severity": "Unknown",
       "created": "2022-03-18T03:47Z",
-      "updated": "2022-03-18T03:48Z",
+      "updated": "2022-03-18T04:04Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Santa Cruz",
+          "id": "5393068",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5393068/"
           }
         }
       },
@@ -2244,8 +1941,156 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.016789,
-          37.39644
+          -122.040267,
+          36.966685
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "P1DA-0001-2022-03-17-21:01:00"
+      },
+      "roads": [
+        {
+          "name": "CA-1 N",
+          "from": "CA-17 N",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 6 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-18T04:01Z/2022-03-18T13:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
+        },
+        "event-reference": {
+          "event-identifier": "883005"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-1 Northbound at CA-17 N (Santa Cruz). Lane closed until 6 AM. From 9:00 PM Thursday, March 17, 2022 to 6:00 AM Friday, March 18, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA087",
+                  "link-road-designator": "CA-1 N",
+                  "link-from-road": "CA-17 N",
+                  "link-to-road": null,
+                  "link-from-city": "Santa Cruz",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "36.966685",
+                    "event-location-coordinates-longitude": "-122.040267"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-17T21:04:12.47340",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-03-17T21:01:00.00000",
+              "cleared-time": "2022-03-18T06:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-03-17T21:04:12.47340",
+        "ivr-article": "at",
+        "ivr-county": "Santa Cruz",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "until 6 AM",
+        "SourceEventID": "P1DA-0001-2022-03-17-21:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-880 Northbound south of 5TH Ave (Oakland). Right lanes affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-03-18T03:50Z",
+      "updated": "2022-03-18T03:51Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.254281,
+          37.789339
         ]
       },
       "source_type": {
@@ -2254,17 +2099,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220317GG02190"
+        "#text": "220317GG02197"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "N Fair Oaks Ave",
-          "direction": "Southbound",
+          "name": "I-880 N",
+          "from": "5TH Ave",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Right lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -2276,21 +2121,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-03-18T03:48Z/"
+          "2022-03-18T03:50Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-17T20:48:36.51319"
+          "event-message-time-stamp": "2022-03-17T21:05:44.64306"
         },
         "event-reference": {
-          "event-identifier": "883004"
+          "event-identifier": "883006"
         },
         "event-status": "new",
         "details": {
@@ -2301,7 +2146,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -2311,7 +2156,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Southbound north of N Fair Oaks Ave (Sunnyvale). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-880 Northbound south of 5TH Ave (Oakland). Right lanes affected. Expect delays."
                     }
                   }
                 }
@@ -2320,25 +2165,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "N Fair Oaks Ave",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "5TH Ave",
                   "link-to-road": null,
-                  "link-from-city": "Sunnyvale",
+                  "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.39644",
-                    "event-location-coordinates-longitude": "-122.016789"
+                    "event-location-coordinates-latitude": "37.789339",
+                    "event-location-coordinates-longitude": "-122.254281"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-17T20:48:27.46860",
+              "update-time": "2022-03-17T20:51:41.03040",
               "valid-period": {
-                "event-timeline-estimated-duration": "25"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2022-03-17T20:48:22.00000",
+              "start-time": "2022-03-17T20:50:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2351,14 +2196,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-03-17T20:48:27.46860",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-03-17T20:51:41.03040",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "Right lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220317GG02190",
+        "SourceEventID": "220317GG02197",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
