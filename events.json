@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-20T13:34:20.85632"
+          "event-message-time-stamp": "2022-03-20T13:48:35.87933"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-20T13:34:20.85632"
+          "event-message-time-stamp": "2022-03-20T13:48:35.87933"
         },
         "event-reference": {
           "event-identifier": "876735"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-20T13:34:20.85632"
+          "event-message-time-stamp": "2022-03-20T13:48:35.87933"
         },
         "event-reference": {
           "event-identifier": "876876"
@@ -436,21 +436,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-24 Eastbound entering at Camino Pablo (Orinda). On Ramp affected. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "TIC : Hockey game at SAP Center. Expect delays. From 5:30 PM Saturday, March 26, 2022 to 11:00 PM Saturday, March 26, 2022, and 5:30 PM Tuesday, March 15, 2022 to 11:00 PM Tuesday, March 15, 2022, and 5:30 PM Friday, March 18, 2022 to 11:00 PM Friday, March 18, 2022, and 2:00 PM Sunday, March 20, 2022 to 7:00 PM Sunday, March 20, 2022, and 5:30 PM Saturday, March 26, 2022 to 11:00 PM Saturday, March 26, 2022.",
+      "event_type": "SPECIAL_EVENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Hockey game"
       },
-      "severity": "Major",
-      "created": "2022-03-20T18:58Z",
-      "updated": "2022-03-20T19:05Z",
+      "severity": "Unknown",
+      "created": "2022-03-09T19:35Z",
+      "updated": "2022-03-09T19:35Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -463,8 +463,141 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.184078,
-          37.87735
+          -121.90054,
+          37.33219
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "TIC"
+      },
+      "roads": [
+        {
+          "name": "SAP Center",
+          "direction": "Unknown",
+          "state": "SOME_LANES_CLOSED",
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-20T21:00Z/2022-03-21T02:00Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-20T13:48:35.87933"
+        },
+        "event-reference": {
+          "event-identifier": "880033"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Hockey game"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "TIC : Hockey game at SAP Center. Expect delays. From 5:30 PM Saturday, March 26, 2022 to 11:00 PM Saturday, March 26, 2022, and 5:30 PM Tuesday, March 15, 2022 to 11:00 PM Tuesday, March 15, 2022, and 5:30 PM Friday, March 18, 2022 to 11:00 PM Friday, March 18, 2022, and 2:00 PM Sunday, March 20, 2022 to 7:00 PM Sunday, March 20, 2022, and 5:30 PM Saturday, March 26, 2022 to 11:00 PM Saturday, March 26, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "SAP Center",
+                  "link-from-road": null,
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.33219",
+                    "event-location-coordinates-longitude": "-121.90054"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-09T11:35:44.54960",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-03-20T14:00:00.00000",
+              "cleared-time": "2022-03-20T19:00:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1002"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Unknown",
+        "ivr-lastUpdateDttm": "2022-03-09T11:35:44.54960",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Expect delays",
+        "EventSourceName": "TIC",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-880 Northbound south of Hesperian Blvd (San Lorenzo). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-03-20T20:43Z",
+      "updated": "2022-03-20T20:43Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.127095,
+          37.683304
         ]
       },
       "source_type": {
@@ -473,17 +606,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220320GG00963"
+        "#text": "220320GG01183"
       },
       "roads": [
         {
-          "name": "CA-24 E",
-          "from": "Camino Pablo",
-          "direction": "Eastbound",
+          "name": "I-880 N",
+          "from": "Hesperian Blvd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -495,21 +628,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "entering at"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-03-20T18:58Z/"
+          "2022-03-20T20:43Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-20T13:34:20.85632"
+          "event-message-time-stamp": "2022-03-20T13:48:35.87933"
         },
         "event-reference": {
-          "event-identifier": "883700"
+          "event-identifier": "883730"
         },
         "event-status": "new",
         "details": {
@@ -530,7 +663,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-24 Eastbound entering at Camino Pablo (Orinda). On Ramp affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-880 Northbound south of Hesperian Blvd (San Lorenzo). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -539,173 +672,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 E",
-                  "link-from-road": "Camino Pablo",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Hesperian Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Orinda",
+                  "link-from-city": "San Lorenzo",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.87735",
-                    "event-location-coordinates-longitude": "-122.184078"
+                    "event-location-coordinates-latitude": "37.683304",
+                    "event-location-coordinates-longitude": "-122.127095"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-20T12:05:20.83690",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
-              },
-              "start-time": "2022-03-20T11:58:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-20T12:05:20.83690",
-        "ivr-article": "entering at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "On Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220320GG00963",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Eastbound at San Pablo Dam Rd (San Pablo). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-03-20T19:59Z",
-      "updated": "2022-03-20T20:16Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.330645,
-          37.959772
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220320GG01095"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "San Pablo Dam Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-20T20:16Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-20T13:34:20.85632"
-        },
-        "event-reference": {
-          "event-identifier": "883719"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Eastbound at San Pablo Dam Rd (San Pablo). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "San Pablo Dam Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Pablo",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.959772",
-                    "event-location-coordinates-longitude": "-122.330645"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-20T13:16:04.77730",
+              "update-time": "2022-03-20T13:43:31.06000",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-03-20T13:16:04.00000",
+              "start-time": "2022-03-20T13:43:30.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -718,35 +703,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-20T13:16:04.77730",
-        "ivr-article": "at",
-        "ivr-county": "Contra Costa",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-03-20T13:43:31.06000",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220320GG01095",
+        "SourceEventID": "220320GG01183",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-84 Eastbound west of Thornton Ave (Newark). Lane affected. Expect delays.",
+      "headline": "CHP : Fire on I-680 Northbound south of Berryessa Rd (San Jose). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Fire"
       },
       "severity": "Moderate",
-      "created": "2022-03-20T20:16Z",
-      "updated": "2022-03-20T20:29Z",
+      "created": "2022-03-20T20:46Z",
+      "updated": "2022-03-20T20:47Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -759,8 +744,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.075191,
-          37.535472
+          -121.858201,
+          37.38018
         ]
       },
       "source_type": {
@@ -769,13 +754,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220320GG01123"
+        "#text": "220320GG01186"
       },
       "roads": [
         {
-          "name": "CA-84 E",
-          "from": "Thornton Ave",
-          "direction": "Eastbound",
+          "name": "I-680 N",
+          "from": "Berryessa Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-03-20T20:46Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-03-20T13:48:35.87933"
+        },
+        "event-reference": {
+          "event-identifier": "883731"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on I-680 Northbound south of Berryessa Rd (San Jose). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Berryessa Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.38018",
+                    "event-location-coordinates-longitude": "-121.858201"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-03-20T13:47:19.43600",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-03-20T13:46:40.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-03-20T13:47:19.43600",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220320GG01186",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on US-101 Southbound north of Petaluma Blvd S (Petaluma). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-03-20T20:46Z",
+      "updated": "2022-03-20T20:47Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.611799,
+          38.223595
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220320GG01185"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Petaluma Blvd S",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -791,21 +924,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-03-20T20:29Z/"
+          "2022-03-20T20:47Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-03-20T13:34:20.85632"
+          "event-message-time-stamp": "2022-03-20T13:48:35.87933"
         },
         "event-reference": {
-          "event-identifier": "883724"
+          "event-identifier": "883732"
         },
         "event-status": "new",
         "details": {
@@ -826,7 +959,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-84 Eastbound west of Thornton Ave (Newark). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on US-101 Southbound north of Petaluma Blvd S (Petaluma). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -835,25 +968,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "CA-84 E",
-                  "link-from-road": "Thornton Ave",
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Petaluma Blvd S",
                   "link-to-road": null,
-                  "link-from-city": "Newark",
+                  "link-from-city": "Petaluma",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.535472",
-                    "event-location-coordinates-longitude": "-122.075191"
+                    "event-location-coordinates-latitude": "38.223595",
+                    "event-location-coordinates-longitude": "-122.611799"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-03-20T13:29:48.59970",
+              "update-time": "2022-03-20T13:47:44.23990",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.199999999999996"
+                "event-timeline-estimated-duration": "35.2"
               },
-              "start-time": "2022-03-20T13:29:48.00000",
+              "start-time": "2022-03-20T13:47:44.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -866,310 +999,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-03-20T13:29:48.59970",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-03-20T13:47:44.23990",
+        "ivr-article": "north of",
+        "ivr-county": "Sonoma",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220320GG01123",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-880 Northbound south of High St (Oakland). 2nd lane from the left affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-03-20T20:16Z",
-      "updated": "2022-03-20T20:20Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.216843,
-          37.764023
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220320GG01122"
-      },
-      "roads": [
-        {
-          "name": "I-880 N",
-          "from": "High St",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-20T20:16Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-20T13:34:20.85632"
-        },
-        "event-reference": {
-          "event-identifier": "883725"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-880 Northbound south of High St (Oakland). 2nd lane from the left affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "High St",
-                  "link-to-road": null,
-                  "link-from-city": "Oakland",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.764023",
-                    "event-location-coordinates-longitude": "-122.216843"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-20T13:20:42.87430",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2022-03-20T13:16:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-03-20T13:20:42.87430",
-        "ivr-article": "south of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "2nd lane from the left",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220320GG01122",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Brush fire on I-580 Westbound at S Corral Hollow Rd (Tracy). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Brush fire"
-      },
-      "severity": "Moderate",
-      "created": "2022-03-20T20:32Z",
-      "updated": "2022-03-20T20:33Z",
-      "areas": {
-        "area": {
-          "name": "San Joaquin",
-          "id": "5392126",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392126/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.460231,
-          37.673863
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220320ST00208"
-      },
-      "roads": [
-        {
-          "name": "I-580 W",
-          "from": "S Corral Hollow Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-03-20T20:32Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-03-20T13:34:20.85632"
-        },
-        "event-reference": {
-          "event-identifier": "883729"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Brush fire"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Brush fire on I-580 Westbound at S Corral Hollow Rd (Tracy). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": null,
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "S Corral Hollow Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Tracy",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.673863",
-                    "event-location-coordinates-longitude": "-121.460231"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-03-20T13:33:33.67040",
-              "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
-              },
-              "start-time": "2022-03-20T13:32:58.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-03-20T13:33:33.67040",
-        "ivr-article": "at",
-        "ivr-county": "San Joaquin",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220320ST00208",
+        "SourceEventID": "220320GG01185",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
