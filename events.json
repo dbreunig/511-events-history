@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-01T19:47:06.08538"
+          "event-message-time-stamp": "2022-04-01T20:30:44.48151"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-01T19:47:06.08538"
+          "event-message-time-stamp": "2022-04-01T20:30:44.48151"
         },
         "event-reference": {
           "event-identifier": "876735"
@@ -288,18 +288,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision and Overturned tractor trailer on I-505 Northbound at Allendale Rd (Unincorporated). Left lane blocked. Expect delays.",
+      "headline": "CHP : Residual delays on I-505 Northbound at Allendale Rd (Unincorporated). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision",
-          "Overturned tractor trailer",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2022-04-02T00:30Z",
-      "updated": "2022-04-02T02:04Z",
+      "updated": "2022-04-02T03:23Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -339,11 +335,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -362,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-01T19:47:06.08538"
+          "event-message-time-stamp": "2022-04-01T20:30:44.48151"
         },
         "event-reference": {
           "event-identifier": "888161"
@@ -375,17 +371,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision"
-                      },
-                      {
-                        "incident": "Overturned tractor trailer"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -394,7 +382,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision and Overturned tractor trailer on I-505 Northbound at Allendale Rd (Unincorporated). Left lane blocked. Expect delays."
+                      "event-description": "CHP : Residual delays on I-505 Northbound at Allendale Rd (Unincorporated). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -417,9 +405,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-01T19:04:00.17900",
+              "update-time": "2022-04-01T20:23:50.52360",
               "valid-period": {
-                "event-timeline-estimated-duration": "59.5"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2022-04-01T17:31:00.00000",
               "cleared-time": null,
@@ -430,167 +418,18 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-01T19:04:00.17900",
+        "ivr-lastUpdateDttm": "2022-04-01T20:23:50.52360",
         "ivr-article": "at",
         "ivr-county": "Solano",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
-        "ivr-impact": "Always play incident",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220401GG01893",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Westbound east of Crow Canyon Rd (Castro Valley). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-04-02T01:54Z",
-      "updated": "2022-04-02T02:36Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.049284,
-          37.693936
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220401GG02174"
-      },
-      "roads": [
-        {
-          "name": "I-580 W",
-          "from": "Crow Canyon Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-04-02T02:32Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-04-01T19:47:06.08538"
-        },
-        "event-reference": {
-          "event-identifier": "888207"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of Crow Canyon Rd (Castro Valley). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "Crow Canyon Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Castro Valley",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.693936",
-                    "event-location-coordinates-longitude": "-122.049284"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-04-01T19:36:07.16810",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2022-04-01T19:32:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-04-01T19:36:07.16810",
-        "ivr-article": "east of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220401GG02174",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -604,7 +443,7 @@
       },
       "severity": "Unknown",
       "created": "2022-04-02T02:21Z",
-      "updated": "2022-04-02T02:47Z",
+      "updated": "2022-04-02T03:28Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -667,7 +506,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-01T19:47:06.08538"
+          "event-message-time-stamp": "2022-04-01T20:30:44.48151"
         },
         "event-reference": {
           "event-identifier": "888215"
@@ -714,7 +553,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-01T19:47:01.95320",
+              "update-time": "2022-04-01T20:28:55.29580",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -732,7 +571,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-01T19:47:01.95320",
+        "ivr-lastUpdateDttm": "2022-04-01T20:28:55.29580",
         "ivr-article": "at",
         "ivr-county": "Marin",
         "ivr-laneStatus": "closed",
@@ -745,21 +584,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound south of 3RD St (San Rafael). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on CA-24 Eastbound entering at Caldecott Tunnel (Orinda). Right lane and shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-04-02T02:39Z",
-      "updated": "2022-04-02T02:46Z",
+      "created": "2022-04-02T02:52Z",
+      "updated": "2022-04-02T03:02Z",
       "areas": {
         "area": {
-          "name": "Marin",
-          "id": "5370468",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5370468/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -772,8 +611,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.51926,
-          37.967606
+          -122.212162,
+          37.858644
         ]
       },
       "source_type": {
@@ -782,17 +621,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220401GG02291"
+        "#text": "220401GG02319"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "3RD St",
-          "direction": "Southbound",
+          "name": "CA-24 E",
+          "from": "Caldecott Tunnel",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane and shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -804,21 +643,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "entering at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-02T02:46Z/"
+          "2022-04-02T02:53Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-01T19:47:06.08538"
+          "event-message-time-stamp": "2022-04-01T20:30:44.48151"
         },
         "event-reference": {
-          "event-identifier": "888218"
+          "event-identifier": "888220"
         },
         "event-status": "new",
         "details": {
@@ -839,7 +678,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound south of 3RD St (San Rafael). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-24 Eastbound entering at Caldecott Tunnel (Orinda). Right lane and shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -848,25 +687,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA041",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "3RD St",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Caldecott Tunnel",
                   "link-to-road": null,
-                  "link-from-city": "San Rafael",
+                  "link-from-city": "Orinda",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.967606",
-                    "event-location-coordinates-longitude": "-122.51926"
+                    "event-location-coordinates-latitude": "37.858644",
+                    "event-location-coordinates-longitude": "-122.212162"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-01T19:46:57.22330",
+              "update-time": "2022-04-01T20:02:39.43720",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "43"
               },
-              "start-time": "2022-04-01T19:46:52.00000",
+              "start-time": "2022-04-01T19:53:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -879,15 +718,608 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-01T19:46:57.22330",
-        "ivr-article": "south of",
-        "ivr-county": "Marin",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-04-01T20:02:39.43720",
+        "ivr-article": "entering at",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane and shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220401GG02319",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-113 Northbound north of Hastings Rd (Dixon). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Minor",
+      "created": "2022-04-02T02:53Z",
+      "updated": "2022-04-02T02:53Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.805304,
+          38.285237
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220401GG02322"
+      },
+      "roads": [
+        {
+          "name": "CA-113 N",
+          "from": "Hastings Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-02T02:53Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-01T20:30:44.48151"
+        },
+        "event-reference": {
+          "event-identifier": "888222"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-113 Northbound north of Hastings Rd (Dixon). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "CA-113 N",
+                  "link-from-road": "Hastings Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Dixon",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.285237",
+                    "event-location-coordinates-longitude": "-121.805304"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-01T19:53:20.27090",
+              "valid-period": {
+                "event-timeline-estimated-duration": "13"
+              },
+              "start-time": "2022-04-01T19:53:15.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-01T19:53:20.27090",
+        "ivr-article": "north of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220401GG02291",
+        "SourceEventID": "220401GG02322",
         "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Vehicle fire on I-680 Southbound north of Benicia Bridge (Benicia). Right lane and shoulder blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Vehicle fire"
+      },
+      "severity": "Major",
+      "created": "2022-04-02T02:53Z",
+      "updated": "2022-04-02T03:12Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.123599,
+          38.041172
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220401GG02323"
+      },
+      "roads": [
+        {
+          "name": "I-680 S",
+          "from": "Benicia Bridge",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane and shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-02T03:07Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-01T20:30:44.48151"
+        },
+        "event-reference": {
+          "event-identifier": "888223"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Vehicle fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Vehicle fire on I-680 Southbound north of Benicia Bridge (Benicia). Right lane and shoulder blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "Benicia Bridge",
+                  "link-to-road": null,
+                  "link-from-city": "Benicia",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.041172",
+                    "event-location-coordinates-longitude": "-122.123599"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-01T20:12:07.17460",
+              "valid-period": {
+                "event-timeline-estimated-duration": "56"
+              },
+              "start-time": "2022-04-01T20:07:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-04-01T20:12:07.17460",
+        "ivr-article": "north of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane and shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220401GG02323",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on CA-84 Westbound exiting at Little Valley Rd (Sunol). Off Ramp closed until 9 AM. From 8:00 PM Friday, April 01, 2022 to 9:00 AM Saturday, April 02, 2022.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-04-02T02:59Z",
+      "updated": "2022-04-02T03:28Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.869961,
+          37.593369
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C84HB-0015-2022-04-01-20:01:00"
+      },
+      "roads": [
+        {
+          "name": "CA-84 W",
+          "from": "Little Valley Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 9 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "exiting at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-02T03:01Z/2022-04-02T16:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-01T20:30:44.48151"
+        },
+        "event-reference": {
+          "event-identifier": "888224"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-84 Westbound exiting at Little Valley Rd (Sunol). Off Ramp closed until 9 AM. From 8:00 PM Friday, April 01, 2022 to 9:00 AM Saturday, April 02, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "CA-84 W",
+                  "link-from-road": "Little Valley Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Sunol",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.593369",
+                    "event-location-coordinates-longitude": "-121.869961"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-01T20:28:54.99170",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-04-01T20:01:00.00000",
+              "cleared-time": "2022-04-02T09:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-01T20:28:54.99170",
+        "ivr-article": "exiting at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "until 9 AM",
+        "SourceEventID": "C84HB-0015-2022-04-01-20:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on CA-84 Westbound at Niles Canyon Rd (Fremont). All lanes closed until 5 AM. From 8:00 PM Friday, April 01, 2022 to 5:00 AM Saturday, April 02, 2022.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-04-02T03:15Z",
+      "updated": "2022-04-02T03:28Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.946915,
+          37.597848
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C84FB-0001-2022-04-01-20:01:00"
+      },
+      "roads": [
+        {
+          "name": "CA-84 W",
+          "from": "Niles Canyon Rd",
+          "direction": "Westbound",
+          "state": "CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "All lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 5 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-02T03:01Z/2022-04-02T12:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-01T20:30:44.48151"
+        },
+        "event-reference": {
+          "event-identifier": "888227"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-84 Westbound at Niles Canyon Rd (Fremont). All lanes closed until 5 AM. From 8:00 PM Friday, April 01, 2022 to 5:00 AM Saturday, April 02, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "CA-84 W",
+                  "link-from-road": "Niles Canyon Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.597848",
+                    "event-location-coordinates-longitude": "-121.946915"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-01T20:28:54.81410",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-04-01T20:01:00.00000",
+              "cleared-time": "2022-04-02T05:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "true",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-01T20:28:54.81410",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "until 5 AM",
+        "SourceEventID": "C84FB-0001-2022-04-01-20:01:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     }
