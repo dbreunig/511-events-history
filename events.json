@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-02T20:53:50.05396"
+          "event-message-time-stamp": "2022-04-02T21:26:07.03468"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -215,7 +215,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-02T20:53:50.05396"
+          "event-message-time-stamp": "2022-04-02T21:26:07.03468"
         },
         "event-reference": {
           "event-identifier": "888539"
@@ -293,14 +293,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-580 Eastbound at 98TH Ave (Oakland). Center Divider affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-580 Eastbound at 98TH Ave (Oakland). Left lane closed. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Minor",
+      "severity": "Moderate",
       "created": "2022-04-03T03:48Z",
-      "updated": "2022-04-03T03:52Z",
+      "updated": "2022-04-03T04:21Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -340,11 +340,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
+            "#text": "Left lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -358,12 +358,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-04-03T03:52Z/"
+          "2022-04-03T04:21Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-02T20:53:50.05396"
+          "event-message-time-stamp": "2022-04-02T21:26:07.03468"
         },
         "event-reference": {
           "event-identifier": "888552"
@@ -387,7 +387,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-580 Eastbound at 98TH Ave (Oakland). Center Divider affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-580 Eastbound at 98TH Ave (Oakland). Left lane closed. Expect delays."
                     }
                   }
                 }
@@ -410,11 +410,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-02T20:52:31.87550",
+              "update-time": "2022-04-02T21:21:01.26390",
               "valid-period": {
-                "event-timeline-estimated-duration": "23.5"
+                "event-timeline-estimated-duration": "31"
               },
-              "start-time": "2022-04-02T20:52:31.00000",
+              "start-time": "2022-04-02T21:21:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -423,16 +423,16 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
+        "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-02T20:52:31.87550",
+        "ivr-lastUpdateDttm": "2022-04-02T21:21:01.26390",
         "ivr-article": "at",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220402GG02307",
         "EventSourceName": "CHP",
@@ -441,21 +441,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Southbound north of Berryessa Rd (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-280 Northbound at Cambridge St (San Francisco). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-04-03T03:50Z",
-      "updated": "2022-04-03T03:52Z",
+      "created": "2022-04-03T04:13Z",
+      "updated": "2022-04-03T04:14Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "San Francisco",
+          "id": "5391997",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5391997/"
           }
         }
       },
@@ -468,8 +468,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.859781,
-          37.381356
+          -122.423836,
+          37.731355
         ]
       },
       "source_type": {
@@ -478,17 +478,313 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220402GG02315"
+        "#text": "220402GG02365"
       },
       "roads": [
         {
-          "name": "I-680 S",
-          "from": "Berryessa Rd",
-          "direction": "Southbound",
+          "name": "I-280 N",
+          "from": "Cambridge St",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-03T04:14Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-02T21:26:07.03468"
+        },
+        "event-reference": {
+          "event-identifier": "888555"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-280 Northbound at Cambridge St (San Francisco). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "Cambridge St",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.731355",
+                    "event-location-coordinates-longitude": "-122.423836"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-02T21:14:41.58090",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-04-02T21:14:41.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-02T21:14:41.58090",
+        "ivr-article": "at",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220402GG02365",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-80 Eastbound west of Treasure Island Rd (San Francisco). Left lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Major",
+      "created": "2022-04-03T04:18Z",
+      "updated": "2022-04-03T04:21Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.366974,
+          37.808253
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220402GG02373"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Treasure Island Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-03T04:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-02T21:26:07.03468"
+        },
+        "event-reference": {
+          "event-identifier": "888556"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-80 Eastbound west of Treasure Island Rd (San Francisco). Left lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Treasure Island Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.808253",
+                    "event-location-coordinates-longitude": "-122.366974"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-02T21:21:00.84820",
+              "valid-period": {
+                "event-timeline-estimated-duration": "48.7"
+              },
+              "start-time": "2022-04-02T21:21:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-04-02T21:21:00.84820",
+        "ivr-article": "west of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220402GG02373",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-680 Southbound north of Marshview Rd (Fairfield). Lanes affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Major",
+      "created": "2022-04-03T04:18Z",
+      "updated": "2022-04-03T04:22Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.112515,
+          38.151305
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220402GG02375"
+      },
+      "roads": [
+        {
+          "name": "I-680 S",
+          "from": "Marshview Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -506,15 +802,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-04-03T03:52Z/"
+          "2022-04-03T04:22Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-02T20:53:50.05396"
+          "event-message-time-stamp": "2022-04-02T21:26:07.03468"
         },
         "event-reference": {
-          "event-identifier": "888553"
+          "event-identifier": "888557"
         },
         "event-status": "new",
         "details": {
@@ -525,7 +821,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -535,7 +831,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Southbound north of Berryessa Rd (San Jose). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-680 Southbound north of Marshview Rd (Fairfield). Lanes affected. Expect delays."
                     }
                   }
                 }
@@ -544,25 +840,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
+                  "event-location-type-area": "CA095",
                   "link-road-designator": "I-680 S",
-                  "link-from-road": "Berryessa Rd",
+                  "link-from-road": "Marshview Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Fairfield",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.381356",
-                    "event-location-coordinates-longitude": "-121.859781"
+                    "event-location-coordinates-latitude": "38.151305",
+                    "event-location-coordinates-longitude": "-122.112515"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-02T20:52:31.70700",
+              "update-time": "2022-04-02T21:22:05.36450",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "50.2"
               },
-              "start-time": "2022-04-02T20:52:31.00000",
+              "start-time": "2022-04-02T21:22:04.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -571,18 +867,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "3",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-02T20:52:31.70700",
+        "ivr-lastUpdateDttm": "2022-04-02T21:22:05.36450",
         "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
+        "ivr-county": "Solano",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220402GG02315",
+        "SourceEventID": "220402GG02375",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
