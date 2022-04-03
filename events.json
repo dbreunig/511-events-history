@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-03T10:20:22.82173"
+          "event-message-time-stamp": "2022-04-03T10:39:39.67284"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -215,7 +215,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-03T10:20:22.82173"
+          "event-message-time-stamp": "2022-04-03T10:39:39.67284"
         },
         "event-reference": {
           "event-identifier": "888628"
@@ -287,6 +287,598 @@
         "ivr-totalLanes": "Center lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220403GG00827",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Southbound north of Metcalf Rd (San Jose). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-03T17:21Z",
+      "updated": "2022-04-03T17:21Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.726569,
+          37.213018
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220403MY00099"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Metcalf Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-03T17:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-03T10:39:39.67284"
+        },
+        "event-reference": {
+          "event-identifier": "888629"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of Metcalf Rd (San Jose). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Metcalf Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.213018",
+                    "event-location-coordinates-longitude": "-121.726569"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-03T10:21:20.02440",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2022-04-03T10:21:19.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-04-03T10:21:20.02440",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220403MY00099",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound at Carquinez Bridge (Vallejo). Center lanes affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Major",
+      "created": "2022-04-03T17:23Z",
+      "updated": "2022-04-03T17:24Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.22633,
+          38.060885
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220403GG00836"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Carquinez Bridge",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-03T17:24Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-03T10:39:39.67284"
+        },
+        "event-reference": {
+          "event-identifier": "888630"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound at Carquinez Bridge (Vallejo). Center lanes affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Carquinez Bridge",
+                  "link-to-road": null,
+                  "link-from-city": "Vallejo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.060885",
+                    "event-location-coordinates-longitude": "-122.22633"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-03T10:24:45.75500",
+              "valid-period": {
+                "event-timeline-estimated-duration": "63"
+              },
+              "start-time": "2022-04-03T10:24:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-03T10:24:45.75500",
+        "ivr-article": "at",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220403GG00836",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-580 Westbound exiting at Crow Canyon Rd (Castro Valley). Left lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-03T17:31Z",
+      "updated": "2022-04-03T17:32Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.049284,
+          37.693936
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220403GG00854"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Crow Canyon Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "exiting at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-03T17:31Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-03T10:39:39.67284"
+        },
+        "event-reference": {
+          "event-identifier": "888631"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-580 Westbound exiting at Crow Canyon Rd (Castro Valley). Left lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Crow Canyon Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Castro Valley",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.693936",
+                    "event-location-coordinates-longitude": "-122.049284"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-03T10:32:46.07910",
+              "valid-period": {
+                "event-timeline-estimated-duration": "27.7"
+              },
+              "start-time": "2022-04-03T10:31:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-03T10:32:46.07910",
+        "ivr-article": "exiting at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220403GG00854",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on CA-85 Northbound ramp to CA-87 (San Jose). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-03T17:35Z",
+      "updated": "2022-04-03T17:36Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.851089,
+          37.255417
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220403GG00858"
+      },
+      "roads": [
+        {
+          "name": "CA-85 N",
+          "from": "CA-87",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "ramp to"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-03T17:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-03T10:39:39.67284"
+        },
+        "event-reference": {
+          "event-identifier": "888632"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on CA-85 Northbound ramp to CA-87 (San Jose). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-85 N",
+                  "link-from-road": "CA-87",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.255417",
+                    "event-location-coordinates-longitude": "-121.851089"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-03T10:36:39.06580",
+              "valid-period": {
+                "event-timeline-estimated-duration": "32"
+              },
+              "start-time": "2022-04-03T10:34:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-03T10:36:39.06580",
+        "ivr-article": "ramp to",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220403GG00858",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
