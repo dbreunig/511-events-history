@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-02T20:30:09.57115"
+          "event-message-time-stamp": "2022-04-02T20:53:50.05396"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -215,7 +215,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-02T20:30:09.57115"
+          "event-message-time-stamp": "2022-04-02T20:53:50.05396"
         },
         "event-reference": {
           "event-identifier": "888539"
@@ -293,14 +293,162 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Northbound south of N Lawrence Expy (Sunnyvale). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-580 Eastbound at 98TH Ave (Oakland). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Minor",
+      "created": "2022-04-03T03:48Z",
+      "updated": "2022-04-03T03:52Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.151331,
+          37.749684
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220402GG02307"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "98TH Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-03T03:52Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-02T20:53:50.05396"
+        },
+        "event-reference": {
+          "event-identifier": "888552"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-580 Eastbound at 98TH Ave (Oakland). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "98TH Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.749684",
+                    "event-location-coordinates-longitude": "-122.151331"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-02T20:52:31.87550",
+              "valid-period": {
+                "event-timeline-estimated-duration": "23.5"
+              },
+              "start-time": "2022-04-02T20:52:31.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-04-02T20:52:31.87550",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220402GG02307",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-680 Southbound north of Berryessa Rd (San Jose). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-04-03T02:48Z",
-      "updated": "2022-04-03T03:01Z",
+      "created": "2022-04-03T03:50Z",
+      "updated": "2022-04-03T03:52Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -320,8 +468,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.999546,
-          37.39235
+          -121.859781,
+          37.381356
         ]
       },
       "source_type": {
@@ -330,17 +478,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220402GG02177"
+        "#text": "220402GG02315"
       },
       "roads": [
         {
-          "name": "US-101 N",
-          "from": "N Lawrence Expy",
-          "direction": "Northbound",
+          "name": "I-680 S",
+          "from": "Berryessa Rd",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -352,21 +500,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-03T03:01Z/"
+          "2022-04-03T03:52Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-02T20:30:09.57115"
+          "event-message-time-stamp": "2022-04-02T20:53:50.05396"
         },
         "event-reference": {
-          "event-identifier": "888546"
+          "event-identifier": "888553"
         },
         "event-status": "new",
         "details": {
@@ -387,7 +535,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of N Lawrence Expy (Sunnyvale). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-680 Southbound north of Berryessa Rd (San Jose). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -397,24 +545,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "N Lawrence Expy",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "Berryessa Rd",
                   "link-to-road": null,
-                  "link-from-city": "Sunnyvale",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.39235",
-                    "event-location-coordinates-longitude": "-121.999546"
+                    "event-location-coordinates-latitude": "37.381356",
+                    "event-location-coordinates-longitude": "-121.859781"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-02T20:01:53.78060",
+              "update-time": "2022-04-02T20:52:31.70700",
               "valid-period": {
                 "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-04-02T20:01:53.00000",
+              "start-time": "2022-04-02T20:52:31.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -427,310 +575,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-02T20:01:53.78060",
-        "ivr-article": "south of",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-04-02T20:52:31.70700",
+        "ivr-article": "north of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220402GG02177",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Northbound south of N Lawrence Expy (Sunnyvale). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-04-03T02:56Z",
-      "updated": "2022-04-03T02:56Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.991977,
-          37.390098
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220402GG02189"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "N Lawrence Expy",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-04-03T02:56Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-04-02T20:30:09.57115"
-        },
-        "event-reference": {
-          "event-identifier": "888548"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Northbound south of N Lawrence Expy (Sunnyvale). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "N Lawrence Expy",
-                  "link-to-road": null,
-                  "link-from-city": "Sunnyvale",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.390098",
-                    "event-location-coordinates-longitude": "-121.991977"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-04-02T19:56:35.26890",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-04-02T19:56:34.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-02T19:56:35.26890",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220402GG02189",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Northbound at CA-92 W (Hayward). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-04-03T03:12Z",
-      "updated": "2022-04-03T03:26Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.096255,
-          37.648356
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220402GG02227"
-      },
-      "roads": [
-        {
-          "name": "I-880 N",
-          "from": "CA-92 W",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-04-03T03:26Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-04-02T20:30:09.57115"
-        },
-        "event-reference": {
-          "event-identifier": "888551"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Northbound at CA-92 W (Hayward). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "CA-92 W",
-                  "link-to-road": null,
-                  "link-from-city": "Hayward",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.648356",
-                    "event-location-coordinates-longitude": "-122.096255"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-04-02T20:26:11.81220",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25"
-              },
-              "start-time": "2022-04-02T20:26:11.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-02T20:26:11.81220",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220402GG02227",
+        "SourceEventID": "220402GG02315",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
