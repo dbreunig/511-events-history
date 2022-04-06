@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-06T06:18:27.38652"
+          "event-message-time-stamp": "2022-04-06T06:41:56.94711"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-06T06:18:27.38652"
+          "event-message-time-stamp": "2022-04-06T06:41:56.94711"
         },
         "event-reference": {
           "event-identifier": "888829"
@@ -354,7 +354,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-06T06:18:27.38652"
+          "event-message-time-stamp": "2022-04-06T06:41:56.94711"
         },
         "event-reference": {
           "event-identifier": "889152"
@@ -431,24 +431,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision on CA-84 Eastbound west of Dumbarton Bridge - Causeway (Fremont). Right lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Roadwork on CA-29 Southbound at Deer Park Rd (St Helena). Lane closed. One way traffic control in effect. From 9:00 PM Tuesday, April 05, 2022 to 7:00 AM Wednesday, April 06, 2022.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Roadwork"
       },
-      "severity": "Severe",
-      "created": "2022-04-06T11:56Z",
-      "updated": "2022-04-06T12:37Z",
+      "severity": "Unknown",
+      "created": "2022-04-06T04:09Z",
+      "updated": "2022-04-06T13:39Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Napa",
+          "id": "5376101",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5376101/"
           }
         }
       },
@@ -461,70 +458,65 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.100691899008,
-          37.523711611519
+          -122.477884,
+          38.509624
         ]
       },
       "source_type": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
+        "#text": "Caltrans"
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220406GG00230"
+        "#text": "P29NA-0007-2022-04-05-21:01:00"
       },
       "roads": [
         {
-          "name": "CA-84 E",
-          "from": "Dumbarton Bridge - Causeway",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
+          "name": "CA-29 S",
+          "from": "Deer Park Rd",
+          "direction": "Southbound",
+          "state": "SINGLE_LANE_ALTERNATING",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "One way traffic control in effect"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-06T12:10Z/"
+          "2022-04-06T04:01Z/2022-04-06T14:01Z"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-06T06:18:27.38652"
+          "event-message-time-stamp": "2022-04-06T06:41:56.94711"
         },
         "event-reference": {
-          "event-identifier": "889521"
+          "event-identifier": "889441"
         },
         "event-status": "new",
         "details": {
           "eventElementDetails": {
-            "event-element-sequence": "4",
+            "event-element-sequence": "2",
             "event-element-description": {
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
                   }
                 },
                 {
@@ -533,7 +525,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision on CA-84 Eastbound west of Dumbarton Bridge - Causeway (Fremont). Right lane blocked. Expect delays."
+                      "event-description": "Caltrans : Roadwork on CA-29 Southbound at Deer Park Rd (St Helena). Lane closed. One way traffic control in effect. From 9:00 PM Tuesday, April 05, 2022 to 7:00 AM Wednesday, April 06, 2022."
                     }
                   }
                 }
@@ -542,47 +534,46 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "CA-84 E",
-                  "link-from-road": "Dumbarton Bridge - Causeway",
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-29 S",
+                  "link-from-road": "Deer Park Rd",
                   "link-to-road": null,
-                  "link-from-city": "Fremont",
+                  "link-from-city": "St Helena",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.523711611519",
-                    "event-location-coordinates-longitude": "-122.100691899008"
+                    "event-location-coordinates-latitude": "38.509624",
+                    "event-location-coordinates-longitude": "-122.477884"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-06T05:37:26.00620",
+              "update-time": "2022-04-06T06:39:23.72910",
               "valid-period": {
-                "event-timeline-estimated-duration": "71"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2022-04-06T05:10:00.00000",
-              "cleared-time": null,
+              "start-time": "2022-04-05T21:01:00.00000",
+              "cleared-time": "2022-04-06T07:01:00.00000",
               "utc-offset": "-0700"
             },
             "event-element-source": {
-              "event-organization-reported-identifier": "1003"
+              "event-organization-reported-identifier": "1004"
             }
           }
         },
-        "EventImpact": "Severe",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-06T05:37:26.00620",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220406GG00230",
-        "EventSourceName": "CHP",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-04-06T06:39:23.72910",
+        "ivr-article": "at",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "One way traffic control in effect",
+        "SourceEventID": "P29NA-0007-2022-04-05-21:01:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     },
@@ -595,7 +586,7 @@
       },
       "severity": "Unknown",
       "created": "2022-04-06T12:14Z",
-      "updated": "2022-04-06T13:16Z",
+      "updated": "2022-04-06T13:39Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -658,7 +649,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-06T06:18:27.38652"
+          "event-message-time-stamp": "2022-04-06T06:41:56.94711"
         },
         "event-reference": {
           "event-identifier": "889522"
@@ -705,7 +696,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-06T06:16:45.01190",
+              "update-time": "2022-04-06T06:39:23.09240",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -723,7 +714,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-06T06:16:45.01190",
+        "ivr-lastUpdateDttm": "2022-04-06T06:39:23.09240",
         "ivr-article": "at",
         "ivr-county": "Marin",
         "ivr-laneStatus": "closed",
@@ -731,6 +722,154 @@
         "ivr-genOtherText": "until 2 PM",
         "SourceEventID": "C580CB-0006-2022-04-06-05:01:00",
         "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on CA-12 Westbound east of Lynch Rd (Napa). Left lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-06T13:33Z",
+      "updated": "2022-04-06T13:39Z",
+      "areas": {
+        "area": {
+          "name": "Napa",
+          "id": "5376101",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5376101/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.234216,
+          38.220147
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220406GG00331"
+      },
+      "roads": [
+        {
+          "name": "CA-12 W",
+          "from": "Lynch Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-06T13:39Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-06T06:41:56.94711"
+        },
+        "event-reference": {
+          "event-identifier": "889526"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-12 Westbound east of Lynch Rd (Napa). Left lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-12 W",
+                  "link-from-road": "Lynch Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Napa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.220147",
+                    "event-location-coordinates-longitude": "-122.234216"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-06T06:39:13.14340",
+              "valid-period": {
+                "event-timeline-estimated-duration": "38.5"
+              },
+              "start-time": "2022-04-06T06:39:09.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-06T06:39:13.14340",
+        "ivr-article": "east of",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220406GG00331",
+        "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     }
