@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
         },
         "event-reference": {
           "event-identifier": "888829"
@@ -354,7 +354,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
         },
         "event-reference": {
           "event-identifier": "889152"
@@ -488,7 +488,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
         },
         "event-reference": {
           "event-identifier": "889153"
@@ -621,7 +621,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
         },
         "event-reference": {
           "event-identifier": "889156"
@@ -763,7 +763,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
         },
         "event-reference": {
           "event-identifier": "890067"
@@ -840,14 +840,162 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Southbound north of S Bascom Ave (San Jose). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-880 Northbound north of CA-84 E (Fremont). Left and center lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Moderate",
-      "created": "2022-04-08T00:04Z",
-      "updated": "2022-04-08T00:06Z",
+      "created": "2022-04-08T00:27Z",
+      "updated": "2022-04-08T00:44Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.023164,
+          37.547293
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220407GG02014"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "CA-84 E",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left and center lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-08T00:28Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
+        },
+        "event-reference": {
+          "event-identifier": "890144"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-880 Northbound north of CA-84 E (Fremont). Left and center lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "CA-84 E",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.547293",
+                    "event-location-coordinates-longitude": "-122.023164"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-07T17:44:25.48330",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2022-04-07T17:28:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-07T17:44:25.48330",
+        "ivr-article": "north of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left and center lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220407GG02014",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-280 Southbound south of Saratoga Ave (San Jose). Left lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-08T00:33Z",
+      "updated": "2022-04-08T00:34Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -867,8 +1015,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.933567,
-          37.317132
+          -121.970911,
+          37.316181
         ]
       },
       "source_type": {
@@ -877,169 +1025,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220407GG01954"
+        "#text": "220407GG02026"
       },
       "roads": [
         {
           "name": "I-280 S",
-          "from": "S Bascom Ave",
+          "from": "Saratoga Ave",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Left lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-04-08T00:06Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
-        },
-        "event-reference": {
-          "event-identifier": "890132"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Southbound north of S Bascom Ave (San Jose). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "S Bascom Ave",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.317132",
-                    "event-location-coordinates-longitude": "-121.933567"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-04-07T17:06:30.88520",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-04-07T17:06:26.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-07T17:06:30.88520",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220407GG01954",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-1 Northbound south of CA-17 N (Santa Cruz). 2nd lane from the left affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-04-08T00:05Z",
-      "updated": "2022-04-08T00:12Z",
-      "areas": {
-        "area": {
-          "name": "Santa Cruz",
-          "id": "5393068",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393068/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.999278,
-          36.988303
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220407MY00319"
-      },
-      "roads": [
-        {
-          "name": "CA-1 N",
-          "from": "CA-17 N",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1053,15 +1053,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-04-08T00:12Z/"
+          "2022-04-08T00:33Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
         },
         "event-reference": {
-          "event-identifier": "890133"
+          "event-identifier": "890145"
         },
         "event-status": "new",
         "details": {
@@ -1072,7 +1072,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -1082,7 +1082,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-1 Northbound south of CA-17 N (Santa Cruz). 2nd lane from the left affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-280 Southbound south of Saratoga Ave (San Jose). Left lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -1091,25 +1091,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA087",
-                  "link-road-designator": "CA-1 N",
-                  "link-from-road": "CA-17 N",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "Saratoga Ave",
                   "link-to-road": null,
-                  "link-from-city": "Santa Cruz",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "36.988303",
-                    "event-location-coordinates-longitude": "-121.999278"
+                    "event-location-coordinates-latitude": "37.316181",
+                    "event-location-coordinates-longitude": "-121.970911"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-07T17:12:51.89690",
+              "update-time": "2022-04-07T17:34:46.02340",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "31"
               },
-              "start-time": "2022-04-07T17:12:47.00000",
+              "start-time": "2022-04-07T17:33:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1122,35 +1122,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-07T17:12:51.89690",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-04-07T17:34:46.02340",
         "ivr-article": "south of",
-        "ivr-county": "Santa Cruz",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220407MY00319",
+        "SourceEventID": "220407GG02026",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Northbound entering at Alcosta Blvd (San Ramon). On Ramp affected. Expect delays.",
+      "headline": "CHP : Fire on I-80 Westbound west of Rockville Rd (Fairfield). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Fire"
       },
-      "severity": "Major",
-      "created": "2022-04-08T00:07Z",
-      "updated": "2022-04-08T00:09Z",
+      "severity": "Moderate",
+      "created": "2022-04-08T00:33Z",
+      "updated": "2022-04-08T00:35Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "Solano",
+          "id": "5396987",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5396987/"
           }
         }
       },
@@ -1163,8 +1163,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.939972,
-          37.723557
+          -122.073078,
+          38.247868
         ]
       },
       "source_type": {
@@ -1173,17 +1173,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220407GG01965"
+        "#text": "220407GG02027"
       },
       "roads": [
         {
-          "name": "I-680 N",
-          "from": "Alcosta Blvd",
-          "direction": "Northbound",
+          "name": "I-80 W",
+          "from": "Rockville Rd",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "On Ramp"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1195,21 +1195,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "entering at"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-08T00:07Z/"
+          "2022-04-08T00:34Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
         },
         "event-reference": {
-          "event-identifier": "890135"
+          "event-identifier": "890146"
         },
         "event-status": "new",
         "details": {
@@ -1220,7 +1220,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Fire"
                     }
                   }
                 },
@@ -1230,7 +1230,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Northbound entering at Alcosta Blvd (San Ramon). On Ramp affected. Expect delays."
+                      "event-description": "CHP : Fire on I-80 Westbound west of Rockville Rd (Fairfield). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -1239,25 +1239,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "Alcosta Blvd",
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Rockville Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Ramon",
+                  "link-from-city": "Fairfield",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.723557",
-                    "event-location-coordinates-longitude": "-121.939972"
+                    "event-location-coordinates-latitude": "38.247868",
+                    "event-location-coordinates-longitude": "-122.073078"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-07T17:09:56.94990",
+              "update-time": "2022-04-07T17:35:03.94360",
               "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
+                "event-timeline-estimated-duration": "29.5"
               },
-              "start-time": "2022-04-07T17:07:00.00000",
+              "start-time": "2022-04-07T17:34:59.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1266,39 +1266,39 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-07T17:09:56.94990",
-        "ivr-article": "entering at",
-        "ivr-county": "Contra Costa",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-07T17:35:03.94360",
+        "ivr-article": "west of",
+        "ivr-county": "Solano",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "On Ramp",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220407GG01965",
+        "SourceEventID": "220407GG02027",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-24 Eastbound at Caldecott Tunnel (Orinda). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision on US-101 Southbound at Broadway (Burlingame). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-04-08T00:12Z",
-      "updated": "2022-04-08T00:16Z",
+      "created": "2022-04-08T00:35Z",
+      "updated": "2022-04-08T00:38Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "San Mateo",
+          "id": "5392427",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5392427/"
           }
         }
       },
@@ -1311,8 +1311,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.212162,
-          37.858644
+          -122.358314,
+          37.588301
         ]
       },
       "source_type": {
@@ -1321,13 +1321,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220407GG01979"
+        "#text": "220407GG01964"
       },
       "roads": [
         {
-          "name": "CA-24 E",
-          "from": "Caldecott Tunnel",
-          "direction": "Eastbound",
+          "name": "US-101 S",
+          "from": "Broadway",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1349,15 +1349,311 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-04-08T00:15Z/"
+          "2022-04-08T00:38Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
         },
         "event-reference": {
-          "event-identifier": "890138"
+          "event-identifier": "890147"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Southbound at Broadway (Burlingame). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Broadway",
+                  "link-to-road": null,
+                  "link-from-city": "Burlingame",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.588301",
+                    "event-location-coordinates-longitude": "-122.35831399999999"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-07T17:38:15.52720",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-04-07T17:38:10.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-04-07T17:38:15.52720",
+        "ivr-article": "at",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220407GG01964",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-237 Westbound east of N Mathilda Ave (Sunnyvale). Right lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-08T00:39Z",
+      "updated": "2022-04-08T00:39Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.02125,
+          37.40425
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220407GG02047"
+      },
+      "roads": [
+        {
+          "name": "CA-237 W",
+          "from": "N Mathilda Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-08T00:39Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
+        },
+        "event-reference": {
+          "event-identifier": "890148"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-237 Westbound east of N Mathilda Ave (Sunnyvale). Right lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-237 W",
+                  "link-from-road": "N Mathilda Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Sunnyvale",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.40425",
+                    "event-location-coordinates-longitude": "-122.02125"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-07T17:39:39.49900",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29"
+              },
+              "start-time": "2022-04-07T17:39:14.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-07T17:39:39.49900",
+        "ivr-article": "east of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220407GG02047",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-680 Southbound north of Sycamore Valley Rd (Danville). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-08T00:44Z",
+      "updated": "2022-04-08T00:45Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.993459,
+          37.81494
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220407GG02061"
+      },
+      "roads": [
+        {
+          "name": "I-680 S",
+          "from": "Sycamore Valley Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-08T00:44Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
+        },
+        "event-reference": {
+          "event-identifier": "890149"
         },
         "event-status": "new",
         "details": {
@@ -1378,7 +1674,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-24 Eastbound at Caldecott Tunnel (Orinda). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-680 Southbound north of Sycamore Valley Rd (Danville). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -1388,24 +1684,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 E",
-                  "link-from-road": "Caldecott Tunnel",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "Sycamore Valley Rd",
                   "link-to-road": null,
-                  "link-from-city": "Orinda",
+                  "link-from-city": "Danville",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.858644",
-                    "event-location-coordinates-longitude": "-122.212162"
+                    "event-location-coordinates-latitude": "37.81494",
+                    "event-location-coordinates-longitude": "-121.993459"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-07T17:16:02.62930",
+              "update-time": "2022-04-07T17:45:32.26330",
               "valid-period": {
-                "event-timeline-estimated-duration": "43"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-04-07T17:15:57.00000",
+              "start-time": "2022-04-07T17:44:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1418,28 +1714,28 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-07T17:16:02.62930",
-        "ivr-article": "at",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-04-07T17:45:32.26330",
+        "ivr-article": "north of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220407GG01979",
+        "SourceEventID": "220407GG02061",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Eastbound east of Treasure Island Rd (San Francisco). Left lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on US-101 Southbound at Merchant Rd (San Francisco). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Traffic Collision"
       },
-      "severity": "Major",
-      "created": "2022-04-08T00:12Z",
-      "updated": "2022-04-08T00:18Z",
+      "severity": "Minor",
+      "created": "2022-04-08T00:47Z",
+      "updated": "2022-04-08T00:48Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -1459,8 +1755,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.366974,
-          37.808253
+          -122.475694,
+          37.807153
         ]
       },
       "source_type": {
@@ -1469,21 +1765,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220407GG01980"
+        "#text": "220407GG02075"
       },
       "roads": [
         {
-          "name": "I-80 E",
-          "from": "Treasure Island Rd",
-          "direction": "Eastbound",
+          "name": "US-101 S",
+          "from": "Merchant Rd",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1491,21 +1787,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-08T00:18Z/"
+          "2022-04-08T00:48Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-07T17:20:26.66912"
+          "event-message-time-stamp": "2022-04-07T17:49:09.85104"
         },
         "event-reference": {
-          "event-identifier": "890139"
+          "event-identifier": "890150"
         },
         "event-status": "new",
         "details": {
@@ -1516,7 +1812,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -1526,7 +1822,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound east of Treasure Island Rd (San Francisco). Left lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on US-101 Southbound at Merchant Rd (San Francisco). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1536,24 +1832,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Treasure Island Rd",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Merchant Rd",
                   "link-to-road": null,
                   "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.808253",
-                    "event-location-coordinates-longitude": "-122.366974"
+                    "event-location-coordinates-latitude": "37.807153",
+                    "event-location-coordinates-longitude": "-122.475694"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-07T17:18:09.64800",
+              "update-time": "2022-04-07T17:48:52.19990",
               "valid-period": {
-                "event-timeline-estimated-duration": "49"
+                "event-timeline-estimated-duration": "13.999999999999998"
               },
-              "start-time": "2022-04-07T17:18:04.00000",
+              "start-time": "2022-04-07T17:48:47.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1562,18 +1858,18 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-07T17:18:09.64800",
-        "ivr-article": "east of",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-04-07T17:48:52.19990",
+        "ivr-article": "at",
         "ivr-county": "San Francisco",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220407GG01980",
+        "SourceEventID": "220407GG02075",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
