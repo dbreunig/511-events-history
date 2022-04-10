@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
         },
         "event-reference": {
           "event-identifier": "888829"
@@ -354,7 +354,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
         },
         "event-reference": {
           "event-identifier": "889152"
@@ -489,7 +489,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
         },
         "event-reference": {
           "event-identifier": "889579"
@@ -636,7 +636,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
         },
         "event-reference": {
           "event-identifier": "891098"
@@ -714,14 +714,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fire on CA-85 Southbound north of Stevens Creek Blvd (Cupertino). Left lane blocked. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Fire on CA-85 Southbound exiting at Stevens Creek Blvd (Cupertino). Right lanes closed. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Fire"
+        "event_subtype": [
+          "Fire",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Moderate",
+      "severity": "Major",
       "created": "2022-04-10T21:49Z",
-      "updated": "2022-04-10T22:43Z",
+      "updated": "2022-04-10T23:08Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -761,11 +764,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "Right lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -773,7 +776,7 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "exiting at"
           }
         }
       ],
@@ -784,7 +787,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
         },
         "event-reference": {
           "event-identifier": "891136"
@@ -797,9 +800,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Fire"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Fire"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -808,7 +816,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fire on CA-85 Southbound north of Stevens Creek Blvd (Cupertino). Left lane blocked. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Fire on CA-85 Southbound exiting at Stevens Creek Blvd (Cupertino). Right lanes closed. Expect delays."
                     }
                   }
                 }
@@ -831,11 +839,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-10T15:43:34.10060",
+              "update-time": "2022-04-10T16:08:23.07640",
               "valid-period": {
-                "event-timeline-estimated-duration": "32"
+                "event-timeline-estimated-duration": "61.5"
               },
-              "start-time": "2022-04-10T15:43:32.00000",
+              "start-time": "2022-04-10T15:43:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -844,16 +852,17 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "3",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-10T15:43:34.10060",
-        "ivr-article": "north of",
+        "ivr-lastUpdateDttm": "2022-04-10T16:08:23.07640",
+        "ivr-article": "exiting at",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Right lanes",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220410GG01428",
         "EventSourceName": "CHP",
@@ -932,7 +941,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
         },
         "event-reference": {
           "event-identifier": "891142"
@@ -1083,7 +1092,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
         },
         "event-reference": {
           "event-identifier": "891146"
@@ -1167,21 +1176,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-24 Eastbound east of ST Stephens Dr (Orinda). Right lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Smith Ranch Rd (San Rafael). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-04-10T22:38Z",
-      "updated": "2022-04-10T22:56Z",
+      "created": "2022-04-10T23:14Z",
+      "updated": "2022-04-10T23:14Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "Marin",
+          "id": "5370468",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5370468/"
           }
         }
       },
@@ -1194,8 +1203,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.165653,
-          37.892634
+          -122.540906,
+          38.016345
         ]
       },
       "source_type": {
@@ -1204,17 +1213,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220410GG01572"
+        "#text": "220410GG01674"
       },
       "roads": [
         {
-          "name": "CA-24 E",
-          "from": "ST Stephens Dr",
-          "direction": "Eastbound",
+          "name": "US-101 N",
+          "from": "Smith Ranch Rd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1226,21 +1235,169 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-10T22:56Z/"
+          "2022-04-10T23:14Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
         },
         "event-reference": {
-          "event-identifier": "891151"
+          "event-identifier": "891163"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Smith Ranch Rd (San Rafael). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Smith Ranch Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Rafael",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.016345",
+                    "event-location-coordinates-longitude": "-122.540906"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-10T16:14:15.10200",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-04-10T16:14:13.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-10T16:14:15.10200",
+        "ivr-article": "south of",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220410GG01674",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on CA-35 Northbound at Fox Run (Los Gatos). Off Ramp affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-10T23:17Z",
+      "updated": "2022-04-10T23:19Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.11598,
+          37.256293
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220410GG01688"
+      },
+      "roads": [
+        {
+          "name": "CA-35 N",
+          "from": "Fox Run",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-10T23:18Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
+        },
+        "event-reference": {
+          "event-identifier": "891164"
         },
         "event-status": "new",
         "details": {
@@ -1261,7 +1418,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-24 Eastbound east of ST Stephens Dr (Orinda). Right lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-35 Northbound at Fox Run (Los Gatos). Off Ramp affected. Expect delays."
                     }
                   }
                 }
@@ -1270,25 +1427,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 E",
-                  "link-from-road": "ST Stephens Dr",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-35 N",
+                  "link-from-road": "Fox Run",
                   "link-to-road": null,
-                  "link-from-city": "Orinda",
+                  "link-from-city": "Los Gatos",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.892634",
-                    "event-location-coordinates-longitude": "-122.165653"
+                    "event-location-coordinates-latitude": "37.256293",
+                    "event-location-coordinates-longitude": "-122.11598"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-10T15:56:17.21580",
+              "update-time": "2022-04-10T16:19:25.15490",
               "valid-period": {
-                "event-timeline-estimated-duration": "31"
+                "event-timeline-estimated-duration": "38.5"
               },
-              "start-time": "2022-04-10T15:56:16.00000",
+              "start-time": "2022-04-10T16:18:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1301,176 +1458,28 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-10T15:56:17.21580",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-10T16:19:25.15490",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
+        "ivr-totalLanes": "Off Ramp",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220410GG01572",
+        "SourceEventID": "220410GG01688",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-580 Eastbound west of Hacienda Dr (Pleasanton). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on CA-1 Southbound north of Monterey Rd (Pacifica). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Residual delays"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-04-10T22:54Z",
-      "updated": "2022-04-10T22:57Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.894393,
-          37.701417
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220410GG01619"
-      },
-      "roads": [
-        {
-          "name": "I-580 E",
-          "from": "Hacienda Dr",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-04-10T22:54Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
-        },
-        "event-reference": {
-          "event-identifier": "891158"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-580 Eastbound west of Hacienda Dr (Pleasanton). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "Hacienda Dr",
-                  "link-to-road": null,
-                  "link-from-city": "Pleasanton",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.701417",
-                    "event-location-coordinates-longitude": "-121.894393"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-04-10T15:57:26.22600",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25.5"
-              },
-              "start-time": "2022-04-10T15:54:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-10T15:57:26.22600",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220410GG01619",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on US-101 Southbound south of S Airport Blvd (South San Francisco). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Moderate",
-      "created": "2022-04-10T23:03Z",
-      "updated": "2022-04-10T23:04Z",
+      "created": "2022-04-10T23:18Z",
+      "updated": "2022-04-10T23:18Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -1490,8 +1499,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.406002,
-          37.643058
+          -122.490738,
+          37.654367
         ]
       },
       "source_type": {
@@ -1500,17 +1509,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220410GG01646"
+        "#text": "220410GG01693"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "S Airport Blvd",
+          "name": "CA-1 S",
+          "from": "Monterey Rd",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1522,21 +1531,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-10T23:03Z/"
+          "2022-04-10T23:18Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-10T16:05:28.43244"
+          "event-message-time-stamp": "2022-04-10T16:23:36.35482"
         },
         "event-reference": {
-          "event-identifier": "891159"
+          "event-identifier": "891165"
         },
         "event-status": "new",
         "details": {
@@ -1547,7 +1556,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Residual delays"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -1557,7 +1566,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on US-101 Southbound south of S Airport Blvd (South San Francisco). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-1 Southbound north of Monterey Rd (Pacifica). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1567,24 +1576,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "S Airport Blvd",
+                  "link-road-designator": "CA-1 S",
+                  "link-from-road": "Monterey Rd",
                   "link-to-road": null,
-                  "link-from-city": "South San Francisco",
+                  "link-from-city": "Pacifica",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.643058",
-                    "event-location-coordinates-longitude": "-122.406002"
+                    "event-location-coordinates-latitude": "37.654367",
+                    "event-location-coordinates-longitude": "-122.490738"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-10T16:04:45.97560",
+              "update-time": "2022-04-10T16:18:28.51780",
               "valid-period": {
-                "event-timeline-estimated-duration": "25.5"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2022-04-10T16:03:00.00000",
+              "start-time": "2022-04-10T16:18:27.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1598,13 +1607,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-10T16:04:45.97560",
-        "ivr-article": "south of",
+        "ivr-lastUpdateDttm": "2022-04-10T16:18:28.51780",
+        "ivr-article": "north of",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220410GG01646",
+        "SourceEventID": "220410GG01693",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
