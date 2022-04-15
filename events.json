@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-14T20:48:15.40333"
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-14T20:48:15.40333"
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
         },
         "event-reference": {
           "event-identifier": "888829"
@@ -354,7 +354,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-14T20:48:15.40333"
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
         },
         "event-reference": {
           "event-identifier": "889152"
@@ -431,21 +431,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-17 Northbound north of Summit Rd (Los Gatos). Lane affected. Expect delays.",
+      "headline": "CHP : Residual delays on I-580 Westbound east of Keller Ave (Oakland). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Residual delays"
       },
-      "severity": "Moderate",
-      "created": "2022-04-15T03:09Z",
-      "updated": "2022-04-15T03:47Z",
+      "severity": "Minor",
+      "created": "2022-04-15T03:51Z",
+      "updated": "2022-04-15T03:57Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -458,8 +458,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.984722,
-          37.145278
+          -122.153605,
+          37.768575
         ]
       },
       "source_type": {
@@ -468,17 +468,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220414GG02068"
+        "#text": "220414GG02148"
       },
       "roads": [
         {
-          "name": "CA-17 N",
-          "from": "Summit Rd",
-          "direction": "Northbound",
+          "name": "I-580 W",
+          "from": "Keller Ave",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -490,21 +490,169 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-15T03:47Z/"
+          "2022-04-15T03:55Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-14T20:48:15.40333"
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
         },
         "event-reference": {
-          "event-identifier": "892748"
+          "event-identifier": "892755"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on I-580 Westbound east of Keller Ave (Oakland). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Keller Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.768575",
+                    "event-location-coordinates-longitude": "-122.153605"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-14T20:57:01.31090",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.5"
+              },
+              "start-time": "2022-04-14T20:55:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-14T20:57:01.31090",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220414GG02148",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound east of Redwood Pky (Vallejo). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-15T03:53Z",
+      "updated": "2022-04-15T04:02Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.230255,
+          38.120224
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220414GG02152"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Redwood Pky",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-15T04:02Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
+        },
+        "event-reference": {
+          "event-identifier": "892756"
         },
         "event-status": "new",
         "details": {
@@ -525,7 +673,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-17 Northbound north of Summit Rd (Los Gatos). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound east of Redwood Pky (Vallejo). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -534,25 +682,173 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-17 N",
-                  "link-from-road": "Summit Rd",
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Redwood Pky",
                   "link-to-road": null,
-                  "link-from-city": "Los Gatos",
+                  "link-from-city": "Vallejo",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.145278",
-                    "event-location-coordinates-longitude": "-121.984722"
+                    "event-location-coordinates-latitude": "38.120224",
+                    "event-location-coordinates-longitude": "-122.230255"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-14T20:47:44.68330",
+              "update-time": "2022-04-14T21:02:41.35880",
               "valid-period": {
-                "event-timeline-estimated-duration": "34"
+                "event-timeline-estimated-duration": "29"
               },
-              "start-time": "2022-04-14T20:47:39.00000",
+              "start-time": "2022-04-14T21:02:36.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-04-14T21:02:41.35880",
+        "ivr-article": "east of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220414GG02152",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-280 Northbound north of Cesar Chavez St (San Francisco). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-15T04:06Z",
+      "updated": "2022-04-15T04:08Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.39682,
+          37.742983
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220414GG02181"
+      },
+      "roads": [
+        {
+          "name": "I-280 N",
+          "from": "Cesar Chavez St",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-15T04:06Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
+        },
+        "event-reference": {
+          "event-identifier": "892757"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-280 Northbound north of Cesar Chavez St (San Francisco). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "Cesar Chavez St",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.742983",
+                    "event-location-coordinates-longitude": "-122.39682"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-14T21:08:00.22070",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29"
+              },
+              "start-time": "2022-04-14T21:06:54.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -566,34 +862,34 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-14T20:47:44.68330",
+        "ivr-lastUpdateDttm": "2022-04-14T21:08:00.22070",
         "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
+        "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220414GG02068",
+        "SourceEventID": "220414GG02181",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-4 Westbound at Byron Hwy (Brentwood). Lane affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-280 Northbound south of Mariposa St (San Francisco). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2022-04-15T03:11Z",
-      "updated": "2022-04-15T03:18Z",
+      "created": "2022-04-15T04:12Z",
+      "updated": "2022-04-15T04:16Z",
       "areas": {
         "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
+          "name": "San Francisco",
+          "id": "5391997",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
+            "@href": "http://geonames.org/5391997/"
           }
         }
       },
@@ -606,8 +902,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.641321,
-          37.889973
+          -122.392246,
+          37.759824
         ]
       },
       "source_type": {
@@ -616,17 +912,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220414GG02073"
+        "#text": "220414GG02191"
       },
       "roads": [
         {
-          "name": "CA-4 W",
-          "from": "Byron Hwy",
-          "direction": "Westbound",
+          "name": "I-280 N",
+          "from": "Mariposa St",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -638,21 +934,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-15T03:11Z/"
+          "2022-04-15T04:16Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-14T20:48:15.40333"
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
         },
         "event-reference": {
-          "event-identifier": "892749"
+          "event-identifier": "892758"
         },
         "event-status": "new",
         "details": {
@@ -663,7 +959,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -673,7 +969,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-4 Westbound at Byron Hwy (Brentwood). Lane affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-280 Northbound south of Mariposa St (San Francisco). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -682,25 +978,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 W",
-                  "link-from-road": "Byron Hwy",
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "Mariposa St",
                   "link-to-road": null,
-                  "link-from-city": "Brentwood",
+                  "link-from-city": "San Francisco",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.889973",
-                    "event-location-coordinates-longitude": "-121.641321"
+                    "event-location-coordinates-latitude": "37.759824",
+                    "event-location-coordinates-longitude": "-122.392246"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-14T20:18:57.70950",
+              "update-time": "2022-04-14T21:16:34.99670",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "27.7"
               },
-              "start-time": "2022-04-14T20:11:00.00000",
+              "start-time": "2022-04-14T21:16:30.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -713,15 +1009,756 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-04-14T20:18:57.70950",
-        "ivr-article": "at",
-        "ivr-county": "Contra Costa",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-14T21:16:34.99670",
+        "ivr-article": "south of",
+        "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220414GG02073",
+        "SourceEventID": "220414GG02191",
         "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-280 N-king ST Ramp Northbound south of I-280 N (San Francisco). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-15T04:15Z",
+      "updated": "2022-04-15T04:15Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.396156,
+          37.7745
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220414GG02203"
+      },
+      "roads": [
+        {
+          "name": "I-280 N-king ST Ramp",
+          "from": "I-280 N",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-15T04:15Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
+        },
+        "event-reference": {
+          "event-identifier": "892759"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-280 N-king ST Ramp Northbound south of I-280 N (San Francisco). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "I-280 N-king ST Ramp",
+                  "link-from-road": "I-280 N",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.7745",
+                    "event-location-coordinates-longitude": "-122.396156"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-14T21:15:31.00660",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2022-04-14T21:15:26.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-14T21:15:31.00660",
+        "ivr-article": "south of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220414GG02203",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Left lane and shoulder closed until 5 AM. From 9:00 PM Thursday, April 14, 2022 to 5:00 AM Friday, April 15, 2022.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-04-15T04:16Z",
+      "updated": "2022-04-15T04:16Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.477644,
+          37.942579
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C580CB-0015-2022-04-14-21:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Main St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane and shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 5 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-15T04:01Z/2022-04-15T11:59Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
+        },
+        "event-reference": {
+          "event-identifier": "892760"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Left lane and shoulder closed until 5 AM. From 9:00 PM Thursday, April 14, 2022 to 5:00 AM Friday, April 15, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Main St",
+                  "link-to-road": null,
+                  "link-from-city": "San Quentin",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.942579",
+                    "event-location-coordinates-longitude": "-122.477644"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-14T21:16:18.50560",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-04-14T21:01:00.00000",
+              "cleared-time": "2022-04-15T04:59:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-04-14T21:16:18.50560",
+        "ivr-article": "at",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Left lane and shoulder",
+        "ivr-genOtherText": "until 5 AM",
+        "SourceEventID": "C580CB-0015-2022-04-14-21:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on I-80 Westbound between Alamo Dr (Vacaville) and Cherry Glen Rd (Vacaville). Lane closed until 4 AM. From 9:00 PM Thursday, April 14, 2022 to 4:00 AM Friday, April 15, 2022.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-04-15T04:16Z",
+      "updated": "2022-04-15T04:16Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.997133,
+          38.346511
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "M80LA-0001-2022-04-14-21:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Alamo Dr",
+          "to": "Cherry Glen Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 4 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "between"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-15T04:01Z/2022-04-15T11:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
+        },
+        "event-reference": {
+          "event-identifier": "892761"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-80 Westbound between Alamo Dr (Vacaville) and Cherry Glen Rd (Vacaville). Lane closed until 4 AM. From 9:00 PM Thursday, April 14, 2022 to 4:00 AM Friday, April 15, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Alamo Dr",
+                  "link-to-road": "Cherry Glen Rd",
+                  "link-from-city": "Vacaville",
+                  "link-to-city": "Vacaville",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.346511",
+                    "event-location-coordinates-longitude": "-121.997133"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-14T21:16:18.82830",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-04-14T21:01:00.00000",
+              "cleared-time": "2022-04-15T04:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-14T21:16:18.82830",
+        "ivr-article": "between",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "until 4 AM",
+        "SourceEventID": "M80LA-0001-2022-04-14-21:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on CA-29 Northbound at Deer Park Rd (St Helena). Lane closed. One way traffic control in effect. From 9:00 PM Thursday, April 14, 2022 to 6:00 AM Friday, April 15, 2022.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-04-15T04:16Z",
+      "updated": "2022-04-15T04:16Z",
+      "areas": {
+        "area": {
+          "name": "Napa",
+          "id": "5376101",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5376101/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.477884,
+          38.509624
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "P29NA-0009-2022-04-14-21:01:00"
+      },
+      "roads": [
+        {
+          "name": "CA-29 N",
+          "from": "Deer Park Rd",
+          "direction": "Northbound",
+          "state": "SINGLE_LANE_ALTERNATING",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "One way traffic control in effect"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-15T04:01Z/2022-04-15T13:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
+        },
+        "event-reference": {
+          "event-identifier": "892762"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-29 Northbound at Deer Park Rd (St Helena). Lane closed. One way traffic control in effect. From 9:00 PM Thursday, April 14, 2022 to 6:00 AM Friday, April 15, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-29 N",
+                  "link-from-road": "Deer Park Rd",
+                  "link-to-road": null,
+                  "link-from-city": "St Helena",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.509624",
+                    "event-location-coordinates-longitude": "-122.477884"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-14T21:16:19.45900",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-04-14T21:01:00.00000",
+              "cleared-time": "2022-04-15T06:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-14T21:16:19.45900",
+        "ivr-article": "at",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "One way traffic control in effect",
+        "SourceEventID": "P29NA-0009-2022-04-14-21:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on CA-29 Northbound at Deer Park Rd (St Helena). Lane closed. One way traffic control in effect. From 9:00 PM Thursday, April 14, 2022 to 6:00 AM Friday, April 15, 2022.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-04-15T04:16Z",
+      "updated": "2022-04-15T04:16Z",
+      "areas": {
+        "area": {
+          "name": "Napa",
+          "id": "5376101",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5376101/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.507576,
+          38.53798
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "P29NA-0014-2022-04-14-21:01:00"
+      },
+      "roads": [
+        {
+          "name": "CA-29 N",
+          "from": "Deer Park Rd",
+          "direction": "Northbound",
+          "state": "SINGLE_LANE_ALTERNATING",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "One way traffic control in effect"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-15T04:01Z/2022-04-15T13:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-14T21:17:24.15609"
+        },
+        "event-reference": {
+          "event-identifier": "892763"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-29 Northbound at Deer Park Rd (St Helena). Lane closed. One way traffic control in effect. From 9:00 PM Thursday, April 14, 2022 to 6:00 AM Friday, April 15, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-29 N",
+                  "link-from-road": "Deer Park Rd",
+                  "link-to-road": null,
+                  "link-from-city": "St Helena",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.53798",
+                    "event-location-coordinates-longitude": "-122.507576"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-14T21:16:19.77210",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-04-14T21:01:00.00000",
+              "cleared-time": "2022-04-15T06:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-14T21:16:19.77210",
+        "ivr-article": "at",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "One way traffic control in effect",
+        "SourceEventID": "P29NA-0014-2022-04-14-21:01:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     }
