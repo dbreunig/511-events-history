@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-15T06:48:32.20288"
+          "event-message-time-stamp": "2022-04-15T07:05:17.92420"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-15T06:48:32.20288"
+          "event-message-time-stamp": "2022-04-15T07:05:17.92420"
         },
         "event-reference": {
           "event-identifier": "888829"
@@ -354,7 +354,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-15T06:48:32.20288"
+          "event-message-time-stamp": "2022-04-15T07:05:17.92420"
         },
         "event-reference": {
           "event-identifier": "889152"
@@ -431,18 +431,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision and Fuel spill on CA-37 Westbound at Sonoma Blvd (Vallejo). All lanes closed. Avoid the area.",
+      "headline": "CHP : Residual delays on CA-37 Westbound at Sonoma Blvd (Vallejo). All lanes open. Avoid the area.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Fuel spill",
-          "Traffic Collision",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Severe",
+      "severity": "Unknown",
       "created": "2022-04-15T07:23Z",
-      "updated": "2022-04-15T13:08Z",
+      "updated": "2022-04-15T14:02Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -479,14 +475,14 @@
           "name": "CA-37 W",
           "from": "Sonoma Blvd",
           "direction": "Westbound",
-          "state": "CLOSED",
+          "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -517,7 +513,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-15T06:48:32.20288"
+          "event-message-time-stamp": "2022-04-15T07:05:17.92420"
         },
         "event-reference": {
           "event-identifier": "892807"
@@ -530,17 +526,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Fuel spill"
-                      },
-                      {
-                        "incident": "Traffic Collision"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -549,7 +537,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision and Fuel spill on CA-37 Westbound at Sonoma Blvd (Vallejo). All lanes closed. Avoid the area."
+                      "event-description": "CHP : Residual delays on CA-37 Westbound at Sonoma Blvd (Vallejo). All lanes open. Avoid the area."
                     }
                   }
                 }
@@ -575,9 +563,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-15T06:08:25.22570",
+              "update-time": "2022-04-15T07:02:35.30500",
               "valid-period": {
-                "event-timeline-estimated-duration": "74.5"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2022-04-15T01:55:00.00000",
               "cleared-time": null,
@@ -588,17 +576,16 @@
             }
           }
         },
-        "EventImpact": "Severe",
-        "RoadClosed": "true",
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-04-15T06:08:25.22570",
+        "ivr-lastUpdateDttm": "2022-04-15T07:02:35.30500",
         "ivr-article": "at",
         "ivr-county": "Solano",
-        "ivr-laneStatus": "closed",
+        "ivr-laneStatus": "open",
         "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Avoid the area",
         "SourceEventID": "220415GG00032",
         "EventSourceName": "CHP",
@@ -607,155 +594,7 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-152 Eastbound east of Pole Line Rd (Gilroy). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Minor",
-      "created": "2022-04-15T13:36Z",
-      "updated": "2022-04-15T13:36Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.716819,
-          36.996042
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220415MY00045"
-      },
-      "roads": [
-        {
-          "name": "CA-152",
-          "from": "Pole Line Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-04-15T13:35Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-04-15T06:48:32.20288"
-        },
-        "event-reference": {
-          "event-identifier": "892842"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-152 Eastbound east of Pole Line Rd (Gilroy). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-152",
-                  "link-from-road": "Pole Line Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Gilroy",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "36.996042",
-                    "event-location-coordinates-longitude": "-121.716819"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-04-15T06:36:11.83890",
-              "valid-period": {
-                "event-timeline-estimated-duration": "11.5"
-              },
-              "start-time": "2022-04-15T06:35:57.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-15T06:36:11.83890",
-        "ivr-article": "east of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220415MY00045",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries and Overturned vehicle on CA-17 Southbound at Glen Canyon Rd (Scotts Valley). Right lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries and Overturned vehicle on CA-17 Southbound south of Mt Hermon Rd (Scotts Valley). Right lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": [
@@ -765,7 +604,7 @@
       },
       "severity": "Major",
       "created": "2022-04-15T13:38Z",
-      "updated": "2022-04-15T13:39Z",
+      "updated": "2022-04-15T13:49Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -785,8 +624,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.019466,
-          37.036779
+          -122.024017708698,
+          37.0282286879006
         ]
       },
       "source_type": {
@@ -800,7 +639,7 @@
       "roads": [
         {
           "name": "CA-17 S",
-          "from": "Glen Canyon Rd",
+          "from": "Mt Hermon Rd",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -817,7 +656,7 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "south of"
           }
         }
       ],
@@ -828,7 +667,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-15T06:48:32.20288"
+          "event-message-time-stamp": "2022-04-15T07:05:17.92420"
         },
         "event-reference": {
           "event-identifier": "892844"
@@ -857,7 +696,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries and Overturned vehicle on CA-17 Southbound at Glen Canyon Rd (Scotts Valley). Right lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries and Overturned vehicle on CA-17 Southbound south of Mt Hermon Rd (Scotts Valley). Right lane blocked. Expect delays."
                     }
                   }
                 }
@@ -868,19 +707,19 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA087",
                   "link-road-designator": "CA-17 S",
-                  "link-from-road": "Glen Canyon Rd",
+                  "link-from-road": "Mt Hermon Rd",
                   "link-to-road": null,
                   "link-from-city": "Scotts Valley",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.036779",
-                    "event-location-coordinates-longitude": "-122.019466"
+                    "event-location-coordinates-latitude": "37.0282286879006",
+                    "event-location-coordinates-longitude": "-122.024017708698"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-15T06:39:42.44810",
+              "update-time": "2022-04-15T06:49:25.73010",
               "valid-period": {
                 "event-timeline-estimated-duration": "46"
               },
@@ -898,8 +737,8 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-15T06:39:42.44810",
-        "ivr-article": "at",
+        "ivr-lastUpdateDttm": "2022-04-15T06:49:25.73010",
+        "ivr-article": "south of",
         "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Right lane",
@@ -912,14 +751,165 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-152 Eastbound east of Casa De Fruta Pky (Gilroy). Lane affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-80 Westbound east of Bay Bridge - Toll Plaza (Oakland). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
-      "severity": "Minor",
-      "created": "2022-04-15T13:44Z",
-      "updated": "2022-04-15T13:44Z",
+      "severity": "Major",
+      "created": "2022-04-15T13:49Z",
+      "updated": "2022-04-15T14:01Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.313817,
+          37.824803
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220415GG00405"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Bay Bridge - Toll Plaza",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-15T14:01Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-15T07:05:17.92420"
+        },
+        "event-reference": {
+          "event-identifier": "892847"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-80 Westbound east of Bay Bridge - Toll Plaza (Oakland). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Bay Bridge - Toll Plaza",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.824803",
+                    "event-location-coordinates-longitude": "-122.313817"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-15T07:01:54.81980",
+              "valid-period": {
+                "event-timeline-estimated-duration": "46.033333333333331"
+              },
+              "start-time": "2022-04-15T07:01:49.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-15T07:01:54.81980",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220415GG00405",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries and Overturned vehicle on US-101 Northbound south of San Benito County Line (Gilroy). Right shoulder blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Overturned vehicle"
+        ]
+      },
+      "severity": "Major",
+      "created": "2022-04-15T14:00Z",
+      "updated": "2022-04-15T14:04Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -939,8 +929,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.384522,
-          36.988408
+          -121.5509,
+          36.933209
         ]
       },
       "source_type": {
@@ -949,12 +939,165 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220415MY00051"
+        "#text": "220415MY00052"
       },
       "roads": [
         {
-          "name": "CA-152",
-          "from": "Casa De Fruta Pky",
+          "name": "US-101 N",
+          "from": "San Benito County Line",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-15T14:00Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-15T07:05:17.92420"
+        },
+        "event-reference": {
+          "event-identifier": "892848"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Overturned vehicle"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries and Overturned vehicle on US-101 Northbound south of San Benito County Line (Gilroy). Right shoulder blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "San Benito County Line",
+                  "link-to-road": null,
+                  "link-from-city": "Gilroy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "36.933209",
+                    "event-location-coordinates-longitude": "-121.5509"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-15T07:04:16.53040",
+              "valid-period": {
+                "event-timeline-estimated-duration": "46"
+              },
+              "start-time": "2022-04-15T07:00:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-15T07:04:16.53040",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220415MY00052",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-580 Eastbound west of I-205 E (Unincorporated). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-15T14:04Z",
+      "updated": "2022-04-15T14:05Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.574194,
+          37.741723
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220415GG00426"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "I-205 E",
           "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -971,21 +1114,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-15T13:44Z/"
+          "2022-04-15T14:05Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-15T06:48:32.20288"
+          "event-message-time-stamp": "2022-04-15T07:05:17.92420"
         },
         "event-reference": {
-          "event-identifier": "892846"
+          "event-identifier": "892849"
         },
         "event-status": "new",
         "details": {
@@ -996,7 +1139,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Traffic Collision"
                     }
                   }
                 },
@@ -1006,7 +1149,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-152 Eastbound east of Casa De Fruta Pky (Gilroy). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-580 Eastbound west of I-205 E (Unincorporated). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1015,25 +1158,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-152",
-                  "link-from-road": "Casa De Fruta Pky",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "I-205 E",
                   "link-to-road": null,
-                  "link-from-city": "Gilroy",
+                  "link-from-city": "Unincorporated",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "36.988408",
-                    "event-location-coordinates-longitude": "-121.384522"
+                    "event-location-coordinates-latitude": "37.741723",
+                    "event-location-coordinates-longitude": "-121.574194"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-15T06:44:37.61590",
+              "update-time": "2022-04-15T07:05:09.22770",
               "valid-period": {
-                "event-timeline-estimated-duration": "13"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-04-15T06:44:32.00000",
+              "start-time": "2022-04-15T07:05:04.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1042,18 +1185,18 @@
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
+        "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-15T06:44:37.61590",
-        "ivr-article": "east of",
-        "ivr-county": "Santa Clara",
+        "ivr-lastUpdateDttm": "2022-04-15T07:05:09.22770",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220415MY00051",
+        "SourceEventID": "220415GG00426",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
