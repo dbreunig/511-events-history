@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-15T20:40:27.41114"
+          "event-message-time-stamp": "2022-04-15T20:51:27.31648"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-15T20:40:27.41114"
+          "event-message-time-stamp": "2022-04-15T20:51:27.31648"
         },
         "event-reference": {
           "event-identifier": "888829"
@@ -354,7 +354,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-15T20:40:27.41114"
+          "event-message-time-stamp": "2022-04-15T20:51:27.31648"
         },
         "event-reference": {
           "event-identifier": "889152"
@@ -426,6 +426,154 @@
         "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "until 3 PM",
         "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-880 Southbound at Union St (Oakland). Off Ramp blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Major",
+      "created": "2022-04-16T03:49Z",
+      "updated": "2022-04-16T03:49Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.298758,
+          37.802104
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220415GG02489"
+      },
+      "roads": [
+        {
+          "name": "I-880 S",
+          "from": "Union St",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-16T03:49Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-15T20:51:27.31648"
+        },
+        "event-reference": {
+          "event-identifier": "893148"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-880 Southbound at Union St (Oakland). Off Ramp blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "Union St",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.802104",
+                    "event-location-coordinates-longitude": "-122.298758"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-15T20:49:47.82610",
+              "valid-period": {
+                "event-timeline-estimated-duration": "50.5"
+              },
+              "start-time": "2022-04-15T20:49:42.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-04-15T20:49:47.82610",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220415GG02489",
+        "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     }
