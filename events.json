@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-17T15:23:11.65330"
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-17T15:23:11.65330"
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
         },
         "event-reference": {
           "event-identifier": "888829"
@@ -354,7 +354,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-17T15:23:11.65330"
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
         },
         "event-reference": {
           "event-identifier": "889152"
@@ -501,7 +501,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-17T15:23:11.65330"
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
         },
         "event-reference": {
           "event-identifier": "893499"
@@ -650,7 +650,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-17T15:23:11.65330"
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
         },
         "event-reference": {
           "event-identifier": "893691"
@@ -798,7 +798,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-17T15:23:11.65330"
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
         },
         "event-reference": {
           "event-identifier": "893694"
@@ -946,7 +946,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-17T15:23:11.65330"
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
         },
         "event-reference": {
           "event-identifier": "893702"
@@ -1024,14 +1024,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on CA-92 Westbound at Upper Skyline Blvd (Unincorporated). Lanes open. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Traffic Collision with Injuries on CA-35 Northbound at CA-92 (Unincorporated). All lanes closed. Avoid the area.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Unknown",
+      "severity": "Major",
       "created": "2022-04-17T22:10Z",
-      "updated": "2022-04-17T22:22Z",
+      "updated": "2022-04-17T22:33Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -1051,8 +1054,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.349727,
-          37.511784
+          -122.3689,
+          37.49554
         ]
       },
       "source_type": {
@@ -1065,21 +1068,21 @@
       },
       "roads": [
         {
-          "name": "CA-92 W",
-          "from": "Upper Skyline Blvd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
+          "name": "CA-35 N",
+          "from": "CA-92",
+          "direction": "Northbound",
+          "state": "CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "open"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "Avoid the area"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1089,12 +1092,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-04-17T22:22Z/"
+          "2022-04-17T22:25Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-17T15:23:11.65330"
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
         },
         "event-reference": {
           "event-identifier": "893703"
@@ -1107,9 +1110,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -1118,7 +1126,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on CA-92 Westbound at Upper Skyline Blvd (Unincorporated). Lanes open. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision with Injuries on CA-35 Northbound at CA-92 (Unincorporated). All lanes closed. Avoid the area."
                     }
                   }
                 }
@@ -1128,24 +1136,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA081",
-                  "link-road-designator": "CA-92 W",
-                  "link-from-road": "Upper Skyline Blvd",
+                  "link-road-designator": "CA-35 N",
+                  "link-from-road": "CA-92",
                   "link-to-road": null,
                   "link-from-city": "Unincorporated",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.511784",
-                    "event-location-coordinates-longitude": "-122.349727"
+                    "event-location-coordinates-latitude": "37.49554",
+                    "event-location-coordinates-longitude": "-122.3689"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-17T15:22:57.77830",
+              "update-time": "2022-04-17T15:33:27.06280",
               "valid-period": {
-                "event-timeline-estimated-duration": "0"
+                "event-timeline-estimated-duration": "58"
               },
-              "start-time": "2022-04-17T15:22:56.00000",
+              "start-time": "2022-04-17T15:25:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1154,17 +1162,18 @@
             }
           }
         },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
+        "EventImpact": "Major",
+        "RoadClosed": "true",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-04-17T15:22:57.77830",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-17T15:33:27.06280",
         "ivr-article": "at",
         "ivr-county": "San Mateo",
-        "ivr-laneStatus": "open",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "Expect delays",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Avoid the area",
         "SourceEventID": "220417GG01477",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
@@ -1242,7 +1251,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-17T15:23:11.65330"
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
         },
         "event-reference": {
           "event-identifier": "893704"
@@ -1314,6 +1323,302 @@
         "ivr-totalLanes": "3rd lane from the left",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220417GG01482",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-37 Westbound east of CA-121 (Unincorporated). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Major",
+      "created": "2022-04-17T22:28Z",
+      "updated": "2022-04-17T22:33Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.449378,
+          38.15097
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220417GG01523"
+      },
+      "roads": [
+        {
+          "name": "CA-37 W",
+          "from": "CA-121",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-17T22:28Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
+        },
+        "event-reference": {
+          "event-identifier": "893705"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-37 Westbound east of CA-121 (Unincorporated). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "CA-37 W",
+                  "link-from-road": "CA-121",
+                  "link-to-road": null,
+                  "link-from-city": "Unincorporated",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.15097",
+                    "event-location-coordinates-longitude": "-122.449378"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-17T15:33:34.56050",
+              "valid-period": {
+                "event-timeline-estimated-duration": "49"
+              },
+              "start-time": "2022-04-17T15:28:13.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-17T15:33:34.56050",
+        "ivr-article": "east of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220417GG01523",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-4 Eastbound west of I-680 S (Martinez). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-17T22:31Z",
+      "updated": "2022-04-17T22:34Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.070209,
+          37.994341
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220417GG01530"
+      },
+      "roads": [
+        {
+          "name": "CA-4 E",
+          "from": "I-680 S",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-17T22:31Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-17T15:34:53.46484"
+        },
+        "event-reference": {
+          "event-identifier": "893707"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-4 Eastbound west of I-680 S (Martinez). Left lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-4 E",
+                  "link-from-road": "I-680 S",
+                  "link-to-road": null,
+                  "link-from-city": "Martinez",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.994341",
+                    "event-location-coordinates-longitude": "-122.070209"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-17T15:34:05.40190",
+              "valid-period": {
+                "event-timeline-estimated-duration": "30.5"
+              },
+              "start-time": "2022-04-17T15:31:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-04-17T15:34:05.40190",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220417GG01530",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
