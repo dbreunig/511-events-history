@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
           "event-identifier": "888829"
@@ -354,7 +354,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
           "event-identifier": "889152"
@@ -497,7 +497,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
           "event-identifier": "894551"
@@ -640,7 +640,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
           "event-identifier": "896733"
@@ -789,7 +789,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
           "event-identifier": "897437"
@@ -934,7 +934,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
           "event-identifier": "897527"
@@ -1012,14 +1012,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Southbound north of Mclaughlin Ave (San Jose). Right lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Hazard and Severe traffic alert on I-280 Southbound south of S 10TH St (San Jose). Right lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": [
+          "Traffic Hazard",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Moderate",
+      "severity": "Major",
       "created": "2022-04-28T12:15Z",
-      "updated": "2022-04-28T13:23Z",
+      "updated": "2022-04-28T13:55Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1039,8 +1042,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.861477,
-          37.333611
+          -121.871803,
+          37.328297
         ]
       },
       "source_type": {
@@ -1054,7 +1057,7 @@
       "roads": [
         {
           "name": "I-280 S",
-          "from": "Mclaughlin Ave",
+          "from": "S 10TH St",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
@@ -1071,7 +1074,7 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "south of"
           }
         }
       ],
@@ -1082,7 +1085,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
           "event-identifier": "897528"
@@ -1095,9 +1098,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Hazard"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -1106,7 +1114,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Southbound north of Mclaughlin Ave (San Jose). Right lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard and Severe traffic alert on I-280 Southbound south of S 10TH St (San Jose). Right lane blocked. Expect delays."
                     }
                   }
                 }
@@ -1117,21 +1125,21 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
                   "link-road-designator": "I-280 S",
-                  "link-from-road": "Mclaughlin Ave",
+                  "link-from-road": "S 10TH St",
                   "link-to-road": null,
                   "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.333611",
-                    "event-location-coordinates-longitude": "-121.861477"
+                    "event-location-coordinates-latitude": "37.328297",
+                    "event-location-coordinates-longitude": "-121.871803"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-28T06:23:55.81230",
+              "update-time": "2022-04-28T06:55:05.82800",
               "valid-period": {
-                "event-timeline-estimated-duration": "25.5"
+                "event-timeline-estimated-duration": "46"
               },
               "start-time": "2022-04-28T05:16:00.00000",
               "cleared-time": null,
@@ -1142,16 +1150,17 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "3",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-28T06:23:55.81230",
-        "ivr-article": "north of",
+        "ivr-lastUpdateDttm": "2022-04-28T06:55:05.82800",
+        "ivr-article": "south of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Right lane",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220428GG00243",
         "EventSourceName": "CHP",
@@ -1230,7 +1239,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
           "event-identifier": "897538"
@@ -1308,154 +1317,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Eastbound east of Treasure Island Rd (San Francisco). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Major",
-      "created": "2022-04-28T13:38Z",
-      "updated": "2022-04-28T13:45Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.366974,
-          37.808253
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220428GG00347"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Treasure Island Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-04-28T13:45Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
-        },
-        "event-reference": {
-          "event-identifier": "897541"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound east of Treasure Island Rd (San Francisco). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Treasure Island Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.808253",
-                    "event-location-coordinates-longitude": "-122.366974"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-04-28T06:45:00.94720",
-              "valid-period": {
-                "event-timeline-estimated-duration": "49"
-              },
-              "start-time": "2022-04-28T06:45:01.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-28T06:45:00.94720",
-        "ivr-article": "east of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220428GG00347",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Hazard on I-80 Westbound exiting at San Pablo Dam Rd (San Pablo). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -1526,7 +1387,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
           "event-identifier": "897542"
@@ -1604,21 +1465,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Debris on I-580 Westbound east of N Flynn Rd (Livermore). Left lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-680 Northbound north of Benicia Bridge (Benicia). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Debris"
+        "event_subtype": "Traffic Hazard"
       },
-      "severity": "Moderate",
-      "created": "2022-04-28T13:42Z",
-      "updated": "2022-04-28T13:43Z",
+      "severity": "Major",
+      "created": "2022-04-28T13:57Z",
+      "updated": "2022-04-28T13:58Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -1631,8 +1492,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.658613,
-          37.720067
+          -122.121808,
+          38.042939
         ]
       },
       "source_type": {
@@ -1641,17 +1502,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220428GG00354"
+        "#text": "220428GG00380"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "N Flynn Rd",
-          "direction": "Westbound",
+          "name": "I-680 N",
+          "from": "Benicia Bridge",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1663,21 +1524,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "north of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-28T13:42Z/"
+          "2022-04-28T13:58Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-28T06:49:09.92374"
+          "event-message-time-stamp": "2022-04-28T07:00:12.49285"
         },
         "event-reference": {
-          "event-identifier": "897543"
+          "event-identifier": "897544"
         },
         "event-status": "new",
         "details": {
@@ -1688,7 +1549,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Debris"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -1698,7 +1559,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Debris on I-580 Westbound east of N Flynn Rd (Livermore). Left lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-680 Northbound north of Benicia Bridge (Benicia). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1707,25 +1568,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "N Flynn Rd",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Benicia Bridge",
                   "link-to-road": null,
-                  "link-from-city": "Livermore",
+                  "link-from-city": "Benicia",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.720067",
-                    "event-location-coordinates-longitude": "-121.658613"
+                    "event-location-coordinates-latitude": "38.042939",
+                    "event-location-coordinates-longitude": "-122.121808"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-28T06:43:34.07620",
+              "update-time": "2022-04-28T06:58:40.49330",
               "valid-period": {
-                "event-timeline-estimated-duration": "27.1"
+                "event-timeline-estimated-duration": "53"
               },
-              "start-time": "2022-04-28T06:42:00.00000",
+              "start-time": "2022-04-28T06:58:40.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1734,18 +1595,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-04-28T06:43:34.07620",
-        "ivr-article": "east of",
-        "ivr-county": "Alameda",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-28T06:58:40.49330",
+        "ivr-article": "north of",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left lane",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220428GG00354",
+        "SourceEventID": "220428GG00380",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
