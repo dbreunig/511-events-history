@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -203,7 +203,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "889537"
@@ -336,7 +336,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "889579"
@@ -419,7 +419,7 @@
       },
       "severity": "Unknown",
       "created": "2022-04-30T12:09Z",
-      "updated": "2022-04-30T19:20Z",
+      "updated": "2022-04-30T19:33Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -482,7 +482,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "898436"
@@ -529,7 +529,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T12:20:08.63380",
+              "update-time": "2022-04-30T12:33:05.34160",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -547,7 +547,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:20:08.63380",
+        "ivr-lastUpdateDttm": "2022-04-30T12:33:05.34160",
         "ivr-article": "at",
         "ivr-county": "Marin",
         "ivr-laneStatus": "closed",
@@ -560,14 +560,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-680 Northbound exiting at N Capitol Ave (San Jose). Off Ramp blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries and Severe traffic alert on I-680 Northbound exiting at N Capitol Ave (San Jose). Off Ramp closed. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Major",
+      "severity": "Severe",
       "created": "2022-04-30T18:30Z",
-      "updated": "2022-04-30T18:48Z",
+      "updated": "2022-04-30T19:32Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -611,7 +614,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -630,7 +633,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "898506"
@@ -643,9 +646,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -654,7 +662,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-680 Northbound exiting at N Capitol Ave (San Jose). Off Ramp blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries and Severe traffic alert on I-680 Northbound exiting at N Capitol Ave (San Jose). Off Ramp closed. Expect delays."
                     }
                   }
                 }
@@ -677,9 +685,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T11:48:50.20240",
+              "update-time": "2022-04-30T12:32:27.12990",
               "valid-period": {
-                "event-timeline-estimated-duration": "53.5"
+                "event-timeline-estimated-duration": "73"
               },
               "start-time": "2022-04-30T11:30:00.00000",
               "cleared-time": null,
@@ -690,16 +698,17 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Severe",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "5",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-30T11:48:50.20240",
+        "ivr-lastUpdateDttm": "2022-04-30T12:32:27.12990",
         "ivr-article": "exiting at",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
+        "ivr-laneStatus": "closed",
         "ivr-totalLanes": "Off Ramp",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220430GG00978",
         "EventSourceName": "CHP",
@@ -708,310 +717,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Vehicle fire on I-280 Southbound at Bird Ave (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Residual delays on US-101 Northbound south of Tully Rd (San Jose). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Vehicle fire"
-      },
-      "severity": "Moderate",
-      "created": "2022-04-30T18:55Z",
-      "updated": "2022-04-30T19:03Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.896547,
-          37.32285
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220430GG01034"
-      },
-      "roads": [
-        {
-          "name": "I-280 S",
-          "from": "Bird Ave",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-04-30T19:03Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
-        },
-        "event-reference": {
-          "event-identifier": "898509"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Vehicle fire"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Vehicle fire on I-280 Southbound at Bird Ave (San Jose). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "Bird Ave",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.32285",
-                    "event-location-coordinates-longitude": "-121.896547"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-04-30T12:03:23.79580",
-              "valid-period": {
-                "event-timeline-estimated-duration": "29.5"
-              },
-              "start-time": "2022-04-30T12:03:23.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:03:23.79580",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220430GG01034",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-85 Northbound south of W Homestead Rd (Cupertino). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-04-30T19:02Z",
-      "updated": "2022-04-30T19:03Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.058728,
-          37.335853
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220430GG01060"
-      },
-      "roads": [
-        {
-          "name": "CA-85 N",
-          "from": "W Homestead Rd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-04-30T19:03Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
-        },
-        "event-reference": {
-          "event-identifier": "898510"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-85 Northbound south of W Homestead Rd (Cupertino). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-85 N",
-                  "link-from-road": "W Homestead Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Cupertino",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.335853",
-                    "event-location-coordinates-longitude": "-122.058728"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-04-30T12:03:23.61240",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2022-04-30T12:03:23.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:03:23.61240",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220430GG01060",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Northbound south of Tully Rd (San Jose). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Residual delays"
       },
       "severity": "Moderate",
       "created": "2022-04-30T19:04Z",
-      "updated": "2022-04-30T19:05Z",
+      "updated": "2022-04-30T19:22Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1074,7 +787,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "898512"
@@ -1088,7 +801,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -1098,7 +811,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Northbound south of Tully Rd (San Jose). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Residual delays on US-101 Northbound south of Tully Rd (San Jose). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -1121,11 +834,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T12:05:28.13860",
+              "update-time": "2022-04-30T12:22:19.02980",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-04-30T12:05:28.00000",
+              "start-time": "2022-04-30T12:05:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1139,7 +852,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:05:28.13860",
+        "ivr-lastUpdateDttm": "2022-04-30T12:22:19.02980",
         "ivr-article": "south of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
@@ -1159,7 +872,7 @@
       },
       "severity": "Moderate",
       "created": "2022-04-30T19:09Z",
-      "updated": "2022-04-30T19:20Z",
+      "updated": "2022-04-30T19:33Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -1217,12 +930,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-04-30T19:20Z/"
+          "2022-04-30T19:33Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "898513"
@@ -1269,11 +982,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T12:20:06.73550",
+              "update-time": "2022-04-30T12:33:44.19620",
               "valid-period": {
                 "event-timeline-estimated-duration": "30.5"
               },
-              "start-time": "2022-04-30T12:20:06.00000",
+              "start-time": "2022-04-30T12:33:44.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1287,7 +1000,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:20:06.73550",
+        "ivr-lastUpdateDttm": "2022-04-30T12:33:44.19620",
         "ivr-article": "north of",
         "ivr-county": "Solano",
         "ivr-laneStatus": "affected",
@@ -1300,14 +1013,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Westbound west of Richmond San Rafael Bridge - Toll Plaza (Richmond). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision on I-580 Westbound west of Richmond San Rafael Bridge - Toll Plaza (Richmond). 3rd lane from the left blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Collision"
       },
       "severity": "Major",
       "created": "2022-04-30T19:10Z",
-      "updated": "2022-04-30T19:14Z",
+      "updated": "2022-04-30T19:23Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -1347,7 +1060,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "3rd lane from the left"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1370,7 +1083,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "898514"
@@ -1394,7 +1107,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Westbound west of Richmond San Rafael Bridge - Toll Plaza (Richmond). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision on I-580 Westbound west of Richmond San Rafael Bridge - Toll Plaza (Richmond). 3rd lane from the left blocked. Expect delays."
                     }
                   }
                 }
@@ -1417,11 +1130,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T12:14:50.60310",
+              "update-time": "2022-04-30T12:23:33.48220",
               "valid-period": {
                 "event-timeline-estimated-duration": "51.5"
               },
-              "start-time": "2022-04-30T12:14:50.00000",
+              "start-time": "2022-04-30T12:14:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1435,11 +1148,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:14:50.60310",
+        "ivr-lastUpdateDttm": "2022-04-30T12:23:33.48220",
         "ivr-article": "west of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "3rd lane from the left",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220430GG01074",
         "EventSourceName": "CHP",
@@ -1455,7 +1168,7 @@
       },
       "severity": "Minor",
       "created": "2022-04-30T19:12Z",
-      "updated": "2022-04-30T19:14Z",
+      "updated": "2022-04-30T19:33Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -1513,12 +1226,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-04-30T19:14Z/"
+          "2022-04-30T19:33Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "898517"
@@ -1565,11 +1278,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T12:14:50.23360",
+              "update-time": "2022-04-30T12:33:44.02890",
               "valid-period": {
                 "event-timeline-estimated-duration": "23.5"
               },
-              "start-time": "2022-04-30T12:14:50.00000",
+              "start-time": "2022-04-30T12:33:44.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1583,7 +1296,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "1",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:14:50.23360",
+        "ivr-lastUpdateDttm": "2022-04-30T12:33:44.02890",
         "ivr-article": "east of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
@@ -1603,7 +1316,7 @@
       },
       "severity": "Moderate",
       "created": "2022-04-30T19:13Z",
-      "updated": "2022-04-30T19:20Z",
+      "updated": "2022-04-30T19:33Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1661,12 +1374,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-04-30T19:20Z/"
+          "2022-04-30T19:33Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "898518"
@@ -1713,11 +1426,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T12:20:06.35430",
+              "update-time": "2022-04-30T12:33:43.82970",
               "valid-period": {
                 "event-timeline-estimated-duration": "30.5"
               },
-              "start-time": "2022-04-30T12:20:06.00000",
+              "start-time": "2022-04-30T12:33:43.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1731,7 +1444,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:20:06.35430",
+        "ivr-lastUpdateDttm": "2022-04-30T12:33:43.82970",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
@@ -1744,162 +1457,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound at E Capitol Expy (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of College Ave (Santa Rosa). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
       "created": "2022-04-30T19:16Z",
-      "updated": "2022-04-30T19:20Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.820658,
-          37.307034
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220430GG01097"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "E Capitol Expy",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-04-30T19:20Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
-        },
-        "event-reference": {
-          "event-identifier": "898519"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound at E Capitol Expy (San Jose). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "E Capitol Expy",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.307034",
-                    "event-location-coordinates-longitude": "-121.820658"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-04-30T12:20:06.01600",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-04-30T12:20:05.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:20:06.01600",
-        "ivr-article": "at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220430GG01097",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Northbound south of College Ave (Santa Rosa). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Moderate",
-      "created": "2022-04-30T19:16Z",
-      "updated": "2022-04-30T19:16Z",
+      "updated": "2022-04-30T19:26Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -1939,7 +1504,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1962,7 +1527,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "898520"
@@ -1976,7 +1541,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -1986,7 +1551,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Northbound south of College Ave (Santa Rosa). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of College Ave (Santa Rosa). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -2009,11 +1574,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T12:16:55.86240",
+              "update-time": "2022-04-30T12:26:51.69070",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.2"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2022-04-30T12:16:55.00000",
+              "start-time": "2022-04-30T12:16:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2027,11 +1592,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:16:55.86240",
+        "ivr-lastUpdateDttm": "2022-04-30T12:26:51.69070",
         "ivr-article": "south of",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220430GG01093",
         "EventSourceName": "CHP",
@@ -2040,14 +1605,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Oregon Expy (Palo Alto). Right lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Oregon Expy (Palo Alto). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
       "created": "2022-04-30T19:16Z",
-      "updated": "2022-04-30T19:16Z",
+      "updated": "2022-04-30T19:23Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -2087,11 +1652,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -2105,12 +1670,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-04-30T19:16Z/"
+          "2022-04-30T19:23Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
           "event-identifier": "898521"
@@ -2134,7 +1699,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Oregon Expy (Palo Alto). Right lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Oregon Expy (Palo Alto). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -2157,11 +1722,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T12:16:56.17720",
+              "update-time": "2022-04-30T12:23:15.71480",
               "valid-period": {
                 "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-04-30T12:16:56.00000",
+              "start-time": "2022-04-30T12:23:15.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2175,11 +1740,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:16:56.17720",
+        "ivr-lastUpdateDttm": "2022-04-30T12:23:15.71480",
         "ivr-article": "south of",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220430GG01092",
         "EventSourceName": "CHP",
@@ -2188,14 +1753,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound north of Broadway (Burlingame). 2nd lane from the left blocked. Expect delays.",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Woodside Rd (Redwood City). Lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-04-30T19:20Z",
-      "updated": "2022-04-30T19:20Z",
+      "created": "2022-04-30T19:22Z",
+      "updated": "2022-04-30T19:30Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -2215,8 +1780,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.364778,
-          37.592216
+          -122.206018,
+          37.487634
         ]
       },
       "source_type": {
@@ -2225,21 +1790,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220430GG01106"
+        "#text": "220430GG01121"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "Broadway",
-          "direction": "Southbound",
+          "name": "US-101 N",
+          "from": "Woodside Rd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -2247,21 +1812,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-04-30T19:20Z/"
+          "2022-04-30T19:22Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-04-30T12:20:49.94088"
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
         },
         "event-reference": {
-          "event-identifier": "898522"
+          "event-identifier": "898523"
         },
         "event-status": "new",
         "details": {
@@ -2282,7 +1847,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of Broadway (Burlingame). 2nd lane from the left blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Woodside Rd (Redwood City). Lanes affected. Expect delays."
                     }
                   }
                 }
@@ -2292,24 +1857,468 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Broadway",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Woodside Rd",
                   "link-to-road": null,
-                  "link-from-city": "Burlingame",
+                  "link-from-city": "Redwood City",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.592216",
-                    "event-location-coordinates-longitude": "-122.364778"
+                    "event-location-coordinates-latitude": "37.487634",
+                    "event-location-coordinates-longitude": "-122.206018"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T12:20:05.38270",
+              "update-time": "2022-04-30T12:30:33.29620",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2022-04-30T12:22:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-04-30T12:30:33.29620",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220430GG01121",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on I-205 Eastbound at N MacArthur Dr (Tracy). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-30T19:29Z",
+      "updated": "2022-04-30T19:30Z",
+      "areas": {
+        "area": {
+          "name": "San Joaquin",
+          "id": "5392126",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392126/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.418744,
+          37.763528
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220430ST00173"
+      },
+      "roads": [
+        {
+          "name": "I-205 E",
+          "from": "N MacArthur Dr",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-30T19:29Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
+        },
+        "event-reference": {
+          "event-identifier": "898525"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on I-205 Eastbound at N MacArthur Dr (Tracy). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": null,
+                  "link-road-designator": "I-205 E",
+                  "link-from-road": "N MacArthur Dr",
+                  "link-to-road": null,
+                  "link-from-city": "Tracy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.763528",
+                    "event-location-coordinates-longitude": "-121.418744"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-30T12:30:57.27160",
               "valid-period": {
                 "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-04-30T12:20:05.00000",
+              "start-time": "2022-04-30T12:29:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-04-30T12:30:57.27160",
+        "ivr-article": "at",
+        "ivr-county": "San Joaquin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220430ST00173",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound east of Fairmont Dr (San Leandro). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-30T19:31Z",
+      "updated": "2022-04-30T19:31Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.130976,
+          37.71448
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220430GG01144"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Fairmont Dr",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-30T19:31Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
+        },
+        "event-reference": {
+          "event-identifier": "898526"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of Fairmont Dr (San Leandro). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Fairmont Dr",
+                  "link-to-road": null,
+                  "link-from-city": "San Leandro",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.71448",
+                    "event-location-coordinates-longitude": "-122.130976"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-30T12:31:37.74410",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-04-30T12:31:37.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-30T12:31:37.74410",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220430GG01144",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-160 Southbound north of Main St (Antioch). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-30T19:32Z",
+      "updated": "2022-04-30T19:32Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.755727,
+          37.99749
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220430GG01146"
+      },
+      "roads": [
+        {
+          "name": "CA-160 S",
+          "from": "Main St",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-30T19:32Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
+        },
+        "event-reference": {
+          "event-identifier": "898528"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-160 Southbound north of Main St (Antioch). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-160 S",
+                  "link-from-road": "Main St",
+                  "link-to-road": null,
+                  "link-from-city": "Antioch",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.99749",
+                    "event-location-coordinates-longitude": "-121.755727"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-30T12:32:40.82160",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2022-04-30T12:32:40.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2323,13 +2332,161 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-04-30T12:20:05.38270",
+        "ivr-lastUpdateDttm": "2022-04-30T12:32:40.82160",
         "ivr-article": "north of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220430GG01106",
+        "SourceEventID": "220430GG01146",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-4 Westbound west of Hillcrest Ave (Antioch). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-04-30T19:33Z",
+      "updated": "2022-04-30T19:33Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.789758,
+          37.997083
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220430GG01153"
+      },
+      "roads": [
+        {
+          "name": "CA-4 W",
+          "from": "Hillcrest Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-04-30T19:33Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-04-30T12:34:08.44851"
+        },
+        "event-reference": {
+          "event-identifier": "898529"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-4 Westbound west of Hillcrest Ave (Antioch). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-4 W",
+                  "link-from-road": "Hillcrest Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Antioch",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.997083",
+                    "event-location-coordinates-longitude": "-121.789758"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-04-30T12:33:43.64700",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-04-30T12:33:43.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-04-30T12:33:43.64700",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220430GG01153",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
