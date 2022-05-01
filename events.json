@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T09:25:16.70573"
+          "event-message-time-stamp": "2022-05-01T09:42:10.89820"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -145,14 +145,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : High winds on I-80 Westbound at Treasure Island Rd (San Francisco). Lane affected. Expect delays.",
+      "headline": "CHP : High winds on I-80 Westbound between Fremont St (San Francisco) and Bay Bridge - Toll Plaza (Oakland). Lanes affected. Traffic advisory in effect.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "High winds"
       },
-      "severity": "Major",
+      "severity": "Minor",
       "created": "2022-05-01T01:06Z",
-      "updated": "2022-05-01T01:06Z",
+      "updated": "2022-05-01T16:35Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -172,8 +172,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.361552,
-          37.813697
+          -122.390923,
+          37.786093
         ]
       },
       "source_type": {
@@ -187,12 +187,13 @@
       "roads": [
         {
           "name": "I-80 W",
-          "from": "Treasure Island Rd",
+          "from": "Fremont St",
+          "to": "Bay Bridge - Toll Plaza",
           "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -200,11 +201,11 @@
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "Traffic advisory in effect"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "between"
           }
         }
       ],
@@ -215,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T09:25:16.70573"
+          "event-message-time-stamp": "2022-05-01T09:42:10.89820"
         },
         "event-reference": {
           "event-identifier": "898661"
@@ -239,7 +240,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : High winds on I-80 Westbound at Treasure Island Rd (San Francisco). Lane affected. Expect delays."
+                      "event-description": "CHP : High winds on I-80 Westbound between Fremont St (San Francisco) and Bay Bridge - Toll Plaza (Oakland). Lanes affected. Traffic advisory in effect."
                     }
                   }
                 }
@@ -250,23 +251,23 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA075",
                   "link-road-designator": "I-80 W",
-                  "link-from-road": "Treasure Island Rd",
-                  "link-to-road": null,
+                  "link-from-road": "Fremont St",
+                  "link-to-road": "Bay Bridge - Toll Plaza",
                   "link-from-city": "San Francisco",
-                  "link-to-city": null,
+                  "link-to-city": "Oakland",
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.813697",
-                    "event-location-coordinates-longitude": "-122.361552"
+                    "event-location-coordinates-latitude": "37.786093",
+                    "event-location-coordinates-longitude": "-122.390923"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-04-30T18:06:24.91370",
+              "update-time": "2022-05-01T09:35:18.67420",
               "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
+                "event-timeline-estimated-duration": "7"
               },
-              "start-time": "2022-04-30T18:06:24.00000",
+              "start-time": "2022-04-30T18:06:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -275,166 +276,19 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "1",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-04-30T18:06:24.91370",
-        "ivr-article": "at",
+        "ivr-lastUpdateDttm": "2022-05-01T09:35:18.67420",
+        "ivr-article": "between",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
+        "ivr-totalLanes": "Lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Traffic advisory in effect",
         "SourceEventID": "220430GG02030",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-80 Eastbound at Treasure Island Rd (San Francisco). All lanes open. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
-      },
-      "severity": "Unknown",
-      "created": "2022-05-01T14:13Z",
-      "updated": "2022-05-01T15:46Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.366974,
-          37.808253
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220501GG00493"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Treasure Island Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "open"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-01T15:46Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-01T09:25:16.70573"
-        },
-        "event-reference": {
-          "event-identifier": "898768"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Eastbound at Treasure Island Rd (San Francisco). All lanes open. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Treasure Island Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.808253",
-                    "event-location-coordinates-longitude": "-122.366974"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-01T08:46:40.45490",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2022-05-01T08:46:40.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-05-01T08:46:40.45490",
-        "ivr-article": "at",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "open",
-        "ivr-totalLanes": "All lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220501GG00493",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -511,7 +365,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T09:25:16.70573"
+          "event-message-time-stamp": "2022-05-01T09:42:10.89820"
         },
         "event-reference": {
           "event-identifier": "898775"
@@ -589,14 +443,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on US-101 Northbound at N Lawrence Expy (Sunnyvale). Off Ramp affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries and Overturned vehicle on US-101 Northbound exiting at N Lawrence Expy (Sunnyvale). Off Ramp affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Overturned vehicle"
+        ]
       },
       "severity": "Major",
       "created": "2022-05-01T15:59Z",
-      "updated": "2022-05-01T16:10Z",
+      "updated": "2022-05-01T16:33Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -648,7 +505,7 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
+            "#text": "exiting at"
           }
         }
       ],
@@ -659,7 +516,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T09:25:16.70573"
+          "event-message-time-stamp": "2022-05-01T09:42:10.89820"
         },
         "event-reference": {
           "event-identifier": "898776"
@@ -672,9 +529,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Overturned vehicle"
+                      }
+                    ]
                   }
                 },
                 {
@@ -683,7 +545,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Northbound at N Lawrence Expy (Sunnyvale). Off Ramp affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries and Overturned vehicle on US-101 Northbound exiting at N Lawrence Expy (Sunnyvale). Off Ramp affected. Expect delays."
                     }
                   }
                 }
@@ -706,11 +568,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-01T09:10:30.48120",
+              "update-time": "2022-05-01T09:33:44.85930",
               "valid-period": {
-                "event-timeline-estimated-duration": "53.5"
+                "event-timeline-estimated-duration": "61"
               },
-              "start-time": "2022-05-01T09:10:30.00000",
+              "start-time": "2022-05-01T09:10:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -724,8 +586,8 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "3",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-01T09:10:30.48120",
-        "ivr-article": "at",
+        "ivr-lastUpdateDttm": "2022-05-01T09:33:44.85930",
+        "ivr-article": "exiting at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Off Ramp",
@@ -737,14 +599,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Westbound east of Cutting Blvd (El Cerrito). Left lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound east of Cutting Blvd (El Cerrito). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
       "created": "2022-05-01T16:12Z",
-      "updated": "2022-05-01T16:12Z",
+      "updated": "2022-05-01T16:35Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -784,7 +646,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -802,12 +664,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-01T16:12Z/"
+          "2022-05-01T16:35Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T09:25:16.70573"
+          "event-message-time-stamp": "2022-05-01T09:42:10.89820"
         },
         "event-reference": {
           "event-identifier": "898778"
@@ -831,7 +693,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of Cutting Blvd (El Cerrito). Left lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of Cutting Blvd (El Cerrito). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -854,11 +716,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-01T09:12:34.40630",
+              "update-time": "2022-05-01T09:35:20.19750",
               "valid-period": {
                 "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-05-01T09:12:34.00000",
+              "start-time": "2022-05-01T09:35:20.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -872,11 +734,11 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-05-01T09:12:34.40630",
+        "ivr-lastUpdateDttm": "2022-05-01T09:35:20.19750",
         "ivr-article": "east of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left lane",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220501GG00639",
         "EventSourceName": "CHP",
@@ -892,7 +754,7 @@
       },
       "severity": "Moderate",
       "created": "2022-05-01T16:16Z",
-      "updated": "2022-05-01T16:23Z",
+      "updated": "2022-05-01T16:41Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -950,12 +812,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-01T16:23Z/"
+          "2022-05-01T16:41Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T09:25:16.70573"
+          "event-message-time-stamp": "2022-05-01T09:42:10.89820"
         },
         "event-reference": {
           "event-identifier": "898779"
@@ -1002,11 +864,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-01T09:23:57.32390",
+              "update-time": "2022-05-01T09:41:31.72280",
               "valid-period": {
                 "event-timeline-estimated-duration": "34"
               },
-              "start-time": "2022-05-01T09:23:57.00000",
+              "start-time": "2022-05-01T09:41:31.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1020,309 +882,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-01T09:23:57.32390",
+        "ivr-lastUpdateDttm": "2022-05-01T09:41:31.72280",
         "ivr-article": "at",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220501GG00648",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-680 Southbound at Livorna Rd (Alamo). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Minor",
-      "created": "2022-05-01T16:17Z",
-      "updated": "2022-05-01T16:17Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.039129,
-          37.866847
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220501GG00653"
-      },
-      "roads": [
-        {
-          "name": "I-680 S",
-          "from": "Livorna Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-01T16:17Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-01T09:25:16.70573"
-        },
-        "event-reference": {
-          "event-identifier": "898780"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-680 Southbound at Livorna Rd (Alamo). Center Divider affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "I-680 S",
-                  "link-from-road": "Livorna Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Alamo",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.866847",
-                    "event-location-coordinates-longitude": "-122.039129"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-01T09:17:44.07490",
-              "valid-period": {
-                "event-timeline-estimated-duration": "20.2"
-              },
-              "start-time": "2022-05-01T09:17:44.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-01T09:17:44.07490",
-        "ivr-article": "at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220501GG00653",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Grass fire on CA-121 Northbound north of CA-116 (Unincorporated). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Grass fire"
-      },
-      "severity": "Moderate",
-      "created": "2022-05-01T16:19Z",
-      "updated": "2022-05-01T16:21Z",
-      "areas": {
-        "area": {
-          "name": "Sonoma",
-          "id": "5397100",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5397100/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.445298,
-          38.245012
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220501GG00660"
-      },
-      "roads": [
-        {
-          "name": "CA-121",
-          "from": "CA-116",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-01T16:21Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-01T09:25:16.70573"
-        },
-        "event-reference": {
-          "event-identifier": "898781"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Grass fire"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Grass fire on CA-121 Northbound north of CA-116 (Unincorporated). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA097",
-                  "link-road-designator": "CA-121",
-                  "link-from-road": "CA-116",
-                  "link-to-road": null,
-                  "link-from-city": "Unincorporated",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.245012",
-                    "event-location-coordinates-longitude": "-122.445298"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-01T09:21:53.03000",
-              "valid-period": {
-                "event-timeline-estimated-duration": "37"
-              },
-              "start-time": "2022-05-01T09:21:53.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-01T09:21:53.03000",
-        "ivr-article": "north of",
-        "ivr-county": "Sonoma",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220501GG00660",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -1399,7 +965,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T09:25:16.70573"
+          "event-message-time-stamp": "2022-05-01T09:42:10.89820"
         },
         "event-reference": {
           "event-identifier": "898782"
@@ -1471,6 +1037,302 @@
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220501GG00661",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-84 Westbound at University Ave (Menlo Park). Right lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-01T16:26Z",
+      "updated": "2022-05-01T16:26Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.130021,
+          37.498037
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220501GG00666"
+      },
+      "roads": [
+        {
+          "name": "CA-84 W",
+          "from": "University Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-01T16:26Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-01T09:42:10.89820"
+        },
+        "event-reference": {
+          "event-identifier": "898783"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on CA-84 Westbound at University Ave (Menlo Park). Right lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "CA-84 W",
+                  "link-from-road": "University Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Menlo Park",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.498037",
+                    "event-location-coordinates-longitude": "-122.130021"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-01T09:26:01.44050",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.2"
+              },
+              "start-time": "2022-05-01T09:26:01.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-05-01T09:26:01.44050",
+        "ivr-article": "at",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220501GG00666",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-24 Eastbound at Caldecott Tunnel (Orinda). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-01T16:33Z",
+      "updated": "2022-05-01T16:41Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.21279,
+          37.85741
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220501GG00681"
+      },
+      "roads": [
+        {
+          "name": "CA-24 E",
+          "from": "Caldecott Tunnel",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-01T16:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-01T09:42:10.89820"
+        },
+        "event-reference": {
+          "event-identifier": "898784"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on CA-24 Eastbound at Caldecott Tunnel (Orinda). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Caldecott Tunnel",
+                  "link-to-road": null,
+                  "link-from-city": "Orinda",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.85741",
+                    "event-location-coordinates-longitude": "-122.21279"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-01T09:41:49.94780",
+              "valid-period": {
+                "event-timeline-estimated-duration": "42.7"
+              },
+              "start-time": "2022-05-01T09:34:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-05-01T09:41:49.94780",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220501GG00681",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
