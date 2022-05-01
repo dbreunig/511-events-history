@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T16:35:00.45588"
+          "event-message-time-stamp": "2022-05-01T16:48:13.76068"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T16:35:00.45588"
+          "event-message-time-stamp": "2022-05-01T16:48:13.76068"
         },
         "event-reference": {
           "event-identifier": "898661"
@@ -365,7 +365,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T16:35:00.45588"
+          "event-message-time-stamp": "2022-05-01T16:48:13.76068"
         },
         "event-reference": {
           "event-identifier": "898870"
@@ -443,14 +443,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Eastbound at Treasure Island Rd (San Francisco). Left lane blocked. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Traffic Collision on I-80 Eastbound at Treasure Island Rd (San Francisco). Left lane and exit ramp blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": [
+          "Traffic Collision",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Major",
+      "severity": "Severe",
       "created": "2022-05-01T23:16Z",
-      "updated": "2022-05-01T23:33Z",
+      "updated": "2022-05-01T23:37Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -490,7 +493,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "Left lane and exit ramp"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -508,12 +511,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-01T23:33Z/"
+          "2022-05-01T23:31Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T16:35:00.45588"
+          "event-message-time-stamp": "2022-05-01T16:48:13.76068"
         },
         "event-reference": {
           "event-identifier": "898874"
@@ -526,9 +529,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -537,7 +545,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Eastbound at Treasure Island Rd (San Francisco). Left lane blocked. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision on I-80 Eastbound at Treasure Island Rd (San Francisco). Left lane and exit ramp blocked. Expect delays."
                     }
                   }
                 }
@@ -560,11 +568,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-01T16:33:45.86960",
+              "update-time": "2022-05-01T16:37:33.11520",
               "valid-period": {
-                "event-timeline-estimated-duration": "47.5"
+                "event-timeline-estimated-duration": "91"
               },
-              "start-time": "2022-05-01T16:33:45.00000",
+              "start-time": "2022-05-01T16:31:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -573,16 +581,17 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Severe",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "5",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-05-01T16:33:45.86960",
+        "ivr-lastUpdateDttm": "2022-05-01T16:37:33.11520",
         "ivr-article": "at",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
+        "ivr-totalLanes": "Left lane and exit ramp",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220501GG01609",
         "EventSourceName": "CHP",
@@ -591,21 +600,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Southbound north of S 10TH St (San Jose). 2nd lane from the left affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on CA-24 Westbound east of Pleasant Hill Rd (Lafayette). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-05-01T23:28Z",
-      "updated": "2022-05-01T23:33Z",
+      "created": "2022-05-01T23:38Z",
+      "updated": "2022-05-01T23:40Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -618,8 +627,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.871803,
-          37.328297
+          -122.09004,
+          37.898073
         ]
       },
       "source_type": {
@@ -628,17 +637,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220501GG01639"
+        "#text": "220501GG01660"
       },
       "roads": [
         {
-          "name": "I-280 S",
-          "from": "S 10TH St",
-          "direction": "Southbound",
+          "name": "CA-24 W",
+          "from": "Pleasant Hill Rd",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
+            "#text": "Right lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -650,21 +659,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-05-01T23:28Z/"
+          "2022-05-01T23:40Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-01T16:35:00.45588"
+          "event-message-time-stamp": "2022-05-01T16:48:13.76068"
         },
         "event-reference": {
-          "event-identifier": "898875"
+          "event-identifier": "898877"
         },
         "event-status": "new",
         "details": {
@@ -685,7 +694,303 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Southbound north of S 10TH St (San Jose). 2nd lane from the left affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-24 Westbound east of Pleasant Hill Rd (Lafayette). Right lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 W",
+                  "link-from-road": "Pleasant Hill Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Lafayette",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.898073",
+                    "event-location-coordinates-longitude": "-122.09004"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-01T16:40:58.87170",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-05-01T16:40:58.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-05-01T16:40:58.87170",
+        "ivr-article": "east of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220501GG01660",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Blossom Hill Rd (San Jose). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-01T23:38Z",
+      "updated": "2022-05-01T23:39Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.788763,
+          37.25303
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220501MY00270"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Blossom Hill Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-01T23:38Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-01T16:48:13.76068"
+        },
+        "event-reference": {
+          "event-identifier": "898878"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Blossom Hill Rd (San Jose). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Blossom Hill Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.25303",
+                    "event-location-coordinates-longitude": "-121.788763"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-01T16:39:28.49510",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-05-01T16:38:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-05-01T16:39:28.49510",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220501MY00270",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on I-280 Southbound north of Meridian Ave (San Jose). Right shoulder blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-01T23:39Z",
+      "updated": "2022-05-01T23:46Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.914932,
+          37.315308
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220501GG01661"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "Meridian Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-01T23:40Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-01T16:48:13.76068"
+        },
+        "event-reference": {
+          "event-identifier": "898879"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on I-280 Southbound north of Meridian Ave (San Jose). Right shoulder blocked. Expect delays."
                     }
                   }
                 }
@@ -696,23 +1001,23 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
                   "link-road-designator": "I-280 S",
-                  "link-from-road": "S 10TH St",
+                  "link-from-road": "Meridian Ave",
                   "link-to-road": null,
                   "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.328297",
-                    "event-location-coordinates-longitude": "-121.871803"
+                    "event-location-coordinates-latitude": "37.315308",
+                    "event-location-coordinates-longitude": "-121.914932"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-01T16:33:05.19770",
+              "update-time": "2022-05-01T16:46:40.23540",
               "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-05-01T16:28:00.00000",
+              "start-time": "2022-05-01T16:40:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -726,13 +1031,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-01T16:33:05.19770",
+        "ivr-lastUpdateDttm": "2022-05-01T16:46:40.23540",
         "ivr-article": "north of",
         "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220501GG01639",
+        "SourceEventID": "220501GG01661",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
