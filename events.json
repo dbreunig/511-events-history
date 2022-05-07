@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
         },
         "event-reference": {
           "event-identifier": "900714"
@@ -359,7 +359,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
         },
         "event-reference": {
           "event-identifier": "900932"
@@ -508,7 +508,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
         },
         "event-reference": {
           "event-identifier": "900948"
@@ -587,14 +587,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-84 Eastbound west of Little Valley Rd (Sunol). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Traffic Collision with Injuries on CA-84 Eastbound west of Vallecitos Ln (Sunol). All lanes blocked. Avoid the area.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Moderate",
+      "severity": "Severe",
       "created": "2022-05-06T23:23Z",
-      "updated": "2022-05-06T23:39Z",
+      "updated": "2022-05-07T00:33Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -614,8 +617,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.846663,
-          37.60239
+          -121.856931656874,
+          37.5974827592601
         ]
       },
       "source_type": {
@@ -629,20 +632,20 @@
       "roads": [
         {
           "name": "CA-84 E",
-          "from": "Little Valley Rd",
+          "from": "Vallecitos Ln",
           "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
+          "state": "CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "Avoid the area"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -655,9 +658,21 @@
           "2022-05-06T23:24Z/"
         ]
       },
+      "closure_geometry": {
+        "@xmlns:gml": "http://www.opengis.net/gml",
+        "@xmlns": "http://511.org/open511-extensions",
+        "gml:MultiLineString": {
+          "@srsName": "urn:ogc:def:crs:EPSG::4326",
+          "gml:LineStringMember": {
+            "gml:LineString": {
+              "gml:posList": "-121.870707306719,37.588897386459,-121.870683999929,37.5889440000572,-121.870622000004,37.5890569996862,-121.870481000437,37.5893379999663,-121.870324999903,37.5896590001914,-121.870282000246,37.5897670003085,-121.870253999758,37.5898379997134,-121.870047999894,37.5901620002389,-121.870015000282,37.5902680001266,-121.869996000015,37.5903539999111,-121.869980999947,37.5904359998945,-121.86995099981,37.5906439997596,-121.869935999741,37.5907819999928,-121.869927000418,37.5908809997394,-121.869915999649,37.5910240000108,-121.869908999977,37.5912269999043,-121.869907000327,37.5913329996988,-121.869903999954,37.5913589999342,-121.869899999756,37.5914260003074,-121.869893000083,37.5915210002656,-121.869888999885,37.5915799997891,-121.869884999687,37.5916970000327,-121.869879999664,37.5917949999006,-121.869873999817,37.5919709997315,-121.869867000144,37.5920739996458,-121.869859999573,37.5921549997892,-121.869853999725,37.5922259997634,-121.869845000403,37.5923050002966,-121.869836000182,37.5923770002049,-121.869823999588,37.5924520002727,-121.869806000045,37.5925430000445,-121.86978099993,37.592652000321,-121.869756999641,37.5927500003549,-121.869725999679,37.5928499996899,-121.869698999914,37.5929319997704,-121.86966100028,37.5930290000788,-121.869625000295,37.5931179997222,-121.869546999578,37.5932730000388,-121.869496000423,37.5933699999027,-121.869437999799,37.5934740000787,-121.869386999745,37.5935519999373,-121.869351999585,37.5936040002722,-121.8693120003,37.5936620002196,-121.869272000117,37.593711999647,-121.869231000109,37.5937600003469,-121.869163000337,37.5938410000789,-121.869072000101,37.5939410000833,-121.868988000435,37.5940310001146,-121.868884999605,37.5941289997561,-121.868807999612,37.5941959997708,-121.868718000098,37.5942720001926,-121.86862900041,37.5943380000276,-121.868538000173,37.594403999804,-121.868458999632,37.5944589996917,-121.8683559997,37.594526000121,-121.868226000004,37.594605000348,-121.868091000285,37.5946770001664,-121.867958000215,37.5947449997333,-121.867830999994,37.5948040002596,-121.86767299981,37.5948660001591,-121.867533999893,37.5949219997484,-121.867215999875,37.5950170002264,-121.867149999753,37.5950389997204,-121.867042999623,37.5950690002493,-121.86689200001,37.5951030002172,-121.866801999599,37.5951259997262,-121.866736000375,37.5951429996992,-121.863656999585,37.5960159997442,-121.863117999635,37.5961719997449,-121.861982197638,37.5965070569234"
+            }
+          }
+        }
+      },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
         },
         "event-reference": {
           "event-identifier": "900950"
@@ -670,9 +685,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -681,7 +701,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-84 Eastbound west of Little Valley Rd (Sunol). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision with Injuries on CA-84 Eastbound west of Vallecitos Ln (Sunol). All lanes blocked. Avoid the area."
                     }
                   }
                 }
@@ -692,21 +712,24 @@
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
                   "link-road-designator": "CA-84 E",
-                  "link-from-road": "Little Valley Rd",
+                  "link-from-road": "Vallecitos Ln",
                   "link-to-road": null,
                   "link-from-city": "Sunol",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.60239",
-                    "event-location-coordinates-longitude": "-121.846663"
+                    "event-location-coordinates-latitude": "37.597482759260124",
+                    "event-location-coordinates-longitude": "-121.85693165687374"
+                  },
+                  "event-road-closure-links": {
+                    "link-id": "137155"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-06T16:39:57.91770",
+              "update-time": "2022-05-06T17:33:28.18350",
               "valid-period": {
-                "event-timeline-estimated-duration": "34"
+                "event-timeline-estimated-duration": "73"
               },
               "start-time": "2022-05-06T16:24:00.00000",
               "cleared-time": null,
@@ -717,314 +740,19 @@
             }
           }
         },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
+        "EventImpact": "Severe",
+        "RoadClosed": "true",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "5",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-05-06T16:39:57.91770",
+        "ivr-lastUpdateDttm": "2022-05-06T17:33:28.18350",
         "ivr-article": "west of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Avoid the area",
         "SourceEventID": "220506GG01880",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Vehicle fire on CA-12 Eastbound west of Red Top Rd (Vallejo). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Vehicle fire"
-      },
-      "severity": "Moderate",
-      "created": "2022-05-06T23:33Z",
-      "updated": "2022-05-06T23:55Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.18694,
-          38.20854
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220506GG01912"
-      },
-      "roads": [
-        {
-          "name": "CA-12 E",
-          "from": "Red Top Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-06T23:55Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
-        },
-        "event-reference": {
-          "event-identifier": "900958"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Vehicle fire"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Vehicle fire on CA-12 Eastbound west of Red Top Rd (Vallejo). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "CA-12 E",
-                  "link-from-road": "Red Top Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Vallejo",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.20854",
-                    "event-location-coordinates-longitude": "-122.18694"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-06T16:55:00.27900",
-              "valid-period": {
-                "event-timeline-estimated-duration": "38.5"
-              },
-              "start-time": "2022-05-06T16:55:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-05-06T16:55:00.27900",
-        "ivr-article": "west of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220506GG01912",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Northbound south of Alvarado Blvd (Fremont). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-05-06T23:46Z",
-      "updated": "2022-05-07T00:03Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.046888,
-          37.575055
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220506GG01965"
-      },
-      "roads": [
-        {
-          "name": "I-880 N",
-          "from": "Alvarado Blvd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-07T00:03Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
-        },
-        "event-reference": {
-          "event-identifier": "900964"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Northbound south of Alvarado Blvd (Fremont). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "Alvarado Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "Fremont",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.575055",
-                    "event-location-coordinates-longitude": "-122.046888"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-06T17:03:20.87110",
-              "valid-period": {
-                "event-timeline-estimated-duration": "25"
-              },
-              "start-time": "2022-05-06T17:03:20.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-06T17:03:20.87110",
-        "ivr-article": "south of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220506GG01965",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -1101,7 +829,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
         },
         "event-reference": {
           "event-identifier": "900965"
@@ -1179,598 +907,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-880 Northbound south of Stevenson Blvd (Fremont). All lanes open. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Unknown",
-      "created": "2022-05-06T23:58Z",
-      "updated": "2022-05-07T00:17Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.983042,
-          37.52006
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220506GG01998"
-      },
-      "roads": [
-        {
-          "name": "I-880 N",
-          "from": "Stevenson Blvd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "open"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-07T00:16Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
-        },
-        "event-reference": {
-          "event-identifier": "900968"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-880 Northbound south of Stevenson Blvd (Fremont). All lanes open. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "Stevenson Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "Fremont",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.52006",
-                    "event-location-coordinates-longitude": "-121.983042"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-06T17:17:25.19670",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2022-05-06T17:16:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-06T17:17:25.19670",
-        "ivr-article": "south of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "open",
-        "ivr-totalLanes": "All lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220506GG01998",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-680 Southbound north of Mckee Rd (San Jose). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-05-06T23:59Z",
-      "updated": "2022-05-07T00:14Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.850434,
-          37.372053
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220506GG02001"
-      },
-      "roads": [
-        {
-          "name": "I-680 S",
-          "from": "Mckee Rd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-07T00:14Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
-        },
-        "event-reference": {
-          "event-identifier": "900970"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-680 Southbound north of Mckee Rd (San Jose). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-680 S",
-                  "link-from-road": "Mckee Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.372053",
-                    "event-location-coordinates-longitude": "-121.850434"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-06T17:14:47.33310",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-05-06T17:14:47.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-06T17:14:47.33310",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220506GG02001",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-880 Southbound at Webster ST Tube (Oakland). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Residual delays"
-      },
-      "severity": "Minor",
-      "created": "2022-05-07T00:01Z",
-      "updated": "2022-05-07T00:02Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.272209,
-          37.797358
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220506GG02008"
-      },
-      "roads": [
-        {
-          "name": "I-880 S",
-          "from": "Webster ST Tube",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-07T00:01Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
-        },
-        "event-reference": {
-          "event-identifier": "900972"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-880 Southbound at Webster ST Tube (Oakland). Center Divider affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "Webster ST Tube",
-                  "link-to-road": null,
-                  "link-from-city": "Oakland",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.797358",
-                    "event-location-coordinates-longitude": "-122.272209"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-06T17:02:57.64880",
-              "valid-period": {
-                "event-timeline-estimated-duration": "20.5"
-              },
-              "start-time": "2022-05-06T17:01:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Minor",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-06T17:02:57.64880",
-        "ivr-article": "at",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220506GG02008",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-80 Westbound west of CA-12 E (Fairfield). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Moderate",
-      "created": "2022-05-07T00:02Z",
-      "updated": "2022-05-07T00:09Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.112747,
-          38.231153
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220506GG02015"
-      },
-      "roads": [
-        {
-          "name": "I-80 W",
-          "from": "CA-12 E",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-07T00:09Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
-        },
-        "event-reference": {
-          "event-identifier": "900973"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-80 Westbound west of CA-12 E (Fairfield). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "CA-12 E",
-                  "link-to-road": null,
-                  "link-from-city": "Fairfield",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.231153",
-                    "event-location-coordinates-longitude": "-122.112747"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-06T17:09:34.42240",
-              "valid-period": {
-                "event-timeline-estimated-duration": "27.7"
-              },
-              "start-time": "2022-05-06T17:09:34.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-05-06T17:09:34.42240",
-        "ivr-article": "west of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220506GG02015",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Hazard on US-101 Southbound south of Old Redwood Hwy (Healdsburg). Right lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -1841,7 +977,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-06T17:18:03.05721"
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
         },
         "event-reference": {
           "event-identifier": "900975"
@@ -1913,6 +1049,746 @@
         "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220506GG02044",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Kehoe Ave (San Mateo). 2nd lane from the left affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-07T00:37Z",
+      "updated": "2022-05-07T00:37Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.302738,
+          37.560606
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220506GG02108"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Kehoe Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "2nd lane from the left"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-07T00:37Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
+        },
+        "event-reference": {
+          "event-identifier": "900981"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Kehoe Ave (San Mateo). 2nd lane from the left affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Kehoe Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Mateo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.560606",
+                    "event-location-coordinates-longitude": "-122.302738"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-06T17:37:40.13080",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-05-06T17:37:40.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-05-06T17:37:40.13080",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220506GG02108",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-580 Eastbound east of Paloverde Rd (Hayward). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Minor",
+      "created": "2022-05-07T00:42Z",
+      "updated": "2022-05-07T00:43Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.016929,
+          37.702489
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220506GG02122"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Paloverde Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-07T00:43Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
+        },
+        "event-reference": {
+          "event-identifier": "900982"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound east of Paloverde Rd (Hayward). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Paloverde Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Hayward",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.702489",
+                    "event-location-coordinates-longitude": "-122.016929"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-06T17:43:53.31710",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.5"
+              },
+              "start-time": "2022-05-06T17:43:53.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-05-06T17:43:53.31710",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220506GG02122",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-880 Northbound north of Mowry Ave (Fremont). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-07T00:43Z",
+      "updated": "2022-05-07T00:43Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.998233,
+          37.527793
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220506GG02127"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "Mowry Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-07T00:43Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
+        },
+        "event-reference": {
+          "event-identifier": "900984"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-880 Northbound north of Mowry Ave (Fremont). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Mowry Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.527793",
+                    "event-location-coordinates-longitude": "-121.998233"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-06T17:43:53.17550",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-05-06T17:43:53.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-05-06T17:43:53.17550",
+        "ivr-article": "north of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220506GG02127",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-680 Northbound south of E Capitol Expy (San Jose). Right lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-07T00:44Z",
+      "updated": "2022-05-07T00:44Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.840876,
+          37.347498
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220506GG02133"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "E Capitol Expy",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-07T00:44Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
+        },
+        "event-reference": {
+          "event-identifier": "900985"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-680 Northbound south of E Capitol Expy (San Jose). Right lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "E Capitol Expy",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.347498",
+                    "event-location-coordinates-longitude": "-121.840876"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-06T17:44:55.86630",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-05-06T17:44:55.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-05-06T17:44:55.86630",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220506GG02133",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-80 Westbound west of Powell St (Emeryville). Left lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-07T00:44Z",
+      "updated": "2022-05-07T00:45Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.296752,
+          37.838087
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220506GG02132"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Powell St",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-07T00:44Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-06T17:49:12.07034"
+        },
+        "event-reference": {
+          "event-identifier": "900986"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-80 Westbound west of Powell St (Emeryville). Left lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Powell St",
+                  "link-to-road": null,
+                  "link-from-city": "Emeryville",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.838087",
+                    "event-location-coordinates-longitude": "-122.296752"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-06T17:45:37.43460",
+              "valid-period": {
+                "event-timeline-estimated-duration": "32.5"
+              },
+              "start-time": "2022-05-06T17:44:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-05-06T17:45:37.43460",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220506GG02132",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
