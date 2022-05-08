@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-08T10:48:07.26571"
+          "event-message-time-stamp": "2022-05-08T11:05:37.65203"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -215,7 +215,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-08T10:48:07.26571"
+          "event-message-time-stamp": "2022-05-08T11:05:37.65203"
         },
         "event-reference": {
           "event-identifier": "901467"
@@ -293,14 +293,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Southbound north of N Cloverdale Blvd (Cloverdale). Off Ramp affected. Expect delays.",
+      "headline": "CHP : Residual delays on US-101 Southbound north of N Cloverdale Blvd (Cloverdale). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2022-05-08T17:34Z",
-      "updated": "2022-05-08T17:39Z",
+      "updated": "2022-05-08T17:58Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -340,11 +340,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -358,12 +358,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-08T17:39Z/"
+          "2022-05-08T17:55Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-08T10:48:07.26571"
+          "event-message-time-stamp": "2022-05-08T11:05:37.65203"
         },
         "event-reference": {
           "event-identifier": "901525"
@@ -377,7 +377,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -387,7 +387,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Southbound north of N Cloverdale Blvd (Cloverdale). Off Ramp affected. Expect delays."
+                      "event-description": "CHP : Residual delays on US-101 Southbound north of N Cloverdale Blvd (Cloverdale). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -410,11 +410,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-08T10:39:00.56610",
+              "update-time": "2022-05-08T10:58:04.39050",
               "valid-period": {
-                "event-timeline-estimated-duration": "49"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2022-05-08T10:39:00.00000",
+              "start-time": "2022-05-08T10:55:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -423,16 +423,16 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-08T10:39:00.56610",
+        "ivr-lastUpdateDttm": "2022-05-08T10:58:04.39050",
         "ivr-article": "north of",
         "ivr-county": "Sonoma",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Off Ramp",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220508GG00846",
         "EventSourceName": "CHP",
@@ -441,21 +441,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-880 Northbound south of W Tennyson Rd (Hayward). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-280 Northbound south of CA-85 N (Sunnyvale). Center Divider affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Residual delays"
+        "event_subtype": "Traffic Hazard"
       },
-      "severity": "Moderate",
-      "created": "2022-05-08T17:46Z",
-      "updated": "2022-05-08T17:47Z",
+      "severity": "Minor",
+      "created": "2022-05-08T17:52Z",
+      "updated": "2022-05-08T18:04Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -468,8 +468,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.081243,
-          37.627371
+          -122.049132,
+          37.333917
         ]
       },
       "source_type": {
@@ -478,17 +478,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220508GG00867"
+        "#text": "220508GG00877"
       },
       "roads": [
         {
-          "name": "I-880 N",
-          "from": "W Tennyson Rd",
+          "name": "I-280 N",
+          "from": "CA-85 N",
           "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Center Divider"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -506,15 +506,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-08T17:46Z/"
+          "2022-05-08T18:04Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-08T10:48:07.26571"
+          "event-message-time-stamp": "2022-05-08T11:05:37.65203"
         },
         "event-reference": {
-          "event-identifier": "901526"
+          "event-identifier": "901527"
         },
         "event-status": "new",
         "details": {
@@ -525,7 +525,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Residual delays"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -535,7 +535,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-880 Northbound south of W Tennyson Rd (Hayward). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-280 Northbound south of CA-85 N (Sunnyvale). Center Divider affected. Expect delays."
                     }
                   }
                 }
@@ -544,25 +544,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "W Tennyson Rd",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "CA-85 N",
                   "link-to-road": null,
-                  "link-from-city": "Hayward",
+                  "link-from-city": "Sunnyvale",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.627371",
-                    "event-location-coordinates-longitude": "-122.081243"
+                    "event-location-coordinates-latitude": "37.333917",
+                    "event-location-coordinates-longitude": "-122.049132"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-08T10:47:30.04310",
+              "update-time": "2022-05-08T11:04:50.17780",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "20.5"
               },
-              "start-time": "2022-05-08T10:46:00.00000",
+              "start-time": "2022-05-08T11:04:50.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -571,18 +571,314 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "1",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-08T10:47:30.04310",
+        "ivr-lastUpdateDttm": "2022-05-08T11:04:50.17780",
         "ivr-article": "south of",
-        "ivr-county": "Alameda",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "Center Divider",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220508GG00867",
+        "SourceEventID": "220508GG00877",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-87 Southbound south of Lelong St (San Jose). Right lanes affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Major",
+      "created": "2022-05-08T17:58Z",
+      "updated": "2022-05-08T18:02Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.884225,
+          37.311611
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220508GG00888"
+      },
+      "roads": [
+        {
+          "name": "CA-87 S",
+          "from": "Lelong St",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-08T17:58Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-08T11:05:37.65203"
+        },
+        "event-reference": {
+          "event-identifier": "901528"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-87 Southbound south of Lelong St (San Jose). Right lanes affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-87 S",
+                  "link-from-road": "Lelong St",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.311611",
+                    "event-location-coordinates-longitude": "-121.884225"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-08T11:02:21.51460",
+              "valid-period": {
+                "event-timeline-estimated-duration": "50.5"
+              },
+              "start-time": "2022-05-08T10:58:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-05-08T11:02:21.51460",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220508GG00888",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-4 Westbound exiting at Sand Creek Rd (Brentwood). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Major",
+      "created": "2022-05-08T18:00Z",
+      "updated": "2022-05-08T18:04Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.743071,
+          37.947161
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220508GG00894"
+      },
+      "roads": [
+        {
+          "name": "CA-4 W",
+          "from": "Sand Creek Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "exiting at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-08T18:02Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-08T11:05:37.65203"
+        },
+        "event-reference": {
+          "event-identifier": "901529"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-4 Westbound exiting at Sand Creek Rd (Brentwood). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-4 W",
+                  "link-from-road": "Sand Creek Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Brentwood",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.947161",
+                    "event-location-coordinates-longitude": "-121.743071"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-08T11:04:05.46800",
+              "valid-period": {
+                "event-timeline-estimated-duration": "49"
+              },
+              "start-time": "2022-05-08T11:02:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-05-08T11:04:05.46800",
+        "ivr-article": "exiting at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220508GG00894",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
