@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-09T19:12:44.57258"
+          "event-message-time-stamp": "2022-05-09T19:40:35.02560"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -202,7 +202,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-09T19:12:44.57258"
+          "event-message-time-stamp": "2022-05-09T19:40:35.02560"
         },
         "event-reference": {
           "event-identifier": "899793"
@@ -345,7 +345,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-09T19:12:44.57258"
+          "event-message-time-stamp": "2022-05-09T19:40:35.02560"
         },
         "event-reference": {
           "event-identifier": "901759"
@@ -493,7 +493,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-09T19:12:44.57258"
+          "event-message-time-stamp": "2022-05-09T19:40:35.02560"
         },
         "event-reference": {
           "event-identifier": "902045"
@@ -571,21 +571,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Residual delays on I-280 Northbound north of US-101 S (san Francisco) (San Francisco). Lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Left shoulder closed until 9 PM. From 7:00 PM Monday, May 09, 2022 to 9:00 PM Monday, May 09, 2022.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": "Residual delays"
+        "event_subtype": "Roadwork"
       },
-      "severity": "Moderate",
-      "created": "2022-05-10T01:46Z",
-      "updated": "2022-05-10T02:11Z",
+      "severity": "Unknown",
+      "created": "2022-05-10T02:20Z",
+      "updated": "2022-05-10T02:39Z",
       "areas": {
         "area": {
-          "name": "San Francisco",
-          "id": "5391997",
+          "name": "Marin",
+          "id": "5370468",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
+            "@href": "http://geonames.org/5370468/"
           }
         }
       },
@@ -598,8 +598,160 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.40691,
-          37.73513
+          -122.477644,
+          37.942579
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "C580CB-0009-2022-05-09-19:01:00"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "Main St",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 9 PM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-10T02:01Z/2022-05-10T03:59Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-09T19:40:35.02560"
+        },
+        "event-reference": {
+          "event-identifier": "902058"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on I-580 Eastbound at Main St (San Quentin). Left shoulder closed until 9 PM. From 7:00 PM Monday, May 09, 2022 to 9:00 PM Monday, May 09, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "Main St",
+                  "link-to-road": null,
+                  "link-from-city": "San Quentin",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.942579",
+                    "event-location-coordinates-longitude": "-122.477644"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-09T19:39:45.40550",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-05-09T19:01:00.00000",
+              "cleared-time": "2022-05-09T20:59:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-05-09T19:39:45.40550",
+        "ivr-article": "at",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Left shoulder",
+        "ivr-genOtherText": "until 9 PM",
+        "SourceEventID": "C580CB-0009-2022-05-09-19:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Severe traffic alert and Traffic Collision and Overturned tractor trailer on I-80 Westbound east of El Portal Dr (San Pablo). All lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": [
+          "Traffic Collision",
+          "Overturned tractor trailer",
+          "Severe traffic alert"
+        ]
+      },
+      "severity": "Severe",
+      "created": "2022-05-10T02:26Z",
+      "updated": "2022-05-10T02:37Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.326414042358,
+          37.9641209554171
         ]
       },
       "source_type": {
@@ -608,317 +760,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220509GG02047"
+        "#text": "220509GG02108"
       },
       "roads": [
         {
-          "name": "I-280 N",
-          "from": "US-101 S (san Francisco)",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
+          "name": "I-80 W",
+          "from": "El Portal Dr",
+          "direction": "Westbound",
+          "state": "CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-10T01:46Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-09T19:12:44.57258"
-        },
-        "event-reference": {
-          "event-identifier": "902048"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Residual delays"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on I-280 Northbound north of US-101 S (san Francisco) (San Francisco). Lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "US-101 S (san Francisco)",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.73513",
-                    "event-location-coordinates-longitude": "-122.40691"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-09T19:11:30.66790",
-              "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
-              },
-              "start-time": "2022-05-09T18:46:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-09T19:11:30.66790",
-        "ivr-article": "north of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220509GG02047",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Southbound north of S 10TH St (San Jose). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-05-10T01:54Z",
-      "updated": "2022-05-10T01:56Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.871803,
-          37.328297
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220509GG02064"
-      },
-      "roads": [
-        {
-          "name": "I-280 S",
-          "from": "S 10TH St",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-10T01:54Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-09T19:12:44.57258"
-        },
-        "event-reference": {
-          "event-identifier": "902051"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Southbound north of S 10TH St (San Jose). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "S 10TH St",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.328297",
-                    "event-location-coordinates-longitude": "-121.871803"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-09T18:56:57.77000",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-05-09T18:54:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-09T18:56:57.77000",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220509GG02064",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-92 Westbound east of W Hillsdale Blvd (San Mateo). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-05-10T02:03Z",
-      "updated": "2022-05-10T02:03Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.329173,
-          37.535125
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220509GG02080"
-      },
-      "roads": [
-        {
-          "name": "CA-92 W",
-          "from": "W Hillsdale Blvd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -932,15 +788,27 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-10T02:03Z/"
+          "2022-05-10T02:32Z/"
         ]
+      },
+      "closure_geometry": {
+        "@xmlns:gml": "http://www.opengis.net/gml",
+        "@xmlns": "http://511.org/open511-extensions",
+        "gml:MultiLineString": {
+          "@srsName": "urn:ogc:def:crs:EPSG::4326",
+          "gml:LineStringMember": {
+            "gml:LineString": {
+              "gml:posList": "-122.329991064986,37.9559398082482,-122.330035999615,37.9560199999117,-122.330086999669,37.956111000231,-122.33023999983,37.9563870001752,-122.330346000135,37.9566000000006,-122.330423000128,37.9567860002707,-122.330476999656,37.9569329997968,-122.330574999566,37.9572020001143,-122.330649000084,37.9574559999364,-122.330674000198,37.9575570002629,-122.330700999962,37.9576859998819,-122.330722999704,37.957790000206,-122.33074199997,37.9578930002795,-122.330767000084,37.9580810003096,-122.330784999628,37.9582440002363,-122.330792000199,37.9583750002585,-122.330798999872,37.9585060000469,-122.33080300007,37.9585789998494,-122.330796000397,37.9588520001653,-122.330788999826,37.9589630001669,-122.330782999978,37.9590750000879,-122.330772000107,37.9591969999846,-122.330755000389,37.9593389999343,-122.330664000152,37.9598149998775,-122.330566000243,37.9601059997487,-122.330505999969,37.960291000277,-122.330495999923,37.9603200001912,-122.330340000287,37.9606970001588,-122.330110000133,37.9611320002226,-122.329970000391,37.9613510000806,-122.329899000246,37.9614540001179,-122.32980600036,37.9615900003446,-122.329704000253,37.9617269996623,-122.3295920001,37.9618650001899,-122.329469000076,37.9620019997027,-122.329377999839,37.9620979999225,-122.329233000074,37.9622480002802,-122.329043999929,37.9624320003289,-122.328836000414,37.962619000033,-122.328664999812,37.9627589996664,-122.328556000032,37.9628480000636,-122.328383999604,37.9629770003044,-122.328241000388,37.9630780001208,-122.328120000014,37.9631589998801,-122.327981999922,37.9632469997622,-122.327786999928,37.9633639996675,-122.327567999645,37.9634909996563,-122.327475999583,37.9635400002514,-122.327408999636,37.96357399972,-122.327348000435,37.9636069998557,-122.32714599987,37.9637100002699,-122.326822000005,37.9638829999598,-122.326509000011,37.9640519998733,-122.326156999658,37.9642389997013,-122.325799000356,37.9644279997898,-122.325473999768,37.9645999999009,-122.325421999889,37.9646270002153,-122.325098999849,37.9647949998237,-122.325030000252,37.9648310001451,-122.324723000106,37.9649939999628,-122.324682999923,37.9650150000955,-122.324225999988,37.9652569997748,-122.32378800032,37.9654840000777,-122.323435999968,37.9656819997689,-122.323277999784,37.9657750001477,-122.323175999677,37.9658429998324,-122.322881999949,37.9660509998932,-122.322769999796,37.9661379998596,-122.322659000366,37.9662259997127,-122.322584999848,37.9662879997551,-122.322496999984,37.9663620003082,-122.322442999558,37.9664150003523,-122.322384212907,37.9664679082914"
+            }
+          }
+        }
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-09T19:12:44.57258"
+          "event-message-time-stamp": "2022-05-09T19:40:35.02560"
         },
         "event-reference": {
-          "event-identifier": "902055"
+          "event-identifier": "902059"
         },
         "event-status": "new",
         "details": {
@@ -950,9 +818,17 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision"
+                      },
+                      {
+                        "incident": "Overturned tractor trailer"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -961,7 +837,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-92 Westbound east of W Hillsdale Blvd (San Mateo). Lane affected. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Traffic Collision and Overturned tractor trailer on I-80 Westbound east of El Portal Dr (San Pablo). All lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -970,25 +846,28 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "CA-92 W",
-                  "link-from-road": "W Hillsdale Blvd",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "El Portal Dr",
                   "link-to-road": null,
-                  "link-from-city": "San Mateo",
+                  "link-from-city": "San Pablo",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.535125",
-                    "event-location-coordinates-longitude": "-122.329173"
+                    "event-location-coordinates-latitude": "37.964120955417137",
+                    "event-location-coordinates-longitude": "-122.32641404235839"
+                  },
+                  "event-road-closure-links": {
+                    "link-id": "102430"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-09T19:03:53.28610",
+              "update-time": "2022-05-09T19:37:14.83280",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "74.5"
               },
-              "start-time": "2022-05-09T19:03:53.00000",
+              "start-time": "2022-05-09T19:32:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -997,18 +876,19 @@
             }
           }
         },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
+        "EventImpact": "Severe",
+        "RoadClosed": "true",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "5",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-05-09T19:03:53.28610",
+        "ivr-lastUpdateDttm": "2022-05-09T19:37:14.83280",
         "ivr-article": "east of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "All lanes",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220509GG02080",
+        "SourceEventID": "220509GG02108",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
