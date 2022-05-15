@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -145,14 +145,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert on I-80 Westbound west of Magazine St (Vallejo). All lanes blocked. Expect delays.",
+      "headline": "CHP : Severe traffic alert on I-80 Westbound west of Magazine St (Vallejo). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Severe traffic alert"
       },
-      "severity": "Severe",
+      "severity": "Unknown",
       "created": "2022-05-15T07:35Z",
-      "updated": "2022-05-15T09:23Z",
+      "updated": "2022-05-15T09:40Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -189,14 +189,14 @@
           "name": "I-80 W",
           "from": "Magazine St",
           "direction": "Westbound",
-          "state": "CLOSED",
+          "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
             "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -210,12 +210,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-15T09:23Z/"
+          "2022-05-15T09:40Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "904189"
@@ -239,7 +239,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert on I-80 Westbound west of Magazine St (Vallejo). All lanes blocked. Expect delays."
+                      "event-description": "CHP : Severe traffic alert on I-80 Westbound west of Magazine St (Vallejo). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -262,11 +262,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-15T02:23:02.90470",
+              "update-time": "2022-05-15T02:40:38.30130",
               "valid-period": {
-                "event-timeline-estimated-duration": "67"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2022-05-15T02:23:02.00000",
+              "start-time": "2022-05-15T02:40:38.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -275,167 +275,18 @@
             }
           }
         },
-        "EventImpact": "Severe",
-        "RoadClosed": "true",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "5",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-05-15T02:23:02.90470",
-        "ivr-article": "west of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "All lanes",
-        "ivr-impact": "Always play incident",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220515GG00067",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Northbound at College Ave (Santa Rosa). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-05-15T07:38Z",
-      "updated": "2022-05-15T07:45Z",
-      "areas": {
-        "area": {
-          "name": "Sonoma",
-          "id": "5397100",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5397100/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.721187,
-          38.442078
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220515GG00071"
-      },
-      "roads": [
-        {
-          "name": "US-101 N",
-          "from": "College Ave",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-15T07:45Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
-        },
-        "event-reference": {
-          "event-identifier": "904190"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Northbound at College Ave (Santa Rosa). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA097",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "College Ave",
-                  "link-to-road": null,
-                  "link-from-city": "Santa Rosa",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.442078",
-                    "event-location-coordinates-longitude": "-122.721187"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-15T00:45:45.90690",
-              "valid-period": {
-                "event-timeline-estimated-duration": "34"
-              },
-              "start-time": "2022-05-15T00:45:45.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-15T00:45:45.90690",
-        "ivr-article": "at",
-        "ivr-county": "Sonoma",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-05-15T02:40:38.30130",
+        "ivr-article": "west of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220515GG00071",
+        "SourceEventID": "220515GG00067",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -512,7 +363,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "904192"
@@ -660,7 +511,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "904193"
@@ -738,154 +589,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-24 Eastbound at Caldecott Tunnel (Orinda). Off Ramp blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Major",
-      "created": "2022-05-15T08:25Z",
-      "updated": "2022-05-15T09:19Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.211892,
-          37.858422
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220515GG00142"
-      },
-      "roads": [
-        {
-          "name": "CA-24 E",
-          "from": "Caldecott Tunnel",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-15T09:19Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
-        },
-        "event-reference": {
-          "event-identifier": "904194"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-24 Eastbound at Caldecott Tunnel (Orinda). Off Ramp blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 E",
-                  "link-from-road": "Caldecott Tunnel",
-                  "link-to-road": null,
-                  "link-from-city": "Orinda",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.858422",
-                    "event-location-coordinates-longitude": "-122.211892"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-15T02:19:56.54230",
-              "valid-period": {
-                "event-timeline-estimated-duration": "57.7"
-              },
-              "start-time": "2022-05-15T02:19:56.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-05-15T02:19:56.54230",
-        "ivr-article": "at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Off Ramp",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220515GG00142",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Hazard on I-580 Eastbound north of I-238 N (Castro Valley). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -956,7 +659,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "904196"
@@ -1104,7 +807,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "904197"
@@ -1189,7 +892,7 @@
       },
       "severity": "Moderate",
       "created": "2022-05-15T08:50Z",
-      "updated": "2022-05-15T09:17Z",
+      "updated": "2022-05-15T09:45Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1247,12 +950,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-15T09:17Z/"
+          "2022-05-15T09:45Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "904198"
@@ -1299,11 +1002,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-15T02:17:52.03820",
+              "update-time": "2022-05-15T02:45:48.89460",
               "valid-period": {
                 "event-timeline-estimated-duration": "38.5"
               },
-              "start-time": "2022-05-15T02:17:52.00000",
+              "start-time": "2022-05-15T02:45:49.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1317,7 +1020,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-15T02:17:52.03820",
+        "ivr-lastUpdateDttm": "2022-05-15T02:45:48.89460",
         "ivr-article": "north of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "blocked",
@@ -1400,7 +1103,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "904201"
@@ -1548,7 +1251,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "904203"
@@ -1696,7 +1399,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "904205"
@@ -1774,154 +1477,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-580 Eastbound at CA-132 E (Tracy). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-05-15T09:28Z",
-      "updated": "2022-05-15T09:28Z",
-      "areas": {
-        "area": {
-          "name": "San Joaquin",
-          "id": "5392126",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392126/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.414276,
-          37.646002
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220515ST00036"
-      },
-      "roads": [
-        {
-          "name": "I-580 E",
-          "from": "CA-132 E",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-15T09:28Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
-        },
-        "event-reference": {
-          "event-identifier": "904206"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-580 Eastbound at CA-132 E (Tracy). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": null,
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "CA-132 E",
-                  "link-to-road": null,
-                  "link-from-city": "Tracy",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.646002",
-                    "event-location-coordinates-longitude": "-121.414276"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-15T02:28:13.03560",
-              "valid-period": {
-                "event-timeline-estimated-duration": "34"
-              },
-              "start-time": "2022-05-15T02:28:13.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-05-15T02:28:13.03560",
-        "ivr-article": "at",
-        "ivr-county": "San Joaquin",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220515ST00036",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Collision on US-101 Southbound north of Masten Ave (Gilroy). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -1929,7 +1484,7 @@
       },
       "severity": "Moderate",
       "created": "2022-05-15T09:31Z",
-      "updated": "2022-05-15T09:34Z",
+      "updated": "2022-05-15T09:36Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -1987,12 +1542,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-15T09:34Z/"
+          "2022-05-15T09:36Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-15T02:35:55.03049"
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
         },
         "event-reference": {
           "event-identifier": "904207"
@@ -2039,11 +1594,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-15T02:34:25.18340",
+              "update-time": "2022-05-15T02:36:29.07100",
               "valid-period": {
                 "event-timeline-estimated-duration": "29"
               },
-              "start-time": "2022-05-15T02:34:25.00000",
+              "start-time": "2022-05-15T02:36:29.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2057,13 +1612,309 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-15T02:34:25.18340",
+        "ivr-lastUpdateDttm": "2022-05-15T02:36:29.07100",
         "ivr-article": "north of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220515MY00035",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on CA-1 Southbound south of CA-17 N (Santa Cruz). On Ramp affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Major",
+      "created": "2022-05-15T09:37Z",
+      "updated": "2022-05-15T09:48Z",
+      "areas": {
+        "area": {
+          "name": "Santa Cruz",
+          "id": "5393068",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393068/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.003489,
+          36.988247
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220515MY00036"
+      },
+      "roads": [
+        {
+          "name": "CA-1 S",
+          "from": "CA-17 N",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "On Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-15T09:48Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
+        },
+        "event-reference": {
+          "event-identifier": "904209"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on CA-1 Southbound south of CA-17 N (Santa Cruz). On Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA087",
+                  "link-road-designator": "CA-1 S",
+                  "link-from-road": "CA-17 N",
+                  "link-to-road": null,
+                  "link-from-city": "Santa Cruz",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "36.988247",
+                    "event-location-coordinates-longitude": "-122.003489"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-15T02:48:55.53810",
+              "valid-period": {
+                "event-timeline-estimated-duration": "50.2"
+              },
+              "start-time": "2022-05-15T02:48:55.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-05-15T02:48:55.53810",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Cruz",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "On Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220515MY00036",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-29 Northbound south of California Dr (Napa). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-15T09:42Z",
+      "updated": "2022-05-15T09:44Z",
+      "areas": {
+        "area": {
+          "name": "Napa",
+          "id": "5376101",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5376101/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.361376,
+          38.39953
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220515GG00262"
+      },
+      "roads": [
+        {
+          "name": "CA-29 N",
+          "from": "California Dr",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-15T09:44Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-15T02:48:58.67608"
+        },
+        "event-reference": {
+          "event-identifier": "904211"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-29 Northbound south of California Dr (Napa). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-29 N",
+                  "link-from-road": "California Dr",
+                  "link-to-road": null,
+                  "link-from-city": "Napa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.39953",
+                    "event-location-coordinates-longitude": "-122.361376"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-15T02:44:46.57500",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2022-05-15T02:44:46.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-05-15T02:44:46.57500",
+        "ivr-article": "south of",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220515GG00262",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
