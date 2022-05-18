@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.23417"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -218,7 +218,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.23417"
         },
         "event-reference": {
           "event-identifier": "904558"
@@ -367,7 +367,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.23417"
         },
         "event-reference": {
           "event-identifier": "904848"
@@ -456,7 +456,7 @@
       },
       "severity": "Severe",
       "created": "2022-05-18T00:13Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:55Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -510,7 +510,7 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-18T00:13Z/"
+          "2022-05-18T00:13Z/2022-05-18T04:30Z"
         ]
       },
       "closure_geometry": {
@@ -539,7 +539,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.23417"
         },
         "event-reference": {
           "event-identifier": "905094"
@@ -600,12 +600,12 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:15.96580",
+              "update-time": "2022-05-17T20:55:10.28150",
               "valid-period": {
                 "event-timeline-estimated-duration": "73.3"
               },
               "start-time": "2022-05-17T17:13:00.00000",
-              "cleared-time": null,
+              "cleared-time": "2022-05-17T21:30:00.00000",
               "utc-offset": "-0700"
             },
             "event-element-source": {
@@ -618,7 +618,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "5",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:15.96580",
+        "ivr-lastUpdateDttm": "2022-05-17T20:55:10.28150",
         "ivr-article": "area of",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -631,14 +631,19 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on CA-92 Westbound east of CA-1 N (Half Moon Bay). All lanes closed. Avoid the area.",
+      "headline": "CHP : Traffic Collision and Downed pole and Downed wires and Severe traffic alert on CA-92 Westbound east of CA-1 N (Half Moon Bay). All lanes closed. Avoid the area.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": [
+          "Downed pole",
+          "Downed wires",
+          "Traffic Collision",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Major",
+      "severity": "Severe",
       "created": "2022-05-18T00:22Z",
-      "updated": "2022-05-18T02:54Z",
+      "updated": "2022-05-18T03:55Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -658,8 +663,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.433517,
-          37.467999
+          -122.413719615261,
+          37.4782817080161
         ]
       },
       "source_type": {
@@ -692,7 +697,7 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-18T00:22Z/"
+          "2022-05-18T00:22Z/2022-05-18T04:30Z"
         ]
       },
       "closure_geometry": {
@@ -721,7 +726,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.23417"
         },
         "event-reference": {
           "event-identifier": "905100"
@@ -734,9 +739,20 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Downed pole"
+                      },
+                      {
+                        "incident": "Downed wires"
+                      },
+                      {
+                        "incident": "Traffic Collision"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -745,7 +761,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on CA-92 Westbound east of CA-1 N (Half Moon Bay). All lanes closed. Avoid the area."
+                      "event-description": "CHP : Traffic Collision and Downed pole and Downed wires and Severe traffic alert on CA-92 Westbound east of CA-1 N (Half Moon Bay). All lanes closed. Avoid the area."
                     }
                   }
                 }
@@ -761,8 +777,8 @@
                   "link-from-city": "Half Moon Bay",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.467999",
-                    "event-location-coordinates-longitude": "-122.433517"
+                    "event-location-coordinates-latitude": "37.4782817080161",
+                    "event-location-coordinates-longitude": "-122.413719615261"
                   },
                   "event-road-closure-links": {
                     "link-id": [
@@ -774,12 +790,12 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T19:54:43.65880",
+              "update-time": "2022-05-17T20:55:43.58800",
               "valid-period": {
-                "event-timeline-estimated-duration": "49"
+                "event-timeline-estimated-duration": "73.3"
               },
               "start-time": "2022-05-17T17:22:00.00000",
-              "cleared-time": null,
+              "cleared-time": "2022-05-17T21:30:00.00000",
               "utc-offset": "-0700"
             },
             "event-element-source": {
@@ -787,12 +803,12 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Severe",
         "RoadClosed": "true",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "5",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-05-17T19:54:43.65880",
+        "ivr-lastUpdateDttm": "2022-05-17T20:55:43.58800",
         "ivr-article": "east of",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -879,7 +895,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905118"
@@ -973,7 +989,7 @@
       },
       "severity": "Unknown",
       "created": "2022-05-18T02:11Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:57Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -1037,7 +1053,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905142"
@@ -1084,7 +1100,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:26.84090",
+              "update-time": "2022-05-17T20:57:29.33770",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1102,7 +1118,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:26.84090",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:29.33770",
         "ivr-article": "between",
         "ivr-county": "Marin",
         "ivr-laneStatus": "closed",
@@ -1122,7 +1138,7 @@
       },
       "severity": "Unknown",
       "created": "2022-05-18T03:04Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:57Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -1186,7 +1202,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905148"
@@ -1233,7 +1249,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:27.34070",
+              "update-time": "2022-05-17T20:57:29.84350",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1251,7 +1267,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:27.34070",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:29.84350",
         "ivr-article": "between",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
@@ -1271,7 +1287,7 @@
       },
       "severity": "Unknown",
       "created": "2022-05-18T03:04Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:57Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -1334,7 +1350,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905149"
@@ -1381,7 +1397,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:27.51310",
+              "update-time": "2022-05-17T20:57:30.01730",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1399,7 +1415,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:27.51310",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:30.01730",
         "ivr-article": "exiting at",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "closed",
@@ -1412,302 +1428,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Eastbound east of Treasure Island Rd (San Francisco). Right lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Major",
-      "created": "2022-05-18T03:10Z",
-      "updated": "2022-05-18T03:12Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.366974,
-          37.808253
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220517GG02145"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Treasure Island Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-18T03:12Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
-        },
-        "event-reference": {
-          "event-identifier": "905151"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound east of Treasure Island Rd (San Francisco). Right lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Treasure Island Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.808253",
-                    "event-location-coordinates-longitude": "-122.366974"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-17T20:12:50.13400",
-              "valid-period": {
-                "event-timeline-estimated-duration": "49"
-              },
-              "start-time": "2022-05-17T20:12:50.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:12:50.13400",
-        "ivr-article": "east of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220517GG02145",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-880 Northbound south of Stevens Creek Blvd (San Jose). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-05-18T03:26Z",
-      "updated": "2022-05-18T03:26Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.94071,
-          37.326692
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220517GG02183"
-      },
-      "roads": [
-        {
-          "name": "I-880 N",
-          "from": "Stevens Creek Blvd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-05-18T03:26Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
-        },
-        "event-reference": {
-          "event-identifier": "905158"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-880 Northbound south of Stevens Creek Blvd (San Jose). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-880 N",
-                  "link-from-road": "Stevens Creek Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "San Jose",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.326692",
-                    "event-location-coordinates-longitude": "-121.94071"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-05-17T20:26:28.91950",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2022-05-17T20:26:28.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:26:28.91950",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220517GG02183",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "Caltrans : Roadwork on CA-1 Northbound at Bay St (Santa Cruz). Lane closed until 6 AM. From 8:00 PM Tuesday, May 17, 2022 to 6:00 AM Wednesday, May 18, 2022.",
       "event_type": "CONSTRUCTION",
       "event_subtypes": {
@@ -1715,7 +1435,7 @@
       },
       "severity": "Unknown",
       "created": "2022-05-18T03:27Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:57Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -1778,7 +1498,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905159"
@@ -1825,7 +1545,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:28.63850",
+              "update-time": "2022-05-17T20:57:31.64500",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1843,7 +1563,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:28.63850",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:31.64500",
         "ivr-article": "at",
         "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "closed",
@@ -1856,21 +1576,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on CA-1 Northbound at Bay St (Santa Cruz). Lane closed until 6 AM. From 8:00 PM Tuesday, May 17, 2022 to 6:00 AM Wednesday, May 18, 2022.",
+      "headline": "Caltrans : Roadwork on CA-1 Southbound at Bay St (Unincorporated). Lane closed until 6 AM. From 8:00 PM Tuesday, May 17, 2022 to 6:00 AM Wednesday, May 18, 2022.",
       "event_type": "CONSTRUCTION",
       "event_subtypes": {
         "event_subtype": "Roadwork"
       },
       "severity": "Unknown",
       "created": "2022-05-18T03:27Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:57Z",
       "areas": {
         "area": {
-          "name": "Santa Cruz",
-          "id": "5393068",
+          "name": "San Mateo",
+          "id": "5392427",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393068/"
+            "@href": "http://geonames.org/5392427/"
           }
         }
       },
@@ -1897,9 +1617,9 @@
       },
       "roads": [
         {
-          "name": "CA-1 N",
+          "name": "CA-1 S",
           "from": "Bay St",
-          "direction": "Northbound",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1926,7 +1646,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905160"
@@ -1950,7 +1670,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on CA-1 Northbound at Bay St (Santa Cruz). Lane closed until 6 AM. From 8:00 PM Tuesday, May 17, 2022 to 6:00 AM Wednesday, May 18, 2022."
+                      "event-description": "Caltrans : Roadwork on CA-1 Southbound at Bay St (Unincorporated). Lane closed until 6 AM. From 8:00 PM Tuesday, May 17, 2022 to 6:00 AM Wednesday, May 18, 2022."
                     }
                   }
                 }
@@ -1959,11 +1679,11 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA087",
-                  "link-road-designator": "CA-1 N",
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "CA-1 S",
                   "link-from-road": "Bay St",
                   "link-to-road": null,
-                  "link-from-city": "Santa Cruz",
+                  "link-from-city": "Unincorporated",
                   "link-to-city": null,
                   "link-primary-location": {
                     "event-location-coordinates-latitude": "36.982181",
@@ -1973,7 +1693,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:28.81070",
+              "update-time": "2022-05-17T20:57:31.83100",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1990,10 +1710,10 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:28.81070",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:31.83100",
         "ivr-article": "at",
-        "ivr-county": "Santa Cruz",
+        "ivr-county": "San Mateo",
         "ivr-laneStatus": "closed",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "until 6 AM",
@@ -2011,7 +1731,7 @@
       },
       "severity": "Unknown",
       "created": "2022-05-18T03:27Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:57Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -2075,7 +1795,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905161"
@@ -2122,7 +1842,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:29.13700",
+              "update-time": "2022-05-17T20:57:32.16920",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2140,7 +1860,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:29.13700",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:32.16920",
         "ivr-article": "between",
         "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "closed",
@@ -2160,7 +1880,7 @@
       },
       "severity": "Unknown",
       "created": "2022-05-18T03:27Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:57Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -2224,7 +1944,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905162"
@@ -2271,7 +1991,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:29.48250",
+              "update-time": "2022-05-17T20:57:32.49510",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2289,7 +2009,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:29.48250",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:32.49510",
         "ivr-article": "between",
         "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "closed",
@@ -2309,7 +2029,7 @@
       },
       "severity": "Unknown",
       "created": "2022-05-18T03:27Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:57Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -2372,7 +2092,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905163"
@@ -2419,7 +2139,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:30.57680",
+              "update-time": "2022-05-17T20:57:33.60910",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2437,7 +2157,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:30.57680",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:33.60910",
         "ivr-article": "at",
         "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "closed",
@@ -2457,7 +2177,7 @@
       },
       "severity": "Unknown",
       "created": "2022-05-18T03:27Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:57Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -2520,7 +2240,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905164"
@@ -2567,7 +2287,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:30.91090",
+              "update-time": "2022-05-17T20:57:33.93730",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2585,7 +2305,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:30.91090",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:33.93730",
         "ivr-article": "at",
         "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "closed",
@@ -2605,7 +2325,7 @@
       },
       "severity": "Moderate",
       "created": "2022-05-18T03:28Z",
-      "updated": "2022-05-18T03:39Z",
+      "updated": "2022-05-18T03:44Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -2663,12 +2383,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-18T03:39Z/"
+          "2022-05-18T03:44Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905165"
@@ -2715,11 +2435,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:39:09.22480",
+              "update-time": "2022-05-17T20:44:26.45610",
               "valid-period": {
                 "event-timeline-estimated-duration": "31"
               },
-              "start-time": "2022-05-17T20:39:09.00000",
+              "start-time": "2022-05-17T20:44:26.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2733,7 +2453,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:39:09.22480",
+        "ivr-lastUpdateDttm": "2022-05-17T20:44:26.45610",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "blocked",
@@ -2753,7 +2473,7 @@
       },
       "severity": "Unknown",
       "created": "2022-05-18T03:34Z",
-      "updated": "2022-05-18T03:37Z",
+      "updated": "2022-05-18T03:57Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -2816,7 +2536,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-17T20:39:39.41797"
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
         },
         "event-reference": {
           "event-identifier": "905166"
@@ -2863,7 +2583,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-17T20:37:27.01300",
+              "update-time": "2022-05-17T20:57:29.51260",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -2881,13 +2601,457 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-05-17T20:37:27.01300",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:29.51260",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
         "ivr-totalLanes": "Right lane and shoulder",
         "ivr-genOtherText": "until 5 AM",
         "SourceEventID": "C101KB-0009-2022-05-17-19:01:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on CA-237 Eastbound west of US-101 S (Sunnyvale). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-18T03:42Z",
+      "updated": "2022-05-18T03:50Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.040228,
+          37.398289
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220517GG02220"
+      },
+      "roads": [
+        {
+          "name": "CA-237 E",
+          "from": "US-101 S",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-18T03:50Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
+        },
+        "event-reference": {
+          "event-identifier": "905167"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on CA-237 Eastbound west of US-101 S (Sunnyvale). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-237 E",
+                  "link-from-road": "US-101 S",
+                  "link-to-road": null,
+                  "link-from-city": "Sunnyvale",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.398289",
+                    "event-location-coordinates-longitude": "-122.040228"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-17T20:50:48.79170",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29"
+              },
+              "start-time": "2022-05-17T20:50:48.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-05-17T20:50:48.79170",
+        "ivr-article": "west of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220517GG02220",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on CA-24 Eastbound entering at Happy Valley Rd (Lafayette). On Ramp closed until 5 AM. From 8:30 PM Tuesday, May 17, 2022 to 5:00 AM Wednesday, May 18, 2022.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-05-18T03:50Z",
+      "updated": "2022-05-18T03:57Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.116474,
+          37.894232
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "M24EA-0003-2022-05-17-20:30:00"
+      },
+      "roads": [
+        {
+          "name": "CA-24 E",
+          "from": "Happy Valley Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "On Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 5 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "entering at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-18T03:30Z/2022-05-18T12:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
+        },
+        "event-reference": {
+          "event-identifier": "905170"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-24 Eastbound entering at Happy Valley Rd (Lafayette). On Ramp closed until 5 AM. From 8:30 PM Tuesday, May 17, 2022 to 5:00 AM Wednesday, May 18, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Happy Valley Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Lafayette",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.894232",
+                    "event-location-coordinates-longitude": "-122.116474"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-17T20:57:30.24800",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-05-17T20:30:00.00000",
+              "cleared-time": "2022-05-18T05:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:30.24800",
+        "ivr-article": "entering at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "On Ramp",
+        "ivr-genOtherText": "until 5 AM",
+        "SourceEventID": "M24EA-0003-2022-05-17-20:30:00",
+        "EventSourceName": "Caltrans",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Roadwork on CA-24 Eastbound at Happy Valley Rd (Lafayette). Right lane and shoulder closed until 5 AM. From 8:30 PM Tuesday, May 17, 2022 to 5:00 AM Wednesday, May 18, 2022.",
+      "event_type": "CONSTRUCTION",
+      "event_subtypes": {
+        "event_subtype": "Roadwork"
+      },
+      "severity": "Unknown",
+      "created": "2022-05-18T03:50Z",
+      "updated": "2022-05-18T03:57Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.121212,
+          37.893746
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "Caltrans"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "M24EA-0004-2022-05-17-20:30:00"
+      },
+      "roads": [
+        {
+          "name": "CA-24 E",
+          "from": "Happy Valley Rd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane and shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "closed"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "until 5 AM"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-18T03:30Z/2022-05-18T12:01Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-17T21:00:09.24980"
+        },
+        "event-reference": {
+          "event-identifier": "905171"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "2",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Roadwork"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Roadwork on CA-24 Eastbound at Happy Valley Rd (Lafayette). Right lane and shoulder closed until 5 AM. From 8:30 PM Tuesday, May 17, 2022 to 5:00 AM Wednesday, May 18, 2022."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Happy Valley Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Lafayette",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.893746",
+                    "event-location-coordinates-longitude": "-122.121212"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-17T20:57:30.54520",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2022-05-17T20:30:00.00000",
+              "cleared-time": "2022-05-18T05:01:00.00000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004"
+            }
+          }
+        },
+        "EventImpact": "Unknown",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "4",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-05-17T20:57:30.54520",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Right lane and shoulder",
+        "ivr-genOtherText": "until 5 AM",
+        "SourceEventID": "M24EA-0004-2022-05-17-20:30:00",
         "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
