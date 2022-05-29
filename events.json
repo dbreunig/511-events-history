@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T12:48:39.97123"
+          "event-message-time-stamp": "2022-05-29T13:04:58.58869"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -218,7 +218,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T12:48:39.97123"
+          "event-message-time-stamp": "2022-05-29T13:04:58.58869"
         },
         "event-reference": {
           "event-identifier": "904558"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T12:48:39.97123"
+          "event-message-time-stamp": "2022-05-29T13:04:58.58869"
         },
         "event-reference": {
           "event-identifier": "905429"
@@ -500,7 +500,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T12:48:39.97123"
+          "event-message-time-stamp": "2022-05-29T13:04:58.58869"
         },
         "event-reference": {
           "event-identifier": "909233"
@@ -643,7 +643,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T12:48:39.97123"
+          "event-message-time-stamp": "2022-05-29T13:04:58.58869"
         },
         "event-reference": {
           "event-identifier": "909545"
@@ -720,21 +720,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-29 Southbound south of Old Sonoma Rd (Napa). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-880 Southbound entering at Mowry Ave (Fremont). On Ramp blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Collision with Injuries"
       },
-      "severity": "Moderate",
-      "created": "2022-05-29T19:39Z",
-      "updated": "2022-05-29T19:39Z",
+      "severity": "Major",
+      "created": "2022-05-29T19:53Z",
+      "updated": "2022-05-29T19:55Z",
       "areas": {
         "area": {
-          "name": "Napa",
-          "id": "5376101",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5376101/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -747,8 +747,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.300664,
-          38.285123
+          -122.006489,
+          37.532001
         ]
       },
       "source_type": {
@@ -757,21 +757,317 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220529GG01071"
+        "#text": "220529GG01106"
       },
       "roads": [
         {
-          "name": "CA-29 S",
-          "from": "Old Sonoma Rd",
+          "name": "I-880 S",
+          "from": "Mowry Ave",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "On Ramp"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "entering at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-29T19:54Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-29T13:04:58.58869"
+        },
+        "event-reference": {
+          "event-identifier": "909579"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-880 Southbound entering at Mowry Ave (Fremont). On Ramp blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "Mowry Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Fremont",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.532001",
+                    "event-location-coordinates-longitude": "-122.006489"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-29T12:55:13.81980",
+              "valid-period": {
+                "event-timeline-estimated-duration": "53.5"
+              },
+              "start-time": "2022-05-29T12:54:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-05-29T12:55:13.81980",
+        "ivr-article": "entering at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "On Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220529GG01106",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Southbound north of Todd Rd (Santa Rosa). Lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Major",
+      "created": "2022-05-29T19:57Z",
+      "updated": "2022-05-29T19:57Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.716235,
+          38.389492
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220529GG01117"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Todd Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-29T19:57Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-29T13:04:58.58869"
+        },
+        "event-reference": {
+          "event-identifier": "909582"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of Todd Rd (Santa Rosa). Lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Todd Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Santa Rosa",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.389492",
+                    "event-location-coordinates-longitude": "-122.716235"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-29T12:57:10.38670",
+              "valid-period": {
+                "event-timeline-estimated-duration": "50.5"
+              },
+              "start-time": "2022-05-29T12:57:10.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-05-29T12:57:10.38670",
+        "ivr-article": "north of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220529GG01117",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Yolanda Ave (Santa Rosa). Right lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-29T19:59Z",
+      "updated": "2022-05-29T20:02Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.715905,
+          38.415911
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220529GG01125"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Yolanda Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -785,15 +1081,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-29T19:39Z/"
+          "2022-05-29T20:01Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T12:48:39.97123"
+          "event-message-time-stamp": "2022-05-29T13:04:58.58869"
         },
         "event-reference": {
-          "event-identifier": "909578"
+          "event-identifier": "909583"
         },
         "event-status": "new",
         "details": {
@@ -804,7 +1100,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -814,7 +1110,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-29 Southbound south of Old Sonoma Rd (Napa). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Yolanda Ave (Santa Rosa). Right lane blocked. Expect delays."
                     }
                   }
                 }
@@ -823,25 +1119,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA055",
-                  "link-road-designator": "CA-29 S",
-                  "link-from-road": "Old Sonoma Rd",
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Yolanda Ave",
                   "link-to-road": null,
-                  "link-from-city": "Napa",
+                  "link-from-city": "Santa Rosa",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.285123",
-                    "event-location-coordinates-longitude": "-122.300664"
+                    "event-location-coordinates-latitude": "38.415911",
+                    "event-location-coordinates-longitude": "-122.715905"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-29T12:39:36.31510",
+              "update-time": "2022-05-29T13:02:31.61140",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.2"
+                "event-timeline-estimated-duration": "30.5"
               },
-              "start-time": "2022-05-29T12:39:36.00000",
+              "start-time": "2022-05-29T13:01:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -854,14 +1150,162 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-29T12:39:36.31510",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-05-29T13:02:31.61140",
         "ivr-article": "south of",
-        "ivr-county": "Napa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220529GG01071",
+        "SourceEventID": "220529GG01125",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on I-205 Westbound west of Mountain House Pkwy (Tracy). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Minor",
+      "created": "2022-05-29T19:59Z",
+      "updated": "2022-05-29T19:59Z",
+      "areas": {
+        "area": {
+          "name": "San Joaquin",
+          "id": "5392126",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392126/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.525634,
+          37.74219
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220529ST00235"
+      },
+      "roads": [
+        {
+          "name": "I-205 W",
+          "from": "Mountain House Pkwy",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-29T19:59Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-29T13:04:58.58869"
+        },
+        "event-reference": {
+          "event-identifier": "909584"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on I-205 Westbound west of Mountain House Pkwy (Tracy). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": null,
+                  "link-road-designator": "I-205 W",
+                  "link-from-road": "Mountain House Pkwy",
+                  "link-to-road": null,
+                  "link-from-city": "Tracy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.74219",
+                    "event-location-coordinates-longitude": "-121.525634"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-29T12:59:59.96540",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.5"
+              },
+              "start-time": "2022-05-29T12:59:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-05-29T12:59:59.96540",
+        "ivr-article": "west of",
+        "ivr-county": "San Joaquin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220529ST00235",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
