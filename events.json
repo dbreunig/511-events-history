@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T14:34:49.06773"
+          "event-message-time-stamp": "2022-05-29T14:48:21.70047"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -218,7 +218,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T14:34:49.06773"
+          "event-message-time-stamp": "2022-05-29T14:48:21.70047"
         },
         "event-reference": {
           "event-identifier": "904558"
@@ -358,7 +358,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T14:34:49.06773"
+          "event-message-time-stamp": "2022-05-29T14:48:21.70047"
         },
         "event-reference": {
           "event-identifier": "905429"
@@ -500,7 +500,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T14:34:49.06773"
+          "event-message-time-stamp": "2022-05-29T14:48:21.70047"
         },
         "event-reference": {
           "event-identifier": "909233"
@@ -643,7 +643,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T14:34:49.06773"
+          "event-message-time-stamp": "2022-05-29T14:48:21.70047"
         },
         "event-reference": {
           "event-identifier": "909545"
@@ -790,7 +790,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T14:34:49.06773"
+          "event-message-time-stamp": "2022-05-29T14:48:21.70047"
         },
         "event-reference": {
           "event-identifier": "909596"
@@ -868,14 +868,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-84 Eastbound at Thornton Ave (Newark). Lane blocked. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-80 Eastbound east of I-880 S (Oakland). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
-      "created": "2022-05-29T21:29Z",
-      "updated": "2022-05-29T21:29Z",
+      "created": "2022-05-29T21:36Z",
+      "updated": "2022-05-29T21:43Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -895,8 +895,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.087838,
-          37.532453
+          -122.310644,
+          37.824338
         ]
       },
       "source_type": {
@@ -905,21 +905,317 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220529GG01305"
+        "#text": "220529GG01327"
       },
       "roads": [
         {
-          "name": "CA-84 E",
-          "from": "Thornton Ave",
+          "name": "I-80 E",
+          "from": "I-880 S",
           "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-29T21:43Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-29T14:48:21.70047"
+        },
+        "event-reference": {
+          "event-identifier": "909603"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-80 Eastbound east of I-880 S (Oakland). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "I-880 S",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.824338",
+                    "event-location-coordinates-longitude": "-122.310644"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-29T14:43:46.26170",
+              "valid-period": {
+                "event-timeline-estimated-duration": "25.2"
+              },
+              "start-time": "2022-05-29T14:43:46.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-05-29T14:43:46.26170",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220529GG01327",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on US-101 Northbound south of Peninsula Ave (San Mateo). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-29T21:37Z",
+      "updated": "2022-05-29T21:37Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.32829,
+          37.584156
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220529GG01330"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Peninsula Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-29T21:37Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-29T14:48:21.70047"
+        },
+        "event-reference": {
+          "event-identifier": "909604"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on US-101 Northbound south of Peninsula Ave (San Mateo). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Peninsula Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Mateo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.584156",
+                    "event-location-coordinates-longitude": "-122.32829"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-29T14:37:32.24340",
+              "valid-period": {
+                "event-timeline-estimated-duration": "27.7"
+              },
+              "start-time": "2022-05-29T14:37:32.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-05-29T14:37:32.24340",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220529GG01330",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound at College Ave (Santa Rosa). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-29T21:38Z",
+      "updated": "2022-05-29T21:45Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.721931,
+          38.443134
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220529GG01331"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "College Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -933,15 +1229,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-29T21:29Z/"
+          "2022-05-29T21:45Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-29T14:34:49.06773"
+          "event-message-time-stamp": "2022-05-29T14:48:21.70047"
         },
         "event-reference": {
-          "event-identifier": "909602"
+          "event-identifier": "909605"
         },
         "event-status": "new",
         "details": {
@@ -962,7 +1258,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-84 Eastbound at Thornton Ave (Newark). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound at College Ave (Santa Rosa). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -971,25 +1267,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "CA-84 E",
-                  "link-from-road": "Thornton Ave",
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "College Ave",
                   "link-to-road": null,
-                  "link-from-city": "Newark",
+                  "link-from-city": "Santa Rosa",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.532453",
-                    "event-location-coordinates-longitude": "-122.087838"
+                    "event-location-coordinates-latitude": "38.443134",
+                    "event-location-coordinates-longitude": "-122.721931"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-29T14:29:14.53180",
+              "update-time": "2022-05-29T14:45:50.61710",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2022-05-29T14:29:14.00000",
+              "start-time": "2022-05-29T14:45:50.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1002,14 +1298,162 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-05-29T14:29:14.53180",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-05-29T14:45:50.61710",
         "ivr-article": "at",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220529GG01331",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound east of W Grand Ave (Oakland). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-29T21:44Z",
+      "updated": "2022-05-29T21:45Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.304799,
+          37.825388
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220529GG01346"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "W Grand Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-29T21:45Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-29T14:48:21.70047"
+        },
+        "event-reference": {
+          "event-identifier": "909606"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of W Grand Ave (Oakland). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "W Grand Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.825388",
+                    "event-location-coordinates-longitude": "-122.304799"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-29T14:45:50.45710",
+              "valid-period": {
+                "event-timeline-estimated-duration": "34"
+              },
+              "start-time": "2022-05-29T14:45:50.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-05-29T14:45:50.45710",
+        "ivr-article": "east of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
+        "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220529GG01305",
+        "SourceEventID": "220529GG01346",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
