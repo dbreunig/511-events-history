@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-30T21:30:31.42630"
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -218,7 +218,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-30T21:30:31.42630"
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
         },
         "event-reference": {
           "event-identifier": "904558"
@@ -372,7 +372,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-30T21:30:31.42630"
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
         },
         "event-reference": {
           "event-identifier": "909866"
@@ -521,7 +521,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-30T21:30:31.42630"
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
         },
         "event-reference": {
           "event-identifier": "909920"
@@ -669,7 +669,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-30T21:30:31.42630"
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
         },
         "event-reference": {
           "event-identifier": "909939"
@@ -817,7 +817,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-30T21:30:31.42630"
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
         },
         "event-reference": {
           "event-identifier": "909940"
@@ -965,7 +965,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-30T21:30:31.42630"
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
         },
         "event-reference": {
           "event-identifier": "909942"
@@ -1043,21 +1043,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Southbound at I-880 S (San Jose). Lane affected. Expect delays.",
+      "headline": "CHP : Fire on I-80 Eastbound at Macdonald Ave (Richmond). Off Ramp affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Fire"
       },
-      "severity": "Moderate",
-      "created": "2022-05-31T04:04Z",
-      "updated": "2022-05-31T04:16Z",
+      "severity": "Major",
+      "created": "2022-05-31T04:33Z",
+      "updated": "2022-05-31T04:52Z",
       "areas": {
         "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -1070,8 +1070,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.901972,
-          37.364098
+          -122.324016,
+          37.930097
         ]
       },
       "source_type": {
@@ -1080,13 +1080,309 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220530GG02156"
+        "#text": "220530GG02220"
       },
       "roads": [
         {
-          "name": "US-101 S",
-          "from": "I-880 S",
-          "direction": "Southbound",
+          "name": "I-80 E",
+          "from": "Macdonald Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-31T04:52Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
+        },
+        "event-reference": {
+          "event-identifier": "909945"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on I-80 Eastbound at Macdonald Ave (Richmond). Off Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Macdonald Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Richmond",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.930097",
+                    "event-location-coordinates-longitude": "-122.324016"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-30T21:52:16.11380",
+              "valid-period": {
+                "event-timeline-estimated-duration": "52"
+              },
+              "start-time": "2022-05-30T21:52:16.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-05-30T21:52:16.11380",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220530GG02220",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-80 Eastbound east of Cutting Blvd (El Cerrito). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-31T04:48Z",
+      "updated": "2022-05-31T04:48Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.322664,
+          37.928275
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220530GG02277"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Cutting Blvd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-31T04:48Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
+        },
+        "event-reference": {
+          "event-identifier": "909946"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-80 Eastbound east of Cutting Blvd (El Cerrito). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Cutting Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "El Cerrito",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.928275",
+                    "event-location-coordinates-longitude": "-122.322664"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-30T21:48:08.04640",
+              "valid-period": {
+                "event-timeline-estimated-duration": "25"
+              },
+              "start-time": "2022-05-30T21:48:08.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-05-30T21:48:08.04640",
+        "ivr-article": "east of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220530GG02277",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-24 Westbound at Happy Valley Rd (Lafayette). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-31T04:49Z",
+      "updated": "2022-05-31T04:49Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.125001,
+          37.892862
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220530GG02281"
+      },
+      "roads": [
+        {
+          "name": "CA-24 W",
+          "from": "Happy Valley Rd",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1108,15 +1404,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-31T04:16Z/"
+          "2022-05-31T04:49Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-30T21:30:31.42630"
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
         },
         "event-reference": {
-          "event-identifier": "909944"
+          "event-identifier": "909947"
         },
         "event-status": "new",
         "details": {
@@ -1127,7 +1423,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -1137,7 +1433,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Southbound at I-880 S (San Jose). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-24 Westbound at Happy Valley Rd (Lafayette). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1146,25 +1442,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "I-880 S",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 W",
+                  "link-from-road": "Happy Valley Rd",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Lafayette",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.364098",
-                    "event-location-coordinates-longitude": "-121.901972"
+                    "event-location-coordinates-latitude": "37.892862",
+                    "event-location-coordinates-longitude": "-122.125001"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-30T21:16:10.00310",
+              "update-time": "2022-05-30T21:49:10.24710",
               "valid-period": {
-                "event-timeline-estimated-duration": "25"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-05-30T21:16:10.00000",
+              "start-time": "2022-05-30T21:49:10.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1177,14 +1473,162 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-30T21:16:10.00310",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-05-30T21:49:10.24710",
         "ivr-article": "at",
-        "ivr-county": "Santa Clara",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220530GG02156",
+        "SourceEventID": "220530GG02281",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Brush fire on CA-237 Westbound east of N Mathilda Ave (Sunnyvale). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Brush fire"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-31T04:52Z",
+      "updated": "2022-05-31T04:55Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.02125,
+          37.40425
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220530GG02288"
+      },
+      "roads": [
+        {
+          "name": "CA-237 W",
+          "from": "N Mathilda Ave",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-31T04:55Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-30T21:56:42.11420"
+        },
+        "event-reference": {
+          "event-identifier": "909948"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Brush fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Brush fire on CA-237 Westbound east of N Mathilda Ave (Sunnyvale). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-237 W",
+                  "link-from-road": "N Mathilda Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Sunnyvale",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.40425",
+                    "event-location-coordinates-longitude": "-122.02125"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-30T21:55:22.56300",
+              "valid-period": {
+                "event-timeline-estimated-duration": "30.5"
+              },
+              "start-time": "2022-05-30T21:55:22.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-05-30T21:55:22.56300",
+        "ivr-article": "east of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220530GG02288",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
