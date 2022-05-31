@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-31T02:24:02.33404"
+          "event-message-time-stamp": "2022-05-31T02:36:43.96431"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -218,7 +218,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-31T02:24:02.33404"
+          "event-message-time-stamp": "2022-05-31T02:36:43.96431"
         },
         "event-reference": {
           "event-identifier": "904558"
@@ -372,7 +372,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-31T02:24:02.33404"
+          "event-message-time-stamp": "2022-05-31T02:36:43.96431"
         },
         "event-reference": {
           "event-identifier": "909866"
@@ -521,7 +521,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-31T02:24:02.33404"
+          "event-message-time-stamp": "2022-05-31T02:36:43.96431"
         },
         "event-reference": {
           "event-identifier": "909959"
@@ -599,14 +599,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Vehicle fire on US-101 Southbound at Mansell St (San Francisco). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Vehicle fire on US-101 Southbound at Mansell St (San Francisco). Lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Vehicle fire"
       },
       "severity": "Moderate",
       "created": "2022-05-31T09:13Z",
-      "updated": "2022-05-31T09:14Z",
+      "updated": "2022-05-31T09:28Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -646,7 +646,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -664,12 +664,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-05-31T09:14Z/"
+          "2022-05-31T09:28Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-05-31T02:24:02.33404"
+          "event-message-time-stamp": "2022-05-31T02:36:43.96431"
         },
         "event-reference": {
           "event-identifier": "909961"
@@ -693,7 +693,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Vehicle fire on US-101 Southbound at Mansell St (San Francisco). Right shoulder affected. Expect delays."
+                      "event-description": "CHP : Vehicle fire on US-101 Southbound at Mansell St (San Francisco). Lanes affected. Expect delays."
                     }
                   }
                 }
@@ -716,11 +716,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-05-31T02:14:48.11720",
+              "update-time": "2022-05-31T02:28:10.59540",
               "valid-period": {
-                "event-timeline-estimated-duration": "31"
+                "event-timeline-estimated-duration": "38.5"
               },
-              "start-time": "2022-05-31T02:14:48.00000",
+              "start-time": "2022-05-31T02:28:10.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -734,13 +734,309 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-05-31T02:14:48.11720",
+        "ivr-lastUpdateDttm": "2022-05-31T02:28:10.59540",
         "ivr-article": "at",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
+        "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220531GG00138",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on US-101 Northbound south of Silver Ave (San Francisco). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-31T09:26Z",
+      "updated": "2022-05-31T09:34Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.403729,
+          37.72999
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220531GG00149"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Silver Ave",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-31T09:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-31T02:36:43.96431"
+        },
+        "event-reference": {
+          "event-identifier": "909963"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Northbound south of Silver Ave (San Francisco). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Silver Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.72999",
+                    "event-location-coordinates-longitude": "-122.403729"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-31T02:34:21.24470",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29.5"
+              },
+              "start-time": "2022-05-31T02:34:21.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-05-31T02:34:21.24470",
+        "ivr-article": "south of",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220531GG00149",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Eastbound at Cutting Blvd (El Cerrito). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-05-31T09:36Z",
+      "updated": "2022-05-31T09:36Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.321356,
+          37.926482
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220531GG00164"
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Cutting Blvd",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-05-31T09:36Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-05-31T02:36:43.96431"
+        },
+        "event-reference": {
+          "event-identifier": "909964"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound at Cutting Blvd (El Cerrito). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Cutting Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "El Cerrito",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.926482",
+                    "event-location-coordinates-longitude": "-122.321356"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-05-31T02:36:25.18700",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-05-31T02:36:25.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-05-31T02:36:25.18700",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220531GG00164",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
