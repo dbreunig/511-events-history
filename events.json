@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-08T17:21:59.57639"
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-08T17:21:59.57639"
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
         },
         "event-reference": {
           "event-identifier": "912849"
@@ -361,7 +361,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-08T17:21:59.57639"
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
         },
         "event-reference": {
           "event-identifier": "913015"
@@ -439,14 +439,162 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-24 Westbound entering at Pleasant Hill Rd (Lafayette). Right lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound west of Greenville Rd (Livermore). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-06-08T23:53Z",
-      "updated": "2022-06-08T23:55Z",
+      "created": "2022-06-09T00:37Z",
+      "updated": "2022-06-09T00:38Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.70142,
+          37.717973
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220608GG02001"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Greenville Rd",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-09T00:37Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
+        },
+        "event-reference": {
+          "event-identifier": "913264"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound west of Greenville Rd (Livermore). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Greenville Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Livermore",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.717973",
+                    "event-location-coordinates-longitude": "-121.70142"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-08T17:38:28.93970",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-06-08T17:37:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-06-08T17:38:28.93970",
+        "ivr-article": "west of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220608GG02001",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-24 Westbound west of Pleasant Hill Rd (Lafayette). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-06-09T00:38Z",
+      "updated": "2022-06-09T00:38Z",
       "areas": {
         "area": {
           "name": "Contra Costa",
@@ -476,7 +624,7 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220608GG01884"
+        "#text": "220608GG02008"
       },
       "roads": [
         {
@@ -498,21 +646,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "entering at"
+            "#text": "west of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-06-08T23:54Z/"
+          "2022-06-09T00:38Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-08T17:21:59.57639"
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
         },
         "event-reference": {
-          "event-identifier": "913250"
+          "event-identifier": "913265"
         },
         "event-status": "new",
         "details": {
@@ -533,7 +681,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-24 Westbound entering at Pleasant Hill Rd (Lafayette). Right lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-24 Westbound west of Pleasant Hill Rd (Lafayette). Right lane affected. Expect delays."
                     }
                   }
                 }
@@ -556,11 +704,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-06-08T16:55:11.12440",
+              "update-time": "2022-06-08T17:38:40.76030",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-06-08T16:54:00.00000",
+              "start-time": "2022-06-08T17:38:40.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -574,323 +722,27 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-06-08T16:55:11.12440",
-        "ivr-article": "entering at",
+        "ivr-lastUpdateDttm": "2022-06-08T17:38:40.76030",
+        "ivr-article": "west of",
         "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Right lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220608GG01884",
+        "SourceEventID": "220608GG02008",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-4 Westbound east of Loveridge Rd (Pittsburg). Right shoulder affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound east of High St (Oakland). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-06-09T00:08Z",
-      "updated": "2022-06-09T00:21Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.864671,
-          38.011402
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220608GG01916"
-      },
-      "roads": [
-        {
-          "name": "CA-4 W",
-          "from": "Loveridge Rd",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-06-09T00:21Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-06-08T17:21:59.57639"
-        },
-        "event-reference": {
-          "event-identifier": "913256"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-4 Westbound east of Loveridge Rd (Pittsburg). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-4 W",
-                  "link-from-road": "Loveridge Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Pittsburg",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.011402",
-                    "event-location-coordinates-longitude": "-121.864671"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-06-08T17:21:00.63940",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2022-06-08T17:21:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-06-08T17:21:00.63940",
-        "ivr-article": "east of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220608GG01916",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-680 Northbound south of CA-237 E-I-680 N Ramp (Milpitas). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-06-09T00:11Z",
-      "updated": "2022-06-09T00:12Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.889973,
-          37.441703
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220608GG01922"
-      },
-      "roads": [
-        {
-          "name": "I-680 N",
-          "from": "CA-237 E-I-680 N Ramp",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-06-09T00:12Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-06-08T17:21:59.57639"
-        },
-        "event-reference": {
-          "event-identifier": "913257"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-680 Northbound south of CA-237 E-I-680 N Ramp (Milpitas). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-680 N",
-                  "link-from-road": "CA-237 E-I-680 N Ramp",
-                  "link-to-road": null,
-                  "link-from-city": "Milpitas",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.441703",
-                    "event-location-coordinates-longitude": "-121.889973"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-06-08T17:12:42.93710",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2022-06-08T17:12:42.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-06-08T17:12:42.93710",
-        "ivr-article": "south of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220608GG01922",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Eastbound east of I-880 S (Oakland). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-06-09T00:21Z",
-      "updated": "2022-06-09T00:21Z",
+      "created": "2022-06-09T00:40Z",
+      "updated": "2022-06-09T00:40Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -910,8 +762,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.293345,
-          37.830669
+          -122.198669,
+          37.788279
         ]
       },
       "source_type": {
@@ -920,13 +772,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220608GG01959"
+        "#text": "220608GG02017"
       },
       "roads": [
         {
-          "name": "I-580 E",
-          "from": "I-880 S",
-          "direction": "Eastbound",
+          "name": "I-580 W",
+          "from": "High St",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -948,15 +800,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-06-09T00:21Z/"
+          "2022-06-09T00:40Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-08T17:21:59.57639"
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
         },
         "event-reference": {
-          "event-identifier": "913260"
+          "event-identifier": "913267"
         },
         "event-status": "new",
         "details": {
@@ -977,7 +829,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound east of I-880 S (Oakland). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of High St (Oakland). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -987,24 +839,616 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "I-880 S",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "High St",
                   "link-to-road": null,
                   "link-from-city": "Oakland",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.830669",
-                    "event-location-coordinates-longitude": "-122.293345"
+                    "event-location-coordinates-latitude": "37.788279",
+                    "event-location-coordinates-longitude": "-122.198669"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-06-08T17:21:00.47550",
+              "update-time": "2022-06-08T17:40:45.51160",
               "valid-period": {
-                "event-timeline-estimated-duration": "34"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-06-08T17:21:00.00000",
+              "start-time": "2022-06-08T17:40:45.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-06-08T17:40:45.51160",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220608GG02017",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Fire on I-880 Southbound south of Broadway (Oakland). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Fire"
+      },
+      "severity": "Moderate",
+      "created": "2022-06-09T00:41Z",
+      "updated": "2022-06-09T00:44Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.273875,
+          37.797858
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220608GG02024"
+      },
+      "roads": [
+        {
+          "name": "I-880 S",
+          "from": "Broadway",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-09T00:44Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
+        },
+        "event-reference": {
+          "event-identifier": "913268"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fire"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fire on I-880 Southbound south of Broadway (Oakland). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "Broadway",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.797858",
+                    "event-location-coordinates-longitude": "-122.273875"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-08T17:44:55.14570",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29.5"
+              },
+              "start-time": "2022-06-08T17:44:55.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-06-08T17:44:55.14570",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220608GG02024",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on I-880 Northbound at Dixon Landing Rd (Milpitas). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-06-09T00:41Z",
+      "updated": "2022-06-09T00:45Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.922843,
+          37.454571
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220608GG02021"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "Dixon Landing Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-09T00:45Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
+        },
+        "event-reference": {
+          "event-identifier": "913269"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on I-880 Northbound at Dixon Landing Rd (Milpitas). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Dixon Landing Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Milpitas",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.454571",
+                    "event-location-coordinates-longitude": "-121.922843"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-08T17:45:57.15220",
+              "valid-period": {
+                "event-timeline-estimated-duration": "29"
+              },
+              "start-time": "2022-06-08T17:45:57.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-06-08T17:45:57.15220",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220608GG02021",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of Asti Post Office Rd (Cloverdale). Lanes affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Major",
+      "created": "2022-06-09T00:42Z",
+      "updated": "2022-06-09T00:44Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.972439,
+          38.756908
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220608GG02029"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Asti Post Office Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-09T00:42Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
+        },
+        "event-reference": {
+          "event-identifier": "913270"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of Asti Post Office Rd (Cloverdale). Lanes affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Asti Post Office Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Cloverdale",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.756908",
+                    "event-location-coordinates-longitude": "-122.972439"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-08T17:44:09.32130",
+              "valid-period": {
+                "event-timeline-estimated-duration": "50.5"
+              },
+              "start-time": "2022-06-08T17:42:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-06-08T17:44:09.32130",
+        "ivr-article": "south of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220608GG02029",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-24 Eastbound at Caldecott Tunnel (Orinda). 2nd lane from the left blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-06-09T00:48Z",
+      "updated": "2022-06-09T00:48Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.21709,
+          37.854646
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220608GG02052"
+      },
+      "roads": [
+        {
+          "name": "CA-24 E",
+          "from": "Caldecott Tunnel",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "2nd lane from the left"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-09T00:48Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
+        },
+        "event-reference": {
+          "event-identifier": "913272"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-24 Eastbound at Caldecott Tunnel (Orinda). 2nd lane from the left blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 E",
+                  "link-from-road": "Caldecott Tunnel",
+                  "link-to-road": null,
+                  "link-from-city": "Orinda",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.854646",
+                    "event-location-coordinates-longitude": "-122.21709"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-08T17:48:01.27010",
+              "valid-period": {
+                "event-timeline-estimated-duration": "43"
+              },
+              "start-time": "2022-06-08T17:48:01.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1018,13 +1462,309 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-06-08T17:21:00.47550",
-        "ivr-article": "east of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-lastUpdateDttm": "2022-06-08T17:48:01.27010",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "2nd lane from the left",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220608GG01959",
+        "SourceEventID": "220608GG02052",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-680 Northbound north of Gold Hill Rd (Fairfield). Lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Major",
+      "created": "2022-06-09T00:48Z",
+      "updated": "2022-06-09T00:48Z",
+      "areas": {
+        "area": {
+          "name": "Solano",
+          "id": "5396987",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5396987/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.132282,
+          38.17938
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220608GG02049"
+      },
+      "roads": [
+        {
+          "name": "I-680 N",
+          "from": "Gold Hill Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-09T00:48Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
+        },
+        "event-reference": {
+          "event-identifier": "913273"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-680 Northbound north of Gold Hill Rd (Fairfield). Lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Gold Hill Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Fairfield",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.17938",
+                    "event-location-coordinates-longitude": "-122.132282"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-08T17:48:01.45720",
+              "valid-period": {
+                "event-timeline-estimated-duration": "50.2"
+              },
+              "start-time": "2022-06-08T17:48:01.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-06-08T17:48:01.45720",
+        "ivr-article": "north of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220608GG02049",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of I-580 W (San Rafael). Off Ramp affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Major",
+      "created": "2022-06-09T00:48Z",
+      "updated": "2022-06-09T00:48Z",
+      "areas": {
+        "area": {
+          "name": "Marin",
+          "id": "5370468",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5370468/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.511824,
+          37.963691
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220608GG02048"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "I-580 W",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Off Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-09T00:48Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-08T17:49:22.30405"
+        },
+        "event-reference": {
+          "event-identifier": "913274"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of I-580 W (San Rafael). Off Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA041",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "I-580 W",
+                  "link-to-road": null,
+                  "link-from-city": "San Rafael",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.963691",
+                    "event-location-coordinates-longitude": "-122.511824"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-08T17:48:01.65880",
+              "valid-period": {
+                "event-timeline-estimated-duration": "50.5"
+              },
+              "start-time": "2022-06-08T17:48:01.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-06-08T17:48:01.65880",
+        "ivr-article": "south of",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Off Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220608GG02048",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
