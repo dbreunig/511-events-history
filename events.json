@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-22T17:49:17.99795"
+          "event-message-time-stamp": "2022-06-22T18:41:29.35823"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -202,7 +202,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-22T17:49:17.99795"
+          "event-message-time-stamp": "2022-06-22T18:41:29.35823"
         },
         "event-reference": {
           "event-identifier": "912505"
@@ -278,14 +278,163 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "Caltrans : Roadwork on US-101 Southbound between Mendocino County Line (Cloverdale) and N Cloverdale Blvd (Cloverdale). Right lane and shoulder closed until 6 PM. From 6:00 AM Wednesday, June 22, 2022 to 6:00 PM Wednesday, June 22, 2022.",
-      "event_type": "CONSTRUCTION",
+      "headline": "CHP : Fog on US-101 Northbound and Southbound at Golden Gate Bridge (San Francisco). Lanes affected. Traffic advisory in effect.",
+      "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Roadwork"
+        "event_subtype": "Fog"
       },
-      "severity": "Unknown",
-      "created": "2022-06-22T14:14Z",
-      "updated": "2022-06-23T00:46Z",
+      "severity": "Major",
+      "created": "2022-06-23T00:59Z",
+      "updated": "2022-06-23T01:14Z",
+      "areas": {
+        "area": {
+          "name": "San Francisco",
+          "id": "5391997",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5391997/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.477417,
+          37.810833
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220622GG01952"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Golden Gate Bridge",
+          "direction": "Northbound and Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Traffic advisory in effect"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-23T00:59Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-22T18:41:29.35823"
+        },
+        "event-reference": {
+          "event-identifier": "918709"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Fog"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Fog on US-101 Northbound and Southbound at Golden Gate Bridge (San Francisco). Lanes affected. Traffic advisory in effect."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA075",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Golden Gate Bridge",
+                  "link-to-road": null,
+                  "link-from-city": "San Francisco",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.810833",
+                    "event-location-coordinates-longitude": "-122.477417"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-22T18:14:34.13940",
+              "valid-period": {
+                "event-timeline-estimated-duration": "64.5"
+              },
+              "start-time": "2022-06-22T17:59:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Northbound and Southbound",
+        "ivr-lastUpdateDttm": "2022-06-22T18:14:34.13940",
+        "ivr-article": "at",
+        "ivr-county": "San Francisco",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lanes",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Traffic advisory in effect",
+        "SourceEventID": "220622GG01952",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on CA-116 Eastbound at Adobe Rd (Unincorporated). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Minor",
+      "created": "2022-06-23T01:33Z",
+      "updated": "2022-06-23T01:40Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -305,157 +454,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -123.031877,
-          38.852611
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "Caltrans"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "C101WA-0004-2022-06-22-06:01:00"
-      },
-      "roads": [
-        {
-          "name": "US-101 S",
-          "from": "Mendocino County Line",
-          "to": "N Cloverdale Blvd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane and shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "closed"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "until 6 PM"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "between"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-06-22T13:01Z/2022-06-23T01:01Z"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-06-22T17:49:17.99795"
-        },
-        "event-reference": {
-          "event-identifier": "918464"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "2",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Roadwork"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "Caltrans : Roadwork on US-101 Southbound between Mendocino County Line (Cloverdale) and N Cloverdale Blvd (Cloverdale). Right lane and shoulder closed until 6 PM. From 6:00 AM Wednesday, June 22, 2022 to 6:00 PM Wednesday, June 22, 2022."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA097",
-                  "link-road-designator": "US-101 S",
-                  "link-from-road": "Mendocino County Line",
-                  "link-to-road": "N Cloverdale Blvd",
-                  "link-from-city": "Cloverdale",
-                  "link-to-city": "Cloverdale",
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.852611",
-                    "event-location-coordinates-longitude": "-123.031877"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-06-22T17:46:50.41660",
-              "valid-period": {
-                "event-timeline-estimated-duration": "0"
-              },
-              "start-time": "2022-06-22T06:01:00.00000",
-              "cleared-time": "2022-06-22T18:01:00.00000",
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1004"
-            }
-          }
-        },
-        "EventImpact": "Unknown",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-06-22T17:46:50.41660",
-        "ivr-article": "between",
-        "ivr-county": "Sonoma",
-        "ivr-laneStatus": "closed",
-        "ivr-totalLanes": "Right lane and shoulder",
-        "ivr-genOtherText": "until 6 PM",
-        "SourceEventID": "C101WA-0004-2022-06-22-06:01:00",
-        "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Fire on I-80 Westbound east of Currey Rd (Dixon). Left lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Fire"
-      },
-      "severity": "Moderate",
-      "created": "2022-06-23T00:11Z",
-      "updated": "2022-06-23T00:23Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.819861,
-          38.476193
+          -122.526634,
+          38.236226
         ]
       },
       "source_type": {
@@ -464,165 +464,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220622GG01842"
+        "#text": "220622GG02041"
       },
       "roads": [
         {
-          "name": "I-80 W",
-          "from": "Currey Rd",
-          "direction": "Westbound",
+          "name": "CA-116",
+          "from": "Adobe Rd",
+          "direction": "Eastbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-06-23T00:23Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-06-22T17:49:17.99795"
-        },
-        "event-reference": {
-          "event-identifier": "918697"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Fire"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Fire on I-80 Westbound east of Currey Rd (Dixon). Left lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Currey Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Dixon",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.476193",
-                    "event-location-coordinates-longitude": "-121.819861"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-06-22T17:23:57.49510",
-              "valid-period": {
-                "event-timeline-estimated-duration": "32"
-              },
-              "start-time": "2022-06-22T17:23:57.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-06-22T17:23:57.49510",
-        "ivr-article": "east of",
-        "ivr-county": "Solano",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220622GG01842",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Northbound south of Avalon Dr (South San Francisco). Lanes affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-06-23T00:46Z",
-      "updated": "2022-06-23T00:46Z",
-      "areas": {
-        "area": {
-          "name": "San Mateo",
-          "id": "5392427",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.439692,
-          37.636879
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220622GG01921"
-      },
-      "roads": [
-        {
-          "name": "I-280 N",
-          "from": "Avalon Dr",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lanes"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -634,21 +486,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-06-23T00:46Z/"
+          "2022-06-23T01:33Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-22T17:49:17.99795"
+          "event-message-time-stamp": "2022-06-22T18:41:29.35823"
         },
         "event-reference": {
-          "event-identifier": "918707"
+          "event-identifier": "918722"
         },
         "event-status": "new",
         "details": {
@@ -659,7 +511,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Residual delays"
                     }
                   }
                 },
@@ -669,7 +521,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Northbound south of Avalon Dr (South San Francisco). Lanes affected. Expect delays."
+                      "event-description": "CHP : Residual delays on CA-116 Eastbound at Adobe Rd (Unincorporated). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -678,25 +530,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "Avalon Dr",
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "CA-116",
+                  "link-from-road": "Adobe Rd",
                   "link-to-road": null,
-                  "link-from-city": "South San Francisco",
+                  "link-from-city": "Unincorporated",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.636879",
-                    "event-location-coordinates-longitude": "-122.439692"
+                    "event-location-coordinates-latitude": "38.236226",
+                    "event-location-coordinates-longitude": "-122.526634"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-06-22T17:46:45.38650",
+              "update-time": "2022-06-22T18:40:26.24800",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "20.5"
               },
-              "start-time": "2022-06-22T17:46:45.00000",
+              "start-time": "2022-06-22T18:33:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -705,18 +557,18 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Minor",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-06-22T17:46:45.38650",
-        "ivr-article": "south of",
-        "ivr-county": "San Mateo",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-06-22T18:40:26.24800",
+        "ivr-article": "at",
+        "ivr-county": "Sonoma",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220622GG01921",
+        "SourceEventID": "220622GG02041",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
