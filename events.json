@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -215,7 +215,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920738"
@@ -300,7 +300,7 @@
       },
       "severity": "Unknown",
       "created": "2022-06-28T14:28Z",
-      "updated": "2022-06-28T22:20Z",
+      "updated": "2022-06-28T22:34Z",
       "areas": {
         "area": {
           "name": "San Francisco",
@@ -364,7 +364,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920747"
@@ -411,7 +411,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-06-28T15:20:50.77930",
+              "update-time": "2022-06-28T15:34:13.43530",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -429,7 +429,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-06-28T15:20:50.77930",
+        "ivr-lastUpdateDttm": "2022-06-28T15:34:13.43530",
         "ivr-article": "between",
         "ivr-county": "San Francisco",
         "ivr-laneStatus": "closed",
@@ -513,7 +513,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920748"
@@ -661,7 +661,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920751"
@@ -746,7 +746,7 @@
       },
       "severity": "Unknown",
       "created": "2022-06-28T14:44Z",
-      "updated": "2022-06-28T22:20Z",
+      "updated": "2022-06-28T22:34Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -809,7 +809,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920754"
@@ -856,7 +856,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-06-28T15:20:51.45690",
+              "update-time": "2022-06-28T15:34:14.11300",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -874,7 +874,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-06-28T15:20:51.45690",
+        "ivr-lastUpdateDttm": "2022-06-28T15:34:14.11300",
         "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "closed",
@@ -887,14 +887,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fire on I-880 Southbound exiting at Mowry Ave (Fremont). Off Ramp affected. Expect delays.",
+      "headline": "CHP : Fire and Severe traffic alert on I-880 Southbound entering at Mowry Ave (Fremont). On Ramp blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Fire"
+        "event_subtype": [
+          "Fire",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Major",
+      "severity": "Severe",
       "created": "2022-06-28T22:07Z",
-      "updated": "2022-06-28T22:16Z",
+      "updated": "2022-06-28T22:35Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -934,11 +937,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Off Ramp"
+            "#text": "On Ramp"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "blocked"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -946,7 +949,7 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "exiting at"
+            "#text": "entering at"
           }
         }
       ],
@@ -957,7 +960,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920891"
@@ -970,9 +973,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Fire"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Fire"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -981,7 +989,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fire on I-880 Southbound exiting at Mowry Ave (Fremont). Off Ramp affected. Expect delays."
+                      "event-description": "CHP : Fire and Severe traffic alert on I-880 Southbound entering at Mowry Ave (Fremont). On Ramp blocked. Expect delays."
                     }
                   }
                 }
@@ -1004,9 +1012,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-06-28T15:16:57.91570",
+              "update-time": "2022-06-28T15:35:28.47860",
               "valid-period": {
-                "event-timeline-estimated-duration": "52"
+                "event-timeline-estimated-duration": "71.5"
               },
               "start-time": "2022-06-28T15:15:00.00000",
               "cleared-time": null,
@@ -1017,16 +1025,16 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Severe",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "5",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-06-28T15:16:57.91570",
-        "ivr-article": "exiting at",
+        "ivr-lastUpdateDttm": "2022-06-28T15:35:28.47860",
+        "ivr-article": "entering at",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Off Ramp",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "On Ramp",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220628GG01369",
         "EventSourceName": "CHP",
@@ -1105,7 +1113,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920892"
@@ -1183,7 +1191,7 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision and Overturned vehicle on CA-9 Northbound at CA-236 (Unincorporated). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision and Overturned vehicle on CA-9 Southbound at CA-236 (Unincorporated). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": [
@@ -1193,7 +1201,7 @@
       },
       "severity": "Moderate",
       "created": "2022-06-28T22:12Z",
-      "updated": "2022-06-28T22:13Z",
+      "updated": "2022-06-28T22:30Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -1229,7 +1237,7 @@
         {
           "name": "CA-9",
           "from": "CA-236",
-          "direction": "Northbound",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1256,7 +1264,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920893"
@@ -1285,7 +1293,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision and Overturned vehicle on CA-9 Northbound at CA-236 (Unincorporated). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision and Overturned vehicle on CA-9 Southbound at CA-236 (Unincorporated). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -1308,7 +1316,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-06-28T15:13:31.53710",
+              "update-time": "2022-06-28T15:30:49.35810",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
@@ -1325,162 +1333,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-06-28T15:13:31.53710",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-06-28T15:30:49.35810",
         "ivr-article": "at",
         "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220628MY00214",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-880 Southbound north of Industrial Pky W (Hayward). Right lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
-      },
-      "severity": "Moderate",
-      "created": "2022-06-28T22:17Z",
-      "updated": "2022-06-28T22:18Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.077315,
-          37.621437
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220628GG01394"
-      },
-      "roads": [
-        {
-          "name": "I-880 S",
-          "from": "Industrial Pky W",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-06-28T22:18Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
-        },
-        "event-reference": {
-          "event-identifier": "920895"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-880 Southbound north of Industrial Pky W (Hayward). Right lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "Industrial Pky W",
-                  "link-to-road": null,
-                  "link-from-city": "Hayward",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.621437",
-                    "event-location-coordinates-longitude": "-122.077315"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-06-28T15:18:56.93610",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-06-28T15:18:57.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-06-28T15:18:56.93610",
-        "ivr-article": "north of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220628GG01394",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -1557,7 +1417,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920896"
@@ -1705,7 +1565,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920897"
@@ -1783,302 +1643,6 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled tractor trailer on I-880 Southbound south of Oak St (Oakland). Right lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled tractor trailer"
-      },
-      "severity": "Moderate",
-      "created": "2022-06-28T22:22Z",
-      "updated": "2022-06-28T22:23Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.263985,
-          37.793505
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220628GG01403"
-      },
-      "roads": [
-        {
-          "name": "I-880 S",
-          "from": "Oak St",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-06-28T22:22Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
-        },
-        "event-reference": {
-          "event-identifier": "920898"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled tractor trailer"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled tractor trailer on I-880 Southbound south of Oak St (Oakland). Right lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-880 S",
-                  "link-from-road": "Oak St",
-                  "link-to-road": null,
-                  "link-from-city": "Oakland",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.793505",
-                    "event-location-coordinates-longitude": "-122.263985"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-06-28T15:23:22.58400",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2022-06-28T15:22:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-06-28T15:23:22.58400",
-        "ivr-article": "south of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220628GG01403",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Southbound north of N De Anza Blvd (Cupertino). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-06-28T22:22Z",
-      "updated": "2022-06-28T22:23Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.03763,
-          37.334223
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220628GG01404"
-      },
-      "roads": [
-        {
-          "name": "I-280 S",
-          "from": "N De Anza Blvd",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-06-28T22:23Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
-        },
-        "event-reference": {
-          "event-identifier": "920899"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Southbound north of N De Anza Blvd (Cupertino). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA085",
-                  "link-road-designator": "I-280 S",
-                  "link-from-road": "N De Anza Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "Cupertino",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.334223",
-                    "event-location-coordinates-longitude": "-122.03763"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-06-28T15:23:09.78850",
-              "valid-period": {
-                "event-timeline-estimated-duration": "28"
-              },
-              "start-time": "2022-06-28T15:23:09.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-06-28T15:23:09.78850",
-        "ivr-article": "north of",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220628GG01404",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
       "headline": "CHP : Traffic Hazard on I-280 Southbound north of N Wolfe Rd (Cupertino). Left lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
@@ -2086,7 +1650,7 @@
       },
       "severity": "Moderate",
       "created": "2022-06-28T22:23Z",
-      "updated": "2022-06-28T22:23Z",
+      "updated": "2022-06-28T22:31Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -2144,12 +1708,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-06-28T22:23Z/"
+          "2022-06-28T22:31Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-06-28T15:24:01.25676"
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
         },
         "event-reference": {
           "event-identifier": "920900"
@@ -2196,11 +1760,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-06-28T15:23:09.67880",
+              "update-time": "2022-06-28T15:31:31.34550",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-06-28T15:23:09.00000",
+              "start-time": "2022-06-28T15:31:31.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2214,13 +1778,457 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-06-28T15:23:09.67880",
+        "ivr-lastUpdateDttm": "2022-06-28T15:31:31.34550",
         "ivr-article": "north of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Left lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220628GG01405",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Southbound entering at Metcalf Rd (San Jose). On Ramp affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Major",
+      "created": "2022-06-28T22:24Z",
+      "updated": "2022-06-28T22:28Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.723333,
+          37.209722
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220628MY00218"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Metcalf Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "On Ramp"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "entering at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-28T22:24Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
+        },
+        "event-reference": {
+          "event-identifier": "920901"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Southbound entering at Metcalf Rd (San Jose). On Ramp affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Metcalf Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.209722",
+                    "event-location-coordinates-longitude": "-121.723333"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-28T15:28:59.62420",
+              "valid-period": {
+                "event-timeline-estimated-duration": "49"
+              },
+              "start-time": "2022-06-28T15:24:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Major",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "3",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-06-28T15:28:59.62420",
+        "ivr-article": "entering at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "On Ramp",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220628MY00218",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on CA-13 Southbound north of Park Blvd (Oakland). Right lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-06-28T22:34Z",
+      "updated": "2022-06-28T22:34Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.208815,
+          37.823427
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220628GG01436"
+      },
+      "roads": [
+        {
+          "name": "CA-13 S",
+          "from": "Park Blvd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-28T22:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
+        },
+        "event-reference": {
+          "event-identifier": "920904"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on CA-13 Southbound north of Park Blvd (Oakland). Right lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "CA-13 S",
+                  "link-from-road": "Park Blvd",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.823427",
+                    "event-location-coordinates-longitude": "-122.208815"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-28T15:34:39.96340",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.5"
+              },
+              "start-time": "2022-06-28T15:34:40.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-06-28T15:34:39.96340",
+        "ivr-article": "north of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220628GG01436",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Residual delays on I-880 Northbound south of Whipple Rd (Hayward). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Residual delays"
+      },
+      "severity": "Minor",
+      "created": "2022-06-28T22:34Z",
+      "updated": "2022-06-28T22:35Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.064142,
+          37.603428
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220628GG01438"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "Whipple Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-06-28T22:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-06-28T15:36:45.38397"
+        },
+        "event-reference": {
+          "event-identifier": "920905"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Residual delays on I-880 Northbound south of Whipple Rd (Hayward). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Whipple Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Hayward",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.603428",
+                    "event-location-coordinates-longitude": "-122.064142"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-06-28T15:35:26.14620",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.5"
+              },
+              "start-time": "2022-06-28T15:34:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-06-28T15:35:26.14620",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220628GG01438",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
