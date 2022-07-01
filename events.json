@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-01T15:04:55.34540"
+          "event-message-time-stamp": "2022-07-01T15:22:57.45192"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-01T15:04:55.34540"
+          "event-message-time-stamp": "2022-07-01T15:22:57.45192"
         },
         "event-reference": {
           "event-identifier": "921104"
@@ -360,7 +360,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-01T15:04:55.34540"
+          "event-message-time-stamp": "2022-07-01T15:22:57.45192"
         },
         "event-reference": {
           "event-identifier": "922072"
@@ -438,17 +438,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision on I-680 Northbound north of Mission Blvd (Fremont). Left lane blocked. Expect delays.",
+      "headline": "CHP : Residual delays on I-680 Northbound north of Mission Blvd (Fremont). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2022-07-01T20:54Z",
-      "updated": "2022-07-01T21:48Z",
+      "updated": "2022-07-01T22:18Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -488,11 +485,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -511,7 +508,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-01T15:04:55.34540"
+          "event-message-time-stamp": "2022-07-01T15:22:57.45192"
         },
         "event-reference": {
           "event-identifier": "922084"
@@ -524,14 +521,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -540,7 +532,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision on I-680 Northbound north of Mission Blvd (Fremont). Left lane blocked. Expect delays."
+                      "event-description": "CHP : Residual delays on I-680 Northbound north of Mission Blvd (Fremont). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -563,9 +555,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-01T14:48:51.10230",
+              "update-time": "2022-07-01T15:18:51.90710",
               "valid-period": {
-                "event-timeline-estimated-duration": "48.5"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2022-07-01T13:54:00.00000",
               "cleared-time": null,
@@ -576,19 +568,759 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-07-01T14:48:51.10230",
+        "ivr-lastUpdateDttm": "2022-07-01T15:18:51.90710",
         "ivr-article": "north of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220701GG01140",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on I-80 Westbound east of Powell St (Emeryville). Left and center lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-01T21:57Z",
+      "updated": "2022-07-01T22:12Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.296752,
+          37.838087
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220701GG01282"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "Powell St",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left and center lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-01T21:57Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-01T15:22:57.45192"
+        },
+        "event-reference": {
+          "event-identifier": "922113"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Westbound east of Powell St (Emeryville). Left and center lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "Powell St",
+                  "link-to-road": null,
+                  "link-from-city": "Emeryville",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.838087",
+                    "event-location-coordinates-longitude": "-122.296752"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-01T15:12:09.72510",
+              "valid-period": {
+                "event-timeline-estimated-duration": "43"
+              },
+              "start-time": "2022-07-01T14:57:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-07-01T15:12:09.72510",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left and center lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220701GG01282",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-238 Southbound at I-580 W (Castro Valley). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-01T22:11Z",
+      "updated": "2022-07-01T22:11Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.096179,
+          37.687924
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220701GG01315"
+      },
+      "roads": [
+        {
+          "name": "I-238 S",
+          "from": "I-580 W",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-01T22:11Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-01T15:22:57.45192"
+        },
+        "event-reference": {
+          "event-identifier": "922114"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-238 Southbound at I-580 W (Castro Valley). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-238 S",
+                  "link-from-road": "I-580 W",
+                  "link-to-road": null,
+                  "link-from-city": "Castro Valley",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.687924",
+                    "event-location-coordinates-longitude": "-122.096179"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-01T15:11:15.43920",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.2"
+              },
+              "start-time": "2022-07-01T15:11:15.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-07-01T15:11:15.43920",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220701GG01315",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound south of I-880 N (San Jose). Left lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-01T22:12Z",
+      "updated": "2022-07-01T22:13Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.901491,
+          37.364215
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220701GG01319"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "I-880 N",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-01T22:12Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-01T15:22:57.45192"
+        },
+        "event-reference": {
+          "event-identifier": "922115"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound south of I-880 N (San Jose). Left lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "I-880 N",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.364215",
+                    "event-location-coordinates-longitude": "-121.901491"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-01T15:13:13.69140",
+              "valid-period": {
+                "event-timeline-estimated-duration": "25.5"
+              },
+              "start-time": "2022-07-01T15:12:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-07-01T15:13:13.69140",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220701GG01319",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on CA-4 Westbound west of CA-242 N (Concord). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-01T22:15Z",
+      "updated": "2022-07-01T22:22Z",
+      "areas": {
+        "area": {
+          "name": "Contra Costa",
+          "id": "5339268",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5339268/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.042102,
+          38.003865
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220701GG01327"
+      },
+      "roads": [
+        {
+          "name": "CA-4 W",
+          "from": "CA-242 N",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "west of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-01T22:22Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-01T15:22:57.45192"
+        },
+        "event-reference": {
+          "event-identifier": "922116"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-4 Westbound west of CA-242 N (Concord). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-4 W",
+                  "link-from-road": "CA-242 N",
+                  "link-to-road": null,
+                  "link-from-city": "Concord",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.003865",
+                    "event-location-coordinates-longitude": "-122.042102"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-01T15:22:44.82920",
+              "valid-period": {
+                "event-timeline-estimated-duration": "38.5"
+              },
+              "start-time": "2022-07-01T15:22:45.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-07-01T15:22:44.82920",
+        "ivr-article": "west of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220701GG01327",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on US-101 Southbound south of Cochrane Rd (Morgan Hill). Left lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-01T22:15Z",
+      "updated": "2022-07-01T22:21Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.648946,
+          37.149077
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220701MY00236"
+      },
+      "roads": [
+        {
+          "name": "US-101 S",
+          "from": "Cochrane Rd",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Left lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-01T22:21Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-01T15:22:57.45192"
+        },
+        "event-reference": {
+          "event-identifier": "922117"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on US-101 Southbound south of Cochrane Rd (Morgan Hill). Left lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "Cochrane Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Morgan Hill",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.149077",
+                    "event-location-coordinates-longitude": "-121.648946"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-01T15:21:42.67240",
+              "valid-period": {
+                "event-timeline-estimated-duration": "33.5"
+              },
+              "start-time": "2022-07-01T15:21:42.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-07-01T15:21:42.67240",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Left lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220701MY00236",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
@@ -601,8 +1333,8 @@
         "event_subtype": "Traffic Collision"
       },
       "severity": "Moderate",
-      "created": "2022-07-01T21:41Z",
-      "updated": "2022-07-01T22:02Z",
+      "created": "2022-07-01T22:19Z",
+      "updated": "2022-07-01T22:21Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -660,15 +1392,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-07-01T22:02Z/"
+          "2022-07-01T22:19Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-01T15:04:55.34540"
+          "event-message-time-stamp": "2022-07-01T15:22:57.45192"
         },
         "event-reference": {
-          "event-identifier": "922106"
+          "event-identifier": "922118"
         },
         "event-status": "new",
         "details": {
@@ -712,11 +1444,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-01T15:02:53.53740",
+              "update-time": "2022-07-01T15:21:35.56560",
               "valid-period": {
                 "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-07-01T15:02:53.00000",
+              "start-time": "2022-07-01T15:19:37.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -730,161 +1462,13 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-07-01T15:02:53.53740",
+        "ivr-lastUpdateDttm": "2022-07-01T15:21:35.56560",
         "ivr-article": "at",
         "ivr-county": "Marin",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220701GG01199",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision with Injuries on I-80 Westbound west of Powell St (Emeryville). Left lane blocked. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision with Injuries"
-      },
-      "severity": "Moderate",
-      "created": "2022-07-01T21:57Z",
-      "updated": "2022-07-01T21:58Z",
-      "areas": {
-        "area": {
-          "name": "Alameda",
-          "id": "5322745",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.296752,
-          37.838087
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220701GG01282"
-      },
-      "roads": [
-        {
-          "name": "I-80 W",
-          "from": "Powell St",
-          "direction": "Westbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-07-01T21:57Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-07-01T15:04:55.34540"
-        },
-        "event-reference": {
-          "event-identifier": "922113"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision with Injuries"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision with Injuries on I-80 Westbound west of Powell St (Emeryville). Left lane blocked. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "Powell St",
-                  "link-to-road": null,
-                  "link-from-city": "Emeryville",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.838087",
-                    "event-location-coordinates-longitude": "-122.296752"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-07-01T14:58:33.28250",
-              "valid-period": {
-                "event-timeline-estimated-duration": "37"
-              },
-              "start-time": "2022-07-01T14:57:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-07-01T14:58:33.28250",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Left lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220701GG01282",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
