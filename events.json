@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-02T10:22:36.02296"
+          "event-message-time-stamp": "2022-07-02T10:34:41.94517"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-02T10:22:36.02296"
+          "event-message-time-stamp": "2022-07-02T10:34:41.94517"
         },
         "event-reference": {
           "event-identifier": "921104"
@@ -290,14 +290,310 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Fire on CA-17 Northbound south of Summit Rd (Los Gatos). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound east of Center St (Castro Valley). Right lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Fire"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-07-02T17:04Z",
-      "updated": "2022-07-02T17:08Z",
+      "created": "2022-07-02T17:24Z",
+      "updated": "2022-07-02T17:29Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.0637,
+          37.692188
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220702GG00723"
+      },
+      "roads": [
+        {
+          "name": "I-580 W",
+          "from": "Center St",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-02T17:24Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-02T10:34:41.94517"
+        },
+        "event-reference": {
+          "event-identifier": "922339"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of Center St (Castro Valley). Right lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Center St",
+                  "link-to-road": null,
+                  "link-from-city": "Castro Valley",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.692188",
+                    "event-location-coordinates-longitude": "-122.0637"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-02T10:29:49.42270",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-07-02T10:24:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-07-02T10:29:49.42270",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220702GG00723",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-880 Northbound south of Davis St (San Leandro). Right lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-02T17:31Z",
+      "updated": "2022-07-02T17:31Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.172632,
+          37.715206
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220702GG00732"
+      },
+      "roads": [
+        {
+          "name": "I-880 N",
+          "from": "Davis St",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-02T17:31Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-02T10:34:41.94517"
+        },
+        "event-reference": {
+          "event-identifier": "922340"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-880 Northbound south of Davis St (San Leandro). Right lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "Davis St",
+                  "link-to-road": null,
+                  "link-from-city": "San Leandro",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.715206",
+                    "event-location-coordinates-longitude": "-122.172632"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-02T10:31:05.36970",
+              "valid-period": {
+                "event-timeline-estimated-duration": "27.7"
+              },
+              "start-time": "2022-07-02T10:31:05.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-07-02T10:31:05.36970",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220702GG00732",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Southbound at De La Cruz Blvd (San Jose). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-02T17:32Z",
+      "updated": "2022-07-02T17:32Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -317,8 +613,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.984839,
-          37.143411
+          -121.936469,
+          37.375614
         ]
       },
       "source_type": {
@@ -327,13 +623,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220702MY00080"
+        "#text": "220702GG00736"
       },
       "roads": [
         {
-          "name": "CA-17 N",
-          "from": "Summit Rd",
-          "direction": "Northbound",
+          "name": "US-101 S",
+          "from": "De La Cruz Blvd",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -349,21 +645,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "at"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-07-02T17:04Z/"
+          "2022-07-02T17:32Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-02T10:22:36.02296"
+          "event-message-time-stamp": "2022-07-02T10:34:41.94517"
         },
         "event-reference": {
-          "event-identifier": "922336"
+          "event-identifier": "922341"
         },
         "event-status": "new",
         "details": {
@@ -374,7 +670,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Fire"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -384,7 +680,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Fire on CA-17 Northbound south of Summit Rd (Los Gatos). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on US-101 Southbound at De La Cruz Blvd (San Jose). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -394,24 +690,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA085",
-                  "link-road-designator": "CA-17 N",
-                  "link-from-road": "Summit Rd",
+                  "link-road-designator": "US-101 S",
+                  "link-from-road": "De La Cruz Blvd",
                   "link-to-road": null,
-                  "link-from-city": "Los Gatos",
+                  "link-from-city": "San Jose",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.143411",
-                    "event-location-coordinates-longitude": "-121.984839"
+                    "event-location-coordinates-latitude": "37.375614",
+                    "event-location-coordinates-longitude": "-121.936469"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-02T10:08:17.96350",
+              "update-time": "2022-07-02T10:32:07.75790",
               "valid-period": {
-                "event-timeline-estimated-duration": "37"
+                "event-timeline-estimated-duration": "26.5"
               },
-              "start-time": "2022-07-02T10:04:05.00000",
+              "start-time": "2022-07-02T10:32:07.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -424,35 +720,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-07-02T10:08:17.96350",
-        "ivr-article": "south of",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-07-02T10:32:07.75790",
+        "ivr-article": "at",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220702MY00080",
+        "SourceEventID": "220702GG00736",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Residual delays on US-101 Northbound south of Ralston Ave (Belmont). All lanes open. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-580 Westbound east of Grant Line Rd (Unincorporated). Right shoulder affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Residual delays"
+        "event_subtype": "Traffic Hazard"
       },
-      "severity": "Unknown",
-      "created": "2022-07-02T17:13Z",
-      "updated": "2022-07-02T17:14Z",
+      "severity": "Moderate",
+      "created": "2022-07-02T17:33Z",
+      "updated": "2022-07-02T17:33Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "Alameda",
+          "id": "5322745",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5322745/"
           }
         }
       },
@@ -465,8 +761,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.266836,
-          37.523512
+          -121.580823,
+          37.74135
         ]
       },
       "source_type": {
@@ -475,21 +771,21 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220702GG00706"
+        "#text": "220702GG00739"
       },
       "roads": [
         {
-          "name": "US-101 N",
-          "from": "Ralston Ave",
-          "direction": "Northbound",
+          "name": "I-580 W",
+          "from": "Grant Line Rd",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "All lanes"
+            "#text": "Right shoulder"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "open"
+            "#text": "affected"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -497,21 +793,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "south of"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-07-02T17:13Z/"
+          "2022-07-02T17:33Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-02T10:22:36.02296"
+          "event-message-time-stamp": "2022-07-02T10:34:41.94517"
         },
         "event-reference": {
-          "event-identifier": "922337"
+          "event-identifier": "922342"
         },
         "event-status": "new",
         "details": {
@@ -522,7 +818,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Residual delays"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -532,7 +828,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Residual delays on US-101 Northbound south of Ralston Ave (Belmont). All lanes open. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-580 Westbound east of Grant Line Rd (Unincorporated). Right shoulder affected. Expect delays."
                     }
                   }
                 }
@@ -541,25 +837,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "Ralston Ave",
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 W",
+                  "link-from-road": "Grant Line Rd",
                   "link-to-road": null,
-                  "link-from-city": "Belmont",
+                  "link-from-city": "Unincorporated",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.523512",
-                    "event-location-coordinates-longitude": "-122.266836"
+                    "event-location-coordinates-latitude": "37.74135",
+                    "event-location-coordinates-longitude": "-121.580823"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-02T10:14:36.20620",
+              "update-time": "2022-07-02T10:33:10.16880",
               "valid-period": {
-                "event-timeline-estimated-duration": "0"
+                "event-timeline-estimated-duration": "28"
               },
-              "start-time": "2022-07-02T10:13:00.00000",
+              "start-time": "2022-07-02T10:33:10.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -568,18 +864,18 @@
             }
           }
         },
-        "EventImpact": "Unknown",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "4",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-07-02T10:14:36.20620",
-        "ivr-article": "south of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "open",
-        "ivr-totalLanes": "All lanes",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-07-02T10:33:10.16880",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220702GG00706",
+        "SourceEventID": "220702GG00739",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
