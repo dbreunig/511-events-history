@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-03T10:34:26.28549"
+          "event-message-time-stamp": "2022-07-03T10:48:42.89904"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-03T10:34:26.28549"
+          "event-message-time-stamp": "2022-07-03T10:48:42.89904"
         },
         "event-reference": {
           "event-identifier": "922392"
@@ -360,7 +360,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-03T10:34:26.28549"
+          "event-message-time-stamp": "2022-07-03T10:48:42.89904"
         },
         "event-reference": {
           "event-identifier": "922476"
@@ -438,14 +438,17 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Brush fire on US-101 Northbound south of N Fair Oaks Ave (Sunnyvale). Right lanes blocked. Expect delays.",
+      "headline": "CHP : Severe traffic alert and Brush fire on US-101 Northbound south of N Fair Oaks Ave (Sunnyvale). Right lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Brush fire"
+        "event_subtype": [
+          "Brush fire",
+          "Severe traffic alert"
+        ]
       },
-      "severity": "Moderate",
+      "severity": "Major",
       "created": "2022-07-03T16:50Z",
-      "updated": "2022-07-03T17:18Z",
+      "updated": "2022-07-03T17:48Z",
       "areas": {
         "area": {
           "name": "Santa Clara",
@@ -508,7 +511,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-03T10:34:26.28549"
+          "event-message-time-stamp": "2022-07-03T10:48:42.89904"
         },
         "event-reference": {
           "event-identifier": "922587"
@@ -521,9 +524,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Brush fire"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Brush fire"
+                      },
+                      {
+                        "incident": "Severe traffic alert"
+                      }
+                    ]
                   }
                 },
                 {
@@ -532,7 +540,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Brush fire on US-101 Northbound south of N Fair Oaks Ave (Sunnyvale). Right lanes blocked. Expect delays."
+                      "event-description": "CHP : Severe traffic alert and Brush fire on US-101 Northbound south of N Fair Oaks Ave (Sunnyvale). Right lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -555,9 +563,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-03T10:18:05.07780",
+              "update-time": "2022-07-03T10:48:33.80830",
               "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
+                "event-timeline-estimated-duration": "55"
               },
               "start-time": "2022-07-03T10:16:00.00000",
               "cleared-time": null,
@@ -568,16 +576,17 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Major",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "3",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-07-03T10:18:05.07780",
+        "ivr-lastUpdateDttm": "2022-07-03T10:48:33.80830",
         "ivr-article": "south of",
         "ivr-county": "Santa Clara",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Right lanes",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220703GG00628",
         "EventSourceName": "CHP",
