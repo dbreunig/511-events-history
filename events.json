@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T11:05:22.65039"
+          "event-message-time-stamp": "2022-07-04T11:24:19.08904"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -152,7 +152,7 @@
       },
       "severity": "Moderate",
       "created": "2022-07-02T20:37Z",
-      "updated": "2022-07-04T17:45Z",
+      "updated": "2022-07-04T18:15Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T11:05:22.65039"
+          "event-message-time-stamp": "2022-07-04T11:24:19.08904"
         },
         "event-reference": {
           "event-identifier": "922392"
@@ -259,7 +259,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-04T10:45:04.75810",
+              "update-time": "2022-07-04T11:15:38.88330",
               "valid-period": {
                 "event-timeline-estimated-duration": "37"
               },
@@ -277,7 +277,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound and Westbound",
-        "ivr-lastUpdateDttm": "2022-07-04T10:45:04.75810",
+        "ivr-lastUpdateDttm": "2022-07-04T11:15:38.88330",
         "ivr-article": "between",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
@@ -360,7 +360,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T11:05:22.65039"
+          "event-message-time-stamp": "2022-07-04T11:24:19.08904"
         },
         "event-reference": {
           "event-identifier": "922777"
@@ -438,21 +438,21 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Westbound west of Mountain House Pkwy (Tracy). Lanes affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-680 Northbound at Waterfront Rd (Martinez). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
-      "severity": "Major",
-      "created": "2022-07-04T17:57Z",
-      "updated": "2022-07-04T17:57Z",
+      "severity": "Moderate",
+      "created": "2022-07-04T18:10Z",
+      "updated": "2022-07-04T18:11Z",
       "areas": {
         "area": {
-          "name": "San Joaquin",
-          "id": "5392126",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392126/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -465,8 +465,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -121.532149,
-          37.717751
+          -122.114167,
+          38.026944
         ]
       },
       "source_type": {
@@ -475,13 +475,161 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220704ST00107"
+        "#text": "220704GG00675"
       },
       "roads": [
         {
-          "name": "I-580 W",
-          "from": "Mountain House Pkwy",
-          "direction": "Westbound",
+          "name": "I-680 N",
+          "from": "Waterfront Rd",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-04T18:11Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-04T11:24:19.08904"
+        },
+        "event-reference": {
+          "event-identifier": "922783"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-680 Northbound at Waterfront Rd (Martinez). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-680 N",
+                  "link-from-road": "Waterfront Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Martinez",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.026944",
+                    "event-location-coordinates-longitude": "-122.114167"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-04T11:11:55.07900",
+              "valid-period": {
+                "event-timeline-estimated-duration": "38"
+              },
+              "start-time": "2022-07-04T11:11:55.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-07-04T11:11:55.07900",
+        "ivr-article": "at",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220704GG00675",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-280 Northbound south of CA-92 W (San Mateo). Lanes affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-04T18:18Z",
+      "updated": "2022-07-04T18:22Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.341915,
+          37.509177
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220704GG00684"
+      },
+      "roads": [
+        {
+          "name": "I-280 N",
+          "from": "CA-92 W",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -497,21 +645,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-07-04T17:57Z/"
+          "2022-07-04T18:18Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T11:05:22.65039"
+          "event-message-time-stamp": "2022-07-04T11:24:19.08904"
         },
         "event-reference": {
-          "event-identifier": "922778"
+          "event-identifier": "922784"
         },
         "event-status": "new",
         "details": {
@@ -532,7 +680,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Westbound west of Mountain House Pkwy (Tracy). Lanes affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-280 Northbound south of CA-92 W (San Mateo). Lanes affected. Expect delays."
                     }
                   }
                 }
@@ -541,173 +689,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": null,
-                  "link-road-designator": "I-580 W",
-                  "link-from-road": "Mountain House Pkwy",
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "CA-92 W",
                   "link-to-road": null,
-                  "link-from-city": "Tracy",
+                  "link-from-city": "San Mateo",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.717751",
-                    "event-location-coordinates-longitude": "-121.532149"
+                    "event-location-coordinates-latitude": "37.509177",
+                    "event-location-coordinates-longitude": "-122.341915"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-04T10:57:26.01350",
-              "valid-period": {
-                "event-timeline-estimated-duration": "50.5"
-              },
-              "start-time": "2022-07-04T10:57:26.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-07-04T10:57:26.01350",
-        "ivr-article": "west of",
-        "ivr-county": "San Joaquin",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220704ST00107",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-505 Southbound north of Vaca Valley Pky (Vacaville). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-07-04T18:03Z",
-      "updated": "2022-07-04T18:04Z",
-      "areas": {
-        "area": {
-          "name": "Solano",
-          "id": "5396987",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5396987/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.949009,
-          38.397906
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220704GG00661"
-      },
-      "roads": [
-        {
-          "name": "I-505 S",
-          "from": "Vaca Valley Pky",
-          "direction": "Southbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-07-04T18:04Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-07-04T11:05:22.65039"
-        },
-        "event-reference": {
-          "event-identifier": "922780"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-505 Southbound north of Vaca Valley Pky (Vacaville). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA095",
-                  "link-road-designator": "I-505 S",
-                  "link-from-road": "Vaca Valley Pky",
-                  "link-to-road": null,
-                  "link-from-city": "Vacaville",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.397906",
-                    "event-location-coordinates-longitude": "-121.949009"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-07-04T11:04:39.64810",
+              "update-time": "2022-07-04T11:22:26.22750",
               "valid-period": {
                 "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2022-07-04T11:04:39.00000",
+              "start-time": "2022-07-04T11:18:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -720,35 +720,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-07-04T11:04:39.64810",
-        "ivr-article": "north of",
-        "ivr-county": "Solano",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-07-04T11:22:26.22750",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220704GG00661",
+        "SourceEventID": "220704GG00684",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-580 Eastbound west of CA-13 S (Oakland). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Hazard on CA-24 Westbound east of ST Stephens Dr (Orinda). Right lanes affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
         "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
-      "created": "2022-07-04T18:04Z",
-      "updated": "2022-07-04T18:04Z",
+      "created": "2022-07-04T18:21Z",
+      "updated": "2022-07-04T18:21Z",
       "areas": {
         "area": {
-          "name": "Alameda",
-          "id": "5322745",
+          "name": "Contra Costa",
+          "id": "5339268",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5322745/"
+            "@href": "http://geonames.org/5339268/"
           }
         }
       },
@@ -761,8 +761,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.169144,
-          37.778568
+          -122.166865,
+          37.892846
         ]
       },
       "source_type": {
@@ -771,17 +771,17 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220704GG00663"
+        "#text": "220704GG00693"
       },
       "roads": [
         {
-          "name": "I-580 E",
-          "from": "CA-13 S",
-          "direction": "Eastbound",
+          "name": "CA-24 W",
+          "from": "ST Stephens Dr",
+          "direction": "Westbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
+            "#text": "Right lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -793,21 +793,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
+            "#text": "east of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-07-04T18:04Z/"
+          "2022-07-04T18:21Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T11:05:22.65039"
+          "event-message-time-stamp": "2022-07-04T11:24:19.08904"
         },
         "event-reference": {
-          "event-identifier": "922781"
+          "event-identifier": "922785"
         },
         "event-status": "new",
         "details": {
@@ -828,7 +828,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-580 Eastbound west of CA-13 S (Oakland). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on CA-24 Westbound east of ST Stephens Dr (Orinda). Right lanes affected. Expect delays."
                     }
                   }
                 }
@@ -837,25 +837,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA001",
-                  "link-road-designator": "I-580 E",
-                  "link-from-road": "CA-13 S",
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "CA-24 W",
+                  "link-from-road": "ST Stephens Dr",
                   "link-to-road": null,
-                  "link-from-city": "Oakland",
+                  "link-from-city": "Orinda",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.778568",
-                    "event-location-coordinates-longitude": "-122.169144"
+                    "event-location-coordinates-latitude": "37.892846",
+                    "event-location-coordinates-longitude": "-122.166865"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-04T11:04:39.90610",
+              "update-time": "2022-07-04T11:21:52.02820",
               "valid-period": {
-                "event-timeline-estimated-duration": "28"
+                "event-timeline-estimated-duration": "35.5"
               },
-              "start-time": "2022-07-04T11:04:39.00000",
+              "start-time": "2022-07-04T11:21:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -868,14 +868,14 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-07-04T11:04:39.90610",
-        "ivr-article": "west of",
-        "ivr-county": "Alameda",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-07-04T11:21:52.02820",
+        "ivr-article": "east of",
+        "ivr-county": "Contra Costa",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
+        "ivr-totalLanes": "Right lanes",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220704GG00663",
+        "SourceEventID": "220704GG00693",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
