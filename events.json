@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T08:24:11.75844"
+          "event-message-time-stamp": "2022-07-04T08:37:27.49951"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T08:24:11.75844"
+          "event-message-time-stamp": "2022-07-04T08:37:27.49951"
         },
         "event-reference": {
           "event-identifier": "922392"
@@ -290,14 +290,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on US-101 Southbound north of Rowland Blvd (Novato). 2nd lane from the left affected. Expect delays.",
+      "headline": "CHP : Disabled vehicle on US-101 Southbound north of Rowland Blvd (Novato). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
       "severity": "Moderate",
       "created": "2022-07-04T15:23Z",
-      "updated": "2022-07-04T15:23Z",
+      "updated": "2022-07-04T15:25Z",
       "areas": {
         "area": {
           "name": "Marin",
@@ -337,7 +337,7 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
+            "#text": "Lane"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -355,12 +355,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-07-04T15:23Z/"
+          "2022-07-04T15:25Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T08:24:11.75844"
+          "event-message-time-stamp": "2022-07-04T08:37:27.49951"
         },
         "event-reference": {
           "event-identifier": "922758"
@@ -374,7 +374,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -384,7 +384,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on US-101 Southbound north of Rowland Blvd (Novato). 2nd lane from the left affected. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on US-101 Southbound north of Rowland Blvd (Novato). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -407,11 +407,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-04T08:23:16.95910",
+              "update-time": "2022-07-04T08:25:21.37070",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.5"
+                "event-timeline-estimated-duration": "30.199999999999996"
               },
-              "start-time": "2022-07-04T08:23:17.00000",
+              "start-time": "2022-07-04T08:25:21.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -425,13 +425,161 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-07-04T08:23:16.95910",
+        "ivr-lastUpdateDttm": "2022-07-04T08:25:21.37070",
         "ivr-article": "north of",
         "ivr-county": "Marin",
         "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "2nd lane from the left",
+        "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220704GG00432",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision with Injuries on CA-87 Northbound south of I-280 S (San Jose). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision with Injuries"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-04T15:34Z",
+      "updated": "2022-07-04T15:34Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.890878,
+          37.322017
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220704GG00447"
+      },
+      "roads": [
+        {
+          "name": "CA-87 N",
+          "from": "I-280 S",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-04T15:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-04T08:37:27.49951"
+        },
+        "event-reference": {
+          "event-identifier": "922759"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision with Injuries"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision with Injuries on CA-87 Northbound south of I-280 S (San Jose). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-87 N",
+                  "link-from-road": "I-280 S",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.322017",
+                    "event-location-coordinates-longitude": "-121.890878"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-04T08:34:39.80770",
+              "valid-period": {
+                "event-timeline-estimated-duration": "33.5"
+              },
+              "start-time": "2022-07-04T08:34:39.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-07-04T08:34:39.80770",
+        "ivr-article": "south of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220704GG00447",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
