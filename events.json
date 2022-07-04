@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T06:56:10.40173"
+          "event-message-time-stamp": "2022-07-04T07:06:38.69330"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T06:56:10.40173"
+          "event-message-time-stamp": "2022-07-04T07:06:38.69330"
         },
         "event-reference": {
           "event-identifier": "922392"
@@ -284,6 +284,154 @@
         "ivr-totalLanes": "Lanes",
         "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Traffic advisory in effect",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on US-101 Northbound at Old Redwood Hwy (petaluma) (Petaluma). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Minor",
+      "created": "2022-07-04T14:04Z",
+      "updated": "2022-07-04T14:04Z",
+      "areas": {
+        "area": {
+          "name": "Sonoma",
+          "id": "5397100",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5397100/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.670284,
+          38.272433
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220704GG00363"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Old Redwood Hwy (petaluma)",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-04T14:04Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-04T07:06:38.69330"
+        },
+        "event-reference": {
+          "event-identifier": "922753"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on US-101 Northbound at Old Redwood Hwy (petaluma) (Petaluma). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Old Redwood Hwy (petaluma)",
+                  "link-to-road": null,
+                  "link-from-city": "Petaluma",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38.272433",
+                    "event-location-coordinates-longitude": "-122.670284"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-04T07:04:42.64190",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.5"
+              },
+              "start-time": "2022-07-04T07:04:42.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-07-04T07:04:42.64190",
+        "ivr-article": "at",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220704GG00363",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
