@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T22:24:01.41840"
+          "event-message-time-stamp": "2022-07-04T22:35:54.97002"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T22:24:01.41840"
+          "event-message-time-stamp": "2022-07-04T22:35:54.97002"
         },
         "event-reference": {
           "event-identifier": "922392"
@@ -290,14 +290,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Eastbound at I-580 E (Oakland). Lanes blocked. Expect delays.",
+      "headline": "CHP : Disabled vehicle on I-80 Eastbound at I-580 E (Oakland). Lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Disabled vehicle"
       },
-      "severity": "Moderate",
+      "severity": "Unknown",
       "created": "2022-07-05T04:32Z",
-      "updated": "2022-07-05T05:15Z",
+      "updated": "2022-07-05T05:31Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -341,7 +341,7 @@
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -355,12 +355,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-07-05T05:15Z/"
+          "2022-07-05T05:31Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T22:24:01.41840"
+          "event-message-time-stamp": "2022-07-04T22:35:54.97002"
         },
         "event-reference": {
           "event-identifier": "922902"
@@ -374,7 +374,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Hazard"
+                      "incident": "Disabled vehicle"
                     }
                   }
                 },
@@ -384,7 +384,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound at I-580 E (Oakland). Lanes blocked. Expect delays."
+                      "event-description": "CHP : Disabled vehicle on I-80 Eastbound at I-580 E (Oakland). Lanes open. Expect delays."
                     }
                   }
                 }
@@ -407,11 +407,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-04T22:15:14.55500",
+              "update-time": "2022-07-04T22:31:51.52700",
               "valid-period": {
-                "event-timeline-estimated-duration": "32.5"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2022-07-04T22:15:14.00000",
+              "start-time": "2022-07-04T22:31:51.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -420,15 +420,15 @@
             }
           }
         },
-        "EventImpact": "Moderate",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-07-04T22:15:14.55500",
+        "ivr-lastUpdateDttm": "2022-07-04T22:31:51.52700",
         "ivr-article": "at",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
+        "ivr-laneStatus": "open",
         "ivr-totalLanes": "Lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220704GG02035",
@@ -508,7 +508,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T22:24:01.41840"
+          "event-message-time-stamp": "2022-07-04T22:35:54.97002"
         },
         "event-reference": {
           "event-identifier": "922906"
@@ -656,7 +656,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T22:24:01.41840"
+          "event-message-time-stamp": "2022-07-04T22:35:54.97002"
         },
         "event-reference": {
           "event-identifier": "922910"
@@ -804,7 +804,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-04T22:24:01.41840"
+          "event-message-time-stamp": "2022-07-04T22:35:54.97002"
         },
         "event-reference": {
           "event-identifier": "922914"
@@ -876,6 +876,450 @@
         "ivr-totalLanes": "Right shoulder",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220704GG02162",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-380 Eastbound north of I-280 N-s-i-380 E Ramp Merge (San Bruno). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-05T05:26Z",
+      "updated": "2022-07-05T05:33Z",
+      "areas": {
+        "area": {
+          "name": "San Mateo",
+          "id": "5392427",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5392427/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.42465,
+          37.63024
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220704GG02236"
+      },
+      "roads": [
+        {
+          "name": "I-380 E",
+          "from": "I-280 N-s-i-380 E Ramp Merge",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "north of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-05T05:33Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-04T22:35:54.97002"
+        },
+        "event-reference": {
+          "event-identifier": "922918"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-380 Eastbound north of I-280 N-s-i-380 E Ramp Merge (San Bruno). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "I-380 E",
+                  "link-from-road": "I-280 N-s-i-380 E Ramp Merge",
+                  "link-to-road": null,
+                  "link-from-city": "San Bruno",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.63024",
+                    "event-location-coordinates-longitude": "-122.42465"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-04T22:33:55.46470",
+              "valid-period": {
+                "event-timeline-estimated-duration": "35.2"
+              },
+              "start-time": "2022-07-04T22:33:55.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-07-04T22:33:55.46470",
+        "ivr-article": "north of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220704GG02236",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled vehicle on I-580 Eastbound east of 98TH Ave (Oakland). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled vehicle"
+      },
+      "severity": "Minor",
+      "created": "2022-07-05T05:27Z",
+      "updated": "2022-07-05T05:31Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.148785,
+          37.756392
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220704GG02240"
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "98TH Ave",
+          "direction": "Eastbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-05T05:31Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-04T22:35:54.97002"
+        },
+        "event-reference": {
+          "event-identifier": "922919"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled vehicle"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled vehicle on I-580 Eastbound east of 98TH Ave (Oakland). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "98TH Ave",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.756392",
+                    "event-location-coordinates-longitude": "-122.148785"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-04T22:31:51.38830",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.2"
+              },
+              "start-time": "2022-07-04T22:31:51.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2022-07-04T22:31:51.38830",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220704GG02240",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-280 Southbound at S Bascom Ave (San Jose). Lane affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-05T05:34Z",
+      "updated": "2022-07-05T05:34Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.931206,
+          37.317021
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220704GG02257"
+      },
+      "roads": [
+        {
+          "name": "I-280 S",
+          "from": "S Bascom Ave",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Lane"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-05T05:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-04T22:35:54.97002"
+        },
+        "event-reference": {
+          "event-identifier": "922920"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-280 Southbound at S Bascom Ave (San Jose). Lane affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-280 S",
+                  "link-from-road": "S Bascom Ave",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.317021",
+                    "event-location-coordinates-longitude": "-121.931206"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-04T22:34:57.78190",
+              "valid-period": {
+                "event-timeline-estimated-duration": "26.5"
+              },
+              "start-time": "2022-07-04T22:34:57.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-07-04T22:34:57.78190",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Lane",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220704GG02257",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
