@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-05T18:37:24.63417"
+          "event-message-time-stamp": "2022-07-05T19:36:52.25408"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -202,7 +202,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-05T18:37:24.63417"
+          "event-message-time-stamp": "2022-07-05T19:36:52.25408"
         },
         "event-reference": {
           "event-identifier": "921113"
@@ -285,7 +285,7 @@
       },
       "severity": "Moderate",
       "created": "2022-07-02T20:37Z",
-      "updated": "2022-07-06T01:00Z",
+      "updated": "2022-07-06T02:00Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -345,7 +345,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-05T18:37:24.63417"
+          "event-message-time-stamp": "2022-07-05T19:36:52.25408"
         },
         "event-reference": {
           "event-identifier": "922392"
@@ -392,7 +392,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-05T18:00:59.91570",
+              "update-time": "2022-07-05T19:00:05.53930",
               "valid-period": {
                 "event-timeline-estimated-duration": "37"
               },
@@ -410,7 +410,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound and Westbound",
-        "ivr-lastUpdateDttm": "2022-07-05T18:00:59.91570",
+        "ivr-lastUpdateDttm": "2022-07-05T19:00:05.53930",
         "ivr-article": "between",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
@@ -423,21 +423,24 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on US-101 Northbound north of 3RD ST (santa Rosa) (Santa Rosa). Left lanes blocked. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries and Overturned vehicle on I-880 Southbound north of Dixon Landing Rd (Milpitas). Left lanes blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": [
+          "Traffic Collision with Injuries",
+          "Overturned vehicle"
+        ]
       },
-      "severity": "Major",
-      "created": "2022-07-06T00:34Z",
-      "updated": "2022-07-06T00:59Z",
+      "severity": "Moderate",
+      "created": "2022-07-06T02:00Z",
+      "updated": "2022-07-06T02:22Z",
       "areas": {
         "area": {
-          "name": "Sonoma",
-          "id": "5397100",
+          "name": "Santa Clara",
+          "id": "5393021",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5397100/"
+            "@href": "http://geonames.org/5393021/"
           }
         }
       },
@@ -450,8 +453,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.719184137573,
-          38.4392051910507
+          -121.923355235155,
+          37.4555508289701
         ]
       },
       "source_type": {
@@ -460,13 +463,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220705GG01746"
+        "#text": "220705GG01908"
       },
       "roads": [
         {
-          "name": "US-101 N",
-          "from": "3RD ST (santa Rosa)",
-          "direction": "Northbound",
+          "name": "I-880 S",
+          "from": "Dixon Landing Rd",
+          "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -488,15 +491,15 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-07-06T00:47Z/"
+          "2022-07-06T02:01Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-05T18:37:24.63417"
+          "event-message-time-stamp": "2022-07-05T19:36:52.25408"
         },
         "event-reference": {
-          "event-identifier": "923182"
+          "event-identifier": "923212"
         },
         "event-status": "new",
         "details": {
@@ -506,9 +509,14 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Collision"
-                    }
+                    "eventType": [
+                      {
+                        "incident": "Traffic Collision with Injuries"
+                      },
+                      {
+                        "incident": "Overturned vehicle"
+                      }
+                    ]
                   }
                 },
                 {
@@ -517,7 +525,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on US-101 Northbound north of 3RD ST (santa Rosa) (Santa Rosa). Left lanes blocked. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries and Overturned vehicle on I-880 Southbound north of Dixon Landing Rd (Milpitas). Left lanes blocked. Expect delays."
                     }
                   }
                 }
@@ -526,25 +534,25 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA097",
-                  "link-road-designator": "US-101 N",
-                  "link-from-road": "3RD ST (santa Rosa)",
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "I-880 S",
+                  "link-from-road": "Dixon Landing Rd",
                   "link-to-road": null,
-                  "link-from-city": "Santa Rosa",
+                  "link-from-city": "Milpitas",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "38.439205191050746",
-                    "event-location-coordinates-longitude": "-122.71918413757322"
+                    "event-location-coordinates-latitude": "37.455550828970075",
+                    "event-location-coordinates-longitude": "-121.92335523515463"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-05T17:59:34.23050",
+              "update-time": "2022-07-05T19:22:35.76700",
               "valid-period": {
-                "event-timeline-estimated-duration": "49"
+                "event-timeline-estimated-duration": "43"
               },
-              "start-time": "2022-07-05T17:47:00.00000",
+              "start-time": "2022-07-05T19:01:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -553,180 +561,33 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Moderate",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-07-05T17:59:34.23050",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-07-05T19:22:35.76700",
         "ivr-article": "north of",
-        "ivr-county": "Sonoma",
+        "ivr-county": "Santa Clara",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Left lanes",
+        "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220705GG01746",
+        "SourceEventID": "220705GG01908",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-80 Eastbound west of Treasure Island Rd (San Francisco). Lane affected. Expect delays.",
+      "headline": "CHP : Traffic Collision with Injuries on I-880 Northbound south of W Tennyson Rd (Hayward). Lane affected. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Major",
-      "created": "2022-07-06T00:49Z",
-      "updated": "2022-07-06T00:49Z",
-      "areas": {
-        "area": {
-          "name": "San Francisco",
-          "id": "5391997",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5391997/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.36171,
-          37.813098
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220705GG01773"
-      },
-      "roads": [
-        {
-          "name": "I-80 E",
-          "from": "Treasure Island Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-07-06T00:49Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-07-05T18:37:24.63417"
-        },
-        "event-reference": {
-          "event-identifier": "923190"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound west of Treasure Island Rd (San Francisco). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA075",
-                  "link-road-designator": "I-80 E",
-                  "link-from-road": "Treasure Island Rd",
-                  "link-to-road": null,
-                  "link-from-city": "San Francisco",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.813098",
-                    "event-location-coordinates-longitude": "-122.36171"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-07-05T17:49:23.78560",
-              "valid-period": {
-                "event-timeline-estimated-duration": "49"
-              },
-              "start-time": "2022-07-05T17:49:23.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Major",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-07-05T17:49:23.78560",
-        "ivr-article": "west of",
-        "ivr-county": "San Francisco",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220705GG01773",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Collision on I-80 Westbound east of University Ave (Berkeley). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Collision"
+        "event_subtype": "Traffic Collision with Injuries"
       },
       "severity": "Moderate",
-      "created": "2022-07-06T01:00Z",
-      "updated": "2022-07-06T01:25Z",
+      "created": "2022-07-06T02:19Z",
+      "updated": "2022-07-06T02:19Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -746,8 +607,8 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.304749,
-          37.869523
+          -122.081243,
+          37.627371
         ]
       },
       "source_type": {
@@ -756,13 +617,13 @@
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220705GG01794"
+        "#text": "220705GG01949"
       },
       "roads": [
         {
-          "name": "I-80 W",
-          "from": "University Ave",
-          "direction": "Westbound",
+          "name": "I-880 N",
+          "from": "W Tennyson Rd",
+          "direction": "Northbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -778,21 +639,21 @@
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "east of"
+            "#text": "south of"
           }
         }
       ],
       "schedule": {
         "intervals": [
-          "2022-07-06T01:25Z/"
+          "2022-07-06T02:19Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-05T18:37:24.63417"
+          "event-message-time-stamp": "2022-07-05T19:36:52.25408"
         },
         "event-reference": {
-          "event-identifier": "923196"
+          "event-identifier": "923219"
         },
         "event-status": "new",
         "details": {
@@ -803,7 +664,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Traffic Collision"
+                      "incident": "Traffic Collision with Injuries"
                     }
                   }
                 },
@@ -813,7 +674,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Collision on I-80 Westbound east of University Ave (Berkeley). Lane affected. Expect delays."
+                      "event-description": "CHP : Traffic Collision with Injuries on I-880 Northbound south of W Tennyson Rd (Hayward). Lane affected. Expect delays."
                     }
                   }
                 }
@@ -823,24 +684,24 @@
               "event-location-type": {
                 "event-location-type-link": {
                   "event-location-type-area": "CA001",
-                  "link-road-designator": "I-80 W",
-                  "link-from-road": "University Ave",
+                  "link-road-designator": "I-880 N",
+                  "link-from-road": "W Tennyson Rd",
                   "link-to-road": null,
-                  "link-from-city": "Berkeley",
+                  "link-from-city": "Hayward",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.869523",
-                    "event-location-coordinates-longitude": "-122.304749"
+                    "event-location-coordinates-latitude": "37.627371",
+                    "event-location-coordinates-longitude": "-122.081243"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-05T18:25:51.59260",
+              "update-time": "2022-07-05T19:19:50.62330",
               "valid-period": {
-                "event-timeline-estimated-duration": "25"
+                "event-timeline-estimated-duration": "31"
               },
-              "start-time": "2022-07-05T18:25:51.00000",
+              "start-time": "2022-07-05T19:19:45.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -853,35 +714,35 @@
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
-        "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-07-05T18:25:51.59260",
-        "ivr-article": "east of",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-07-05T19:19:50.62330",
+        "ivr-article": "south of",
         "ivr-county": "Alameda",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220705GG01794",
+        "SourceEventID": "220705GG01949",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on I-280 Northbound north of Farm Hill Blvd (Woodside). 2nd lane from the left affected. Expect delays.",
-      "event_type": "INCIDENT",
+      "headline": "Caltrans : Roadwork on US-101 Southbound at Sir Francis Drake Blvd (Larkspur). Lanes closed until 6 AM. From 6:00 PM Tuesday, July 05, 2022 to 6:00 AM Wednesday, July 06, 2022.",
+      "event_type": "CONSTRUCTION",
       "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
+        "event_subtype": "Roadwork"
       },
-      "severity": "Moderate",
-      "created": "2022-07-06T01:18Z",
-      "updated": "2022-07-06T01:18Z",
+      "severity": "Unknown",
+      "created": "2022-07-06T02:20Z",
+      "updated": "2022-07-06T02:36Z",
       "areas": {
         "area": {
-          "name": "San Mateo",
-          "id": "5392427",
+          "name": "Marin",
+          "id": "5370468",
           "link": {
             "@rel": "self",
-            "@href": "http://geonames.org/5392427/"
+            "@href": "http://geonames.org/5370468/"
           }
         }
       },
@@ -894,479 +755,35 @@
         },
         "type": "Point",
         "coordinates": [
-          -122.255874,
-          37.444017
+          -122.521705,
+          37.971775
         ]
       },
       "source_type": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
+        "#text": "Caltrans"
       },
       "source_id": {
         "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220705GG01823"
-      },
-      "roads": [
-        {
-          "name": "I-280 N",
-          "from": "Farm Hill Blvd",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "2nd lane from the left"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "north of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-07-06T01:18Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-07-05T18:37:24.63417"
-        },
-        "event-reference": {
-          "event-identifier": "923201"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on I-280 Northbound north of Farm Hill Blvd (Woodside). 2nd lane from the left affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA081",
-                  "link-road-designator": "I-280 N",
-                  "link-from-road": "Farm Hill Blvd",
-                  "link-to-road": null,
-                  "link-from-city": "Woodside",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.444017",
-                    "event-location-coordinates-longitude": "-122.255874"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-07-05T18:18:34.56110",
-              "valid-period": {
-                "event-timeline-estimated-duration": "26.5"
-              },
-              "start-time": "2022-07-05T18:18:34.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-07-05T18:18:34.56110",
-        "ivr-article": "north of",
-        "ivr-county": "San Mateo",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "2nd lane from the left",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220705GG01823",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-24 Eastbound west of Camino Pablo (Orinda). Left lanes affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-07-06T01:22Z",
-      "updated": "2022-07-06T01:23Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.18658,
-          37.874851
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220705GG01828"
-      },
-      "roads": [
-        {
-          "name": "CA-24 E",
-          "from": "Camino Pablo",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Left lanes"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "west of"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-07-06T01:22Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-07-05T18:37:24.63417"
-        },
-        "event-reference": {
-          "event-identifier": "923202"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-24 Eastbound west of Camino Pablo (Orinda). Left lanes affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 E",
-                  "link-from-road": "Camino Pablo",
-                  "link-to-road": null,
-                  "link-from-city": "Orinda",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.874851",
-                    "event-location-coordinates-longitude": "-122.18658"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-07-05T18:23:58.09520",
-              "valid-period": {
-                "event-timeline-estimated-duration": "32.5"
-              },
-              "start-time": "2022-07-05T18:22:00.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-07-05T18:23:58.09520",
-        "ivr-article": "west of",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Left lanes",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220705GG01828",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Traffic Hazard on CA-1 Northbound at CA-17 N (Santa Cruz). Lane affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Traffic Hazard"
-      },
-      "severity": "Moderate",
-      "created": "2022-07-06T01:37Z",
-      "updated": "2022-07-06T01:37Z",
-      "areas": {
-        "area": {
-          "name": "Santa Cruz",
-          "id": "5393068",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393068/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.022822,
-          36.988822
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220705MY00357"
-      },
-      "roads": [
-        {
-          "name": "CA-1 N",
-          "from": "CA-17 N",
-          "direction": "Northbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Lane"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-07-06T01:37Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-07-05T18:37:24.63417"
-        },
-        "event-reference": {
-          "event-identifier": "923205"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Traffic Hazard"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Traffic Hazard on CA-1 Northbound at CA-17 N (Santa Cruz). Lane affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA087",
-                  "link-road-designator": "CA-1 N",
-                  "link-from-road": "CA-17 N",
-                  "link-to-road": null,
-                  "link-from-city": "Santa Cruz",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "36.988822",
-                    "event-location-coordinates-longitude": "-122.022822"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-07-05T18:37:17.19750",
-              "valid-period": {
-                "event-timeline-estimated-duration": "35.5"
-              },
-              "start-time": "2022-07-05T18:37:17.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-07-05T18:37:17.19750",
-        "ivr-article": "at",
-        "ivr-county": "Santa Cruz",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Lane",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220705MY00357",
-        "EventSourceName": "CHP",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on US-101 Southbound at Coyote Creek Golf Dr (San Jose). Center Divider affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Minor",
-      "created": "2022-07-06T01:37Z",
-      "updated": "2022-07-06T01:37Z",
-      "areas": {
-        "area": {
-          "name": "Santa Clara",
-          "id": "5393021",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5393021/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -121.697711,
-          37.193647
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220705MY00358"
+        "#text": "P101NB-0001-2022-07-05-18:01:00"
       },
       "roads": [
         {
           "name": "US-101 S",
-          "from": "Coyote Creek Golf Dr",
+          "from": "Sir Francis Drake Blvd",
           "direction": "Southbound",
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Center Divider"
+            "#text": "Lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
+            "#text": "closed"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
+            "#text": "until 6 AM"
           },
           "article": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -1376,26 +793,26 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-07-06T01:37Z/"
+          "2022-07-06T01:01Z/2022-07-06T13:01Z"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-05T18:37:24.63417"
+          "event-message-time-stamp": "2022-07-05T19:36:52.25408"
         },
         "event-reference": {
-          "event-identifier": "923206"
+          "event-identifier": "923220"
         },
         "event-status": "new",
         "details": {
           "eventElementDetails": {
-            "event-element-sequence": "4",
+            "event-element-sequence": "2",
             "event-element-description": {
               "eventDescription": [
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Roadwork"
                     }
                   }
                 },
@@ -1405,7 +822,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on US-101 Southbound at Coyote Creek Golf Dr (San Jose). Center Divider affected. Expect delays."
+                      "event-description": "Caltrans : Roadwork on US-101 Southbound at Sir Francis Drake Blvd (Larkspur). Lanes closed until 6 AM. From 6:00 PM Tuesday, July 05, 2022 to 6:00 AM Wednesday, July 06, 2022."
                     }
                   }
                 }
@@ -1414,46 +831,46 @@
             "event-element-location": {
               "event-location-type": {
                 "event-location-type-link": {
-                  "event-location-type-area": "CA085",
+                  "event-location-type-area": "CA041",
                   "link-road-designator": "US-101 S",
-                  "link-from-road": "Coyote Creek Golf Dr",
+                  "link-from-road": "Sir Francis Drake Blvd",
                   "link-to-road": null,
-                  "link-from-city": "San Jose",
+                  "link-from-city": "Larkspur",
                   "link-to-city": null,
                   "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.193647",
-                    "event-location-coordinates-longitude": "-121.697711"
+                    "event-location-coordinates-latitude": "37.971775",
+                    "event-location-coordinates-longitude": "-122.521705"
                   }
                 }
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-05T18:37:17.34120",
+              "update-time": "2022-07-05T19:36:04.58320",
               "valid-period": {
-                "event-timeline-estimated-duration": "20.2"
+                "event-timeline-estimated-duration": "0"
               },
-              "start-time": "2022-07-05T18:37:17.00000",
-              "cleared-time": null,
+              "start-time": "2022-07-05T18:01:00.00000",
+              "cleared-time": "2022-07-06T06:01:00.00000",
               "utc-offset": "-0700"
             },
             "event-element-source": {
-              "event-organization-reported-identifier": "1003"
+              "event-organization-reported-identifier": "1004"
             }
           }
         },
-        "EventImpact": "Minor",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "1",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-07-05T18:37:17.34120",
+        "ivr-lastUpdateDttm": "2022-07-05T19:36:04.58320",
         "ivr-article": "at",
-        "ivr-county": "Santa Clara",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Center Divider",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220705MY00358",
-        "EventSourceName": "CHP",
+        "ivr-county": "Marin",
+        "ivr-laneStatus": "closed",
+        "ivr-totalLanes": "Lanes",
+        "ivr-genOtherText": "until 6 AM",
+        "SourceEventID": "P101NB-0001-2022-07-05-18:01:00",
+        "EventSourceName": "Caltrans",
         "ivr-completeFlag": "1"
       }
     }
