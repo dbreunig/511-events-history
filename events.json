@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-17T16:22:43.69374"
+          "event-message-time-stamp": "2022-07-17T16:34:53.73093"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -216,7 +216,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-17T16:22:43.69374"
+          "event-message-time-stamp": "2022-07-17T16:34:53.73093"
         },
         "event-reference": {
           "event-identifier": "927218"
@@ -366,7 +366,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-17T16:22:43.69374"
+          "event-message-time-stamp": "2022-07-17T16:34:53.73093"
         },
         "event-reference": {
           "event-identifier": "927441"
@@ -445,14 +445,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on I-80 Eastbound west of Dixon Ave W (Dixon). Lane blocked. Expect delays.",
+      "headline": "CHP : Traffic Hazard on I-80 Eastbound west of Dixon Ave W (Dixon). Lane blocked. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
+        "event_subtype": "Traffic Hazard"
       },
       "severity": "Moderate",
       "created": "2022-07-17T23:22Z",
-      "updated": "2022-07-17T23:22Z",
+      "updated": "2022-07-17T23:23Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -515,7 +515,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-17T16:22:43.69374"
+          "event-message-time-stamp": "2022-07-17T16:34:53.73093"
         },
         "event-reference": {
           "event-identifier": "927442"
@@ -529,7 +529,7 @@
                 {
                   "event-phrase": {
                     "eventType": {
-                      "incident": "Disabled vehicle"
+                      "incident": "Traffic Hazard"
                     }
                   }
                 },
@@ -539,7 +539,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on I-80 Eastbound west of Dixon Ave W (Dixon). Lane blocked. Expect delays."
+                      "event-description": "CHP : Traffic Hazard on I-80 Eastbound west of Dixon Ave W (Dixon). Lane blocked. Expect delays."
                     }
                   }
                 }
@@ -562,11 +562,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-17T16:22:13.74120",
+              "update-time": "2022-07-17T16:23:22.67350",
               "valid-period": {
-                "event-timeline-estimated-duration": "30.199999999999996"
+                "event-timeline-estimated-duration": "30.5"
               },
-              "start-time": "2022-07-17T16:22:13.00000",
+              "start-time": "2022-07-17T16:22:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -580,13 +580,161 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-07-17T16:22:13.74120",
+        "ivr-lastUpdateDttm": "2022-07-17T16:23:22.67350",
         "ivr-article": "west of",
         "ivr-county": "Solano",
         "ivr-laneStatus": "blocked",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220717GG01462",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Hazard on I-80 Westbound east of CA-13 N-I-80 W Ramp (Berkeley). Center Divider affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Hazard"
+      },
+      "severity": "Minor",
+      "created": "2022-07-17T23:34Z",
+      "updated": "2022-07-17T23:34Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.297583,
+          37.842598
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220717GG01497"
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "CA-13 N-I-80 W Ramp",
+          "direction": "Westbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Center Divider"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "east of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-17T23:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-17T16:34:53.73093"
+        },
+        "event-reference": {
+          "event-identifier": "927444"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Hazard"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Hazard on I-80 Westbound east of CA-13 N-I-80 W Ramp (Berkeley). Center Divider affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "CA-13 N-I-80 W Ramp",
+                  "link-to-road": null,
+                  "link-from-city": "Berkeley",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.842598",
+                    "event-location-coordinates-longitude": "-122.297583"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-17T16:34:38.55660",
+              "valid-period": {
+                "event-timeline-estimated-duration": "20.5"
+              },
+              "start-time": "2022-07-17T16:34:38.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Minor",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "1",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2022-07-17T16:34:38.55660",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220717GG01497",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
