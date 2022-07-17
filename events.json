@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-17T10:22:34.75368"
+          "event-message-time-stamp": "2022-07-17T10:34:35.18677"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -212,7 +212,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-17T10:22:34.75368"
+          "event-message-time-stamp": "2022-07-17T10:34:35.18677"
         },
         "event-reference": {
           "event-identifier": "927077"
@@ -361,7 +361,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-17T10:22:34.75368"
+          "event-message-time-stamp": "2022-07-17T10:34:35.18677"
         },
         "event-reference": {
           "event-identifier": "927218"
@@ -434,6 +434,154 @@
         "ivr-impact": "Always play incident",
         "ivr-genOtherText": "Traffic advisory in effect",
         "SourceEventID": "220716GG01548",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Traffic Collision on US-101 Northbound at Pacheco Pass Hwy (Gilroy). Right lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Traffic Collision"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-17T17:22Z",
+      "updated": "2022-07-17T17:23Z",
+      "areas": {
+        "area": {
+          "name": "Santa Clara",
+          "id": "5393021",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5393021/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.556111,
+          37.002778
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220717MY00127"
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Pacheco Pass Hwy",
+          "direction": "Northbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right lanes"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "blocked"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "at"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-17T17:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-17T10:34:35.18677"
+        },
+        "event-reference": {
+          "event-identifier": "927370"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Traffic Collision"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Traffic Collision on US-101 Northbound at Pacheco Pass Hwy (Gilroy). Right lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Pacheco Pass Hwy",
+                  "link-to-road": null,
+                  "link-from-city": "Gilroy",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.002778",
+                    "event-location-coordinates-longitude": "-121.556111"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-17T10:23:47.04550",
+              "valid-period": {
+                "event-timeline-estimated-duration": "39"
+              },
+              "start-time": "2022-07-17T10:23:00.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2022-07-17T10:23:47.04550",
+        "ivr-article": "at",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-totalLanes": "Right lanes",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220717MY00127",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
