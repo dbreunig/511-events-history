@@ -68,7 +68,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "876732"
@@ -211,7 +211,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929017"
@@ -295,7 +295,7 @@
       },
       "severity": "Unknown",
       "created": "2022-07-22T06:02Z",
-      "updated": "2022-07-22T13:43Z",
+      "updated": "2022-07-22T13:53Z",
       "areas": {
         "area": {
           "name": "Solano",
@@ -359,7 +359,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929168"
@@ -406,7 +406,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-22T06:43:43.81350",
+              "update-time": "2022-07-22T06:53:38.73740",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -424,7 +424,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-07-22T06:43:43.81350",
+        "ivr-lastUpdateDttm": "2022-07-22T06:53:38.73740",
         "ivr-article": "between",
         "ivr-county": "Solano",
         "ivr-laneStatus": "closed",
@@ -507,7 +507,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929195"
@@ -585,17 +585,14 @@
     },
     {
       "status": "ACTIVE",
-      "headline": "CHP : Severe traffic alert and Traffic Collision on CA-24 Westbound west of Claremont Ave (Oakland). Right and center lanes blocked. Expect delays.",
+      "headline": "CHP : Residual delays on CA-24 Westbound west of Claremont Ave (Oakland). All lanes open. Expect delays.",
       "event_type": "INCIDENT",
       "event_subtypes": {
-        "event_subtype": [
-          "Traffic Collision",
-          "Severe traffic alert"
-        ]
+        "event_subtype": "Residual delays"
       },
-      "severity": "Major",
+      "severity": "Unknown",
       "created": "2022-07-22T12:04Z",
-      "updated": "2022-07-22T13:31Z",
+      "updated": "2022-07-22T13:53Z",
       "areas": {
         "area": {
           "name": "Alameda",
@@ -635,11 +632,11 @@
           "state": "SOME_LANES_CLOSED",
           "lane_type": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right and center lanes"
+            "#text": "All lanes"
           },
           "lane_status": {
             "@xmlns": "http://511.org/open511-extensions",
-            "#text": "blocked"
+            "#text": "open"
           },
           "road_advisory": {
             "@xmlns": "http://511.org/open511-extensions",
@@ -658,7 +655,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929201"
@@ -671,14 +668,9 @@
               "eventDescription": [
                 {
                   "event-phrase": {
-                    "eventType": [
-                      {
-                        "incident": "Traffic Collision"
-                      },
-                      {
-                        "incident": "Severe traffic alert"
-                      }
-                    ]
+                    "eventType": {
+                      "incident": "Residual delays"
+                    }
                   }
                 },
                 {
@@ -687,7 +679,7 @@
                 {
                   "event-additional-text": {
                     "eventAdditionalText": {
-                      "event-description": "CHP : Severe traffic alert and Traffic Collision on CA-24 Westbound west of Claremont Ave (Oakland). Right and center lanes blocked. Expect delays."
+                      "event-description": "CHP : Residual delays on CA-24 Westbound west of Claremont Ave (Oakland). All lanes open. Expect delays."
                     }
                   }
                 }
@@ -710,9 +702,9 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-22T06:31:47.32730",
+              "update-time": "2022-07-22T06:53:45.08610",
               "valid-period": {
-                "event-timeline-estimated-duration": "53.5"
+                "event-timeline-estimated-duration": "0"
               },
               "start-time": "2022-07-22T05:22:00.00000",
               "cleared-time": null,
@@ -723,17 +715,16 @@
             }
           }
         },
-        "EventImpact": "Major",
+        "EventImpact": "Unknown",
         "RoadClosed": "false",
         "ivr-eventStatus": "2",
-        "ivr-eventClass": "3",
+        "ivr-eventClass": "4",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-07-22T06:31:47.32730",
+        "ivr-lastUpdateDttm": "2022-07-22T06:53:45.08610",
         "ivr-article": "west of",
         "ivr-county": "Alameda",
-        "ivr-laneStatus": "blocked",
-        "ivr-totalLanes": "Right and center lanes",
-        "ivr-impact": "Always play incident",
+        "ivr-laneStatus": "open",
+        "ivr-totalLanes": "All lanes",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220722GG00236",
         "EventSourceName": "CHP",
@@ -809,7 +800,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929202"
@@ -956,7 +947,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929203"
@@ -1042,7 +1033,7 @@
       },
       "severity": "Minor",
       "created": "2022-07-22T13:02Z",
-      "updated": "2022-07-22T13:17Z",
+      "updated": "2022-07-22T13:55Z",
       "areas": {
         "area": {
           "name": "Santa Cruz",
@@ -1100,12 +1091,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-07-22T13:17Z/"
+          "2022-07-22T13:55Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929211"
@@ -1152,11 +1143,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-22T06:17:13.42340",
+              "update-time": "2022-07-22T06:55:00.61930",
               "valid-period": {
                 "event-timeline-estimated-duration": "19"
               },
-              "start-time": "2022-07-22T06:17:13.00000",
+              "start-time": "2022-07-22T06:55:00.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -1170,7 +1161,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "1",
         "ivr-eventDirection": "Northbound",
-        "ivr-lastUpdateDttm": "2022-07-22T06:17:13.42340",
+        "ivr-lastUpdateDttm": "2022-07-22T06:55:00.61930",
         "ivr-article": "at",
         "ivr-county": "Santa Cruz",
         "ivr-laneStatus": "affected",
@@ -1253,7 +1244,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929212"
@@ -1404,7 +1395,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929217"
@@ -1560,7 +1551,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929218"
@@ -1650,7 +1641,7 @@
       },
       "severity": "Unknown",
       "created": "2022-07-22T13:23Z",
-      "updated": "2022-07-22T13:43Z",
+      "updated": "2022-07-22T13:53Z",
       "areas": {
         "area": {
           "name": "Sonoma",
@@ -1714,7 +1705,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929219"
@@ -1761,7 +1752,7 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-22T06:43:44.41180",
+              "update-time": "2022-07-22T06:53:39.29380",
               "valid-period": {
                 "event-timeline-estimated-duration": "0"
               },
@@ -1779,7 +1770,7 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "4",
         "ivr-eventDirection": "Southbound",
-        "ivr-lastUpdateDttm": "2022-07-22T06:43:44.41180",
+        "ivr-lastUpdateDttm": "2022-07-22T06:53:39.29380",
         "ivr-article": "between",
         "ivr-county": "Sonoma",
         "ivr-laneStatus": "closed",
@@ -1787,154 +1778,6 @@
         "ivr-genOtherText": "until 6 AM",
         "SourceEventID": "C101WA-0012-2022-07-22-06:01:00",
         "EventSourceName": "Caltrans",
-        "ivr-completeFlag": "1"
-      }
-    },
-    {
-      "status": "ACTIVE",
-      "headline": "CHP : Disabled vehicle on CA-24 Eastbound at Acalanes Rd (Lafayette). Right shoulder affected. Expect delays.",
-      "event_type": "INCIDENT",
-      "event_subtypes": {
-        "event_subtype": "Disabled vehicle"
-      },
-      "severity": "Moderate",
-      "created": "2022-07-22T13:28Z",
-      "updated": "2022-07-22T13:28Z",
-      "areas": {
-        "area": {
-          "name": "Contra Costa",
-          "id": "5339268",
-          "link": {
-            "@rel": "self",
-            "@href": "http://geonames.org/5339268/"
-          }
-        }
-      },
-      "geography": {
-        "crs": {
-          "type": "name",
-          "properties": {
-            "name": "urn:ogc:def:crs:EPSG::4326"
-          }
-        },
-        "type": "Point",
-        "coordinates": [
-          -122.159524,
-          37.892591
-        ]
-      },
-      "source_type": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "CHP"
-      },
-      "source_id": {
-        "@xmlns": "http://511.org/open511-extensions",
-        "#text": "220722GGFSP00013"
-      },
-      "roads": [
-        {
-          "name": "CA-24 E",
-          "from": "Acalanes Rd",
-          "direction": "Eastbound",
-          "state": "SOME_LANES_CLOSED",
-          "lane_type": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Right shoulder"
-          },
-          "lane_status": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "affected"
-          },
-          "road_advisory": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "Expect delays"
-          },
-          "article": {
-            "@xmlns": "http://511.org/open511-extensions",
-            "#text": "at"
-          }
-        }
-      ],
-      "schedule": {
-        "intervals": [
-          "2022-07-22T13:28Z/"
-        ]
-      },
-      "extension": {
-        "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
-        },
-        "event-reference": {
-          "event-identifier": "929220"
-        },
-        "event-status": "new",
-        "details": {
-          "eventElementDetails": {
-            "event-element-sequence": "4",
-            "event-element-description": {
-              "eventDescription": [
-                {
-                  "event-phrase": {
-                    "eventType": {
-                      "incident": "Disabled vehicle"
-                    }
-                  }
-                },
-                {
-                  "event-advice": "(unknown)"
-                },
-                {
-                  "event-additional-text": {
-                    "eventAdditionalText": {
-                      "event-description": "CHP : Disabled vehicle on CA-24 Eastbound at Acalanes Rd (Lafayette). Right shoulder affected. Expect delays."
-                    }
-                  }
-                }
-              ]
-            },
-            "event-element-location": {
-              "event-location-type": {
-                "event-location-type-link": {
-                  "event-location-type-area": "CA013",
-                  "link-road-designator": "CA-24 E",
-                  "link-from-road": "Acalanes Rd",
-                  "link-to-road": null,
-                  "link-from-city": "Lafayette",
-                  "link-to-city": null,
-                  "link-primary-location": {
-                    "event-location-coordinates-latitude": "37.892591",
-                    "event-location-coordinates-longitude": "-122.159524"
-                  }
-                }
-              }
-            },
-            "event-element-times": {
-              "update-time": "2022-07-22T06:28:43.77520",
-              "valid-period": {
-                "event-timeline-estimated-duration": "27.7"
-              },
-              "start-time": "2022-07-22T06:28:43.00000",
-              "cleared-time": null,
-              "utc-offset": "-0700"
-            },
-            "event-element-source": {
-              "event-organization-reported-identifier": "1003"
-            }
-          }
-        },
-        "EventImpact": "Moderate",
-        "RoadClosed": "false",
-        "ivr-eventStatus": "2",
-        "ivr-eventClass": "2",
-        "ivr-eventDirection": "Eastbound",
-        "ivr-lastUpdateDttm": "2022-07-22T06:28:43.77520",
-        "ivr-article": "at",
-        "ivr-county": "Contra Costa",
-        "ivr-laneStatus": "affected",
-        "ivr-totalLanes": "Right shoulder",
-        "ivr-genOtherText": "Expect delays",
-        "SourceEventID": "220722GGFSP00013",
-        "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
     },
@@ -2010,7 +1853,7 @@
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.32144"
         },
         "event-reference": {
           "event-identifier": "929221"
@@ -2095,7 +1938,7 @@
       },
       "severity": "Moderate",
       "created": "2022-07-22T13:36Z",
-      "updated": "2022-07-22T13:37Z",
+      "updated": "2022-07-22T13:52Z",
       "areas": {
         "area": {
           "name": "San Mateo",
@@ -2153,12 +1996,12 @@
       ],
       "schedule": {
         "intervals": [
-          "2022-07-22T13:36Z/"
+          "2022-07-22T13:52Z/"
         ]
       },
       "extension": {
         "message-header": {
-          "event-message-time-stamp": "2022-07-22T06:44:33.13775"
+          "event-message-time-stamp": "2022-07-22T06:56:27.33709"
         },
         "event-reference": {
           "event-identifier": "929222"
@@ -2205,11 +2048,11 @@
               }
             },
             "event-element-times": {
-              "update-time": "2022-07-22T06:37:06.60990",
+              "update-time": "2022-07-22T06:52:53.69270",
               "valid-period": {
                 "event-timeline-estimated-duration": "36.5"
               },
-              "start-time": "2022-07-22T06:36:05.00000",
+              "start-time": "2022-07-22T06:52:53.00000",
               "cleared-time": null,
               "utc-offset": "-0700"
             },
@@ -2223,13 +2066,161 @@
         "ivr-eventStatus": "2",
         "ivr-eventClass": "2",
         "ivr-eventDirection": "Westbound",
-        "ivr-lastUpdateDttm": "2022-07-22T06:37:06.60990",
+        "ivr-lastUpdateDttm": "2022-07-22T06:52:53.69270",
         "ivr-article": "at",
         "ivr-county": "San Mateo",
         "ivr-laneStatus": "affected",
         "ivr-totalLanes": "Lane",
         "ivr-genOtherText": "Expect delays",
         "SourceEventID": "220722GG00325",
+        "EventSourceName": "CHP",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Disabled tractor trailer on I-680 Southbound south of I-580 E (Pleasanton). Right shoulder affected. Expect delays.",
+      "event_type": "INCIDENT",
+      "event_subtypes": {
+        "event_subtype": "Disabled tractor trailer"
+      },
+      "severity": "Moderate",
+      "created": "2022-07-22T13:54Z",
+      "updated": "2022-07-22T13:54Z",
+      "areas": {
+        "area": {
+          "name": "Alameda",
+          "id": "5322745",
+          "link": {
+            "@rel": "self",
+            "@href": "http://geonames.org/5322745/"
+          }
+        }
+      },
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.921082,
+          37.696595
+        ]
+      },
+      "source_type": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "CHP"
+      },
+      "source_id": {
+        "@xmlns": "http://511.org/open511-extensions",
+        "#text": "220722GG00349"
+      },
+      "roads": [
+        {
+          "name": "I-680 S",
+          "from": "I-580 E",
+          "direction": "Southbound",
+          "state": "SOME_LANES_CLOSED",
+          "lane_type": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Right shoulder"
+          },
+          "lane_status": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "affected"
+          },
+          "road_advisory": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "Expect delays"
+          },
+          "article": {
+            "@xmlns": "http://511.org/open511-extensions",
+            "#text": "south of"
+          }
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2022-07-22T13:54Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2022-07-22T06:56:27.33709"
+        },
+        "event-reference": {
+          "event-identifier": "929223"
+        },
+        "event-status": "new",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "4",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "Disabled tractor trailer"
+                    }
+                  }
+                },
+                {
+                  "event-advice": "(unknown)"
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Disabled tractor trailer on I-680 Southbound south of I-580 E (Pleasanton). Right shoulder affected. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-680 S",
+                  "link-from-road": "I-580 E",
+                  "link-to-road": null,
+                  "link-from-city": "Pleasanton",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37.696595",
+                    "event-location-coordinates-longitude": "-121.921082"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2022-07-22T06:54:59.26800",
+              "valid-period": {
+                "event-timeline-estimated-duration": "28"
+              },
+              "start-time": "2022-07-22T06:54:59.00000",
+              "cleared-time": null,
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003"
+            }
+          }
+        },
+        "EventImpact": "Moderate",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "2",
+        "ivr-eventDirection": "Southbound",
+        "ivr-lastUpdateDttm": "2022-07-22T06:54:59.26800",
+        "ivr-article": "south of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "affected",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-genOtherText": "Expect delays",
+        "SourceEventID": "220722GG00349",
         "EventSourceName": "CHP",
         "ivr-completeFlag": "1"
       }
